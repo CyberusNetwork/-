@@ -1,0 +1,3 @@
+#static IP - SIS 3 - ISP 2: SFR 
+inet 192.168.1.2 255.255.255.0 NONE
+#!route add -mpath default 192.168.1.1

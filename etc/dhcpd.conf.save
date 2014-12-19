@@ -1,0 +1,14 @@
+#	$OpenBSD: dhcpd.conf,v 1.2 2008/10/03 11:41:21 sthen Exp $
+#
+# DHCP server options.
+# See dhcpd.conf(5) and dhcpd(8) for more information.
+#
+
+option  domain-name "cyberus.itinet.fr";
+option  domain-name-servers 192.168.0.1, 10.8.100.2, 208.67.222.222, 
+8.8.8.8;
+
+subnet 192.168.0.0 netmask 255.255.240.0 {
+	option routers 192.168.0.1;
+	range 192.168.1.1 192.168.10.0;
+}
