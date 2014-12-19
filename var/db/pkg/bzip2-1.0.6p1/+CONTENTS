@@ -1,0 +1,78 @@
+@comment $OpenBSD: PLIST,v 1.21 2013/04/04 16:03:55 brad Exp $
+@name bzip2-1.0.6p1
+@url http://ftp.fr.openbsd.org/pub/OpenBSD/5.6/packages/i386/bzip2-1.0.6p1.tgz
+@signer openbsd-56-pkg
+@digital-signature signify:2014-08-02T10:55:24Z:RWSPEf7Vpp2j0LMfCexyVmT2VOTccu+rKSv2Ldoewl8VAat80DiqII5aYoTbPtLhlg8frO/9ckTKIyPigUhmbVV1Irq/gF7CfwA=
+@comment pkgpath=archivers/bzip2 cdrom=yes ftp=yes
+@arch i386
++DESC
+@sha SX7cB/HonPuIQS7lEOGP6/ZFZIMvGm83CNo07JNBCp4=
+@size 433
+@wantlib c.77.0
+@cwd /usr/local
+bin/bunzip2
+@symlink bzip2
+bin/bzcat
+@symlink bzip2
+bin/bzcmp
+@symlink bzdiff
+bin/bzdiff
+@sha ypYiDX34IwMcAo27Mhg+ao6eBXN+2hC5fsnD4Bck1s8=
+@size 2128
+bin/bzegrep
+@symlink bzgrep
+bin/bzfgrep
+@symlink bzgrep
+bin/bzgrep
+@sha 5mKjXiMGYH5HAD8IMi4aZMIZEGBEG10BiZCv+NkPcY0=
+@size 1695
+@bin bin/bzip2
+@sha tACtdz/57v+k/cQsQNeamBB1r0sYGOb7HI85mpWaiNM=
+@size 33104
+@bin bin/bzip2recover
+@sha fcyc66rYkL3IB33oDN5d2awQ2mKTucmfkIypNAzJwAQ=
+@size 10640
+bin/bzless
+@symlink bzmore
+bin/bzmore
+@sha g2U21MdGl4jHMDVdWfiujRa6B8sHVBdIeNme2Q8ERI0=
+@size 1259
+include/bzlib.h
+@sha s2C/6OB2mtqo7mriYyTibEDMvbVXZ3pritUGIUmE0ug=
+@size 6245
+lib/libbz2.a
+@sha vREFhNcfhLNg2Df+23R0s7kT/pAPPHh+eDTEVtVnLYw=
+@size 74672
+@lib lib/libbz2.so.10.4
+@sha syq+z/PZ1WuoBR+R7lFYGMTr0fY6b/c8hb9SxYKiPGc=
+@size 73427
+@man man/man1/bunzip2.1
+@symlink bzip2.1
+@man man/man1/bzcat.1
+@symlink bzip2.1
+@man man/man1/bzcmp.1
+@symlink bzdiff.1
+@man man/man1/bzdiff.1
+@sha MtGnzRFUMDmOWFN1MlhO8qt2NDyfCU3NElPZxMD3Bb8=
+@size 897
+@man man/man1/bzegrep.1
+@symlink bzgrep.1
+@man man/man1/bzfgrep.1
+@symlink bzgrep.1
+@man man/man1/bzgrep.1
+@sha kkqkp8fBRnQAGB5MDuG1J9sUK2OZpxcXHyNRtytYmd8=
+@size 1297
+@man man/man1/bzip2.1
+@sha /7+giaBXYHTLx4lXFRWH4rtqjwDrrdVnY9uVTcfB6/k=
+@size 16256
+@man man/man1/bzip2recover.1
+@symlink bzip2.1
+@man man/man1/bzless.1
+@symlink bzmore.1
+@man man/man1/bzmore.1
+@sha zPzz+ZXhGtrjA14oclIJG7ctFl2iHgw4Wkll0XyQUcc=
+@size 4310
+share/doc/bzip2/
+share/doc/bzip2/manual.html
+@sha EJXjd5zcQX+ZuKUJjOPsPj6/kPSHHDsHuRwVH9YnNfA=
+@size 128005

@@ -1,0 +1,43 @@
+@comment $OpenBSD: PLIST,v 1.5 2004/09/15 18:17:44 espie Exp $
+@name p5-PlRPC-0.2018p1
+@url http://ftp.fr.openbsd.org/pub/OpenBSD/5.6/packages/i386/p5-PlRPC-0.2018p1.tgz
+@signer openbsd-56-pkg
+@digital-signature signify:2014-08-02T11:04:13Z:RWSPEf7Vpp2j0KdnhvCOoNXRikoqrqHZGO8Yl95Nry10T4dzfmf6DesHa7JPi+Hekj5lchHzl+Rb5mggG9BX4zImee7Oxlev5gI=
+@comment pkgpath=net/p5-PlRPC cdrom=yes ftp=yes
+@arch *
++DESC
+@sha 52vBuieFYWBrmWzBKHHESL08B8ZT/Hlk1KeO1O1Cii4=
+@size 396
+@depend net/p5-Net-Daemon:p5-Net-Daemon->=0.13:p5-Net-Daemon-0.48
+@cwd /usr/local
+libdata/perl5/site_perl/Bundle/
+libdata/perl5/site_perl/Bundle/PlRPC.pm
+@sha 4jWf+l//kyTfBD2uGx78LdJd38vy3EaGQWDDyphG5y4=
+@size 354
+libdata/perl5/site_perl/RPC/
+libdata/perl5/site_perl/RPC/PlClient/
+libdata/perl5/site_perl/RPC/PlClient.pm
+@sha eejsqTZoZ+ifIwSf0ECW5sd8cmrJ4V94gLcsVDs2SVo=
+@size 12848
+libdata/perl5/site_perl/RPC/PlClient/Comm.pm
+@sha BCPCY+tLHqevEoId7aF0Dbnw56yDroDzn94LRHNd/Zc=
+@size 614
+libdata/perl5/site_perl/RPC/PlServer/
+libdata/perl5/site_perl/RPC/PlServer.pm
+@sha D1jTDQTt3PN1WVUBmgd87vItjbW4qyQudpDrPw08chA=
+@size 19427
+libdata/perl5/site_perl/RPC/PlServer/Comm.pm
+@sha 6YFes0AAH4eVVgAYcn8VgqaI/lOIE4gy4527qT871E8=
+@size 5881
+libdata/perl5/site_perl/RPC/PlServer/Test.pm
+@sha SNbNR78WeXwGBXwstW6j5EQPYWtyy+kFa4hviAtz0KU=
+@size 260
+@man man/man3p/Bundle::PlRPC.3p
+@sha 4n3rN4EnYRXrYcgXpjXNBzpx0A5OHsNEagAVCuiE4SE=
+@size 4402
+@man man/man3p/RPC::PlClient.3p
+@sha N8u4v834aLUqEQ8kAITfPv1IiLr7ZwCKt1W7SPWft08=
+@size 13642
+@man man/man3p/RPC::PlServer.3p
+@sha PSTWQPsP3d5jlEvZL1MDf/jBQfmI9fuXPjn6iAfwpgA=
+@size 16794

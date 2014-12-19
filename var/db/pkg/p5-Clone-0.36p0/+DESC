@@ -1,0 +1,8 @@
+recursively copy Perl datatypes
+This module provides a clone() method which makes recursive copies 
+of nested hash, array, scalar and reference types, including tied 
+variables and objects.
+
+Maintainer: Andrew Fresh <afresh1@openbsd.org>
+
+WWW: http://search.cpan.org/dist/Clone/

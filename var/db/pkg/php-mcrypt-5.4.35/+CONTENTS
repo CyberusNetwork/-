@@ -1,0 +1,35 @@
+@comment $OpenBSD: PLIST-mcrypt,v 1.3 2013/08/08 19:11:57 robert Exp $
+@name php-mcrypt-5.4.35
+@url https://stable.mtier.org/updates/5.6/i386/php-mcrypt-5.4.35.tgz
+@signer mtier-56-pkg
+@digital-signature signify:2014-11-20T14:35:39Z:RWQQss3E1pCsGw9zVAVZxKZ5oS0bSditgUtqevgIm1vUx9trLr7tjw7P8VClcaNOUzGWp33B4fHs49Hau4IHe1ZPw2Dtv/WENAM=
+@option no-default-conflict
+@option manual-installation
+@comment pkgpath=lang/php/5.4,-mcrypt cdrom=yes ftp=yes
+@arch i386
++DESC
+@sha 3nAQcdrySPrYVBlt5C7XzXCZuO/E/4eS16QtmdhDwnk=
+@size 429
++DISPLAY
+@sha vFGs2y4iT339FNuvDfJ2wu3zldr8lwLHWMe9F/l7hTI=
+@size 195
++UNDISPLAY
+@sha 33fovSrgleP1dWDyoMsCEcVlpHrBAjZchaDpoCYw9MQ=
+@size 127
+@conflict php-mcrypt->=5.4,<5.5
+@conflict php5-mcrypt->=5.2
+@pkgpath lang/php/5.2,-mcrypt
+@depend devel/libtool,-ltdl:libltdl-*:libltdl-2.4.2p0
+@depend lang/php/5.4,-main:php-5.4.35:php-5.4.35
+@depend security/libmcrypt:libmcrypt-*:libmcrypt-2.5.8p1
+@wantlib ltdl.5.0
+@wantlib mcrypt.8.7
+@wantlib pthread.18.0
+@cwd /usr/local
+lib/php-5.4/modules/mcrypt.so
+@sha 8TxqVWaOT3rB2adqrGOfAbyZRBtz6qHVP9rVta0+kQ8=
+@size 46398
+share/examples/php-5.4/mcrypt.ini
+@sha EOi/sWeEBHvQGmbTL0uzZQ5McMrDj81sWuzcjjI8Mhc=
+@size 20
+@sample /etc/php-5.4.sample/mcrypt.ini

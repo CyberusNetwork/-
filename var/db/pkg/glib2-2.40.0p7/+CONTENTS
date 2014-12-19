@@ -1,0 +1,2842 @@
+@comment $OpenBSD: PLIST,v 1.35 2014/03/27 09:00:40 ajacoutot Exp $
+@name glib2-2.40.0p7
+@url http://ftp.fr.openbsd.org/pub/OpenBSD/5.6/packages/i386/glib2-2.40.0p7.tgz
+@signer openbsd-56-pkg
+@digital-signature signify:2014-08-02T10:58:08Z:RWSPEf7Vpp2j0JI1iSnmWqotg404cH29rqul//3SXa28imCVuhhKXz1gVLNuVYRGq3Ino2Wm9qF9wCwPr1cXgQ56K4B2CzE13Qw=
+@comment pkgpath=devel/glib2 cdrom=yes ftp=yes
+@arch i386
++DESC
+@sha ssBIpJ1K8a+VV2oT8VMsVJk6SeHOnXuMvPjmCx2uEdU=
+@size 283
+@conflict glib2-docs-*
+@conflict glib2-fam-*
+@pkgpath devel/glib2,-docs
+@pkgpath devel/glib2,-fam
+@pkgpath devel/glib2,-main
+@depend converters/libiconv:libiconv-*:libiconv-1.14p1
+@depend devel/gettext:gettext->=0.10.38:gettext-0.19.1p0
+@depend devel/libelf:libelf-*:libelf-0.8.13p1
+@depend devel/libffi:libffi-*:libffi-3.0.13
+@depend devel/pcre:pcre-*:pcre-8.35
+@depend lang/python/2.7,-main:python->=2.7,<2.8:python-2.7.8
+@wantlib c.77.0
+@wantlib elf.1.1
+@wantlib ffi.1.0
+@wantlib iconv.6.0
+@wantlib intl.6.0
+@wantlib pcre.3.0
+@wantlib pthread.18.0
+@wantlib z.5.0
+@cwd /usr/local
+@unexec-delete rm -f %D/share/glib-2.0/schemas/gschemas.compiled
+@unexec-delete rm -f %D/lib/gio/modules/giomodule.cache
+@bin bin/gapplication
+@sha VVMAkOBiRCGkO/xIS6E7erGQFoKrnUN9aRgemaxGyU8=
+@size 15888
+@bin bin/gdbus
+@sha 4+hoiGcX/xzUGrME3sWiFmMstcycr6d3sirYNxjNE94=
+@size 35504
+bin/gdbus-codegen
+@sha cR/sly5AXkz+Ssnb4yp6BjCrFHsjA4SS8Y+dDN6+uzo=
+@size 1293
+@bin bin/gio-querymodules
+@sha DSoOXvfi/furjiJvN1uD6+sD4zBefa3XcgcDQ0lNr3k=
+@size 10096
+@bin bin/glib-compile-resources
+@sha LRlBKhIhCFyXc3E3ixRTYdd/d3EW1Pl/eWO7viB1SF4=
+@size 33648
+@bin bin/glib-compile-schemas
+@sha QsoamhyR3p1WfbBJugvUW2FvkazMgnhcV1k2lBITxRI=
+@size 40176
+@bin bin/glib-genmarshal
+@sha HG4EnTJOkxEwyuR62hRgbzT0w+iVyeUq6z1K4t3mZWs=
+@size 31792
+bin/glib-gettextize
+@sha qXkQJxHW5dTNOC2Q0X/k0BnDtpb6qZ0lWA7a5M5HVLQ=
+@size 5386
+bin/glib-mkenums
+@sha 7zY2uFnSp4j8hIMaVgEzhzkf71aoSIEZeCnMsDmcGIQ=
+@size 17968
+@bin bin/gobject-query
+@sha gTkHxWBzZ6BaX+0kMBKtiDlU8BREvFA1UTeXzGS0VMc=
+@size 10256
+@bin bin/gresource
+@sha LCWKVeAwbMat0G6WZCA0/DRt7Fu0yczlhPA6Fne1qos=
+@size 15632
+@bin bin/gsettings
+@sha F2JJQ4FbUk25ZedCTWsMQsOaiUEyeBg0YVcem78XPt0=
+@size 21104
+@bin bin/gtester
+@sha BRIEVNAvnEvkLfF1/4vyFQZW+A/YpFOKjlJC0ImchF0=
+@size 20688
+bin/gtester-report
+@sha Rpn3FHMjYN60gfhCnWnP5cJLPsw8WmmSwRzkJ9MmwLw=
+@size 18674
+include/gio-unix-2.0/
+include/gio-unix-2.0/gio/
+include/gio-unix-2.0/gio/gdesktopappinfo.h
+@sha SYc+u8cofmOkJMz5bwkz7ankVxq7u9OqAy+RYML9U7Y=
+@size 7143
+include/gio-unix-2.0/gio/gfiledescriptorbased.h
+@sha obtGX1+fCPlCu7bMGkKDKbcevgLRDRomap04KauSpzM=
+@size 2045
+include/gio-unix-2.0/gio/gunixconnection.h
+@sha 1l1WV2YFjLwsTwpU6s035RFnB5YfKdbzp789bkcBuxQ=
+@size 5694
+include/gio-unix-2.0/gio/gunixcredentialsmessage.h
+@sha Yu2BPYKEH5rSVUpVh/DsMIkc9+sdF9XeMIeQJf7h64Y=
+@size 3122
+include/gio-unix-2.0/gio/gunixfdlist.h
+@sha DF3DMg0E7W9wQujyiA6RG/sMJG281K4nNLJy6DvX3nk=
+@size 4183
+include/gio-unix-2.0/gio/gunixfdmessage.h
+@sha LCimRn1sSLoQbrqgm7dvf99uvtE1OhJ0tjVTX6I/H0w=
+@size 3701
+include/gio-unix-2.0/gio/gunixinputstream.h
+@sha dS1qRuFNYy4lsajECAV3CcuOQCszFoW80yv/XGtJzGE=
+@size 2951
+include/gio-unix-2.0/gio/gunixmounts.h
+@sha 61YJoj8aweuM+rA7dy5zjHb9tSSnphEtLZi2B64RzyA=
+@size 5924
+include/gio-unix-2.0/gio/gunixoutputstream.h
+@sha C9zNkPVXwb+pKQUrxJ77NrmQC8G10sHOCAeqvoVS1uY=
+@size 2982
+include/gio-unix-2.0/gio/gunixsocketaddress.h
+@sha cLOaV5421/2lWLb+EErMQFo+XghekBSpnby9SGpU/Cw=
+@size 3355
+include/glib-2.0/
+include/glib-2.0/gio/
+include/glib-2.0/gio/gaction.h
+@sha IOfWh2O3P8CdNVgnKT+DzxHeypXD83kVG1/nFs0E+jA=
+@size 4607
+include/glib-2.0/gio/gactiongroup.h
+@sha 7z/sVv+k9Koitbr0u90pS2SiNGrB2Dn5ox2IyCjhFq0=
+@size 9164
+include/glib-2.0/gio/gactiongroupexporter.h
+@sha rSkrfDAe19IzJvP3W2VNAqs+lWyFhi/f8S+04CT2cKE=
+@size 1765
+include/glib-2.0/gio/gactionmap.h
+@sha Fju1RymnvSlitsorEdTXLOhnYqTPZWjOh1diGP+zZZg=
+@size 3993
+include/glib-2.0/gio/gappinfo.h
+@sha N4j2tROLMiA+TuDBQClARMRXHyFVNYyokKo9vEf/IGk=
+@size 16756
+include/glib-2.0/gio/gapplication.h
+@sha tVhC8u0NlMolf6PYiLo0WSC8DjkeVhH78on5paqIhgU=
+@size 11724
+include/glib-2.0/gio/gapplicationcommandline.h
+@sha TC/R/7VteqyvpnYWVJ4wrvKDO4TWbu0KFv7nox+rdwA=
+@size 6165
+include/glib-2.0/gio/gasyncinitable.h
+@sha TvJlJXeiI6U2+HmXOPTg3fgF/KTjtXp8KK6vaqm2YsE=
+@size 4285
+include/glib-2.0/gio/gasyncresult.h
+@sha 31DUKDbH0uNfOzjYcFCOLe0+FRwV6sDqFlaIglq6ops=
+@size 2815
+include/glib-2.0/gio/gbufferedinputstream.h
+@sha VTt03mxFPaZVesV4ocm3t51iLL6/OMDriHaOT7FqNi8=
+@size 5227
+include/glib-2.0/gio/gbufferedoutputstream.h
+@sha btaLR7R9+2kRGGiJl85R63QvEFXbR4OrsB60I+Dm2jw=
+@size 3332
+include/glib-2.0/gio/gbytesicon.h
+@sha qtE/JwRakN1/yuDE7+7S6VSGtlftg85LDseECSvYFIE=
+@size 1650
+include/glib-2.0/gio/gcancellable.h
+@sha swNBYcKfkENaPAxk/0W/6go77rT+XRsCIZ2mpg2L8tg=
+@size 4056
+include/glib-2.0/gio/gcharsetconverter.h
+@sha 4+84V5vqcRE67hu6iXzlTIkQIjucYt+QoeC+6VmZDDI=
+@size 2516
+include/glib-2.0/gio/gcontenttype.h
+@sha FaTAXU2FZqDb4WW1UNVUX8F4k1CdYNF/tX9s/cLY7aw=
+@size 2557
+include/glib-2.0/gio/gconverter.h
+@sha Hh412H9qJ+aOhUbI0e762mZhcO2M2Cz3MT4KKTDYKl8=
+@size 2883
+include/glib-2.0/gio/gconverterinputstream.h
+@sha epNGfUjM3Eic3SJ4/6Ngj+QhMMP+eIe9ipwpJ+sT3uw=
+@size 3013
+include/glib-2.0/gio/gconverteroutputstream.h
+@sha BMJgC7LY1ihowDCvpjJ0DF2ZDAgGloAvyfWzZaqz6B0=
+@size 3052
+include/glib-2.0/gio/gcredentials.h
+@sha xokkECAVn6rXdzyDN6VeOtcbh0rC7MgBlfHKRGsQd2g=
+@size 3406
+include/glib-2.0/gio/gdatainputstream.h
+@sha HQkzphPUuX5OV8i0nVOklOlLCbrKyta8N9OTZDf3/SI=
+@size 11011
+include/glib-2.0/gio/gdataoutputstream.h
+@sha lYG6avQd0o1FG5lhhoEN+pM5VO3rPcXkaNFaqy4Ey8Y=
+@size 4921
+include/glib-2.0/gio/gdbusactiongroup.h
+@sha b+mZBVkUPc3/hRp0sLNoRkHUt3+bIHFdJ/4jeha6Nfs=
+@size 2736
+include/glib-2.0/gio/gdbusaddress.h
+@sha u3j4fe/yezNfM7VejC/a71b/qIip238dHrpgMndpaNs=
+@size 2668
+include/glib-2.0/gio/gdbusauthobserver.h
+@sha HAIvntzArelSh98Phbbljnp4nFA+OhBS2kISIJ3FvD0=
+@size 2128
+include/glib-2.0/gio/gdbusconnection.h
+@sha ocQzFM81HmoQCRomd0AXikSxBDyvjUXq7wxpexaVPnY=
+@size 37453
+include/glib-2.0/gio/gdbuserror.h
+@sha lbvVsiHdh0bX+f3zT0ttv4t4dZphKqjsWJ969lTb2bg=
+@size 4311
+include/glib-2.0/gio/gdbusinterface.h
+@sha tVzk5BB+SCdVSDIiin0FckSTTwSvLVlZazgau1h8Utc=
+@size 3067
+include/glib-2.0/gio/gdbusinterfaceskeleton.h
+@sha jLd6T0EIo8wx3X5l4BIDzEYoS45Q/HtKDwc+VW4kPJ4=
+@size 6053
+include/glib-2.0/gio/gdbusintrospection.h
+@sha fFSbJdkw/0qtbgrFHICjSWuPCT6gDlhddNY6Ha3GlfM=
+@size 12391
+include/glib-2.0/gio/gdbusmenumodel.h
+@sha Q7fPuetSh5KB4k2Oe5/6WBrW7m7Bxjcgm1O0QvMmXgo=
+@size 1728
+include/glib-2.0/gio/gdbusmessage.h
+@sha Rdc9Hz6VpN9q7hAiUsT9vGUbyFXfH0UtZBC3DZWKD8I=
+@size 11361
+include/glib-2.0/gio/gdbusmethodinvocation.h
+@sha TTrMjzYyJkP2qfxu13u1Eo0KM7fxlnG4mWKENdUdBA0=
+@size 5799
+include/glib-2.0/gio/gdbusnameowning.h
+@sha zaBjQQFahvWdrNneuwpwhuViKekWnn2YNDyk5t9l57E=
+@size 4875
+include/glib-2.0/gio/gdbusnamewatching.h
+@sha Je9o6PeQLJosQPZgpwUD8+srphMXo7V6fBPfWq0m0Ro=
+@size 4516
+include/glib-2.0/gio/gdbusobject.h
+@sha NtSQCWr19fdnJ/CEmmN86TDl6HI2djE+Acsuw0SpIkg=
+@size 2939
+include/glib-2.0/gio/gdbusobjectmanager.h
+@sha tlDn+yaOkUgsk8vJKXeR6YCCu3JMH8V3U9ZZwzMB+EQ=
+@size 4472
+include/glib-2.0/gio/gdbusobjectmanagerclient.h
+@sha IsrU7LNmNCQ14sEnXwhC/5TXlOZhUCqCs7nbS+k5Ef0=
+@size 9798
+include/glib-2.0/gio/gdbusobjectmanagerserver.h
+@sha g07tyGmRUpi+JCgRs7Ha8QWUgjVPiWv4G95fLODoUr8=
+@size 4118
+include/glib-2.0/gio/gdbusobjectproxy.h
+@sha dgcAjRT4dBADnJ/fPJguYPaCWGmAD2pTEUu2TsHuIIA=
+@size 2633
+include/glib-2.0/gio/gdbusobjectskeleton.h
+@sha xTj6XqchiTVT2ovIrSiyX2Bn1MCgiyn83ZcAs534MHM=
+@size 3955
+include/glib-2.0/gio/gdbusproxy.h
+@sha aV5Oxl2NmxWcFB1wEFk+9AMCHIelmxG0uUvYkJ+yVC8=
+@size 12080
+include/glib-2.0/gio/gdbusserver.h
+@sha IljJHaq7+wLN8sT52dhQu4Ds9FBuhWW0aVjQhEKZcsQ=
+@size 2532
+include/glib-2.0/gio/gdbusutils.h
+@sha mwKLK/oeKb/1XETOUkH/32SQUawXPEBpbAS22fnqmdY=
+@size 1777
+include/glib-2.0/gio/gdrive.h
+@sha 2sDrAjYqIe2oNNI426zAq/TRxPBJwRmsmii6HoFlI34=
+@size 14015
+include/glib-2.0/gio/gemblem.h
+@sha 1u+1TlnJwoWN3vfHQNSjZvP8OfvQl8Jz6/1P+5GO6qU=
+@size 2153
+include/glib-2.0/gio/gemblemedicon.h
+@sha 4cnMsYlMUpHmWFGvuuJwV8eRqGZiVE5DaZCBJ8+JctA=
+@size 2786
+include/glib-2.0/gio/gfile.h
+@sha v/ceMDBWcGwojQoILykWnI1jDO8lvaRELTwv4GecynE=
+@size 77303
+include/glib-2.0/gio/gfileattribute.h
+@sha ABq1OFpA1KqMF5Etn/gmVLSxLHxDVifhM7YrfqVb364=
+@size 2815
+include/glib-2.0/gio/gfileenumerator.h
+@sha TN9SSvf0mDxFnY7AvBlAiHl+8Wdo0d86eV7IEbyKVbM=
+@size 5985
+include/glib-2.0/gio/gfileicon.h
+@sha BfVq2a+4IhalIwNIKRlhp6eZEUUB46k26PZXN09mDE4=
+@size 1957
+include/glib-2.0/gio/gfileinfo.h
+@sha ELUU1Oa/g/3kWT9hmYgqgD+2qaa3YI4PBYy1uCj3SA8=
+@size 41124
+include/glib-2.0/gio/gfileinputstream.h
+@sha NddGAKRA8ewOyWrIhhOdcumHAov9L8AGygKLTeevgms=
+@size 4654
+include/glib-2.0/gio/gfileiostream.h
+@sha I+suHdb3K/bZ3Bvaa0Fna04FSN30pA3XrnAzqVMOd98=
+@size 5039
+include/glib-2.0/gio/gfilemonitor.h
+@sha joyRiGOfOIJeJ5NCQj0U6ZLDsLrrsAxA+XKmJ16Rq0M=
+@size 3278
+include/glib-2.0/gio/gfilenamecompleter.h
+@sha 7Y7YtKqB7Z3bfTRjD6uUHiSMoyUXGWM3/9KgCs/Iejw=
+@size 3088
+include/glib-2.0/gio/gfileoutputstream.h
+@sha FG4lZywmo6LaHblMzTi4JIRtWiUDuSv+78qbHQtCPpY=
+@size 5336
+include/glib-2.0/gio/gfilterinputstream.h
+@sha 9QNHg+pLXMgLfBuXZ9H7Yq2nzicRr4Vhx7863oJ1idA=
+@size 2830
+include/glib-2.0/gio/gfilteroutputstream.h
+@sha 77cuh3NdECgFdBTpYgSqGc8evkEWnOty4+cPtQ+jTms=
+@size 2873
+include/glib-2.0/gio/gicon.h
+@sha xzfUS0OdykPwhJjLV2CAqEaiJOMA+te5Ymqu7t6onHw=
+@size 3376
+include/glib-2.0/gio/ginetaddress.h
+@sha MKfh7N8HzohEhzUr7J5M0gJxfoDYhqrJAyI5JBE2e8I=
+@size 4527
+include/glib-2.0/gio/ginetaddressmask.h
+@sha qW/ejPdptixXi5O1KtmCB0PDWWhGmEabaGNsRPJ5tko=
+@size 3117
+include/glib-2.0/gio/ginetsocketaddress.h
+@sha iu+Gns2HTtco/0/RG5VD8kiyKWaAtHTa9FKQQoq1IAU=
+@size 3109
+include/glib-2.0/gio/ginitable.h
+@sha wPc/FbW6b0Ts0clyh/TuLAmJT7HleXKDdRVp138uokc=
+@size 2850
+include/glib-2.0/gio/ginputstream.h
+@sha bHxwyJf8ycREewFxtgAhhFTUtrL2HtRYxUGESEoiTdY=
+@size 8305
+include/glib-2.0/gio/gio.h
+@sha ScfRrfmiMyXMt5/MEqo+D+PrimICn5ibwClxesWJiiQ=
+@size 5307
+include/glib-2.0/gio/gioenums.h
+@sha B57MxQY1szwHVbb6u5BjTK+y9WDDW5iaAa0KaMTuQYU=
+@size 66100
+include/glib-2.0/gio/gioenumtypes.h
+@sha 6jTqBL12GC2xAJWxxLy4NDED+mHqedX9r8kV4EojRqE=
+@size 11293
+include/glib-2.0/gio/gioerror.h
+@sha 6iDG59OPk7/rktd+xS7ZAjkw72leIFFxiZsvf+cRKgE=
+@size 1556
+include/glib-2.0/gio/giomodule.h
+@sha v3qnwWx9Q0ocPO5+QnE6YhDY2SuOQdVUJE1KtDaTB7w=
+@size 6595
+include/glib-2.0/gio/gioscheduler.h
+@sha 54EXxOUJWxjGxupTA8TIksiqNFk5yTVQlDqgG/1buNI=
+@size 1997
+include/glib-2.0/gio/giostream.h
+@sha 83vnJB8HHopiYwatOgrJSkWG9GFu1TCytYJk1xisigw=
+@size 4859
+include/glib-2.0/gio/giotypes.h
+@sha hnmlIpwbzVRmKplEjvL4P/31IHkyMVfm7ZfMNRCE3FM=
+@size 19989
+include/glib-2.0/gio/gloadableicon.h
+@sha 3izlX3Bl3wLqjhstXH4nnTNnw7u46Ihy4FjbLcWlpNQ=
+@size 3669
+include/glib-2.0/gio/gmemoryinputstream.h
+@sha 8H9lUzZzILooH3qxEoiq76oIXW3t1PMhxjiDLsKoF4c=
+@size 3432
+include/glib-2.0/gio/gmemoryoutputstream.h
+@sha CeYu50N1/dk2gsI0CukXWpiLhvyzOTRjGgtjShLyJmA=
+@size 3931
+include/glib-2.0/gio/gmenu.h
+@sha yiVaDfHq3A8VvJhqt68RhV75cXVLRoU9ZoqLM4NszDE=
+@size 8938
+include/glib-2.0/gio/gmenuexporter.h
+@sha UM78T0+1oYVG1WteTACE1qGu5iqDaeW1qzHGAjOPvpk=
+@size 1609
+include/glib-2.0/gio/gmenumodel.h
+@sha ssqwROYDVBuYEJToXQnK/kbLD2W/hhEa8ssxx38PjEo=
+@size 14333
+include/glib-2.0/gio/gmount.h
+@sha XC+yZOZmOP2gu3Gr+iFZzx8vBtnQHm/9Omz3HXl+LKc=
+@size 15789
+include/glib-2.0/gio/gmountoperation.h
+@sha 231Si8IyVMoSPq9x+lyMohIsGRaFZt4+pFrU1yftrUk=
+@size 5133
+include/glib-2.0/gio/gnativevolumemonitor.h
+@sha 3oIwZ4ni8ous0ZYaEkOSDsU2AFKhJ+UY/N++THT0o/c=
+@size 2268
+include/glib-2.0/gio/gnetworkaddress.h
+@sha a3xwt2/H1q9WVgVG/Pv6jCMwfh4qlf9j5Ji9bYAGC5Q=
+@size 2854
+include/glib-2.0/gio/gnetworking.h
+@sha Xr8ZDSMvQ9c5i2OWjrWjdKEspxsXxTHHKDLNjw+baZA=
+@size 1992
+include/glib-2.0/gio/gnetworkmonitor.h
+@sha DoW9/AalJ9ZhxdFzED+rpzYQpoIks4R0eoQVhrW2AOA=
+@size 3489
+include/glib-2.0/gio/gnetworkservice.h
+@sha mOXDYiiS3hYs3Zta587DXUJy4U5BwtvroF0fYZOWOFk=
+@size 2754
+include/glib-2.0/gio/gnotification.h
+@sha pE2m9p+H1o6NAOvieLnFb9OYXK30E01OxP85Z4fIvxo=
+@size 4595
+include/glib-2.0/gio/goutputstream.h
+@sha RFv9tvkAV6DJgMHrdXit+onDx5RPP5q/1dsoegz/f2g=
+@size 11645
+include/glib-2.0/gio/gpermission.h
+@sha 0OOBkaZzs8gm7pWyZS/IGj1kfbRghDKwKamCPIRbFco=
+@size 5860
+include/glib-2.0/gio/gpollableinputstream.h
+@sha ACWfvjJSZ7crrQznOX6ePKw1nimNllvGtLTeTrjcfzA=
+@size 3827
+include/glib-2.0/gio/gpollableoutputstream.h
+@sha wuK+SnRNkBXpx5lRxfZG4HhassHCFLhmRXrUy5oZgto=
+@size 3899
+include/glib-2.0/gio/gpollableutils.h
+@sha Zk8AHdqkNWwY1RuL1ywBUY2AQBLK72mL9yASaG/E4Gw=
+@size 2132
+include/glib-2.0/gio/gpropertyaction.h
+@sha fr376fwLbGtAVuO0Ndn2kfUfROOzlITnU5sHbIjf4HM=
+@size 1991
+include/glib-2.0/gio/gproxy.h
+@sha RWkl6RsEZZRIGI/KZPvucUR5e+TonQnSQT3iOpScg9Y=
+@size 4085
+include/glib-2.0/gio/gproxyaddress.h
+@sha bzFY/ZiqCd59lQFML5OkN6jiPY6WU3KkxjHDVxwAL8o=
+@size 3164
+include/glib-2.0/gio/gproxyaddressenumerator.h
+@sha qqaAQs3NU2RqiMJQz2GnzZf9cBH7oQ2cC74rh0LgYpk=
+@size 2808
+include/glib-2.0/gio/gproxyresolver.h
+@sha hgdUq7NrggiAWLWKgkXO+XISMQDjAPY3E2OQnNxUp1s=
+@size 3411
+include/glib-2.0/gio/gremoteactiongroup.h
+@sha D5JkD2z8XFqtQckDF5pX+1mdMGKq1ROcr0EetzrG3JE=
+@size 3632
+include/glib-2.0/gio/gresolver.h
+@sha q+lC3lQ6UQnEvJ/Lw0J1FTyc12ZabwG3e0sq6v9itrw=
+@size 8818
+include/glib-2.0/gio/gresource.h
+@sha b/Qso3J/K6Q2GghWpfl01lUhwOc8wprtJcddch+O0pY=
+@size 4631
+include/glib-2.0/gio/gseekable.h
+@sha 3K8uvfZJ3Bq8bZBAm2Ee0it1TbiKMgusJaM6lYHDSEc=
+@size 3278
+include/glib-2.0/gio/gsettings.h
+@sha NYwpcz3MRDlv8GpA0PGZ0/q+r6gRD38PefxpqmaWxfg=
+@size 20011
+include/glib-2.0/gio/gsettingsbackend.h
+@sha KFxs9VNllxoEg7OBR15f0aCRs1FX8SRbIxvHF7BpX+4=
+@size 7874
+include/glib-2.0/gio/gsettingsschema.h
+@sha jC60LCYW8qmKDoasR/LrUfadurdNZdz1MAe2bJjwS6o=
+@size 5545
+include/glib-2.0/gio/gsimpleaction.h
+@sha exipkwBq8+rSPw09++ZSeOD+9sKRMkNEgxBofcLrUt0=
+@size 2681
+include/glib-2.0/gio/gsimpleactiongroup.h
+@sha 9F+o3MDZTRMkZe6y+1+BmEPLH5E75lpy1xKA3gVf/l0=
+@size 4352
+include/glib-2.0/gio/gsimpleasyncresult.h
+@sha x7fvLc9btOjfGsB/Q6h7JgDiJWVu9EubfN6sYLB9yzc=
+@size 7542
+include/glib-2.0/gio/gsimplepermission.h
+@sha AeRQoJQtIqrEST6xq70VQ+qMqZPIUCRJtFUMt2dKB10=
+@size 1684
+include/glib-2.0/gio/gsimpleproxyresolver.h
+@sha 6CdYwZjQDTJHkKJt5Hu7mkLYHRT1T96Hj8aFnjMEfB4=
+@size 3529
+include/glib-2.0/gio/gsocket.h
+@sha XGWDOgrNtTgJMO2ENzjEFJFGRu7idxi5J/8Qa5aZUxA=
+@size 13706
+include/glib-2.0/gio/gsocketaddress.h
+@sha LtknDbXdOH11+2pMhoChG/diPK6F72vM1h3wo6OL68k=
+@size 3084
+include/glib-2.0/gio/gsocketaddressenumerator.h
+@sha D7pQSLkLnIyyOlM4zXwoRy6EzZ9fk8Z432JPwloTG+k=
+@size 3527
+include/glib-2.0/gio/gsocketclient.h
+@sha tntoAPKu7c/10KYk45FWwcTk53YWglL/isWngsA1bao=
+@size 11208
+include/glib-2.0/gio/gsocketconnectable.h
+@sha Ynjd55vQUoivl5y89l6agpoISXX9Bh8UrCtnaPiuf2M=
+@size 2564
+include/glib-2.0/gio/gsocketconnection.h
+@sha GxsjEBDxVBDkY6yMQnzd4cDM+pC9OZCPBKCqLYO1nes=
+@size 5053
+include/glib-2.0/gio/gsocketcontrolmessage.h
+@sha 82nXKoYMs5FYVvnxW8v3NfEPGnTkuwkuwu4VDHN29d4=
+@size 4833
+include/glib-2.0/gio/gsocketlistener.h
+@sha TsPPxTaDPokN7/D2kao2SIEmILoyeXe23EYO/nwiszA=
+@size 7517
+include/glib-2.0/gio/gsocketservice.h
+@sha liklFm0Ifyock5fQKCdYyC5kl3tHFZHoginzCdVHURg=
+@size 3574
+include/glib-2.0/gio/gsrvtarget.h
+@sha pqB+otQ8xFd2V+52SiJEWh4RLCGDLufp33SSSAEc+gE=
+@size 1934
+include/glib-2.0/gio/gsubprocess.h
+@sha DYlEZU9kXGWWg5mPZuSx3xJ96nEfkXJbJelDXxm/xdg=
+@size 8604
+include/glib-2.0/gio/gsubprocesslauncher.h
+@sha jcEjKm7/PPaQscHi0vvs2pBbZ4g3NY3kGSr7at8ttg8=
+@size 6374
+include/glib-2.0/gio/gtask.h
+@sha RY83ThQzZ5Po+aBCcbG77sV+euUl5xycvhn2P/RaKCo=
+@size 7513
+include/glib-2.0/gio/gtcpconnection.h
+@sha OmmCVYc9OCtYKD5aZtOE6nY8Vab3IAQ7+SijMAw+qpw=
+@size 2954
+include/glib-2.0/gio/gtcpwrapperconnection.h
+@sha mKoTVGL7/QcBkhBMm6FFRgAMqg3Xln27sYks4FivbIU=
+@size 2970
+include/glib-2.0/gio/gtestdbus.h
+@sha HIF5k7ETDJaVUMrPVXTzHN34TZ9F43geNmZiOyE6dgQ=
+@size 2301
+include/glib-2.0/gio/gthemedicon.h
+@sha x2Q1e4+8hg8sXDVp90EVDSeknmIbv4uWErTXqFEnrzY=
+@size 2641
+include/glib-2.0/gio/gthreadedsocketservice.h
+@sha NdvMrf2RxgUrVRJfJ1NJHVlg1D1io78F0qFbHi4fekk=
+@size 3662
+include/glib-2.0/gio/gtlsbackend.h
+@sha 4TKP5z2xGlworoKUTC3mzg8TN04q1LrdrN7XQdcxJXg=
+@size 3624
+include/glib-2.0/gio/gtlscertificate.h
+@sha EGf6o41wHzFfkeVexPhzST26hocy2y4bQoVkEYruHKg=
+@size 3503
+include/glib-2.0/gio/gtlsclientconnection.h
+@sha qId1f2MidBN2wTre4+2qknWpPEc/4PhGDUuIiemJo1Y=
+@size 3061
+include/glib-2.0/gio/gtlsconnection.h
+@sha YMafhNag4e9rUJbCvXXKdIX7hr/gIZr69vJrNHkEzog=
+@size 6162
+include/glib-2.0/gio/gtlsdatabase.h
+@sha AKsFxYVwESzmQPyNbEIpGhT/Ap8BR9glQzjtL+AhvMA=
+@size 17269
+include/glib-2.0/gio/gtlsfiledatabase.h
+@sha HEuEdKV/+uALmxpoW1Pi68/u+ztFR1oPnQKLpQkIbz0=
+@size 1906
+include/glib-2.0/gio/gtlsinteraction.h
+@sha ukFITVvVzKeesVVgIKQcftLL6PzW4vYQWXvjB49rz5o=
+@size 8331
+include/glib-2.0/gio/gtlspassword.h
+@sha OXK1AfMOre8DkSr1zMrkUobVIPhCla/S6lqTv3u5pYk=
+@size 4486
+include/glib-2.0/gio/gtlsserverconnection.h
+@sha Ja+tEaie16m96Z2ZUenfZ9yovFElPzLGil6+pdOE9ts=
+@size 2194
+include/glib-2.0/gio/gvfs.h
+@sha CuqeIoHNfsCz56ubGtYSLdknCil/tR/zJWsBF/mpH08=
+@size 4903
+include/glib-2.0/gio/gvolume.h
+@sha 7B1VnfsPAaH9wGlQbp0kqhKlu8BpHAY8BtzGCnPIkVM=
+@size 11680
+include/glib-2.0/gio/gvolumemonitor.h
+@sha sOFR+ETj5adglY5Yrftv3sLr+lQTxBwbj6w3zZsNCdQ=
+@size 6016
+include/glib-2.0/gio/gzlibcompressor.h
+@sha SrgcUx5XzTdl5jvp8R4Y++qC+T6beV5hn//3MDrZkjE=
+@size 2348
+include/glib-2.0/gio/gzlibdecompressor.h
+@sha jp4EDErf9NV62bgyQVYHbbtUyab48GsiInhkZe6kexE=
+@size 2210
+include/glib-2.0/glib/
+include/glib-2.0/glib-object.h
+@sha 0cI0gfBxtv7FdHrcRIhZtH80M217fHq0nZvOfiaBJvQ=
+@size 1433
+include/glib-2.0/glib-unix.h
+@sha V1GmLOMbCAociOdLrjkcKhszRVt6VAtqlAM36RD0ays=
+@size 4311
+include/glib-2.0/glib.h
+@sha A4WOwY+TpL7MaRlIo3iA3tl9KmtaiApAOsx6mw/QKK4=
+@size 3298
+include/glib-2.0/glib/deprecated/
+include/glib-2.0/glib/deprecated/gallocator.h
+@sha 5p5d4E+aimRMP4WdFG8p+mGVn85zVToELG7PsCVYRFc=
+@size 3254
+include/glib-2.0/glib/deprecated/gcache.h
+@sha Q0ImenLjp0dgE9tYVLwo/2ADKofAkG5zhZ6/eiJy0lA=
+@size 2825
+include/glib-2.0/glib/deprecated/gcompletion.h
+@sha Ip24sJFi6vofXJNz3aToNblIWqcoGhdryNhS12OXJV0=
+@size 2920
+include/glib-2.0/glib/deprecated/gmain.h
+@sha 9AiCoVyGUyHa2ZW0zv2ymqF4oVeERKdKvAZ1ITv5PWI=
+@size 3981
+include/glib-2.0/glib/deprecated/grel.h
+@sha h5eDTQbK/39b/pVwHlYBn1yoXdo7QKM5FgA/hkEToT8=
+@size 3680
+include/glib-2.0/glib/deprecated/gthread.h
+@sha XvQX/WQjy7QZArSX88T0uSw7d2Jw+v4PSeMPZXxr1Ps=
+@size 10103
+include/glib-2.0/glib/galloca.h
+@sha 0yI4rVzRldAbohKP6NPCkXzx2R8Yq5d2vQYoOLBtVQk=
+@size 4428
+include/glib-2.0/glib/garray.h
+@sha wbcUINMKMJedE5Gqivk8KI7m7VZaIhtlNv4cS4LFoCE=
+@size 8988
+include/glib-2.0/glib/gasyncqueue.h
+@sha tzmq9s4hRLp5qjia6uFT7B1hA2hNUQ8tzy2cqkg32r0=
+@size 4975
+include/glib-2.0/glib/gatomic.h
+@sha MlT1fvULUUG5Mdwqks4AUrfJbYzUZvZC5xbvFCOBkk4=
+@size 12472
+include/glib-2.0/glib/gbacktrace.h
+@sha f5wCeZ4BWhyHQBB6rgET11ErTxdPiqtiNXwCRtWOCZc=
+@size 2417
+include/glib-2.0/glib/gbase64.h
+@sha CjI36KNcTLj28QRMZhnFraIXBmb5wUiGgRIQ3t569OE=
+@size 2324
+include/glib-2.0/glib/gbitlock.h
+@sha pZE8YG1kLEjV8OyP7T1NEnH8N3/BMF68DoTb8rgbAKE=
+@size 2900
+include/glib-2.0/glib/gbookmarkfile.h
+@sha KiaMyTSmyWWT6WC3fdh7PEJR8wB1Q0TNqjbKTdQtVQ0=
+@size 9700
+include/glib-2.0/glib/gbytes.h
+@sha MNlCTOEZ3W0hPyxLx64Bjnqi/bgWoOBBvy4ODXIAZyk=
+@size 3332
+include/glib-2.0/glib/gcharset.h
+@sha Xm6NB3smGjVw1P6Xy2OyiBRcaWMiCYEPGauWppaZXcw=
+@size 1374
+include/glib-2.0/glib/gchecksum.h
+@sha PhdegcUy1PNGKC1yQulRBiPiUAN4F5EiU3yOGuGIAHw=
+@size 3759
+include/glib-2.0/glib/gconvert.h
+@sha 3pf8IqJqNvnzMmG1Ri3dHUl092sOZMSXutg/bCmGkDY=
+@size 6971
+include/glib-2.0/glib/gdataset.h
+@sha PPbA7gPb7M0/HdthwiF049eRFa0eJ6H/TL9tHyRI+o8=
+@size 6243
+include/glib-2.0/glib/gdate.h
+@sha M4FQQiJerF76X66ccah10aKbT4dTmlqeVjnxI41w3zE=
+@size 11656
+include/glib-2.0/glib/gdatetime.h
+@sha 6KzQ+I156gmmNhrkHOHds5mQftSy+QPPMtDSjpnan44=
+@size 12121
+include/glib-2.0/glib/gdir.h
+@sha D/plUXwSArKjAhxgkbjNWe3/KLp7HVycxQMXZeSzUAc=
+@size 2035
+include/glib-2.0/glib/genviron.h
+@sha vanswTb7fNXi8T6zbzQay1P9qpI04EiWlfQCmg+f7sw=
+@size 2827
+include/glib-2.0/glib/gerror.h
+@sha 7Umc5y2tdylQjuN3UmFhi4vYFgFclhuceHlKuPqRWL8=
+@size 4009
+include/glib-2.0/glib/gfileutils.h
+@sha gYIgk5KdhoI3RZzYLwijqqSUYutU+B+XbhCMyjj0/+w=
+@size 6742
+include/glib-2.0/glib/ggettext.h
+@sha MO2q8InSAec7sdJ77i3z+pdmp7oBlk8fQdQwJSRlvBY=
+@size 2422
+include/glib-2.0/glib/ghash.h
+@sha az+5L3zyBvcuQQvhJe1Kom4wlHAExln9hsBLNz4U/bI=
+@size 7546
+include/glib-2.0/glib/ghmac.h
+@sha gUiV/Cnayr+V+2InnUjn1AOEDW9I1cw1S/K2fbagmug=
+@size 3217
+include/glib-2.0/glib/ghook.h
+@sha Fs+iKFAI2fNdbKl5lNss3d9guET0T2ZaJN9GZF6VbN0=
+@size 6356
+include/glib-2.0/glib/ghostutils.h
+@sha 3DS1H9K5R1PMLEI1ixePDMVmcSNIPg4E1npLxZD7NEk=
+@size 1454
+include/glib-2.0/glib/gi18n-lib.h
+@sha m2VZi5UrbW6ypnD+E3ilrTWIXenS+FViGd94abnikdU=
+@size 1368
+include/glib-2.0/glib/gi18n.h
+@sha vwRz/dQ2kRTAzJGjX2o26AVOajBD2JQ67d/rCDW23ls=
+@size 1165
+include/glib-2.0/glib/giochannel.h
+@sha Av5VbWcBlNr6Y7m9JnluPHAs9xacXxRE2ZMiT9VcK54=
+@size 14246
+include/glib-2.0/glib/gkeyfile.h
+@sha y/6evf6qRbNpNRGzN6d1KpErAHA50Nj1a8FZG8wFIOU=
+@size 14284
+include/glib-2.0/glib/glist.h
+@sha Faf4Kp/ZkN4WqpjyVqJ3qnUAW3c0ee5uLKvj/WY0LZw=
+@size 5820
+include/glib-2.0/glib/gmacros.h
+@sha zYS7FFpcGAds3/zV9aONgjkFMhUCu18Arl3pF+IzIOQ=
+@size 12399
+include/glib-2.0/glib/gmain.h
+@sha q5b6TRDueaDdWSqws4qL8gWBzzEKHVIrJMMeXcQT+Bk=
+@size 22315
+include/glib-2.0/glib/gmappedfile.h
+@sha cR+XDC0VutPDSe5NsxZOltKtbWJRP7eyUwcvPdYPVEY=
+@size 2012
+include/glib-2.0/glib/gmarkup.h
+@sha 7U0FmmZnHWq9on7+gswqHVPCE4F7K73/Olvx0xcnjbo=
+@size 10786
+include/glib-2.0/glib/gmem.h
+@sha c7w19vX6NnNTmrfctNBeh/iXBW39NVr+HFfPum27HUM=
+@size 11709
+include/glib-2.0/glib/gmessages.h
+@sha LX8l5Oihq7kmexiRe9FfCobFbg9R6WAC+6OhFT4jnhs=
+@size 14322
+include/glib-2.0/glib/gnode.h
+@sha Dbhc5pKiwYPyE/rk5PLx/zV4eAgO8IIYsX3wQeelxBM=
+@size 9091
+include/glib-2.0/glib/goption.h
+@sha 1+3QImCExcEQQTpD0P8XXftGajep5SgtcDXNbSfb3wI=
+@size 15461
+include/glib-2.0/glib/gpattern.h
+@sha WlxRT3SZYSthVXcmgKWCb0EGo1z+ZwfovDHKub9C71o=
+@size 1780
+include/glib-2.0/glib/gpoll.h
+@sha qaFf9vTG7lQxHDJj1ar6mp5Fvyl1Br6jSAXbpvIP1bM=
+@size 4052
+include/glib-2.0/glib/gprimes.h
+@sha aWSTd/oGdGoHtJ6FYoR71CFxjaN6c+5nCKSGe7B+RWk=
+@size 1692
+include/glib-2.0/glib/gprintf.h
+@sha Wm+9NdSCw6slhbyOI/vcW0+MnAPx7I1nmB8sIB5HVD0=
+@size 1982
+include/glib-2.0/glib/gqsort.h
+@sha 8eHkCvfCEQjz96JUgsxS2Ct+akbDTWBUhjT3m6262Rk=
+@size 1497
+include/glib-2.0/glib/gquark.h
+@sha RMh6RHrHp6gSi1elbSc/fRwdnwQcBcn5rtL7vnAIcPU=
+@size 2686
+include/glib-2.0/glib/gqueue.h
+@sha uK/r7dHXfQ2t1OuuFWMM6SXJcZJC3ixS5GTuGYAWUvU=
+@size 7154
+include/glib-2.0/glib/grand.h
+@sha fCrAjKMLegb04IK3AORus7/ca+5IsulsGuz467Vye9E=
+@size 3180
+include/glib-2.0/glib/gregex.h
+@sha Z375bE7PbXi0FL9+BQQq6yHWfT9f7MBNB0fwdxSeGxM=
+@size 28056
+include/glib-2.0/glib/gscanner.h
+@sha OFY+yyBTHLpKMfffH0dAL++d5XkMFpgBrPMRtLICc1Y=
+@size 8671
+include/glib-2.0/glib/gsequence.h
+@sha Y/qexqMcfMY1Z5O7PnuhkF3jSGvniIE2n/Zwc9oZ97E=
+@size 8708
+include/glib-2.0/glib/gshell.h
+@sha Wjd+N+D19plkPVB4A1sr5cC/yvYtowQWj2BYZE2D5as=
+@size 1825
+include/glib-2.0/glib/gslice.h
+@sha h9/H05rSu6iXPREzSj9i2IKQl9hv41PvgprLW6KEO5M=
+@size 3738
+include/glib-2.0/glib/gslist.h
+@sha OZegO1XMajGFk0+4kHmtkTozeaXL+ND/9+/BFU6zxWE=
+@size 5587
+include/glib-2.0/glib/gspawn.h
+@sha r/jmKjt0+fPz9qkZjN4BReDtrOU3qvq4tPfrYB7PY2I=
+@size 14289
+include/glib-2.0/glib/gstdio.h
+@sha Jxkne3sYiW8p+gQZddldvEJbBrBE11iTyQ26cNU+9l0=
+@size 4813
+include/glib-2.0/glib/gstrfuncs.h
+@sha bI+NFObRfBNRBkwRtW7nyoOGde5WY/Oyd1RlpWO+xLk=
+@size 11289
+include/glib-2.0/glib/gstring.h
+@sha R5woXgV2o2av/tUpYyNHtn8iabOsM3gNA7L35WSuux8=
+@size 7970
+include/glib-2.0/glib/gstringchunk.h
+@sha 9hycu9gI8qyYsaNKkuWbzuR8M8jutX45bOi/fgY1tPI=
+@size 2128
+include/glib-2.0/glib/gtestutils.h
+@sha zGnq5BLn6N1uoWJE99dzUthjIDrOoGzzQYWwerKpWjg=
+@size 21791
+include/glib-2.0/glib/gthread.h
+@sha dYboST96A6Y4a/xd7xwM5ReWL0sqzie8Y6AxCnMk9Rc=
+@size 10152
+include/glib-2.0/glib/gthreadpool.h
+@sha 6S0x8a7LGcnENSinhwQyByr6v5mco5gYm6yZ51iUF4Q=
+@size 3651
+include/glib-2.0/glib/gtimer.h
+@sha 9V1nqzbNc/NQeeuGngwAEw8+g2Q51pAd1Uwv7qg4kYE=
+@size 2368
+include/glib-2.0/glib/gtimezone.h
+@sha +FXS/PFSAWrvWc3LQ147AtBQhoko6UjdWWRXGEQMSzA=
+@size 3488
+include/glib-2.0/glib/gtrashstack.h
+@sha QNgQTz8q4lFD0VPsSKzMhh6Sntnit6MwpsdTKA4ZPLs=
+@size 2675
+include/glib-2.0/glib/gtree.h
+@sha RAP96et/pTOtSmVNbtFp/47dcWTcswnKnOr2Pi9YuU0=
+@size 4192
+include/glib-2.0/glib/gtypes.h
+@sha txdJcRxcltGsaEn5wk5/G2rufazYDInA+pLfxc6Wq+8=
+@size 17166
+include/glib-2.0/glib/gunicode.h
+@sha 1RNKefkFnrQJslm38tH1Q2TDZGyqh0lhoFQK7NSWbiM=
+@size 34072
+include/glib-2.0/glib/gurifuncs.h
+@sha FxONncmo0V8WQu/y1wrbDuKvCgHpdOQPdMxi28/JdIs=
+@size 2714
+include/glib-2.0/glib/gutils.h
+@sha jorQ1BftG1feYIp9LcFtFa6DKa0GRkNS8hoMnsMjlFA=
+@size 11944
+include/glib-2.0/glib/gvariant.h
+@sha /bPFb+9Lpgdw4+d15ukK5Mdg5vk+cVoNtJ1xeudSeUE=
+@size 27150
+include/glib-2.0/glib/gvarianttype.h
+@sha XajAb/zJU2scLvvZdV3M+R88q1CFklMlxoWPrpGD0mk=
+@size 13132
+include/glib-2.0/glib/gversion.h
+@sha 4vMWE5cswjxvJoIcVx8anAPs6qYlLeZKGEqb9cEcLF4=
+@size 1979
+include/glib-2.0/glib/gversionmacros.h
+@sha ksFK4XhsE7y1aJ//FnHbL4ma1H+AZ4nz9Hs/KkpKtZg=
+@size 10803
+include/glib-2.0/glib/gwin32.h
+@sha ZLKrNDjfesR5fJ0N0uHubSut24/HVaDvr3wQZbtBM50=
+@size 4542
+include/glib-2.0/gmodule.h
+@sha dp3hQmg3TwiyV5zWPLYBY/W0R/1hXgYCIZyqjpBjMLo=
+@size 3966
+include/glib-2.0/gobject/
+include/glib-2.0/gobject/gbinding.h
+@sha W4poY9KnIjpvXGUgALZhHQVlIyaYNN8F3mHP/dkBI0s=
+@size 6340
+include/glib-2.0/gobject/gboxed.h
+@sha Fkgd9Fq9IdJBCF9gHfIllFLc9wu7vBS1aHll6U74MkM=
+@size 3915
+include/glib-2.0/gobject/gclosure.h
+@sha WOoYtjhtEBNobW2FhnbdR7yB/WBTduqZfP4AN8SM6is=
+@size 10206
+include/glib-2.0/gobject/genums.h
+@sha ZlVlEtHGbL8MRws+RXY2uup8pPi881L0V2xiyi7oNUU=
+@size 7692
+include/glib-2.0/gobject/glib-types.h
+@sha dfxy3UBeZkLm+HMgi5GUEOhLnhNS8Eh2sH75egrZGME=
+@size 8502
+include/glib-2.0/gobject/gmarshal.h
+@sha 7oin72Nz9jtpumsXvjP9rOcgVlyenGIQ6A1g12cK4Ls=
+@size 20296
+include/glib-2.0/gobject/gobject.h
+@sha kfy38vhRsA1tJ/f4ttAjGYUiyUz8Tg3vj+OoHC3I6hc=
+@size 25777
+include/glib-2.0/gobject/gobjectnotifyqueue.c
+@sha SnnZhX/jigstkx8rZ2K1govaubcB5CHzqECYwXKYePU=
+@size 5514
+include/glib-2.0/gobject/gparam.h
+@sha HFSX5ba/4c8JFYHRJLSLFXlJX/qNxNr9jFgs9nzmQMI=
+@size 15658
+include/glib-2.0/gobject/gparamspecs.h
+@sha 9QcdTxSfePFusd9DCKNPmrpS4ULC9yxVm3ZuIlxIZPk=
+@size 34409
+include/glib-2.0/gobject/gsignal.h
+@sha XN2ckMx7bFH6JKUXY2yxFyxNNXB5dQ/bZ4SJBZsuowQ=
+@size 22972
+include/glib-2.0/gobject/gsourceclosure.h
+@sha SKmr8TmDQJNTLBqstvbfGubPrbcraBgv+7hSjg6Ec8U=
+@size 1273
+include/glib-2.0/gobject/gtype.h
+@sha tFLUlzP+L/6yc5LYeuC9HrHVf8SvYy04/YKni77J20g=
+@size 73746
+include/glib-2.0/gobject/gtypemodule.h
+@sha y1as4sQG+amdEAb6URr78Jy71boQ2rWAcK3YlvSPBvg=
+@size 10280
+include/glib-2.0/gobject/gtypeplugin.h
+@sha X84H0sN+OAi6eBclXsUg5heHDs9Fic24Xn/NP+hKGpc=
+@size 4963
+include/glib-2.0/gobject/gvalue.h
+@sha 6Fcy7CfJE4NZP+XrR876ueJFyht0dVEj2h2ym5lOelI=
+@size 5422
+include/glib-2.0/gobject/gvaluearray.h
+@sha y4GKuHWUiVa5vihv0pagu/MNEFg/GgF5VmTBlb+QaKE=
+@size 3168
+include/glib-2.0/gobject/gvaluecollector.h
+@sha KzlxFOqVQ6av7REjRm/WewxSvZKCclkjX1JbqlIKyJA=
+@size 9350
+include/glib-2.0/gobject/gvaluetypes.h
+@sha BpQtYny67wAvXVteHrfeD3+HslsozXxnjwejqT5G8Wc=
+@size 9651
+@comment lib/charset.alias
+lib/gio/
+lib/gio/modules/
+lib/glib-2.0/
+lib/glib-2.0/include/
+lib/glib-2.0/include/glibconfig.h
+@sha kHTzgB/UOqmV6BjBD6TecqUR5G+aTPq81q6FAGomPf0=
+@size 5792
+lib/libgio-2.0.a
+@sha pSxgyM8zIHU7HpbjoJsqxmrpjS+0hnPDTsbp9sdYnxk=
+@size 2630498
+lib/libgio-2.0.la
+@sha NxuD7yr9aCRD5n6PlYEm22xHcIZx4lTgxSLcxOaNSZk=
+@size 1000
+@lib lib/libgio-2.0.so.4000.0
+@sha eA5pIYmoXiCa7UyOdqQqQt1n6K8AvFMVotJBbMM7X5k=
+@size 1685462
+lib/libglib-2.0.a
+@sha n+qVa0OITdJWgDRZG9QniAICDuadTcNcoYY7djXQDY4=
+@size 1436454
+lib/libglib-2.0.la
+@sha Bo5oWHtotMo47CCRrI2COpACRjCPOOjNicsj4z00wdc=
+@size 869
+@lib lib/libglib-2.0.so.4000.0
+@sha 31Y81wu1wwsK/dCkXxwCK/8/qVVeBmQHuE6lW+vxmAM=
+@size 1141658
+lib/libgmodule-2.0.a
+@sha JC73wyiUjdeYP0fdV2OOW5cqlh1i5YyEBP6YLpoH1Dk=
+@size 10414
+lib/libgmodule-2.0.la
+@sha yTgjt/9EBFpxUoQG1xMlMz28V06txWkGrEdYONxKP/A=
+@size 914
+@lib lib/libgmodule-2.0.so.4000.0
+@sha C6E6thbnb2/KO1iTK24zsD58p2LH9w35CcvC480wM78=
+@size 17060
+lib/libgobject-2.0.a
+@sha qLDgRB44ElcPdqKxFIgzzsLlu2TQf80OqQsBdV6+/YQ=
+@size 448744
+lib/libgobject-2.0.la
+@sha BhrfzsCZOhXRaQMg/peHT+Ks0hZUe/VLXah0MQ0V5mk=
+@size 939
+@lib lib/libgobject-2.0.so.4000.0
+@sha 4J7NrwKw14HcqTh+hFsA3UZK3JgJpYEv1XFMSqcIpcg=
+@size 348554
+lib/libgthread-2.0.a
+@sha rzGecL84xzelvHo/zR+cvNT7FdxgcDYyKCPTAzduWfc=
+@size 2054
+lib/libgthread-2.0.la
+@sha V8ylDcQDxLhLJ2dVhgcj4+r8QvJ1gzj78VxAdcMUkho=
+@size 914
+@lib lib/libgthread-2.0.so.4000.0
+@sha PAeyRz//XZYn1pQiiIOd942/BfkqbAUjwXtGL13sHvw=
+@size 6920
+lib/pkgconfig/gio-2.0.pc
+@sha avtZbctZ5Jj+xtfl4BtlEiVLZXjvbSN1V5YfcUsq/uU=
+@size 442
+lib/pkgconfig/gio-unix-2.0.pc
+@sha u3jOJHGbWsC9KmjKM9bap40SBfy81QOFoL3wH14jnR8=
+@size 293
+lib/pkgconfig/glib-2.0.pc
+@sha aKaOAiANKT/2fMdu8UegmBRh+6BLIzs5By1FsPh0bvw=
+@size 431
+lib/pkgconfig/gmodule-2.0.pc
+@sha cGY0MRX7SIEMFmdHg7VItH3yA8+Tx8Tfr3huWcRDhlM=
+@size 293
+lib/pkgconfig/gmodule-export-2.0.pc
+@sha cGY0MRX7SIEMFmdHg7VItH3yA8+Tx8Tfr3huWcRDhlM=
+@size 293
+lib/pkgconfig/gmodule-no-export-2.0.pc
+@sha EyBiFSZEDvwlAqyORCK4UNbGdtuv8KGf4hmLZJ3T8Bo=
+@size 286
+lib/pkgconfig/gobject-2.0.pc
+@sha WqnpW2AL3nZyatDnvHGqAbmsswTLsEGLGCz0kR253Io=
+@size 283
+lib/pkgconfig/gthread-2.0.pc
+@sha v/8bgD0kbBTtsWob0o/pxlQIXIEVT5oIoJcRUg2Qt+Y=
+@size 240
+@man man/man1/gapplication.1
+@sha XuLua2vGf7fZZNu6TA793Knxe9e3L+aoTBi7S7/BrSo=
+@size 7347
+@man man/man1/gdbus-codegen.1
+@sha diBcm25kr5M+mZ4aPbbAv+p7Dui3xVOeuNlCLPqayKc=
+@size 26098
+@man man/man1/gdbus.1
+@sha iis3bGFfzoT/riQhfo+yDo5enbj+sBkUVzCZIO5hiXY=
+@size 10257
+@man man/man1/gio-querymodules.1
+@sha Hbsh6L53whDIlSdgMKk1EI6hw/+w/HH3DOBBEeXI95A=
+@size 1738
+@man man/man1/glib-compile-resources.1
+@sha 3XmzcpUI2VLA+6mrg482ZV4TbOb+m5TgxBqg0Z+MzQA=
+@size 5059
+@man man/man1/glib-compile-schemas.1
+@sha 8a2+nBmw5DulgkIXV2ikWDN6+gfmrZdVJaeUMK//BqM=
+@size 2360
+@man man/man1/glib-genmarshal.1
+@sha X/LR7ufe/E6IqBg/RcmRIztmhUtmG9yke0f6qAZarL4=
+@size 7258
+@man man/man1/glib-gettextize.1
+@sha YbqAhY9c+fFHoUH0rI5JLso7WzE7VYq3z/OfSDiczUY=
+@size 2142
+@man man/man1/glib-mkenums.1
+@sha Dtec3RYPpO5uxdtkyVPCTPDcIo7+X2GnQQsMBlAznT0=
+@size 7785
+@man man/man1/gobject-query.1
+@sha mew69SOelIKd49FNuG0b0Ft6D1PIPmH1y7TLvPUmjSU=
+@size 2192
+@man man/man1/gresource.1
+@sha gXs6E6EpewR1tUV32pFuMtS1zIGUmvTiNPcCq3BQc2s=
+@size 2908
+@man man/man1/gsettings.1
+@sha hCKCUij3B7WReNM1arQzNE4GCD5AHL+dNN7tFZ0vAZQ=
+@size 4554
+@man man/man1/gtester-report.1
+@sha bhz8cAD0+z8kokr6dGo9PLykpFczPd3RatIrn45thzU=
+@size 1731
+@man man/man1/gtester.1
+@sha xf1yMrgKDfmSUNMYjOgJEehbKhrqaQJOXQUtXqhuJRM=
+@size 3090
+share/aclocal/glib-2.0.m4
+@sha F2FBlfuWGviQUblUWXdP7SUZ5sUFHcMZvsIMkmJRIoY=
+@size 8249
+share/aclocal/glib-gettext.m4
+@sha uheum2gJHJC3PKCMRMz6/yn6g4ZZkG7d5IiR/C6vjXw=
+@size 13703
+share/aclocal/gsettings.m4
+@sha 1n9Lfka3SK3RmScQerHtpIwd+w4+J7g4iNp70zowq+Q=
+@size 3379
+share/bash-completion/
+share/bash-completion/completions/
+share/bash-completion/completions/gapplication
+@sha GZiFp5ESDeIYeEso0Ym+zqLNvdHCl+ikqSYCqWmFf+c=
+@size 1389
+share/bash-completion/completions/gdbus
+@sha gZx2aTuZSikcF1w9ejlAIrdClkR5SBYHGuQLXKQFEF4=
+@size 935
+share/bash-completion/completions/gresource
+@sha plnE/sUyMBwH6J0XHHewV9cJQdYlq0yIDIBG2e1xSKM=
+@size 1356
+share/bash-completion/completions/gsettings
+@sha wO7wPyIvdJIgeSzkC4Z9YU3OS1UIPT6twaq+aQcp5bA=
+@size 2609
+share/doc/pkg-readmes/glib2-2.40.0p7
+@sha FvtYwGcbHAH/PtxEmasNUCWJzs1P3uT4UpqP7vM8n2M=
+@size 663
+share/gdb/
+share/gdb/auto-load/
+share/gdb/auto-load/libglib-2.0.so.0.4000.0-gdb.py
+@sha +xfoQwmHCRpB3tSomAkyAyrM/lkSrenq6YWicobjGJo=
+@size 199
+share/gdb/auto-load/libgobject-2.0.so.0.4000.0-gdb.py
+@sha UjeDCa9m3uR3RdEXMtQv56BDSwDY8SRXUTyhMDqxPWs=
+@size 202
+share/glib-2.0/
+share/glib-2.0/codegen/
+share/glib-2.0/codegen/__init__.py
+@sha mJSG8PFt2Miiqds5Up3DNGBjQAMvlpEt+Z4ocxNa+J8=
+@size 982
+share/glib-2.0/codegen/__init__.pyc
+@sha rYw3potNBFVPtY5ILNYux95y5jH7slhYXL8pZxWPLVo=
+@size 401
+share/glib-2.0/codegen/__init__.pyo
+@sha rYw3potNBFVPtY5ILNYux95y5jH7slhYXL8pZxWPLVo=
+@size 401
+share/glib-2.0/codegen/codegen.py
+@sha Q3tmSrTG9xTcT9y9jYzkThnYZ71A5OvRppwmcy/MocU=
+@size 190092
+share/glib-2.0/codegen/codegen.pyc
+@sha PySC4+39PAcpeh5/m7GNt4B1UdlRhDCvRJKMYyJtSUA=
+@size 115187
+share/glib-2.0/codegen/codegen.pyo
+@sha PySC4+39PAcpeh5/m7GNt4B1UdlRhDCvRJKMYyJtSUA=
+@size 115187
+share/glib-2.0/codegen/codegen_docbook.py
+@sha Fl9vBb3UnGdjglgjfU/O2xALq8QhYZv6Dvrq/KDejmI=
+@size 16240
+share/glib-2.0/codegen/codegen_docbook.pyc
+@sha jfyPProki8JomH6mTlygmSvjc8nCgD45SZVOiGYavOU=
+@size 14451
+share/glib-2.0/codegen/codegen_docbook.pyo
+@sha jfyPProki8JomH6mTlygmSvjc8nCgD45SZVOiGYavOU=
+@size 14451
+share/glib-2.0/codegen/codegen_main.py
+@sha wVD7PviBu8kvfyM4SXPemNgrT+YekGVK7rYKmg03p5s=
+@size 7371
+share/glib-2.0/codegen/codegen_main.pyc
+@sha 7iwDy2VucO/mhbz3WW4is6vwBhrTic2cYhpBXslJxv0=
+@size 5706
+share/glib-2.0/codegen/codegen_main.pyo
+@sha 7iwDy2VucO/mhbz3WW4is6vwBhrTic2cYhpBXslJxv0=
+@size 5706
+share/glib-2.0/codegen/config.py
+@sha LtPICytZhRG69/8oHNYJKqGi1NccP5r+hGg+ncZ4yCo=
+@size 903
+share/glib-2.0/codegen/config.pyc
+@sha gyuWYacf/M/XnInztHAZM91DaijmkEORT+wcfTpVbjI=
+@size 262
+share/glib-2.0/codegen/config.pyo
+@sha gyuWYacf/M/XnInztHAZM91DaijmkEORT+wcfTpVbjI=
+@size 262
+share/glib-2.0/codegen/dbustypes.py
+@sha V2I3sP2Py/0ZoIyCTdy7RtigpbcfkJUJgq7bwLSkNoA=
+@size 17493
+share/glib-2.0/codegen/dbustypes.pyc
+@sha AzNebDsKSaeJIjGDDnTWjQUQpG2A9XilJYl53q+Vx9E=
+@size 11221
+share/glib-2.0/codegen/dbustypes.pyo
+@sha AzNebDsKSaeJIjGDDnTWjQUQpG2A9XilJYl53q+Vx9E=
+@size 11221
+share/glib-2.0/codegen/parser.py
+@sha 3ozXNfKQ2IKOEHaC7jCgvK9Dny8pL5LLsDb6SSt5iK8=
+@size 12540
+share/glib-2.0/codegen/parser.pyc
+@sha sUx818s0wwUtZIOeBjy0uxZXbp7LAsmoNDfNBPy3ofc=
+@size 6654
+share/glib-2.0/codegen/parser.pyo
+@sha sUx818s0wwUtZIOeBjy0uxZXbp7LAsmoNDfNBPy3ofc=
+@size 6654
+share/glib-2.0/codegen/utils.py
+@sha VzJ546zoIOjlJpwJWDgqTP81Em/dD4ihnMeYnOZz/iM=
+@size 2749
+share/glib-2.0/codegen/utils.pyc
+@sha Annby3mqg9LFRH2Qx/+Qjv9SnrL7oj0Vx+7R7/fBk68=
+@size 2596
+share/glib-2.0/codegen/utils.pyo
+@sha Annby3mqg9LFRH2Qx/+Qjv9SnrL7oj0Vx+7R7/fBk68=
+@size 2596
+share/glib-2.0/gdb/
+share/glib-2.0/gdb/glib.py
+@sha MpcRzSg0mmxdcchOVuJ7OECbKa4cn7dhUqYj1oIxpsA=
+@size 7375
+share/glib-2.0/gdb/gobject.py
+@sha YRTy5JVSYkZDTwXc60cx41JyAsS3YPX5UfEXIGqVPgU=
+@size 8750
+share/glib-2.0/gettext/
+share/glib-2.0/gettext/po/
+share/glib-2.0/gettext/po/Makefile.in.in
+@sha P82Z6LIOhNzKZBLp5vbjCyP3pZhWX6Pcpdz08NfqEy0=
+@size 8068
+share/glib-2.0/schemas/
+share/glib-2.0/schemas/gschema.dtd
+@sha aux5QDu4lizWUXzlfghfyIGaWVa0mKUSo7kIhBeeE48=
+@size 2839
+share/gtk-doc/
+share/gtk-doc/html/
+share/gtk-doc/html/gio/
+share/gtk-doc/html/gio/ExampleAnimal.html
+@sha srtGqsjprcrkS+TDjgQwcAkepSAO22RqqeGznXzDtto=
+@size 100533
+share/gtk-doc/html/gio/ExampleCat.html
+@sha 7qQOOJ6xfMiI6UgvUtWaHNPzjsavecsofYJKMrV7zHo=
+@size 45018
+share/gtk-doc/html/gio/ExampleObject.html
+@sha AvBAh1L6h6S7WOkdaMsdpFl1zvqV/3E3+dXwKEfAHv4=
+@size 34303
+share/gtk-doc/html/gio/ExampleObjectManagerClient.html
+@sha w1kOQSa5EokmDHoWWGy10/ERxGufueAKhD8b/3THnXs=
+@size 42664
+share/gtk-doc/html/gio/GAction.html
+@sha crCE0W5zrVaRXhWuLhsTBOdes327+9z5ZUvdLrfQyx0=
+@size 48609
+share/gtk-doc/html/gio/GActionGroup.html
+@sha YfvGVGancx5bscXWQSUIzgdNWmM6SUFcPArPBaNIZpk=
+@size 76765
+share/gtk-doc/html/gio/GActionMap.html
+@sha AgQstUISY+gtJvj7DgrSFizmaKE9Xy+WtMP4NOE1+hE=
+@size 26291
+share/gtk-doc/html/gio/GAppInfo.html
+@sha qfNqHwsbz9vgulydgqgxUWhJzYvn2NwcbCTeFckgqlo=
+@size 121698
+share/gtk-doc/html/gio/GAppInfoMonitor.html
+@sha ACzF3y7xtHnmNFw8piVDDYGPEQK8FoYBi5Kfoh9axnM=
+@size 8936
+share/gtk-doc/html/gio/GApplication.html
+@sha RUuLMfBJGT3SgzCZEifMYVOKF06taZiMT18xvDPT3X0=
+@size 137824
+share/gtk-doc/html/gio/GApplicationCommandLine.html
+@sha +IqpBzXeO/rDbeHRD1iMilHSouyLE8Qz3Vgv7eFr5ZA=
+@size 56883
+share/gtk-doc/html/gio/GAsyncInitable.html
+@sha 3GPN9oYx9JpdiUlj4DuDL/YzzO2w98FUneSRhMGIkoY=
+@size 47895
+share/gtk-doc/html/gio/GAsyncResult.html
+@sha zghDHIjvNrBw/YasAiKhyvZKeN3/tjJt7UcPNsh83do=
+@size 27778
+share/gtk-doc/html/gio/GBufferedInputStream.html
+@sha lv1ZT9GJYuDjkenxaU0i1kc9o9H37d7KIRz5++tekI0=
+@size 41270
+share/gtk-doc/html/gio/GBufferedOutputStream.html
+@sha Z+G5BbpgJDA05ChpuGV+6eJ+3H5CHlol4og4JhUx0pU=
+@size 21290
+share/gtk-doc/html/gio/GCancellable.html
+@sha Eq65o5qBi58f+bNTeaKblHfZKJlxqHYPpOK/Tcx1qAI=
+@size 48261
+share/gtk-doc/html/gio/GCharsetConverter.html
+@sha LMBl9ApdtV1h/f42FGIL263Iog2wFac4QJIrCpyUGHQ=
+@size 16743
+share/gtk-doc/html/gio/GConverter.html
+@sha 9lbKnhGgwDnQkFTx0tUb3AFaoLOpLjpVnLb0mvy31Z4=
+@size 25323
+share/gtk-doc/html/gio/GCredentials.html
+@sha Tj8r/8LQyOfzJIQWwqKX/arOqGwH1qmonK7AHJ5Cqrs=
+@size 28670
+share/gtk-doc/html/gio/GDBusActionGroup.html
+@sha R5/dQvcpV3ttReqPgOYPlPIImQMA9EhFGJkVuVOCCGU=
+@size 8867
+share/gtk-doc/html/gio/GDBusAuthObserver.html
+@sha X5TtquUShDc+DSj6XHJZL9g71oZYajDj/xhfPCZ53BQ=
+@size 22553
+share/gtk-doc/html/gio/GDBusConnection.html
+@sha GXrw7kO5EMUzI4cE+Xw1RhZmogct7ASGDWNICF6pAiA=
+@size 314301
+share/gtk-doc/html/gio/GDBusInterface.html
+@sha 3MbPRykw5z3fxmlJl4Thcb/85vpheNfnVjBTb+BPXAU=
+@size 18206
+share/gtk-doc/html/gio/GDBusInterfaceSkeleton.html
+@sha s0xMUfrbzbIVDTH8gv/Zcmp7rIBQeWPwJ8kxiJZe2ZM=
+@size 51704
+share/gtk-doc/html/gio/GDBusMenuModel.html
+@sha mbevF0zFC/HAbzcnIulvFA+h5WK3ztFrhRFxOp7uo8U=
+@size 8115
+share/gtk-doc/html/gio/GDBusMessage.html
+@sha xFTW16uNxVHudncQq1e6dALh5hZLwtjNPcymiPDEgHM=
+@size 128131
+share/gtk-doc/html/gio/GDBusMethodInvocation.html
+@sha 1QDE3j0qAEzGXFuz1Z5ZaJN4M+90C0JQiCWv49YSEdc=
+@size 54392
+share/gtk-doc/html/gio/GDBusObject.html
+@sha p2f8DLLXUZCXYcbf6jv8PVyx+dxWtNZHuybeCl51oRQ=
+@size 21264
+share/gtk-doc/html/gio/GDBusObjectManager.html
+@sha z81Ko1Xgpqf5BNOzQ7hTery8STiPQK/BXgokO725nC0=
+@size 34070
+share/gtk-doc/html/gio/GDBusObjectManagerClient.html
+@sha Ch3grgjmv/VjKw3Ks7abpamm8XOOva+cxQHIH3jJB9w=
+@size 95892
+share/gtk-doc/html/gio/GDBusObjectManagerServer.html
+@sha mEFikspH2MfEprIe8kfChWoUibEah7kOaoSI9tNhObI=
+@size 28153
+share/gtk-doc/html/gio/GDBusObjectProxy.html
+@sha z/Wu061MXy9e31HyGW92stAyc1BP1MQWzTXRzOuBt4U=
+@size 13082
+share/gtk-doc/html/gio/GDBusObjectSkeleton.html
+@sha 2XAospLw/TSixe/fF9/jS9Qm2YCecB6zPRNB/eZgFHI=
+@size 25749
+share/gtk-doc/html/gio/GDBusProxy.html
+@sha pB9HPYAPJ+Uc9jTLJv2I9v9bbJgCh6t0MXOHP4u6f9Y=
+@size 142766
+share/gtk-doc/html/gio/GDBusServer.html
+@sha M4CQ8n3KMx0XgrBgwpOECcVfxqmdB4ngRnEgGqJ0KhE=
+@size 34670
+share/gtk-doc/html/gio/GDataInputStream.html
+@sha AoMU1kkebN3USomcvwB6wB0lu+OO0e1lL8FoxtbzZyc=
+@size 102741
+share/gtk-doc/html/gio/GDataOutputStream.html
+@sha tm4HSTLJ4jUfXIY59htnmSBk1NurXKFqcTarGOM3rIE=
+@size 42196
+share/gtk-doc/html/gio/GDrive.html
+@sha xHMkA0BFngYaUZXhYBO3SOzqT3bp/D/H4sFhMpRDDrw=
+@size 106465
+share/gtk-doc/html/gio/GEmblem.html
+@sha /3/oeP41Y5QTdd/ktsyzMmrqLQ8qIrJCXnw+NCKytqI=
+@size 16040
+share/gtk-doc/html/gio/GEmblemedIcon.html
+@sha eSmVX4NHJ/jDvr4rKzYQ7jni/ar7p5FpTGoxM4+3zfQ=
+@size 16819
+share/gtk-doc/html/gio/GFile.html
+@sha FqEpOZ1pwB6+lX9W+EvSyyOzZ8A0S6ZM943OzoCRLyw=
+@size 642350
+share/gtk-doc/html/gio/GFileDescriptorBased.html
+@sha oflD5ek/26dUmw24Wbc9aR9hYMm6xpHvZ2RyCVeiecQ=
+@size 7515
+share/gtk-doc/html/gio/GFileEnumerator.html
+@sha B2ijs25JrYz/9cMpFFMb18E0CD3N/4Ug4ZWYojA1hdM=
+@size 46059
+share/gtk-doc/html/gio/GFileIOStream.html
+@sha ZBrHdV9dDdarNVtIzLpoJt7//zWSrbfj+k4ZalC4lbk=
+@size 22068
+share/gtk-doc/html/gio/GFileIcon.html
+@sha PSFdjUBnCkRTAwkVzJa4sMdSmgN9ghW+aoVEu+nkXd0=
+@size 9913
+share/gtk-doc/html/gio/GFileInfo.html
+@sha EMoR+xk1nRMH3wKAsquwl4c7AoxT1I5SMrl3SOMFIE0=
+@size 236352
+share/gtk-doc/html/gio/GFileInputStream.html
+@sha hrj7GzCRXGGwJ9H1vO8yh73AhNZaa6Me5WrP83UFwwo=
+@size 18399
+share/gtk-doc/html/gio/GFileMonitor.html
+@sha mflQpYfYFkxiCd755MPnkfME/2zdiVidcR1O28GNWW8=
+@size 23997
+share/gtk-doc/html/gio/GFileOutputStream.html
+@sha GF6c2Cp0pKFp4d3G6fsFcYrD/2h+KQgO8hwJHcSOWUM=
+@size 21336
+share/gtk-doc/html/gio/GFilenameCompleter.html
+@sha g2QsMXoMloW4DpzWPmZgxSXwhatRDYluA03wfWc8iFY=
+@size 13987
+share/gtk-doc/html/gio/GFilterInputStream.html
+@sha Qf455OoYg1ET2XtokRGZdwOl7kdRj0NhcsWt6mXyVfw=
+@size 12950
+share/gtk-doc/html/gio/GFilterOutputStream.html
+@sha 31xhQb9LChAYwodG+3X45HyiN/JSnge5tfznMuTd6KA=
+@size 13225
+share/gtk-doc/html/gio/GIOModule.html
+@sha Tu4nJvRnnUREUDDyubVqfGiLbNoiQXjcJaWYaZA6EIM=
+@size 30661
+share/gtk-doc/html/gio/GIOStream.html
+@sha WLQd7AoqJUC21PdUwkimp1PT6yfC+7Gynaa3E6UFJcw=
+@size 42478
+share/gtk-doc/html/gio/GIcon.html
+@sha iAtteEwPQzO/TNQOL0t2aqoqruqdquRotBtowNt6NSI=
+@size 28756
+share/gtk-doc/html/gio/GInetAddress.html
+@sha wYsOzbPW9jw/wFM+krfxPulFaAvXgHS2nBE8zZ9eSIA=
+@size 55920
+share/gtk-doc/html/gio/GInetSocketAddress.html
+@sha WCqFAtXzrGDjLrf7sdk+8tpHEkFVo1+jM8opSusTGbw=
+@size 21554
+share/gtk-doc/html/gio/GInitable.html
+@sha 9a8rVR/WhPhriyskSlz7t0YVAlphy/XlQKkb89yUJBE=
+@size 30559
+share/gtk-doc/html/gio/GInputStream.html
+@sha e1DcyuPF7C9l6F/mtPZKrG11WqJNYJsAX7nzWI+A+VM=
+@size 73346
+share/gtk-doc/html/gio/GLoadableIcon.html
+@sha xTSp9C62pRZBXGmwdSEEJf2qJa5hpOJ86fGtWa6clSs=
+@size 20179
+share/gtk-doc/html/gio/GMemoryInputStream.html
+@sha Bg1MmYePTtbakLEZlmCRZqW7vw2kfkVbmdlffTQwggI=
+@size 17017
+share/gtk-doc/html/gio/GMemoryOutputStream.html
+@sha xrnlDjZ46FQWjqhf/AR3tOH964h5XB1vWZfwZ21zQwA=
+@size 34385
+share/gtk-doc/html/gio/GMenu.html
+@sha VOJuCtR4VLvbijBGIhYQU/VEcYFS0oprpqqVLeaPSnI=
+@size 106672
+share/gtk-doc/html/gio/GMenuModel.html
+@sha JkV3KDhOepRQ1wfRxEUVfhixDyOGaDFYzKwu/qZhENc=
+@size 71351
+share/gtk-doc/html/gio/GMount.html
+@sha ccKqHGzY8H6Md9R5LVhOgyCASlRpXhYDMO+CZdrDS/8=
+@size 115643
+share/gtk-doc/html/gio/GMountOperation.html
+@sha qDdu7WfpnywMiHUKNQB9QLKjlwc5viRMr5kY57eF7m0=
+@size 59616
+share/gtk-doc/html/gio/GNetworkAddress.html
+@sha zDDwBXRR+GhiUGSkMWxzz62yzldA5M18LbUNBZn/zBQ=
+@size 24365
+share/gtk-doc/html/gio/GNetworkMonitor.html
+@sha fx2Ei5iYgzezR/NAllQs7m+vkMC7Cwn9V7jAP9rNOnQ=
+@size 29877
+share/gtk-doc/html/gio/GNetworkService.html
+@sha zXlIZ2znGQDyqvBGGICYf5w68V6LhZj05AYLYpQjYbA=
+@size 21174
+share/gtk-doc/html/gio/GOutputStream.html
+@sha IsCKlvzvRtR7kpkhxSO8KE7g+wf6XSvyNwicSUM1TzA=
+@size 86970
+share/gtk-doc/html/gio/GPermission.html
+@sha JXKn8fJ8tDxhemm/W+i0sJ09y0nEsb5jXpVLDjo3O8Y=
+@size 40169
+share/gtk-doc/html/gio/GPollableInputStream.html
+@sha wfVlHa01oA/Cif2udOjMx6eEVJTcoYoIWtpoHQC4ZZc=
+@size 26259
+share/gtk-doc/html/gio/GPollableOutputStream.html
+@sha jtrDuVtFY6JZA2M4TfzsRWWAVvnjXp80UU7NHkKJrrQ=
+@size 26681
+share/gtk-doc/html/gio/GProxy.html
+@sha 1OrBlrV9Bj6ZOMk9KbxIe8uMVcq11mqjyDZ/j+DS514=
+@size 24199
+share/gtk-doc/html/gio/GProxyAddress.html
+@sha elKHqWs+5kQjxyBMPZ8oRoqBujjwIpv3LAcCL/qaZ2g=
+@size 30414
+share/gtk-doc/html/gio/GProxyResolver.html
+@sha r5aaUeABm1nRMqzyQMavO+m6YwenJL0io3OjStJq4Jw=
+@size 22763
+share/gtk-doc/html/gio/GRemoteActionGroup.html
+@sha Fhnq4LEDvBrkBOcSJNS8Tdhfwc3wTz3wqSehINJVZOQ=
+@size 17347
+share/gtk-doc/html/gio/GResolver.html
+@sha BfKyYF1uiUntoon5NCyI3UbCcP7BfZwkcbmjwdFctjI=
+@size 78110
+share/gtk-doc/html/gio/GSeekable.html
+@sha jlfTeKq80boAjiFnOoCDyp/77cUQzMBmEKVQP80jrdE=
+@size 24936
+share/gtk-doc/html/gio/GSettings.html
+@sha wyvRS0mNivIJV2TMRYg3VjmvPu+bbD7YBwZF0vDQcwQ=
+@size 195316
+share/gtk-doc/html/gio/GSettingsBackend.html
+@sha gT4U87YrHmWa3ETF35Unrr6SBbDwg0oim+AksHi2vMM=
+@size 42374
+share/gtk-doc/html/gio/GSimpleAction.html
+@sha o2JUoqmbnwnXPcLjkMuUnNK++O8KoLvvB7/lLY7dvu4=
+@size 29296
+share/gtk-doc/html/gio/GSimpleActionGroup.html
+@sha 4J9ZBjN83+so6Ew5uMskIyBffP/P37uR9OwrcimT6fg=
+@size 17338
+share/gtk-doc/html/gio/GSimpleAsyncResult.html
+@sha 1AgUVi60nH1xIqfscop9kXj9tyWqsa58nXyxReaEGdQ=
+@size 101846
+share/gtk-doc/html/gio/GSimplePermission.html
+@sha 1ohP41Ja9oJysAABrfmZfZ5giVSgneMY7KPUqtQBumE=
+@size 6811
+share/gtk-doc/html/gio/GSimpleProxyResolver.html
+@sha yYYpaUEdKEyjjqarbB6GMJDJigjj1h6RXMdtWNFoTSM=
+@size 25755
+share/gtk-doc/html/gio/GSocket.html
+@sha wVg17w+xX/fmdPiB07RMb5hNJ8JYTJEJD+rlu0q8Eak=
+@size 225404
+share/gtk-doc/html/gio/GSocketAddress.html
+@sha 1v6+3cD/yZ+xbml9s0qFzhgzzSu98kA/AjeG8h9BOOs=
+@size 19033
+share/gtk-doc/html/gio/GSocketClient.html
+@sha GdlmTrTXZuGb6q7Eq2pxSYr1deSrXXNSIqHfq39Lr0E=
+@size 128684
+share/gtk-doc/html/gio/GSocketConnectable.html
+@sha 7fkC3kh8nDEjpXZidBUL8jVhq3vMSzqCMk49yYhqkiI=
+@size 38071
+share/gtk-doc/html/gio/GSocketConnection.html
+@sha tQlO3LHsLZb09vEYvmwQuTQifAOvtX959FT4fE8etkM=
+@size 39477
+share/gtk-doc/html/gio/GSocketControlMessage.html
+@sha PR25UfxZ7Yx6sAdhiq23mYpBaSFqTMUgq36DlmholMc=
+@size 17364
+share/gtk-doc/html/gio/GSocketListener.html
+@sha CkCCSXCS+1PKzOwVVUzIxHNjEQJFY+jcNx/nZz+YA+c=
+@size 57801
+share/gtk-doc/html/gio/GSocketService.html
+@sha UegHoHcqSNaRE9dGNiSZlWGmdxOzAg86IAB9wzYSbwU=
+@size 18618
+share/gtk-doc/html/gio/GSrvTarget.html
+@sha ydMQOjs3fTglywSsiCO0jwxIbVeoshTF4/jAvRj8xOs=
+@size 20503
+share/gtk-doc/html/gio/GSubprocess.html
+@sha 4cWh3lg8VU4xvpW16l9jquzvQZabjB6qpQ3W9Y6OirE=
+@size 95449
+share/gtk-doc/html/gio/GTask.html
+@sha gxqwKc/cG+YvlTMoDi2kke1zwO5aWg0rQQWRWH5lT9s=
+@size 154161
+share/gtk-doc/html/gio/GTcpConnection.html
+@sha Tm2JXhdL1X421i3PiRN+oPtKhsMp8NeTMeXfM+Mx3zU=
+@size 11026
+share/gtk-doc/html/gio/GTcpWrapperConnection.html
+@sha q6m9xFKzkDs/eoLBaRCW5ynVDuflQsE8smy2yRC+MFU=
+@size 11653
+share/gtk-doc/html/gio/GTestDBus.html
+@sha rudrTd3ejewJFElXRMEhFNNVSfH6MO8RB7pZwTqqSrc=
+@size 27469
+share/gtk-doc/html/gio/GThemedIcon.html
+@sha yUtcAnPtuRJCLz/FbtSrpkJPPxyHM/RePmo7+92+Iac=
+@size 22851
+share/gtk-doc/html/gio/GThreadedSocketService.html
+@sha EYQohi8N8SUt+qDVlTFvUMtVvDD6KimC2jjvEV7J2rw=
+@size 13649
+share/gtk-doc/html/gio/GTlsBackend.html
+@sha G0mEg4INJt/2qLyu/buCLSrI8X2BL9pzwMO4MSJRSoQ=
+@size 23434
+share/gtk-doc/html/gio/GTlsCertificate.html
+@sha 2dyQsW6DbQKu2Umdxo37AxqR5cTn9dsAJYFwYZZ1cNk=
+@size 34970
+share/gtk-doc/html/gio/GTlsClientConnection.html
+@sha JeKJUcVW609U6mM/yuzwMaG8LhOg7MWmGPdCTb5pqfI=
+@size 32036
+share/gtk-doc/html/gio/GTlsConnection.html
+@sha c21aein1U9pNS8UemTEL/yQqtaYL7ai6Ni26vj97jZM=
+@size 77477
+share/gtk-doc/html/gio/GTlsDatabase.html
+@sha KckNHF0KRinnVGfgrMBTU879IOMRMK30CO7tFamg8wo=
+@size 71798
+share/gtk-doc/html/gio/GTlsFileDatabase.html
+@sha 4W1pZmlzqsujz6w/5ZRErb0m+Tzed1KB7lJjKbHEHDc=
+@size 10963
+share/gtk-doc/html/gio/GTlsInteraction.html
+@sha U5D2jiEGPt2OeuEQK+li1oqvx8Pz/+c/3sm4m+bShHQ=
+@size 46171
+share/gtk-doc/html/gio/GTlsPassword.html
+@sha pGs6AwhTCLfMjsk+2frs+vXnlL0+AYCrdV6C/tmzK5w=
+@size 31015
+share/gtk-doc/html/gio/GTlsServerConnection.html
+@sha JmXI2XIiGzIJTzP9KYtXvu0JXy7s+OzB+JOJijlkv4M=
+@size 11021
+share/gtk-doc/html/gio/GUnixConnection.html
+@sha uuZpCY9U7TgYEbMj9D2V5c7Y+6QPKSriETzvqW5JBLg=
+@size 36447
+share/gtk-doc/html/gio/GUnixCredentialsMessage.html
+@sha CWlxZsYfGv2jNeq5vIFKlnVLJFdIJyxv8oBXp3mtBng=
+@size 15661
+share/gtk-doc/html/gio/GUnixFDList.html
+@sha S34tMMRUKO1mc5wo3wB/9Kue5qiIZ+NPo9vmMvRzTaU=
+@size 24320
+share/gtk-doc/html/gio/GUnixFDMessage.html
+@sha gfQq4HxVLY5eMH3ZfMlMScPnL3y/rtwrz0xsd/D31fQ=
+@size 19604
+share/gtk-doc/html/gio/GUnixInputStream.html
+@sha 5Uj0QjNece1YEb3SVM3LudCqseBLPOzGjkaAhRCVvZQ=
+@size 16149
+share/gtk-doc/html/gio/GUnixOutputStream.html
+@sha 35QbVwT0kHvZLNlPR04dhei4rlL3EMQqbnSLJ6dRMMw=
+@size 16266
+share/gtk-doc/html/gio/GUnixSocketAddress.html
+@sha 4adO6Uj3VLl5HjjJRgaN35rNSlEEzXHIiiwg52XxhJk=
+@size 34724
+share/gtk-doc/html/gio/GVfs.html
+@sha RSf6PbRiiTVNdKNd3dNirQiJXVbT1QkPryPRkv0RRMM=
+@size 17009
+share/gtk-doc/html/gio/GVolume.html
+@sha AqDgCs6kSzLh/0POmJmb0ewexR1kAoru9RX7AFOyX9w=
+@size 84782
+share/gtk-doc/html/gio/GVolumeMonitor.html
+@sha F2x0oVc5dDm3rXdD47hzSB6Gfpqw6xTbQpAP52c3TCY=
+@size 52097
+share/gtk-doc/html/gio/GZlibCompressor.html
+@sha WSGb5c0vVgR8mItAYYR+24VM6sj8O6KGfufs9CyLmL4=
+@size 17205
+share/gtk-doc/html/gio/GZlibDecompressor.html
+@sha DZSckzZcs7Wwtwc6swxikEH1jUPWL5IL/907qxdrIC8=
+@size 12134
+share/gtk-doc/html/gio/annotation-glossary.html
+@sha 7VTHbsZ8CNYLVJydvQlr45F9xFbnfO1iZyMbexZ1wMk=
+@size 4663
+share/gtk-doc/html/gio/api-index-2-18.html
+@sha dPWa8/Z1NHUbftAoZlMsCvrfbBrINNqtRtTqE4VOA/M=
+@size 8742
+share/gtk-doc/html/gio/api-index-2-20.html
+@sha VH+DY8s2wKMdlrIwMjKBZdl3yEI6C1kwl3FF7Bs/meY=
+@size 9622
+share/gtk-doc/html/gio/api-index-2-22.html
+@sha de1WrUnhXmLo2IYFk9VaxnFjGAwj4pCTEHJ2rkQQrPk=
+@size 66488
+share/gtk-doc/html/gio/api-index-2-24.html
+@sha ewl8XiSfZYXS4n3XQRzDfGAng2Ky3px1633iQBUgycs=
+@size 13050
+share/gtk-doc/html/gio/api-index-2-26.html
+@sha La6jJGrWjBVurMShtuoYPeEtCLu2CM4rXIHXxJ8fXno=
+@size 107154
+share/gtk-doc/html/gio/api-index-2-28.html
+@sha ytMKXbDyyt7e4ls26/QDHZSaIOTEzojBOEy+O7GdbZ0=
+@size 47931
+share/gtk-doc/html/gio/api-index-2-30.html
+@sha akUvCos1V2iGB0wyjZ+N6oa3wnlPcZ5xgiwyZisHPGM=
+@size 49006
+share/gtk-doc/html/gio/api-index-2-32.html
+@sha 1oD3klVmXXBmaVdGhWLNQiguJKoiV4Js9NM/Vw+FGdc=
+@size 45389
+share/gtk-doc/html/gio/api-index-2-34.html
+@sha F+lXYIl2faugvr1h4vhrSFcrptbLyF+WRRQyi06BdHs=
+@size 16107
+share/gtk-doc/html/gio/api-index-2-36.html
+@sha Wr1Ad6L6+purgm4/6Lt3/O8UC34GtHMsEXdyX8HwZsk=
+@size 15415
+share/gtk-doc/html/gio/api-index-2-38.html
+@sha Q+VRNsAtL4cDmJVJaP7HIZDzlJF6tnVYeVb0PoYq1ys=
+@size 9446
+share/gtk-doc/html/gio/api-index-2-40.html
+@sha WrUlCUN334DzdiLFJx/+tSkCDJ02VES9Rd6gMHzGlqY=
+@size 24433
+share/gtk-doc/html/gio/api-index-deprecated.html
+@sha xFttKIOMmCvgdl6H3tPFLxJRd8i3SnXHZJUbVbttKOo=
+@size 11223
+share/gtk-doc/html/gio/api-index-full.html
+@sha Sqb9iXjmLwtNw/5lhZuKKcBobCjG1SunRt7X3ULYhKU=
+@size 608778
+share/gtk-doc/html/gio/application.html
+@sha QNZcc81nscqXZkns8OIpdoUhvLxsaR1O23ZKGFt8uT4=
+@size 4368
+share/gtk-doc/html/gio/async.html
+@sha 9t1cBosLIEGQk33GDpvGomEu7sbWqP4UiumTgq9PIVA=
+@size 2513
+share/gtk-doc/html/gio/ch01.html
+@sha dOquAkc/TpQZ8RgEZc9yM/NJoD/0vL7/xIowk8c8wcs=
+@size 7912
+share/gtk-doc/html/gio/ch02.html
+@sha qK/p4BIWxaJMV8abVaW5jP7aWo7TznwKI4y+SVeyS1Q=
+@size 6094
+share/gtk-doc/html/gio/ch03.html
+@sha IZAZok0nWGhIoiZ/CwnTF9SUGvKDQvxOzJPVe6nVGzU=
+@size 2770
+share/gtk-doc/html/gio/ch30.html
+@sha u1a4X2kXkpgLzV0MwuHyjhepwtSmfQwbIYv/olwz7no=
+@size 2520
+share/gtk-doc/html/gio/ch31.html
+@sha JlEZjWZu2isrJ3KFYmIVeSg2Yrb7nad2Y0dXwc9QMvw=
+@size 9974
+share/gtk-doc/html/gio/ch31s02.html
+@sha t3+a2sTDyfV9fPzrmp6UqGCsIbxaR08q04tPjk2GOBo=
+@size 2314
+share/gtk-doc/html/gio/ch31s03.html
+@sha MHH1czzp1GGR498bb4B4Qq/Ieyw2Q4SKQp+WlY19h2Y=
+@size 2227
+share/gtk-doc/html/gio/ch32.html
+@sha CBLPHpz71qCp9f1iwSnmtNs/Gl8rGWoArXoTiBbeWRA=
+@size 3119
+share/gtk-doc/html/gio/ch32s02.html
+@sha sdjNVWvKvR19gwC77x0LLF9UKC6HwhRfdGjSmpUizAY=
+@size 3329
+share/gtk-doc/html/gio/ch32s03.html
+@sha b+M3DPLzbATyohUGmVM7Z86/Cer1lb3PGvBJx5xR0nE=
+@size 8870
+share/gtk-doc/html/gio/ch32s04.html
+@sha kVsfR0y9nso05ZmMm4oxEsH0CemRO3NRs9ZEevYlbA4=
+@size 2931
+share/gtk-doc/html/gio/ch32s05.html
+@sha IQXkE3myQPq+h1OGevo1bHbtw18GFZVOaNJK+S+HEd0=
+@size 3207
+share/gtk-doc/html/gio/ch32s06.html
+@sha Us5MUBAUR+wVtBPnmbMvuTbOh9oiVAmDTNtLRf94gFM=
+@size 12575
+share/gtk-doc/html/gio/ch32s07.html
+@sha NhxDanHiJzmwejjay15Z8lWODL/MZ0JCkc8YzZFKAdo=
+@size 6426
+share/gtk-doc/html/gio/ch33.html
+@sha 1WYZqEzPZw7C2CZQDztQFX7E3D0piTup9rPpeU4UQgI=
+@size 7995
+share/gtk-doc/html/gio/ch33s02.html
+@sha mM0uiiA9qCH0ELwYj6dmcCkjJQwjYgH74b8dAMQCg2o=
+@size 10262
+share/gtk-doc/html/gio/ch33s03.html
+@sha XBpj+DuSonoO4H+Vm/8TnldF5JumF89PJ9Nh+Au4/og=
+@size 10775
+share/gtk-doc/html/gio/ch33s04.html
+@sha pZZX3e+gm5qEimc2mCEBZGtWBX4iu7M5XovvjzuWcVU=
+@size 5882
+share/gtk-doc/html/gio/ch33s05.html
+@sha Kppc0gkEWp2jpHPec8h0VixAiSNqZpYSUKEqWyBTM48=
+@size 59416
+share/gtk-doc/html/gio/conversion.html
+@sha QjKySTCYRe6eVBBDcKju1nf0aplYp6v0LoGmYUjJX8M=
+@size 2300
+share/gtk-doc/html/gio/extending-gio.html
+@sha kP/nt6mNEIAz1E3V3cpnV1vIGLzXJ79YJvk+tqptt+o=
+@size 7973
+share/gtk-doc/html/gio/extending.html
+@sha 0ov2cxTdcTeyfJiG72dplriPs7tEt+Ku9wZdykT4Ve8=
+@size 2084
+share/gtk-doc/html/gio/failable_initialization.html
+@sha 6ck5mEseERcVAVyWBdcy97nnpDwbvBrp+Qy+U6MdSAU=
+@size 2027
+share/gtk-doc/html/gio/file_mon.html
+@sha dPrfls00YaCDUOEn7GH4OXF0zdeDl5cEcmwCMsDqUTc=
+@size 1832
+share/gtk-doc/html/gio/file_ops.html
+@sha zMIv13Opk6rTqpi+bXKZPqWAIlNkZbIVNTFhZDT3sqo=
+@size 2598
+share/gtk-doc/html/gio/gapplication-tool.html
+@sha yRXNQ46V9v1V+NY3rvKIUtnebDXeZtpSnh+8NwGvhDA=
+@size 11761
+share/gtk-doc/html/gio/gdbus-codegen.html
+@sha ZzZoJ2oo7TgF9LK2AInbcwy1Vz7oeaVMtdJwl3L7Kf4=
+@size 62197
+share/gtk-doc/html/gio/gdbus-convenience.html
+@sha vFIwE+zI1wilFULLES0JnLcVG+pCTO5wRWWeW9Q1WE0=
+@size 3586
+share/gtk-doc/html/gio/gdbus-lowlevel.html
+@sha szkw3vQGG+W6Rxj7Ct3jbsih1AtBcfXI0m+DQdzh7LE=
+@size 3215
+share/gtk-doc/html/gio/gdbus-org.gtk.GDBus.Example.ObjectManager.Animal.html
+@sha ULHKWVEdmq7GNuORiYl2uAQ4vKhz0VWt+3TFOnXhRCg=
+@size 7986
+share/gtk-doc/html/gio/gdbus-org.gtk.GDBus.Example.ObjectManager.Cat.html
+@sha f+zzA1FycJHNxULyvS6dlcXadFY9ueWA/q1HKKj6Do8=
+@size 3108
+share/gtk-doc/html/gio/gdbus.html
+@sha aq4Lr5R9GxSsBqmmB14viWEMJYlUjXNmLFVJsyAGmP0=
+@size 13178
+share/gtk-doc/html/gio/gio-D-Bus-Addresses.html
+@sha eJuGoM+rd2YmX+qzHozss9c8sXYbzbpVjEmDBBR+I1s=
+@size 23134
+share/gtk-doc/html/gio/gio-D-Bus-Introspection-Data.html
+@sha WveCq6dos0Qr6VcBQcl40gb/ZdVbcVk3hXrMkrqUaZA=
+@size 91499
+share/gtk-doc/html/gio/gio-D-Bus-Utilities.html
+@sha uGT6FfQyZS+GRuMuD3+hkFbRJ+XaGhBTd06NvDjj9hc=
+@size 24312
+share/gtk-doc/html/gio/gio-Desktop-file-based-GAppInfo.html
+@sha 5oauxPH4GZg9DdnkZuK5z9BvdoxITrKmLMGR+bb7QmE=
+@size 59633
+share/gtk-doc/html/gio/gio-Extension-Points.html
+@sha /JzInUGAEfRJ5qIYzvAMWh22F7/PGXy42pyd+g6fxfg=
+@size 32661
+share/gtk-doc/html/gio/gio-GActionGroup-exporter.html
+@sha xp7ni3RnX7ZkBtZoNUr/xkhqHvDuP2wuQ4PXqYkaOok=
+@size 11132
+share/gtk-doc/html/gio/gio-GBytesIcon.html
+@sha 9IK6i9jlA1d0i2pVKheuq8XAzWQGd3XRAQSKfSpjc0Q=
+@size 8369
+share/gtk-doc/html/gio/gio-GContentType.html
+@sha yI5NYQ7fo28Vh0Nwoakq9msnz1jiLc/EDnSIPWfh6mc=
+@size 31935
+share/gtk-doc/html/gio/gio-GConverterInputstream.html
+@sha 5lxopIKlhx3ZDEhVJtE0LohEcBahuUBpFHPU4+XmqfM=
+@size 11501
+share/gtk-doc/html/gio/gio-GConverterOutputstream.html
+@sha Une/keZ1ghK8xrdeoaSiRbJX/LFKlz1SjN4VmXxB+yE=
+@size 11594
+share/gtk-doc/html/gio/gio-GDBusError.html
+@sha +45Wne0c58reL83SNJifTwR5l6UY1+5RRZdtuzGMf/4=
+@size 59990
+share/gtk-doc/html/gio/gio-GFileAttribute.html
+@sha yHNvCdOxJDgpzbbtPGNV9FzIJm8FWelcR4VU0yU1ndQ=
+@size 34294
+share/gtk-doc/html/gio/gio-GIOError.html
+@sha P5c8b3E6pGbQjASSMJZUqZThFyKZA7ZhcJfatolioXU=
+@size 21981
+share/gtk-doc/html/gio/gio-GIOScheduler.html
+@sha PPS/oYvN6y3lLwbqS7mNKPX0xsZNWBEVp56jb2vOVX0=
+@size 22107
+share/gtk-doc/html/gio/gio-GInetAddressMask.html
+@sha zzfZaWB+UT/EwSJvUWuQWmjXnVuxPrlgUxsIQVHqjzs=
+@size 22456
+share/gtk-doc/html/gio/gio-GMenuModel-exporter.html
+@sha n8vyQ9kc7LGhumMMFpsHQlWlnAntTNO9suGfrHfosQE=
+@size 10173
+share/gtk-doc/html/gio/gio-GNotification.html
+@sha +6LJrYTqeXorhqmEYTojJMnxcEvmbKR2MH5ltFHAt60=
+@size 35342
+share/gtk-doc/html/gio/gio-GPropertyAction.html
+@sha vdyCLom0CStCNdj4vycqyJeMFBlZsmqdIuNvUqhh2LQ=
+@size 10605
+share/gtk-doc/html/gio/gio-GResource.html
+@sha lFThHl7AEmV9Eq1H0bXVNybKTkO855p+6g0PaRTTDsI=
+@size 66126
+share/gtk-doc/html/gio/gio-GSettingsSchema-GSettingsSchemaSource.html
+@sha HBjI4Dr8DcFtraI99QwlxrM1F48th1viMx81jJbz/ak=
+@size 67450
+share/gtk-doc/html/gio/gio-GSubprocessLauncher.html
+@sha 8PoCi9JXt38vp3AuUsklrLGqX+j8idq5VizVMWT5aiE=
+@size 50944
+share/gtk-doc/html/gio/gio-GWin32InputStream.html
+@sha M+G9AWxNFFq1gHXtwUbtpzij8xJjdZmWcxiSfv8VqFE=
+@size 12827
+share/gtk-doc/html/gio/gio-GWin32OutputStream.html
+@sha Pdk/piOHNle7x72nx6RrKzzlOtcqxwjCgYHjOssyQMU=
+@size 12876
+share/gtk-doc/html/gio/gio-Owning-Bus-Names.html
+@sha mfphVjAnghOtlv9J7ox2D4zUnNaKfLEHGjeBMa/uhPY=
+@size 40623
+share/gtk-doc/html/gio/gio-TLS-Overview.html
+@sha oPqTE5nB9Tu1d91w8XgCPp5jHrk2AwNeaHZRdtxP8CA=
+@size 15233
+share/gtk-doc/html/gio/gio-Unix-Mounts.html
+@sha 3UHQBwrfntVpwGKdokw4eHjsFcuVurqtFymmyiJMhK8=
+@size 69774
+share/gtk-doc/html/gio/gio-Watching-Bus-Names.html
+@sha drG4D52Pvhf+4eRLiWmrxHLepAJLZAUDioXRMWafvZI=
+@size 35021
+share/gtk-doc/html/gio/gio-gnetworking.h.html
+@sha 42alKyYrP6iJae8dZrFzLzNjLWDi7IqVrljRJ1FM99s=
+@size 4685
+share/gtk-doc/html/gio/gio-gpollableutils.html
+@sha QH10XnTmxbHPVluJFktmZJjTu4BgNaaq9CARWIt94Qg=
+@size 33228
+share/gtk-doc/html/gio/gio-hierarchy.html
+@sha ClsSXhf9G8v2ggeaIM3iDfbyNZNTLydRW1EibGlBchg=
+@size 23675
+share/gtk-doc/html/gio/gio-querymodules.html
+@sha MpcEaaRmj9KvEZ7ZeDjLAT1DOSnrsk/rlwjx6DxUb2Y=
+@size 2537
+share/gtk-doc/html/gio/gio.devhelp2
+@sha NJDXN+DzVgOD4E5TonuNkuCj8BX6sSBt9Uw1dof/bJQ=
+@size 334016
+share/gtk-doc/html/gio/glib-compile-resources.html
+@sha PdxJhM8C+I0ipLRRpSk2BnzxoV/TINdhN6Hn8eWNRWQ=
+@size 8459
+share/gtk-doc/html/gio/glib-compile-schemas.html
+@sha HA90PDFLwjpmgW0qWJzCTyfWFscBZWfUelIkI555QQs=
+@size 5097
+share/gtk-doc/html/gio/gresource-tool.html
+@sha GOlDHvaH/ZWToLLtYK4AV7kxmHSp0CTW7bcxOmrjLWU=
+@size 5179
+share/gtk-doc/html/gio/gsettings-tool.html
+@sha /t3Khtpemu3Nm0Xp1Tkdvmylag+7lb7FRGqrjgDcpQY=
+@size 9025
+share/gtk-doc/html/gio/gvfs-overview.png
+@sha Jl5SW/gkeRspL3oofVvsjxUIdFflYYBoqGQfC1HmO+M=
+@size 48474
+share/gtk-doc/html/gio/highlevel-socket.html
+@sha bqFCfzsTkkfWe4MFZr0EzqDlDQRMWbcV1/bDe7PJEhU=
+@size 3278
+share/gtk-doc/html/gio/home.png
+@sha eo0ksA9ftruwRGJJtgXv3TZZjooPZaw/qy4YQ4xzuR4=
+@size 256
+share/gtk-doc/html/gio/icons.html
+@sha GaXfh4aQBXj0S10YEmDxEZ5iWFCrAE7Typk8+3xXPSk=
+@size 2658
+share/gtk-doc/html/gio/index.html
+@sha udqYyzrkFXKmCc4TqdivDKX9rNtajOpbNv0y6Y4mkM8=
+@size 34918
+share/gtk-doc/html/gio/index.sgml
+@sha LhVyrq0oqrpQ7y7J058PkPToHeATbvl9J+/izWDlyRA=
+@size 405636
+share/gtk-doc/html/gio/left-insensitive.png
+@sha MDNV2TysU0EJl9x6P5vWDzzg2OuueQiXjIcx/puxOf8=
+@size 395
+share/gtk-doc/html/gio/left.png
+@sha Drlv53VSTC1NTxZ9eQQbF8XMiukRJHhmUTLDGhQX+0o=
+@size 262
+share/gtk-doc/html/gio/menu-example.png
+@sha EUxicaMgQBtaiZA/7rUTHlEG/lqVOxRbUY+eKsgX/Lo=
+@size 31470
+share/gtk-doc/html/gio/menu-model.png
+@sha jlPl+bqFRZKjtS9B+onoT3QFEHDAyDEj/p6FuQGhEnI=
+@size 20647
+share/gtk-doc/html/gio/migrating.html
+@sha 4veQt0+xyLJpqnlRyMHO7xOdWlWEt5AT0olIn4wbMDY=
+@size 4909
+share/gtk-doc/html/gio/networking.html
+@sha /VntsMcpY95BdvEACWRMLg8v/D3XYXOTqB5P2mqaeVs=
+@size 4047
+share/gtk-doc/html/gio/permissions.html
+@sha 0a64JU3NG7FNKWlbQaSoNkEH+e8+zqkJ4c7gXHXUwO8=
+@size 2034
+share/gtk-doc/html/gio/pt01.html
+@sha wBb3p040fEmE4VupLsp0QEyY1GHk6y8P9xJBR5+TOtc=
+@size 2089
+share/gtk-doc/html/gio/pt02.html
+@sha iq69j7XchZr9pSN135UA4ANKRRFG8lpXOuPoJ7sEfeo=
+@size 30004
+share/gtk-doc/html/gio/resolver.html
+@sha E7/onryOCRdTslAFZrg60bGcsCmC0lfsKoffYcvCaoQ=
+@size 2869
+share/gtk-doc/html/gio/resources.html
+@sha oPSC3EhgFr9y2ZHW/W4WVKBgRpIlO6U3i+ArvTNpLiM=
+@size 1885
+share/gtk-doc/html/gio/right-insensitive.png
+@sha eUBQxkxJhCBZkWLys7aSgjLdC+eZHZQrHcCxZw64aV4=
+@size 373
+share/gtk-doc/html/gio/right.png
+@sha BimtOCgBhL4blGAvIBVweigXAVEFj3FxrtpQH88JedM=
+@size 261
+share/gtk-doc/html/gio/running-gio-apps.html
+@sha hgaW2Lj6Wu4oOgjD9S9gg6gyTVFK+B7aMJHNuRyzzbg=
+@size 10574
+share/gtk-doc/html/gio/settings.html
+@sha vHgwZBK8Yh+X/uSxKq02iCd3WwRfllS0QLGfLtJhFyc=
+@size 2276
+share/gtk-doc/html/gio/streaming.html
+@sha MJEaSGtHkRws9+jZqFrLJCGF0rc4Fj1L+qYVWgf12ac=
+@size 5998
+share/gtk-doc/html/gio/style.css
+@sha eoRgyBbt8zdnFlk4Fy8+7cqUb8DyoNpFvq9oNIyc9tg=
+@size 8696
+share/gtk-doc/html/gio/subprocesses.html
+@sha MJyxuRZfWu9nxCPyWY8gSCky3JjaxbqLLI30f9iafAo=
+@size 2009
+share/gtk-doc/html/gio/testing.html
+@sha RJp6fGNjbANGhIFAQb7gFXEfgTd4UNbXhdyasRw6/1U=
+@size 1803
+share/gtk-doc/html/gio/tls.html
+@sha gOwn+kHLB+dqKOsy+x+g6ldTghze2I6NYvc5u3RI8Lo=
+@size 3300
+share/gtk-doc/html/gio/tools.html
+@sha torkBxME9CxHKaXHCMTq+uPwCp6jPU+eV1M9UU0reZk=
+@size 2960
+share/gtk-doc/html/gio/types.html
+@sha rRoU+ALzVB8KU8IXELupjpToNE+X5IcS3wXPTId6POY=
+@size 2410
+share/gtk-doc/html/gio/up-insensitive.png
+@sha BCDyBA7r9BgJioaj+y71qWWch9N7ge6FtpMWsEWpRTo=
+@size 374
+share/gtk-doc/html/gio/up.png
+@sha xUt1lI9NJjV90BgVkHjzb5De6vKc47nSvQ6mZV7xvag=
+@size 260
+share/gtk-doc/html/gio/utils.html
+@sha ftA4xiSQ5o93e+XyMPrCCxLAluGnS7rfl04HAkECMQw=
+@size 1856
+share/gtk-doc/html/gio/volume_mon.html
+@sha 2mQbDmUjTe8ABNIdvPK0hWIrcJnCD2RaamdopXl3W/E=
+@size 2412
+share/gtk-doc/html/glib/
+share/gtk-doc/html/glib/Sorted_binary_tree_breadth-first_traversal.svg
+@sha wtP6OVfBJGIwVHSibTJfImDIJd/mHJj98mCTDC0HWOc=
+@size 7239
+share/gtk-doc/html/glib/Sorted_binary_tree_inorder.svg
+@sha lPizfsqRiUbEo4V6QAyOzBZ7I+p6pFxXiows2fO7XWA=
+@size 36890
+share/gtk-doc/html/glib/Sorted_binary_tree_postorder.svg
+@sha KPGBdYlHszevsXmy1a92b6VObWc6Ew966o7i+xgVqGY=
+@size 36718
+share/gtk-doc/html/glib/Sorted_binary_tree_preorder.svg
+@sha +u6n4tfcsrl1pYN341SAnVSA44XcXMnTsfrsyV1NObU=
+@size 36727
+share/gtk-doc/html/glib/annotation-glossary.html
+@sha IU8BnO3IihQJh8yD6efdUxLWLKYilM0sILHFlFpVMaM=
+@size 5596
+share/gtk-doc/html/glib/api-index-2-10.html
+@sha S+2OHOr3U3NvbIxtZoZT98UzpNMNgk2NNiEgJQt6M+U=
+@size 10200
+share/gtk-doc/html/glib/api-index-2-12.html
+@sha in6huYC3ixpVM2C1G5xu9sShjxP4MhJy2MYNw6QMPCA=
+@size 21398
+share/gtk-doc/html/glib/api-index-2-14.html
+@sha ryO9QV/UY8/sEabDedUlfz6mzEVhXAYCkBq9ximlAWU=
+@size 38740
+share/gtk-doc/html/glib/api-index-2-16.html
+@sha jXGGqMK2DkwjYdZEgOr4d3hzUAiNoD0/OS5bwlXhYTw=
+@size 20928
+share/gtk-doc/html/glib/api-index-2-18.html
+@sha PMob/aMz6Re1DLT7N/0LG1T7Z7C1YLs1E4gFlBpKgzw=
+@size 6354
+share/gtk-doc/html/glib/api-index-2-2.html
+@sha 3Viihkho4Rx3tmBJkQvyoGmfs1zOXn8DTqyFLBaYVNA=
+@size 7439
+share/gtk-doc/html/glib/api-index-2-20.html
+@sha kfDZPKjJF4L89KWcUeqdA1p6NyzL5tzyQeUC8mc19S8=
+@size 4929
+share/gtk-doc/html/glib/api-index-2-22.html
+@sha dPt3ejPwmdFTMCvM6jsfAR4mNIKPm4B4Lj+njjL2f5k=
+@size 11329
+share/gtk-doc/html/glib/api-index-2-24.html
+@sha 4nzN/FXN3WUUqr4Lk3c+hCT+8BhlVyUiA85o7Lxpe2g=
+@size 23912
+share/gtk-doc/html/glib/api-index-2-26.html
+@sha V62ZEPKiYekEDMVXtX8Zv3GcHUGKD1DrISKtGs3rojM=
+@size 23252
+share/gtk-doc/html/glib/api-index-2-28.html
+@sha pGHQ+wF+y8uukW4k6DZGNeKop3vRnoNa2CYZX0BYk6k=
+@size 7412
+share/gtk-doc/html/glib/api-index-2-30.html
+@sha rB3BGFZqsMJGTu4Grsw2NJyX98UQ/i77NJ8oSHTllHk=
+@size 15812
+share/gtk-doc/html/glib/api-index-2-32.html
+@sha PcvyP9M4F+eJ4xxxMCu4Eeq22TqAsMa9mdre5FeCDuA=
+@size 20020
+share/gtk-doc/html/glib/api-index-2-34.html
+@sha hN41p4TpXjfbknJzW/j18Cxt2fVNC8/atWND0ZXCuS4=
+@size 6984
+share/gtk-doc/html/glib/api-index-2-36.html
+@sha kFctIUcE6QonbvUGJKydjC6hRbIqHDCdFtOnbOmt+G8=
+@size 7372
+share/gtk-doc/html/glib/api-index-2-38.html
+@sha 4wDM1S5nsa6pad8nCrAeLB1Gr0ussT1cA4cjpgy/808=
+@size 5818
+share/gtk-doc/html/glib/api-index-2-4.html
+@sha yA8ClhkO1888d6HbNcm1DAO/lVR1scUh68mxragY23Y=
+@size 24041
+share/gtk-doc/html/glib/api-index-2-40.html
+@sha 8clAtTPwoqFRKhRmRufvIl9VpqXeWTjVgJLG/hmma3w=
+@size 8965
+share/gtk-doc/html/glib/api-index-2-6.html
+@sha 55/qiRup0H2F579sRJ61L3Y/RG9BzJvBttAQ3J7fdlc=
+@size 28576
+share/gtk-doc/html/glib/api-index-2-8.html
+@sha 6GxQh2D8JQWq03G0NsTBIQI4RZWDuxjiTXUu1Ipsusc=
+@size 9523
+share/gtk-doc/html/glib/api-index-deprecated.html
+@sha Z5tISqqP8KpRmvvBugAnosG3TMMipKc7dT0uBVlF9kM=
+@size 40222
+share/gtk-doc/html/glib/api-index-full.html
+@sha Cj4x4YeFrJWf7cWzvGtHEJYSMTKhRrDQOqaW3fv+BLc=
+@size 570022
+share/gtk-doc/html/glib/deprecated.html
+@sha pUHp8tA4+AOm41BX2Lk4wLp/EPYBndstOEfyrgU2OF0=
+@size 2556
+share/gtk-doc/html/glib/file-name-encodings.png
+@sha 7xf4sO9W49doS9R6eraoR2YnGuvViw6hQM9V/TKEO/w=
+@size 32141
+share/gtk-doc/html/glib/glib-Arrays.html
+@sha KkGyVaH2VaG4akmKN8KWBwp8gdU8H+v0Ys3UqwdcsLU=
+@size 56270
+share/gtk-doc/html/glib/glib-Asynchronous-Queues.html
+@sha S9QNr1dd/fZ27pxnvIaU7HQGArrTEAVTLmx0+FI8FyM=
+@size 64770
+share/gtk-doc/html/glib/glib-Atomic-Operations.html
+@sha 92TOfZN7S9+bhXsPZp/nkFp7D/nGd7AVDMC0ffrrIHM=
+@size 45156
+share/gtk-doc/html/glib/glib-Automatic-String-Completion.html
+@sha OknIXjcC4IKU8MF2WohoHzth421EmzpeN8FEkdtCGVE=
+@size 35670
+share/gtk-doc/html/glib/glib-Balanced-Binary-Trees.html
+@sha LNswDaASNRj67m6GbUg+JvgL+1gRhLbj9C0owVYa1lE=
+@size 53300
+share/gtk-doc/html/glib/glib-Base64-Encoding.html
+@sha rvJIODCY0JhLHHAKzDz+JTIf0ahwbW4qSI+vLJGC0GA=
+@size 26429
+share/gtk-doc/html/glib/glib-Basic-Types.html
+@sha e6Vjd3P52gzTSTtkeA/ceVXjmnuDFEcoz9fsWz1wbC8=
+@size 60810
+share/gtk-doc/html/glib/glib-Bookmark-file-parser.html
+@sha NQV4/ipDMylXJVpyyQbZXVKkdEFRD/PdqNkp7zchmQc=
+@size 143154
+share/gtk-doc/html/glib/glib-Byte-Arrays.html
+@sha UaqAhTSr9TqIqCf2Ava/eBkGWMS9gqlmxU8eAtd8ATM=
+@size 89809
+share/gtk-doc/html/glib/glib-Byte-Order-Macros.html
+@sha jIj06N/MHfFXkVSdxY1p78Y67ImfpoWmXJWoAVnkv6E=
+@size 86667
+share/gtk-doc/html/glib/glib-Caches.html
+@sha wqL7A6P8X15zsbkM6en1VrDbaW1djG0BTJvSf1Qb/bQ=
+@size 29136
+share/gtk-doc/html/glib/glib-Character-Set-Conversion.html
+@sha GY67i2ZNjaLPrPek6zRdx0VeJRP7c9lBaRJEBhYShv0=
+@size 74737
+share/gtk-doc/html/glib/glib-Commandline-option-parser.html
+@sha 7+EqyzuG5lIoJrsEWtDEsE1RVX+2dDQiXzYSK+kjHJU=
+@size 131420
+share/gtk-doc/html/glib/glib-Data-Checksums.html
+@sha A5bD7uesWhqoY1EAtJSvN6PdX5PjF5fRjtRmvsAZsbE=
+@size 35235
+share/gtk-doc/html/glib/glib-Data-HMACs.html
+@sha k4/mKvQROMAQUONaQ1vPXIz/O/BI0xvXdHgREreAn/U=
+@size 29093
+share/gtk-doc/html/glib/glib-Datasets.html
+@sha Nm3Lt5O2BZnj4eP5UgAhQWLoWf/gSb3vr15caW396/4=
+@size 30836
+share/gtk-doc/html/glib/glib-Date-and-Time-Functions.html
+@sha LPo+WGfDIcnre5tVXgdwbieZftizA8TUNGMZI3t9MZk=
+@size 134294
+share/gtk-doc/html/glib/glib-Deprecated-Thread-APIs.html
+@sha 9w60SFisjhyPvzhn8lqDYQ2xL+TyuyMYNPRmvBU3QyA=
+@size 122878
+share/gtk-doc/html/glib/glib-Double-ended-Queues.html
+@sha 5HFV2/EmCLR7ZvIUIQe18pSbrr2oKPuBS1p6LsYfh9k=
+@size 88752
+share/gtk-doc/html/glib/glib-Doubly-Linked-Lists.html
+@sha V+l/z7xuXSOErPBnWcxhyNp5Q2h7TvGYfN0kcMpPOB0=
+@size 105554
+share/gtk-doc/html/glib/glib-Dynamic-Loading-of-Modules.html
+@sha o5GmNI7bxnUwfy1huuF++hgvFFFOfwLTM+cY161GSYY=
+@size 37905
+share/gtk-doc/html/glib/glib-Error-Reporting.html
+@sha XCbJ7K1eNK7W0R4T9pgTy6sZNtnRzyH/qFc0/v75Vzo=
+@size 71050
+share/gtk-doc/html/glib/glib-File-Utilities.html
+@sha HW3tCBaRNlBww4oH9GvTwpjELVxuS9m/zMGXJIlzgmo=
+@size 132499
+share/gtk-doc/html/glib/glib-GDateTime.html
+@sha 2ktColB8BTxKvzikFD8b2QhEECLOuwANw+UZvcYTp6E=
+@size 128843
+share/gtk-doc/html/glib/glib-GTimeZone.html
+@sha 9x3rkIQptzXc8E5vqbX5j7PtpnLtOJ20eJgki2IVi5k=
+@size 33319
+share/gtk-doc/html/glib/glib-GVariant.html
+@sha +sbHvikrg8HUkmTTLSNIEVoBnqbQ24uA89M0NG3tBT8=
+@size 406686
+share/gtk-doc/html/glib/glib-GVariantType.html
+@sha gKzBT6gNE1MNdgGuxPtXMdrkMM4CtMThCLLWyRWFTSg=
+@size 105771
+share/gtk-doc/html/glib/glib-Glob-style-pattern-matching.html
+@sha SUdaZkb+QKSZH+1tXeLHxx3RqChJUJg3ig0Ibzjxa78=
+@size 20608
+share/gtk-doc/html/glib/glib-Hash-Tables.html
+@sha MCocZSjdBj7iFMs13ol0U8/uVN+/rPm/MGi9o7HjJJ4=
+@size 132613
+share/gtk-doc/html/glib/glib-Hook-Functions.html
+@sha o8LjzgJZxJTjxFflVXSBjoqxgSFjHD5wmhxLxwkMxhA=
+@size 100240
+share/gtk-doc/html/glib/glib-Hostname-Utilities.html
+@sha 7cKowupRDhjGhJlW0QDu8Rts8sq+HoTtb9gPHLSEHPg=
+@size 14714
+share/gtk-doc/html/glib/glib-I18N.html
+@sha e142dmVtdzCtxyE5EHpQmoSjHrwiwElMD4iHMlT8mA8=
+@size 41725
+share/gtk-doc/html/glib/glib-IO-Channels.html
+@sha 3Jz/dZjEKwMttuWKLoorin0N8HPKeX/dZY61rMKdKTE=
+@size 152758
+share/gtk-doc/html/glib/glib-Key-value-file-parser.html
+@sha 1YOjvHIG9EmCQsTYbSQ5w1ebFBWJRxffXAKpBLQ7SRc=
+@size 198695
+share/gtk-doc/html/glib/glib-Keyed-Data-Lists.html
+@sha 4bE9Wwr/vvmxazCICpWKKbOr2IMP5ksBFeJMNmfcsUY=
+@size 50231
+share/gtk-doc/html/glib/glib-Lexical-Scanner.html
+@sha +FItlIMOwwzqmB17HqbWLiE0bxpvxVkA5fyTPkrv0Sg=
+@size 99115
+share/gtk-doc/html/glib/glib-Memory-Allocation.html
+@sha Ta+G3wS8BZNkvlOEj/54mSIYihH6SpeXHAyvPoU2jxw=
+@size 66833
+share/gtk-doc/html/glib/glib-Memory-Slices.html
+@sha JwM8HI2rp7fbSmtdF3KM8crKQ/nHcw4CZwBjaA5AGEE=
+@size 30593
+share/gtk-doc/html/glib/glib-Message-Logging.html
+@sha D48QYxE86hSsTZHLNxVM8RIt4U8VTSn0IXs7jOkDiSk=
+@size 47255
+share/gtk-doc/html/glib/glib-Miscellaneous-Macros.html
+@sha FFfev8PPz8lWHObA/78nCDl62az87zEpaw3aQHVykAY=
+@size 54947
+share/gtk-doc/html/glib/glib-Miscellaneous-Utility-Functions.html
+@sha SEjlUKz7+Me1yxQaRaJyDA2Upvfst+Iz0LbtRqW8b2Y=
+@size 121627
+share/gtk-doc/html/glib/glib-N-ary-Trees.html
+@sha JiuCEzOM0tb9Ep28c3fRW4VZhjCiCVi2nVrHK/OLP0I=
+@size 105460
+share/gtk-doc/html/glib/glib-Numerical-Definitions.html
+@sha NjcbJM3KNhniW4lgDggdzCyhol7hZia/pewqOGEDoxs=
+@size 11111
+share/gtk-doc/html/glib/glib-Perl-compatible-regular-expressions.html
+@sha ZKNHL+5AK3BdVmGKTSAzR5bzBfUDwza/WGTKGSTAl2E=
+@size 204607
+share/gtk-doc/html/glib/glib-Pointer-Arrays.html
+@sha RuBiP8OOGi6a49LUQJakBzQtDb4hm6MBcZa0ZiKryVo=
+@size 57740
+share/gtk-doc/html/glib/glib-Quarks.html
+@sha g0dVFxUGj2sjSZ9njXbT9pQAfrzSAwkLm4WSM3x1ohU=
+@size 20761
+share/gtk-doc/html/glib/glib-Random-Numbers.html
+@sha HCQmSLqv4cUvLXeoFDMPddbCVvNkaAE2LwJJRvdfQeI=
+@size 35802
+share/gtk-doc/html/glib/glib-Relations-and-Tuples.html
+@sha qlwP8FIOVfJn892CkYoklr8V0BKMfmwTMg2ec7jNuM0=
+@size 35216
+share/gtk-doc/html/glib/glib-Sequences.html
+@sha riswQ7eoGCkLW3SURO+t0YdJIGmNv7biGExSyQz9HDM=
+@size 104144
+share/gtk-doc/html/glib/glib-Shell-related-Utilities.html
+@sha vRZw+LTZ5fqVKqGxRc+bdhFlnJtWsJYrX4EDySwsCvM=
+@size 14790
+share/gtk-doc/html/glib/glib-Simple-XML-Subset-Parser.html
+@sha RKrm9FcQQsZMz2CIiIp6ssUBr/38RNvOWyNlaTE06pc=
+@size 81386
+share/gtk-doc/html/glib/glib-Singly-Linked-Lists.html
+@sha Anst4Io1zV6wsGP+l2nMP6dNMavB6XgBSh6TxwUmj6Y=
+@size 84148
+share/gtk-doc/html/glib/glib-Spawning-Processes.html
+@sha sYhkwZADhpITDwtRbrTGdCbMBrMV68EKfYoKQrfk4A4=
+@size 80842
+share/gtk-doc/html/glib/glib-Standard-Macros.html
+@sha kJMm17dbkzt25OrbmVclKnDD16HFAAnttUSWhljH+Fg=
+@size 22039
+share/gtk-doc/html/glib/glib-String-Chunks.html
+@sha Pl/HRN+30LYAp0uFQorslbd6VNHGuZBsF/r3Fp+GuLw=
+@size 20920
+share/gtk-doc/html/glib/glib-String-Utility-Functions.html
+@sha lZpVwwMIPm/qVvy9LOXgXt4nDSZ4qQ4pPu7wEH1d8i4=
+@size 202885
+share/gtk-doc/html/glib/glib-Strings.html
+@sha 7emMRtrTC8exuIJ3RXAphryQSc32YDp2tcpidIdWWlc=
+@size 86447
+share/gtk-doc/html/glib/glib-Testing.html
+@sha bectkAq5tGdJW9/ET+NyLfzi48b7RnYR/SmmK/iOSfI=
+@size 159327
+share/gtk-doc/html/glib/glib-The-Main-Event-Loop.html
+@sha cpA98GAdgyfkFxEHm0/UdL5/i1yL/sXWoJlhbG62SjA=
+@size 291910
+share/gtk-doc/html/glib/glib-Thread-Pools.html
+@sha NZisQIaMj0Y035c24pNUqt05yywyb8BA8UXfaUz2ADU=
+@size 41474
+share/gtk-doc/html/glib/glib-Threads.html
+@sha 9j//kPB+YBf8b0ykswpO3NZEi6r74gfasBr42iXKH1M=
+@size 164482
+share/gtk-doc/html/glib/glib-Timers.html
+@sha 4fHFb7yA1ic9D603fM2hlgvHYxzYH5pqPSmU+85N9Dg=
+@size 14913
+share/gtk-doc/html/glib/glib-Trash-Stacks.html
+@sha UyOjQtNQ46xZcMkhD9ci5nvyLklRG/LISoOZBi1w+I8=
+@size 12376
+share/gtk-doc/html/glib/glib-Type-Conversion-Macros.html
+@sha sfRM7IwHZdDhGkCzgPS4sIdXxq00u5jkf9YKIxkfAZ4=
+@size 14233
+share/gtk-doc/html/glib/glib-UNIX-specific-utilities-and-integration.html
+@sha 1Ol7aQL9fSvtvFiZoCEwvgRQuXUShnK0CIy5Zw9NQb4=
+@size 34355
+share/gtk-doc/html/glib/glib-URI-Functions.html
+@sha /lgilCzlOuFF67MGSGaP74Z5QQJe/32dehv4ct24q4k=
+@size 26390
+share/gtk-doc/html/glib/glib-Unicode-Manipulation.html
+@sha VFRuna9PwFqJGpSx5AjOMIbg13W/nyFXGHWXATNoEzI=
+@size 227051
+share/gtk-doc/html/glib/glib-Version-Information.html
+@sha e76I8WoGDIpcDt8PUu1IIsnHmU+8m2xQHoEhmzkTKFA=
+@size 20964
+share/gtk-doc/html/glib/glib-Warnings-and-Assertions.html
+@sha 24YGgpx5QpwBoZt9WXNZlaFATVeF45PvHkuVc14iENc=
+@size 29614
+share/gtk-doc/html/glib/glib-Windows-Compatibility-Functions.html
+@sha QEZVvBo+H10JsjAVJpt2/+rpmKNNi+FTKk05az7x478=
+@size 35100
+share/gtk-doc/html/glib/glib-building.html
+@sha IXpg+OkkTo1bRpx0yFyaiR2E9qg+ds0r60qZdy1Ci+I=
+@size 22976
+share/gtk-doc/html/glib/glib-changes.html
+@sha dqU0T9TmeqzWfvl4xWJ1eqJIF1n+FCfwWLWYFAW1a/M=
+@size 6497
+share/gtk-doc/html/glib/glib-compiling.html
+@sha 5Z0L1/AEuQ9RZThrcsM2g5icEh55KzDGKm0Jjk3IFo4=
+@size 6513
+share/gtk-doc/html/glib/glib-core.html
+@sha k06VdZ13OrtXCia2+kA4bUPQPuEYYcnWHYSds2M9Usk=
+@size 3854
+share/gtk-doc/html/glib/glib-cross-compiling.html
+@sha 2uvmdUcRGExPuk7JwPn1ZHrN0Yy46eKCaifKM4UO7g4=
+@size 8101
+share/gtk-doc/html/glib/glib-data-types.html
+@sha LtX3h77KBxHCaUbKEfycwEAzaouGF9SRnaAjncxsfo4=
+@size 5549
+share/gtk-doc/html/glib/glib-fundamentals.html
+@sha g0hSvsWlUSvL1fy3R3hZ8yxlcqRKibjkqiS8kcq5btw=
+@size 3233
+share/gtk-doc/html/glib/glib-gettextize.html
+@sha idT2FXJCPD4iOqos/8TGEzoFc2LOhNuR1l/0or95GPI=
+@size 3865
+share/gtk-doc/html/glib/glib-programming.html
+@sha lDLThSO8CqY8NAFFiQTZuspyHRfgYW71G9ogMcGFfzM=
+@size 3623
+share/gtk-doc/html/glib/glib-regex-syntax.html
+@sha aicAlS2C5HbcsyxhviW6E7LzwaKQ+vGdj0wKIJ18Vr8=
+@size 81233
+share/gtk-doc/html/glib/glib-resources.html
+@sha +8N9vtiIJHF2CHH3aChYV+WBN5f2ZJmPWvbMnZjYr/k=
+@size 5460
+share/gtk-doc/html/glib/glib-running.html
+@sha TwG56krSBncnaeiBrJCb39bwmziBoUQcY/7aC72D53E=
+@size 13773
+share/gtk-doc/html/glib/glib-utilities.html
+@sha teRDw4jz0M2mNWFWokKmaT2a6947V94SBEIRRvucNSY=
+@size 7213
+share/gtk-doc/html/glib/glib.devhelp2
+@sha Q3vqGU3Ls6nlwmqloNJEHBRE59ntZvdB9DnCKJ2+WQc=
+@size 281135
+share/gtk-doc/html/glib/glib.html
+@sha k8sr+vVw4ODMgrU+bVBgIo3wGg9BkUdR6/hsI4tv10A=
+@size 3281
+share/gtk-doc/html/glib/gtester-report.html
+@sha kURg8NJs14C7Rfdy/IMXp+wmY5rwgrsoB0aubEFRl+I=
+@size 3098
+share/gtk-doc/html/glib/gtester.html
+@sha 81EOOZKI2loKBGU6Zp9kENGL84lpYMdUFWPIDLJmD8o=
+@size 6349
+share/gtk-doc/html/glib/gvariant-format-strings.html
+@sha ED8yhWOKEU4zK3Svsxs/TiwurSHA7bbXZgS53iaRkI8=
+@size 73541
+share/gtk-doc/html/glib/gvariant-text.html
+@sha SwULE3X01zmHbICBxnscKXNjw7bRzt92L7o5OIJNxlo=
+@size 27832
+share/gtk-doc/html/glib/home.png
+@sha eo0ksA9ftruwRGJJtgXv3TZZjooPZaw/qy4YQ4xzuR4=
+@size 256
+share/gtk-doc/html/glib/index.html
+@sha KG/y2PZPdCYNADur336atTJkMCmlwwOVeZKF5Nj+MAw=
+@size 19857
+share/gtk-doc/html/glib/index.sgml
+@sha 9XHVCeUJRwlBJUdfws4nZf+0Azs9DFzbGafrCsuQrpo=
+@size 268389
+share/gtk-doc/html/glib/left-insensitive.png
+@sha MDNV2TysU0EJl9x6P5vWDzzg2OuueQiXjIcx/puxOf8=
+@size 395
+share/gtk-doc/html/glib/left.png
+@sha Drlv53VSTC1NTxZ9eQQbF8XMiukRJHhmUTLDGhQX+0o=
+@size 262
+share/gtk-doc/html/glib/mainloop-states.gif
+@sha 9f/TV9qreSSj9E9ZB1/sX8c9Mf0iuG80+DnAg8MsXgY=
+@size 7088
+share/gtk-doc/html/glib/right-insensitive.png
+@sha eUBQxkxJhCBZkWLys7aSgjLdC+eZHZQrHcCxZw64aV4=
+@size 373
+share/gtk-doc/html/glib/right.png
+@sha BimtOCgBhL4blGAvIBVweigXAVEFj3FxrtpQH88JedM=
+@size 261
+share/gtk-doc/html/glib/style.css
+@sha eoRgyBbt8zdnFlk4Fy8+7cqUb8DyoNpFvq9oNIyc9tg=
+@size 8696
+share/gtk-doc/html/glib/tools.html
+@sha EpJOfX1QQ6eb1+J/3nacWX5ILIyuccAepWlDN2h81e0=
+@size 2157
+share/gtk-doc/html/glib/up-insensitive.png
+@sha BCDyBA7r9BgJioaj+y71qWWch9N7ge6FtpMWsEWpRTo=
+@size 374
+share/gtk-doc/html/glib/up.png
+@sha xUt1lI9NJjV90BgVkHjzb5De6vKc47nSvQ6mZV7xvag=
+@size 260
+share/gtk-doc/html/gobject/
+share/gtk-doc/html/gobject/GBinding.html
+@sha PXntD9tPiFu0zsXwYwkMwv48MVHmjp6cOTe5P7CxkG8=
+@size 58090
+share/gtk-doc/html/gobject/GTypeModule.html
+@sha WZr4yscJv/bOdRd1odBorGlPdYbholKc6say5LLNoxw=
+@size 42979
+share/gtk-doc/html/gobject/GTypePlugin.html
+@sha 9fKYzAC30nhqkUzKnG35IG3U+t0SnH9BZ/lZUFh+c0I=
+@size 32586
+share/gtk-doc/html/gobject/annotation-glossary.html
+@sha mS5Re7jMWtYaa8q54HJ4e3YDYA1FTbesWdr26yoNnfU=
+@size 5344
+share/gtk-doc/html/gobject/api-index-2-10.html
+@sha KBS74vwXLXeeyXGGLeH4ivW8GHDqOMU0Kdqc0fNB1cY=
+@size 5121
+share/gtk-doc/html/gobject/api-index-2-12.html
+@sha 1rB/5x8lvn6I86jlLXOpirMYYRwZbL8blMfg6fslK2g=
+@size 3192
+share/gtk-doc/html/gobject/api-index-2-14.html
+@sha 5zhSAEXk58N68pJ7UFfjAuenqWyQnBzZWqZAnF/vnpA=
+@size 2659
+share/gtk-doc/html/gobject/api-index-2-18.html
+@sha bP3tvvOLKa4Fp0V5JQ2LOEZwe8szFJviUxmqjESygGU=
+@size 2589
+share/gtk-doc/html/gobject/api-index-2-2.html
+@sha zZNBXjqSDVKX0rTm6e2SzbqOhwJaf7zsfJfAFFKDRxw=
+@size 2097
+share/gtk-doc/html/gobject/api-index-2-22.html
+@sha YFvfYn+ybhdHEFOMigDpO33VXp4yC4zaRPN/kz/zH20=
+@size 2481
+share/gtk-doc/html/gobject/api-index-2-24.html
+@sha itc3zs4XiYWmKvw0hYMKjb+JYLkptusNexJwVQJ/WVA=
+@size 4148
+share/gtk-doc/html/gobject/api-index-2-26.html
+@sha Gs9IHkfp6ClQTQbe6KdkKzHoRz1NwrXrwZ0YCu8ybTs=
+@size 12358
+share/gtk-doc/html/gobject/api-index-2-28.html
+@sha uscyLjgHmMIfM9G5xDF/hTbiqJTMHQIECgQq+T318AY=
+@size 2461
+share/gtk-doc/html/gobject/api-index-2-30.html
+@sha HotNXD0oea6AYwoonrhiF/sfbgH1zxR4XqJ+CKKEOFk=
+@size 3759
+share/gtk-doc/html/gobject/api-index-2-32.html
+@sha C0qDpqMZCSfD7/qMkJdZVajtPSlwvo6TAeUx1W+EIck=
+@size 4611
+share/gtk-doc/html/gobject/api-index-2-34.html
+@sha e4xLc10FPbR35W4lldH4hXP8g44BQONqOC3E+t3tJe8=
+@size 3490
+share/gtk-doc/html/gobject/api-index-2-36.html
+@sha Tppx8+HHbHODsey29dhUnP6XQTCzVkj9CfEI8INJ78c=
+@size 3063
+share/gtk-doc/html/gobject/api-index-2-38.html
+@sha uuP/b28Cx2BL/5piw46RV6t+WiDZQ30v9WCBMJfz4j0=
+@size 4055
+share/gtk-doc/html/gobject/api-index-2-4.html
+@sha 6gBJQEgkzcpAnYbMGG6uwgKzX2C1bnPXE+FSHPqn9o0=
+@size 11803
+share/gtk-doc/html/gobject/api-index-2-6.html
+@sha MGPnTgPAQTVstkkSuAri3YbPQoYBd2TGfw7pst2mYLc=
+@size 2291
+share/gtk-doc/html/gobject/api-index-2-8.html
+@sha duCoWIRbyO140lCs6VkIpPV7sS6UVewhR5iy4iRUadY=
+@size 2354
+share/gtk-doc/html/gobject/api-index-deprecated.html
+@sha FLwEuH/xnFuctz9TTs7RvK4ePr2+9lnZb7jKI8zBcDY=
+@size 9397
+share/gtk-doc/html/gobject/api-index-full.html
+@sha NS17COMZu+v5elFnAsE5JkFeauxTpBdqcE/SxTVA8jk=
+@size 202668
+share/gtk-doc/html/gobject/ch01s02.html
+@sha XuObfdYEX0a42c5pBDkc/JBHltnX51gHpy/w2NO0DCA=
+@size 7901
+share/gtk-doc/html/gobject/chapter-gobject.html
+@sha 8Ki8S2B++oMdSuQ5RwIs6M/3eOx2ntW6KJN6c64gs/M=
+@size 14724
+share/gtk-doc/html/gobject/chapter-gtype.html
+@sha c3zRjNCMpAzsbJfRJrof4/+bguf1B2VNLqM8B+HFJ7w=
+@size 14811
+share/gtk-doc/html/gobject/chapter-intro.html
+@sha dwHjGPN1FZVGpjfHc6HIBM1nFYcJrRj9NoHPUSNx8hE=
+@size 5051
+share/gtk-doc/html/gobject/chapter-signal.html
+@sha Q+vFibeJKt5w/UPzTfl1+hihB/6wujKIA9Ekg4JP90s=
+@size 12733
+share/gtk-doc/html/gobject/glib-genmarshal.html
+@sha C3znYYp3pBjQkFgS/2hFVcA5a4E0QX2qUhf3w/4u6hU=
+@size 12360
+share/gtk-doc/html/gobject/glib-mkenums.html
+@sha 6w56s6yIiupU4r0jVh7VdDb+rf7A8uG9h1ql74dlvEM=
+@size 12158
+share/gtk-doc/html/gobject/glue.png
+@sha mJsCAwfdlulfGNhkeDcEjnP6/T+MlplH3EdIWDdx5Jk=
+@size 12722
+share/gtk-doc/html/gobject/gobject-Boxed-Types.html
+@sha MZAomRRuLM/6wi15z55/NHpchDpLKvxx0NrWxNVk4l8=
+@size 37091
+share/gtk-doc/html/gobject/gobject-Closures.html
+@sha iy2h8M1JGdfunDhHWVViK9h8Hqc3tbqkdyEoc0pTsSA=
+@size 217902
+share/gtk-doc/html/gobject/gobject-Enumeration-and-Flag-Types.html
+@sha A3KAoTDUj1o9Slxpw1BZWzNXOkChw98Oolz8Aq1lvEQ=
+@size 59918
+share/gtk-doc/html/gobject/gobject-GParamSpec.html
+@sha 67jtb69JyO7UM5bxusR79zOqK5EnuWgkj9WaroT81uk=
+@size 107329
+share/gtk-doc/html/gobject/gobject-Generic-values.html
+@sha S6Q+Og9lKu/1h1FJQJTK8e7/HT1EaJCHb9AC9TTkFns=
+@size 54989
+share/gtk-doc/html/gobject/gobject-Signals.html
+@sha m7O7Z2eMNDwoVvsJUaGY9DtOJ8efAXPq+y/QaxDh+Ug=
+@size 184881
+share/gtk-doc/html/gobject/gobject-Standard-Parameter-and-Value-Types.html
+@sha r/1Z7bEpgh0OSfdLWf6aUn7LuB7QObGoc7MOjjC7G3E=
+@size 412742
+share/gtk-doc/html/gobject/gobject-The-Base-Object-Type.html
+@sha QH6rg3iDtzlkSAbYmyvSgSePuln9veYSjUBo84DEyuk=
+@size 227552
+share/gtk-doc/html/gobject/gobject-Type-Information.html
+@sha 8tj0Oplz/MavtFdGBwfgvbK7qNAR8PLaPOdMTmNrSp4=
+@size 306748
+share/gtk-doc/html/gobject/gobject-Value-arrays.html
+@sha O4pEYRjTRV1uyRFOFH+Drt4NABjBcykbXvKZz53MCow=
+@size 40279
+share/gtk-doc/html/gobject/gobject-Varargs-Value-Collection.html
+@sha RHUC6Sb19mXUpcpU5B63aAluxqvXjFa6PDFNFunY8b4=
+@size 16173
+share/gtk-doc/html/gobject/gobject-memory.html
+@sha 1mDRuihwlXprEYsBtqVIy7oWDAabCyQxp2w7BWZdOY0=
+@size 13632
+share/gtk-doc/html/gobject/gobject-properties.html
+@sha L+S5N49kmkd97cOjQHB+zRaYrBTw85ElamAkiT6/6M4=
+@size 24958
+share/gtk-doc/html/gobject/gobject-query.html
+@sha gVPIECPzALEuZP8RXsnUP99wTP0HhgXBaG3FkSD/n80=
+@size 4349
+share/gtk-doc/html/gobject/gobject.devhelp2
+@sha g6wasNKjKTN6xAhgIJLdkuvwvKlQJ51f068aH3656Fg=
+@size 100220
+share/gtk-doc/html/gobject/gtype-conventions.html
+@sha h/kXLsaEbAnsacpp2Vt8A47mqaeUv1KfPfll8UYT4Do=
+@size 8014
+share/gtk-doc/html/gobject/gtype-instantiable-classed.html
+@sha U8nMulGR25w6acA7yKwC5KSFfo79gxWSwk9U5cgle2s=
+@size 14180
+share/gtk-doc/html/gobject/gtype-non-instantiable-classed.html
+@sha urO3BYdbOuEvKd6UOJkilCn9JMoBxYUgxmJlXyigdUM=
+@size 17260
+share/gtk-doc/html/gobject/gtype-non-instantiable.html
+@sha mrMTl1CzSE9qpIZBKfViDQDPkJQZkoEIqXrdX/lHIBs=
+@size 4427
+share/gtk-doc/html/gobject/home.png
+@sha eo0ksA9ftruwRGJJtgXv3TZZjooPZaw/qy4YQ4xzuR4=
+@size 256
+share/gtk-doc/html/gobject/howto-gobject-chainup.html
+@sha PA62lQM8RncxrhhEZVreJwnMsshcs+QzCxZ+Jz3Z9tQ=
+@size 5541
+share/gtk-doc/html/gobject/howto-gobject-code.html
+@sha yCbR3c4ARC3mAkyKzY9fMwW3voipTz77n5GsCKYL8B8=
+@size 3642
+share/gtk-doc/html/gobject/howto-gobject-construction.html
+@sha JQ+nmojFX1idG5vmiJMc89G39oKCrD2SukdHk/HwSSg=
+@size 8494
+share/gtk-doc/html/gobject/howto-gobject-destruction.html
+@sha Gm6+uUWuIeCnf9KwGccaATa2ViI3KUyrAF05wXyNE4U=
+@size 4818
+share/gtk-doc/html/gobject/howto-gobject-methods.html
+@sha 261xcgTWgiEiqgLRy/S/ssa9d0kes7pU/Wj2LggtG1E=
+@size 8368
+share/gtk-doc/html/gobject/howto-gobject.html
+@sha tZkFdayIxfCbFfHPLJ1hN58wIxsoTBjFmxpTOR36Xyg=
+@size 11397
+share/gtk-doc/html/gobject/howto-interface-implement.html
+@sha C/LMa7dEZZQROSVNCo665N0052rPGBRZi1oXP2jFGo0=
+@size 5753
+share/gtk-doc/html/gobject/howto-interface-override.html
+@sha 2VoT8MfTsaOC6np/bwkcYIUEU9fjeQJXOsgbuISGpDU=
+@size 5216
+share/gtk-doc/html/gobject/howto-interface-prerequisite.html
+@sha 8Co+fiImu33KYkmleNlf9rsZbSWR6HUZ/CkUQzLggtg=
+@size 5202
+share/gtk-doc/html/gobject/howto-interface-properties.html
+@sha /CzHZ6D2c3DFV+FOKbJFCajOMMxpD+3soU2+q4DI3Qg=
+@size 6489
+share/gtk-doc/html/gobject/howto-interface.html
+@sha V2B9qazxxj/oD49ousJLcue7hHE9jKrkH6J+YDGQ0mE=
+@size 7247
+share/gtk-doc/html/gobject/howto-signals.html
+@sha qck1iLx3ZuTB67FciMM9KH6EcIUg2Jsqu3/50HShXBQ=
+@size 5764
+share/gtk-doc/html/gobject/index.html
+@sha esZ7joEuwuOXrWnwlelUrDWVUcYyi4Z4jbxwShSfReQ=
+@size 12668
+share/gtk-doc/html/gobject/index.sgml
+@sha 7vNLjy+PqxvVVHX/QjAOQr13qYljkia40hR2xnP0YC8=
+@size 94524
+share/gtk-doc/html/gobject/left-insensitive.png
+@sha MDNV2TysU0EJl9x6P5vWDzzg2OuueQiXjIcx/puxOf8=
+@size 395
+share/gtk-doc/html/gobject/left.png
+@sha Drlv53VSTC1NTxZ9eQQbF8XMiukRJHhmUTLDGhQX+0o=
+@size 262
+share/gtk-doc/html/gobject/pr01.html
+@sha E7dXEPe3P0GHIV1P9uCpYTEKcY+FQY21FqhpLa472EA=
+@size 3494
+share/gtk-doc/html/gobject/pt01.html
+@sha RbcAKTF0+01t6zuZyU+IANakM+VkE8RljaHN/CyQbLM=
+@size 4994
+share/gtk-doc/html/gobject/pt02.html
+@sha Gu5Qlm+EjwhPZA43ndxBPiaFe7Dy0eVz9cEvk8hDTGE=
+@size 3981
+share/gtk-doc/html/gobject/pt03.html
+@sha brZfgsDcMcETQLZd83SXwY/WPhd5jEtgkNpMFYnvDDk=
+@size 2732
+share/gtk-doc/html/gobject/right-insensitive.png
+@sha eUBQxkxJhCBZkWLys7aSgjLdC+eZHZQrHcCxZw64aV4=
+@size 373
+share/gtk-doc/html/gobject/right.png
+@sha BimtOCgBhL4blGAvIBVweigXAVEFj3FxrtpQH88JedM=
+@size 261
+share/gtk-doc/html/gobject/rn01.html
+@sha +4MDXCJycCDmaEa/IM2qf3GE46ViZ6S5DvKpnbAV68o=
+@size 4264
+share/gtk-doc/html/gobject/rn02.html
+@sha lNpuNZ2Ge5cDHBMFi0/Awn3pMUxA+DQ7sHu+fGj2Rng=
+@size 2189
+share/gtk-doc/html/gobject/signal.html
+@sha XRzODi8/H1390fgx5YT3sD6/IVOXr8vCeo2NTVMbTdo=
+@size 20963
+share/gtk-doc/html/gobject/style.css
+@sha eoRgyBbt8zdnFlk4Fy8+7cqUb8DyoNpFvq9oNIyc9tg=
+@size 8696
+share/gtk-doc/html/gobject/tools-ginspector.html
+@sha aI3+csJLcanDpoNIwJtiTkIdKFyQ6t6wd51VL5oItpw=
+@size 1964
+share/gtk-doc/html/gobject/tools-gob.html
+@sha uR1kJJoJrwzAwh+wPm5JAg5gnyx0ZWwPfuiDaXHWw9E=
+@size 2282
+share/gtk-doc/html/gobject/tools-gtkdoc.html
+@sha KpMVMtUHhKfTI7cXs9HjZKQ8QZgtKEdHx3MvhEcjkto=
+@size 3092
+share/gtk-doc/html/gobject/tools-refdb.html
+@sha 1sX40+3PdbihKQgOTJy/wbaKtzKCl/e9djqj3hh95F8=
+@size 2425
+share/gtk-doc/html/gobject/tools-vala.html
+@sha 0XBgToYetYMV3AEiW2afb1Gs2ArtxpHYhgfWsB2TVMM=
+@size 2246
+share/gtk-doc/html/gobject/up-insensitive.png
+@sha BCDyBA7r9BgJioaj+y71qWWch9N7ge6FtpMWsEWpRTo=
+@size 374
+share/gtk-doc/html/gobject/up.png
+@sha xUt1lI9NJjV90BgVkHjzb5De6vKc47nSvQ6mZV7xvag=
+@size 260
+share/locale/af/
+share/locale/af/LC_MESSAGES/
+share/locale/af/LC_MESSAGES/glib20.mo
+@sha 3LVtsPgnnzhpJS07hac1R6XPCyB2VPTPgRi0gWY0V0g=
+@size 7931
+share/locale/am/
+share/locale/am/LC_MESSAGES/
+share/locale/am/LC_MESSAGES/glib20.mo
+@sha oG05qHKB9zdUVqvT88IodqwAm7rdj7cwZxHiI7rwPMQ=
+@size 2696
+share/locale/an/
+share/locale/an/LC_MESSAGES/
+share/locale/an/LC_MESSAGES/glib20.mo
+@sha lSm47CWakRqJ+4g6Qrjyt1A3XDO6Bm3EGvTxqkUF1fo=
+@size 99463
+share/locale/ar/
+share/locale/ar/LC_MESSAGES/
+share/locale/ar/LC_MESSAGES/glib20.mo
+@sha sd4/bJEv+lbnFfwBTkWqUUpg8EK52nRPETcRpnq/mSU=
+@size 46822
+share/locale/as/
+share/locale/as/LC_MESSAGES/
+share/locale/as/LC_MESSAGES/glib20.mo
+@sha zywvQ0kWDmSEVBM0Q4RFB3HHHRTb/3DRr0/YKOlgu0c=
+@size 141886
+share/locale/ast/
+share/locale/ast/LC_MESSAGES/
+share/locale/ast/LC_MESSAGES/glib20.mo
+@sha xyTJLoapMuqEtWp1UspDuh6OlRLm87Mkx34CJzP8+l8=
+@size 46631
+share/locale/az/
+share/locale/az/LC_MESSAGES/
+share/locale/az/LC_MESSAGES/glib20.mo
+@sha ttRhSgPbUQW6izGx6m3GcFtvUxkj4IfKQ2+zQu7FzwI=
+@size 12743
+share/locale/be/LC_MESSAGES/glib20.mo
+@sha Iq+giQoPLI0oCw+8EsGh8aIKBbK2BcOJ25t1zNV0ayE=
+@size 122700
+share/locale/be@latin/
+share/locale/be@latin/LC_MESSAGES/
+share/locale/be@latin/LC_MESSAGES/glib20.mo
+@sha Em6CPoJJgW2zFfKrRqrO3HRsToTc3DoQUld+54gwD/Y=
+@size 37359
+share/locale/bg/LC_MESSAGES/glib20.mo
+@sha SCHTLoZbRJvzwz4GZ67lnLpqD0UYgpJJellcMrAz58Y=
+@size 124751
+share/locale/bn/
+share/locale/bn/LC_MESSAGES/
+share/locale/bn/LC_MESSAGES/glib20.mo
+@sha b6OpE5sEvSrURSgJvVE3vsJ1tx5ED+raWcm0VLwLbZ0=
+@size 72605
+share/locale/bn_IN/
+share/locale/bn_IN/LC_MESSAGES/
+share/locale/bn_IN/LC_MESSAGES/glib20.mo
+@sha uqNhlpeIP4KQ37yLgwJRmMQFFLL3VQJ9qY0qlS1+A60=
+@size 71213
+share/locale/bs/
+share/locale/bs/LC_MESSAGES/
+share/locale/bs/LC_MESSAGES/glib20.mo
+@sha yXAaXl5l4ZkNG2vPXmzrpJ9xXgmMZNzA0jj6RVh9ZzM=
+@size 12368
+share/locale/ca/LC_MESSAGES/glib20.mo
+@sha KgAbJxP7ylxi+StFGqq9IL45nN2zQ8M6ZII8DJSYkYk=
+@size 101697
+share/locale/ca@valencia/
+share/locale/ca@valencia/LC_MESSAGES/
+share/locale/ca@valencia/LC_MESSAGES/glib20.mo
+@sha k6HA7dPpVHpUxpEzxe+DVpmh3bg5kVRryvVQrUxb7hY=
+@size 101398
+share/locale/cs/LC_MESSAGES/glib20.mo
+@sha O7q1sAFbO5M9Jl7PCnwOonAgjxRhxOQS63n9qGsKkww=
+@size 96165
+share/locale/cy/
+share/locale/cy/LC_MESSAGES/
+share/locale/cy/LC_MESSAGES/glib20.mo
+@sha aXJ96u65Mdi2gaDIcA+n0UD6ebLJB2StD5fZPSfYvU8=
+@size 27429
+share/locale/da/LC_MESSAGES/glib20.mo
+@sha AasyQrmfY/MFiOGcYphpC/6GUKj3JRJ9BGmUrmoskww=
+@size 96448
+share/locale/de/LC_MESSAGES/glib20.mo
+@sha k/FVa3WTJMQLessXRxJli2RT1aIy9AaIXqhRenmHJw8=
+@size 99147
+share/locale/dz/
+share/locale/dz/LC_MESSAGES/
+share/locale/dz/LC_MESSAGES/glib20.mo
+@sha LcJT/HAooyliJduyYPlxSPAZGLzR4CorU50Ss719elo=
+@size 34875
+share/locale/el/LC_MESSAGES/glib20.mo
+@sha Z8dRJ/MXmNCAbxxsJ3SrKqtRxkYczJysBjmiR4U25Ss=
+@size 131227
+share/locale/en@shaw/
+share/locale/en@shaw/LC_MESSAGES/
+share/locale/en@shaw/LC_MESSAGES/glib20.mo
+@sha CIKpDw+Q6jfgpahM/wYIKCFTpVRpYjeB0c5eqwQHA3M=
+@size 69756
+share/locale/en_CA/
+share/locale/en_CA/LC_MESSAGES/
+share/locale/en_CA/LC_MESSAGES/glib20.mo
+@sha QtHkZyR8+tPSVqTY/z/kxXzckPckDFa5TxheLXwgAx8=
+@size 78633
+share/locale/en_GB/
+share/locale/en_GB/LC_MESSAGES/
+share/locale/en_GB/LC_MESSAGES/glib20.mo
+@sha icjBmqCdN0U3cy+qQb9UVuvH4OCWsxiNnTZpDD0AK4Y=
+@size 88805
+share/locale/eo/LC_MESSAGES/glib20.mo
+@sha 5OQhdB+9nQc2WQCOefV3wYMIlsQhEJ4kjJ2Jsefl2Tg=
+@size 86038
+share/locale/es/LC_MESSAGES/glib20.mo
+@sha OayK2gAdHwtPpXWRgc9kO5nmTMCM5slCpnnGgeaf048=
+@size 102393
+share/locale/et/LC_MESSAGES/glib20.mo
+@sha fAnF1S8iRGIkhrkr6JMgFcMHH7CEfItqMrl3OwyglJA=
+@size 51517
+share/locale/eu/LC_MESSAGES/glib20.mo
+@sha wGK7MDS/BgvACH2VM/fqBXXKaWIVZM/RE4m9T773Fhc=
+@size 96128
+share/locale/fa/
+share/locale/fa/LC_MESSAGES/
+share/locale/fa/LC_MESSAGES/glib20.mo
+@sha gA+HM3i0C9ZgmNmjuCTBdFVDvJrV4CnIG0ckx1mSCyc=
+@size 56429
+share/locale/fi/LC_MESSAGES/glib20.mo
+@sha 1oTDl3n06wAMF74b/VHN12bog9iovPRMulW9qpqfoEg=
+@size 79456
+share/locale/fr/LC_MESSAGES/glib20.mo
+@sha T56liT4ZvJrxzZ224NZwgfDJojvXE+fdXTotTp6VHVg=
+@size 107020
+share/locale/ga/LC_MESSAGES/glib20.mo
+@sha 0m4JEjc1gCONIK3PGWGjhRFnwj+344hcIPYWVDx4/Cw=
+@size 13248
+share/locale/gl/LC_MESSAGES/glib20.mo
+@sha Yj6jKTJMss7GYW7EQjNMeInRccc66NyXmhWsrqfzTPc=
+@size 102573
+share/locale/gu/
+share/locale/gu/LC_MESSAGES/
+share/locale/gu/LC_MESSAGES/glib20.mo
+@sha tOyLhMs+SwIaw9d1aM6OJXPO8+7I2Ppa4oxevsxz8no=
+@size 138467
+share/locale/he/LC_MESSAGES/glib20.mo
+@sha k6w98cdCDFTGc0HccszobBuLPR4RGTJpWN1lRz7TaTk=
+@size 92729
+share/locale/hi/
+share/locale/hi/LC_MESSAGES/
+share/locale/hi/LC_MESSAGES/glib20.mo
+@sha zYoUGo4pIz0FmQuTMZ/9Tj86mVUvrNi14vMJC/fPW3E=
+@size 140956
+share/locale/hr/LC_MESSAGES/glib20.mo
+@sha WuIrLtik24BJAPGF+Gebp8uHhepTjisqc80R8Hf6TlA=
+@size 17441
+share/locale/hu/LC_MESSAGES/glib20.mo
+@sha ZDI27UvCfw5NxjeGSYQ9fO+kNSD2ulqJQrHA3QvV7yw=
+@size 99434
+share/locale/hy/
+share/locale/hy/LC_MESSAGES/
+share/locale/hy/LC_MESSAGES/glib20.mo
+@sha 8N6xzPH04AiiyLutTxHggZXnJ0E23xijQTPz3CFvX5U=
+@size 91571
+share/locale/id/LC_MESSAGES/glib20.mo
+@sha jBKxBxWfsNXIdVQ9hovrFjLGYFZstcbiJhJswzK5DyY=
+@size 96057
+share/locale/is/
+share/locale/is/LC_MESSAGES/
+share/locale/is/LC_MESSAGES/glib20.mo
+@sha qXkLFWahtj7pwAplJu3391c0YOaDciahTd7k1DaUzPA=
+@size 11916
+share/locale/it/LC_MESSAGES/glib20.mo
+@sha rE+ClYz1mkTr6uTcOTF1JT3q6NPUrkJboyMK4zY/aBY=
+@size 100849
+share/locale/ja/LC_MESSAGES/glib20.mo
+@sha 2OaVaTjxtLyWSgGDtzF41V9kPTdSZAVuqfFkeaLONw4=
+@size 82470
+share/locale/ka/
+share/locale/ka/LC_MESSAGES/
+share/locale/ka/LC_MESSAGES/glib20.mo
+@sha WiUHzGiDiv8LZNs9VPXtdHrfZVuA4y/suPUidRf6If8=
+@size 34272
+share/locale/kk/
+share/locale/kk/LC_MESSAGES/
+share/locale/kk/LC_MESSAGES/glib20.mo
+@sha N97FjQ6+9tTYhsMUl6iYtbnHP7CbmOJNw2udLcynfA4=
+@size 7210
+share/locale/kn/
+share/locale/kn/LC_MESSAGES/
+share/locale/kn/LC_MESSAGES/glib20.mo
+@sha ctwb8I/w0sfKkxLeRk4C6BvNgpGIrhLUOztISI0VQ9E=
+@size 154829
+share/locale/ko/LC_MESSAGES/glib20.mo
+@sha Ro7bmIqZWnFZBLaEdmN2WEDjGc9976dzoZ0EQ2Y73Rk=
+@size 105772
+share/locale/ku/
+share/locale/ku/LC_MESSAGES/
+share/locale/ku/LC_MESSAGES/glib20.mo
+@sha RPpUriuWarOaiOg6DtMpPdpHyB425FkbkRzR7lUBnA8=
+@size 2868
+share/locale/lt/
+share/locale/lt/LC_MESSAGES/
+share/locale/lt/LC_MESSAGES/glib20.mo
+@sha BjTJ2tlgxdpt5zjgDD7HIjTlc9M7rYAL1ZFIq5tW9fM=
+@size 98691
+share/locale/lv/LC_MESSAGES/glib20.mo
+@sha X7SfISwUykwRue8izpM7rltBkxCpb1QCxxn0NkHKFrM=
+@size 98938
+share/locale/mai/
+share/locale/mai/LC_MESSAGES/
+share/locale/mai/LC_MESSAGES/glib20.mo
+@sha OpWZ3xDuTqksFSIxGWSED4uN32j4PFHpBpRHX35SoRE=
+@size 43284
+share/locale/mg/
+share/locale/mg/LC_MESSAGES/
+share/locale/mg/LC_MESSAGES/glib20.mo
+@sha uzHbXsURm9M99zPRtS4HL93KUAwnfccSE4N5sHjMfN8=
+@size 19620
+share/locale/mk/
+share/locale/mk/LC_MESSAGES/
+share/locale/mk/LC_MESSAGES/glib20.mo
+@sha NzOQd59/PzTtBf/ajV6/MGkDVC0ybGIw1KKac0/OLBA=
+@size 48283
+share/locale/ml/
+share/locale/ml/LC_MESSAGES/
+share/locale/ml/LC_MESSAGES/glib20.mo
+@sha mXX7OPb0yCv7u2EgxcNaHKson8iL0wf2Y9rVNz/KMt0=
+@size 96978
+share/locale/mn/
+share/locale/mn/LC_MESSAGES/
+share/locale/mn/LC_MESSAGES/glib20.mo
+@sha 7yMYjGSMVnR2P2mQuqNlwFx4yrBuNub9zceNPRX+Fbo=
+@size 19212
+share/locale/mr/
+share/locale/mr/LC_MESSAGES/
+share/locale/mr/LC_MESSAGES/glib20.mo
+@sha +7tmG1mvchzKJTDPKd01HPiMSp2CE8Y2FMbqW6O7k6g=
+@size 139532
+share/locale/ms/
+share/locale/ms/LC_MESSAGES/
+share/locale/ms/LC_MESSAGES/glib20.mo
+@sha B9C3m7tSpxFv60L7NwKG9u6VP3SA0yx+cZKUMNhykXE=
+@size 12052
+share/locale/nb/LC_MESSAGES/glib20.mo
+@sha mI9CZGsWr6XTOfD6lUaoXrBxjiRaYwzSCaFZeKPVLg0=
+@size 94337
+share/locale/nds/
+share/locale/nds/LC_MESSAGES/
+share/locale/nds/LC_MESSAGES/glib20.mo
+@sha QNEe2vby9fKFvuIUra+UJvLyUrWDCN7tMJTZJbwa/Ls=
+@size 6479
+share/locale/ne/
+share/locale/ne/LC_MESSAGES/
+share/locale/ne/LC_MESSAGES/glib20.mo
+@sha kNN48/xwCrlxUBjXiAsVpMKG4riOTbXoGyPSo//L1k8=
+@size 25834
+share/locale/nl/LC_MESSAGES/glib20.mo
+@sha WCsK2Jhws+3K8TUfjeSUJwuCAxyixz78nzycLw4iIa8=
+@size 64525
+share/locale/nn/LC_MESSAGES/glib20.mo
+@sha WszNcbvP3XDKjodc00jFkvuuAHDfj+RNXDSiUYDTOtU=
+@size 36300
+share/locale/oc/
+share/locale/oc/LC_MESSAGES/
+share/locale/oc/LC_MESSAGES/glib20.mo
+@sha kR0bq1cUErKXZ1GQLB/DLsiN36qutbu0kh1OzxRjQCY=
+@size 2988
+share/locale/or/
+share/locale/or/LC_MESSAGES/
+share/locale/or/LC_MESSAGES/glib20.mo
+@sha 1FDUnmQNotz5EjNTZT0yB74KbmoHOOBGUB8ylUb4jbs=
+@size 145383
+share/locale/pa/LC_MESSAGES/glib20.mo
+@sha DrvIgyQYo4Srs3D32YILbyH4LFaXF+H5b/dYK6kS5tI=
+@size 136672
+share/locale/pl/LC_MESSAGES/glib20.mo
+@sha qc0GUJJf5zJK6kQKGzIp4JsTxA+Q6SKGiyq65lJuQgo=
+@size 102669
+share/locale/ps/
+share/locale/ps/LC_MESSAGES/
+share/locale/ps/LC_MESSAGES/glib20.mo
+@sha Ng7OsTdBKEoGNoSWkx963gE+oSCP145yYF4uHwNHP6A=
+@size 11631
+share/locale/pt/LC_MESSAGES/glib20.mo
+@sha XlgEDAiGiTfgJ4A22gxO6e4WOTA1lgt0pLdBR34r5Bc=
+@size 99767
+share/locale/pt_BR/LC_MESSAGES/glib20.mo
+@sha /GGjbtixxdiB4JKYnb1BGdS1R8OG6ugcYsYXZyAn0QU=
+@size 99688
+share/locale/ro/LC_MESSAGES/glib20.mo
+@sha aH4cmnrFjB6HvzHnvILaZaqDciYlJSCcGfLmC3c9jSg=
+@size 80423
+share/locale/ru/LC_MESSAGES/glib20.mo
+@sha TWgs2NVIDBbWnK+xtRhGL/E+n5jd9TqJO+zm3M8rBd4=
+@size 130515
+share/locale/rw/
+share/locale/rw/LC_MESSAGES/
+share/locale/rw/LC_MESSAGES/glib20.mo
+@sha N9pJcC9rAkAaOZQxWsaamFHkU74GNuGc6aryCw8BGLQ=
+@size 2238
+share/locale/si/
+share/locale/si/LC_MESSAGES/
+share/locale/si/LC_MESSAGES/glib20.mo
+@sha nLDlh3BMUwhgy2PJud3M14NyKtUY4tZWnCtnLiZc21o=
+@size 11420
+share/locale/sk/LC_MESSAGES/glib20.mo
+@sha bbYHsTG90f89m3FnIwN7j5JDPtKJ/Z5Fg/7x2e8/CRY=
+@size 96896
+share/locale/sl/LC_MESSAGES/glib20.mo
+@sha LMczx+TK10fNIEfepCuu1HZlzfvKQMs8UY/fKpFNSjI=
+@size 93950
+share/locale/sq/
+share/locale/sq/LC_MESSAGES/
+share/locale/sq/LC_MESSAGES/glib20.mo
+@sha c/P5JBN696Ju1ABlfzjag7urtIvrxAgpJVynxUKcz+I=
+@size 38153
+share/locale/sr/LC_MESSAGES/glib20.mo
+@sha kfyUaN/d2kWfSDKADl5WJwqIcJ58McGta8Goj3bsyDo=
+@size 128204
+share/locale/sr@ije/
+share/locale/sr@ije/LC_MESSAGES/
+share/locale/sr@ije/LC_MESSAGES/glib20.mo
+@sha 6cBC6V7T89P5A8Ws6g/8mdpo19s/yuQ6VhTg5/TFAS4=
+@size 15673
+share/locale/sr@latin/
+share/locale/sr@latin/LC_MESSAGES/
+share/locale/sr@latin/LC_MESSAGES/glib20.mo
+@sha l1SX+abSzpbSRcZSkHBfnJLNh925ynf8YwoNdmhVs+8=
+@size 100077
+share/locale/sv/LC_MESSAGES/glib20.mo
+@sha WrYasZbsTzDLZYiSsbWDL5xHrsXB+56tLfBXGu0CdhM=
+@size 89184
+share/locale/ta/
+share/locale/ta/LC_MESSAGES/
+share/locale/ta/LC_MESSAGES/glib20.mo
+@sha cv698xX1LegEccw5LFOsfUgvuahfFuK1wmAeg0C9GRo=
+@size 158350
+share/locale/te/
+share/locale/te/LC_MESSAGES/
+share/locale/te/LC_MESSAGES/glib20.mo
+@sha kUyqmMhhwIKaooTzqxoLYdFiEQNnGXvqk+REL6OsG94=
+@size 144418
+share/locale/tg/
+share/locale/tg/LC_MESSAGES/
+share/locale/tg/LC_MESSAGES/glib20.mo
+@sha 7Kt9LXYh9VRnCjDkFgDegP12yunTaBQmcelbY/AEs6g=
+@size 3678
+share/locale/th/
+share/locale/th/LC_MESSAGES/
+share/locale/th/LC_MESSAGES/glib20.mo
+@sha Ci0kzBqasFrwgE5unwDtl8Tm5CBbMg/e8ZzAB+lMMVg=
+@size 147748
+share/locale/tl/
+share/locale/tl/LC_MESSAGES/
+share/locale/tl/LC_MESSAGES/glib20.mo
+@sha nIS/xLCxnLVg91GgQRZgabGfQPHlANROMDf+G8ESuvM=
+@size 17922
+share/locale/tr/LC_MESSAGES/glib20.mo
+@sha 4blYasg/heM6ihYss23EiXZGWhRXsc+sgcYXrIz+znk=
+@size 55310
+share/locale/tt/
+share/locale/tt/LC_MESSAGES/
+share/locale/tt/LC_MESSAGES/glib20.mo
+@sha T3SFVelbUxKGy+PkWm/J2uweZFLsV5DTjy1Uly4JAbk=
+@size 7115
+share/locale/ug/
+share/locale/ug/LC_MESSAGES/
+share/locale/ug/LC_MESSAGES/glib20.mo
+@sha v34FXBEco3v0XxKCc2lTwtnRJjysfLN4/AbTdDopgu0=
+@size 122947
+share/locale/uk/LC_MESSAGES/glib20.mo
+@sha 5eZ3FdBtHlSlZMuFcPMxQipM2p3vmGOGR7oA8bkiJDk=
+@size 60090
+share/locale/vi/LC_MESSAGES/glib20.mo
+@sha J0Vs0VsN7t5UCBPIC03r9VGW7Z+JEILsTtirsCNw5Bw=
+@size 100121
+share/locale/wa/
+share/locale/wa/LC_MESSAGES/
+share/locale/wa/LC_MESSAGES/glib20.mo
+@sha Ao2TuV0UZG5MwcYlYo7gJYuNGku2DlfI/zddMr/QWhk=
+@size 6389
+share/locale/xh/
+share/locale/xh/LC_MESSAGES/
+share/locale/xh/LC_MESSAGES/glib20.mo
+@sha caAxEGyIA+o9z7IEXwrUNc9ZE6WM7tBwSh03nq+Gmt0=
+@size 15991
+share/locale/yi/
+share/locale/yi/LC_MESSAGES/
+share/locale/yi/LC_MESSAGES/glib20.mo
+@sha w39x5YNLeQ+VMZRNzYh50VM8NKMhQEBjd1KLw39SI/4=
+@size 15918
+share/locale/zh_CN/LC_MESSAGES/glib20.mo
+@sha hg1yOMQ9SddKDzWzhBS+/EA47rqrjk2BYCnpq/yMDhE=
+@size 90001
+share/locale/zh_HK/LC_MESSAGES/glib20.mo
+@sha QRrKhqdOpePXyRWF7Jr8qc1snJw01lHQFbsQbNAYvA4=
+@size 93089
+share/locale/zh_TW/LC_MESSAGES/glib20.mo
+@sha fLCLoGqPVtgDKXv7/4EcTqx1yI4PWyOBH0Q7kBr0DZw=
+@size 93011
+@exec %D/bin/glib-compile-schemas %D/share/glib-2.0/schemas >/dev/null
+@exec %D/bin/gio-querymodules %D/lib/gio/modules

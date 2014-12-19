@@ -1,0 +1,50 @@
+@comment $OpenBSD: PLIST,v 1.7 2014/07/11 14:11:12 giovanni Exp $
+@name p5-DBD-mysql-4.027
+@url http://ftp.fr.openbsd.org/pub/OpenBSD/5.6/packages/i386/p5-DBD-mysql-4.027.tgz
+@signer openbsd-56-pkg
+@digital-signature signify:2014-08-02T11:03:15Z:RWSPEf7Vpp2j0LQKwdpFh8nNMajATtVjlG5yWumbTKqPsx2MaX1RbkCg99rixRZG2quX9+ZKTROwrU5GRFIfZsRzjoZLGRmBDQY=
+@comment pkgpath=databases/p5-DBD-mysql cdrom=yes ftp=yes
+@arch i386
++DESC
+@sha yJaHOXXdGG74DfSyjLw+D8of4sz1m2wMRS7uyU8Y+v4=
+@size 458
+@depend databases/mysql,-main:mysql-client-*:mysql-client-5.1.73v0
+@depend databases/p5-DBI:p5-DBI->=1.08:p5-DBI-1.631p0
+@wantlib c.77.0
+@wantlib crypto.30.0
+@wantlib lib/mysql/mysqlclient.23.0
+@wantlib m.9.0
+@wantlib perl.15.0
+@wantlib pthread.18.0
+@wantlib ssl.27.0
+@wantlib z.5.0
+@cwd /usr/local
+@comment libdata/perl5/site_perl/i386-openbsd/Bundle/DBD/
+@comment libdata/perl5/site_perl/i386-openbsd/Bundle/DBD/mysql.pm
+@comment libdata/perl5/site_perl/i386-openbsd/DBD/README.pod
+libdata/perl5/site_perl/i386-openbsd/DBD/mysql/
+libdata/perl5/site_perl/i386-openbsd/DBD/mysql.pm
+@sha VZonngc3ItmF4ffZQFykko94PUhQK7GiWEe4YAfCgAI=
+@size 63274
+libdata/perl5/site_perl/i386-openbsd/DBD/mysql/GetInfo.pm
+@sha t2RDstEldkDi9vmcUibcsGKif9nWo1hVC7Ts4kWfhHo=
+@size 16025
+@comment libdata/perl5/site_perl/i386-openbsd/DBD/mysql/INSTALL.pod
+libdata/perl5/site_perl/i386-openbsd/auto/DBD/
+libdata/perl5/site_perl/i386-openbsd/auto/DBD/mysql/
+@comment libdata/perl5/site_perl/i386-openbsd/auto/DBD/mysql/mysql.bs
+libdata/perl5/site_perl/i386-openbsd/auto/DBD/mysql/mysql.so
+@sha 5+VOg70oitYak1OfQ31/pSyNQiGJkOX9X15RfvNFuIg=
+@size 241189
+@man man/man3p/Bundle::DBD::mysql.3p
+@sha RMcL8MT3ey8mhneM0glV89CV1gjDuTLhCcKXlCX2bh8=
+@size 4184
+@man man/man3p/DBD::README.3p
+@sha 4MCtgTKbi7IXtesIfz05zzwiGL0CaUkBejBCxvMilwQ=
+@size 4729
+@man man/man3p/DBD::mysql.3p
+@sha foeWOjWkzbhymK/HXxiCONfHOzwueDEopowa4Ba/MzA=
+@size 50712
+@man man/man3p/DBD::mysql::INSTALL.3p
+@sha Ea4sNk2kGbHLTs7A+n/z2k4kmR9OkJZbwdl4IhF4dfU=
+@size 31461

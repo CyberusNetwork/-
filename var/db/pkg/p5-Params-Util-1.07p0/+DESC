@@ -1,0 +1,7 @@
+utility to make parameter checking easier
+Params::Util provides a basic set of functions that makes checking
+parameters easier.
+
+Maintainer: The OpenBSD ports mailing-list <ports@openbsd.org>
+
+WWW: http://search.cpan.org/dist/Params-Util/

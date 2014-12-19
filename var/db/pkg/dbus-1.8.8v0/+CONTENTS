@@ -1,0 +1,213 @@
+@comment $OpenBSD: PLIST,v 1.19 2014/01/24 10:43:16 ajacoutot Exp $
+@name dbus-1.8.8v0
+@url https://stable.mtier.org/updates/5.6/i386/dbus-1.8.8v0.tgz
+@signer mtier-56-pkg
+@digital-signature signify:2014-10-29T19:50:41Z:RWQQss3E1pCsGzkN1uza3NNU8YGU8TJl3ZNW+T4Il69URDiG+WdM8KBmwlxFkjG5BJ+RWpCg8YDH0u4gvbvPqG+M5Ld1tQly7wM=
+@comment pkgpath=x11/dbus cdrom=yes ftp=yes
+@arch i386
++DESC
+@sha TYbBC2oO7XXOXqnQOFU6qikEuiN+fqoN2azXrJA9jJg=
+@size 448
+@wantlib ICE.10.0
+@wantlib SM.9.0
+@wantlib X11.16.0
+@wantlib c.77.0
+@wantlib expat.11.0
+@wantlib pthread.18.0
+@wantlib xcb.3.1
+@newgroup _dbus:572
+@newuser _dbus:572:_dbus:daemon:dbus user:/nonexistent:/sbin/nologin
+@cwd /usr/local
+@extra /var/db/dbus/machine-id
+@extra /etc/machine-id
+@bin bin/dbus-cleanup-sockets
+@sha evsU1/BhppZEn61G2yd0zVZ+fQZCyTzNRO0FhaCtBI0=
+@size 10800
+@bin bin/dbus-daemon
+@sha 6F/vcCTVQMROzjGAGqnRSk8OI5g14IlNA7ePnM32ieA=
+@size 384624
+@bin bin/dbus-launch
+@sha vvQPMcEgRimsodN9c7rA7JgVKGoSM7WHDB0n7tPaURs=
+@size 26352
+@bin bin/dbus-monitor
+@sha EzVrcMMeD2fhAGRwsy54C+kUznd4rFQMj/TDO9BkCro=
+@size 15056
+@bin bin/dbus-run-session
+@sha RglXheqKeMpPc/I7NjcD/Nt6B9zpC3j4VqLTYse50DA=
+@size 11216
+@bin bin/dbus-send
+@sha c12su9Y8bsvoRUgULED2eTWMXG04n4yNB9eRe+EcbiI=
+@size 19888
+@bin bin/dbus-uuidgen
+@sha 16u7+Zqle2AyL4CrMqxD4N3oAh5R9BLNdi3LclrJ38M=
+@size 10128
+include/dbus-1.0/
+include/dbus-1.0/dbus/
+include/dbus-1.0/dbus/dbus-address.h
+@sha nwuJwlpIJBD51j3cU+0AJRqcR3BWrObPXAnuUz39GtM=
+@size 2135
+include/dbus-1.0/dbus/dbus-bus.h
+@sha vPOA+SGOwnSM573VTVWcxUDvNIKXfOeS5Mg7o4W2zks=
+@size 3472
+include/dbus-1.0/dbus/dbus-connection.h
+@sha XrDDo3azEJdWXTJChsv7HyL3l95ko4DVicB2fONPU/w=
+@size 26029
+include/dbus-1.0/dbus/dbus-errors.h
+@sha WYRImAjF22FYX35JthZxEThrydQjyAk/65FkMDpgtuI=
+@size 2886
+include/dbus-1.0/dbus/dbus-macros.h
+@sha 0po6n06Mi7iz4m96wV7dc9zj/67/Q967dcPUFITAhWw=
+@size 5285
+include/dbus-1.0/dbus/dbus-memory.h
+@sha h7A1BylmVL/YP2qe+RhSHpOUQWQsCyVoD8Yf42wAOHY=
+@size 1975
+include/dbus-1.0/dbus/dbus-message.h
+@sha EL8rpln3r5K5gyoDQyPtIaCxQWy2PcZJbtXo9rbt2wI=
+@size 13018
+include/dbus-1.0/dbus/dbus-misc.h
+@sha kz7WkRmLmSFVLGSQiuXS/S2GKWTrtMsGT2Ac+UkQf4U=
+@size 1744
+include/dbus-1.0/dbus/dbus-pending-call.h
+@sha lh7HsLuPRsiUkdJ0GjBW1zZjcMSsUbynTd5Cq6X+emg=
+@size 3124
+include/dbus-1.0/dbus/dbus-protocol.h
+@sha 4b1X3oTDVQi/jua901ghdC/5c8xs6EmRlyUp9sE1RBI=
+@size 23182
+include/dbus-1.0/dbus/dbus-server.h
+@sha PKgi02WUaQW/PKT1D7LXoRAwcV/lunmmDRbVDz8YAuY=
+@size 4794
+include/dbus-1.0/dbus/dbus-shared.h
+@sha 6Wu6ZShAYPMHGbLoxY+qiXH13Jsrtxl3tYdBARUx4gE=
+@size 5135
+include/dbus-1.0/dbus/dbus-signature.h
+@sha V6sY2WRflEdEu8zdnDqLllJaCS9dWAhhyNfE+o3WcQI=
+@size 3049
+include/dbus-1.0/dbus/dbus-syntax.h
+@sha hL87kVr2QVZrhgOLHGlSERkqbXEfjoshN1z0UrI7vS0=
+@size 2359
+include/dbus-1.0/dbus/dbus-threads.h
+@sha L33+lomxeQzz+XXt/Qm2DXrHbxbrQ+ehJweVRJr3ctY=
+@size 8507
+include/dbus-1.0/dbus/dbus-types.h
+@sha hs89TmYO7EbID9Lk3/Sh4TOJXu0zP8ANkvE9/jjYh2A=
+@size 4145
+include/dbus-1.0/dbus/dbus.h
+@sha lB3I2INYW6CCbpnkaeMX+etRx58PkPfCneeXlLPr8Og=
+@size 3955
+lib/dbus-1.0/
+lib/dbus-1.0/include/
+lib/dbus-1.0/include/dbus/
+lib/dbus-1.0/include/dbus/dbus-arch-deps.h
+@sha y65jKbLIoKuPkQXHDpxhIIIACUyNlyXAtpAs8wqgeZw=
+@size 2058
+@comment lib/dbus-1.0/test/
+lib/libdbus-1.a
+@sha 2Wvoxmpd7d4/WuNzZMa9HOrlla73SpdGLSpFOj7OwPA=
+@size 505222
+lib/libdbus-1.la
+@sha M2qUYXhl9T7BSahUmYpWt7PfW4FLFmcqJXXZ206iUJ8=
+@size 754
+@lib lib/libdbus-1.so.11.0
+@sha 9eMa0fYtf0iVBz8WloTqqa6MvQd97dx7R5YVF4pulak=
+@size 320652
+lib/pkgconfig/
+lib/pkgconfig/dbus-1.pc
+@sha HX1y+cILcSiyKgH6aLL6N6pr33UsbLZ5ADxQgFuHsCc=
+@size 559
+@mode 4750
+@group _dbus
+@bin libexec/dbus-daemon-launch-helper
+@sha NzFP1mYn6xa04apMtUSMeyXPp6Hefjqw7vma5ZfeF70=
+@size 266576
+@mode
+@group
+@man man/man1/dbus-cleanup-sockets.1
+@sha L9v263IZvocm55MKObON4fM/H6aXQquBoVlqtIRcOwg=
+@size 1890
+@man man/man1/dbus-daemon.1
+@sha 6Ur65fpyo+kuncNOSO/nc2k3Mmr4rj5YniLNuEpQiqw=
+@size 30368
+@man man/man1/dbus-launch.1
+@sha b+tt7Evu/djFctw0TUQNErLqNyAyDmUX1wgGlhL5L5c=
+@size 8578
+@man man/man1/dbus-monitor.1
+@sha asfVMdI5/Hr6pNfSYXvtazSAALcEjspRG8AhyxS/A2Y=
+@size 2966
+@man man/man1/dbus-run-session.1
+@sha PzdIkHRL4bSCwMsAswrDpSZRVIkSrqqPF2PhCWHX01I=
+@size 3365
+@man man/man1/dbus-send.1
+@sha b6/uspSUWfK9IQKWwnfNZvTGtB2SSfE2gWnaGN3oERI=
+@size 4512
+@man man/man1/dbus-uuidgen.1
+@sha nOAaTTPn9OTK+UJDmgCB8ToI1VZr7VQHLlnmGlPF88U=
+@size 3377
+share/dbus-1/
+share/dbus-1/services/
+share/dbus-1/system-services/
+share/doc/dbus/
+share/doc/dbus/dbus-cleanup-sockets.1.html
+@sha 8Xv9S/cAl0Jj0xuGQVjil10pgBSDSVvl98bWOys6z1w=
+@size 2401
+share/doc/dbus/dbus-daemon.1.html
+@sha hr/wJy14TcxL76mIaFJHXtobVI5t8ttyqnUQ/DKfJgA=
+@size 34893
+share/doc/dbus/dbus-faq.html
+@sha uaVd+Q6CIFKWbwFV4RuMZrXhMTiJtP1cWyUSsE6ic6Q=
+@size 31626
+share/doc/dbus/dbus-launch.1.html
+@sha pjYdKyDSnIXysIrDQN1CeLSrEXvBzSg0t+n003du4iY=
+@size 10935
+share/doc/dbus/dbus-monitor.1.html
+@sha lr8S9L6y4oIKUN5h+/c2adll/l9/BDxyh5ZWfv6C2kQ=
+@size 4247
+share/doc/dbus/dbus-run-session.1.html
+@sha CJoUDFXE+XgpVbD9S+HP/VUcqGPWFZAVyYAd4BruopU=
+@size 5954
+share/doc/dbus/dbus-send.1.html
+@sha igREBQPhzcrxsHCXk5kmdh0npN6OU07yx5Tix6xaQKA=
+@size 6686
+share/doc/dbus/dbus-specification.html
+@sha vpFcQ6n5tM2LHWyyaaXYycLq+vLh2UdKf8IvBmaA0wU=
+@size 245684
+share/doc/dbus/dbus-test-plan.html
+@sha i7wcwjBd6suesYqLIWMnL4dT0W6dXSLibhQRkJDHX/A=
+@size 11141
+share/doc/dbus/dbus-tutorial.html
+@sha mW/95IXYfauEGDDcIqybiD++fBJ2T8dLOWWnrvrqnGs=
+@size 68196
+share/doc/dbus/dbus-uuidgen.1.html
+@sha VhLoxyvHpBv7qZ+MilpjjqudUc3XykGe5b/aPielGxo=
+@size 4283
+share/doc/dbus/diagram.png
+@sha VS1dBYLbOqbxgOroX5foIu68aTiwfYThogY6uF/z89c=
+@size 78762
+share/doc/dbus/diagram.svg
+@sha fzDxzH2VUmuGJyU/rGbj2ydIJg3Nakg6aTfmlwUQAE4=
+@size 33892
+share/doc/dbus/system-activation.txt
+@sha /99jwNHsJZzPpklcWt72F4+nNZJzjVoXImYT0RAfFUw=
+@size 3145
+share/doc/pkg-readmes/dbus-1.8.8v0
+@sha PLY+nhB5hQgSjbzJZQa3nYDD12U9yousDuB2Wr9RnCY=
+@size 815
+share/examples/dbus/
+share/examples/dbus/dbus-1/
+@sample /etc/dbus-1/
+share/examples/dbus/dbus-1/session.conf
+@sha 910cY6G9D2s+hoVYe2PjQfa5cAyMVw2uJ+jY+dCllAs=
+@size 2883
+@sample /etc/dbus-1/session.conf
+share/examples/dbus/dbus-1/session.d/
+@sample /etc/dbus-1/session.d/
+share/examples/dbus/dbus-1/system.conf
+@sha 1V0NzaZo6hkNjRP/nG3X7MWfvkB+mcS67MWNPDEevY8=
+@size 2991
+@sample /etc/dbus-1/system.conf
+share/examples/dbus/dbus-1/system.d/
+@sample /etc/dbus-1/system.d/
+@sample /var/db/dbus/
+@exec /usr/local/bin/dbus-uuidgen --ensure=/etc/machine-id
+@rcscript /etc/rc.d/dbus_daemon
+@sha jHQTidzcEuh0HsCoDxITTflEyB95D907MXVRezyGlEk=
+@size 331

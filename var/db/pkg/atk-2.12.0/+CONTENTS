@@ -1,0 +1,745 @@
+@comment $OpenBSD: PLIST,v 1.20 2014/03/26 08:29:11 ajacoutot Exp $
+@name atk-2.12.0
+@url http://ftp.fr.openbsd.org/pub/OpenBSD/5.6/packages/i386/atk-2.12.0.tgz
+@signer openbsd-56-pkg
+@digital-signature signify:2014-08-02T10:55:04Z:RWSPEf7Vpp2j0ANYHy6xaMbBnyQlaRXaZ4jMD/p5bJ9GrBgkLTKGa/WhrcVv1OC5yCcFn3Lr1VE6PQ9BO+pVeGSJxw1pnfOZPgk=
+@comment pkgpath=devel/atk cdrom=yes ftp=yes
+@arch i386
++DESC
+@sha eV8CkBFXX/eu8kOsFCydhY0bbGPFo+RfHfKV5NIBvoc=
+@size 382
+@depend converters/libiconv:libiconv-*:libiconv-1.14p1
+@depend devel/gettext:gettext->=0.10.38:gettext-0.19.1p0
+@depend devel/glib2:glib2->=2.40.0:glib2-2.40.0p7
+@wantlib ffi.1.0
+@wantlib glib-2.0.4000.0
+@wantlib gobject-2.0.4000.0
+@wantlib iconv.6.0
+@wantlib intl.6.0
+@wantlib pcre.3.0
+@wantlib pthread.18.0
+@cwd /usr/local
+include/atk-1.0/
+include/atk-1.0/atk/
+include/atk-1.0/atk/atk-enum-types.h
+@sha NZ1MTJZMh3UFmxUveagdsObUxGBs4nS1qR3TFHIkxj4=
+@size 1783
+include/atk-1.0/atk/atk.h
+@sha ClPke5Ys8LqcQxmh7hrTQ8qUounOk9HZ6NJUOEljF6Q=
+@size 1908
+include/atk-1.0/atk/atkaction.h
+@sha gefKwf6XMpFvw41iG+rPr9o4GDLl7kJnmh6KCcCIhDE=
+@size 4591
+include/atk-1.0/atk/atkcomponent.h
+@sha Tu/jn50CZldSar+vK6Ud63Qb8hs21QySW01G7qQjyy0=
+@size 10806
+include/atk-1.0/atk/atkdocument.h
+@sha hGfezFssUv6WN2pkRzCihiNpbRto+1fTNtjsSn+mgFE=
+@size 4785
+include/atk-1.0/atk/atkeditabletext.h
+@sha vGXW6OVfb38RzG9blf4U8bLK9F7Z1jiK0cfaQdAwyVc=
+@size 4789
+include/atk-1.0/atk/atkgobjectaccessible.h
+@sha xrNlTwxiPIm93CkzuxuI0AbYzoBBTWLSDqKub/1gMkQ=
+@size 2547
+include/atk-1.0/atk/atkhyperlink.h
+@sha 6/Uc50ZzNSxEaaiCS5YglgNEw2W7ZtZxWRUY9ntmFDk=
+@size 3987
+include/atk-1.0/atk/atkhyperlinkimpl.h
+@sha N/x8qHH9J7Z2t6LO4+TXZn+B5AiPvfHfvhyijz7NwUA=
+@size 2406
+include/atk-1.0/atk/atkhypertext.h
+@sha oHrT1171Cn0ZBTnHtZQ9yhSjfeVMCZNaMYDuM0OcHiM=
+@size 2859
+include/atk-1.0/atk/atkimage.h
+@sha 4W81qlYzg2Ow+nukN0kGfgExD/r9TMhEgN6DZDK40eA=
+@size 3504
+include/atk-1.0/atk/atkmisc.h
+@sha Dmpjqg0hapflF047txOetFS59jYy8uVTg1Wn/6k65IM=
+@size 3558
+include/atk-1.0/atk/atknoopobject.h
+@sha 49IrhURnt2FIoc1QQsefN9UxIr/oy8SxuQrOF9jPOIk=
+@size 2103
+include/atk-1.0/atk/atknoopobjectfactory.h
+@sha 1+0jOZr9n1TEvUz+F1odLw3d3Z9zuH+GDr2qOW473hk=
+@size 2334
+include/atk-1.0/atk/atkobject.h
+@sha wVZo+tK98aXlq4VDbGF4ZcnByjar6YDTuw97/ENhAls=
+@size 36884
+include/atk-1.0/atk/atkobjectfactory.h
+@sha 4j+NpwDxXPI8JWgEoz0yuP5o1jqXtzT2qkMZWnUVM8o=
+@size 2635
+include/atk-1.0/atk/atkplug.h
+@sha dPehu0GlDZtWtjyefaCHobFVcq1pi8LiIF7hAXfIC/Y=
+@size 2029
+include/atk-1.0/atk/atkrange.h
+@sha HxGh8KKBT0tW1Z9pwiTdjx8j98fWLeFVjVihM02cKQk=
+@size 1800
+include/atk-1.0/atk/atkregistry.h
+@sha V/bXIkSoFNUYZKecBE3ykB05G2rPvAFInwaplXHyFTU=
+@size 2594
+include/atk-1.0/atk/atkrelation.h
+@sha IPmR4T2uqMnQc+l5j/1Vo7ZqyR6A2sOYv4kzHPA/IHQ=
+@size 3509
+include/atk-1.0/atk/atkrelationset.h
+@sha aX2l52RRF6CWdPOd9YI0kNIUdVUDyl/OjO0VHgglC2M=
+@size 3580
+include/atk-1.0/atk/atkrelationtype.h
+@sha Mxc1jCs/RmoA2tE1sKOe/aH0hNYQB3P9O9CEkSk06h0=
+@size 3960
+include/atk-1.0/atk/atkselection.h
+@sha 1vu/73ULB39J46IcLRXUJcHJLA3TxgagvPtrK03IdR8=
+@size 3749
+include/atk-1.0/atk/atksocket.h
+@sha sTIJN9C9YG6LU/q+N0dnuk4MtzYZNo3biJ9t2f5cTVo=
+@size 2223
+include/atk-1.0/atk/atkstate.h
+@sha Lsq7iJxDy7ImVKQYfjcGaWG5lTRDMU9+hI8tTLemOSc=
+@size 12830
+include/atk-1.0/atk/atkstateset.h
+@sha xmtw2W7R/1WCQT10bzGkAZOLn9rt00M24yGkJAyzjVA=
+@size 3497
+include/atk-1.0/atk/atkstreamablecontent.h
+@sha fHfZK/aJrXQu+SqOqS4uI94WnPA8yG1DYkK0Edix2AY=
+@size 4806
+include/atk-1.0/atk/atktable.h
+@sha ceJjrUtiG10HXL5WoZNaXIvhqEz6+uZS6KRDz0gKxPU=
+@size 12208
+include/atk-1.0/atk/atktablecell.h
+@sha mQb/tVTb9dise3tPNZim9wMmRFgMLHAnMdObOMJKYhc=
+@size 4460
+include/atk-1.0/atk/atktext.h
+@sha 8fY1UoMuc5cvXWfypZuTP6ZZMqy5l7vI0suiNJL2khM=
+@size 21394
+include/atk-1.0/atk/atkutil.h
+@sha d+bTz0WAdWCIy08l76LZL0xv7GLrSC+2rg/UL29qZsw=
+@size 14285
+include/atk-1.0/atk/atkvalue.h
+@sha pyrA8HMwiLE9Vno4HiLiEf3d1YPA4miZZZS5C5zBK0U=
+@size 5959
+include/atk-1.0/atk/atkversion.h
+@sha i0i4u3Mq5py7S3gXymP5qP22E0kySdawL2a3fD0258w=
+@size 3500
+include/atk-1.0/atk/atkwindow.h
+@sha sfTZLbIWPh+Mdj5SLAm7ofNzBL5NEJ9NQ1M4S/S81b8=
+@size 1800
+lib/girepository-1.0/
+lib/girepository-1.0/Atk-1.0.typelib
+@sha LTYZ60guadNxWWXZ5IRD+n5VOR1pnWCDPDVZ/VtjKug=
+@size 71120
+lib/libatk-1.0.a
+@sha VWoc3iMIpRp4XTlsm3QDVZCo1cGf6hqs2U248wuYoq0=
+@size 213672
+lib/libatk-1.0.la
+@sha AnNhX1xfK3MWiG8jjxPFy669UIaEoe7cbwn7ZjuKT6E=
+@size 962
+@lib lib/libatk-1.0.so.21209.1
+@sha 5OPzBerwKr0fx7WfimEgkjRpkRQeautxkTPTI/SJZS4=
+@size 156562
+lib/pkgconfig/
+lib/pkgconfig/atk.pc
+@sha PFcDe3oA7AJ6tFhY5Bah7RIqGWdVgfHw3XYmZ1b0VVo=
+@size 239
+share/gir-1.0/
+share/gir-1.0/Atk-1.0.gir
+@sha Yk22ZAqqKWXU+Uk2KjVQW8z6NTP+wN6C7cOEeD+o/GE=
+@size 743360
+share/gtk-doc/
+share/gtk-doc/html/
+share/gtk-doc/html/atk/
+share/gtk-doc/html/atk/AtkAction.html
+@sha Tfs4z8TWS/BiLlZBPA99pvK9jvjvWwZgn0GvDy5rOw4=
+@size 21697
+share/gtk-doc/html/atk/AtkComponent.html
+@sha YfEMTKI4/pyl2TJn81BoBbLQoyCLxgfz10Mf61kUrCY=
+@size 54132
+share/gtk-doc/html/atk/AtkDocument.html
+@sha AZ/jNTLrDLlAJ1jHZDMVncN1VEPzlGnDddgZLJbanIs=
+@size 32216
+share/gtk-doc/html/atk/AtkEditableText.html
+@sha r/ldspwqAqZvxXNdgHOIRT5Z7IJbq1uDNfutFTHxKgU=
+@size 19789
+share/gtk-doc/html/atk/AtkGObjectAccessible.html
+@sha IOdvD6HZPR7pDiewUIfHuiadKGxZdCZpDgXWJPKY1II=
+@size 7811
+share/gtk-doc/html/atk/AtkHyperlink.html
+@sha zFuYZJT5+TguM59jFqBGDfySTe4i4rQG/I7kDRKroYw=
+@size 24725
+share/gtk-doc/html/atk/AtkHypertext.html
+@sha 59xpAneLy+kgFMbJ7EUbh34e/ePjkSeLSAsIk3NSxnU=
+@size 12399
+share/gtk-doc/html/atk/AtkImage.html
+@sha GTuC/L0jGotriQ2EnjoUtDYHZ7exr+6koBBFiyUD/Z4=
+@size 14225
+share/gtk-doc/html/atk/AtkMisc.html
+@sha 2EINaJ1KUM9XNPqgRbcJdnI7JvsJFkaporvJ5tnG+R0=
+@size 8177
+share/gtk-doc/html/atk/AtkNoOpObject.html
+@sha eG6m3ecipRmbiXtLqDd+MOx+TXUFHVRN7s6u60oCeMQ=
+@size 6832
+share/gtk-doc/html/atk/AtkNoOpObjectFactory.html
+@sha EsyD4CMIyyagtjfAHS2APZ9Jrw0LHpOxJxuPXkp6+b4=
+@size 5381
+share/gtk-doc/html/atk/AtkObject.html
+@sha wuxU0y6dmRCqnJoSkwI7fRxeKLUPG2/7KLSL1C+yWTY=
+@size 142746
+share/gtk-doc/html/atk/AtkObjectFactory.html
+@sha osb6T0wkuIitf1ussBdD3jhSIItVumdP4V38An2na0U=
+@size 10283
+share/gtk-doc/html/atk/AtkRegistry.html
+@sha RN2PmIPtD/IvOBZCAYhIRNaI/2ccpQMAaQLbqIwf0r8=
+@size 13465
+share/gtk-doc/html/atk/AtkRelation.html
+@sha 2E5JAsPjvn9Q/Zlqnsul5tawlireUn+12c7LrvEaMBo=
+@size 30440
+share/gtk-doc/html/atk/AtkRelationSet.html
+@sha veuW/BcMBNxwturtwJ5yVwGHovDABJPUc+bUEQ+HUX8=
+@size 19636
+share/gtk-doc/html/atk/AtkSelection.html
+@sha iv2EZeLw+P6oxZAkIY9/OhqHe5TLcTxPqmqs6fdLY8c=
+@size 20236
+share/gtk-doc/html/atk/AtkStateSet.html
+@sha 3e0crrireQIRJW8eZ1063wv4VnUmPJBNxmSdu7BvJS0=
+@size 24621
+share/gtk-doc/html/atk/AtkStreamableContent.html
+@sha UpxCpe6YiyJ0cLSKevX/hU7xQNaDUzAu4hkjv5yN2/U=
+@size 12460
+share/gtk-doc/html/atk/AtkTable.html
+@sha w5uTdY/65z3xTDdbk2/hktJ3B5VsAOn18sJ+b6Ai91M=
+@size 76624
+share/gtk-doc/html/atk/AtkTableCell.html
+@sha 93TOG+/ugyoFcoVn6HeaCQKPhmpvYwlEzSvJkhhkgCg=
+@size 23127
+share/gtk-doc/html/atk/AtkText.html
+@sha n9V8eHAkEsI9X5V46CuFv4bV8BfwF8XfQj0RxgKy1Ws=
+@size 117104
+share/gtk-doc/html/atk/AtkUtil.html
+@sha qqJfjAJWG3JUeQqUgu7mlaeEZLiLhlAR4hL7lU3lAvQ=
+@size 49142
+share/gtk-doc/html/atk/AtkValue.html
+@sha CD3eMdOgGWXdcxKxr9pMvOAUmHXzJd5ZNYwo3vD2k6o=
+@size 33428
+share/gtk-doc/html/atk/AtkWindow.html
+@sha FNZz8ByCV7QJQT17XfV+v9+N7Hz6Um8re85aY4BnzlE=
+@size 19350
+share/gtk-doc/html/atk/accessibles.html
+@sha VL8XPX3p9+L9WWsnMLbThknriBVKcCYdJWbDPg3chT4=
+@size 2686
+share/gtk-doc/html/atk/api-index-1-12.html
+@sha qvc8pJkbbGKkKjpYTZxHWrTkJNjNAad7t4X0MhrQrlc=
+@size 2998
+share/gtk-doc/html/atk/api-index-1-13.html
+@sha voAXhTb8ZA109uR++tAmhHqx3K1RAcusVH5Yaq9b7OY=
+@size 2139
+share/gtk-doc/html/atk/api-index-1-20.html
+@sha lSXksa9Z9w2khYXwi+JxXvTsFnEhIvpD3gJDY8nlUxc=
+@size 1861
+share/gtk-doc/html/atk/api-index-1-22.html
+@sha ld/3IqHakrlATH4cguedR7ChRgy338Z5AMdMgUWeh60=
+@size 2451
+share/gtk-doc/html/atk/api-index-1-3.html
+@sha jmUKYGv+YaMr8iO9eUw2E623fnsyG88BWJ2eXXqmqX8=
+@size 2168
+share/gtk-doc/html/atk/api-index-1-30.html
+@sha iBRccAjSARApqjSNb4rV4P3cWnbUn9zGgE+6oN21ygk=
+@size 2116
+share/gtk-doc/html/atk/api-index-1-4.html
+@sha fXV1csnfovodkE8rEgG/kU1yOg6ChBcgbTciBbYty5M=
+@size 1902
+share/gtk-doc/html/atk/api-index-1-6.html
+@sha 57mlxrMOXIKDmpdDA5EtbbTfVaF96BNURQh68wBzVoM=
+@size 1867
+share/gtk-doc/html/atk/api-index-1-9.html
+@sha euQ638sOrpQgGsxwyyfgMuqu5j8TcjdJ11tdm3fmvNA=
+@size 2066
+share/gtk-doc/html/atk/api-index-2-10.html
+@sha x6IAY8wz+aK98sDEARqRWwlOtUFOCuuXfXZmn4DV4TU=
+@size 1900
+share/gtk-doc/html/atk/api-index-2-12.html
+@sha xcw31sVHCTWD56RQRtNxz66JN89X7v+OKXj+u/Ibtsg=
+@size 4761
+share/gtk-doc/html/atk/api-index-2-2.html
+@sha aBPYe/5AATmEqlxye2SgsAd5igMa267QmhXo+3WH2ic=
+@size 2832
+share/gtk-doc/html/atk/api-index-2-8.html
+@sha 94QEbEzgz6JVM6qi0F4hyTsNU1h+6JhVHz9GlgtL+l4=
+@size 2604
+share/gtk-doc/html/atk/api-index-deprecated.html
+@sha ZhjILvkOM08ousG6p8GXXhElRsfH8zbRp08p3l6ykxc=
+@size 7992
+share/gtk-doc/html/atk/api-index-full.html
+@sha ztFXDkg9owsXrYmjxyeHnbuUweFf+r6VILeP+hKO++E=
+@size 53459
+share/gtk-doc/html/atk/atk-AtkHyperlinkImpl.html
+@sha 27EF96ewLYi9aNamKAA91ZgVzxMGpDfWvbRVm2WlSyU=
+@size 7099
+share/gtk-doc/html/atk/atk-AtkPlug.html
+@sha Zqn3mlmb1aIdyI5voROYVXO1vMSLmHyhGiDhatVhi0k=
+@size 6561
+share/gtk-doc/html/atk/atk-AtkRange.html
+@sha YfqB9u44titByvDCbqNNFt+mJsBjr+cVwssCFJh3zxg=
+@size 12926
+share/gtk-doc/html/atk/atk-AtkSocket.html
+@sha XR2lSFzIUfoC49Yf6pL2D2LTtiGYYG/Z27ZFQvpEti0=
+@size 11246
+share/gtk-doc/html/atk/atk-AtkState.html
+@sha Yl7rc+L2g8UKa68lCn/mUtsPG/vM3vTF/za7ukqIzd8=
+@size 26301
+share/gtk-doc/html/atk/atk-Versioning-Utilities.html
+@sha h14v6dguxjJcUCSKVlCpy4aZjueRSVtiYAvHDn+e6Qc=
+@size 13203
+share/gtk-doc/html/atk/atk.devhelp2
+@sha EBfGhro4yCGjg1wi6fj0fSbqAtVFW0CVrnyeqT/C1Iw=
+@size 48217
+share/gtk-doc/html/atk/atkobject.html
+@sha UfV58lJmGHWm8cETeuyobVTYdd6/GAXLukhMo/nGLNQ=
+@size 1830
+share/gtk-doc/html/atk/data.html
+@sha oXNjEEFRKZ0THrx/ceXVRJHE4/vTQN/32lwFiJdA63A=
+@size 2634
+share/gtk-doc/html/atk/deprecated.html
+@sha 2AL86n4uV27J5pqNSbgKGVqtj3gUUFAOWzjqPv9eMAM=
+@size 1847
+share/gtk-doc/html/atk/home.png
+@sha eo0ksA9ftruwRGJJtgXv3TZZjooPZaw/qy4YQ4xzuR4=
+@size 256
+share/gtk-doc/html/atk/index.html
+@sha PxDpAUhneM5TJWPwO/2jnGXItdGUhXNCR4VotjDjdY4=
+@size 9773
+share/gtk-doc/html/atk/index.sgml
+@sha KqrqScPyNiHrRD4LuZOeX42Od4Jv3eNiN11JWTpAhpo=
+@size 57474
+share/gtk-doc/html/atk/interfaces.html
+@sha mQsZ9vkZft14IEmayfTY+RRmj87dg6k+poLss4kKMjU=
+@size 4679
+share/gtk-doc/html/atk/left-insensitive.png
+@sha MDNV2TysU0EJl9x6P5vWDzzg2OuueQiXjIcx/puxOf8=
+@size 395
+share/gtk-doc/html/atk/left.png
+@sha Drlv53VSTC1NTxZ9eQQbF8XMiukRJHhmUTLDGhQX+0o=
+@size 262
+share/gtk-doc/html/atk/overview.html
+@sha kjFtTHVgu5dnobhxEM0xLgXH9tLnfHhVh4D7aJreYwg=
+@size 2509
+share/gtk-doc/html/atk/right-insensitive.png
+@sha eUBQxkxJhCBZkWLys7aSgjLdC+eZHZQrHcCxZw64aV4=
+@size 373
+share/gtk-doc/html/atk/right.png
+@sha BimtOCgBhL4blGAvIBVweigXAVEFj3FxrtpQH88JedM=
+@size 261
+share/gtk-doc/html/atk/style.css
+@sha eoRgyBbt8zdnFlk4Fy8+7cqUb8DyoNpFvq9oNIyc9tg=
+@size 8696
+share/gtk-doc/html/atk/toolkit.html
+@sha P+YsyXGJH1tVlLcLitpKH1tgLSw7jW/Q+qunuAHTPiA=
+@size 1826
+share/gtk-doc/html/atk/up-insensitive.png
+@sha BCDyBA7r9BgJioaj+y71qWWch9N7ge6FtpMWsEWpRTo=
+@size 374
+share/gtk-doc/html/atk/up.png
+@sha xUt1lI9NJjV90BgVkHjzb5De6vKc47nSvQ6mZV7xvag=
+@size 260
+share/gtk-doc/html/atk/utilities.html
+@sha 6CkWgVNMrl/+8B+48YNdVRLXvw+8GZI73inAiTreTto=
+@size 2543
+share/locale/af/
+share/locale/af/LC_MESSAGES/
+share/locale/af/LC_MESSAGES/atk10.mo
+@sha 9qw4ZOM9NSVzYm9HNLiYCn7Uyd1l8hJE4aPRJtvjl4g=
+@size 7076
+share/locale/am/
+share/locale/am/LC_MESSAGES/
+share/locale/am/LC_MESSAGES/atk10.mo
+@sha a1/S+Vhpa8E4eKFUGpOpDykKV4zjvvTTspd/LDTLwGE=
+@size 1413
+share/locale/an/
+share/locale/an/LC_MESSAGES/
+share/locale/an/LC_MESSAGES/atk10.mo
+@sha //J2XjTuH9IW9MIV9deqLcLAxp4Axouirx2LnghUslk=
+@size 10098
+share/locale/ar/
+share/locale/ar/LC_MESSAGES/
+share/locale/ar/LC_MESSAGES/atk10.mo
+@sha dHmWUrEzy32VV3F7yoRTNu8Y2Bu5PNjV6EEoP9d2DXw=
+@size 9376
+share/locale/as/
+share/locale/as/LC_MESSAGES/
+share/locale/as/LC_MESSAGES/atk10.mo
+@sha Ba+oghDR+6biOJGOGVIOv1AZyo42HAgBwh1sp/ojntE=
+@size 12344
+share/locale/ast/
+share/locale/ast/LC_MESSAGES/
+share/locale/ast/LC_MESSAGES/atk10.mo
+@sha D+o5BdT08KE52k5Rjshlj77T2Yu6HpdYbl4Q025L5ck=
+@size 9314
+share/locale/az/
+share/locale/az/LC_MESSAGES/
+share/locale/az/LC_MESSAGES/atk10.mo
+@sha RUUEOE/NUHZdmFiTlQfZJ1qOaW4wI5fdAmFRyJX56Vo=
+@size 8153
+share/locale/be/LC_MESSAGES/atk10.mo
+@sha GAxgmcCRbT9v5IEDFlV7hQaqtp48cip4edGlJFOZ88Y=
+@size 11623
+share/locale/be@latin/
+share/locale/be@latin/LC_MESSAGES/
+share/locale/be@latin/LC_MESSAGES/atk10.mo
+@sha ZqgXFxgrXb40uGW24PsX4BrVyuK5qK9HdkvB4XW6p6c=
+@size 8635
+share/locale/bg/LC_MESSAGES/atk10.mo
+@sha PK3GNbSAzS7Bgc9F9NOAmSFMBZjFV24spfu0N7MQNjQ=
+@size 11713
+share/locale/bn/
+share/locale/bn/LC_MESSAGES/
+share/locale/bn/LC_MESSAGES/atk10.mo
+@sha k5xyzrAPz77G/9xLn1wlQ803BXmroNrmpGCCfC7dNSQ=
+@size 12222
+share/locale/bn_IN/
+share/locale/bn_IN/LC_MESSAGES/
+share/locale/bn_IN/LC_MESSAGES/atk10.mo
+@sha KklV1KqhaANGtzwJQUFM8Ir+j9O7X+T3W8cbrwTU96A=
+@size 13604
+share/locale/bs/
+share/locale/bs/LC_MESSAGES/
+share/locale/bs/LC_MESSAGES/atk10.mo
+@sha hcvccI+Uut8sFFXXe4m+iJSOW7aiE0AEG9piOHjW+yQ=
+@size 7586
+share/locale/ca/LC_MESSAGES/atk10.mo
+@sha eOYy4gLBIoBTxX3K7fQLkCU9ZkzNY3mzAryeBRDn5UU=
+@size 9398
+share/locale/ca@valencia/
+share/locale/ca@valencia/LC_MESSAGES/
+share/locale/ca@valencia/LC_MESSAGES/atk10.mo
+@sha RTU+QNb2BRMcXx8pq7jqjET2FI/PVTc3LINvDG3B9Es=
+@size 9304
+share/locale/cs/LC_MESSAGES/atk10.mo
+@sha utAhSSMkkpBLPlQOOkqxh4YxJR8+hZXnGZGb9utpHzQ=
+@size 10626
+share/locale/cy/
+share/locale/cy/LC_MESSAGES/
+share/locale/cy/LC_MESSAGES/atk10.mo
+@sha hqFy8QEq1KnxfcEfkQ9wOUq+DmWuWDiHXlT7dnw1wDc=
+@size 8130
+share/locale/da/LC_MESSAGES/atk10.mo
+@sha mLAi6O7mUarfpVl/TTDw1En8axeEbLHmfugi4+/N0WI=
+@size 10040
+share/locale/de/LC_MESSAGES/atk10.mo
+@sha 9LCPZuGSsO2uGCgwIBQRcz4pgeEth3TPbZ/oZZTJMBk=
+@size 9270
+share/locale/dz/
+share/locale/dz/LC_MESSAGES/
+share/locale/dz/LC_MESSAGES/atk10.mo
+@sha x1Lppsc5Ijt8CW47IUwrRtgZL+M5tgljLloKIepkg+M=
+@size 15564
+share/locale/el/LC_MESSAGES/atk10.mo
+@sha QejRzP4CGmfVNXvFsIfvLSO8infm3GamhIWLBcxeL+I=
+@size 12956
+share/locale/en@shaw/
+share/locale/en@shaw/LC_MESSAGES/
+share/locale/en@shaw/LC_MESSAGES/atk10.mo
+@sha y2nwnmO0peSuP+fcuXmA5JZUvYv4DPsu2MP2GjpK0JM=
+@size 12650
+share/locale/en_CA/
+share/locale/en_CA/LC_MESSAGES/
+share/locale/en_CA/LC_MESSAGES/atk10.mo
+@sha 4g67eqY6JYaQ6aB01f8gkacYW0j5m3GZy4zMCMFcYQs=
+@size 7759
+share/locale/en_GB/
+share/locale/en_GB/LC_MESSAGES/
+share/locale/en_GB/LC_MESSAGES/atk10.mo
+@sha eI5bUBY90zNKixHLhFsKaoNlyDEfPv48Xo/mv4zvmLE=
+@size 8609
+share/locale/eo/LC_MESSAGES/atk10.mo
+@sha 7/A+QekELIsX5eW6GFziwlDxqi3hX6YlM38izHhcqAY=
+@size 8288
+share/locale/es/LC_MESSAGES/atk10.mo
+@sha oaVGfooMO4295UZI3T21Oa/tUNPkCAmbH/N4h9+zVFc=
+@size 10729
+share/locale/et/LC_MESSAGES/atk10.mo
+@sha QMlqr7cJR6qfQnOezA0UDjh/yHwDHwHIj9HQb74ac38=
+@size 8711
+share/locale/eu/LC_MESSAGES/atk10.mo
+@sha 3dVx656e0ZpaQ5w74ZMxkCcIJDWDx7HGVurnuxC1nvk=
+@size 9167
+share/locale/fa/
+share/locale/fa/LC_MESSAGES/
+share/locale/fa/LC_MESSAGES/atk10.mo
+@sha u/p2jTKFFk/YMQ1Ou4RiLNxdDlauqXYjvk+LMIKLapc=
+@size 10471
+share/locale/fi/LC_MESSAGES/atk10.mo
+@sha QDLn5LwNzt+ujQ4eFlJpEh9ebzyNF3wTnL2pIku1J7s=
+@size 8207
+share/locale/fr/LC_MESSAGES/atk10.mo
+@sha Ca6QyqkOuUvtZWKcduDmblIT6k0mCOTN37XHfF7c2G8=
+@size 10670
+share/locale/ga/LC_MESSAGES/atk10.mo
+@sha R1cRVFFINWMqQI8YUsPmVWoipho4uJSi4dVI4YJjkbo=
+@size 1291
+share/locale/gl/LC_MESSAGES/atk10.mo
+@sha /I0YQT+flQKu3/N4uHeF9yPTrgEjRxq63XgTIiYTjL8=
+@size 10509
+share/locale/gu/
+share/locale/gu/LC_MESSAGES/
+share/locale/gu/LC_MESSAGES/atk10.mo
+@sha ETO0+455NrLw9ptzMF815Qm7rEcS7wrzn1hKRdMV9ik=
+@size 13669
+share/locale/he/LC_MESSAGES/atk10.mo
+@sha ns/BvJmf8QM/WCioF3nrkJCUGxPFJ3eNBcin8xDGt+o=
+@size 9295
+share/locale/hi/
+share/locale/hi/LC_MESSAGES/
+share/locale/hi/LC_MESSAGES/atk10.mo
+@sha NX+IULr61NATnKAkdZB068AetWBT+Yy8QMOhardBTPU=
+@size 12900
+share/locale/hr/LC_MESSAGES/atk10.mo
+@sha Zm0HqZ1ZXCwZoFIS15LYA06HYgBT5uCcNnK9zDf2Wcs=
+@size 8318
+share/locale/hu/LC_MESSAGES/atk10.mo
+@sha j4QQZyOQ/rIGUksO1oJn99xCvozo+EOaz/8tJiNzYvg=
+@size 10569
+share/locale/hy/
+share/locale/hy/LC_MESSAGES/
+share/locale/hy/LC_MESSAGES/atk10.mo
+@sha eMbrEApSxlZ8vDk+GuWpcdhMCVwYURtfTXkQPtHNIq4=
+@size 10935
+share/locale/id/LC_MESSAGES/atk10.mo
+@sha LYFg7MKyF9r9qOjwQbiEKkpxUOHHIcB8SjYNmy1+hSQ=
+@size 10020
+share/locale/is/
+share/locale/is/LC_MESSAGES/
+share/locale/is/LC_MESSAGES/atk10.mo
+@sha pjUgFud7ZhYMWPb2dAyQ+UGrqJul9elZqoRpmS5E4cg=
+@size 1540
+share/locale/it/LC_MESSAGES/atk10.mo
+@sha gWCIiGAgMYvQM4DVlpJxJm4UHShN9px1QvroDBoNoRs=
+@size 10823
+share/locale/ja/LC_MESSAGES/atk10.mo
+@sha lez6yDTfAsxT/885lfn8Wk82JjGTHpF+dc1J8uk5FxI=
+@size 9962
+share/locale/ka/
+share/locale/ka/LC_MESSAGES/
+share/locale/ka/LC_MESSAGES/atk10.mo
+@sha 8Ge2CeAqX4veKTIOa9Z9ROQ69GN7l32Odwu0xmaHVVA=
+@size 12610
+share/locale/kk/
+share/locale/kk/LC_MESSAGES/
+share/locale/kk/LC_MESSAGES/atk10.mo
+@sha c82luhf/shE0wqE1jQA/m3ukK8LNvwP2wLmTUOemscw=
+@size 2244
+share/locale/km/
+share/locale/km/LC_MESSAGES/
+share/locale/km/LC_MESSAGES/atk10.mo
+@sha vrOKlEbZN+xHp4H6l19arHswkvGgVSBEN1jy3IeSUQ8=
+@size 15186
+share/locale/kn/
+share/locale/kn/LC_MESSAGES/
+share/locale/kn/LC_MESSAGES/atk10.mo
+@sha m9F0z9Mr/VZ/MxQr9hQsYAu/+GQlSbeJOnpiavreEmQ=
+@size 13784
+share/locale/ko/LC_MESSAGES/atk10.mo
+@sha lrOgAz7O+O0mwRxarf6s5oV7TV2Yt4cEjDXv/EzYmsA=
+@size 10237
+share/locale/ku/
+share/locale/ku/LC_MESSAGES/
+share/locale/ku/LC_MESSAGES/atk10.mo
+@sha 4tge0wBHBN7GmHGkTr/FqmYRwkVwDLePG52bHbA92Rw=
+@size 7934
+share/locale/li/
+share/locale/li/LC_MESSAGES/
+share/locale/li/LC_MESSAGES/atk10.mo
+@sha 0oY3pkhxfROmE68fSfO5kUTXgk1ZD4OdX6+jSxm1yo0=
+@size 1488
+share/locale/lt/
+share/locale/lt/LC_MESSAGES/
+share/locale/lt/LC_MESSAGES/atk10.mo
+@sha CCPhUb4NFwFDRNoA38P4eLEYcPYMC4VOwQIsVc+WMEk=
+@size 10656
+share/locale/lv/LC_MESSAGES/atk10.mo
+@sha cSHj+g470cGA+Vxf3qsFqU+7zeZWW8dZPw6mOrHdcrc=
+@size 10483
+share/locale/mai/
+share/locale/mai/LC_MESSAGES/
+share/locale/mai/LC_MESSAGES/atk10.mo
+@sha gc/q+uuqYg2EFyVGDTVOsVIQsHmLmXhjurgPAal5T2A=
+@size 11697
+share/locale/mk/
+share/locale/mk/LC_MESSAGES/
+share/locale/mk/LC_MESSAGES/atk10.mo
+@sha 5ViyrpVIuR/KrCWK3wnXvjgXNdoFwubNnR28cppfEI0=
+@size 10680
+share/locale/ml/
+share/locale/ml/LC_MESSAGES/
+share/locale/ml/LC_MESSAGES/atk10.mo
+@sha vqHj7yY3dAx09FB8uCRG1GamDQ4xR4+SpMyVRh8Tbvc=
+@size 14028
+share/locale/mn/
+share/locale/mn/LC_MESSAGES/
+share/locale/mn/LC_MESSAGES/atk10.mo
+@sha 92wutvZzic2WDKgIcCuU+O2AEoyjbQXPHDFYgKoEHaU=
+@size 10149
+share/locale/mr/
+share/locale/mr/LC_MESSAGES/
+share/locale/mr/LC_MESSAGES/atk10.mo
+@sha /WXr9hw7T1arIkBVfSLqh1biG/O0bxhRLFQ32jK/JDo=
+@size 11813
+share/locale/ms/
+share/locale/ms/LC_MESSAGES/
+share/locale/ms/LC_MESSAGES/atk10.mo
+@sha +p8er1vHg0o+YMiAf7/IkCi+FlP1hxKcIgBGH417L0k=
+@size 3603
+share/locale/nb/LC_MESSAGES/atk10.mo
+@sha 7upzMXFtK+rTGivleR6Kef+jZVsv5yqidyYNBK48T80=
+@size 9960
+share/locale/ne/
+share/locale/ne/LC_MESSAGES/
+share/locale/ne/LC_MESSAGES/atk10.mo
+@sha ALIpOs9AoxynBVMSd6LlpIFuNahjw0LEaP0CnGnNEzg=
+@size 11919
+share/locale/nl/LC_MESSAGES/atk10.mo
+@sha B0p0WOagbF+VndYce0O6eSU3UWGZzBmGdW2VrYQm6qI=
+@size 8109
+share/locale/nn/LC_MESSAGES/atk10.mo
+@sha qRLJACbAVLNDZI00exzl61fv/At4EI0uvIS98XGdU3o=
+@size 8855
+share/locale/oc/
+share/locale/oc/LC_MESSAGES/
+share/locale/oc/LC_MESSAGES/atk10.mo
+@sha OsKl4jvpRlWRUC6MiUbY9S6dUCu4N8W+XTQZIBNZ+nM=
+@size 1985
+share/locale/or/
+share/locale/or/LC_MESSAGES/
+share/locale/or/LC_MESSAGES/atk10.mo
+@sha cUEpXMC2VlAHUBSLEBEdKNcZEpFQbwNEZC7JX2/pNGc=
+@size 12525
+share/locale/pa/LC_MESSAGES/atk10.mo
+@sha D+/QmE6z4Zym+LBagT0ZBCJoA14Wi04AC1oyD5Z30jA=
+@size 13560
+share/locale/pl/LC_MESSAGES/atk10.mo
+@sha uzvy+ONRpKiu34zGUw28G3iz8GWQqXdGcgbACQ+CGSE=
+@size 10521
+share/locale/ps/
+share/locale/ps/LC_MESSAGES/
+share/locale/ps/LC_MESSAGES/atk10.mo
+@sha vlfIKzEpI+rpnqeLZFCotDA5V1+gbIA/bCHTmP3sR8Y=
+@size 9348
+share/locale/pt/LC_MESSAGES/atk10.mo
+@sha BCzZON/Pm/jTDWLjQ0zQdMSFo+VoHt4DJICMJlfSsVU=
+@size 10594
+share/locale/pt_BR/LC_MESSAGES/atk10.mo
+@sha ECG4KaD5PY6X+6TqJ7F40NytPuebQEXtxybxczWM2Kw=
+@size 10581
+share/locale/ro/LC_MESSAGES/atk10.mo
+@sha 4jyAkgIHBtWaQZRUcKFQTsU7FJvr+M0C6z9WYohAxQg=
+@size 8238
+share/locale/ru/LC_MESSAGES/atk10.mo
+@sha PmV+cUjD8g/lL7MiLn4j4qD1TjZHOsRUckYfJ5nijYU=
+@size 13042
+share/locale/rw/
+share/locale/rw/LC_MESSAGES/
+share/locale/rw/LC_MESSAGES/atk10.mo
+@sha ir2rI9PY0QfrtfEAFyMz+CMIDxpfsEJy6XXo69iGD0o=
+@size 589
+share/locale/si/
+share/locale/si/LC_MESSAGES/
+share/locale/si/LC_MESSAGES/atk10.mo
+@sha pBR6oseRsrWT5yWibfH55LLPWFdwOlxe2zdm4HzT5CE=
+@size 2035
+share/locale/sk/LC_MESSAGES/atk10.mo
+@sha z8Ibz/RFhm64l9WSZE+DiE2m3MXZRHIoADVWbJsRlwk=
+@size 8997
+share/locale/sl/LC_MESSAGES/atk10.mo
+@sha QyfHC+H5pIaH2w17CTm7XOSHnUHCoejebRRNbbHgqlU=
+@size 9136
+share/locale/sq/
+share/locale/sq/LC_MESSAGES/
+share/locale/sq/LC_MESSAGES/atk10.mo
+@sha uHCqu5MJbizOIX6KIiak9W1Al0Q1/3FuHKOiF+zs1Mg=
+@size 8752
+share/locale/sr/LC_MESSAGES/atk10.mo
+@sha +JkfoPRTxjuPrwnvAnyNDg8kOcqheUVFVJ7Sifyzhr8=
+@size 12764
+share/locale/sr@ije/
+share/locale/sr@ije/LC_MESSAGES/
+share/locale/sr@ije/LC_MESSAGES/atk10.mo
+@sha BtwqGM7MJMv0cdmYCvR+HA7mT42kNjtz6jdkiqfp+VU=
+@size 9602
+share/locale/sr@latin/
+share/locale/sr@latin/LC_MESSAGES/
+share/locale/sr@latin/LC_MESSAGES/atk10.mo
+@sha Wbj3qxeGVF7icGaKoANr0GHNJGjLftcpzFgHrYSebHo=
+@size 10313
+share/locale/sv/LC_MESSAGES/atk10.mo
+@sha tosezYJSrTyRKasrjIjrqCbm0GZJgygUW6YrHa6QHnE=
+@size 8690
+share/locale/ta/
+share/locale/ta/LC_MESSAGES/
+share/locale/ta/LC_MESSAGES/atk10.mo
+@sha h1p0q3DVhAnxu1zy6N5A8eoZl59jC4fBLuOuPuXGDsw=
+@size 13678
+share/locale/te/
+share/locale/te/LC_MESSAGES/
+share/locale/te/LC_MESSAGES/atk10.mo
+@sha TOamfDyjD1dU3OUkDwuIrSFvNb8b5gV7jTMCqWR4AZs=
+@size 12969
+share/locale/tg/
+share/locale/tg/LC_MESSAGES/
+share/locale/tg/LC_MESSAGES/atk10.mo
+@sha ZAbxT4GWrxuX0VAi6ZBT1TcQkH+E+6AsXr8oJtIvKsY=
+@size 2359
+share/locale/th/
+share/locale/th/LC_MESSAGES/
+share/locale/th/LC_MESSAGES/atk10.mo
+@sha oUgO24fT0SpL/nDwQ0mv9m8ztAMf2fkUlnkyPMZB/iI=
+@size 13616
+share/locale/tk/
+share/locale/tk/LC_MESSAGES/
+share/locale/tk/LC_MESSAGES/atk10.mo
+@sha XeN1bxS4mUAdxjf/LVMmn4rut/ZI+iWSlo95Dmofz+o=
+@size 7502
+share/locale/tr/LC_MESSAGES/atk10.mo
+@sha MVyCxdpsaSMUyMIx7qD55v7OQCZJYB9qINk7vNFm7GQ=
+@size 9083
+share/locale/tt/
+share/locale/tt/LC_MESSAGES/
+share/locale/tt/LC_MESSAGES/atk10.mo
+@sha chw909G/UGtbjS6p1EZXbeam1YiTW69xSLYIaukxEvM=
+@size 7930
+share/locale/ug/
+share/locale/ug/LC_MESSAGES/
+share/locale/ug/LC_MESSAGES/atk10.mo
+@sha C8crATxHtyKn5tvp7kuhqysMYCLnma5dsiiWc2IMKR8=
+@size 11352
+share/locale/uk/LC_MESSAGES/atk10.mo
+@sha UhdfJL+nhHER3as9sO6l0FmiV6whBFXRam05HOZBAAg=
+@size 11696
+share/locale/vi/LC_MESSAGES/atk10.mo
+@sha zQf9ldWb9EXw6dwpa+uoyMXgD29ZHZOKjnzGtQEbeNk=
+@size 9644
+share/locale/wa/
+share/locale/wa/LC_MESSAGES/
+share/locale/wa/LC_MESSAGES/atk10.mo
+@sha HylnPXg5Y52FXZdJW4FkNBpFih0YXa75kd428/Mob5Q=
+@size 3790
+share/locale/xh/
+share/locale/xh/LC_MESSAGES/
+share/locale/xh/LC_MESSAGES/atk10.mo
+@sha EkNFOUcg2fVrkdbeHiUCNhcnErLSAxlxqFYpXdvuTys=
+@size 8365
+share/locale/yi/
+share/locale/yi/LC_MESSAGES/
+share/locale/yi/LC_MESSAGES/atk10.mo
+@sha kohuvTNNZomDigVBLfjZLzlrTCBM98QPSkKw4KGRvDk=
+@size 1740
+share/locale/zh_CN/LC_MESSAGES/atk10.mo
+@sha T63AkJWS6SpFOt9PDH9X7FOdeZKTm4zNeoFkhxqC+/w=
+@size 9531
+share/locale/zh_HK/LC_MESSAGES/atk10.mo
+@sha qmI8atAO8vcrpaG4IqGv2cHXCMMFAlLelHbQWzZ6wzY=
+@size 9654
+share/locale/zh_TW/LC_MESSAGES/atk10.mo
+@sha ag9WBOrbZcq0EzHtkvS8v1cEng7EeJV6WKy/yKsWL94=
+@size 9654
+share/locale/zu/
+share/locale/zu/LC_MESSAGES/
+share/locale/zu/LC_MESSAGES/atk10.mo
+@sha JBkPIF4yMHxLH8a1l82EqbTVJQQgniY46K/hTfePSpY=
+@size 6039

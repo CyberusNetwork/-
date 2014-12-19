@@ -1,0 +1,266 @@
+@comment $OpenBSD: PLIST,v 1.10 2013/06/09 14:36:51 ajacoutot Exp $
+@name libidn-1.28p0
+@url http://ftp.fr.openbsd.org/pub/OpenBSD/5.6/packages/i386/libidn-1.28p0.tgz
+@signer openbsd-56-pkg
+@digital-signature signify:2014-08-02T11:00:35Z:RWSPEf7Vpp2j0CGrj6EwYfQ2poNiY6gKsU2g7nSFJnq8rnPOmq40KJSf9SfT9Zk1FNkKCS4Q+ngpZXi2idpzGEl7WISQt23A5Ac=
+@comment pkgpath=devel/libidn cdrom=yes ftp=yes
+@arch i386
++DESC
+@sha VJUSOz8IPLTioIhdnG7YUTth/DDSu79sTWx7kneexX8=
+@size 263
+@depend converters/libiconv:libiconv-*:libiconv-1.14p1
+@depend devel/gettext:gettext->=0.10.38:gettext-0.19.1p0
+@wantlib c.77.0
+@wantlib iconv.6.0
+@wantlib intl.6.0
+@cwd /usr/local
+@bin bin/idn
+@sha diA2yl2nWjmLOXQQl9USiYR80tOWTGuQPKZdqz5nXe4=
+@size 32604
+include/idn-free.h
+@sha 99QH8ju20EIUCzqeNBEWkjuQpI3cQnlNorH8l1vLT2Q=
+@size 2472
+include/idn-int.h
+@sha 3R5lJBAgJ15IDJ8CNWatPSfK1C36xdTRucF2cy0e7eU=
+@size 20
+include/idna.h
+@sha 2G7eOp1Fy8ljVNYEuvbmjaXES/d5d9ldnv9tuCuw8wM=
+@size 3564
+include/pr29.h
+@sha AHDGofa0LmWb2XureAmpsafzLk0kqCvm+5xCN90rG5k=
+@size 2123
+include/punycode.h
+@sha LXEcjRfZ739idZCpYS6LgSfxzZ/c4XmctvoRW0VoNvk=
+@size 9580
+include/stringprep.h
+@sha G4GQJAz6+9amkAqUI9ps02D3eTaiAYpWIlyS7pQ4opQ=
+@size 8193
+include/tld.h
+@sha YZJREiNLOdt+HD3T4rFo+BNPFTTrSSzxodbco06KTHs=
+@size 4644
+info/libidn-components.png
+@sha PHkduWTeOdyx4UVPj2XkqkiOIpz2t5zCiFQKauNOe9M=
+@size 9582
+@info info/libidn.info
+@sha 8wNFKlgjGu7KXBMiOUiNqZ6RhKnzYnfxto0EEVpw2F0=
+@size 166173
+lib/libidn.a
+@sha mJw2KRk5Pe3o5gyfjiMp+dZkay4YOuR0nVawpIph2b4=
+@size 225654
+lib/libidn.la
+@sha aKiAST2GgE85Ljd+26tX9LZmmcfwO5Rxv2DB6O+RVXk=
+@size 811
+@lib lib/libidn.so.17.0
+@sha J35uHu3V28M/Mdvjq/Mrk9D6MHFZ4BOV0JYhgpdW2tA=
+@size 207674
+lib/pkgconfig/
+lib/pkgconfig/libidn.pc
+@sha n1agKKPZQi12RIQ4pwkDt3L3vv6IrBieBMDnTBElDNw=
+@size 864
+@man man/man1/idn.1
+@sha 8ROGq5802qT9ca+2rEfVkzZrBlicao96Wd/b0cWpBaA=
+@size 2694
+@man man/man3/idn_free.3
+@sha t2h9GOOjq7hy02S8601arKiIrz3NlFcoEaIFB2F8IG8=
+@size 1383
+@man man/man3/idna_strerror.3
+@sha rIVQCEMREzB0v27y6d4lUFAlzS1kZ55p0WQ5xhfUptA=
+@size 2397
+@man man/man3/idna_to_ascii_4i.3
+@sha TDtzKmnRb4lqL4DBBZltBIY/wWLFOXoVE4y32YkC370=
+@size 2422
+@man man/man3/idna_to_ascii_4z.3
+@sha K3imvHY3fmYIjToISKKd5fmpxjhG4pMQGc0ysi1RgzA=
+@size 1452
+@man man/man3/idna_to_ascii_8z.3
+@sha /MiOyfNzXLk3fUPjGEB/U9VSjyAXGrhj3KgPIjvz2ak=
+@size 1443
+@man man/man3/idna_to_ascii_lz.3
+@sha k5CUZNUvY5hnwzL8EijJMU7mNjfiqkg/S9iJpnSrito=
+@size 1500
+@man man/man3/idna_to_unicode_44i.3
+@sha 5M/h32bL5L9MgW7RNeXdytopx1ztlWJRaptRf6ukx4M=
+@size 2706
+@man man/man3/idna_to_unicode_4z4z.3
+@sha wAgk3ZJY5z4+FNk27d9zyR+jGZdgeelJRinlATPdvR0=
+@size 1511
+@man man/man3/idna_to_unicode_8z4z.3
+@sha tPQcdNaIlHJoWWhiNeOWd/uOPDw3wpljtaTfnJjW+zo=
+@size 1502
+@man man/man3/idna_to_unicode_8z8z.3
+@sha MmywDZI9+rNmB5flsj23cHEFZBq9dYbeFkEib7EBqJk=
+@size 1493
+@man man/man3/idna_to_unicode_8zlz.3
+@sha tjSyPK6VpTopGOVovhn2MN5aFIT5JJcAMpO0WMpZeGI=
+@size 1571
+@man man/man3/idna_to_unicode_lzlz.3
+@sha KH1bGu/gHinfs7Z99qOaf8NcLRX4WWpqf1rVe4+wTAg=
+@size 1622
+@man man/man3/pr29_4.3
+@sha BzYnoBOnSZTZsv+Pk8O24pZKGZcBgt9UbVo7Ttp8o4I=
+@size 1429
+@man man/man3/pr29_4z.3
+@sha Oeh+rjBJOBtw9cBIllPTFqE08p2lp2Swux32jTJWpFM=
+@size 1356
+@man man/man3/pr29_8z.3
+@sha PCqJXfzN6/U6cvPJsK4bI5EHjgQQn5Yq2HgNVEZS6uo=
+@size 1438
+@man man/man3/pr29_strerror.3
+@sha WDrdzTyDENRx2dNXge6RHEJWKCSi+C8uGn88bLOY09Q=
+@size 1555
+@man man/man3/punycode_decode.3
+@sha sbyZDAF4CEW9J4yPLJ9b4uusdw4YA31XwJrl4SwI1So=
+@size 2910
+@man man/man3/punycode_encode.3
+@sha mhKiBStZdlZC27SfZpRDwa45y/uIXqqSeGvliMixtCc=
+@size 3025
+@man man/man3/punycode_strerror.3
+@sha RkZuzQfWKKukBnRYCt6ckYdNEB0JReqmg6a7AQ1djCc=
+@size 1624
+@man man/man3/stringprep.3
+@sha lL6cw7O7osjRkrwOzAgK6kQpgJVIG41hBzgEQC/P2X4=
+@size 2181
+@man man/man3/stringprep_4i.3
+@sha Z007SICog9RqL0ZfB0coQn4SRcc9bNov6B++akNrAi8=
+@size 2484
+@man man/man3/stringprep_4zi.3
+@sha 6Ynsbpy/cJflNecxoBAfip0jO3DKm0gRd14hjsf24DQ=
+@size 2110
+@man man/man3/stringprep_check_version.3
+@sha owPWT95/LNPiqhf0uWRlJz9QzEz5irhs6/uh0zskDBs=
+@size 1490
+@man man/man3/stringprep_convert.3
+@sha 8YpzjRjsuSCZRvs/26bC8H++vSSftQdBMHaZgSPEOak=
+@size 1421
+@man man/man3/stringprep_locale_charset.3
+@sha Ao+dH1DQ/QTDPahWVmUcNG6ezx4/214v3oiYUC26Csw=
+@size 1835
+@man man/man3/stringprep_locale_to_utf8.3
+@sha 9dhH+IQHUAlInnxK35kk8bdHKNOn6Hrld6G9ci17XIg=
+@size 1228
+@man man/man3/stringprep_profile.3
+@sha YzmAzfp8Skly+qq/VeslgKH2C9ZCNMnTtpwcu/F8m2o=
+@size 1948
+@man man/man3/stringprep_strerror.3
+@sha AFRhPKIZt17Biy0Um3sD6UsCQnJY2PqzhFM97j/ihDk=
+@size 2693
+@man man/man3/stringprep_ucs4_nfkc_normalize.3
+@sha SbwQK955cBjoN5smu+mkc7OCpSMQIjvrWIC1tHJ2b44=
+@size 1345
+@man man/man3/stringprep_ucs4_to_utf8.3
+@sha sPMllEXTMRjhaI5sgJFHpeatKLq59ht+0JJWVZhh+nM=
+@size 1740
+@man man/man3/stringprep_unichar_to_utf8.3
+@sha vib4nbbjSwuMQb+XsM6uXAeXS1mvCjRCVBG+BSgrvvU=
+@size 1278
+@man man/man3/stringprep_utf8_nfkc_normalize.3
+@sha UAnz5DwzRuNKL2EvrcCQtREiqcgeYkhFmz9opwgiPU4=
+@size 1916
+@man man/man3/stringprep_utf8_to_locale.3
+@sha DdiA+cfGEz+d7JrtFFH2QATaN5Kse2OgcJqIwpUZOjQ=
+@size 1248
+@man man/man3/stringprep_utf8_to_ucs4.3
+@sha W4GMzVigWBMuwRQkoUm/zav39kTOdorbLw0ik1Ul5JM=
+@size 1544
+@man man/man3/stringprep_utf8_to_unichar.3
+@sha 5MBe4yYyS4qHRkIjMFABps3W8iz4eu5ImQzq4VVNVeA=
+@size 1237
+@man man/man3/tld_check_4.3
+@sha aXePC4Cr9rpKlVND6+Twh0mkJPqXXvFg8zG3vwCtrTE=
+@size 2125
+@man man/man3/tld_check_4t.3
+@sha exZcTk79Ytxq4v9AU7U4WafAxT6CrFnI/SGwU187mxY=
+@size 1781
+@man man/man3/tld_check_4tz.3
+@sha Ec5b9sxQwjgJCwBOWyUGqvJzNKYcSyfz7DHijZoCAnA=
+@size 1692
+@man man/man3/tld_check_4z.3
+@sha htFMjp/dnq3THlIfyc05vsVXLPS6ZlWxm01wGlhBNlw=
+@size 2037
+@man man/man3/tld_check_8z.3
+@sha icjDgfu54DZsmBrSY312pcA3HdmYu/EzrNowq1rbKn8=
+@size 2124
+@man man/man3/tld_check_lz.3
+@sha q2czsC3r/e4e02O+zXRETAcmf66LHJZJibSr3AxG2Qg=
+@size 2151
+@man man/man3/tld_default_table.3
+@sha IFQQz12c1Rf3yq5BMx0dT8mEYF5Dw76+YNOljl/FxYE=
+@size 1522
+@man man/man3/tld_get_4.3
+@sha 3IMDjk4j02dCX1RmPVj7cAgNAXWDBkFjNhZ34b6IGe4=
+@size 1367
+@man man/man3/tld_get_4z.3
+@sha eTDN1cK7wmXxfTNLqXCjHiY9D8Ly9N8ddwzQGTPGK5c=
+@size 1278
+@man man/man3/tld_get_table.3
+@sha qBwsG6pnSCPoXAoGxIwRRNVBvKFPuLz2Q/BanwnZ5k8=
+@size 1377
+@man man/man3/tld_get_z.3
+@sha Tl+M+itPO7SehwCkh67/Q52Bwprct77QKmcwwplinH8=
+@size 1353
+@man man/man3/tld_strerror.3
+@sha rFSF8InJ35n0SJkxetbQIGj9Vj1ZsP9yykv6skZqQic=
+@size 1652
+share/emacs/site-lisp/idna.el
+@sha BLdDqxKXXJ41Cxv7FELVrj+qiZicrPoSdPzqQ+LCUY4=
+@size 6464
+share/emacs/site-lisp/punycode.el
+@sha 2Oq1OoG+VhNwU4QDNkevNPfclqQyuzGIeV8fjMjbxgg=
+@size 6266
+share/locale/cs/LC_MESSAGES/libidn.mo
+@sha OP27AD3/wW25ll3ttrEbfMJPen4U3He9C8uvL+MWzwU=
+@size 8778
+share/locale/da/LC_MESSAGES/libidn.mo
+@sha jLPXHUUrJyV5k5Ei1ldtLPHEruiGueF/grtmFF2gY3U=
+@size 7166
+share/locale/de/LC_MESSAGES/libidn.mo
+@sha EGg3HL+I6FTnsOHbJVUDfq4PuDpAjzXKxZAa8/2pi58=
+@size 8581
+share/locale/en@boldquot/LC_MESSAGES/libidn.mo
+@sha 5Cfz9w39R8K41JQ942I5PL2swXecPHPS9TAhrSPEDWo=
+@size 8304
+share/locale/en@quot/LC_MESSAGES/libidn.mo
+@sha nlhUuka/femVodmw8BSaK2WULcmKiI9NQEbaxaYlwSw=
+@size 8172
+share/locale/eo/LC_MESSAGES/libidn.mo
+@sha JwsoXCvyxuJeCPkhsgkTCBdykjva/2wA/Fr4WB25rCI=
+@size 8348
+share/locale/fi/LC_MESSAGES/libidn.mo
+@sha XEFdOlGoHjFWmrLNRYFdtHfLx7sabbelK37CybJq5no=
+@size 8923
+share/locale/fr/LC_MESSAGES/libidn.mo
+@sha qmEuCt85DjmicO7CKFlHSB8tFNU1TzuyN/Etn1vb+Ec=
+@size 9031
+share/locale/hr/LC_MESSAGES/libidn.mo
+@sha 3HKwKf1lH3uVCQw4nWxIbQjP1oRFFf2q7233GYsFDfA=
+@size 8402
+share/locale/id/LC_MESSAGES/libidn.mo
+@sha KehbQz/+FMDFCZ+8OB+wXf0CQ2CtlrbMJ5rVB0QXchk=
+@size 8273
+share/locale/it/LC_MESSAGES/libidn.mo
+@sha 4NfEMCLy+noyfYP6wRgsS/2u33jvgvb7ulfZ9jTfUvE=
+@size 8407
+share/locale/ja/LC_MESSAGES/libidn.mo
+@sha WQSYhPXonOoKJmgin0Z36IiccAQlMQTkoXYyIufVrEc=
+@size 3669
+share/locale/nl/LC_MESSAGES/libidn.mo
+@sha pXIGaTXCAxxKCwcSUBjj2A0lLLQzjH3/RXXPRlEeUso=
+@size 8600
+share/locale/pl/LC_MESSAGES/libidn.mo
+@sha kuEAjVqWTQIszPUrl/D4O00zIvo4N64dzrUKCcMpqn0=
+@size 8539
+share/locale/ro/LC_MESSAGES/libidn.mo
+@sha DkU7BS1TNaIOlGOcAjR+Ne429UJ1Y19lK3FQFXfuUls=
+@size 724
+share/locale/sr/LC_MESSAGES/libidn.mo
+@sha A/z0/nPSvXSgguBJ289K/Yt1FOtnu0gWCxDT8CRFeTI=
+@size 10315
+share/locale/uk/LC_MESSAGES/libidn.mo
+@sha GRVPHR3JLAloauf4Cc+FGEezg2UiN9eZqlOZ7rlUQnk=
+@size 11102
+share/locale/vi/LC_MESSAGES/libidn.mo
+@sha 0dARdh5lMPyUb7J+uMjXH7zkVIBQtXY6jqe6zJf6Wbw=
+@size 9258
+share/locale/zh_CN/LC_MESSAGES/libidn.mo
+@sha 77sDbiXKEyTLZGH7JaXEtE8zdNfr7Ypdgx0HwOZ6m2I=
+@size 7934

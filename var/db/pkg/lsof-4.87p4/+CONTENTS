@@ -1,0 +1,66 @@
+@comment $OpenBSD: PLIST,v 1.15 2013/05/23 15:08:36 dcoppa Exp $
+@name lsof-4.87p4
+@url http://ftp.fr.openbsd.org/pub/OpenBSD/5.6/packages/i386/lsof-4.87p4.tgz
+@signer openbsd-56-pkg
+@digital-signature signify:2014-08-02T11:01:05Z:RWSPEf7Vpp2j0AccTeZZc5VxXk9KeFodf9ZW61sPnycmqVR7VYCbLDUUex1ZvzL4v3nwhw0eytoJkZtSY1iPrnQXpBvOs4a+xgw=
+@option manual-installation
+@comment pkgpath=sysutils/lsof cdrom=yes ftp=yes
+@arch i386
++DESC
+@sha gdB9RrelTj/lokCJfD09TcoRz2+KG76EPoyqt83BuhM=
+@size 560
+@wantlib c.77.0
+@wantlib kvm.16.0
+@cwd /usr/local
+@man man/man8/lsof.8
+@sha xOT5tr5NNrVOyKMUnvahZS5iwkQdVNGIrPsnGHruwNE=
+@size 118884
+@bin sbin/lsof
+@sha VMC8p0tJKLo60Jm6BQXGqXYgSmvKIHu2MpgPBFbjtOc=
+@size 143216
+share/lsof/
+share/lsof/00MANIFEST
+@sha UN9rysqNPBmnSQ1/+rsXpuQiTagjR5o/ihK4RqB4Pwc=
+@size 1807
+share/lsof/00README
+@sha FPjaAH2ZbDwlGrOvPJYs5OqMAII8FJQZ5NmaD93zUgg=
+@size 2058
+share/lsof/big_brother.perl5
+@sha N3k5iZ5LqXC8DTDI0oQ+4zZX4dJjJXUdy6cCuOl6RTs=
+@size 5404
+share/lsof/count_pf.perl
+@sha Tn4lumehSkzZ92qqay1piM9SPbpkwSMDflXW0SvOXvI=
+@size 1849
+share/lsof/count_pf.perl5
+@sha Zc2lokevwU1Vq240aZheZIfeGt/kCejBWb/C2cYkvd4=
+@size 2022
+share/lsof/identd.perl5
+@sha iAgyb82lbzUIK5Qi9maG02BleNzDCCPIMTP0zNvB6pM=
+@size 3275
+share/lsof/idrlogin.perl
+@sha 95gRVz0ZSqNrtCw1MzhgIiffijW7oPbDiaDd5qagcKs=
+@size 5292
+share/lsof/idrlogin.perl5
+@sha FsMZeNP624PQp6+rp81gG2tVpKHcjqV7Bad6sZZk5L8=
+@size 5244
+share/lsof/list_NULf.perl5
+@sha HjgP70AdHthZaQf7gnTqBiEWi5dThZzI9UgKN2xa0oI=
+@size 5098
+share/lsof/list_fields.awk
+@sha jkQc98x1hRR3w//UmVwU+gKxV1+UM/zvsl6s48K9+pI=
+@size 5846
+share/lsof/list_fields.perl
+@sha /zKgkk+8aVK9XtCyoTb1eavykZUhfbQQlgb55rYCdUc=
+@size 4594
+share/lsof/shared.perl5
+@sha 29xieoZhIgZH1g7FXf3wlOxIRN2bIKXkpjPvNard6DE=
+@size 10553
+share/lsof/sort_res.perl5
+@sha pVzAyxyQf8/bUMqB+oICjr3ov37/B0baggjjny0reIU=
+@size 3741
+share/lsof/watch_a_file.perl
+@sha PZo+v9QvFYWUTPaBNZaK11Hw+hZcfRZCiEpk4mvf488=
+@size 2235
+share/lsof/xusers.awk
+@sha teuSn+rvjU0QuZ2bbx87Cs9dAOjFIqOQMs5ycr/ZzPQ=
+@size 3975

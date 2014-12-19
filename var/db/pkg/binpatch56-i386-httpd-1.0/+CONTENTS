@@ -1,0 +1,32 @@
+@name binpatch56-i386-httpd-1.0
+@url https://stable.mtier.org/updates/5.6/i386/binpatch56-i386-httpd-1.0.tgz
+@signer mtier-56-pkg
+@digital-signature signify:2014-11-20T09:04:26Z:RWQQss3E1pCsG3KXUfl1rtE/WgImFTMVUXVNV+aASPtgNy/ewHsWqAFT4Z0dUnXP1hXkRGMiOq9Up4ZSwgqMXnm9rWBSquHS7A0=
+@option manual-installation
+@option always-update
+@comment pkgpath=/binpatch/56/httpd cdrom=yes ftp=yes
+@arch i386
++DESC
+@sha VnRS2kxiF/SqOcO1l2HjVdjbsDFVlNkhmjNJWOdL8EY=
+@size 124
+@cwd /
+@comment patch for 009_httpd.patch
+var/db/binpatch/5.6-009/fake/usr/
+var/db/binpatch/5.6-009/fake/usr/sbin/
+var/db/binpatch/5.6-009/fake/usr/sbin/httpd
+@sha BEzP3ji8Zf+aTXem09Pxv2UjCnVW2OPsz3fNst1tG/E=
+@size 110064
+@unexec /var/db/binpatch/5.6-009/install.sh rollback 009 /var/db/binpatch all
+var/db/binpatch/5.6-009/PLIST
+@sha KRvQOcPOiWPTQJ+7ol7VhCE1TWcwXkDl+lHUfpciIWk=
+@size 93
+var/db/binpatch/5.6-009/install.sh
+@sha LUC9g1EWUG1Tehl4L4oaR2fDEj2nuWtzzvTXZZagxDw=
+@size 4215
+@exec /var/db/binpatch/5.6-009/install.sh install 009 /var/db/binpatch all
+var/db/binpatch/5.6-009/patches/
+var/db/binpatch/5.6-009/patches/009_httpd.patch
+@sha 67qVfmo333CtrGM5Z0+AOxyADezXWFVlaI4zAtwZ0bU=
+@size 57431
+var/db/binpatch/5.6-009/fake/
+var/db/binpatch/5.6-009/

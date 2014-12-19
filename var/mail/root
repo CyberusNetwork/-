@@ -1,0 +1,439 @@
+From root@cyberus.itinet.fr Thu Dec 18 01:30:08 2014
+Return-Path: root@cyberus.itinet.fr
+Delivered-To: root@cyberus.itinet.fr
+Received: from localhost (0@localhost [local]);
+	by localhost (OpenSMTPD) with ESMTPA id 64f7dd40;
+	for <root@cyberus.itinet.fr>;
+	Thu, 18 Dec 2014 01:30:07 +0100 (CET)
+From: Charlie Root <root@cyberus.itinet.fr>
+Date: Thu, 18 Dec 2014 01:30:06 +0100 (CET)
+Message-Id: <6961642872663959844.enqueue@cyberus.itinet.fr>
+To: root@cyberus.itinet.fr
+Subject: cyberus.itinet.fr daily output
+
+OpenBSD 5.6 (GENERIC) #5: Thu Dec 11 11:38:13 CET 2014
+    root@stable-56-i386.mtier.org:/binpatchng/work-binpatch56-i386/src/sys/arch/i386/compile/GENERIC
+
+ 1:30AM  up 1 day,  5:45, 4 users, load averages: 0.45, 0.24, 0.18
+
+Checking subsystem status:
+
+disks:
+Filesystem  1K-blocks      Used     Avail Capacity iused   ifree  %iused  Mounted on
+/dev/wd0a     1028878     74622    902814     8%    3394  152508     2%   /
+/dev/wd0k    50850476       610  48307344     0%     161 6495837     0%   /home
+/dev/wd0d     4125390         8   3919114     0%      11  545651     0%   /tmp
+/dev/wd0f     2061054    324400   1633602    17%   12813  273009     4%   /usr
+/dev/wd0g     1028878    177748    799688    18%    9150  146752     6%   /usr/X11R6
+/dev/wd0h     9030334    428506   8150312     5%   24394 1144884     2%   /usr/local
+/dev/wd0j     2061054         2   1958000     0%       1  285821     0%   /usr/obj
+/dev/wd0i     2061054       128   1957874     0%      16  285806     0%   /usr/src
+/dev/wd0e     4383358    183258   3980934     4%    5801  565845     1%   /var
+
+Last dump(s) done (Dump '>' file systems):
+
+network:
+Name    Mtu   Network     Address              Ipkts Ierrs    Opkts Oerrs Colls
+lo0     32768 <Link>                             118     0      118     0     0
+lo0     32768 ::1/128     ::1                    118     0      118     0     0
+lo0     32768 fe80::%lo0/64 fe80::1%lo0            118     0      118     0     0
+lo0     32768 127/8       127.0.0.1              118     0      118     0     0
+sis0    1500  <Link>      00:00:24:c4:f5:dc    41783     0    40810     0     0
+sis0    1500  192.168.3/24 192.168.3.1          41783     0    40810     0     0
+sis1    1500  <Link>      00:00:24:c4:f5:dd        0     0        0     0     0
+sis1    1500  192.168.4/24 192.168.4.1              0     0        0     0     0
+sis2    1500  <Link>      00:00:24:c4:f5:de        0     0        0     0     0
+sis2    1500  192.168.2/24 192.168.2.1              0     0        0     0     0
+sis3    1500  <Link>      00:00:24:c4:a1:5c      876     0        2     0     0
+sis3    1500  192.168.1/24 192.168.1.2            876     0        2     0     0
+sis4    1500  <Link>      00:00:24:c4:a1:5d   440232     0   233193     0     0
+sis4    1500  10.8.100/20 10.8.100.2          440232     0   233193     0     0
+enc0*   0     <Link>                               0     0        0     0     0
+tun0    1500  <Link>                           41761     0    44380     0     0
+tun0    1500  192.168.13.1/32 192.168.13.1         41761     0    44380     0     0
+pflog0  33192 <Link>                               0     0     4693     0     0
+
+From root@cyberus.itinet.fr Thu Dec 18 01:33:01 2014
+Return-Path: root@cyberus.itinet.fr
+Delivered-To: root@cyberus.itinet.fr
+Received: from localhost (0@localhost [local]);
+	by localhost (OpenSMTPD) with ESMTPA id e83ab0f1;
+	for <root@cyberus.itinet.fr>;
+	Thu, 18 Dec 2014 01:33:01 +0100 (CET)
+From: Charlie Root <root@cyberus.itinet.fr>
+Date: Thu, 18 Dec 2014 01:33:01 +0100 (CET)
+Message-Id: <6958375896492222884.enqueue@cyberus.itinet.fr>
+To: root@cyberus.itinet.fr
+Subject: cyberus.itinet.fr daily insecurity output
+
+
+Running security(8):
+
+Checking special files and directories.
+Output format is:
+	filename:
+		criteria (shouldbe, reallyis)
+etc/pf.conf: 
+	permissions (0600, 0644)
+usr/local: 
+	permissions (0755, 02755)
+usr/local/bin: 
+	permissions (0755, 02755)
+mtree special: exit code 2
+
+======
+/etc/pf.conf diffs (-OLD  +NEW)
+======
+diff: exit code 1
+--- /var/backups/etc_pf.conf.current	Wed Dec 17 01:34:50 2014
++++ /etc/pf.conf	Wed Dec 17 10:21:06 2014
+@@ -5,7 +5,7 @@
+ # Macro
+ tcp_port = "{ 53 80 443 10006 }"
+ udp_port = "{ 53 10006 }"
+-lan_ip = "192.168.0.0/24"
++lan_ip = "192.168.0.0/20"
+ lan = "sis0"
+ management = "sis1"
+ fai = "sis2"
+@@ -48,16 +48,21 @@
+ # Forwarding_port
+ 
+ #block tous les paquets entrants et sortants
+-block in log all
++# block in log all
+ 
++pass all
++
+ # Quick permet d'ignorer toute autre rêgle de filtrage 
+-block quick from { <whitelist> }
+-block quick from { <blacklist> }
+ 
++#### WARNING §�!!!!!!!! C'est ça qui fait tout planter !!!!!!! ######
++
++#block quick from { <whitelist> }
++#block quick from { <blacklist> }
++
+ # Bloque ceux qui sont dans la table sur les ports concernés
+ # Block_ip_port
+ 
+-#tout les règles passe
++#toutes les règles passe
+ pass quick on lo0 all
+ pass quick on $management all
+ pass quick on $free from { <whitelist> }
+@@ -71,5 +76,3 @@
+ # UDP_port
+ 
+ # Fin_udp
+-
+-pass all
+\ No newline at end of file
+
+
+======
+/etc/resolv.conf diffs (-OLD  +NEW)
+======
+diff: exit code 1
+--- /var/backups/etc_resolv.conf.current	Thu Dec  4 01:31:35 2014
++++ /etc/resolv.conf	Wed Dec 17 17:14:39 2014
+@@ -1,4 +1,7 @@
+ # Generated by sis4 dhclient
+ search itinet.fr
++nameserver 127.0.0.1
++nameserver 10.8.100.2
+ nameserver 8.8.8.8
++nameserver 8.8.4.4
+ lookup file bind
+
+
+======
+/var/nsd/etc/nsd.conf diffs (-OLD  +NEW)
+======
+diff: exit code 1
+--- /var/backups/var_nsd_etc_nsd.conf.current	Thu Dec  4 01:31:42 2014
++++ /var/nsd/etc/nsd.conf	Wed Dec 17 18:44:38 2014
+@@ -4,7 +4,7 @@
+ 	hide-version: yes
+ 
+ ## bind to a specific address/port
+-#	ip-address: 192.0.2.53
++	ip-address: 10.8.100.2@53530
+ #	ip-address: 192.0.2.53@5678
+ #	ip-address: 2001:db8::53
+ 
+@@ -17,12 +17,17 @@
+ #	algorithm: hmac-sha256
+ #	secret: "bWVrbWl0YXNkaWdvYXQ="
+ 
+-## master zone example
++## master zone
++zone:
++	name: "cbnet.itinet.fr"
++	zonefile: "/var/nsd/zones/cbnet.itinet.fr.zone"
++	request-xfr: 195.154.82.81 NOKEY
++	request-xfr: 195.154.83.51 NOKEY
+ #zone:
+-#	name: "example.com"
+-#	zonefile: "example.com"
+-#	notify: 192.0.2.1 NOKEY
+-#	provide-xfr: 192.0.2.1 NOKEY
++#	name: "2.100.8.10.in-addr.arpa"
++#	zonefiles: "/var/nsd/zones/cbnet.itinet.fr.zone.inv"
++	
++
+ 
+ ## slave zone example
+ #zone:
+
+
+======
+/var/unbound/etc/unbound.conf diffs (-OLD  +NEW)
+======
+diff: exit code 1
+--- /var/backups/var_unbound_etc_unbound.conf.current	Thu Dec  4 01:31:42 2014
++++ /var/unbound/etc/unbound.conf	Wed Dec 17 17:11:35 2014
+@@ -2,18 +2,28 @@
+ 
+ server:
+ 	interface: 127.0.0.1
++	interface: 10.8.100.2
+ 	#interface: 127.0.0.1@5353	# listen on alternative port
+ 	interface: ::1
+ 	#do-ip6: no
++	verbosity: 1
++	do-tcp: yes
++	do-udp: yes
+ 
+ 	access-control: 0.0.0.0/0 refuse
+ 	access-control: 127.0.0.0/8 allow
++	access-control: 10.8.100.2/32 allow
+ 	access-control: ::0/0 refuse
+ 	access-control: ::1 allow
+ 
+ 	hide-identity: yes
+ 	hide-version: yes
+ 
++    	cache-min-ttl: 3600
++    	cache-max-ttl: 86400
++
++	prefetch: yes
++
+ 	# Uncomment to enable DNSSEC validation.
+ 	#
+ 	#auto-trust-anchor-file: "/var/unbound/db/root.key"
+@@ -37,14 +47,20 @@
+ 	#
+ 	#tcp-upstream: yes
+ 
+-# Use an upstream forwarder (recursive resolver) for specific zones.
+-# Example addresses given below are public resolvers valid as of 2014/03.
+-#
+-#forward-zone:
+-#	name: "."				# use for ALL queries
+-#	forward-addr: 74.82.42.42		# he.net
+-#	forward-addr: 2001:470:20::2		# he.net v6
+-#	forward-addr: 8.8.8.8			# google.com
+-#	forward-addr: 2001:4860:4860::8888	# google.com v6
+-#	forward-addr: 208.67.222.222		# opendns.com
+-#	forward-first: yes			# try direct if forwarder fails
++# Upstream forwarder (recursive resolver) for specific zones.
++
++forward-zone:
++	name: "."				# use for ALL queries
++	forward-addr: 8.8.8.8			# google.com
++	forward-addr: 8.8.4.4			# google.com (2)
++	forward-addr: 208.67.222.222		# opendns.com
++	forward-addr: 208.67.220.220		# opendns.com (2)
++	forward-first: yes			# try direct if forwarder fails
++
++## DnsSpoof (split-horizon) of local sites
++
++#local-zone: "cbnet.itinet.fr" redirect
++#local-data: "cbnet.itinet.fr A 10.8.100.2"
++
++#local-zone: "uniti.itinet.fr" redirect
++#local-data: "uniti.itinet.fr A 10.8.100.3"
+
+
+From root@cyberus.itinet.fr Fri Dec 19 01:30:05 2014
+Return-Path: root@cyberus.itinet.fr
+Delivered-To: root@cyberus.itinet.fr
+Received: from localhost (0@localhost [local]);
+	by localhost (OpenSMTPD) with ESMTPA id dc33ecc3;
+	for <root@cyberus.itinet.fr>;
+	Fri, 19 Dec 2014 01:30:04 +0100 (CET)
+From: Charlie Root <root@cyberus.itinet.fr>
+Date: Fri, 19 Dec 2014 01:30:03 +0100 (CET)
+Message-Id: <8412916265996586760.enqueue@cyberus.itinet.fr>
+To: root@cyberus.itinet.fr
+Subject: cyberus.itinet.fr daily output
+
+OpenBSD 5.6 (GENERIC) #5: Thu Dec 11 11:38:13 CET 2014
+    root@stable-56-i386.mtier.org:/binpatchng/work-binpatch56-i386/src/sys/arch/i386/compile/GENERIC
+
+ 1:30AM  up 2 days,  5:45, 4 users, load averages: 0.16, 0.17, 0.16
+
+Checking subsystem status:
+
+disks:
+Filesystem  1K-blocks      Used     Avail Capacity iused   ifree  %iused  Mounted on
+/dev/wd0a     1028878     74626    902810     8%    3398  152504     2%   /
+/dev/wd0k    50850476       610  48307344     0%     162 6495836     0%   /home
+/dev/wd0d     4125390         8   3919114     0%      11  545651     0%   /tmp
+/dev/wd0f     2061054    324400   1633602    17%   12813  273009     4%   /usr
+/dev/wd0g     1028878    177748    799688    18%    9150  146752     6%   /usr/X11R6
+/dev/wd0h     9030334    428506   8150312     5%   24394 1144884     2%   /usr/local
+/dev/wd0j     2061054         2   1958000     0%       1  285821     0%   /usr/obj
+/dev/wd0i     2061054       128   1957874     0%      16  285806     0%   /usr/src
+/dev/wd0e     4383358    183288   3980904     4%    5823  565823     1%   /var
+
+Last dump(s) done (Dump '>' file systems):
+
+network:
+Name    Mtu   Network     Address              Ipkts Ierrs    Opkts Oerrs Colls
+lo0     32768 <Link>                            2476     0     2476     0     0
+lo0     32768 ::1/128     ::1                   2476     0     2476     0     0
+lo0     32768 fe80::%lo0/64 fe80::1%lo0           2476     0     2476     0     0
+lo0     32768 127/8       127.0.0.1             2476     0     2476     0     0
+sis0    1500  <Link>      00:00:24:c4:f5:dc    41791     0    40818     0     0
+sis0    1500  192.168.3/24 192.168.3.1          41791     0    40818     0     0
+sis1    1500  <Link>      00:00:24:c4:f5:dd        0     0        0     0     0
+sis1    1500  192.168.4/24 192.168.4.1              0     0        0     0     0
+sis2    1500  <Link>      00:00:24:c4:f5:de        0     0        0     0     0
+sis2    1500  192.168.2/24 192.168.2.1              0     0        0     0     0
+sis3    1500  <Link>      00:00:24:c4:a1:5c     1567     0        2     0     0
+sis3    1500  192.168.1/24 192.168.1.2           1567     0        2     0     0
+sis4    1500  <Link>      00:00:24:c4:a1:5d   606253     0   315633     0     0
+sis4    1500  10.8.100/20 10.8.100.2          606253     0   315633     0     0
+enc0*   0     <Link>                               0     0        0     0     0
+tun0    1500  <Link>                           48766     0    51067     0     0
+tun0    1500  192.168.13.1/32 192.168.13.1         48766     0    51067     0     0
+pflog0  33192 <Link>                               0     0     5390     0     0
+
+From root@cyberus.itinet.fr Fri Dec 19 01:32:59 2014
+Return-Path: root@cyberus.itinet.fr
+Delivered-To: root@cyberus.itinet.fr
+Received: from localhost (0@localhost [local]);
+	by localhost (OpenSMTPD) with ESMTPA id db397ab0;
+	for <root@cyberus.itinet.fr>;
+	Fri, 19 Dec 2014 01:32:59 +0100 (CET)
+From: Charlie Root <root@cyberus.itinet.fr>
+Date: Fri, 19 Dec 2014 01:32:58 +0100 (CET)
+Message-Id: <12114641328325518427.enqueue@cyberus.itinet.fr>
+To: root@cyberus.itinet.fr
+Subject: cyberus.itinet.fr daily insecurity output
+
+
+Running security(8):
+
+Checking special files and directories.
+Output format is:
+	filename:
+		criteria (shouldbe, reallyis)
+etc/pf.conf: 
+	permissions (0600, 0644)
+usr/local: 
+	permissions (0755, 02755)
+usr/local/bin: 
+	permissions (0755, 02755)
+mtree special: exit code 2
+
+======
+/etc/rc.conf.local diffs (-OLD  +NEW)
+======
+diff: exit code 1
+--- /var/backups/etc_rc.conf.local.current	Wed Dec 17 01:34:52 2014
++++ /etc/rc.conf.local	Thu Dec 18 18:40:53 2014
+@@ -11,3 +11,5 @@
+ mysqld_flags=""
+ httpd_flags=""
+ pkg_scripts="mysqld"
++# Servers DNS
++unbound_flags="-c /var/unbound/etc/unbound.conf"
+
+
+======
+/var/nsd/etc/nsd.conf diffs (-OLD  +NEW)
+======
+diff: exit code 1
+--- /var/backups/var_nsd_etc_nsd.conf.current	Thu Dec 18 01:32:49 2014
++++ /var/nsd/etc/nsd.conf	Thu Dec 18 03:54:44 2014
+@@ -3,11 +3,15 @@
+ server:
+ 	hide-version: yes
+ 
+-## bind to a specific address/port
+-	ip-address: 10.8.100.2@53530
+-#	ip-address: 192.0.2.53@5678
+-#	ip-address: 2001:db8::53
++identity: "Cyberus Network authoritative DNS"
+ 
++logfile: "/var/nsd/logs/nsd.log"
++verbosity: 1
++
++## bind to a specific address/port
++	ip-address: 10.8.100.2
++	ip-address: 127.0.0.1
++	port: 53530
+ remote-control:
+ 	control-enable: yes
+ 
+@@ -23,9 +27,9 @@
+ 	zonefile: "/var/nsd/zones/cbnet.itinet.fr.zone"
+ 	request-xfr: 195.154.82.81 NOKEY
+ 	request-xfr: 195.154.83.51 NOKEY
+-#zone:
+-#	name: "2.100.8.10.in-addr.arpa"
+-#	zonefiles: "/var/nsd/zones/cbnet.itinet.fr.zone.inv"
++zone:
++	name: "168.192.in-addr.arpa"
++	zonefile: "/var/nsd/zones/cbnet.itinet.fr.zone.inv"
+ 	
+ 
+ 
+
+
+======
+/var/unbound/etc/unbound.conf diffs (-OLD  +NEW)
+======
+diff: exit code 1
+--- /var/backups/var_unbound_etc_unbound.conf.current	Thu Dec 18 01:32:50 2014
++++ /var/unbound/etc/unbound.conf	Thu Dec 18 18:38:50 2014
+@@ -1,5 +1,6 @@
+ # $OpenBSD: unbound.conf,v 1.4 2014/04/02 21:43:30 millert Exp $
+ 
++
+ server:
+ 	interface: 127.0.0.1
+ 	interface: 10.8.100.2
+@@ -33,9 +34,12 @@
+ 	#
+ 	#local-zone: "local." static
+ 	#local-data: "mycomputer.local. IN A 192.0.2.51"
+-	#local-zone: "2.0.192.in-addr.arpa." static
++	
++	#local-zone: "168.192.in-addr.arpa." static
+ 	#local-data-ptr: "192.0.2.51 mycomputer.local"
+ 
++	local-data: "cbnet.itinet.fr. IN A 10.8.100.2"
++
+ 	# UDP EDNS reassembly buffer advertised to peers. Default 4096.
+ 	# May need lowering on broken networks with fragmentation/MTU issues,
+ 	# particularly if validating DNSSEC.
+@@ -57,10 +61,7 @@
+ 	forward-addr: 208.67.220.220		# opendns.com (2)
+ 	forward-first: yes			# try direct if forwarder fails
+ 
+-## DnsSpoof (split-horizon) of local sites
+ 
+-#local-zone: "cbnet.itinet.fr" redirect
+-#local-data: "cbnet.itinet.fr A 10.8.100.2"
+-
+-#local-zone: "uniti.itinet.fr" redirect
+-#local-data: "uniti.itinet.fr A 10.8.100.3"
++# enable remote-control
++remote-control:
++        control-enable: yes
+
+

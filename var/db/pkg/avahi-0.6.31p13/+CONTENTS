@@ -1,0 +1,546 @@
+@comment $OpenBSD: PLIST-main,v 1.13 2013/01/20 10:44:17 ajacoutot Exp $
+@comment $OpenBSD: PFRAG.shared-main,v 1.1 2009/06/04 21:42:40 ajacoutot Exp $
+@name avahi-0.6.31p13
+@url http://ftp.fr.openbsd.org/pub/OpenBSD/5.6/packages/i386/avahi-0.6.31p13.tgz
+@signer openbsd-56-pkg
+@digital-signature signify:2014-08-02T10:55:08Z:RWSPEf7Vpp2j0Hm9Olr+NU584YET+9uhWH/J5eFKfMTPnaEwMjwx/jFsVNAVU8xiqV3ShHz5geYS+2Y+hBxWsdzBxNKQHl4F3gY=
+@comment pkgpath=net/avahi,-main cdrom=yes ftp=yes
+@arch i386
++DESC
+@sha reubsfhFsnTae9iNgKyZXQbhuYCvdfSvfSp/I51UDLY=
+@size 628
+@conflict howl-*
+@depend converters/libiconv:libiconv-*:libiconv-1.14p1
+@depend databases/gdbm:gdbm-*:gdbm-1.11
+@depend devel/gettext:gettext->=0.10.38:gettext-0.19.1p0
+@depend devel/glib2:glib2-*:glib2-2.40.0p7
+@depend devel/libdaemon:libdaemon-*:libdaemon-0.14p0
+@depend x11/dbus:dbus-*:dbus-1.8.6v0
+@wantlib c.77.0
+@wantlib daemon.4.0
+@wantlib dbus-1.11.0
+@wantlib expat.11.0
+@wantlib ffi.1.0
+@wantlib gdbm.4.1
+@wantlib glib-2.0.4000.0
+@wantlib gobject-2.0.4000.0
+@wantlib iconv.6.0
+@wantlib intl.6.0
+@wantlib pcre.3.0
+@wantlib pthread.18.0
+@newgroup _avahi:629
+@newuser _avahi:629:629:daemon:Avahi User:/var/empty:/sbin/nologin
+@cwd /usr/local
+lib/libavahi-client.la
+@sha dAacmmjAiT+E0XosyT/IGst9GNF6fLAZS9gy6e5Xpwo=
+@size 943
+@lib lib/libavahi-client.so.0.0
+@sha hvhrEt37VXjYg/ly8axQIjAyl0BDn2FtdXzFsGjOU+Q=
+@size 74127
+lib/libavahi-common.la
+@sha tz59di92MvYB+GCJEHivAHijaPbY2svuR4YbqFw5twY=
+@size 871
+@lib lib/libavahi-common.so.0.0
+@sha D4bESaxE+6H7mo8HUtBj+hB5jNEi4g1spGM9YNiDGm4=
+@size 63719
+lib/libavahi-core.la
+@sha 9q0zqbiohleoPe/cm4cBShmGg2kjLN6ENq3dstJU1sw=
+@size 895
+@lib lib/libavahi-core.so.0.0
+@sha wlL2pFldSG0i4lGYrJ6rpP+6ZU9HP1Xm69Wre9nlcck=
+@size 249817
+lib/libavahi-glib.la
+@sha Wx29Y+YMy5vgdwqIAODb/LK/wst3+veqnEM48JrU9xY=
+@size 951
+@lib lib/libavahi-glib.so.0.0
+@sha aJfddSiDZFEV8hdo/TJBP0g7lu4aPU4dxUrwSFQuDCU=
+@size 13328
+lib/libavahi-gobject.la
+@sha KMoSkmykH9o3daj8MXbqptOhHyBgg2/rVSfvtujObig=
+@size 1128
+@lib lib/libavahi-gobject.so.0.0
+@sha ZsAnJL+6ghEbRjUa5K3EdgPllByY6hRgxnvbxMQMIt8=
+@size 49667
+lib/libdns_sd.la
+@sha BR816kdB5u1xzW3f4LTCyR8QKuVodzoqeB56nfKUI2E=
+@size 947
+@lib lib/libdns_sd.so.0.0
+@sha A17xuJIJ9/Lvcfzu/xTyWVmbDzWYugYgUYHLHPBMpjI=
+@size 41831
+lib/libhowl.la
+@sha ehu1mrRB3wpnu+mwzu545OzclJMWZey5V9RZDPoWLdg=
+@size 937
+@lib lib/libhowl.so.0.0
+@sha HAUifItlrg4ZKPvwOdUTU7XJUaqC5rLLEKHhKTr6eSQ=
+@size 68851
+@bin bin/avahi-browse
+@sha ab6IW0Ng3VYOhR5l4PVWZqj8yBdT/gavZ13kTkBS/hY=
+@size 25296
+bin/avahi-browse-domains
+@symlink avahi-browse
+@bin bin/avahi-publish
+@sha EA9ojD2mlvksjcepgRnZaE4bHw9gonQfQS1736/RBmg=
+@size 16048
+bin/avahi-publish-address
+@symlink avahi-publish
+bin/avahi-publish-service
+@symlink avahi-publish
+@bin bin/avahi-resolve
+@sha An2JkDLjRfOmWEcixeeeR5TXGfy1f38SbMZy5YW9mjo=
+@size 15472
+bin/avahi-resolve-address
+@symlink avahi-resolve
+bin/avahi-resolve-host-name
+@symlink avahi-resolve
+@bin bin/avahi-set-host-name
+@sha MME2QJTruvnIZxkDD5PBAGr9gxZf6vlFT9RhpzdbY/s=
+@size 10800
+include/avahi-client/
+include/avahi-client/client.h
+@sha Bzu1fq9skuQ+bUtzZ2zT08vBojvfv2/f+m0WEBeIZGE=
+@size 5119
+include/avahi-client/lookup.h
+@sha skIb3W7btdVy37TShBJZdDf0MJad/2Tt2+oOSWsfw/s=
+@size 11112
+include/avahi-client/publish.h
+@sha 46uhbv5kcggGTn/BuLQDMc8nlAzma2AyV7WRvtGu9Dk=
+@size 8889
+include/avahi-common/
+include/avahi-common/address.h
+@sha fzPe7fa1m3DbKTbsKdMH92+9WqHVgKBybZ+wgJQtAE8=
+@size 4046
+include/avahi-common/alternative.h
+@sha qt5/S77dAyMoCsbOBOxqqoIL1VM+mf7E0INPAV+HuHM=
+@size 1607
+include/avahi-common/cdecl.h
+@sha UDCAzXO6CgP+7nyWMVNYScZXWtLoWFeZs+iDhpaFPmI=
+@size 1287
+include/avahi-common/defs.h
+@sha +e55xCPBmfNDnhrtltJfSMRa7faLRGEnoWK4DX1eqe8=
+@size 17269
+include/avahi-common/domain.h
+@sha 6XftVIDUP5ntikOkO2KEdwafn/cHF1IIXOAmY5An7FI=
+@size 4725
+include/avahi-common/error.h
+@sha DRo3UQLusQTjzayIC/9xoH1Ut3zTq0cYAN+3S18nO0A=
+@size 5196
+include/avahi-common/gccmacro.h
+@sha QFamF3bcgZARKxHBKnd6y9xW0LUXmjOpVdy3FdotjE4=
+@size 2226
+include/avahi-common/llist.h
+@sha caNxg0VHUrK5jjQ4BXFYo2zYDUhxtrDSaAsB9Fwbl+g=
+@size 3106
+include/avahi-common/malloc.h
+@sha 10kPEmcFxb2wuX+NiJ1X+CVFQVEx/OQTw9yFhl/K5aA=
+@size 3210
+include/avahi-common/rlist.h
+@sha //rHbElUjDoDcQIpQ8Rx1drpAnTmga/dfMn6mxl8v/o=
+@size 1545
+include/avahi-common/simple-watch.h
+@sha FZz7qexTcwQU10m5gpoMS7UhlLTsmzmn8gZFSgwIAEo=
+@size 3502
+include/avahi-common/strlst.h
+@sha m6bGafga+IrAOZ7BP+qWVRnqQBGkIAsIUjQK86RsPXM=
+@size 7097
+include/avahi-common/thread-watch.h
+@sha uAJk4etEzc43TUviUlf1gvM3x/ixyYl/TPJKa9VPY0Y=
+@size 3256
+include/avahi-common/timeval.h
+@sha J4bkAOEgdwjxFkylpjwa0F2yxmW//F6QLmj7xlH9W14=
+@size 1994
+include/avahi-common/watch.h
+@sha ybW+lA68q1kTxP7RruAsao9w/DikOVaq7a1J9jKNr/4=
+@size 3755
+include/avahi-compat-howl/
+include/avahi-compat-howl/corby/
+include/avahi-compat-howl/corby/buffer.h
+@sha /v8gNIkV0ZboJ6k4gXqzJyh0O0n31UQ4xTDzQ/kZrJs=
+@size 7370
+include/avahi-compat-howl/corby/channel.h
+@sha IUffc/c9+w5euSurx4v7EZ0X0u5XpgeMLRlqN9suAcg=
+@size 5032
+include/avahi-compat-howl/corby/corby.h
+@sha KePu+Oj+Mw5Cy1fK557QXOl82tdrCxYViCJtwUVxffE=
+@size 2668
+include/avahi-compat-howl/corby/message.h
+@sha Jl7QSfn2PpyBR/RVUKU1A4yvG8RFFlk0uB99vpOxov4=
+@size 1980
+include/avahi-compat-howl/corby/object.h
+@sha Pxjm8k3ZtQTeh+9EmLC0gTMvIVyjzyD/ZaQt701YGhY=
+@size 3396
+include/avahi-compat-howl/corby/orb.h
+@sha tGZye1elDd8j5U1/m7aWiq9FariW8BJZ7clAjUFietM=
+@size 5171
+include/avahi-compat-howl/discovery/
+include/avahi-compat-howl/discovery/discovery.h
+@sha oTzigUMqLpD7wq/ndwLSizDXwq+I6YhAW9IruXvoyzk=
+@size 8627
+include/avahi-compat-howl/discovery/text_record.h
+@sha zAksd7qPJaXkM+Jp1H8YcmgJACgGrLUEnKCYxH0wfmo=
+@size 3854
+include/avahi-compat-howl/howl.h
+@sha WdkVofBKrzrZpnjeXkIXKc5ufKjFFNnyzrTlcItoBgU=
+@size 1894
+include/avahi-compat-howl/rendezvous/
+include/avahi-compat-howl/rendezvous/rendezvous.h
+@sha LueOpvKYfXshKDevhvLE3dQJIy98hVGE5IN9w/FM+NM=
+@size 5936
+include/avahi-compat-howl/rendezvous/text_record.h
+@sha 6yCgWneG/pDJ4/Uc37MUkjnSHAg2qAHwwj4U9W63U7Q=
+@size 1693
+include/avahi-compat-howl/salt/
+include/avahi-compat-howl/salt/address.h
+@sha mY/w41zdV/ZaNKy1R92wxUULKajFdUf9JniVFKNwD30=
+@size 3027
+include/avahi-compat-howl/salt/debug.h
+@sha /DZmyLoJcVC7iaN1Rl8bJlP23ruhll5IDgxnpqjGQRA=
+@size 4797
+include/avahi-compat-howl/salt/interface.h
+@sha JWR0jETKrDyquQYszwSHA0GeBLBfxe8+Zs+hWqWnBuY=
+@size 3151
+include/avahi-compat-howl/salt/platform.h
+@sha SVetNmDtiLfmNjeLt2lHO0M7/Qy3vlBj4qJQlufD+Jo=
+@size 11855
+include/avahi-compat-howl/salt/salt.h
+@sha WlSx8epQKdvIvJRbm5A6yAiiSkGaISEVRrlE1rK2QS8=
+@size 5257
+include/avahi-compat-howl/salt/signal.h
+@sha KfdopKAi+CgR+kimkpqBQmNqh1F2AA47Vvsfj0XfG/8=
+@size 1932
+include/avahi-compat-howl/salt/socket.h
+@sha CTN5wCWHrwcyVUtFwxIQF2/0No7PJIiIZawO0xP46OQ=
+@size 5488
+include/avahi-compat-howl/salt/time.h
+@sha p21cSUO7H+reRewFcpR4eoeqJxXPyieQHVxZ1uzBS5M=
+@size 2332
+include/avahi-compat-libdns_sd/
+include/avahi-compat-libdns_sd/dns_sd.h
+@sha hgzR5XgK2pF1+tOS5+pztXXRRXg1xnR/kYi/pCIgikU=
+@size 77551
+include/avahi-core/
+include/avahi-core/core.h
+@sha SgdJ6yVhQrgbLPjY+m9s94vzXXuGStUbbHczEskSve8=
+@size 8958
+include/avahi-core/log.h
+@sha EaKJFlhjt8LthVkm2OWsJkRmvPW3IVmu6dq2vTe1QAc=
+@size 2569
+include/avahi-core/lookup.h
+@sha ETClpYruWowItcVjFo9k/VAknQyElfYvlp+yVqGU3mw=
+@size 10452
+include/avahi-core/publish.h
+@sha NadFikpy/le57xk3JsnJfquKIR80V1Dw1WgKKnMt470=
+@size 8076
+include/avahi-core/rr.h
+@sha GOZsmqJpMrjYXrerNV5zJH8vBx/Z12WNhkNtl3K6T9U=
+@size 6545
+include/avahi-glib/
+include/avahi-glib/glib-malloc.h
+@sha zh/ztFTIc2LwPYpMrnX9AYzotW9HpwQ05PPKrbzO/vc=
+@size 1258
+include/avahi-glib/glib-watch.h
+@sha GjyoyiC6Yrpp8VgwRehNnEjhz0qz5nIUqNIvRE6wyTY=
+@size 1827
+include/avahi-gobject/
+include/avahi-gobject/ga-client.h
+@sha XpW1ymXaWNacFkcsedrUA/1hhjBQGmImrRgi2YcdO8I=
+@size 2531
+include/avahi-gobject/ga-entry-group.h
+@sha jYkLL+ZZRO/GzeeKf/7nVPnv20DXJfp6h51ldG6lonQ=
+@size 7747
+include/avahi-gobject/ga-enums.h
+@sha U8Wzt/jN38ZPR6MfwYlpZXtzHaoFMz2sUzrDArxJr4Y=
+@size 4056
+include/avahi-gobject/ga-error.h
+@sha aJEmVcLMl5BVw5PMFLNlij52D8/8b/UtCQWdvRf43dc=
+@size 1068
+include/avahi-gobject/ga-record-browser.h
+@sha 1w+/uIKbJE1bs5xzCM9UQwJlu+qMUq8VX7rzpBw2Qrw=
+@size 2653
+include/avahi-gobject/ga-service-browser.h
+@sha FsiZoCvlYuLGD3jqOB11Y6AwaNv83+CZWRA2lGHwDRc=
+@size 2540
+include/avahi-gobject/ga-service-resolver.h
+@sha jLexzikwBt44gyvSP2HkDMV4iKLS60THkDuW2hjOCno=
+@size 2799
+lib/girepository-1.0/
+lib/girepository-1.0/Avahi-0.6.typelib
+@sha W9BhgrosLgkA59keCihaV9bWWMaXc6KYfj58s6j5pdM=
+@size 8316
+lib/girepository-1.0/AvahiCore-0.6.typelib
+@sha LICX1N7+ldMEJdWg3fltX+sCxM1o+ZZpE8DYn4ra0fI=
+@size 1292
+lib/libavahi-client.a
+@sha psLL8209n3u5J8DtLVKXs9i6YaJ7T6k+tIDbSsDp0NQ=
+@size 93408
+lib/libavahi-common.a
+@sha FE42i802W56TckKDFrIh7SlGq+3LMNpmHozda20cAAc=
+@size 67544
+lib/libavahi-core.a
+@sha +DH/g/0p00+usMBvjMHr5a7QPBujGNlXcUK+8zAI+hU=
+@size 363040
+lib/libavahi-glib.a
+@sha qhh1vFBz9vqiqdWtIsXOct8ZTuFufV3o/BvwStAdYdc=
+@size 11160
+lib/libavahi-gobject.a
+@sha CiLpFh7PmoLJ4IzXkGM2qRzw1ZHfHKp3QJdqUDz5KFQ=
+@size 63560
+lib/libdns_sd.a
+@sha 9PsdA5CBWn2UNkLlfyauTWecPh5Z4zmtJNImoS9czlk=
+@size 37654
+lib/libhowl.a
+@sha sBI6y/kwRXRqE0iwi+tF4DpEOqvvw5pih7v9FRSkM94=
+@size 71074
+lib/pkgconfig/avahi-client.pc
+@sha YTViBzg2P556G8rggCntUMinU5puYySRi/45a3r4Pgo=
+@size 290
+lib/pkgconfig/avahi-compat-howl.pc
+@sha OJAFDikkOrRRQVTdQYMkah0f3htxbUBGfxcAYElgI8A=
+@size 294
+lib/pkgconfig/avahi-compat-libdns_sd.pc
+@sha k3qjdc83cbTUgzdXoJdo0o2HnfUWiYVF+TF36MeFbBo=
+@size 312
+lib/pkgconfig/avahi-core.pc
+@sha 4grVmmQq/nUQFI7pNp0PFkeYbkfP0kwCxzWlXZ3J7Tg=
+@size 288
+lib/pkgconfig/avahi-glib.pc
+@sha WRpReplMQRAZErQXEy5Ou6t7nyC5+CvLBqdxEZm3mOU=
+@size 288
+lib/pkgconfig/avahi-gobject.pc
+@sha S7mBIqRuNbqj3yDkDZllYUP+AkeMr1j+TFOeK6gGKGQ=
+@size 346
+@man man/man1/avahi-browse-domains.1
+@symlink avahi-browse.1
+@man man/man1/avahi-browse.1
+@sha ySFy6L7qSW8p94Lq+L51X523MnkcwbhQcmz8WYgi1os=
+@size 2452
+@man man/man1/avahi-publish-address.1
+@symlink avahi-publish.1
+@man man/man1/avahi-publish-service.1
+@symlink avahi-publish.1
+@man man/man1/avahi-publish.1
+@sha QmsvSoKGhvw+XxysfzRoYscU3Z7XtZ3mjgKc1JRVAPs=
+@size 2477
+@man man/man1/avahi-resolve-address.1
+@symlink avahi-resolve.1
+@man man/man1/avahi-resolve-host-name.1
+@symlink avahi-resolve.1
+@man man/man1/avahi-resolve.1
+@sha ZDdkeuZ21hP6/Ezzx6Dgslzl5zk0ws2vVVtvbUpAISg=
+@size 1565
+@man man/man1/avahi-set-host-name.1
+@sha r74ceWwjaU++Cy1DRu4ixH2Y1oZBNfGmvPNXzDIhOfs=
+@size 719
+@man man/man5/avahi-daemon.conf.5
+@sha eX+y6iItLjvRfokNPcQO7dAOwdermU/BtRjBA2Qw0D4=
+@size 12276
+@man man/man5/avahi.hosts.5
+@sha egaH7bluhSrwveRSl9Ux3Ati5R+oCRvF/deUMPT4LUQ=
+@size 856
+@man man/man5/avahi.service.5
+@sha Nc2JK4BpLmRmsegaMeGs2C/ukidbvJk+TNRVJ+5wzRI=
+@size 2615
+@man man/man8/avahi-daemon.8
+@sha MX2vy1ih9i4dMLz8aavJ4ywK3NR9B9JRWviTOSeZbIU=
+@size 3985
+@man man/man8/avahi-dnsconfd.8
+@sha MyDBXTzad/Aw8gVFfnnm8YY66uzpyzHWxtOvNg83q6E=
+@size 1662
+@man man/man8/avahi-dnsconfd.action.8
+@sha rHHVB0ZeJ3LWPgLPvWsX+vGLRE+DjTNyKyRs6oXGB/w=
+@size 1506
+@bin sbin/avahi-daemon
+@sha j/jS2CEadZBxVlFxLAc6XMcpYdaxKfDLy9Sn1aSdU3Y=
+@size 119312
+@bin sbin/avahi-dnsconfd
+@sha V7X7pwSNYE87oqeKOITbgnSfdi10tAcf2ISp/lYYrTw=
+@size 15920
+share/avahi/
+share/avahi/avahi-service.dtd
+@sha Yi7q9Ud/K8MuD0M2eATE8RMhCCq53RmiB0vUquIFySg=
+@size 560
+share/avahi/service-types
+@sha 21JPeq4xafphJj2yB/s4oXwCXee8aRD5qT5jYmEbl2U=
+@size 5132
+share/dbus-1/interfaces/
+share/dbus-1/interfaces/org.freedesktop.Avahi.AddressResolver.xml
+@sha 9K81WCRixk983vH6x68pnfwIjI3Ar3M2+I8W6qR8U3Y=
+@size 1607
+share/dbus-1/interfaces/org.freedesktop.Avahi.DomainBrowser.xml
+@sha KMdI9DQ+lusxrWBUXVm3OhE17Hqo/o+JGrIvsI/fCG4=
+@size 1700
+share/dbus-1/interfaces/org.freedesktop.Avahi.EntryGroup.xml
+@sha fqSJ6VaBqXrL7waEE90GOAKvGue6XvOt+z1CVm0xpIg=
+@size 3596
+share/dbus-1/interfaces/org.freedesktop.Avahi.HostNameResolver.xml
+@sha tJC8naa7p5ejYuqMtV6xsOAHVqoyO5Bo9VQNpZ8eKJA=
+@size 1608
+share/dbus-1/interfaces/org.freedesktop.Avahi.RecordBrowser.xml
+@sha v7bGwEAl6fnnq3co55gzmV2pJzxA2RbN8aaXo+nYeyI=
+@size 1906
+share/dbus-1/interfaces/org.freedesktop.Avahi.Server.xml
+@sha rYcEbc883gj02GyITKpDY3OVaLUjXu3bpPXw3YYeZME=
+@size 7686
+share/dbus-1/interfaces/org.freedesktop.Avahi.ServiceBrowser.xml
+@sha FyVntjMzte8gXVZw0Kc1aTq9j0dIWlavZhPp0gp6iGM=
+@size 1837
+share/dbus-1/interfaces/org.freedesktop.Avahi.ServiceResolver.xml
+@sha JLAJRrAhHm+WX1K3CCdy04UITfcUhXnBlq55IZtJAWg=
+@size 1860
+share/dbus-1/interfaces/org.freedesktop.Avahi.ServiceTypeBrowser.xml
+@sha Zvge72HseJOxKVZ6Pza0z0mlvqHxh7GZkUVRfGfqCY4=
+@size 1773
+share/dbus-1/system-services/
+share/dbus-1/system-services/org.freedesktop.Avahi.service
+@sha cOlZ4yhsuGFw0ptqkUkCxDhBTZsxM+mxuct7W4BoNiQ=
+@size 971
+share/doc/pkg-readmes/avahi-0.6.31p13
+@sha qlauw7loc6x2jcc5ovT4vuwTbIRmbPQSEh//u+20lTs=
+@size 644
+share/examples/avahi/
+@sample /etc/avahi/
+share/examples/avahi/avahi-daemon.conf
+@sha RiVZ7ym8ycvUGpB+tImz3ktpq+riFIQjoHP851PrJBQ=
+@size 1746
+@sample /etc/avahi/avahi-daemon.conf
+share/examples/avahi/avahi-dnsconfd.action
+@sha HDWkdEjLEJdVk9WvEqYQM/hkivXGC4I7uxvCVQQD4Io=
+@size 2743
+@sample /etc/avahi/avahi-dnsconfd.action
+share/examples/avahi/hosts
+@sha 0W/KCNUFThT/qbDLkZJj9PIds3naQFjqdF0+xGfzKv0=
+@size 1121
+@sample /etc/avahi/hosts
+share/examples/avahi/services/
+@sample /etc/avahi/services/
+share/examples/avahi/services/sftp-ssh.service
+@sha YKUW+U5NqV3GXX85SU0ZIKH2TtWbiFeexeGBue0gM1M=
+@size 1075
+@sample /etc/avahi/services/sftp-ssh.service
+share/examples/avahi/services/ssh.service
+@sha g8Y+CQzyDNG8pGncnytUmmlyrJnD6ooqXffBC0tTdXk=
+@size 1071
+@sample /etc/avahi/services/ssh.service
+share/examples/dbus-1/
+@sample /etc/dbus-1/
+share/examples/dbus-1/avahi-dbus.conf
+@sha v1YsSLN7RJLBt7HUxu2Z/SXN4BUNJW6FspqBnpYhyPY=
+@size 1144
+@sample /etc/dbus-1/system.d/avahi-dbus.conf
+share/gir-1.0/
+share/gir-1.0/Avahi-0.6.gir
+@sha /ASJ7MU3H0cT4HkJHcHdSkTQb09yGbaqYLTyTAY8YTo=
+@size 46587
+share/gir-1.0/AvahiCore-0.6.gir
+@sha bukZQg2ejALZRaC0WTDwKXGezhzSPAxH8myYDt4Cx8I=
+@size 2321
+share/locale/bg/LC_MESSAGES/avahi.mo
+@sha V0qnJ87yfLzIOU+w9IExW28qdz33I+rxaSlT9PEaERs=
+@size 20400
+share/locale/ca/LC_MESSAGES/avahi.mo
+@sha bMnE57cK6Woq3VkJ8FTPgvDe/CL4k2g9JlTGnEg2ux8=
+@size 17052
+share/locale/cs/LC_MESSAGES/avahi.mo
+@sha inE9CjYJ8bGtajCO3i3REBafAJ8RXYDzL5ZdXeeU1+g=
+@size 2265
+share/locale/da/LC_MESSAGES/avahi.mo
+@sha Vff7etJ8bENFhbgUWIfw8otUADEDelXmXV5dxMpgjOs=
+@size 16519
+share/locale/de/LC_MESSAGES/avahi.mo
+@sha LNcIqHKfeSz3lav1iLLEYT/SXHhVvmHeLa1TqQtFlMQ=
+@size 15867
+share/locale/el/LC_MESSAGES/avahi.mo
+@sha eHXZRtYXu8PI5Yl/y5U8937b/B7ZRYhd40omGmYtCvw=
+@size 5529
+share/locale/en_AU/
+share/locale/en_AU/LC_MESSAGES/
+share/locale/en_AU/LC_MESSAGES/avahi.mo
+@sha S+Sfw6g+I5Gtp5+6sW4g/cJFHq4EdRqKDJIuz+j4v+w=
+@size 394
+share/locale/en_CA/LC_MESSAGES/avahi.mo
+@sha PVI5WjhsZ6c2aEXr3R10nZ/lMq0l0zd+3vB0PDNpvt8=
+@size 346
+share/locale/en_GB/LC_MESSAGES/avahi.mo
+@sha k8UZq6fReG33dvNAqTpO6s9bDNqOJJ0zCjzuyB0H3xw=
+@size 14260
+share/locale/en_NZ/
+share/locale/en_NZ/LC_MESSAGES/
+share/locale/en_NZ/LC_MESSAGES/avahi.mo
+@sha k8UZq6fReG33dvNAqTpO6s9bDNqOJJ0zCjzuyB0H3xw=
+@size 14260
+share/locale/es/LC_MESSAGES/avahi.mo
+@sha Fa/Wg/uORFHnqVHlqWb+j9Sa9VnuXBLOYkXTJU83860=
+@size 17630
+share/locale/fi/LC_MESSAGES/avahi.mo
+@sha i+6qiuN9kaeNOGaGSp47AYlfS/uammJqLBn3KUZ7Pjo=
+@size 16012
+share/locale/fo/
+share/locale/fo/LC_MESSAGES/
+share/locale/fo/LC_MESSAGES/avahi.mo
+@sha ZVxuca79vWktocVbGKI0raoWOuqJzh9FxmyiHJMy5e4=
+@size 8665
+share/locale/fr/LC_MESSAGES/avahi.mo
+@sha m/ipeKudCPMi4HDt3JlIdKoyX79cYoKKx7tRN2IlzAA=
+@size 17340
+share/locale/gl/LC_MESSAGES/avahi.mo
+@sha AaK2Nv8/gCTZAHg3YNRQQcegTeYE206c65+suvO0XqQ=
+@size 17188
+share/locale/he/LC_MESSAGES/avahi.mo
+@sha djXsPttd5X7wryIkMmc3FGxmHzV0AAimEPWIiUOi8VU=
+@size 7411
+share/locale/hu/LC_MESSAGES/avahi.mo
+@sha DFCrtQ8a6DVybWWWXd9jH+UmfH2DsHvIEE+O4dVegns=
+@size 17722
+share/locale/id/LC_MESSAGES/avahi.mo
+@sha pD9UlJXvU9Uy4b7QJ+LhqEk4LrtOtOyJZRLR/zMrrtc=
+@size 16492
+share/locale/it/LC_MESSAGES/avahi.mo
+@sha AIvXgCBMfyapH9Yw+WB7JmIGbo0Y+56+zUohKhs6JQU=
+@size 17477
+share/locale/ja/LC_MESSAGES/avahi.mo
+@sha b5GhMa9h6RqxyVkbAfGPc+rVUZI79Efim+S5ckPyB80=
+@size 19038
+share/locale/ms/LC_MESSAGES/avahi.mo
+@sha Dtn/jGhMI/JAFcHUk5nD3OoGo/e79kzGar1U3DGKKro=
+@size 2493
+share/locale/nl/LC_MESSAGES/avahi.mo
+@sha SbnJq7goUxwZe2ZdEfQm2+Y7BOSBCRzqdm1fd2MSZZE=
+@size 373
+share/locale/pl/LC_MESSAGES/avahi.mo
+@sha 4pLDG3gnWoMokvcdkXt6a9hnD5mUFX7EaDCG00geNkw=
+@size 17586
+share/locale/pt_BR/LC_MESSAGES/avahi.mo
+@sha 2d2raAD9JYo1mlDFeipK62r4o6+dZF+Hw1cXGA1fF4g=
+@size 15245
+share/locale/ro/LC_MESSAGES/avahi.mo
+@sha 1qRfYRRyg4JCbrCpaZSR9THk7ZiAVhwJJQ5oXvOuGkE=
+@size 14797
+share/locale/ru/LC_MESSAGES/avahi.mo
+@sha d4IU9SJk3O8q0/TfGLs7uDh2gkGDUbbLMPbXqxm6mqQ=
+@size 20833
+share/locale/sl/LC_MESSAGES/avahi.mo
+@sha Up50ldzUAF7MDFIsCwGshfOAHIFBMWBiGKb44Dgij9M=
+@size 13446
+share/locale/sr/LC_MESSAGES/avahi.mo
+@sha UKrz9Rv+HLLQYdfK6Ecth8y5nbm5b08gXrEMHgZOy4o=
+@size 18653
+share/locale/sr@latin/LC_MESSAGES/avahi.mo
+@sha pWImoG0TX1FtV5y8+UPbhQp9tVcwJrfRellpb9/KopY=
+@size 15154
+share/locale/sv/LC_MESSAGES/avahi.mo
+@sha MR6qnpKSMmmCLGzDDnTjlSPRYBUWv+NIGvyCEQ5D6NE=
+@size 16808
+share/locale/uk/LC_MESSAGES/avahi.mo
+@sha FwyD/bDzkAlTqsORgbbaisIgDkLuPLWXmebYAiXedIw=
+@size 21778
+share/locale/zh_CN/LC_MESSAGES/avahi.mo
+@sha rr3OkoFXZ9XVs0x0ncD2ER7pzhZqUB7W+kptxJciahY=
+@size 15758
+share/locale/zh_TW/LC_MESSAGES/avahi.mo
+@sha tEKyNTBzXsN5SNFlNdV0mh1MF3rpx5i2aevVDuZ9GmY=
+@size 7160
+@rcscript /etc/rc.d/avahi_daemon
+@sha XUdUOpDeHiKLNsf1W4RxDSUuIV76wjdoH25Re0KXe2E=
+@size 257
+@rcscript /etc/rc.d/avahi_dnsconfd
+@sha n9S0kWx9BTVZja7qpdhigqx4enmW4eztCjlfcZ6kucM=
+@size 262

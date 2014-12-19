@@ -1,0 +1,24 @@
+@comment $OpenBSD: PLIST-chroot,v 1.4 2012/05/13 17:03:43 okan Exp $
+@name femail-chroot-0.98p2
+@url http://ftp.fr.openbsd.org/pub/OpenBSD/5.6/packages/i386/femail-chroot-0.98p2.tgz
+@signer openbsd-56-pkg
+@digital-signature signify:2014-08-02T10:56:46Z:RWSPEf7Vpp2j0HuuUdD8m1MgpwvykwEJcTP1cYIKlqvSWa2Mqkvw1+TjbL80Xv23zVWBY72kKVT7ywVVDKlwtYCl0uIEGGRxkQ4=
+@comment pkgpath=mail/femail,-chroot cdrom=yes ftp=yes
+@arch i386
++DESC
+@sha t1QSFjRRH9Er8CedrJ+FV5lOAfSNpSWlJ5HmtQJAm8g=
+@size 221
+@depend mail/femail,-main:femail-*:femail-0.98
+@cwd /var/www
+usr/
+usr/sbin/
+@bin bin/femail
+@sha Xjlyt/3YQtJc4z/azVSh49LrejRjaoykSZO50PI6Dvk=
+@size 254772
+@mode 0555
+@sample usr/sbin/sendmail
+@mode
+@cwd /usr/local/share/doc/pkg-readmes
+femail-chroot-0.98p2
+@sha 0YZ20HEIZ8Z6PtrCiyGA1VomUTUH7x0t7uzK2kVaOhE=
+@size 695

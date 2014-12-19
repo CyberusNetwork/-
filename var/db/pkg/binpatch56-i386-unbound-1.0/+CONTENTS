@@ -1,0 +1,41 @@
+@name binpatch56-i386-unbound-1.0
+@url https://stable.mtier.org/updates/5.6/i386/binpatch56-i386-unbound-1.0.tgz
+@signer mtier-56-pkg
+@digital-signature signify:2014-12-11T09:30:43Z:RWQQss3E1pCsG7zJSxcDyRS//ztDaSr0g7run/nFhsQhPW/KHyd0homWJRUHZ8D7ojvgpR80G/dIvlEUh2d98xf3CDl4Ip5MLQ8=
+@option manual-installation
+@option always-update
+@comment pkgpath=/binpatch/56/unbound cdrom=yes ftp=yes
+@arch i386
++DESC
+@sha WMRumQ6SEk2Qw7vxPZ9e4OjreTZx8FLMlAXubCP+I7E=
+@size 128
+@cwd /
+@comment patch for 012_unbound.patch
+var/db/binpatch/5.6-012/fake/usr/
+var/db/binpatch/5.6-012/fake/usr/sbin/
+var/db/binpatch/5.6-012/fake/usr/sbin/unbound
+@sha TePZIzRKtxjPACDL1chcO+eiXcgcc8AAi5bGZSYtEg8=
+@size 592868
+var/db/binpatch/5.6-012/fake/usr/sbin/unbound-anchor
+@sha AVBju4g5mHK5C41nDIUGxKlJ184P4AsKC7SSwBw2uJY=
+@size 572612
+var/db/binpatch/5.6-012/fake/usr/sbin/unbound-checkconf
+@sha Jeyjh/1n1UErOKrwBwMRsvc51FHUrhongVxf2GkH0Vs=
+@size 527012
+var/db/binpatch/5.6-012/fake/usr/sbin/unbound-host
+@sha zW3FhBkqj/UEa8Q0GPJlO3mdIKs+WGW+UiRBoWAm/JY=
+@size 547588
+@unexec /var/db/binpatch/5.6-012/install.sh rollback 012 /var/db/binpatch all
+var/db/binpatch/5.6-012/PLIST
+@sha HAjsk93wNzfxXvhbduTDf31fLokILrYjgqTa+57NEf8=
+@size 176
+var/db/binpatch/5.6-012/install.sh
+@sha LUC9g1EWUG1Tehl4L4oaR2fDEj2nuWtzzvTXZZagxDw=
+@size 4215
+@exec /var/db/binpatch/5.6-012/install.sh install 012 /var/db/binpatch all
+var/db/binpatch/5.6-012/patches/
+var/db/binpatch/5.6-012/patches/012_unbound.patch
+@sha /tQh6+vR4tUvcYWd/q/12Uo4Yvhb/Na6UhhuLP7epGE=
+@size 6215
+var/db/binpatch/5.6-012/fake/
+var/db/binpatch/5.6-012/

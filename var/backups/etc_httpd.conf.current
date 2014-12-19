@@ -1,0 +1,23 @@
+# $OpenBSD: httpd.conf,v 1.10 2014/08/06 20:29:54 reyk Exp $
+
+#
+# Macros
+#
+ext_addr="10.8.100.2"
+
+#
+# Global Options
+#
+#prefork 3
+#chroot
+#log /logs
+
+#
+# Servers
+#
+
+# A minimal default server
+server "default" {
+	listen on $ext_addr port 80
+}
+

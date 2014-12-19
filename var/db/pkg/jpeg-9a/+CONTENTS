@@ -1,0 +1,74 @@
+@comment $OpenBSD: PLIST,v 1.12 2013/04/18 12:21:31 naddy Exp $
+@name jpeg-9a
+@url http://ftp.fr.openbsd.org/pub/OpenBSD/5.6/packages/i386/jpeg-9a.tgz
+@signer openbsd-56-pkg
+@digital-signature signify:2014-08-02T10:59:37Z:RWSPEf7Vpp2j0M+P1RC1HbTynpW+6Jj1G/c1fj7z/Nmfi5y7r4RNgeMshRL60UozpRJJez+V56Ae8ccibtkjmrOXQN9oLVRcbgQ=
+@comment pkgpath=graphics/jpeg cdrom=yes ftp=yes
+@arch i386
++DESC
+@sha RsqGgtyxcoKDpBh7Zx20qKW9d4MMYm5D9aXTQ/eGotU=
+@size 865
+@wantlib c.77.0
+@cwd /usr/local
+@bin bin/cjpeg
+@sha SOg18BlKOC7T0NqIe7jXwoa2hZLoHzhg1dx6zcQfqV8=
+@size 30480
+@bin bin/djpeg
+@sha tibUfrhHnCOcFAl1Cvo3X6kBHpfPrNXzeWldfGZbzo4=
+@size 29488
+@bin bin/jpegtran
+@sha /J9r7emhhNyD+xV2Tvm0Bw9NaQlnpgO7X9gG7iZYoZA=
+@size 32720
+@bin bin/rdjpgcom
+@sha nUoQwqR5NgqRROiRXEEcB5KpV7+v5G+/KvDgrOYTFDw=
+@size 10672
+@bin bin/wrjpgcom
+@sha MpLN4vM97tC3OlJ8qGVjiSNFAeRPecudNkE5jRThmek=
+@size 10736
+include/jconfig.h
+@sha jiSzm+A05zyP6/xJsRKAztq//innSiTR042KqlxqzaI=
+@size 1757
+include/jerror.h
+@sha 3QCCsbq9eOk+B77wRyRgUa1sSyRLQ9D8M3Tilxmjf0c=
+@size 14580
+include/jmorecfg.h
+@sha FQFAl7buHw6Pt7EUdwDpTlBbdSUAn6rDWO/snDtn5/M=
+@size 14744
+include/jpeglib.h
+@sha jiZKKitaymaRnVOc6MQB1Gjbh1LmsOdU27p2F0XZLC4=
+@size 49281
+lib/libjpeg.a
+@sha 0V0sIC7xWVJut5ut4fpExBA+zAUFEEMjBfaQVS4eUHo=
+@size 292852
+lib/libjpeg.la
+@sha knpgqtSD8HwlV1olHHz65eXsDy0cRzS3bD4T7Z7a8+Q=
+@size 718
+@lib lib/libjpeg.so.67.0
+@sha GElyDYIyqAJoHgAeGMkdndRLjIBfwwLjYwVAlIhRP0M=
+@size 246266
+@man man/man1/cjpeg.1
+@sha e/ctbxDmRlePSUhUhD8GvVDNB8Gr1MRhDJbDjfUGuiQ=
+@size 13912
+@man man/man1/djpeg.1
+@sha wZOmx4MqHPruCnYzaQqO9LjctOIgxd3Yxll99z8NFx8=
+@size 7598
+@man man/man1/jpegtran.1
+@sha IMMc6wnnnozdRoyv4uEd7TJKxegKm3T9wDVtK+DSz7s=
+@size 9569
+@man man/man1/rdjpgcom.1
+@sha 7xDoY/qRIWbX0V44uJbHmkvPvljyXk9Mki2kStdoNiA=
+@size 1703
+@man man/man1/wrjpgcom.1
+@sha v6Ro86Cb6bbsdCHU2sz36XduB4NjapOBk30sAxf31hQ=
+@size 2627
+share/doc/jpeg/
+share/doc/jpeg/libjpeg.txt
+@sha lUZMjtFbVnhgFS0lJNV6YWU0OUhnTVhi7PumHBm+zew=
+@size 163828
+share/doc/jpeg/wizard.txt
+@sha qNQ1ImrdMgpyF+RX6Hv0TAdgaHSB/PqYA7O0bJ2njw0=
+@size 9759
+share/examples/jpeg/
+share/examples/jpeg/example.c
+@sha Ln03rztN77YK07y4v05Knk/D+TQuYZ7ugrPJ23WNp+8=
+@size 17091

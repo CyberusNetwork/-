@@ -1,0 +1,30 @@
+@comment $OpenBSD: PLIST,v 1.5 2004/09/14 23:43:59 espie Exp $
+@name p5-MLDBM-2.05
+@url http://ftp.fr.openbsd.org/pub/OpenBSD/5.6/packages/i386/p5-MLDBM-2.05.tgz
+@signer openbsd-56-pkg
+@digital-signature signify:2014-08-02T11:03:51Z:RWSPEf7Vpp2j0PY8c3oims5eDSswIUIwn8PmzN2TSQlvNWqpKSpP2JVS3/oWuUikJ6OXSoq+3xHf2XKBzC13yz/HFWSnTe6Rhg4=
+@comment pkgpath=devel/p5-MLDBM cdrom=yes ftp=yes
+@arch *
++DESC
+@sha 7CJLtb+7dtAf4pAti4MVvC6/Ll/sSMiNu4RtL5MRRbw=
+@size 469
+@depend devel/p5-FreezeThaw:p5-FreezeThaw-*:p5-FreezeThaw-0.5001
+@cwd /usr/local
+libdata/perl5/site_perl/MLDBM/
+libdata/perl5/site_perl/MLDBM.pm
+@sha sknA5N6ogqUp+Kmp/2Q+AIBGAuK6oRNTTBVCwmINbJ8=
+@size 16594
+libdata/perl5/site_perl/MLDBM/Serializer/
+libdata/perl5/site_perl/MLDBM/Serializer/Data/
+libdata/perl5/site_perl/MLDBM/Serializer/Data/Dumper.pm
+@sha XGNoWESAptYHUM4jQ8truX1mDnN/z5mxwIXq88+ZyqE=
+@size 2043
+libdata/perl5/site_perl/MLDBM/Serializer/FreezeThaw.pm
+@sha xRGbl5JNzmLkIW0bK1fmNaTTbxZHRpzIGIKkPNMFr5U=
+@size 351
+libdata/perl5/site_perl/MLDBM/Serializer/Storable.pm
+@sha W5lr6eROufuHK8m4igUt5KxxRvKEfRMbImMvTM9+1Xk=
+@size 922
+@man man/man3p/MLDBM.3p
+@sha p410LKjMqxBh1k4h1N8Wnajn1KW1ZYr9je9WedEz5H8=
+@size 16385

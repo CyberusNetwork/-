@@ -1,0 +1,252 @@
+@comment $OpenBSD: PLIST-main,v 1.5 2014/06/14 10:34:45 sthen Exp $
+@name rrdtool-1.4.8p6
+@url http://ftp.fr.openbsd.org/pub/OpenBSD/5.6/packages/i386/rrdtool-1.4.8p6.tgz
+@signer openbsd-56-pkg
+@digital-signature signify:2014-08-02T11:06:29Z:RWSPEf7Vpp2j0LKixZmGGknnHZKg3D/iRMrzIPnHCMB/CkqkEUXqHaQV6+3lxdzksY4/YC+/Z+fNyYIliBpJnOw6131RioeR0QI=
+@option manual-installation
+@comment pkgpath=net/rrdtool,-main cdrom=yes ftp=yes
+@arch i386
++DESC
+@sha VE9zbwNSnIqZzTx0HaY8VDXDR808bFvh8ET5zUa7Gj8=
+@size 611
+@conflict p5-RRD-*
+@pkgpath net/rrdtool,-perl
+@depend devel/pango:pango-*:pango-1.36.5
+@depend graphics/png:png-*:png-1.6.12
+@depend net/rrdtool,-update:rrdupdate-1.4.8:rrdupdate-1.4.8p0
+@depend textproc/libxml,-main:libxml-*:libxml-2.9.1p1
+@wantlib X11.16.0
+@wantlib Xext.13.0
+@wantlib Xrender.6.0
+@wantlib c.77.0
+@wantlib cairo.12.2
+@wantlib expat.11.0
+@wantlib ffi.1.0
+@wantlib fontconfig.9.1
+@wantlib freetype.22.0
+@wantlib glib-2.0.4000.0
+@wantlib gmodule-2.0.4000.0
+@wantlib gobject-2.0.4000.0
+@wantlib graphite2.0.0
+@wantlib gthread-2.0.4000.0
+@wantlib harfbuzz.4.4
+@wantlib iconv.6.0
+@wantlib intl.6.0
+@wantlib m.9.0
+@wantlib pango-1.0.3600.0
+@wantlib pangocairo-1.0.3600.0
+@wantlib pangoft2-1.0.3600.0
+@wantlib pcre.3.0
+@wantlib perl.15.0
+@wantlib pixman-1.32.6
+@wantlib png.17.2
+@wantlib pthread-stubs.2.0
+@wantlib pthread.18.0
+@wantlib xcb-render.1.0
+@wantlib xcb-shm.1.1
+@wantlib xcb.3.1
+@wantlib xml2.15.1
+@wantlib z.5.0
+@newgroup _rrdcached:726
+@newuser _rrdcached:726:_rrdcached:daemon:rrdcached user:/nonexistent:/sbin/nologin
+@cwd /usr/local
+@extraunexec rm -f /var/db/rrd/*.rrd /var/db/rrd/journal/*
+@bin bin/rrdcached
+@sha R4q3hckEYjATOkfEaqkCRYGqOdmxMtIPD78a6QvWJJY=
+@size 70788
+@bin bin/rrdcgi
+@sha BACSvPv5S44zkEOt3C90usx5aQyjMIZG3oqHdyxl9Ho=
+@size 48420
+@bin bin/rrdtool
+@sha rtyaY8zvgED+Kwe8EEnZFTIdAUkmFKSj3fXWUdXwB+c=
+@size 48324
+include/rrd.h
+@sha vHhRJTvTu9XS7Hc/l3Ydx8yr2KxLak40YBnpsTxuyYk=
+@size 11481
+include/rrd_client.h
+@sha Ajb7AQswkA7CUulZKOJak4REstiSPi6uPkyAtpEHl04=
+@size 3020
+include/rrd_format.h
+@sha iOGkqDgPlgJDuFjj4Dwoqa+7BqW30E0rWvugSzduTXM=
+@size 17753
+lib/librrd.a
+@sha X3C64C6bPDTOjp2yOytVI/tC+KHOgn73Mza/EKnGito=
+@size 350804
+lib/librrd.la
+@sha /pTi7W4xnmoSIX8HSBASjSbMLGEgCRybb34qh5zVp8U=
+@size 1477
+@lib lib/librrd.so.4.0
+@sha HGsV8MsMITj9LiVe0+8HkYs6WhMqb3UqfAxKbrTVwIM=
+@size 329044
+lib/librrd_th.a
+@sha fpLjg7x+vWIindg+O8lKTtbfCSMKj5Ec/3me1R00U98=
+@size 347982
+lib/librrd_th.la
+@sha M0mILmTVYGIRwcl8+1A+gkwtTXSU4uwOG6v/q/y1Ub4=
+@size 1492
+@lib lib/librrd_th.so.4.0
+@sha 2lZn4Je+Q3PlhwCHu60ajWUKtoh/HtRFyhnJXBBF/WQ=
+@size 324903
+lib/pkgconfig/librrd.pc
+@sha 6HKvKt91FTSVMEGikYo3z7oPnTseeKuernxxe0NMDPU=
+@size 209
+libdata/perl5/site_perl/RRDp.pm
+@sha KBmRtGTGbCFfJpGiBoAT7BtwfX0/EHqia9ey31ibNQA=
+@size 5497
+libdata/perl5/site_perl/i386-openbsd/
+libdata/perl5/site_perl/i386-openbsd/RRDs.pm
+@sha xnS0TXqEAWOdkET73hvX6B9MDz/TYG9woUrFC1hUi8g=
+@size 4234
+libdata/perl5/site_perl/i386-openbsd/auto/
+libdata/perl5/site_perl/i386-openbsd/auto/RRDs/
+@comment libdata/perl5/site_perl/i386-openbsd/auto/RRDs/RRDs.bs
+libdata/perl5/site_perl/i386-openbsd/auto/RRDs/RRDs.so
+@sha 8Bbr5m8OB3nVamIEvLMNGOsTc8I1gHepk5NA1Hl+rW8=
+@size 31945
+@man man/man1/bin_dec_hex.1
+@sha nBmNo36lxSuWN7wjzP//bYuojkxbxae/uGzXl/03guI=
+@size 17924
+@man man/man1/cdeftutorial.1
+@sha O7o0OfYIhNPBVumb3lsf+H4vTq5cGulZ91JpaOLDcQs=
+@size 39673
+@man man/man1/rpntutorial.1
+@sha hcHPkoXgWfrwSR06Ijoxevw0iC3EPH/f3dLqoLWK6y8=
+@size 11639
+@man man/man1/rrd-beginners.1
+@sha cjEM622gXw5NaQpnG30ivjA14hrGBrsomlSanaP2dic=
+@size 20258
+@man man/man1/rrdbuild.1
+@sha nzS9oGxu2OLhllBw2Qe2lPLrCC4EIv13txk8GnXqjIY=
+@size 16699
+@man man/man1/rrdcached.1
+@sha Twu7fjXT84BfIFuPV++QNTC9QBuGlvNUgkH8OFV2Mqc=
+@size 30847
+@man man/man1/rrdcgi.1
+@sha Jz+8T0TGTGxTTg60sZyQvfa//F+Oqq5AUs0G7ul//Ts=
+@size 11746
+@man man/man1/rrddump.1
+@sha PoxzWwkBydcqynpv9h4BW09ZrKrQYjmV9HnpnU7tu5M=
+@size 6610
+@man man/man1/rrdfetch.1
+@sha rBS8H9A16H4AYjcM1l05NXXCeVuWg4RHeWtiz1b4uhg=
+@size 16321
+@man man/man1/rrdfirst.1
+@sha gpiXwJEu/MMrooSqjOiz8MNjurDDlwLyRO4at7cUE4Y=
+@size 4570
+@man man/man1/rrdflushcached.1
+@sha 6oExqJl3QkKsAiDZcfWw+I97AnJ3GU6F2tWwPVEqbg8=
+@size 5388
+@man man/man1/rrdgraph.1
+@sha AFlYGVJG/xMCXBUpBbUxbiKKmvSs7ZFY6ginZS9+5IM=
+@size 27441
+@man man/man1/rrdgraph_data.1
+@sha sVfsJ9ow80jFLpqAd4t4jmmqn4RLhz99ObhCYFCir8U=
+@size 10015
+@man man/man1/rrdgraph_examples.1
+@sha 2ejsKYmncpYCy4BUiuN8DZqYEow5BNOzpbWq5XLoKKM=
+@size 11677
+@man man/man1/rrdgraph_graph.1
+@sha S2cJTiXVoIjvC5CWJN/LJ3P1l7M7CmKJcckbxH1wN3o=
+@size 25264
+@man man/man1/rrdgraph_rpn.1
+@sha sfJ3r5IPZHmoX7OZJrzxEDs1ufgQzsnC3Fdv1h9bcwE=
+@size 20101
+@man man/man1/rrdlast.1
+@sha 5dFwKfvdaXU9rPKkS7wCvbcb532te6wsCvJAPW1V79U=
+@size 5191
+@man man/man1/rrdlastupdate.1
+@sha 3O3II3F3CsWCwXSC/5FmQKVFiMhhnNCRrNQS0jnThko=
+@size 5258
+@man man/man1/rrdresize.1
+@sha stcZwfsPaTwN7/MoTQen5rgZgGfeEj/deWqMdjd9E24=
+@size 5303
+@man man/man1/rrdrestore.1
+@sha fhkO+1+W6ciua9XnK1WS24LzAyZf0iaGlEIyk6LoskY=
+@size 4744
+@man man/man1/rrdthreads.1
+@sha iflswED+eIPN+1GCJS6UbobDgSgn0nxVblhbUqcBxbY=
+@size 8451
+@man man/man1/rrdtool.1
+@sha 2N3SnRQyHcbJAXrBSFhU9q7kn2CXPDK+ri++4QNBoz4=
+@size 17183
+@man man/man1/rrdtune.1
+@sha Ya96AhOVlX56K+fBwPatLAILtAeKGy8hQGe/FaIaiAQ=
+@size 12532
+@man man/man1/rrdtutorial.1
+@sha EsgTYIiXOOE43OgbRQOOFRrZMJFIOiiZiqVsgNJlur0=
+@size 59392
+@man man/man1/rrdxport.1
+@sha PSsNEqtCZ44tqj8AB3TMecBLMg+NjoZ6RxcdAc/ChDk=
+@size 10357
+@man man/man3/librrd.3
+@sha 5DpmBIs637MtrzQJctcrKkMU2FMqdibiIxsxElhqJsw=
+@size 9261
+@man man/man3p/RRDp.3p
+@sha L/kyQZ2yZuN1lW/WDVqOBLHDzwp606Mr+j85DOWGF/k=
+@size 7972
+@man man/man3p/RRDs.3p
+@sha 1nNLr7onrv9ViG0ntr2rCdllYFR6tqKMNU5yMTbW888=
+@size 8663
+share/doc/pkg-readmes/rrdtool-1.4.8p6
+@sha CCZpdEcx6zaE38m+lkLmLtnqMUqi/kpahzjAm3kM01w=
+@size 755
+share/doc/rrdtool/
+share/doc/rrdtool/CHANGES
+@sha 5F59ilQvJ6Sm4N9l+22zpw7kHIGumBDpTkXDlVOjKHY=
+@size 287216
+share/doc/rrdtool/CONTRIBUTORS
+@sha GLn0dHrVoHpPS0EBGczCCTUiR0WJwoPz5daR0/b/5sQ=
+@size 5144
+share/doc/rrdtool/COPYRIGHT
+@sha lsrmJuySDreyUkSQNG83+HpHRBQKcpZjfBmYtvUsUaI=
+@size 3609
+share/doc/rrdtool/NEWS
+@sha IVIBhWKD5eWzcYno9XdZL84ZeRxr3PmxR+4x0lf4zLc=
+@size 8288
+share/doc/rrdtool/README
+@sha bREatbrqe1NpK0yawDhu9gfCyICPavThGuN4p+hYKRY=
+@size 2686
+share/examples/rrdtool/
+share/examples/rrdtool/4charts.pl
+@sha EFLvHuWdL4ShMAo65KahnL/WCTomLwcAki6kPG4NSHw=
+@size 2628
+share/examples/rrdtool/bigtops.pl
+@sha bKImCGxsC7zq5k1iiZ0/bn1Ne18LILO2mmUqkS04kyk=
+@size 1193
+share/examples/rrdtool/cgi-demo.cgi
+@sha CKhzNG89iICQy9CgGkv6/TuslB9NCZVhKETyvqhtkkw=
+@size 864
+share/examples/rrdtool/minmax.pl
+@sha JJV/oG6eyuIEUAT0Llu6jEhMpCyTAip8JGa3OfNsVec=
+@size 1150
+share/examples/rrdtool/perftest.pl
+@sha cchmhSz0TxdSvISgNSjIQhYhzL4zoVhKLDpzGDQZ/i4=
+@size 5894
+share/examples/rrdtool/piped-demo.pl
+@sha sED2DZ/8WvTNUy7e3ipL75fy3Oz1eETYunOO8pFCVys=
+@size 4398
+share/examples/rrdtool/rrdcached/
+share/examples/rrdtool/rrdcached/RRDCached.pm
+@sha XSXMo5smZZzDQMnMQ8tbKeF2WHqa4Q80hK9uDDs50U4=
+@size 1725
+share/examples/rrdtool/rrdcached/rrdcached-size.pl
+@sha M65J8IoAvI6gAjz5+/c5F95uXJ6aVgdme8T5XA9Pai4=
+@size 3485
+share/examples/rrdtool/rrdtool-chroot
+@sha zK8j0tTu2t6CLeOPUwX3nMW5yw1rfjDnXjVy0IEyd+4=
+@size 1783
+share/examples/rrdtool/shared-demo.pl
+@sha XxoH6b/L0a1df764nBopuB/Elll+9z0y8sSoAK59iOE=
+@size 5656
+share/examples/rrdtool/stripes.pl
+@sha Zrm4AS2926BOS5hP6r4i5SrhQ+ZOlOX2l12M5aCryz0=
+@size 1279
+@owner _rrdcached
+@mode 750
+@sample /var/db/rrd/
+@sample /var/db/rrd/journal/
+@mode
+@owner
+@rcscript /etc/rc.d/rrdcached
+@sha pnhDjGxRgBOXVLPrwE2uGejD6WRQK6Z6aiUtcMPPH2c=
+@size 381

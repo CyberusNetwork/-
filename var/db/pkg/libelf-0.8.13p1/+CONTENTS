@@ -1,0 +1,38 @@
+@comment $OpenBSD: PLIST,v 1.2 2010/04/08 15:07:51 ajacoutot Exp $
+@comment $OpenBSD: PFRAG.shared,v 1.1.1.1 2006/07/12 08:45:58 espie Exp $
+@name libelf-0.8.13p1
+@url http://ftp.fr.openbsd.org/pub/OpenBSD/5.6/packages/i386/libelf-0.8.13p1.tgz
+@signer openbsd-56-pkg
+@digital-signature signify:2014-08-02T11:00:29Z:RWSPEf7Vpp2j0OfzjqkQtrRWmPVt/cvOmSQpl6vJhZWFcTOz/+88a/8Jmh+fxV2wUFLycshev7kM2keIP9z1A4fRj9N2ye7O1Ao=
+@comment pkgpath=devel/libelf cdrom=yes ftp=yes
+@arch i386
++DESC
+@sha ZuesIf+xVpFRv/A5Ro48m0Trl8lAz4LheeI8+nJs9FM=
+@size 219
+@cwd /usr/local
+@lib lib/libelf.so.1.1
+@sha P+zpNrrEgCFuVRwCYE0pNKuAIIiLghHIUZIlBJ5Ke+Q=
+@size 91363
+include/libelf/
+include/libelf/elf_repl.h
+@sha pewzYKsj/gXeRTcz6cZzgGJMPD+MmSM8L70qPaF4SzM=
+@size 24585
+include/libelf/gelf.h
+@sha BVsz0LCjl/FFQsHnID8ap/VffWAX05qX/nXDkTXClkg=
+@size 5103
+include/libelf/libelf.h
+@sha 9Eu6kTvp5iYvNWZqk+n5owAcSi+2qlCn0au7cYv3vo0=
+@size 9050
+include/libelf/nlist.h
+@sha 54U0FUIUqaWwaHhMqaHUE+lcz3en2ykoGMgNdSXjJMk=
+@size 1452
+include/libelf/sys_elf.h
+@sha UcKr2tvepPdjidy4x5VLd/6Gi8CHiPxXUsSfqr2tJ5A=
+@size 3982
+lib/libelf.a
+@sha q+3mxQj1t0L5Kyl+ddlaf+Q0+6J2I9LFAfSJGeCbsQQ=
+@size 135802
+lib/pkgconfig/
+lib/pkgconfig/libelf.pc
+@sha g/m+TIMf/veo7U2OFQJaseXH7tI3psJTKpgNZdCAiKM=
+@size 261

@@ -1,0 +1,239 @@
+@comment $OpenBSD: PLIST-main,v 1.4 2014/05/02 16:22:07 ajacoutot Exp $
+@name harfbuzz-0.9.29
+@url http://ftp.fr.openbsd.org/pub/OpenBSD/5.6/packages/i386/harfbuzz-0.9.29.tgz
+@signer openbsd-56-pkg
+@digital-signature signify:2014-08-02T10:58:51Z:RWSPEf7Vpp2j0O9JjgPpnc8DllwWyZ3jrlKaVA2D4dSQwd5CKOSzxEN1gQwNcIQsOHzRWuOXYJs7tYyfj3Q/en894iQU5AKC8g0=
+@comment pkgpath=devel/harfbuzz,-main cdrom=yes ftp=yes
+@arch i386
++DESC
+@sha pbJS0nG3jqiMyzwUko5RghohCTtx2n2Liy21JGWfdyY=
+@size 176
+@pkgpath devel/harfbuzz
+@depend converters/libiconv:libiconv-*:libiconv-1.14p1
+@depend devel/gettext:gettext->=0.10.38:gettext-0.19.1p0
+@depend graphics/cairo:cairo-*:cairo-1.12.16
+@depend graphics/graphite2:graphite2-*:graphite2-1.2.4
+@wantlib X11.16.0
+@wantlib Xext.13.0
+@wantlib Xrender.6.0
+@wantlib c.77.0
+@wantlib cairo.12.2
+@wantlib expat.11.0
+@wantlib fontconfig.9.1
+@wantlib freetype.22.0
+@wantlib glib-2.0.4000.0
+@wantlib graphite2.0.0
+@wantlib iconv.6.0
+@wantlib intl.6.0
+@wantlib m.9.0
+@wantlib pcre.3.0
+@wantlib pixman-1.32.6
+@wantlib png.17.2
+@wantlib pthread-stubs.2.0
+@wantlib pthread.18.0
+@wantlib stdc++.57.0
+@wantlib xcb-render.1.0
+@wantlib xcb-shm.1.1
+@wantlib xcb.3.1
+@wantlib z.5.0
+@cwd /usr/local
+@bin bin/hb-ot-shape-closure
+@sha 1BNF1t3p7QfngVvzZftR6/gKo5TyU6AWIFEzkoTPj74=
+@size 26992
+@bin bin/hb-shape
+@sha 097Bra/vpwfPHDosxoyrSGKZc8vA48+5/nhdswDH+rA=
+@size 26992
+@bin bin/hb-view
+@sha oDgp9WiyIbabduvYqG5crhPsdvXLuqF+ekXfexv5h7A=
+@size 44688
+include/harfbuzz/
+include/harfbuzz/hb-blob.h
+@sha Y+ZBfzuJJ0dvr2OoROngXoihKd0rv7RAPhDZzhp0SWc=
+@size 3414
+include/harfbuzz/hb-buffer.h
+@sha HKQoVgrYF6j2qoMx85VKrnkQ274rFb3OUAUmktX717I=
+@size 8432
+include/harfbuzz/hb-common.h
+@sha D940DQZjCSJwRKzSnIhNZQ4mIlc+Kd3zhpj6B/KuSGo=
+@size 12653
+include/harfbuzz/hb-deprecated.h
+@sha tsfowRf1jEQaLe4+WQXnNLUXbe6/4jZ83SAQu2tpSPA=
+@size 1584
+include/harfbuzz/hb-face.h
+@sha alJEjE2YKH4YAssSbR3opTOTHJIucA9C5p4B3eoBpYI=
+@size 2815
+include/harfbuzz/hb-font.h
+@sha J5LykvevFDzUcIHxat1yksDkSf/7eImyeZbKyn/y1Vg=
+@size 12957
+include/harfbuzz/hb-ft.h
+@sha KyjBpzJ4+zCh6/H1SypZoOeEE+QhrbFZIbScVO7tzaw=
+@size 1756
+include/harfbuzz/hb-glib.h
+@sha m40mXv5U2dhpZ9XOgFDMOJzm6k4QI3OIdRk997qvhtE=
+@size 1496
+include/harfbuzz/hb-graphite2.h
+@sha VTLw0T704vILaEZbzC70PXybHJTol6u/gVju/XocsOU=
+@size 1441
+include/harfbuzz/hb-ot-font.h
+@sha P7U11GPVs+oGwo/yx2XLJA92MG7SUn541a+5oVP4mqs=
+@size 1292
+include/harfbuzz/hb-ot-layout.h
+@sha fRbtjB2It6sAhJBNc70vkAogcM0DRiIeWYHEe61r+tU=
+@size 9166
+include/harfbuzz/hb-ot-shape.h
+@sha 5zfjwi/jwt9+MpvnIrTJ6fBoOAZ4vYPijnUIKXH5+MM=
+@size 1784
+include/harfbuzz/hb-ot-tag.h
+@sha birnYdZbgSWGxH588bf9uFBHiY6VA/1cFOgiSmcNc5k=
+@size 1688
+include/harfbuzz/hb-ot.h
+@sha +TeN+a6rF5ZCyEppqpxqx3w0aV/No6n2vU7vp25UcPg=
+@size 1348
+include/harfbuzz/hb-set.h
+@sha fI6FJoy6FTyJ2l7HvdxdYBsUf7GX+RJV03jUd3M4IJo=
+@size 3544
+include/harfbuzz/hb-shape-plan.h
+@sha 4wnD0sea6fX+3yv6muNP2sh69MTHGS9sSLpWB89DNRk=
+@size 2747
+include/harfbuzz/hb-shape.h
+@sha UxwdjNydlp+FoNNY5QLtyH/CIfXaV58/HS3hWWeB6sw=
+@size 2232
+include/harfbuzz/hb-unicode.h
+@sha ViduBN65t3q85CztofDHPQpZl1fug4IPHBKuPMTJSog=
+@size 14218
+include/harfbuzz/hb-version.h
+@sha OfiriFK7QWWDW3eZhr2AGuNnm9fSZS4aSxr2/p0241Q=
+@size 1793
+include/harfbuzz/hb.h
+@sha r7XBr3y6htVdymLKfszApthM3YTb+bKRoqhVsqAmZ+g=
+@size 1470
+lib/libharfbuzz.a
+@sha vuspW/GGTaBqzoX+EIGziwRuuxirbdfw6iswvjSpCvg=
+@size 736526
+lib/libharfbuzz.la
+@sha 7s4gFsKNMTwtapUxwrnqLcM0YRq4LhX2cgV+dnJXdtk=
+@size 934
+@lib lib/libharfbuzz.so.4.4
+@sha YMmR8IdO5ovEp5qcsli3h3Tqr8bH9Re4Iw94UcqMXj8=
+@size 505370
+lib/pkgconfig/
+lib/pkgconfig/harfbuzz.pc
+@sha rmvTA0IsReq14wfUtZpJP65TFXhPXn7TFOBaDgcombo=
+@size 231
+share/gtk-doc/
+share/gtk-doc/html/
+share/gtk-doc/html/harfbuzz/
+share/gtk-doc/html/harfbuzz/annotation-glossary.html
+@sha lULOqVFJQaYIcIkgokrTkdrwJnsMRpg5wXXdEizayhs=
+@size 3807
+share/gtk-doc/html/harfbuzz/api-index-full.html
+@sha gPWdMkFJS60Ws1Qvmi1uPpxSfEQC7B0/dzsJAzADKpI=
+@size 87311
+share/gtk-doc/html/harfbuzz/ch01.html
+@sha zj5kyud/gh1dGMgUoM12koKKGKiIsHnUT/AJ/QcKDbU=
+@size 4362
+share/gtk-doc/html/harfbuzz/deprecated-api-index.html
+@sha Y/RePGHHpUlv8IOd34KzPs/mnJaEi6GNwNMeSPT35eQ=
+@size 2737
+share/gtk-doc/html/harfbuzz/harfbuzz-hb-blob.html
+@sha ATmNMGj3hfL7vlbTstmedVjCzB6oJTiBogOKVxm3b70=
+@size 25645
+share/gtk-doc/html/harfbuzz/harfbuzz-hb-buffer.html
+@sha sFhHf/cseP+rmkydQZHCFROsAxDTrSME9PqtK3NLGvU=
+@size 76892
+share/gtk-doc/html/harfbuzz/harfbuzz-hb-common.html
+@sha B2X7nzYfVHPdWzL16QO4fnm6kKYYhDJhkGC+LxC+B9g=
+@size 47157
+share/gtk-doc/html/harfbuzz/harfbuzz-hb-coretext.html
+@sha y2qunre0uQfmGYJsH+TKLkdukhp4Wo4wgZRicFPDhAo=
+@size 4223
+share/gtk-doc/html/harfbuzz/harfbuzz-hb-deprecated.html
+@sha Btp+qLdxh9S5fNc2lQYih60gK3TnESQNSXDD5o1zyUU=
+@size 4504
+share/gtk-doc/html/harfbuzz/harfbuzz-hb-face.html
+@sha qBEJwfN51mq1V17+ipGsWFogxuLQwWvxIGs+8yaK2ws=
+@size 26678
+share/gtk-doc/html/harfbuzz/harfbuzz-hb-font.html
+@sha iBKDxuS4BYaEBolB8Kxv7+SvmOdKg5AoqgQSTtm7U9M=
+@size 132217
+share/gtk-doc/html/harfbuzz/harfbuzz-hb-ft.html
+@sha 7GUoztXD8ijRWsDOz/SoAR6ZiNLNxh6HUcj9YRfqgZs=
+@size 8837
+share/gtk-doc/html/harfbuzz/harfbuzz-hb-glib.html
+@sha 8SEq1GhBO35sP1QT4/GWQ5jTIscIC73LoocZHeJ4g9g=
+@size 5162
+share/gtk-doc/html/harfbuzz/harfbuzz-hb-gobject.html
+@sha ipfaht64H1iwiGa7+Efc2abE74fb/WZGiQn565D1Qd4=
+@size 2346
+share/gtk-doc/html/harfbuzz/harfbuzz-hb-graphite2.html
+@sha 6atrMWTcj+inbbIc9z9/Bu7uCt1gHRBQht5/ifGf0q8=
+@size 4920
+share/gtk-doc/html/harfbuzz/harfbuzz-hb-icu.html
+@sha Yf0w2ZZ16yla6UiA/2lQ1izX7BKgM4xbHHiSQWLffio=
+@size 5101
+share/gtk-doc/html/harfbuzz/harfbuzz-hb-ot-layout.html
+@sha 9mg7ZNmqRHOFdDs46YCF2hLxF/dbuEY1+H3cq1FEJbg=
+@size 44466
+share/gtk-doc/html/harfbuzz/harfbuzz-hb-ot-tag.html
+@sha ZZH4EyjbehtfJbuAzFY1muNZ5E2j6U/CFz7gDhHPseI=
+@size 7605
+share/gtk-doc/html/harfbuzz/harfbuzz-hb-ot.html
+@sha Vkxo0YwxhUfs9+lELYTIHKjkK5nFSOfvEkz2WJcT8N4=
+@size 3964
+share/gtk-doc/html/harfbuzz/harfbuzz-hb-set.html
+@sha J4dyR8vzbNBz/il7lv1X1wONMhArKCEfYGhEaZtingc=
+@size 40245
+share/gtk-doc/html/harfbuzz/harfbuzz-hb-shape-plan.html
+@sha bTI4bB6df3S1xFKXycnHuMqYPpfp2WUbApcBeuvnC3w=
+@size 19733
+share/gtk-doc/html/harfbuzz/harfbuzz-hb-shape.html
+@sha /v2MmqwtIDhl3ZnDB9+qfvODD1Sx6APrFiEEfj3mbtw=
+@size 12391
+share/gtk-doc/html/harfbuzz/harfbuzz-hb-unicode.html
+@sha 9UDC6Kbf5ibXtGVnWhdPrWy/YrRpMSv2O7gBYhXLV0g=
+@size 77642
+share/gtk-doc/html/harfbuzz/harfbuzz-hb-uniscribe.html
+@sha LSiRBZn6Ont+VrrRRreK1UXTGGpXjr8XV9ddkPYxXIY=
+@size 4240
+share/gtk-doc/html/harfbuzz/harfbuzz-hb-version.html
+@sha l3qkVLZZITmQeUWSJ0rhUmju5fnmaIRmSSMdYPeecck=
+@size 8647
+share/gtk-doc/html/harfbuzz/harfbuzz-hb.html
+@sha FhAvqrM02/e15qGgciJ9k0vGsH/i1rnxWu6rq4eyuK8=
+@size 2257
+share/gtk-doc/html/harfbuzz/harfbuzz.devhelp2
+@sha 6exoN9h4YO5Y9qO9Qs/UfS1EX5BNU3Fes8xQElEVYag=
+@size 45190
+share/gtk-doc/html/harfbuzz/home.png
+@sha eo0ksA9ftruwRGJJtgXv3TZZjooPZaw/qy4YQ4xzuR4=
+@size 256
+share/gtk-doc/html/harfbuzz/index.html
+@sha 3ZKFhifIX6lOSNgLmvbRreObtFfiT5f6UKa1FbZfMoo=
+@size 4271
+share/gtk-doc/html/harfbuzz/index.sgml
+@sha ifIYRE9Hq3MD2r22CVR1S66pqudu9DyhCQK33iisd9I=
+@size 48975
+share/gtk-doc/html/harfbuzz/left-insensitive.png
+@sha MDNV2TysU0EJl9x6P5vWDzzg2OuueQiXjIcx/puxOf8=
+@size 395
+share/gtk-doc/html/harfbuzz/left.png
+@sha Drlv53VSTC1NTxZ9eQQbF8XMiukRJHhmUTLDGhQX+0o=
+@size 262
+share/gtk-doc/html/harfbuzz/object-tree.html
+@sha 29xnn4JVqEr2R30UuVWukRRoIXprkl8khSOSzHNllrM=
+@size 1622
+share/gtk-doc/html/harfbuzz/right-insensitive.png
+@sha eUBQxkxJhCBZkWLys7aSgjLdC+eZHZQrHcCxZw64aV4=
+@size 373
+share/gtk-doc/html/harfbuzz/right.png
+@sha BimtOCgBhL4blGAvIBVweigXAVEFj3FxrtpQH88JedM=
+@size 261
+share/gtk-doc/html/harfbuzz/style.css
+@sha eoRgyBbt8zdnFlk4Fy8+7cqUb8DyoNpFvq9oNIyc9tg=
+@size 8696
+share/gtk-doc/html/harfbuzz/up-insensitive.png
+@sha BCDyBA7r9BgJioaj+y71qWWch9N7ge6FtpMWsEWpRTo=
+@size 374
+share/gtk-doc/html/harfbuzz/up.png
+@sha xUt1lI9NJjV90BgVkHjzb5De6vKc47nSvQ6mZV7xvag=
+@size 260

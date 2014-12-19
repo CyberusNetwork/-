@@ -1,0 +1,35 @@
+@comment $OpenBSD: PLIST-guic,v 1.6 2014/04/12 17:09:19 ajacoutot Exp $
+@name gtk-update-icon-cache-2.24.24
+@url http://ftp.fr.openbsd.org/pub/OpenBSD/5.6/packages/i386/gtk-update-icon-cache-2.24.24.tgz
+@signer openbsd-56-pkg
+@digital-signature signify:2014-08-02T10:58:44Z:RWSPEf7Vpp2j0PDZRDWOicmsc0nNZZAdPCGjUXogQ5RKv0vrHOPrB6IetZDdHWeqO9MTO7I+n0t9hxzKFfL0RaqXz2B0+3Am4g8=
+@comment pkgpath=x11/gtk+2,-guic cdrom=yes ftp=yes
+@arch i386
++DESC
+@sha bmaOc/WKxhyVSFBmBkvpukXtqTgM7pU8/tmc8KcqBww=
+@size 180
+@conflict gtk+2-<2.24.8p0
+@depend converters/libiconv:libiconv-*:libiconv-1.14p1
+@depend devel/gettext:gettext->=0.10.38:gettext-0.19.1p0
+@depend graphics/gdk-pixbuf2:gdk-pixbuf-*:gdk-pixbuf-2.30.8
+@depend x11/hicolor-icon-theme:hicolor-icon-theme-*:hicolor-icon-theme-0.13
+@wantlib c.77.0
+@wantlib ffi.1.0
+@wantlib gdk_pixbuf-2.0.3000.0
+@wantlib gio-2.0.4000.0
+@wantlib glib-2.0.4000.0
+@wantlib gmodule-2.0.4000.0
+@wantlib gobject-2.0.4000.0
+@wantlib iconv.6.0
+@wantlib intl.6.0
+@wantlib m.9.0
+@wantlib pcre.3.0
+@wantlib png.17.2
+@wantlib pthread.18.0
+@wantlib z.5.0
+@cwd /usr/local
+@unexec-delete rm -f %D/share/icons/hicolor/icon-theme.cache
+@bin bin/gtk-update-icon-cache
+@sha /emFW1eYsty/TuN609xlrCd1youACPaDISDj/shuhhg=
+@size 28464
+@exec /usr/bin/find %D/share/icons -type d -mindepth 1 -maxdepth 1 -exec %D/bin/gtk-update-icon-cache -q -t -f {} \; 2>/dev/null || true

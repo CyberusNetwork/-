@@ -1,0 +1,70 @@
+@comment $OpenBSD: PLIST,v 1.29 2013/09/16 20:10:02 brad Exp $
+@name png-1.6.12
+@url http://ftp.fr.openbsd.org/pub/OpenBSD/5.6/packages/i386/png-1.6.12.tgz
+@signer openbsd-56-pkg
+@digital-signature signify:2014-08-02T11:05:15Z:RWSPEf7Vpp2j0Jft+8XwEJePeAcY1xnwl+t/DvgfZW/yF6TnX55nhEiLxOBpaxJ7WbS7dk9D8fDx3EsYMQykgQFGQZ3QrNp4Swc=
+@comment pkgpath=graphics/png cdrom=yes ftp=yes
+@arch i386
++DESC
+@sha 1YpSdQd91D+uK8XGy/LGZQnO+vIYitRoMVv1jXgxaLY=
+@size 377
+@wantlib c.77.0
+@wantlib m.9.0
+@wantlib z.5.0
+@cwd /usr/local
+bin/libpng-config
+@symlink libpng16-config
+bin/libpng16-config
+@sha qqPAAIjaNeIA4Pyi9T1zwAZYIhaQwor5MKi3m8hcKg0=
+@size 2323
+@bin bin/png-fix-itxt
+@sha +ONjSOudkEp84/0a1TaS30qeBajQocor8dAa9A58EJY=
+@size 9712
+@comment @bin bin/pngfix
+include/libpng16/
+include/libpng16/png.h
+@sha VBwY3qox4KB0VwtcyRCr5y/XsVGyNFuxvuauNOWW6wM=
+@size 145727
+include/libpng16/pngconf.h
+@sha BVp668yl3WmdCWPfyqx2WhAlI5+Eu63ezclJDHPY7sE=
+@size 23406
+include/libpng16/pnglibconf.h
+@sha v7cSyitJEG20ZAmkYnpGOccmb1UWCKsPa4K7Cr5tWB4=
+@size 7181
+include/png.h
+@symlink libpng16/png.h
+include/pngconf.h
+@symlink libpng16/pngconf.h
+include/pnglibconf.h
+@symlink libpng16/pnglibconf.h
+lib/libpng.a
+@symlink libpng16.a
+lib/libpng.la
+@sha og5fHxVjqNXYgJdeqT77AcvyWH2qGQH46zpQndq48tc=
+@size 720
+@lib lib/libpng.so.17.2
+@symlink libpng16.so.17.2
+lib/libpng16.a
+@sha bth2N5DvXFRmCWoGLNxEL0bdaqZw5+DK7ZuET4DCTXE=
+@size 265364
+lib/libpng16.la
+@sha i/AgH4m2xvdCI/xXiBqvaKr3+Wi5wwoKwe33/8v0p9g=
+@size 730
+@lib lib/libpng16.so.17.2
+@sha fDSmMIpLJDNxtE9EMSZITnBbQeiftsKbzPze4CUepNw=
+@size 215952
+lib/pkgconfig/
+lib/pkgconfig/libpng.pc
+@symlink libpng16.pc
+lib/pkgconfig/libpng16.pc
+@sha BrNRUGVBGFuV6JpxT8rMX6sIy4zXgFtezN5zmLA1+7M=
+@size 248
+@man man/man3/libpng.3
+@sha 0Fmp8rtEuZt34U2JkgiAeAQNO+4zYIeMDh/ZHw8hfjo=
+@size 272459
+@man man/man3/libpngpf.3
+@sha toVcJjF8bCLRWEnHbQ0+wVdWXqtMkiD0xvdr7B2YuhY=
+@size 760
+@man man/man5/png.5
+@sha L9O/oiS4GWL03Ei+ww62c7hfKtigW0NBYbsOLvajWUA=
+@size 2409

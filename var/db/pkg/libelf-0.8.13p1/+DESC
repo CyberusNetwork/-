@@ -1,0 +1,6 @@
+read, modify, create ELF files on any arch
+Light-weight alternative to BFD, but supports only ELF binaries.
+
+Maintainer: The OpenBSD ports mailing-list <ports@openbsd.org>
+
+WWW: http://directory.fsf.org/all/libelf.html

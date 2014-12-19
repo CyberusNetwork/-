@@ -1,0 +1,64 @@
+Dec 17 18:00:01 cyberus newsyslog[12867]: logfile turned over
+Dec 17 18:00:13 cyberus sshd[22750]: Accepted password for root from 89.226.198.69 port 61837 ssh2
+Dec 17 18:05:18 cyberus sshd[19051]: Accepted password for root from 89.226.198.69 port 61839 ssh2
+Dec 17 18:06:18 cyberus sshd[16662]: Failed password for root from 109.6.235.249 port 50343 ssh2
+Dec 17 18:06:36 cyberus sshd[16662]: Accepted password for root from 109.6.235.249 port 50343 ssh2
+Dec 17 18:10:11 cyberus sshd[26197]: Accepted password for root from 109.6.235.249 port 4112 ssh2
+Dec 17 18:38:33 cyberus sshd[16469]: Accepted password for root from 89.226.198.69 port 62034 ssh2
+Dec 17 18:39:54 cyberus sshd[23118]: Accepted password for root from 89.226.198.69 port 62035 ssh2
+Dec 17 18:41:11 cyberus sshd[17356]: Accepted password for root from 89.226.198.69 port 62068 ssh2
+Dec 17 18:48:27 cyberus sshd[11054]: Accepted password for root from 89.226.198.69 port 62070 ssh2
+Dec 17 19:09:52 cyberus sshd[7775]: fatal: Timeout before authentication for 109.6.235.249
+Dec 17 21:32:42 cyberus sshd[24652]: Accepted password for root from 89.226.198.69 port 64286 ssh2
+Dec 17 21:53:05 cyberus sshd[7957]: Accepted password for root from 89.226.198.69 port 64440 ssh2
+Dec 17 22:36:59 cyberus sshd[826]: Accepted password for root from 89.226.198.69 port 65071 ssh2
+Dec 18 00:20:44 cyberus sshd[2327]: Accepted password for root from 89.226.198.69 port 49985 ssh2
+Dec 18 01:42:26 cyberus sshd[24406]: Failed password for root from 82.227.163.228 port 64247 ssh2
+Dec 18 01:42:37 cyberus sshd[28284]: Accepted password for root from 82.227.163.228 port 64248 ssh2
+Dec 18 01:42:52 cyberus sshd[24406]: Accepted password for root from 82.227.163.228 port 64247 ssh2
+Dec 18 03:21:01 cyberus sshd[2327]: fatal: Read from socket failed: Connection reset by peer
+Dec 18 09:28:38 cyberus sshd[6279]: Connection closed by 82.245.253.160 [preauth]
+Dec 18 09:29:11 cyberus sshd[4690]: Accepted publickey for costet from 82.245.253.160 port 50531 ssh2: RSA 36:f2:54:24:7b:3c:50:62:96:0d:a7:4c:fc:0f:06:69
+Dec 18 09:30:19 cyberus sshd[13313]: Accepted password for root from 82.245.253.160 port 50536 ssh2
+Dec 18 09:34:33 cyberus sshd[12170]: Accepted password for root from 82.245.253.160 port 50545 ssh2
+Dec 18 09:34:33 cyberus sshd[13051]: Accepted password for root from 82.245.253.160 port 50546 ssh2
+Dec 18 15:45:24 cyberus sshd[15925]: Accepted password for root from 89.226.198.69 port 55440 ssh2
+Dec 18 15:45:43 cyberus sshd[2590]: Accepted password for root from 89.226.198.69 port 55445 ssh2
+Dec 18 15:45:45 cyberus sshd[31378]: Accepted password for root from 89.226.198.69 port 55444 ssh2
+Dec 18 15:47:32 cyberus sshd[22743]: Accepted password for root from 89.226.198.69 port 55447 ssh2
+Dec 18 15:47:40 cyberus sshd[14809]: Accepted password for root from 89.226.198.69 port 55448 ssh2
+Dec 18 15:47:50 cyberus sshd[10325]: Failed password for root from 89.226.198.69 port 55451 ssh2
+Dec 18 15:47:56 cyberus sshd[10325]: Accepted password for root from 89.226.198.69 port 55451 ssh2
+Dec 18 15:50:57 cyberus sshd[16875]: Accepted password for root from 89.226.198.69 port 55459 ssh2
+Dec 18 17:28:54 cyberus sshd[10155]: Accepted password for root from 89.226.198.69 port 55793 ssh2
+Dec 18 18:04:34 cyberus sshd[30889]: Accepted password for root from 82.227.163.228 port 59027 ssh2
+Dec 18 18:19:55 cyberus sshd[4156]: Accepted password for root from 89.226.198.69 port 55956 ssh2
+Dec 18 19:49:07 cyberus sshd[2626]: Accepted password for root from 89.226.198.69 port 56221 ssh2
+Dec 18 22:26:13 cyberus sshd[22688]: Accepted password for root from 89.226.198.69 port 57457 ssh2
+Dec 18 23:38:09 cyberus sshd[2886]: Accepted password for root from 89.226.198.69 port 58359 ssh2
+Dec 18 23:40:57 cyberus sshd[12638]: Accepted password for root from 89.226.198.69 port 58530 ssh2
+Dec 18 23:54:59 cyberus sshd[31194]: Connection closed by 89.226.198.69 [preauth]
+Dec 18 23:55:07 cyberus sshd[25012]: Accepted password for root from 89.226.198.69 port 59109 ssh2
+Dec 18 23:55:14 cyberus sshd[20017]: Accepted password for root from 89.226.198.69 port 59121 ssh2
+Dec 18 23:55:44 cyberus sshd[17016]: Accepted password for root from 89.226.198.69 port 59145 ssh2
+Dec 18 23:59:34 cyberus sshd[28183]: Accepted password for root from 89.226.198.69 port 59304 ssh2
+Dec 19 00:22:24 cyberus sshd[15525]: Accepted password for root from 89.226.198.69 port 59896 ssh2
+Dec 19 00:45:45 cyberus sshd[14160]: Accepted password for root from 89.226.198.69 port 59972 ssh2
+Dec 19 01:35:43 cyberus sshd[7269]: Accepted password for root from 89.226.198.69 port 60176 ssh2
+Dec 19 01:41:46 cyberus sshd[1372]: Accepted password for root from 89.226.198.69 port 60466 ssh2
+Dec 19 01:44:31 cyberus sshd[998]: Accepted password for root from 89.226.198.69 port 60470 ssh2
+Dec 19 09:31:30 cyberus sshd[7394]: Accepted password for root from 10.8.111.128 port 60728 ssh2
+Dec 19 10:01:44 cyberus sshd[11291]: Accepted password for root from 10.8.111.128 port 61002 ssh2
+Dec 19 10:12:45 cyberus sshd[27700]: Accepted password for root from 10.8.111.128 port 61116 ssh2
+Dec 19 13:51:43 cyberus sshd[14914]: Accepted password for root from 10.8.111.128 port 63459 ssh2
+Dec 19 14:05:16 cyberus sshd[11341]: Accepted password for root from 81.255.1.97 port 49786 ssh2
+Dec 19 14:05:57 cyberus sshd[4574]: Accepted password for root from 81.255.1.97 port 49790 ssh2
+Dec 19 14:11:27 cyberus sshd[28467]: Failed password for root from 10.8.111.128 port 63618 ssh2
+Dec 19 14:11:34 cyberus sshd[28467]: Failed password for root from 10.8.111.128 port 63618 ssh2
+Dec 19 14:11:42 cyberus sshd[28467]: Accepted password for root from 10.8.111.128 port 63618 ssh2
+Dec 19 14:12:04 cyberus sshd[31525]: Accepted publickey for costet from 82.245.253.160 port 55390 ssh2: RSA 36:f2:54:24:7b:3c:50:62:96:0d:a7:4c:fc:0f:06:69
+Dec 19 14:34:27 cyberus sshd[18392]: Accepted password for root from 81.255.1.97 port 51647 ssh2
+Dec 19 14:38:40 cyberus su: costet to root on /dev/ttyp3
+Dec 19 14:40:09 cyberus sshd[23489]: Accepted publickey for costet from 82.245.253.160 port 55589 ssh2: RSA 36:f2:54:24:7b:3c:50:62:96:0d:a7:4c:fc:0f:06:69
+Dec 19 14:40:23 cyberus su: costet to root on /dev/ttyp2
+Dec 19 14:49:01 cyberus sshd[25647]: Accepted password for root from 81.255.1.97 port 51891 ssh2

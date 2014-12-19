@@ -1,0 +1,9 @@
+accessibility toolkit used by gtk+
+The ATK library provides a set of interfaces for accessibility.
+By supporting the ATK interfaces, an application or toolkit can be used
+with such tools as screen readers, magnifiers, and alternative input
+devices.
+
+Maintainer: Jasper Lievisse Adriaanse <jasper@openbsd.org>,  Antoine Jacoutot <ajacoutot@openbsd.org>
+
+WWW: https://wiki.gnome.org/

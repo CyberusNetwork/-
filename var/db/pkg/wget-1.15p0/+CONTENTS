@@ -1,0 +1,160 @@
+@comment $OpenBSD: PLIST,v 1.26 2014/01/29 06:08:42 dcoppa Exp $
+@name wget-1.15p0
+@url https://stable.mtier.org/updates/5.6/i386/wget-1.15p0.tgz
+@signer mtier-56-pkg
+@digital-signature signify:2014-10-31T15:37:26Z:RWQQss3E1pCsG7OJRmS1iWraHxajJfHDAh76R3biephaihFhqADkaKChn31Y5fDyj2Ys3fX1GOVlqgxggRmwtontYA42VW1TfgA=
+@option manual-installation
+@comment pkgpath=net/wget cdrom=yes ftp=yes
+@arch i386
++DESC
+@sha 8gDQda/Z/IgOZK2+GiswDMrtbArLiCTA4cdwZEpUD6M=
+@size 324
+@depend converters/libiconv:libiconv-*:libiconv-1.14p1
+@depend devel/gettext:gettext->=0.10.38:gettext-0.19.1p0
+@depend devel/libidn:libidn-*:libidn-1.28p0
+@depend devel/pcre:pcre-*:pcre-8.35
+@wantlib c.77.0
+@wantlib crypto.30.0
+@wantlib iconv.6.0
+@wantlib idn.17.0
+@wantlib intl.6.0
+@wantlib pcre.3.0
+@wantlib ssl.27.0
+@wantlib z.5.0
+@cwd /usr/local
+@bin bin/wget
+@sha Q0+bRCBadDUPql5jYOmXqfEyi4wqqA0gig5IhsVGea8=
+@size 493468
+@info info/wget.info
+@sha J/WQpLgFBqH0pxsqG6YwO/NYYPzVbHtGHZvpf4SINAo=
+@size 206521
+@comment lib/charset.alias
+@man man/man1/wget.1
+@sha 32x8RZPMKOf+XPsyktwr6BMgFMvIGGzCm+gpDLhw9wI=
+@size 94681
+share/examples/wget/
+share/examples/wget/wgetrc
+@sha 3uxybJ1U+X3P3U1DBE6+0c4FAM1hwUXYBItiO6Mq5h8=
+@size 4795
+@sample /etc/wgetrc
+share/locale/be/LC_MESSAGES/wget.mo
+@sha XBEsJmzwQqe+D0+JvP5a2gkvE1Dd36kdfYioqSwOQao=
+@size 28852
+share/locale/bg/LC_MESSAGES/wget.mo
+@sha Qilca/vfYKXCyjD/3vOV27gA4epCyS7/AE1sYBDo454=
+@size 10402
+share/locale/ca/LC_MESSAGES/wget.mo
+@sha m8XSJaGbEF/brTDboGBs5Lv/G0th40GGJGNFtocujus=
+@size 55832
+share/locale/cs/LC_MESSAGES/wget.mo
+@sha 2R2tPaWQ6CJ2K11Qs2yOxa/kZ6BK8eevXbk8RtB9KwQ=
+@size 63354
+share/locale/da/LC_MESSAGES/wget.mo
+@sha n1RoPJ4jvROKbh3v2oqkZh/NUBpkitFCAb5nB9Ts3aQ=
+@size 45395
+share/locale/de/LC_MESSAGES/wget.mo
+@sha noec66hqOMq37Yvk7dq3S40mQYsvktZe5TANQThc6XI=
+@size 63978
+share/locale/el/LC_MESSAGES/wget.mo
+@sha QxeoX2yfbPIsxjf00MikBmT2MsfTR0oTvUqnqdBXELk=
+@size 11012
+share/locale/en_GB/
+share/locale/en_GB/LC_MESSAGES/
+share/locale/en_GB/LC_MESSAGES/wget.mo
+@sha pUOYJo09kPNhlufne+Y/rz5maGHneU+C7VP05Tyy6u4=
+@size 8682
+share/locale/eo/LC_MESSAGES/wget.mo
+@sha 586ZgtWRjZYlrxC3DtW1JucsVbwcXdlvOb8UOaYn0ww=
+@size 59090
+share/locale/es/LC_MESSAGES/wget.mo
+@sha zHjQIlisCCp3i5NMeKQrSPnPaCkpRP//HkzMx+ZAmI4=
+@size 61200
+share/locale/et/LC_MESSAGES/wget.mo
+@sha MbgRW9DofyEWmqA+jMFyGbxIXVITWeF+Kbse+ndhJ+c=
+@size 57521
+share/locale/eu/LC_MESSAGES/wget.mo
+@sha BnG9rbxvrvmtzVVp5/iTAKuQ2sW9x6s3qfaYGrIc5h0=
+@size 10200
+share/locale/fi/LC_MESSAGES/wget.mo
+@sha zYe82taWk0UNVrwFB7fQMCBy4ZDrb2O5+PjrV54ATCU=
+@size 62105
+share/locale/fr/LC_MESSAGES/wget.mo
+@sha 4KN1xxG48qBHBa0EffKPdHOSWI1u2Y/w04fr9OzVRio=
+@size 63458
+share/locale/ga/LC_MESSAGES/wget.mo
+@sha 4Vnn26Wup9mNxniqzBczOnJzAxC18prZ3qd2UobkVrI=
+@size 32874
+share/locale/gl/LC_MESSAGES/wget.mo
+@sha 4VqPhj6CbMGovzsrwmVZWzkABCDX0c0zZ21P8CD2ELc=
+@size 27844
+share/locale/he/LC_MESSAGES/wget.mo
+@sha i3shd9S+/SKZM56PASOM7d+ASxxptaOruDO1YXhQgV4=
+@size 7292
+share/locale/hr/LC_MESSAGES/wget.mo
+@sha CTmWfb1djx1+quu2c2LVr1i001E3GH+BODc3k6nUd/4=
+@size 52795
+share/locale/hu/LC_MESSAGES/wget.mo
+@sha vTUIEEMpzKGBTfiSDICQQ5LuaiUSgc9A31Rnjir1JpU=
+@size 56895
+share/locale/id/LC_MESSAGES/wget.mo
+@sha 2ZMPXk2X5VJjO1ZgHmu00+a2nnJ9pizWQaVHVHSEDd8=
+@size 43369
+share/locale/it/LC_MESSAGES/wget.mo
+@sha gus+DQIZ9BMW7yo9TgmfuDkqmaQiS5W94Z427jP0els=
+@size 61761
+share/locale/ja/LC_MESSAGES/wget.mo
+@sha Ad6TVbb3apdDVynZHS/Bp52b1cK1P8BXWP8pXsft5VA=
+@size 66696
+share/locale/lt/
+share/locale/lt/LC_MESSAGES/
+share/locale/lt/LC_MESSAGES/wget.mo
+@sha 7Z2EtXrgyVDKHBsMmDZyTHVxGa0+ZOdWUKYZYQ4lRoI=
+@size 33298
+share/locale/nb/LC_MESSAGES/wget.mo
+@sha sS8Sj5wKvu+GO1ijfXziDllxr2pojOWHHgz+zHHBqFI=
+@size 6595
+share/locale/nl/LC_MESSAGES/wget.mo
+@sha +7iqG+9HYttY3nZUZupxWAEI2P6ArMGt8KIrQfKeSGQ=
+@size 60845
+share/locale/pl/LC_MESSAGES/wget.mo
+@sha yTxz2kbDftLX3lVUSrubv/yz9+WkJ3zllfUI/Q6Co/8=
+@size 62375
+share/locale/pt/LC_MESSAGES/wget.mo
+@sha fpAhxvlSfxey52/0ssjdiz/FALX6MUP3jeNSrTluV0w=
+@size 33215
+share/locale/pt_BR/LC_MESSAGES/wget.mo
+@sha uUbFL78mOfq8uVyqfKWbZLrA13GDz7hjDV1PhskpOcY=
+@size 60996
+share/locale/ro/LC_MESSAGES/wget.mo
+@sha zoKQHkRK+YoL/1961GUIDhpaLwQKRTkEAydory2wrnc=
+@size 9038
+share/locale/ru/LC_MESSAGES/wget.mo
+@sha Ck/e6ixIlsMoQJuAYqUsPd9N+jk+4pACyWkVvrQRYPs=
+@size 76549
+share/locale/sk/LC_MESSAGES/wget.mo
+@sha tbJKLdlbSDBxm4NSsKrtx7wCHnRNOs2fN43PU67UTYw=
+@size 61356
+share/locale/sl/LC_MESSAGES/wget.mo
+@sha EMiZpX5sKGWR0WNMPx1fUMWKRxYDAa8OgqhM4M0O2cQ=
+@size 46170
+share/locale/sr/LC_MESSAGES/wget.mo
+@sha 5CPYMo1He8CzI+uCqQCLqjWhCDTLCqdiWmtO7z4d0Bs=
+@size 75874
+share/locale/sv/LC_MESSAGES/wget.mo
+@sha 0Wr2hJIIygZ53pJe/rprjvhuJDC5tLn4JLZWdXozCyI=
+@size 45613
+share/locale/tr/LC_MESSAGES/wget.mo
+@sha 9/oTZPJU/uvifTxFPN1EEGLx2xof8EqtnoiuJS0dbb8=
+@size 61465
+share/locale/uk/LC_MESSAGES/wget.mo
+@sha rMHxqsp3vx8xul3mSoQ5qufIxqXT2m37YKxFwbMrnrU=
+@size 75460
+share/locale/vi/LC_MESSAGES/wget.mo
+@sha A65cpAisc10sNR9aNG2zaL0jTS0WJHf5/mCsro9h1qk=
+@size 65284
+share/locale/zh_CN/LC_MESSAGES/wget.mo
+@sha svgEP90/JWfv7Qn42dkb+rPQIIgHUlei1ltUfyk5IzQ=
+@size 44786
+share/locale/zh_TW/LC_MESSAGES/wget.mo
+@sha T0vUmbDHHGjgNcVOT8FHnhCMskt0OF+zHCSSbEGIw2Y=
+@size 28430

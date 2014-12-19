@@ -1,0 +1,326 @@
+@comment $OpenBSD: PLIST,v 1.27 2013/03/02 13:51:59 ajacoutot Exp $
+@name shared-mime-info-1.3
+@url http://ftp.fr.openbsd.org/pub/OpenBSD/5.6/packages/i386/shared-mime-info-1.3.tgz
+@signer openbsd-56-pkg
+@digital-signature signify:2014-08-02T11:07:34Z:RWSPEf7Vpp2j0D+/3MEnpy1NvVyZLpdHcY5BrjpvTkrMwqt4DVDR9ifLHgckKGT++Jg2Y9/Dg6LB8Luuy7T/ZC+nNhDFuJI8qgM=
+@comment pkgpath=misc/shared-mime-info cdrom=yes ftp=yes
+@arch i386
++DESC
+@sha yHTMFRiXIRYzb8GIekuINmtdf2/irZI8sVrknPt6cn4=
+@size 1232
+@depend converters/libiconv:libiconv-*:libiconv-1.14p1
+@depend devel/gettext:gettext->=0.10.38:gettext-0.19.1p0
+@depend devel/glib2:glib2-*:glib2-2.40.0p7
+@depend textproc/libxml,-main:libxml-*:libxml-2.9.1p1
+@wantlib c.77.0
+@wantlib glib-2.0.4000.0
+@wantlib iconv.6.0
+@wantlib intl.6.0
+@wantlib pthread.18.0
+@wantlib xml2.15.1
+@cwd /usr/local
+share/mime/
+share/mime/packages/
+share/mime/packages/freedesktop.org.xml
+@sha 1KpvGZmy0IsG2dZAiaG0A0eDlTkdN/0SnmDxtIGxFvE=
+@size 1877916
+@unexec-delete %D/bin/update-mime-database %D/share/mime
+@bin bin/update-mime-database
+@sha zohNjopO9CJ9FjcPwF7x70F54wEbY/7UZRFfB4sxEQE=
+@size 48124
+@man man/cat1/update-mime-database.0
+@sha m4VBtTvDdDwdRPebEyjPKuNYXqVVqU98q/gSYdqHrho=
+@size 1598
+share/locale/ar/
+share/locale/ar/LC_MESSAGES/
+share/locale/ar/LC_MESSAGES/shared-mime-info.mo
+@sha ymtgRLL2O84B39S9hUhkx8Z4V0jBdgnAbvdVx12dZnk=
+@size 38833
+share/locale/az/
+share/locale/az/LC_MESSAGES/
+share/locale/az/LC_MESSAGES/shared-mime-info.mo
+@sha q+f/baaekb5YYurjeYilwOtl280dtQiH2LiFdU3X76o=
+@size 8398
+share/locale/be@latin/
+share/locale/be@latin/LC_MESSAGES/
+share/locale/be@latin/LC_MESSAGES/shared-mime-info.mo
+@sha AXBGuqq5Rwlb2ypQB7SgCzM/kbFiZ2kFgCbASWl+aTc=
+@size 32954
+share/locale/bg/LC_MESSAGES/shared-mime-info.mo
+@sha TYly6uMLJTdPTSL30J3NUnqZmzPJS9x09sF+Olt51oM=
+@size 48281
+share/locale/bg_BG/
+share/locale/bg_BG/LC_MESSAGES/
+share/locale/bg_BG/LC_MESSAGES/shared-mime-info.mo
+@sha C1+gV6jNhJUp0fq2oKEV0+BexnX8S33guIBgV+NWs0A=
+@size 520
+share/locale/bn_IN/
+share/locale/bn_IN/LC_MESSAGES/
+share/locale/bn_IN/LC_MESSAGES/shared-mime-info.mo
+@sha MxpEypNePDlbvLnhna2sIawoIRP82Nyd0SlcwD+m5lE=
+@size 515
+share/locale/ca/LC_MESSAGES/shared-mime-info.mo
+@sha DWaPXxgeLVMScol2VqOU3VH59Kabfka9mcme7upm5N4=
+@size 40213
+share/locale/ca@valencia/
+share/locale/ca@valencia/LC_MESSAGES/
+share/locale/ca@valencia/LC_MESSAGES/shared-mime-info.mo
+@sha 46Cn8ZxREDBLhzC0EUuEOWuIUC3L7mSka32Q3CIUgYA=
+@size 531
+share/locale/cs/LC_MESSAGES/shared-mime-info.mo
+@sha huywsWLbcdTx5xgPmNJEZwZ+vnGyV+Cg9lQgGVcjP+c=
+@size 39305
+share/locale/cy/
+share/locale/cy/LC_MESSAGES/
+share/locale/cy/LC_MESSAGES/shared-mime-info.mo
+@sha bdDsEA4R734kvuAsbEiXc1tUSmg1cEILSeqO1P/xHg0=
+@size 8703
+share/locale/da/LC_MESSAGES/shared-mime-info.mo
+@sha St9epk76xSZCxYT66x3/FsC/MXd/9U2iCWTLdGMfTZY=
+@size 38147
+share/locale/de/LC_MESSAGES/shared-mime-info.mo
+@sha TBuIfq7Fw2XhU0ucRWMLueANemAdvxQntIDN+gr/A+Q=
+@size 38492
+share/locale/el/LC_MESSAGES/shared-mime-info.mo
+@sha 68RYHARzOVl3U/u0ZwSw1uwT/k/SP3U7Xfm1eK6Q6KU=
+@size 46572
+share/locale/en_GB/
+share/locale/en_GB/LC_MESSAGES/
+share/locale/en_GB/LC_MESSAGES/shared-mime-info.mo
+@sha 6mZgHJOQ+9ADFkMKmgUi3zEMfEw0OIy7eI7pCiQ/Nsk=
+@size 38128
+share/locale/eo/LC_MESSAGES/shared-mime-info.mo
+@sha X6ZK1LR1DgmdMQLLLfuNa+NDFpC+OP+hND3EHMJk7cY=
+@size 24122
+share/locale/es/LC_MESSAGES/shared-mime-info.mo
+@sha u5oBbV7WSnAU+PJ/E1QD6DNr2GIBhJQeC9yhuk4bhUA=
+@size 41159
+share/locale/eu/LC_MESSAGES/shared-mime-info.mo
+@sha KG6TmYGNDuB684xZiaOhJnYnLGPVphLbmeI2jTmg8ew=
+@size 37081
+share/locale/fa/
+share/locale/fa/LC_MESSAGES/
+share/locale/fa/LC_MESSAGES/shared-mime-info.mo
+@sha P948FXI74VpsMJE8BXNgSEUity+gbFXe/i1KbkRBvjw=
+@size 499
+share/locale/fa_IR/
+share/locale/fa_IR/LC_MESSAGES/
+share/locale/fa_IR/LC_MESSAGES/shared-mime-info.mo
+@sha lZOQTAJGtml8RnwE/nfXjzZ/sQAMaDz0wPZYvt7SEBw=
+@size 507
+share/locale/fi/LC_MESSAGES/shared-mime-info.mo
+@sha uP5weQqCu1tVG5lxdneftk7FBFfSXTPdHosVGpgkU0A=
+@size 36444
+share/locale/fo/
+share/locale/fo/LC_MESSAGES/
+share/locale/fo/LC_MESSAGES/shared-mime-info.mo
+@sha FTKEvUIIDOMilFUq/HluC5reHhd4AhR/uUmNayL+mZc=
+@size 34732
+share/locale/fr/LC_MESSAGES/shared-mime-info.mo
+@sha CBOONSjrmpP7ZbFhTs6bAh5XqkecghzmbqWNTAfYZ4k=
+@size 39254
+share/locale/ga/LC_MESSAGES/shared-mime-info.mo
+@sha P5Fcp6/Wo4eM2vmu+joyHAZe2i3ynUA8WfkBxGo+zG0=
+@size 37049
+share/locale/gl/LC_MESSAGES/shared-mime-info.mo
+@sha fGt8pFxv0STm/k2HbVTw2eTdzlbsMqX/jzgNFqgpnRw=
+@size 40847
+share/locale/he/LC_MESSAGES/shared-mime-info.mo
+@sha lAcZPYGyQ/UEwaFjzNXg52Vz8LGhEUgGsYykwGfU0Nk=
+@size 43171
+share/locale/hi/
+share/locale/hi/LC_MESSAGES/
+share/locale/hi/LC_MESSAGES/shared-mime-info.mo
+@sha aaiMVMxaiaGN4VMml7PiwxGHvFKLBswkmB03lBf8BJ0=
+@size 499
+share/locale/hr/LC_MESSAGES/shared-mime-info.mo
+@sha AmGp2Sgspnt6mIh7EkRGAe2yssRllA0IbX4AioXuQw8=
+@size 28739
+share/locale/hu/LC_MESSAGES/shared-mime-info.mo
+@sha jT2lC9jJ1RaldNs9pP/GmyJXljo0l7SbcC8pFGZId9Y=
+@size 39164
+share/locale/ia/
+share/locale/ia/LC_MESSAGES/
+share/locale/ia/LC_MESSAGES/shared-mime-info.mo
+@sha 3a3cf7PRDVY6Abcagy8/eSRHlO/RStansxJrtcQ+nG4=
+@size 510
+share/locale/id/LC_MESSAGES/shared-mime-info.mo
+@sha 78qWcEU7WIzZenAGnbDgW7ErTmgIZcH/DPbAAhhWIHk=
+@size 38344
+share/locale/it/LC_MESSAGES/shared-mime-info.mo
+@sha D9nmmKmr+BVf+CNsqCC53ffxxJWdfvLMltyUcXYJH/k=
+@size 39431
+share/locale/ja/LC_MESSAGES/shared-mime-info.mo
+@sha w0QXir+/phDk8n0EqZCAeqq1JjQXrH7Pcy43qIUumYc=
+@size 43523
+share/locale/ka/
+share/locale/ka/LC_MESSAGES/
+share/locale/ka/LC_MESSAGES/shared-mime-info.mo
+@sha y4yrHdpKkjuP3hghKmQbcN/uVyd7C3+HLZxxEqecvuQ=
+@size 18540
+share/locale/kk/
+share/locale/kk/LC_MESSAGES/
+share/locale/kk/LC_MESSAGES/shared-mime-info.mo
+@sha Cr/La55RiXFqz14SrNEqmiVYzogdLMSh159zzPS+h0s=
+@size 46240
+share/locale/ko/LC_MESSAGES/shared-mime-info.mo
+@sha tJzzYXmJg+Yk/mfwzUM8vVMro4JveR30CkQAAH0bg5Y=
+@size 40334
+share/locale/lt/
+share/locale/lt/LC_MESSAGES/
+share/locale/lt/LC_MESSAGES/shared-mime-info.mo
+@sha YLoaSdKkz6ZU+3YnXwc0HRyg9wwTRTgVjqfKVlbextw=
+@size 38230
+share/locale/lv/LC_MESSAGES/shared-mime-info.mo
+@sha BUiTSSSAqq1oFB7kYOkdVJeDEyoITvN0NSRHaNKRj04=
+@size 39121
+share/locale/ms/
+share/locale/ms/LC_MESSAGES/
+share/locale/ms/LC_MESSAGES/shared-mime-info.mo
+@sha nBvNdvn9tuXSOENQ2KLFJvmS8bl/0WkHGfN2L+ERS2A=
+@size 15230
+share/locale/nb/LC_MESSAGES/shared-mime-info.mo
+@sha V9sSd37sd5HzWqNCPp/kko4qlUmf/jbtOmw9yDR63u4=
+@size 30069
+share/locale/nl/LC_MESSAGES/shared-mime-info.mo
+@sha nrl4+5P6Ey5m+O0ksmcRrNt/ToeIxMNnK8X9qehQg2o=
+@size 38926
+share/locale/nn/LC_MESSAGES/shared-mime-info.mo
+@sha ByvuNaTx4tx6imStK9UhJAfPnKu0dm3g9FmG8Sp3RLo=
+@size 31314
+share/locale/pa/LC_MESSAGES/shared-mime-info.mo
+@sha ZoOCZvwg+dL+mXjn6rnwp56UpyL1imdLSjg4QtCvaZE=
+@size 511
+share/locale/pl/LC_MESSAGES/shared-mime-info.mo
+@sha SPE21Wjh66/12nHA+sOIvX4FLSXvn65Efc58Nje7Y3o=
+@size 40009
+share/locale/pt/LC_MESSAGES/shared-mime-info.mo
+@sha lUmJQ3gPHLS8j2d2+SMrOPlNhvYmYfiT4VeyA+UTzzs=
+@size 16108
+share/locale/pt_BR/LC_MESSAGES/shared-mime-info.mo
+@sha MQZ9MmFhx9TDrUglVD22t1AefKZsbIiMPlwC5iTiFR4=
+@size 40414
+share/locale/ro/LC_MESSAGES/shared-mime-info.mo
+@sha 2ILquyryi+mROuyy5842SUY4E/K/pOJSpLZh95hXMDA=
+@size 36418
+share/locale/ru/LC_MESSAGES/shared-mime-info.mo
+@sha zDtfwa0/rHI9sqdCc3lmWKoWZM0c39qgGewVq9n59dY=
+@size 47191
+share/locale/rw/
+share/locale/rw/LC_MESSAGES/
+share/locale/rw/LC_MESSAGES/shared-mime-info.mo
+@sha TOEtZieI9d18BT0XsTu7Enosbyr6RDGCBRGSA5RoUgw=
+@size 455
+share/locale/sk/LC_MESSAGES/shared-mime-info.mo
+@sha 9d27h/PrXxPekIL6IbCGe0di0f7McQls772oJAFY54Y=
+@size 36574
+share/locale/sl/LC_MESSAGES/shared-mime-info.mo
+@sha qT3AFh/8jGIoHdUTq2LGNnewrPG1or46/ZEnBisXVQM=
+@size 42744
+share/locale/sq/
+share/locale/sq/LC_MESSAGES/
+share/locale/sq/LC_MESSAGES/shared-mime-info.mo
+@sha GyFJkWS1YV3Z9Iy8Tho7LNnIilfRAMXRRFKz2DVaa4M=
+@size 32281
+share/locale/sr/LC_MESSAGES/shared-mime-info.mo
+@sha WDGH3QuPl98sZ0TRQm0NSTVGlbK3K656NOn3rbEN23E=
+@size 19089
+share/locale/sr@latin/
+share/locale/sr@latin/LC_MESSAGES/
+share/locale/sr@latin/LC_MESSAGES/shared-mime-info.mo
+@sha GSMVd8v0bJkaj82e+zDL2Emidv5uYEgUD2iWjzJqeIM=
+@size 595
+share/locale/sv/LC_MESSAGES/shared-mime-info.mo
+@sha EIHYwxdZi/7jSCLzQ6Uavg/SDNarz+gDIHyNxAsqYjc=
+@size 36537
+share/locale/te/
+share/locale/te/LC_MESSAGES/
+share/locale/te/LC_MESSAGES/shared-mime-info.mo
+@sha 2Y9lkuPsvSSrZ4Fv8+wV8vRsX3FoHaWcypqzJgJ5hyo=
+@size 505
+share/locale/tr/LC_MESSAGES/shared-mime-info.mo
+@sha zuLwy+hpL+0ZcJzN7ha1XyRaxeZftJqyfzuoltS/5+Y=
+@size 12198
+share/locale/uk/LC_MESSAGES/shared-mime-info.mo
+@sha NYEGnSXiibCKloL1vZ2URavoGU/mpwuWwzciiCxS7i8=
+@size 46945
+share/locale/vi/LC_MESSAGES/shared-mime-info.mo
+@sha XIxMHQHmNxvA95vM0AQujzbJezeJNC3oeWirG2cf7tw=
+@size 35688
+share/locale/wa/
+share/locale/wa/LC_MESSAGES/
+share/locale/wa/LC_MESSAGES/shared-mime-info.mo
+@sha HavX6iN/eE1fGiwtFy364wxUPyNA812zNP6JEIYaXjQ=
+@size 500
+share/locale/zh_CN/LC_MESSAGES/shared-mime-info.mo
+@sha YCj2GtJMquKajS44f+HDiKi+lUPOjXJ4qgppryPngok=
+@size 37932
+share/locale/zh_HK/LC_MESSAGES/shared-mime-info.mo
+@sha H5IPPPOSuJeIgDk6juMzItfm2vmgD1sLy46z4QHCIsE=
+@size 517
+share/locale/zh_TW/LC_MESSAGES/shared-mime-info.mo
+@sha vh0yJdbQ+swHrJLl0BZKUWClzJ1PhFxHgkOyyLvCvo8=
+@size 37764
+@comment no checksum
+share/mime/XMLnamespaces
+@sha 47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
+@size 0
+@comment no checksum
+share/mime/aliases
+@sha 47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
+@size 0
+share/mime/application/
+share/mime/audio/
+@comment no checksum
+share/mime/generic-icons
+@sha 47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
+@size 0
+@comment no checksum
+share/mime/globs
+@sha V+9UjCW7/ALW1rYuJE0Wh4pvzrD0ECS/bl+4dvuPXHg=
+@size 92
+@comment no checksum
+share/mime/globs2
+@sha V+9UjCW7/ALW1rYuJE0Wh4pvzrD0ECS/bl+4dvuPXHg=
+@size 92
+@comment no checksum
+share/mime/icons
+@sha 47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
+@size 0
+share/mime/image/
+share/mime/inode/
+@comment no checksum
+share/mime/magic
+@sha YyLIbg7pArWfzLrsKY4mmEC2Zp2WjmcDAEafG+ix5dE=
+@size 12
+share/mime/message/
+@comment no checksum
+share/mime/mime.cache
+@sha qt76TSAMGW3GWVk4mAaGGOget0LyH/MtoEq7xuJPECE=
+@size 96
+share/mime/model/
+share/mime/multipart/
+@comment no checksum
+share/mime/subclasses
+@sha 47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
+@size 0
+share/mime/text/
+@comment no checksum
+share/mime/treemagic
+@sha 7reJL0p0XIypiCKyIj4OrBsQ4BA9I5JGVY+M23bBNz4=
+@size 16
+@comment no checksum
+share/mime/types
+@sha 47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
+@size 0
+share/mime/version
+@sha tkA9qbIqvjVa0XIIozbmWDIsXR1/9kbKe5IpI3ukrvQ=
+@size 4
+share/mime/video/
+share/mime/x-content/
+share/mime/x-epoc/
+share/pkgconfig/
+share/pkgconfig/shared-mime-info.pc
+@sha 3fYbWoau5CvGIq5rtDTUYcV+4zEZrtgye4K1DezcNHE=
+@size 125
+@exec %D/bin/update-mime-database %D/share/mime

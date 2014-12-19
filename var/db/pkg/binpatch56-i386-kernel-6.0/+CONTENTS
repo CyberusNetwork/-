@@ -1,0 +1,48 @@
+@name binpatch56-i386-kernel-6.0
+@url https://stable.mtier.org/updates/5.6/i386/binpatch56-i386-kernel-6.0.tgz
+@signer mtier-56-pkg
+@digital-signature signify:2014-12-11T10:39:21Z:RWQQss3E1pCsG2sNG1aTBNHAlJEn/jB6HJF+x5uc5hNuQcPCIc8es4ZKhoU4vquQWvOZF11xIpQnTgtupOh/LXOTmR9igK8s3Qg=
+@option manual-installation
+@option always-update
+@comment pkgpath=/binpatch/56/kernel cdrom=yes ftp=yes
+@arch i386
++DESC
+@sha r4zFP+6rS0xsD3T5r1brM+T0p0xyvPI9VCNrSjdTOiU=
+@size 210
+@cwd /
+@comment patch for 013_virtio.patch
+var/db/binpatch/5.6-013/fake/bsd
+@sha TqHn3YCdtze1FR0+UozGuuoN/Ew5MKLt63ddSEu1iXg=
+@size 10659734
+var/db/binpatch/5.6-013/fake/bsd.mp
+@sha iv4WA5EcqsyBVpnxkVW+YwJhXzSVWQsFbsktg6M0g44=
+@size 10691971
+@unexec /var/db/binpatch/5.6-013/install.sh rollback 013 /var/db/binpatch all
+var/db/binpatch/5.6-013/PLIST
+@sha 1X/2gJQN99sfnGLVLEAvS+D/suxPQUbAcTlBThAHcd0=
+@size 73
+var/db/binpatch/5.6-013/install.sh
+@sha LUC9g1EWUG1Tehl4L4oaR2fDEj2nuWtzzvTXZZagxDw=
+@size 4215
+@exec /var/db/binpatch/5.6-013/install.sh install 013 /var/db/binpatch all
+var/db/binpatch/5.6-013/patches/
+var/db/binpatch/5.6-013/patches/001_rxr.patch
+@sha PKMytsd/6ZyyV7Mj1b1FPZwpiq9O+g2i4lIOVXH+Bwk=
+@size 2477
+var/db/binpatch/5.6-013/patches/002_nd6.patch
+@sha bSp+yx2MIg9kOn4qt2kDR78j9BW8vXu1eID7gulveKA=
+@size 2184
+var/db/binpatch/5.6-013/patches/004_kernexec.patch
+@sha Sbbs4MvaZoHjLrt1RzAkXgb5Y0H8bplFcAc1UXGsdG8=
+@size 1315
+var/db/binpatch/5.6-013/patches/010_pipex.patch
+@sha SupYR6nMGBMEeGKhMMpxpHQRGkoJ/+txh0xvq7mffAE=
+@size 2849
+var/db/binpatch/5.6-013/patches/011_pppoe.patch
+@sha Z8o8kQGYfaZp924XkMzBqMxjuZwVTn9zoowaceRaKXM=
+@size 992
+var/db/binpatch/5.6-013/patches/013_virtio.patch
+@sha 3dvsNBABnUG5LsMs5L3Qce6QQnBGJBMwznzNdh2wI8A=
+@size 3901
+var/db/binpatch/5.6-013/fake/
+var/db/binpatch/5.6-013/

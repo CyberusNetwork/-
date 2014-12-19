@@ -1,0 +1,1186 @@
+@comment $OpenBSD: PLIST,v 1.17 2014/03/26 13:32:33 ajacoutot Exp $
+@name gnome-icon-theme-symbolic-3.12.0p1
+@url http://ftp.fr.openbsd.org/pub/OpenBSD/5.6/packages/i386/gnome-icon-theme-symbolic-3.12.0p1.tgz
+@signer openbsd-56-pkg
+@digital-signature signify:2014-08-02T10:58:18Z:RWSPEf7Vpp2j0CuqAVzFYxGOMQ7uFnYT5C/tmdErWGSuKCh6El4ynMbtuN8GNFgaxNiu7ppZkHB7ZMVQdvQqqaSPNH22cZ78aw4=
+@comment pkgpath=x11/gnome/icon-theme-symbolic cdrom=yes ftp=yes
+@arch *
++DESC
+@sha mqPC2jUxYJEdbVFlUaFln0Bfh1h4t7NEVOXErCeKK3U=
+@size 625
+@depend x11/gnome/icon-theme:gnome-icon-theme-*:gnome-icon-theme-3.12.0
+@depend x11/gtk+2,-guic:gtk-update-icon-cache-*:gtk-update-icon-cache-2.24.24
+@cwd /usr/local
+share/icons/gnome/scalable/
+share/icons/gnome/scalable/actions/
+share/icons/gnome/scalable/actions/action-unavailable-symbolic.svg
+@sha rvKwu8WXrR0BgK7gbxuGNQFEvJd5T7f5ZJ1qV3HlBHs=
+@size 4536
+share/icons/gnome/scalable/actions/bookmark-add-symbolic.svg
+@sha eb/qxomB3w6zKQAeTXkMYNolBzKP8s36LiY02BmVlPw=
+@size 3787
+share/icons/gnome/scalable/actions/bookmark-new-symbolic.svg
+@sha 7J1v8BuC18GnFZvwncvHHZW1neN87ElI50KEPi1y3I0=
+@size 3928
+share/icons/gnome/scalable/actions/call-end-symbolic.svg
+@sha gHIi8MEXuaDQgAiQUUt45b1OScuMmCnMp5WLxXBKpow=
+@size 4642
+share/icons/gnome/scalable/actions/call-start-symbolic.svg
+@sha IZstOoZ3Yc505spCsnpWV6vw3SGC6Q25ZxMN5+Gu2MA=
+@size 3852
+share/icons/gnome/scalable/actions/content-loading-symbolic.svg
+@sha N9r8nWQzqTvaYj6tRvFMOnlQmDGRT4yVraKgnOROV8A=
+@size 3966
+share/icons/gnome/scalable/actions/document-open-recent-symbolic.svg
+@sha uE5mZALtYraX/M3L7OEPuLgHnI467njpvL98S5EhANk=
+@size 4609
+share/icons/gnome/scalable/actions/document-open-symbolic.svg
+@sha B9s3xlQT9lF5esRxHaPbwQpug23b+vGLk/Z1utzShJo=
+@size 4422
+share/icons/gnome/scalable/actions/document-page-setup-symbolic.svg
+@sha WtAp6+wgJ/p9tncnAkQSvttMOkfNCh4VBGN1mzmCzoc=
+@size 4275
+share/icons/gnome/scalable/actions/document-properties-symbolic.svg
+@sha a/xeHJOrNFHIz41Rte2JB7JMy2MqvboXt7MAZPwOJpU=
+@size 5237
+share/icons/gnome/scalable/actions/document-save-as-symbolic.svg
+@sha u8+kpwZh8fZFuUBPe1Ag0QvkKiRSUpmJ8yb5lqYeT3A=
+@size 7024
+share/icons/gnome/scalable/actions/document-save-symbolic.svg
+@sha KlZIaTFYNCcyRnFnP8EGqGHA9uj8LYR0xc+zqRcPLUY=
+@size 5252
+share/icons/gnome/scalable/actions/document-send-symbolic.svg
+@sha GjJA+/zBVNVl+GW9rWl9xI85sR2Lrw6hCyCm74Cvovg=
+@size 5806
+share/icons/gnome/scalable/actions/edit-clear-all-symbolic.svg
+@sha yfitxQ5EpABZMszuSnabrMTBIed/3kW7jVp/Z6KNtyM=
+@size 4778
+share/icons/gnome/scalable/actions/edit-clear-rtl-symbolic.svg
+@sha zXHKYrLI+VV0ZePXu6NO09I5Y7LhlYH42Q//4kyHdog=
+@size 4019
+share/icons/gnome/scalable/actions/edit-clear-symbolic.svg
+@sha q+OO3j6x8TXkL84xGUbILimWiIHknmanBBLFhJaDVl0=
+@size 3730
+share/icons/gnome/scalable/actions/edit-copy-symbolic.svg
+@sha wZtQUIlqZMvrBNoPgihDtu/ZmQsm+obBnwIlVriypr8=
+@size 3090
+share/icons/gnome/scalable/actions/edit-cut-symbolic.svg
+@sha Sjkvc9Xnh5N5CIlOg5bVsoMGM6X+ykOlQEB2xCrXohk=
+@size 5067
+share/icons/gnome/scalable/actions/edit-delete-symbolic.svg
+@sha p6tybWlrixjnZRrZtXh+naHz+GwUXiV8Y1zVCGUJpJE=
+@size 2626
+share/icons/gnome/scalable/actions/edit-find-symbolic.svg
+@sha 863P9mo/M2ywSNU4QI+dy8XagEPP7hKWx6yYDoSbLUU=
+@size 4686
+share/icons/gnome/scalable/actions/edit-paste-symbolic.svg
+@sha +cKJz7Xcsx85JDWvrJ4uF9FhnpjoIQDvPEZo+soMxPI=
+@size 4124
+share/icons/gnome/scalable/actions/edit-redo-rtl-symbolic.svg
+@sha TBcMAjVuqeXaxav6VtpF91GxEAy0xSlztIMN7HS3Cc0=
+@size 4801
+share/icons/gnome/scalable/actions/edit-redo-symbolic.svg
+@sha xPI5jPSsv0CJs7bOYxRW4FqNRaSw1wraEJqpoT+Qxcg=
+@size 4815
+share/icons/gnome/scalable/actions/edit-select-all-symbolic.svg
+@sha zsEt4TZkGhz5tI7M3q2F8guu73ZjLvue4q/3OJtUIS8=
+@size 3857
+share/icons/gnome/scalable/actions/edit-select-symbolic.svg
+@sha nNrOt6kdC2tQcmBLDo8Uvp+gksIfgziXPz5J1FG6kcw=
+@size 5272
+share/icons/gnome/scalable/actions/edit-undo-rtl-symbolic.svg
+@sha u76R93A6pSLxqCOGHcQ2TDsTDulTniZOL3S565JYIc4=
+@size 4800
+share/icons/gnome/scalable/actions/edit-undo-symbolic.svg
+@sha 2bNJYLWnyMFPRgwCXz291ErtYNXuaP7y32JT5JtJNK8=
+@size 4816
+share/icons/gnome/scalable/actions/find-location-symbolic.svg
+@sha B5ojYY9vL29+VlnyBURVx+VypC/rSWROmKOMn32yI08=
+@size 5378
+share/icons/gnome/scalable/actions/format-indent-less-rtl-symbolic.svg
+@sha YAaRuKISmy+1Wnm4qvl7MoF5u9vX7ZmiUrbKmdesoyI=
+@size 5073
+share/icons/gnome/scalable/actions/format-indent-less-symbolic.svg
+@sha IbB8GmdbxVI7Rb7OsctwuIWko850PIryw98C0atsSUs=
+@size 5160
+share/icons/gnome/scalable/actions/format-indent-more-rtl-symbolic.svg
+@sha yFOcnW7ICsoDYwuqubPgdUWdyh16uTlZKQt3cL94W3o=
+@size 4668
+share/icons/gnome/scalable/actions/format-indent-more-symbolic.svg
+@sha 2E51KvdC6VJHUPW5A0bF0viJI30yqMH0cofOj0MlxwY=
+@size 4483
+share/icons/gnome/scalable/actions/format-justify-center-symbolic.svg
+@sha iXv0RFBfNQON+jrzbrDKav1Pa7kZulvH8p7PRaKA8BE=
+@size 3596
+share/icons/gnome/scalable/actions/format-justify-fill-symbolic.svg
+@sha ixpYPBLikGW+B6ibbkm1kOdSV6P5QQg5LMsTheombJk=
+@size 3582
+share/icons/gnome/scalable/actions/format-justify-left-symbolic.svg
+@sha mqrszT73Hm8AnOlnm8aX1VbEqSCSe3Z3YYU9Rho/wRI=
+@size 3600
+share/icons/gnome/scalable/actions/format-justify-right-symbolic.svg
+@sha j4DysRH6g+qDvS4dBo6VJiO5Mt322IfI0MEPDTAxVi0=
+@size 3668
+share/icons/gnome/scalable/actions/format-text-bold-symbolic.svg
+@sha JnbiFSl+YU53SISdt2YNXjZ1qpnyBxX1+SjyJbSZAYI=
+@size 5052
+share/icons/gnome/scalable/actions/format-text-direction-ltr-symbolic.svg
+@sha cLuvjPvOpQ8uWpwIa1Fkyb2VlB2tRbuLx4f9oRqKl1Y=
+@size 5899
+share/icons/gnome/scalable/actions/format-text-direction-rtl-symbolic.svg
+@sha ciwOBP2wvVvw8pVUt4BJ4xYszKtvRwVAlVTip6AxplY=
+@size 5907
+share/icons/gnome/scalable/actions/format-text-italic-symbolic.svg
+@sha 9ADw7XG+L1uOJXUmg/ew4t7KiB8+6qUCfXj4LCvGJuw=
+@size 3925
+share/icons/gnome/scalable/actions/format-text-strikethrough-symbolic.svg
+@sha 8Smre8f7RLhR5/b48UEaGt7oq8LmWJBharfyyVNB+z4=
+@size 4405
+share/icons/gnome/scalable/actions/format-text-underline-symbolic.svg
+@sha zLZzmZ4kgtlDfHuzJ2o19trYPInPrI+MpJQ5QB5Dqr8=
+@size 4574
+share/icons/gnome/scalable/actions/go-bottom-symbolic.svg
+@sha crR6bOx/4Mk+qQP5p+/Z3hZ9bylURsywMRjOdV0bv3Q=
+@size 4844
+share/icons/gnome/scalable/actions/go-down-symbolic.svg
+@sha WhmzppMhahv97zb5DJREGTivCNAe/PsT3VgkZjVArQE=
+@size 4553
+share/icons/gnome/scalable/actions/go-first-rtl-symbolic.svg
+@sha mFXEjmv22DY68UUDMP4SL/tJvgZjziL2oBVG8Sm1wX0=
+@size 4799
+share/icons/gnome/scalable/actions/go-first-symbolic.svg
+@sha XbjXwzrv/gaEgXtT9wce2STdnyR5bRNDoIFpUVxK4Ys=
+@size 4773
+share/icons/gnome/scalable/actions/go-home-symbolic.svg
+@sha lBQFqlP9QYvaCd5+NPpUdDTcwtHICC01KzQLb4GqVkA=
+@size 6131
+share/icons/gnome/scalable/actions/go-jump-rtl-symbolic.svg
+@sha L+K78fg1IqKQyK/DTD4Xeb/dlNjCb4rUNNsNKNeZkv0=
+@size 4893
+share/icons/gnome/scalable/actions/go-jump-symbolic.svg
+@sha UKYCJYOtNfItxywApEfbhq0m4a0U+Wo8mILxl42mxrc=
+@size 4803
+share/icons/gnome/scalable/actions/go-last-rtl-symbolic.svg
+@sha OwhxemBRNjC6hPJQ0iXDrWMG5pCZoPJFSlRmnP5zy+c=
+@size 4783
+share/icons/gnome/scalable/actions/go-last-symbolic.svg
+@sha gHzqd+t/YVk61FJ3vypGaJTOQaq9TFQBXBLV9oi4J7I=
+@size 4801
+share/icons/gnome/scalable/actions/go-next-rtl-symbolic.svg
+@sha toLpPFWTewDphYgHr7dhAvuUUBUzuHrqQwzvCMmbZfc=
+@size 4486
+share/icons/gnome/scalable/actions/go-next-symbolic.svg
+@sha TvxHFIE+AotPDxEMzerTTVfrKehMr1M7UCmoj/ZrLMk=
+@size 4519
+share/icons/gnome/scalable/actions/go-previous-rtl-symbolic.svg
+@sha eKfXl5Q2yOc5XVVP73N8WzbQJ81UaOVhoFaatq3Sakw=
+@size 4543
+share/icons/gnome/scalable/actions/go-previous-symbolic.svg
+@sha RO5A1M97FEGOQPS4p+Jeh7R56TLdu/ZXs88ORElmp8k=
+@size 4470
+share/icons/gnome/scalable/actions/go-top-symbolic.svg
+@sha bvNBTqsw9NhQsiS3jde1s4XJKIaLkTbJWyvYxGIZpL8=
+@size 4809
+share/icons/gnome/scalable/actions/go-up-symbolic.svg
+@sha kOMgYsN9bVm7Xh8gKMohi4noDQSJnayvfuKamVLIXB8=
+@size 4502
+share/icons/gnome/scalable/actions/insert-image-symbolic.svg
+@sha U8lmBbDchyL6z9U9k+ZgC2MHLLbvzfI9M9lNXRAMUVQ=
+@size 5107
+share/icons/gnome/scalable/actions/insert-link-symbolic.svg
+@sha wL2Ug6UvKw+cVEC/kGvGEAJKwUD8affe0NzQ+Clxapo=
+@size 6958
+share/icons/gnome/scalable/actions/insert-object-symbolic.svg
+@sha pWnoJiJmPLj7zS5sw3BN7YYuQoUwHZ9pMrHKa9+vTa8=
+@size 4407
+share/icons/gnome/scalable/actions/insert-text-symbolic.svg
+@sha 5j8i4Ntneta6IuCJV+JpTavufKEJuV+FaeT5INnPSjA=
+@size 5231
+share/icons/gnome/scalable/actions/list-add-symbolic.svg
+@sha URhaz5hDas++suQny82mRwZyjDh5mSv6a7j9RI5cjT8=
+@size 3104
+share/icons/gnome/scalable/actions/list-remove-all-symbolic.svg
+@sha qoXcFsYnHez1Qvw8RgpBHve+U5rew3NJjhrO5pa6euk=
+@size 5218
+share/icons/gnome/scalable/actions/list-remove-symbolic.svg
+@sha 11xqEB9T2TS2O7hj4R1y7glrwobo2cixMCBku5ase90=
+@size 3117
+share/icons/gnome/scalable/actions/mail-mark-important-symbolic.svg
+@sha E2X6mdr26by0bFdkpsZY8syztYPnElb3uCnL5i95jc0=
+@size 5474
+share/icons/gnome/scalable/actions/mail-send-receive-symbolic.svg
+@sha lBOqBUwvoWZTRpZe/PGC7QLWm0AbNxbBRIT74yNjoug=
+@size 6320
+share/icons/gnome/scalable/actions/mail-send-symbolic.svg
+@sha Nn4z016tf0S6QUbxg2Ky1OeA0X8/c+NoloQdCkOa81s=
+@size 5156
+share/icons/gnome/scalable/actions/mark-location-symbolic.svg
+@sha jPJ1ivPYmI+6dF2bNRTOIIT/blC78NrEPf4EF+aRWn8=
+@size 3760
+share/icons/gnome/scalable/actions/media-eject-symbolic.svg
+@sha MUKTYxZrs5DGs/Mom8Wvdc9GHwUA37CgQIp4hiL+xDE=
+@size 4550
+share/icons/gnome/scalable/actions/media-playback-pause-symbolic.svg
+@sha gTUVX77rfmdUnUDuy79FOs30ZHU0ooSFXqEIpTYUYfc=
+@size 2381
+share/icons/gnome/scalable/actions/media-playback-start-rtl-symbolic.svg
+@sha zWHEJOeY8E1WFFLuZm8oYVpC8sSKB6aiKYlHRAJPMtg=
+@size 4020
+share/icons/gnome/scalable/actions/media-playback-start-symbolic.svg
+@sha LLDsrOFZm/BUtSFvohBVDCfx0qoo52HsyDmuAR2E4ok=
+@size 3616
+share/icons/gnome/scalable/actions/media-playback-stop-symbolic.svg
+@sha YayCDmN3Uh05HaOkE5n2viARE2EyHxuv3Kydn60nidg=
+@size 3269
+share/icons/gnome/scalable/actions/media-record-symbolic.svg
+@sha rxoMsVaib2LqaO+tpz1fMunFYDVGtIKCihDsnv9ha98=
+@size 1975
+share/icons/gnome/scalable/actions/media-seek-backward-rtl-symbolic.svg
+@sha 6tSlF54G3S3JQ+AOvPlQjlH32Vp+gOBkmTFqah+Npbk=
+@size 4994
+share/icons/gnome/scalable/actions/media-seek-backward-symbolic.svg
+@sha XGp0oBv6kBiF0hC6EZskm9DRVQcdOOU3naUWR5vkzGs=
+@size 4647
+share/icons/gnome/scalable/actions/media-seek-forward-rtl-symbolic.svg
+@sha 39jPfO2pX75g7xWPIM27VRaucySwP9oL7bPLnUsJFhY=
+@size 4947
+share/icons/gnome/scalable/actions/media-seek-forward-symbolic.svg
+@sha dCi9X6Su6fwUcVYAVjar4/Nmm7aoChEYz/ldW+MJNu8=
+@size 4657
+share/icons/gnome/scalable/actions/media-skip-backward-rtl-symbolic.svg
+@sha dCYQUbKHcXwcV4XMi700wnNvjVI2N7ohvuPvZ53py+A=
+@size 5662
+share/icons/gnome/scalable/actions/media-skip-backward-symbolic.svg
+@sha SOo3pNgWU+Pgu3GR9tMHXN3mtaoEyCiTfbpVpuvEM4I=
+@size 5330
+share/icons/gnome/scalable/actions/media-skip-forward-rtl-symbolic.svg
+@sha yNzy+cTn+PYnu1ID6sGEAjr7+9aEcBvjSs/KIzAX1hk=
+@size 5637
+share/icons/gnome/scalable/actions/media-skip-forward-symbolic.svg
+@sha xDjqmu8HwnuudD2aws3uBNQ33lzZLSUIEHGS2ZNW++w=
+@size 5354
+share/icons/gnome/scalable/actions/media-view-subtitles-symbolic.svg
+@sha 7dFucalejlL1sAvjXrq6oKtystJWgLG4VgSAHCKbptk=
+@size 3780
+share/icons/gnome/scalable/actions/object-flip-horizontal-symbolic.svg
+@sha J80PCDOqZh3UWGimkgSEr+OdkSPeI1Pi30ldhVfIvkk=
+@size 5699
+share/icons/gnome/scalable/actions/object-flip-vertical-symbolic.svg
+@sha JiAcyeHkpI1bsyW+GUvI2RJCMuvoMCEzQtg6wwClJts=
+@size 5764
+share/icons/gnome/scalable/actions/object-rotate-left-symbolic.svg
+@sha yi0EkbYRIvs0wjV18eytbCyMOXShEbQxMtYQqqDA38w=
+@size 4785
+share/icons/gnome/scalable/actions/object-rotate-right-symbolic.svg
+@sha 5iS2byu3bYI9xm64kCr7fvMUdblsmxvig8F3vMEVLBc=
+@size 4761
+share/icons/gnome/scalable/actions/object-select-symbolic.svg
+@sha 20gzd+PcVqZIFtHTFKh9dPyMwy5femPs2Hrx2nyjpRU=
+@size 3820
+share/icons/gnome/scalable/actions/process-stop-symbolic.svg
+@sha F7X8Kp0n1NLpAqAIwroztNUIEXTEP34z7NaG58CfePI=
+@size 4568
+share/icons/gnome/scalable/actions/send-to-symbolic.svg
+@sha 4CSSXYycOPJmqxAqTLBZ9NVuAPbsjmtsfdZEm7Ym8nc=
+@size 4169
+share/icons/gnome/scalable/actions/system-run-symbolic.svg
+@sha NzuSZaVsGQSAM4bhy6sBWiAJl3h6pkqpN1meQksHB3o=
+@size 6702
+share/icons/gnome/scalable/actions/system-shutdown-symbolic.svg
+@sha 3IvjsipDpy+l4rlDpgBpwVqX110vSO3X1OOy4ek1LN0=
+@size 4762
+share/icons/gnome/scalable/actions/tab-new-symbolic.svg
+@sha ChTVcPbnJp9GQ/KsnI4AAP4owo1CalbR3vnfgDPqwAM=
+@size 4062
+share/icons/gnome/scalable/actions/view-continuous-symbolic.svg
+@sha 9PCPmu4R2BqvX+bt66HRv4LVeJP8xJl169ghh87LCmY=
+@size 4716
+share/icons/gnome/scalable/actions/view-dual-symbolic.svg
+@sha JgJm+0O5RUHqxKRs3hMXUjsncdUKUOpsVzltlD9mgqU=
+@size 5775
+share/icons/gnome/scalable/actions/view-fullscreen-symbolic.svg
+@sha hwRBOJl+MSrUyfQhSQO2b8FyFMvkbHV86meOi/VqmyE=
+@size 7673
+share/icons/gnome/scalable/actions/view-grid-symbolic.svg
+@sha 7HBPR00UBMhJlqZRIbKf/Ay4yllEHGVcS172adCHcMg=
+@size 5692
+share/icons/gnome/scalable/actions/view-list-symbolic.svg
+@sha gYDEy9xkdO4n9o+HTgkYNgVov00jCwAANIDB2iKeXqc=
+@size 3620
+share/icons/gnome/scalable/actions/view-more-symbolic.svg
+@sha Ta8H4OrV293QN5aUpbV8TJf12GJghEuCOwmW20DlCeU=
+@size 4249
+share/icons/gnome/scalable/actions/view-paged-symbolic.svg
+@sha WKJblDBtI4N3vtYqGexxmdrLf5pdjF5PTofCMrv4vS4=
+@size 5204
+share/icons/gnome/scalable/actions/view-refresh-symbolic.svg
+@sha O5zB4o9NM1KyN/DpKK/llRrO42lxZW0m+CTsaAILWJs=
+@size 4680
+share/icons/gnome/scalable/actions/view-restore-symbolic.svg
+@sha UpU/m0L6bgBnkeUswJEJvEthJiubxZYDMDcm8GIuO9Y=
+@size 7510
+share/icons/gnome/scalable/actions/window-close-symbolic.svg
+@sha xpDg6stn6oO58fZ3tMNSyskTpAp3oDoUpazpIyosb0Y=
+@size 2520
+share/icons/gnome/scalable/actions/window-maximize-symbolic.svg
+@sha C2np4xYjYTZJI/WehnpuHjnURbDDUJTf1SpIFCjtQBU=
+@size 3835
+share/icons/gnome/scalable/actions/window-minimize-symbolic.svg
+@sha F+ZFqgGAuucCVE7nPnBeVuicDmady+UjsAdiC66uNdM=
+@size 3422
+share/icons/gnome/scalable/actions/window-restore-symbolic.svg
+@sha i9aihObmvwy95VdCP0Rk23Z75hG+FvLQH67pQRr31TY=
+@size 3847
+share/icons/gnome/scalable/actions/zoom-fit-best-symbolic.svg
+@sha ypqXINK2XCb9p5K38SMvVcjjJKxEHMwMRGHhgNC7ga0=
+@size 3696
+share/icons/gnome/scalable/actions/zoom-in-symbolic.svg
+@sha N/Ipo4TgWTwUECcZXpPPLI1FFWxEL+VP0NwyRJnk5bc=
+@size 3585
+share/icons/gnome/scalable/actions/zoom-original-symbolic.svg
+@sha PhpG1vYCnhHbEGwcXrwRzz64ugzqVvm07N5W98hfizw=
+@size 3597
+share/icons/gnome/scalable/actions/zoom-out-symbolic.svg
+@sha joScJrPjR8qnQWZWCQcbH4Wbsz+ttCThluJGRSZSghI=
+@size 3552
+share/icons/gnome/scalable/apps/
+share/icons/gnome/scalable/apps/accessories-calculator-symbolic.svg
+@sha VtXxTCz769rDes68fGdIGOzBSjEzDJ02lIm0Z+driSg=
+@size 5517
+share/icons/gnome/scalable/apps/accessories-character-map-symbolic.svg
+@sha xSoIuFLS0IBj7NOUsZYZ7gJ8XJXTkRhQ2u72NBs9w8A=
+@size 6426
+share/icons/gnome/scalable/apps/accessories-dictionary-symbolic.svg
+@sha IXyhPmel9Mp3lL8yfQeAhlNqko8Xxx1gcasSCmykdkw=
+@size 6146
+share/icons/gnome/scalable/apps/accessories-text-editor-symbolic.svg
+@sha 1svjho0n/SZwHKwNGwTJheIIWp9o+vgie+iZh47kA0A=
+@size 9928
+share/icons/gnome/scalable/apps/applets-screenshooter-symbolic.svg
+@sha ak++bq5lTTDwS65/Zz6C7vh3y66uUH57AdQhgjf4MA4=
+@size 4649
+share/icons/gnome/scalable/apps/bluetooth-symbolic.svg
+@sha frfU0yHyHo+dVsmOKw7cgMEKKKkNYoDdrmB1ERBqDJc=
+@size 5093
+share/icons/gnome/scalable/apps/gnome-power-manager-symbolic.svg
+@sha /cJTHWn0rqfxHJoyxSXuaa7mcDufJrH1tKJPtYNdRco=
+@size 4532
+share/icons/gnome/scalable/apps/goa-panel-symbolic.svg
+@sha JL/rzFBMmIZi0P465nqnOhRDl+t3Y3E60q/dlIlY2HM=
+@size 6679
+share/icons/gnome/scalable/apps/help-browser-symbolic.svg
+@sha k3zRfBbL8AijIN626s9uP+uRAo/HBgdwGxhtJ7O7s6E=
+@size 5396
+share/icons/gnome/scalable/apps/preferences-color-symbolic.svg
+@sha +modLd7iuLsdKykmQxaYQrBRTmz1CGzYWP86C6vArTI=
+@size 5854
+share/icons/gnome/scalable/apps/preferences-desktop-accessibility-symbolic.svg
+@sha +bp19AnBosMEfaJ4gsEYYlpHA/0n4MAVRJQLJDY2wJc=
+@size 2525
+share/icons/gnome/scalable/apps/preferences-desktop-display-symbolic.svg
+@sha 7VoNjYI1K7Oz7l/GUSPpGy7ZhnTaf4hNXdRQRwA/zuo=
+@size 4592
+share/icons/gnome/scalable/apps/preferences-desktop-keyboard-shortcuts-symbolic.svg
+@sha cmZfCHPAsdRo3liq7JlrKChnN0RSYVsyQ39GUQiNc+M=
+@size 5480
+share/icons/gnome/scalable/apps/preferences-desktop-locale-symbolic.svg
+@sha vAQ4bEeiTRDYSf96Rh2SDoTa9FOWL3+U3tAXlTelA8o=
+@size 4524
+share/icons/gnome/scalable/apps/preferences-desktop-remote-desktop-symbolic.svg
+@sha uYbCLR93SEv8+M23OSZxYTs+q9frKyeLwiXJpJCznGs=
+@size 5149
+share/icons/gnome/scalable/apps/preferences-desktop-screensaver-symbolic.svg
+@sha /jxARDOD3Z8W1p4TfKvVwcVaxJ2JG6Ox1BLOfAguHNw=
+@size 4825
+share/icons/gnome/scalable/apps/preferences-desktop-wallpaper-symbolic.svg
+@sha xR6n52uKIt4WmUoozL2MzIzoxf45KVjsgl0uhdJoLY0=
+@size 4895
+share/icons/gnome/scalable/apps/preferences-system-network-proxy-symbolic.svg
+@sha EQut6sTtHaEIQAi1QCWLRgYuFv0XQZgF0lYpNB8MxOM=
+@size 6515
+share/icons/gnome/scalable/apps/preferences-system-network-symbolic.svg
+@sha 9OBQQTHwIvn40yFnQhXKz4prgKvMWxHVITYzAZUwfyg=
+@size 4904
+share/icons/gnome/scalable/apps/preferences-system-notifications-symbolic.svg
+@sha JKhXp/KLxnn8PjlP/K0KwGq1YDOscL1xHuH3nBhgUKs=
+@size 6425
+share/icons/gnome/scalable/apps/preferences-system-privacy-symbolic.svg
+@sha cgLo6wLhs0xhHdzxp9Z8AiFL6G/cvuGukvUbBLLxukU=
+@size 9973
+share/icons/gnome/scalable/apps/preferences-system-search-symbolic.svg
+@sha ezZVIZeWSCydWWPoeI2sNiq0PpRdRbpYEUnMVljHM4o=
+@size 4938
+share/icons/gnome/scalable/apps/preferences-system-sharing-symbolic.svg
+@sha 0sZsNGLkYQH9jOPAZehocaE7PWBXPm7VHgsw1kCpJVk=
+@size 5348
+share/icons/gnome/scalable/apps/preferences-system-time-symbolic.svg
+@sha NRUOvZv0CnGIUEjU0SbW8oTG10BTckanfrzb9z6oWSk=
+@size 5054
+share/icons/gnome/scalable/apps/system-file-manager-symbolic.svg
+@sha a8OY0mm8WY97Pfnai6mEEuPkjIrfnnCGyLGPxWHr+bs=
+@size 4072
+share/icons/gnome/scalable/apps/system-software-install-symbolic.svg
+@sha FJyNwoRpxPJ0KFhz/epYurm1Td/rt4YSZ5Bjnn8Yezk=
+@size 5201
+share/icons/gnome/scalable/apps/system-users-symbolic.svg
+@sha cwtN3i2QuP8rhclVji6HYbphZBFG4MLmQywxMSS3Hzg=
+@size 5233
+share/icons/gnome/scalable/apps/text-editor-symbolic.svg
+@sha nuo1/qOeLeFRRIZ3oKrCZn/75bwE4245Uz9CSZjmaC8=
+@size 4741
+share/icons/gnome/scalable/apps/user-info-symbolic.svg
+@sha eqEXLJ7gqepwf//DO8A0dr/9LUuhYRS07Z42Bpg3/8U=
+@size 4859
+share/icons/gnome/scalable/apps/utilities-system-monitor-symbolic.svg
+@sha mCyKeHB5mozjZYO8ARTs9Q9ZSqKGViIIO56aHrev8eI=
+@size 4847
+share/icons/gnome/scalable/apps/utilities-terminal-symbolic.svg
+@sha OOdmoF5ZpdT2iUwNRmt8UfTqol1ZusmJ8XysxdPvtP0=
+@size 5032
+share/icons/gnome/scalable/apps/web-browser-symbolic.svg
+@sha 05DfmT5G66/NeUBIB6RzJXtSuc0umyyq0Zkz0tlVs8M=
+@size 8154
+share/icons/gnome/scalable/categories/
+share/icons/gnome/scalable/categories/applications-engineering-symbolic.svg
+@sha 6Gna3ijzYHPCBPr0u90n0uivr/dNt/W86o5I1hdyjy8=
+@size 4901
+share/icons/gnome/scalable/categories/applications-games-symbolic.svg
+@sha sluKa9GR3LzfOajKuXGrTig7lXX9qzf9kQeGxunDgHE=
+@size 4743
+share/icons/gnome/scalable/categories/applications-graphics-symbolic.svg
+@sha wI9q8/7RY4t9eCMXEqNRI/0eJlu0vJJkqGMVh8XiThA=
+@size 5914
+share/icons/gnome/scalable/categories/applications-multimedia-symbolic.svg
+@sha o+KDypZvyeaUrRz58nAfpI6AXzcGs451TCGCl2NNrkE=
+@size 5199
+share/icons/gnome/scalable/categories/applications-science-symbolic.svg
+@sha +xqcpjpLOYbI51UqPhsLvOzALyp23Uv3hml311lZ2oI=
+@size 5386
+share/icons/gnome/scalable/categories/applications-utilities-symbolic.svg
+@sha ouEbD+3wg6LcLOp88x0kRQyB5jrkeVOgSRQO4e7svNY=
+@size 4533
+share/icons/gnome/scalable/categories/preferences-other-symbolic.svg
+@sha 8n9NuSnKT7CPb6Wwn4CLOjQ0I3QYHEF15j11MoODeAQ=
+@size 8216
+share/icons/gnome/scalable/categories/preferences-system-symbolic.svg
+@sha W/MgcRuIF/zixCMOSYGDj934wEbioUuOVNdifXcVQMQ=
+@size 5870
+share/icons/gnome/scalable/categories/system-help-symbolic.svg
+@sha aJSBJEhuOe3/pcRajtlFO9ZSxDdyB5bbiihR1YGyTsY=
+@size 6501
+share/icons/gnome/scalable/devices/
+share/icons/gnome/scalable/devices/audio-card-symbolic.svg
+@sha uWi9AVrPc0Yerp3zwHCHvE/odSboghI3Zhn2IhetXcs=
+@size 6482
+share/icons/gnome/scalable/devices/audio-headphones-symbolic.svg
+@sha Pz1CSsFG2XTJBJB2cNx6vIuRRMhjdwFJnHzSS7a181c=
+@size 4212
+share/icons/gnome/scalable/devices/audio-headset-symbolic.svg
+@sha ZWsWc14pch+BaweYmI09Pxl4a6khR+Te43AT1lJp/Hc=
+@size 5638
+share/icons/gnome/scalable/devices/audio-input-microphone-symbolic.svg
+@sha EdlLlLVOTepsbHOmQkS69B7rWkgCHus4HIDLZFT9cwU=
+@size 4646
+share/icons/gnome/scalable/devices/audio-speakers-symbolic.svg
+@sha BfS/ybdKJ1+YA5PGQL70jtyzPjgrkhXp+14V7cyZJw8=
+@size 6548
+share/icons/gnome/scalable/devices/camera-photo-symbolic.svg
+@sha vREBh48EYZ3d2VB1HAoanZym4APo9EnnE5nJvz3lmgs=
+@size 1935
+share/icons/gnome/scalable/devices/camera-video-symbolic.svg
+@sha MNg6Mz3Qo9x9goXq5N5WVU99BhvcMzvnNLUNThVFVtI=
+@size 5662
+share/icons/gnome/scalable/devices/camera-web-symbolic.svg
+@sha kpXFvKYSrU6AgCnDSBRD/X5oha4w5N64da64NAXMfuE=
+@size 4074
+share/icons/gnome/scalable/devices/colorimeter-colorhug-symbolic.svg
+@sha DkkXWcscXCgQBqjvWt9CH55ARLMetj082SwoYPMzFes=
+@size 5323
+share/icons/gnome/scalable/devices/computer-apple-ipad-symbolic.svg
+@sha SnkWUy6MUdbDCCssj84r2t0QEiEZEEg0/CQZALv2RYU=
+@size 3501
+share/icons/gnome/scalable/devices/computer-symbolic.svg
+@sha V2P2/g8kE98A+LtiwnWp5XbzUpgafnISB/tRjmyuHkQ=
+@size 3935
+share/icons/gnome/scalable/devices/display-projector-symbolic.svg
+@sha 5QGyEHgz4nXvL8VGspLqprMoQIjGw6gN6s5QYY54s9A=
+@size 4707
+share/icons/gnome/scalable/devices/drive-harddisk-ieee1394-symbolic.svg
+@sha IZxoAig9f7OZlPOCMPq6BeePChinCXwdxtCqflhtWc4=
+@size 5243
+share/icons/gnome/scalable/devices/drive-harddisk-symbolic.svg
+@sha atkvfV3nz+Qdo9pe0Ogn+4YNNqZWvdlV66GdDctJzIU=
+@size 5048
+share/icons/gnome/scalable/devices/drive-harddisk-system-symbolic.svg
+@sha Y2xjmmVf2y9a+UTk/dAtFDox0P3P2tl4HKVxKiCNLZQ=
+@size 5241
+share/icons/gnome/scalable/devices/drive-harddisk-usb-symbolic.svg
+@sha iM1V4dgZMW8NPHHqMKf7ouzpec4Vykfr5euAz0VNvVU=
+@size 5238
+share/icons/gnome/scalable/devices/drive-multidisk-alt-symbolic.svg
+@sha FQGVYTFeqUFdtdqBaJx/PVk1q2UJUS6IXY0Gcoj49UQ=
+@size 6941
+share/icons/gnome/scalable/devices/drive-multidisk-alt2-symbolic.svg
+@sha 3Of5FEDvOFDY+CfVtTpnUSlTCtwEwuv3i+P5HlncA1g=
+@size 6941
+share/icons/gnome/scalable/devices/drive-multidisk-symbolic.svg
+@sha 4pyN6qT91umSTc3fHoWGECBzqR2PSKCY/TYIuVjkZPg=
+@size 7144
+share/icons/gnome/scalable/devices/drive-optical-symbolic.svg
+@sha LkB+ifSuGyUNWOFwV/TODhpHT5WytXUf/3+DQ5F9CrA=
+@size 5408
+share/icons/gnome/scalable/devices/drive-removable-media-symbolic.svg
+@sha JHJT9YIwZLXVKpKYf7qApI368uBb5UrXerhtHWAEpz0=
+@size 3837
+share/icons/gnome/scalable/devices/headphones-symbolic.svg
+@sha Kxe+N9Np2TxiMoWYc1ZxuIwCo5k8pAG0Q+33ExjFK5I=
+@size 4181
+share/icons/gnome/scalable/devices/input-dialpad-symbolic.svg
+@sha ypK5nq0mzayKSqfjLNM1W0cHytH5eQ8eQOd4fc8klL0=
+@size 4167
+share/icons/gnome/scalable/devices/input-gaming-symbolic.svg
+@sha uBHH/4YneCnux2AWSb0xEU/xkqgodYSHzT7+awDAmtQ=
+@size 4440
+share/icons/gnome/scalable/devices/input-keyboard-symbolic.svg
+@sha fYR0wmlaURiqa+R3kJN5cMllGYGkKvzXpzQ2wGEouhY=
+@size 4119
+share/icons/gnome/scalable/devices/input-mouse-symbolic.svg
+@sha LR1Ej8Qy6E5tuAGwgI9L/lMLjWPjPsmTjBf9muT6Nec=
+@size 5835
+share/icons/gnome/scalable/devices/input-tablet-symbolic.svg
+@sha EBJubM/luxx+UVsmwZWoNacJlqm0UXfgNZUq+VgQkWI=
+@size 6202
+share/icons/gnome/scalable/devices/input-touchpad-symbolic.svg
+@sha vic/cVnn/W8OaoiKcUHZKsQKbr9lXzwh3yq7vUypk+E=
+@size 4313
+share/icons/gnome/scalable/devices/media-flash-symbolic.svg
+@sha 1shFiADnoVrfgXsTqkr+tqx9z2PpQrSLm+YuaPELwHs=
+@size 4795
+share/icons/gnome/scalable/devices/media-floppy-symbolic.svg
+@sha EW212QZb/8K08OAMIDSqpAUjuxP+ESJN4tY/9NLPseg=
+@size 4624
+share/icons/gnome/scalable/devices/media-optical-bd-symbolic.svg
+@sha mfiQjCJUChlnsf6WoVccWbpui1jyG4H0LcCROmmXCqI=
+@size 5049
+share/icons/gnome/scalable/devices/media-optical-cd-audio-symbolic.svg
+@sha oumQ/BfOZ+96eydvGFJZ4PmdPZxXlfWM12SZ1kAHXKk=
+@size 5054
+share/icons/gnome/scalable/devices/media-optical-dvd-symbolic.svg
+@sha PVfQL/SrAia6fFLzu/tHk+vPWq2Y5aXULHT/KT5SQdM=
+@size 5049
+share/icons/gnome/scalable/devices/media-optical-symbolic.svg
+@sha RjdDbkLcYkEH7OgeUO03cTuKS3QHpOmVtsNYEmJ/Sf0=
+@size 5008
+share/icons/gnome/scalable/devices/media-removable-symbolic.svg
+@sha U2DZqmY8TS9WWlzLBCf3Aac3ttTx5aAwNn3QnrFKxjM=
+@size 3675
+share/icons/gnome/scalable/devices/media-zip-symbolic.svg
+@sha ubwKSni+UQxMTDG00jlBocWskQxxOdH8cq/rMmw6iqk=
+@size 5230
+share/icons/gnome/scalable/devices/multimedia-player-apple-ipod-touch-symbolic.svg
+@sha 8PnWCh+Chw556ZP2TvFdDTWhV+MAFKQjZLKgroX59Mo=
+@size 3523
+share/icons/gnome/scalable/devices/multimedia-player-symbolic.svg
+@sha R28TuPRFZHc3E8Papq7HLocG46DebwISU2+8TD0zNkg=
+@size 3854
+share/icons/gnome/scalable/devices/network-wired-symbolic.svg
+@sha fFAbBy/6Ieheyf+oKaE6HZJriCuCtJ91K1W4MOO+Orw=
+@size 4260
+share/icons/gnome/scalable/devices/network-wireless-symbolic.svg
+@sha reU3BUp6iliWFwjKvqQZnY0ciyWFD+/qL9XyIaGFXho=
+@size 7588
+share/icons/gnome/scalable/devices/phone-apple-iphone-symbolic.svg
+@sha e5zzzd7g3oxUMS0jzPdAZ9I1jy5NVNUeXjUX0//nKvw=
+@size 3507
+share/icons/gnome/scalable/devices/phone-symbolic.svg
+@sha uDj3GrwYnAPJ8Q5lunzVwr0BNnSB5tAVzAtrKZ75GCc=
+@size 4081
+share/icons/gnome/scalable/devices/printer-network-symbolic.svg
+@sha fNJoFtrzczKSATNjSRa5vk4atPwaqAxknyjDbo8hgJY=
+@size 3971
+share/icons/gnome/scalable/devices/printer-symbolic.svg
+@sha LvLjkg3C8h81tZTAcD2BvgDIEPhva40J5At2WacRXjg=
+@size 3386
+share/icons/gnome/scalable/devices/scanner-symbolic.svg
+@sha L90ocbkQuh6gh+qOFWvykBKPhkfpMkLJAMvXtkMwyIU=
+@size 6247
+share/icons/gnome/scalable/devices/video-display-symbolic.svg
+@sha qJimlNrknvejqNidpXPFdK7aovlu9QUCsYuOQ1hAtKA=
+@size 3961
+share/icons/gnome/scalable/emblems/
+share/icons/gnome/scalable/emblems/emblem-default-symbolic.svg
+@sha zO8EGT2eCJFt+bW5eyHz6CJiOQtcZ29JRD24V4IqWbE=
+@size 3492
+share/icons/gnome/scalable/emblems/emblem-documents-symbolic.svg
+@sha 3+WByFW6Y1YRn/z5uvTTyPanNnw/TpfPCruwGMGIQAo=
+@size 5805
+share/icons/gnome/scalable/emblems/emblem-favorite-symbolic.svg
+@sha /FhGNBD60/J/ToA6mBjOvIf7DJob35QIa7365k+/GGw=
+@size 4008
+share/icons/gnome/scalable/emblems/emblem-important-symbolic.svg
+@sha 53z4HcS/WHJIc0lJDTXBPIGJ11UmqDoACu8rXjaeAFE=
+@size 3356
+share/icons/gnome/scalable/emblems/emblem-music-symbolic.svg
+@sha IECzATVFGMmJ5JJLdgb8Hhb6x3cXby2x05y/BNI5E0U=
+@size 5897
+share/icons/gnome/scalable/emblems/emblem-ok-symbolic.svg
+@sha TXPdO2D0Umrds/qoD19WAfQCCbS7wxRpry/VntaX0jU=
+@size 3798
+share/icons/gnome/scalable/emblems/emblem-photos-symbolic.svg
+@sha PqDXJ+L+R1wjbCtc61CUAZyykYSopchnipj8BPG1hks=
+@size 4816
+share/icons/gnome/scalable/emblems/emblem-shared-symbolic.svg
+@sha sztwq1qct95HbtGIchPetKR6G0j0VOCFkYj9F/f6K74=
+@size 5312
+share/icons/gnome/scalable/emblems/emblem-synchronizing-symbolic.svg
+@sha fmT2KmXvToFRv0kjXwxEYuIUY/lTGUEqD6rYwLdV3/U=
+@size 6533
+share/icons/gnome/scalable/emblems/emblem-system-symbolic.svg
+@sha ZF+o1ogMUl9iZ6URXiljPn4MTpsRM8+LHoAF7gKKfyo=
+@size 5090
+share/icons/gnome/scalable/emblems/emblem-videos-symbolic.svg
+@sha +qPT1ZQY2emfy1DpgCnIwoEDnr/YBbd2LJ3IXu+/LGg=
+@size 4091
+share/icons/gnome/scalable/emotes/
+share/icons/gnome/scalable/emotes/face-angel-symbolic.svg
+@sha N0VSyDGGIgCJOnTjrxYMgVYxJCnZond/kBTC24wrcUg=
+@size 5440
+share/icons/gnome/scalable/emotes/face-angry-symbolic.svg
+@sha Drhtx74ivwHn8ljEMDegyti1+rrR1yyHApA0rwre9PI=
+@size 3732
+share/icons/gnome/scalable/emotes/face-confused-symbolic.svg
+@sha be8VAm/O3qNbM8XBSan21XcCD66ELpAeUIoqPF6TBDo=
+@size 4135
+share/icons/gnome/scalable/emotes/face-cool-symbolic.svg
+@sha SdyDVvxkmHv+ehUxylFMAjWHOXyDU6eaPMmj7dM0mUY=
+@size 3782
+share/icons/gnome/scalable/emotes/face-crying-symbolic.svg
+@sha VT9nA2lQw+taImxnklSbdmR/y6lIYlFcFdrvNDMdico=
+@size 4198
+share/icons/gnome/scalable/emotes/face-devilish-symbolic.svg
+@sha TalxlID3S3u/oDJdTDbXILrQktChKXo54QCw0sURGhk=
+@size 4240
+share/icons/gnome/scalable/emotes/face-embarrassed-symbolic.svg
+@sha zvl9rqajtVtmvx44SSWxDCy8EpmXdIWpQbmjG+wa0LE=
+@size 4198
+share/icons/gnome/scalable/emotes/face-kiss-symbolic.svg
+@sha KDOa5Ug7UyYVIsgBPsJJ4fz6Xmw2kT29/L6mrNq65/4=
+@size 4677
+share/icons/gnome/scalable/emotes/face-laugh-symbolic.svg
+@sha wb4CPoUYtcqJWnmB5ytCWICcZ6i1gjYGJJeO6SanOQE=
+@size 3843
+share/icons/gnome/scalable/emotes/face-monkey-symbolic.svg
+@sha 5Ir81Nhe+A7W/OiraSCF8m27RasbSeYLW5xS/RJJAPA=
+@size 5401
+share/icons/gnome/scalable/emotes/face-plain-symbolic.svg
+@sha 0XSBsBNSsSzbCA6/u1XC8wuPAkkJ88CuJTqyN+UjVzA=
+@size 3810
+share/icons/gnome/scalable/emotes/face-raspberry-symbolic.svg
+@sha HMBZHkojbWQjsw2FTUF1fXKnOF57ttJNmCVSAa6OBb0=
+@size 4161
+share/icons/gnome/scalable/emotes/face-sad-symbolic.svg
+@sha gkFibyecwvdAWAtqAn/9rAK3jpbfNNGNx3Lt9St/lAk=
+@size 3847
+share/icons/gnome/scalable/emotes/face-shutmouth-symbolic.svg
+@sha dtJWsHp7dVyjvyxiD/IebJdFlJlR+ejAIBgPdUEJsEI=
+@size 4037
+share/icons/gnome/scalable/emotes/face-sick-symbolic.svg
+@sha Mulb3DUUFxcZYRATXq/FUEyEYmVk3gTn+684COIEX+Y=
+@size 5245
+share/icons/gnome/scalable/emotes/face-smile-big-symbolic.svg
+@sha yodVKx9Vc3WZFlaXhaJXSYFqK10toqaVw+X3GEowm68=
+@size 3912
+share/icons/gnome/scalable/emotes/face-smile-symbolic.svg
+@sha EflnB+h/fLWO9g7BUiiziVmqTChJUO/tx+HV0Vfzcx8=
+@size 3841
+share/icons/gnome/scalable/emotes/face-smirk-symbolic.svg
+@sha 4vPf8AeZ3t80Y18cX2PD1fV3w8JQ3HsMlFJmkMAyV6I=
+@size 4003
+share/icons/gnome/scalable/emotes/face-surprised-symbolic.svg
+@sha DjkQtSMhvDbaeQuWQlA7Vl80R9gR74GXdowO31YSW8s=
+@size 3879
+share/icons/gnome/scalable/emotes/face-tired-symbolic.svg
+@sha 8AhOkNnUWokx+rYg3sZ1d9LAmXVRPLkzs1BktWon554=
+@size 4042
+share/icons/gnome/scalable/emotes/face-uncertain-symbolic.svg
+@sha Q/7Od4T9nd38buTGU/N1Ye8ipchNUvGwqtyUk3F8kLQ=
+@size 3701
+share/icons/gnome/scalable/emotes/face-wink-symbolic.svg
+@sha uJ6g3aMX86LJ4OTyPmIfteL0zU1jCL9cFs0dY1zRArE=
+@size 3893
+share/icons/gnome/scalable/emotes/face-worried-symbolic.svg
+@sha 9vr0Jno5M2ATHxh4R30j1dLv33x5bucEgECEVtCpgFk=
+@size 4197
+share/icons/gnome/scalable/emotes/face-yawn-symbolic.svg
+@sha Jk+wY7BIrJVQ6nbaY0I9q9hQdLMQRAynM6RnHGRuogo=
+@size 3739
+share/icons/gnome/scalable/mimetypes/
+share/icons/gnome/scalable/mimetypes/application-certificate-symbolic.svg
+@sha v7IPQmVTtsrLneRtmm6R89AL4p28zqc4XLj412HELKE=
+@size 4541
+share/icons/gnome/scalable/mimetypes/application-rss+xml-symbolic.svg
+@sha SwWzv1shz7gRB1g1v03is9TBb3C+NZihUTw61+EtI5M=
+@size 4122
+share/icons/gnome/scalable/mimetypes/application-x-appliance-symbolic.svg
+@sha NuNWgMOeexAXN9yJHQ3KK+6SNOfBGjvRdbEVES95cyE=
+@size 11200
+share/icons/gnome/scalable/mimetypes/audio-x-generic-symbolic.svg
+@sha /0UtajNFe3BuVOqvwV2AIaAe2K1lMnPOPiXeCOppTxw=
+@size 6280
+share/icons/gnome/scalable/mimetypes/inode-directory-symbolic.svg
+@sha F0qUUZp5D5o/6g7dPsh/4wLJOKcH3v1iNefYEMp+yzM=
+@size 4025
+share/icons/gnome/scalable/mimetypes/package-x-generic-symbolic.svg
+@sha f0M8FvZQA6yFqaLSwM0ZgjaPHlT13kH/VcbwAuKBlIY=
+@size 4884
+share/icons/gnome/scalable/mimetypes/text-x-generic-symbolic.svg
+@sha kzCTefTwx0BxPl8XDqc5ImiH8D/cQO4jIBWMM2XYIHk=
+@size 3832
+share/icons/gnome/scalable/mimetypes/video-x-generic-symbolic.svg
+@sha B5AZU6z2ma/NtSB1HL00qpCFj7m87jEBl+rRxHOax1M=
+@size 4092
+share/icons/gnome/scalable/mimetypes/x-office-calendar-symbolic.svg
+@sha XzllJ2aV6FuMWnUldQaDksKyezilKKnpes++d+eFK2o=
+@size 4501
+share/icons/gnome/scalable/places/
+share/icons/gnome/scalable/places/folder-documents-symbolic.svg
+@sha JmldDkf1VzA4zKblTq0kgqADUd73GSGSffVLh0lsVUc=
+@size 4095
+share/icons/gnome/scalable/places/folder-download-symbolic.svg
+@sha 9kQOtPBw2H2hYv5Wmpef6SE6MRyFM6Q+AKDbDKzcd38=
+@size 5222
+share/icons/gnome/scalable/places/folder-music-symbolic.svg
+@sha x1CwLQ1Mi0GsJ2JNz4cH7a2yViC5rML4YtAbou/HG2c=
+@size 5911
+share/icons/gnome/scalable/places/folder-pictures-symbolic.svg
+@sha u0+myDy0M9hb1tzHpSpp1iI7LTQ0CBTH+QUCLG9QtqA=
+@size 3755
+share/icons/gnome/scalable/places/folder-publicshare-symbolic.svg
+@sha 0A9IL5IWNi5OjF55cvDe/9KiCnzss2zj0yx60Fh5SyI=
+@size 5317
+share/icons/gnome/scalable/places/folder-remote-symbolic.svg
+@sha c1gj6HCiGfTp7Y7RAfYc1Kp1Hu3ULUEml756GFz/+qM=
+@size 3707
+share/icons/gnome/scalable/places/folder-saved-search-symbolic.svg
+@sha bZlrf1aqGhyWjCkE8T6VMeXXVOs4qH/N/GO0HWdW6vY=
+@size 4843
+share/icons/gnome/scalable/places/folder-symbolic.svg
+@sha 7OjE7yZFuUYTp6CGJP+zfdCfXivJrKQECMJvLg1X36o=
+@size 3380
+share/icons/gnome/scalable/places/folder-templates-symbolic.svg
+@sha 338fxFs3wCs8npmHrx/pHoBHShIVt5laQjYVoLmfdDE=
+@size 8241
+share/icons/gnome/scalable/places/folder-videos-symbolic.svg
+@sha uwDjLHens9sdUG/SHozHm0Jsz4lxDb+BZp454+nhz9U=
+@size 4092
+share/icons/gnome/scalable/places/network-server-symbolic.svg
+@sha hpZefojJL+BDxgrDEulou1ldlve7ObNpnZ5KKFEfY+4=
+@size 5166
+share/icons/gnome/scalable/places/network-workgroup-symbolic.svg
+@sha uj+VjxjekLLcJJEd9FZMsbdyamxvDAPqmjtxqI8tSRo=
+@size 4754
+share/icons/gnome/scalable/places/start-here-symbolic.svg
+@sha Q3JDtSzPg8Sny1HTzA7iQx7k5ksUqSdDwCQC2aLwy1U=
+@size 4643
+share/icons/gnome/scalable/places/user-bookmarks-symbolic.svg
+@sha a5kHcgXxEDVHTofniLGwHLniyr19EqcnNdbPEgB62IA=
+@size 4051
+share/icons/gnome/scalable/places/user-desktop-symbolic.svg
+@sha 7FLUTtwr/+ZKygvXXlYONZBaEE8hEdlOMA442CoDfUI=
+@size 4069
+share/icons/gnome/scalable/places/user-home-symbolic.svg
+@sha YifoQkBNa1WGy2kAMbPL9PoalvwnKGtX+TX9fjwsr9o=
+@size 6163
+share/icons/gnome/scalable/places/user-trash-symbolic.svg
+@sha X5O2Dc2ADeN6WDWV/p7FJ5BKLKCkEzTlLVgLbCDu/5w=
+@size 3558
+share/icons/gnome/scalable/status/
+share/icons/gnome/scalable/status/airplane-mode-symbolic.svg
+@sha hvmUPJL9GC15Wtrt9TwyZaP3xx2OUgaIrahWFXfxx0k=
+@size 4441
+share/icons/gnome/scalable/status/alarm-symbolic.svg
+@sha WsjnEv1ublhuNcz8FCvL13BlFXiV79nHr3Iq94w9KmI=
+@size 7072
+share/icons/gnome/scalable/status/appointment-missed-symbolic.svg
+@sha DWBpDIJ4gWnySWreqtT1AYx4rhGcmn0ZZhvzEAviKGU=
+@size 5450
+share/icons/gnome/scalable/status/appointment-soon-symbolic.svg
+@sha ucKrIYESXyk049kcBIi1xs0uOwq0djoo8oRdgCXM82w=
+@size 5437
+share/icons/gnome/scalable/status/audio-volume-high-symbolic.svg
+@sha tg2ejNcOVa1rf9ab6QXbNB9SbezuuRZ7CJpvBWVFEw0=
+@size 5487
+share/icons/gnome/scalable/status/audio-volume-low-symbolic.svg
+@sha fH+YBXM+Jesmn57JJYCWJ8HctL2O6Fm3dDqHjSCGwqU=
+@size 5497
+share/icons/gnome/scalable/status/audio-volume-medium-symbolic.svg
+@sha tUi+WEfxZ5R3csL92akEXcar5wDHixTM1iZwDB6IKfI=
+@size 5486
+share/icons/gnome/scalable/status/audio-volume-muted-symbolic.svg
+@sha HFv31Tyippj/Pl/qLgewRWdmTvVAaAe0ujtgXdmqIOo=
+@size 5950
+share/icons/gnome/scalable/status/avatar-default-symbolic.svg
+@sha 3Z63UUdlbqimw//NF8Aa+x+ri0qRYIgmebIYl+BDcr8=
+@size 4214
+share/icons/gnome/scalable/status/battery-caution-charging-symbolic.svg
+@sha iJFVCb6aGuFdvz3FYdqMImHOwt40JDOpwsA2poQ2AUY=
+@size 7875
+share/icons/gnome/scalable/status/battery-caution-symbolic.svg
+@sha 19vGqU4AzUB4fzsXgK0QwCQnAGpmCBXSBAZG3G5EGAg=
+@size 5230
+share/icons/gnome/scalable/status/battery-empty-charging-symbolic.svg
+@sha CZFlP80fihoI1+boNmYzsyek71VoO8YJz8+KyaPk3Dw=
+@size 7680
+share/icons/gnome/scalable/status/battery-empty-symbolic.svg
+@sha 6DXbmefUJ6F7sAwyDqtRap9gjbe61GNrcI7dbEbNUdI=
+@size 4488
+share/icons/gnome/scalable/status/battery-full-charged-symbolic.svg
+@sha eKvCDNAUcxoueHYsOjeLMr4r9lu9B7H/G7tIb61aBoo=
+@size 5922
+share/icons/gnome/scalable/status/battery-full-charging-symbolic.svg
+@sha 3WI1+JdWjjwpEh2YvHCmFrYgObp0aNfsMHd8W6A6N4M=
+@size 5941
+share/icons/gnome/scalable/status/battery-full-symbolic.svg
+@sha BzVtkPvaxr8+olKE6zuyj1xDf278dnRE7gj6aQ72bUQ=
+@size 5274
+share/icons/gnome/scalable/status/battery-good-charging-symbolic.svg
+@sha njbGvvh+gzdNkbMz7TUg1mSzXfALYKwvyO40ekpi9Dg=
+@size 7869
+share/icons/gnome/scalable/status/battery-good-symbolic.svg
+@sha PdMDKa+EKWMXmB6hMGwyypf3p7IpoqBfa0KNTH/04SM=
+@size 4747
+share/icons/gnome/scalable/status/battery-low-charging-symbolic.svg
+@sha R//4L1g6xJA/TcEYP0w0TADTEiTA1d9875T+5y1TS4g=
+@size 7853
+share/icons/gnome/scalable/status/battery-low-symbolic.svg
+@sha E5L5o6DcytcLO5WrM2MP5jDc9B5t1epziFpFdjwmfBI=
+@size 4603
+share/icons/gnome/scalable/status/battery-missing-symbolic.svg
+@sha 9LumrwE7z2ENrwIjNjN9fl2JUd2aCUYbwR6FEw/Ghs0=
+@size 6106
+share/icons/gnome/scalable/status/bluetooth-active-symbolic.svg
+@sha bLDucUPDbyi57hSNpWmcAkjQdYv9SFX/vNHLEph52FY=
+@size 5081
+share/icons/gnome/scalable/status/bluetooth-disabled-symbolic.svg
+@sha YVkM9GvN/GNtjiyg+gF7M4sBwKwIX7qaSCurpPdDtVM=
+@size 5976
+share/icons/gnome/scalable/status/call-missed-symbolic.svg
+@sha wvaKuOOe/ZMaEmmFfCQzw62dtjNawWUBmX25H+PEjEE=
+@size 5010
+share/icons/gnome/scalable/status/changes-allow-symbolic.svg
+@sha u6LQNlprf9seNq4soCn7VRVQ5CW8lyDALtl4zGMDf7g=
+@size 3857
+share/icons/gnome/scalable/status/changes-prevent-symbolic.svg
+@sha 2PfEatVxqHiN8357+YGh8DQeYkFjv8ynnWtRjXqZolg=
+@size 3863
+share/icons/gnome/scalable/status/channel-insecure-symbolic.svg
+@sha RXL4d6dl2kk8+Lr1eaCEPumI1YqwTejc1CGk/SPXUEE=
+@size 4198
+share/icons/gnome/scalable/status/channel-secure-symbolic.svg
+@sha Vst8zAxF/xSjjCRilGEymGuankrh4mogQY4E+STp1kA=
+@size 3832
+share/icons/gnome/scalable/status/computer-fail-symbolic.svg
+@sha noEyNO3KS08+nIYagFqdAljJzIShRqm/otbo9nxeIUk=
+@size 4350
+share/icons/gnome/scalable/status/dialog-error-symbolic.svg
+@sha DK2uwjXtX9dMIC6e7VahVNfGHZWg3eA54jcCsCmQt1o=
+@size 4206
+share/icons/gnome/scalable/status/dialog-information-symbolic.svg
+@sha x3+DCbCWa2aQcjY9RWrJOk5KjY5dH1JqYybmExc7o5k=
+@size 5896
+share/icons/gnome/scalable/status/dialog-password-symbolic.svg
+@sha 74RaRcw563MdgQkVDpvhOMBlYe/n9YixsYGraLj2EM0=
+@size 4587
+share/icons/gnome/scalable/status/dialog-question-symbolic.svg
+@sha wzo/2vdggUxkaE6LMnyo0kPAJdJnf6qIRJp3EJQ0M4Q=
+@size 4014
+share/icons/gnome/scalable/status/dialog-warning-symbolic.svg
+@sha E3FdMFtyY5Fi4B/w6lh3TkBuqq0VR3NRm0xvILTHS6U=
+@size 4311
+share/icons/gnome/scalable/status/display-brightness-symbolic.svg
+@sha uiDgXIajzCxR7UpcOFUciR4tgN6dEBjaHaVJZ2JeRDc=
+@size 7038
+share/icons/gnome/scalable/status/keyboard-brightness-symbolic.svg
+@sha jfrTzWgYBHMfg2QWsgeiNWmj8SkRHxSxgRNVD1k8r+Q=
+@size 5824
+share/icons/gnome/scalable/status/mail-attachment-symbolic.svg
+@sha QLKvaJS/7YraBBUt3VEwd4dDNRAc33y+ZixnrXSoYzc=
+@size 8197
+share/icons/gnome/scalable/status/mail-read-symbolic.svg
+@sha yS1oLbtXmWGwy4a8RqvDG/0Bl55iZ4oH8lMykxVLL4o=
+@size 4880
+share/icons/gnome/scalable/status/mail-replied-symbolic.svg
+@sha z2sX58Kihz5uaCcnD08ObPna+7vY1lLS0CKJc5vhsgA=
+@size 4511
+share/icons/gnome/scalable/status/mail-unread-symbolic.svg
+@sha STGiC0VNiwYi0RW3GdlNWIXh1gAja4yLFBl9Q3IBWkw=
+@size 4267
+share/icons/gnome/scalable/status/media-playlist-consecutive-rtl-symbolic.svg
+@sha hC4QA5rAUZrZKOTKw5ErHoC0Bk5yVCh370bKSM+m0/U=
+@size 5199
+share/icons/gnome/scalable/status/media-playlist-consecutive-symbolic.svg
+@sha DrK5zd5pG1SED8roxA/JE6x5KM8Mcu/uvmxmcT9kjIE=
+@size 5143
+share/icons/gnome/scalable/status/media-playlist-repeat-rtl-symbolic.svg
+@sha bK05Y6hUmFz0ierKVvVliExXiPjjXot1on9mTc4NcDs=
+@size 5447
+share/icons/gnome/scalable/status/media-playlist-repeat-song-rtl-symbolic.svg
+@sha yQV+jc8PKXt3T241AU13avQWhEkOswIxGv9nzSVUtmE=
+@size 6304
+share/icons/gnome/scalable/status/media-playlist-repeat-song-symbolic.svg
+@sha EnyyGFe7PhLxVr/oF7OJ70ZdGLt/ZrvYCS14AyJ3DDY=
+@size 6202
+share/icons/gnome/scalable/status/media-playlist-repeat-symbolic.svg
+@sha Jv/NuEukvy/gc959sF8QGjJ/rz3S7dVnieWNdZEf+ZU=
+@size 5045
+share/icons/gnome/scalable/status/media-playlist-shuffle-rtl-symbolic.svg
+@sha uyoRlf9aOE21MJzcEhbRgUMBRQDFTPmvx6AscCLDd8U=
+@size 7429
+share/icons/gnome/scalable/status/media-playlist-shuffle-symbolic.svg
+@sha JuSN0T3alRpnsyr0Mhidknik+Rw2QwzpMU/DjZEJBuI=
+@size 7267
+share/icons/gnome/scalable/status/microphone-sensitivity-high-symbolic.svg
+@sha hK1O7FLgwq4oRpIQTRnrdA9YyP4RICGXP55WlktT05I=
+@size 8461
+share/icons/gnome/scalable/status/microphone-sensitivity-low-symbolic.svg
+@sha wj0CEzrpn4yX6j9D08fbjOmPhW/GTSSQdreNUmhHbXY=
+@size 8532
+share/icons/gnome/scalable/status/microphone-sensitivity-medium-symbolic.svg
+@sha dUrQsgiVvc8Z+p1Y12XCorqPgmJDDgPtmBBNuIt5KZ0=
+@size 8492
+share/icons/gnome/scalable/status/microphone-sensitivity-muted-symbolic.svg
+@sha qFG0fqOANUuH5LBaPMfpn9uNVqaPRmFstQ+/MGEcQPg=
+@size 9633
+share/icons/gnome/scalable/status/network-cellular-3g-symbolic.svg
+@sha AXXR0gXtrykmrH5ic51zbzW/gHkLQeeJrlW9fW53/QU=
+@size 4599
+share/icons/gnome/scalable/status/network-cellular-4g-symbolic.svg
+@sha hwOaxjs6OP80Ih7Fn9Um8OICogYXc76+L3vYDk46kqM=
+@size 4475
+share/icons/gnome/scalable/status/network-cellular-acquiring-symbolic.svg
+@sha b7l7trcme9NPEXJsyFyH3usNqtHgXzJ3U8chfE0zMuE=
+@size 6098
+share/icons/gnome/scalable/status/network-cellular-connected-symbolic.svg
+@sha EM1yKgwf/6splK1TEzaBw2rxSjci0c0sFfGwEStLAcg=
+@size 6024
+share/icons/gnome/scalable/status/network-cellular-edge-symbolic.svg
+@sha CqMsJzZHuHZ2jWIhohY+/R4y8w0bHNbjloCes7+LuzM=
+@size 2076
+share/icons/gnome/scalable/status/network-cellular-gprs-symbolic.svg
+@sha dX8CYmN++POPP7xbm8MfwFDkyz3D3sfkrmZKMLZbB4w=
+@size 2724
+share/icons/gnome/scalable/status/network-cellular-no-route-symbolic.svg
+@sha 7jsuxSlihZixOjHk95ZPPOb5ErQOVTNZ2ibZYZWJOok=
+@size 7260
+share/icons/gnome/scalable/status/network-cellular-offline-symbolic.svg
+@sha eOlr7FbUpiZE7VgOVCHJzP1k3c2kNuMwbrxu9OhXN38=
+@size 6674
+share/icons/gnome/scalable/status/network-cellular-signal-excellent-symbolic.svg
+@sha mDSY9DGhFpA6p1veGityW1oXdrunSIFok05Kkfo4QDA=
+@size 6190
+share/icons/gnome/scalable/status/network-cellular-signal-good-symbolic.svg
+@sha 3RsysuOo75LrGqeVt763z6qxyezD27O+IJLoDlr5Vus=
+@size 6194
+share/icons/gnome/scalable/status/network-cellular-signal-none-symbolic.svg
+@sha TSQIq99lEOEM12eon2XtGAkq8ZH/gMxLtEMUgfQIinE=
+@size 6157
+share/icons/gnome/scalable/status/network-cellular-signal-ok-symbolic.svg
+@sha OKWGBIcWmVUWlBfSFaEi2d8/ynAWPxVBa5xCspjY0TU=
+@size 6205
+share/icons/gnome/scalable/status/network-cellular-signal-weak-symbolic.svg
+@sha WIA/UUWgeG5ApBLZ6dwYD00BA5x0FOoqD3BZal7seHc=
+@size 6233
+share/icons/gnome/scalable/status/network-cellular-umts-symbolic.svg
+@sha 8sHcAU3mI7LnGanCbYZpYbetEPw5KQoFyYdvJtGXUwo=
+@size 2069
+share/icons/gnome/scalable/status/network-error-symbolic.svg
+@sha IcK5Agvy8KzrcnPRwG/YbFLqdOdK1WifDPGYwbizRx4=
+@size 5956
+share/icons/gnome/scalable/status/network-idle-symbolic.svg
+@sha J5In5qVxBpbFIfL7xs9d7V2u3uEA80Ev0Ca2RjwjTq4=
+@size 5491
+share/icons/gnome/scalable/status/network-no-route-symbolic.svg
+@sha ypoSSMSfG/ZnuV2MGZO2W/MiwpmTILnmAj/bfSu7jlE=
+@size 6468
+share/icons/gnome/scalable/status/network-offline-symbolic.svg
+@sha fqjN9RARSi0bkhDBq8lAS8Rnqka7AnUSaIPWyFDk/UE=
+@size 5933
+share/icons/gnome/scalable/status/network-receive-symbolic.svg
+@sha HMOmYV7GvFf4ZBoUOi9nW9oXsx5qjef34z6/P8ogeNY=
+@size 5482
+share/icons/gnome/scalable/status/network-transmit-receive-symbolic.svg
+@sha HazsNNNb00EFywBc5za3wVrtGBsTn81uyU03wejIT/g=
+@size 5480
+share/icons/gnome/scalable/status/network-transmit-symbolic.svg
+@sha XQSk2NJSC8wBGqImanPSqBdPgAPLOysnXU2HlquhCOw=
+@size 5483
+share/icons/gnome/scalable/status/network-vpn-acquiring-symbolic.svg
+@sha /d7jcjDfYs6x/nbVQwdRzDLMCa2WaGrGpQMZOt86wTk=
+@size 6658
+share/icons/gnome/scalable/status/network-vpn-symbolic.svg
+@sha 2MXSXUpYa6ZTEX36jqy16XQBgXyH7IxIqcV2qFNkvRs=
+@size 5365
+share/icons/gnome/scalable/status/network-wired-acquiring-symbolic.svg
+@sha mePckjT+s62yl7n2I80Xt5fbHNsYJ/IDq6sOzwRbfBQ=
+@size 5164
+share/icons/gnome/scalable/status/network-wired-disconnected-symbolic.svg
+@sha OhqZnX1uwPPRg6jryU96cX+/WnZ5BnOM4ZCQocmw4MU=
+@size 5006
+share/icons/gnome/scalable/status/network-wired-no-route-symbolic.svg
+@sha iMyP21teE4KUzKKcwpcI1/c8QL3EwqUd2wxy/3x6rl0=
+@size 5292
+share/icons/gnome/scalable/status/network-wired-offline-symbolic.svg
+@sha yXFxaL45yqWqRd3R86e14SajsK4gQtdFUoy3eh5fSxM=
+@size 4978
+share/icons/gnome/scalable/status/network-wireless-acquiring-symbolic.svg
+@sha z94xJ4PbS4+x3xNdw0UO6+5yQe+VNcyZpTr2siCLUG8=
+@size 6644
+share/icons/gnome/scalable/status/network-wireless-connected-symbolic.svg
+@sha EErjbw1dF/vqcX45xRNPN/DLhoCKNh2JllNGaEHMuIg=
+@size 6752
+share/icons/gnome/scalable/status/network-wireless-encrypted-symbolic.svg
+@sha dYqTjGPQc+yQoNNc3uIH65GBOWkMV4OufmMFAf1wDGI=
+@size 3879
+share/icons/gnome/scalable/status/network-wireless-hotspot-symbolic.svg
+@sha iGQQWJzop/Rr9NfyDq1mR3kWEpA7P1o+O1BYaZAuZj4=
+@size 4377
+share/icons/gnome/scalable/status/network-wireless-no-route-symbolic.svg
+@sha 0hA8TWO/DRYpCFqdu6rofmh4kQ2FYDfmcI4o96rBtkw=
+@size 6483
+share/icons/gnome/scalable/status/network-wireless-offline-symbolic.svg
+@sha kNEmGLTTM15AE7bSU7oXQV/LIKvG+eHA/hWdA5OWz8w=
+@size 5947
+share/icons/gnome/scalable/status/network-wireless-signal-excellent-symbolic.svg
+@sha r72G+GS2TmR7GUr6CndO6kuAiZLGG8lnbYrELmjMZ1I=
+@size 5430
+share/icons/gnome/scalable/status/network-wireless-signal-good-symbolic.svg
+@sha Jep2QkUdoj9Pweai6ZQrUMB7SopdFmcQnxFJuULI+JY=
+@size 5445
+share/icons/gnome/scalable/status/network-wireless-signal-none-symbolic.svg
+@sha zMf5va8zVO1xwZlKGq6zHMv1FE0PB6CUiVEKrm+gZ7w=
+@size 5497
+share/icons/gnome/scalable/status/network-wireless-signal-ok-symbolic.svg
+@sha 1PKwR7WI408/m3GMQWq/HTesx4Xzj7G1bTmvT3kVJdI=
+@size 5456
+share/icons/gnome/scalable/status/network-wireless-signal-weak-symbolic.svg
+@sha f5eIxZ3/9ErarhA3S8vRWPLRuiVEWWJfBlmkoB9hgYo=
+@size 5485
+share/icons/gnome/scalable/status/non-starred-symbolic.svg
+@sha JnN+l5pj1PJoAfl1emgTeZe1sUEvXq3wARJNgxPkiQs=
+@size 8349
+share/icons/gnome/scalable/status/printer-error-symbolic.svg
+@sha ZWdn1gR6CQj2Cx1ezyrgLRTnSowTFQZbkJ3VPr+3WGQ=
+@size 3784
+share/icons/gnome/scalable/status/printer-printing-symbolic.svg
+@sha FsruZ51oADcz3WOz54k9mP2coG7/zVSxkaTab4Jc5Lo=
+@size 3569
+share/icons/gnome/scalable/status/printer-warning-symbolic.svg
+@sha 45aO5Kma0Z7uuDCOnCEGRo0htF1PmFKekwZZ75fb+cY=
+@size 3818
+share/icons/gnome/scalable/status/rotation-allowed-symbolic.svg
+@sha 97yvQRV3NX+wqMroZZbkFNR92lGgZ8gu/bz1pu0kOB4=
+@size 4837
+share/icons/gnome/scalable/status/rotation-locked-symbolic.svg
+@sha X0kJhtKIv6gXPruT1iyXoM9fo4KpLNMCTcMR07Frjzo=
+@size 5741
+share/icons/gnome/scalable/status/security-high-symbolic.svg
+@sha Ucsj+dIOc0u8yDylaT5TIQDDOnhwqocSUQxy7gg5aVc=
+@size 4603
+share/icons/gnome/scalable/status/security-low-symbolic.svg
+@sha Iz0NZm11U8ycT+2qXFMhMJZdT4jmp+Jy0JnqPYN45qI=
+@size 4118
+share/icons/gnome/scalable/status/security-medium-symbolic.svg
+@sha Teq24JmXLt1lA9AkTU+of536kZMcx4t7ZzX9vRzn99c=
+@size 4502
+share/icons/gnome/scalable/status/semi-starred-rtl-symbolic.svg
+@sha 3IuE2IyKHVRTS0nh8dfjfMVYS1wWBxegXeE5k8NH8dM=
+@size 8776
+share/icons/gnome/scalable/status/semi-starred-symbolic.svg
+@sha VeAkFslZTBGzQaU7e9otjIl+wWo67Bsg9EpcDaNyos0=
+@size 9060
+share/icons/gnome/scalable/status/software-update-available-symbolic.svg
+@sha c+hFGSG2toeasun71hwuzotH0D7WNIuT+yV2fUxPtdY=
+@size 4341
+share/icons/gnome/scalable/status/software-update-urgent-symbolic.svg
+@sha 47XVYZugbL9k6u16FGFAHBBZpy0Ud6E5jsOMudKxsAw=
+@size 3649
+share/icons/gnome/scalable/status/starred-symbolic.svg
+@sha AOKUzMj0al/CtbyuhPQM/umGo1dQ9BdwX4bUtOO4ezk=
+@size 4164
+share/icons/gnome/scalable/status/task-due-symbolic.svg
+@sha yudezK85w1vgjZ9khNOuPaEKD6uftTBNuypggCIfow8=
+@size 4643
+share/icons/gnome/scalable/status/task-past-due-symbolic.svg
+@sha 1Nx6bFT/Xk4scwhpPn/3rHOIf+BHUmAhJgRP9vqF4qA=
+@size 4520
+share/icons/gnome/scalable/status/touchpad-disabled-symbolic.svg
+@sha Y+ir6F6eDj9cNgZ/6gxQWoMMKsvLlcTCWCTh6pvN7Co=
+@size 4693
+share/icons/gnome/scalable/status/user-available-symbolic.svg
+@sha +n62VaB0XPr1P9WC9GT/xVmaeP/ot5g1EV1wqwT64Fw=
+@size 3756
+share/icons/gnome/scalable/status/user-away-symbolic.svg
+@sha RmAY4PJepzG+cPhH0KoEiHO/sCqKfWXBMOMzxe/mGeg=
+@size 4187
+share/icons/gnome/scalable/status/user-busy-symbolic.svg
+@sha cmTyaLW3mBMVGyEWIGE02RJWFWlgzsEAsnoQ9cL1+40=
+@size 3887
+share/icons/gnome/scalable/status/user-idle-symbolic.svg
+@sha xY65q6ysIxNPD1r8Hi05aGJPgSwPzd7aX4yUhzTY3uw=
+@size 3642
+share/icons/gnome/scalable/status/user-invisible-symbolic.svg
+@sha 22KIvsTiXu45UsZmS4YaMlcV+Hlru6MZSe99ekKoVtQ=
+@size 3908
+share/icons/gnome/scalable/status/user-offline-symbolic.svg
+@sha l+vv4jTt939V2fTcyayJeI5UC5W+kAPZ++zxsvYKb80=
+@size 4421
+share/icons/gnome/scalable/status/user-status-pending-symbolic.svg
+@sha bBeTCqyEA31hZB6u+iHD0I+FSuRzegesGx+ZBbLR3F8=
+@size 4641
+share/icons/gnome/scalable/status/user-trash-full-symbolic.svg
+@sha 2GFc6ZeLDaApv/b2ZfX9l/evWS2nr/BZr89HmEN8XnI=
+@size 4630
+share/icons/gnome/scalable/status/view-wrapped-rtl-symbolic.svg
+@sha j2sKJdGloVPG09Ywhn6OXYUpQx1gDmX8pCCILHbmJl0=
+@size 5408
+share/icons/gnome/scalable/status/view-wrapped-symbolic.svg
+@sha q5qw6KvccGsdIpQae9C2Ii/H+6dRWYJ1hWBaJXAKDns=
+@size 5400
+share/icons/gnome/scalable/status/weather-clear-night-symbolic.svg
+@sha wcpE908uKKTfzW7qI2j+9ulPn+CeYSOXmMx7knbFA/Y=
+@size 8717
+share/icons/gnome/scalable/status/weather-clear-symbolic.svg
+@sha 0nbVehg8Mw/hNezZ2HH8jyIjuS4c/aHxalsJGDLKNGA=
+@size 6503
+share/icons/gnome/scalable/status/weather-few-clouds-night-symbolic.svg
+@sha hOeipEPyTPHNZAaaneo9mgKaQZQmx1wKSL3JZAxzB1s=
+@size 8600
+share/icons/gnome/scalable/status/weather-few-clouds-symbolic.svg
+@sha B86J3CWZPayv98uWmvwYidP2yBpx+g5z1da8Aut4GGs=
+@size 6751
+share/icons/gnome/scalable/status/weather-fog-symbolic.svg
+@sha sSgLcaOsm/C8WWmNB5neBixg9IFCPM3+Oiyy9a7oNDQ=
+@size 10823
+share/icons/gnome/scalable/status/weather-overcast-symbolic.svg
+@sha N9sd5LQ/utHOJyWCLNyAqRvmkPYt7cR8BrdShofqeOE=
+@size 3715
+share/icons/gnome/scalable/status/weather-severe-alert-symbolic.svg
+@sha w7ZyfznBIrnsGuqO3pW0/Ty/mn9HVu8ijmGhXWJEmWo=
+@size 4696
+share/icons/gnome/scalable/status/weather-showers-scattered-symbolic.svg
+@sha DdZ9xhuuSYjXVmCmQ0MNu+0ux8WaGliB1EyPm4uhS0E=
+@size 6152
+share/icons/gnome/scalable/status/weather-showers-symbolic.svg
+@sha M7HWTNhDNoDwYZP2MSPPcBBgaf3ZJuDt02bb5ll+lRI=
+@size 8522
+share/icons/gnome/scalable/status/weather-snow-symbolic.svg
+@sha PioWEEFDbI3HVjEQqzNkbo70PO5UVT7ZiiEZJhtKFpo=
+@size 6230
+share/icons/gnome/scalable/status/weather-storm-symbolic.svg
+@sha KnzNlALViSKRj92Bx1EskqO5thgoB3brDWQcDrGLt+k=
+@size 5732
+share/pkgconfig/gnome-icon-theme-symbolic.pc
+@sha L3DSCMNHCrPFuug8o8ibkYgWNFE6r6r1dK/yhlVaJuQ=
+@size 151
+@exec %D/bin/gtk-update-icon-cache -q -t %D/share/icons/gnome
+@unexec-delete %D/bin/gtk-update-icon-cache -q -t %D/share/icons/gnome

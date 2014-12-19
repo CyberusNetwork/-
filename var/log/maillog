@@ -1,0 +1,9 @@
+Dec 18 18:00:01 cyberus newsyslog[8758]: logfile turned over
+Dec 19 01:30:03 cyberus smtpd[5421]: smtp-in: New session 8427935a36a5c875 from host 0@localhost [local]
+Dec 19 01:30:05 cyberus smtpd[5421]: smtp-in: Accepted message dc33ecc3 on session 8427935a36a5c875: from=<root@cyberus.itinet.fr>, to=<root@cyberus.itinet.fr>, size=2875, ndest=1, proto=ESMTP
+Dec 19 01:30:05 cyberus smtpd[5421]: smtp-in: Closing session 8427935a36a5c875
+Dec 19 01:30:05 cyberus smtpd[5421]: delivery: Ok for dc33ecc3d96d354b: from=<root@cyberus.itinet.fr>, to=<root@cyberus.itinet.fr>, user=root, method=mbox, delay=1s, stat=Delivered
+Dec 19 01:32:58 cyberus smtpd[5421]: smtp-in: New session 8427935d127a36b1 from host 0@localhost [local]
+Dec 19 01:32:59 cyberus smtpd[5421]: smtp-in: Accepted message db397ab0 on session 8427935d127a36b1: from=<root@cyberus.itinet.fr>, to=<root@cyberus.itinet.fr>, size=3033, ndest=1, proto=ESMTP
+Dec 19 01:32:59 cyberus smtpd[5421]: smtp-in: Closing session 8427935d127a36b1
+Dec 19 01:32:59 cyberus smtpd[5421]: delivery: Ok for db397ab0237c7f75: from=<root@cyberus.itinet.fr>, to=<root@cyberus.itinet.fr>, user=root, method=mbox, delay=1s, stat=Delivered

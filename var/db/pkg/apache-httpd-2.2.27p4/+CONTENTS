@@ -1,0 +1,4078 @@
+@comment $OpenBSD: PLIST,v 1.24 2014/07/27 10:51:37 kili Exp $
+@name apache-httpd-2.2.27p4
+@url http://ftp.fr.openbsd.org/pub/OpenBSD/5.6/packages/i386/apache-httpd-2.2.27p4.tgz
+@signer openbsd-56-pkg
+@digital-signature signify:2014-08-02T10:54:34Z:RWSPEf7Vpp2j0AmLIL/BdmjNlSqhyzewt/xCPfDqTxaWoMzldeNvjry6/4rk22RyPduO1sMGPSMeyLHpV9dPBYF21Q31xvbMrQQ=
+@option manual-installation
+@comment pkgpath=www/apache-httpd cdrom=yes ftp=yes
+@arch i386
++DESC
+@sha MNKcPgMiWlx8rlQQ4zPUuIw5aJXlQYaR4kXraqEB6MA=
+@size 484
+@depend converters/libiconv:libiconv-*:libiconv-1.14p1
+@depend devel/apr-util:apr-util-*-!ldap:apr-util-1.5.3p0
+@depend devel/pcre:pcre-*:pcre-8.35
+@wantlib apr-1.5.0
+@wantlib aprutil-1.5.0
+@wantlib c.77.0
+@wantlib crypto.30.0
+@wantlib db.5.0
+@wantlib expat.11.0
+@wantlib iconv.6.0
+@wantlib m.9.0
+@wantlib pcre.3.0
+@wantlib pthread.18.0
+@wantlib ssl.27.0
+@wantlib z.5.0
+@newgroup _apache2:576
+@newuser _apache2:576:576:daemon:Apache HTTP Server:/var/empty:/sbin/nologin
+@cwd /usr/local
+include/apache2/
+include/apache2/ap_compat.h
+@sha 85ds2c1tVSLP2iV4zi8XIBJ4Tu3n1yXA5H/lEgdmLzA=
+@size 1075
+include/apache2/ap_config.h
+@sha RfYKkO0t8+jIGJEsz45cYmVudgK6lzbBPe4z5TccXYM=
+@size 9472
+include/apache2/ap_config_auto.h
+@sha Cztnl2pB4fVYAyYvAV4kgZxqBpdfKaTV4mtHwmE9HNI=
+@size 7404
+include/apache2/ap_config_layout.h
+@sha yvhJUFzjYZBEtu517QVwt1R6c0YrUyPQi5CrJUK4fLo=
+@size 2765
+include/apache2/ap_listen.h
+@sha UN+aSz0JKuiQBmam/VI8vTQgEqsOGF9SSKPMPhtISzU=
+@size 4167
+include/apache2/ap_mmn.h
+@sha MFCjVVLENA/G35dLoZQgw+7pH/8xrWRfAmVmvP3kZcg=
+@size 9803
+include/apache2/ap_mpm.h
+@sha YvUBtwhLqspA3m23T5tZC7i4jVCEAb3dYKxOqdQEnbQ=
+@size 8287
+include/apache2/ap_provider.h
+@sha qqv7x1Ui0T/T9j954BpfrBtXfYBZhXMM9hD9C0XEPRw=
+@size 3086
+include/apache2/ap_regex.h
+@sha 0LyMAa6Eodp/t2az2iJYSgx8K9rIKeqH6WCVDg1BPx0=
+@size 5344
+include/apache2/ap_regkey.h
+@sha d+i9AJUL4styIqJ1V7adrxc170ypm0tEgc0lNbTIc/I=
+@size 9124
+include/apache2/ap_release.h
+@sha U1MrwrbiCmaIdRCWRew87sK3l/oru9MeG9E7uKuOGmo=
+@size 3116
+include/apache2/http_config.h
+@sha 8HK/9tLfAcAybx78NdMFVss9ybqygBqRTXBwBOooGw4=
+@size 40950
+include/apache2/http_connection.h
+@sha AZ19nRYinc5Kvo1Zx+cyWBQ+a7ZyQzIq1IhdnYWaChE=
+@size 5565
+include/apache2/http_core.h
+@sha Tj8gCDHFNlI/kR7MoylU2YkMg/QtDg046G3RVVrRawM=
+@size 23303
+include/apache2/http_log.h
+@sha pFZuvQ1+UgglpVhfKnUwgdKwl02Tq0jk8kt9vSWtW+A=
+@size 13856
+include/apache2/http_main.h
+@sha ZbWCquGMH63ujaeOYH3clDxv9eNr7fELlEWDQRb6too=
+@size 2582
+include/apache2/http_protocol.h
+@sha nKSdOHGHkhYtsMI9ACJ0gWRghsBykRKun57I/KVwOww=
+@size 24054
+include/apache2/http_request.h
+@sha zsYEbTQn/GGdlneLq4gR2XHCzCdO2Ie7QL8Kau1Wewo=
+@size 14053
+include/apache2/http_vhost.h
+@sha GbWsL5e0eWyv02SGg5iec9GLM2hnpVgAJH2YDCFky74=
+@size 3927
+include/apache2/httpd.h
+@sha FYiUc1Gt61LrycgQfs10088xnavEW7veE8bWk//tBJc=
+@size 67623
+include/apache2/mod_auth.h
+@sha WlBi1AODnNWdLY4d4tPky5Pq8qezzWgkRMUbuMuPuoQ=
+@size 2474
+include/apache2/mod_cgi.h
+@sha 4bhu3ArxoT3R8ohZhjCNmWt1O1+XVPHwe/NSrJ1sVPw=
+@size 2672
+include/apache2/mod_core.h
+@sha 3W0ssTpzXKs4Oa5vtj5r9ncJFBsq4jsPOW7Alp4hN+A=
+@size 3121
+include/apache2/mod_dav.h
+@sha os3oymyMrCxauImeVYor17lfdLBWi0m+SfxjN87rmFs=
+@size 90076
+include/apache2/mod_dbd.h
+@sha Efs0x0jOrkT5rHSgWkoRHbe3QFgcu3oAZ3aQ2/rbIUk=
+@size 3720
+include/apache2/mod_include.h
+@sha lWxi7LtAIqySykcVURM20D2fx7LdgOHcBKW7sW1v0z0=
+@size 3933
+include/apache2/mod_log_config.h
+@sha vBTVAW5vh48g0J+wbROQWBGAAtIWVhY/O+YUz3u2srg=
+@size 2492
+include/apache2/mod_proxy.h
+@sha DIHSyDpHf5uYudD//NanqgDkdGXfigZ9UEFiMhh/Rr8=
+@size 32279
+include/apache2/mod_rewrite.h
+@sha ki++iD2f2/AOT87ptqiPc8ZiO6RCLOCXjkLy1TAC/Ic=
+@size 1340
+include/apache2/mod_ssl.h
+@sha v9E+18M6lD2HdQV03IYAC7jtwhzV11UJmxx7QpivwZk=
+@size 2411
+include/apache2/mod_status.h
+@sha KtYQGfwX81IjLaTOg0DL+402lmsKJAYQjdJ/X5QAPNU=
+@size 2441
+include/apache2/mpm.h
+@sha WZorAk+KO0/JVkJwBbvKlFN4OUHlET1/ZplT+PH9p0o=
+@size 2035
+include/apache2/mpm_common.h
+@sha h66kqOa24fD6vALQ+Pt6M/M9UqoqKOySb2u9A7+owvE=
+@size 13123
+include/apache2/mpm_default.h
+@sha 7fo3mF8bT+9pY8PegqKmi7Rz+GkKMix6mBaUAtDpNps=
+@size 2176
+include/apache2/os.h
+@sha ZMXPMD4ULnjJ+J+nQoM27jTLf6YXoliBag3Aidv3eXU=
+@size 1535
+include/apache2/scoreboard.h
+@sha dWlt8A0YoRHewVrQTB93GGtb42LaqSSGG70kS6LoqH4=
+@size 8294
+include/apache2/unixd.h
+@sha O+Syg2Yv+etvqpZVFEqTwf4EHTeTkK2qAAjhDlyRPzw=
+@size 4152
+include/apache2/util_cfgtree.h
+@sha aJuW4CTQWgZDH3GAgeeDY8Or/rpo7EQS/A2ysCBEOPM=
+@size 3025
+include/apache2/util_charset.h
+@sha SZkJCVC2wSKhVHsfMkf55HQitO+H0eadgQfiW0iSM9Q=
+@size 1692
+include/apache2/util_ebcdic.h
+@sha hMBVZs8hrhVFFeEJg02rzPaVTuxqG1UxZFVb2JlHFrI=
+@size 2310
+include/apache2/util_filter.h
+@sha 24KNXsKK/7VssTo/BkPtrhs0R1CikbGiCVRkqIXHc10=
+@size 24423
+include/apache2/util_ldap.h
+@sha KDgyG+FfbzJLnN9wV320ssi2oUigbjKoHxARwPHjHzU=
+@size 15262
+include/apache2/util_md5.h
+@sha 0XNufMVJ6kIjwN5+6Py54Ns2odz4GEC1UJVq+xlGByU=
+@size 2402
+include/apache2/util_script.h
+@sha qPkrPA25FkrpN3dp2wET1zSVD/fm9UmGkIirOLnnB6I=
+@size 6045
+include/apache2/util_time.h
+@sha YPXI2kAaOu9yeCYcou3gu+hLYPJx6Eks4j7zkqnVAmA=
+@size 3134
+include/apache2/util_xml.h
+@sha K5c7I9ciHB8d6ojztKhSWYm9ssfu/91iV/lE9sVqgNg=
+@size 1398
+lib/apache2/
+lib/apache2/httpd.exp
+@sha qYalEfkVo4nVWSJ/0y+9K94KDET5Vby0kU0JoB8SxUM=
+@size 9201
+lib/apache2/mod_actions.so
+@sha y4gJldmESPeaAQzQrgjMSQvyjKXVgNpz06Jg+V+dQu0=
+@size 11820
+lib/apache2/mod_alias.so
+@sha xClLhVDcsZoqL2U7sbtKO4MDlwLRiU/IzaHjZD+NCas=
+@size 13369
+lib/apache2/mod_asis.so
+@sha cLg17f8JPGL0ohMYUwzclRwMO16i8mxlre5j8pRcxng=
+@size 11487
+lib/apache2/mod_auth_basic.so
+@sha JKThJSW1jdumLiROLqyqSIo9da2AZ9P8zijrGod36Gk=
+@size 12430
+lib/apache2/mod_auth_digest.so
+@sha Z8Lu5+xI96/7OUIWZRin2JulGydrbQfePOJG4YD2k4s=
+@size 38132
+lib/apache2/mod_authn_anon.so
+@sha BaYfRpi1p3kuHJGb8FbwWQVNNi56K5u52WaEgj+Xgbs=
+@size 7578
+lib/apache2/mod_authn_dbd.so
+@sha kqRsEsnn/qm3ZLg3tVPBc98ZnxLQ6CBIpjGKAkzGJX8=
+@size 12824
+lib/apache2/mod_authn_dbm.so
+@sha IViStl+qH8jAMuwqMCz+jRBfrX+Sc1qFAzJtG1tvz1I=
+@size 7737
+lib/apache2/mod_authn_default.so
+@sha Po66bkIGCm0xREIGGhSwb9ZJJrMhFPM86L/q0p4Pk+o=
+@size 7454
+lib/apache2/mod_authn_file.so
+@sha +u1LlmU1wnVAvk2OUpS/6noCCHxGgG1GnBIAQy7Db9M=
+@size 11701
+lib/apache2/mod_authz_dbm.so
+@sha +zY67R/3jRDprbFxvVbfJKMKVauxcqgi0tJu5QVHCg4=
+@size 12470
+lib/apache2/mod_authz_default.so
+@sha gnqSvKxYC32t6U1IkI9X2hCOYfCRc/N1IL0DkVpIr7Q=
+@size 7271
+lib/apache2/mod_authz_groupfile.so
+@sha nD7WBQdbbq3sFx8xUnnCPAs9ZQ+cY9kVBq6qqRq8USU=
+@size 12657
+lib/apache2/mod_authz_host.so
+@sha GfAS9ObLij7egWl9BdhFa3enp1bfb424hZIZtH5054g=
+@size 12023
+lib/apache2/mod_authz_owner.so
+@sha J1bExssX/pz4vnPAiMnYZJ0bpavQt5IXOO1LfhF3RQA=
+@size 11923
+lib/apache2/mod_authz_user.so
+@sha 6DmEEnBGKDplFJD7JZCw5EhudpMgQtThCuOCCRbg3IQ=
+@size 7560
+lib/apache2/mod_autoindex.so
+@sha oFtajwTPBzbJhQFARV8Q9IAQAvwHw7VXiPs6zlu4hWc=
+@size 39244
+lib/apache2/mod_cache.so
+@sha WbJQDamILw8gZOarZYhJ31C2G6cIfTRH6BrtzlYbwEU=
+@size 48761
+lib/apache2/mod_cern_meta.so
+@sha oKspxW5/H3McVDqRwMxIy2dE1ze+r3OfMhHwjvL98v8=
+@size 12199
+lib/apache2/mod_cgi.so
+@sha MGjDF0Y3jHS9AxX13MP6lhkYLRGOsqaDaJPjZPdnRwI=
+@size 28747
+lib/apache2/mod_dav.so
+@sha TNIz6Q3e1i4JghsOU+Gf1x+hqZ9aCAjTaSpD/5CMhac=
+@size 98490
+lib/apache2/mod_dav_fs.so
+@sha dRBkw1SYeRJejoRDa52A4n3gNYfMXw2LOFK3hV5iiVQ=
+@size 52406
+lib/apache2/mod_dbd.so
+@sha 27zGkXv3CwH3PNVFW8b79bnQt4ZR+q8jI/em+r2Pb/4=
+@size 18787
+lib/apache2/mod_deflate.so
+@sha xxeoVA7UW8xvWBpuv8cYcdLjsDmaPpTkZIfaLDXFbZQ=
+@size 26339
+lib/apache2/mod_dir.so
+@sha F47F6zxcRq+4Lf3OaBvNl0UVJNnHOF/Rmtg/0vAfyTA=
+@size 11891
+lib/apache2/mod_disk_cache.so
+@sha Z/H/zfL439qGnQeW9SMCA4TF/flY3A7W88jX5YEDKDQ=
+@size 23914
+lib/apache2/mod_dumpio.so
+@sha fHpPFlyluz5yZto/ZqoNEMdxcWHX3qa1HuZ2yQINOwQ=
+@size 12423
+lib/apache2/mod_env.so
+@sha VJmbX0LsEmq+HkQgq0e6wfcc49Iq9KabmzsgfJC1WUY=
+@size 7674
+lib/apache2/mod_expires.so
+@sha Ock1ljbHopmHwBj83lg1fq4b/UYA/AuzoIrA2nT3S8w=
+@size 16298
+lib/apache2/mod_ext_filter.so
+@sha cB65okF6VO4QAn0TKos4aqk40D6C2ZE4vxOEpXSf9R4=
+@size 23608
+lib/apache2/mod_filter.so
+@sha aCp+wNHKVyP6MDAxVs8waSbrN72/hW/HEJrS06opEwk=
+@size 17731
+lib/apache2/mod_headers.so
+@sha E7pfhNi5a+qZaRfcrpfE/OW0c/pJiysWlfUl2Q2txSk=
+@size 18804
+lib/apache2/mod_ident.so
+@sha 0HyKrmnmDq04RYAS8+0owdWhJau8aXpUsSX3vlAXEvM=
+@size 12262
+lib/apache2/mod_imagemap.so
+@sha TFpNg/zZAQ5vEbV8MWhD4WJnMgArTr3oSy3Fci7Uaps=
+@size 17011
+lib/apache2/mod_include.so
+@sha DAlQ9y3dqapV6UXnBJ6sqtvhasGtjjm/R+gAe3PhEvI=
+@size 47742
+lib/apache2/mod_info.so
+@sha Cmor1kNAvfI3lz0l2vSG6ty/ItJP5VganjdivlKoTzc=
+@size 25090
+lib/apache2/mod_log_config.so
+@sha E6Z+V5c+OiU9OwQP9N/SfjOIZEKAfzDdKWEgSGxYYjg=
+@size 32513
+lib/apache2/mod_log_forensic.so
+@sha keHKyXu/SZ+1780+WUcCmc07h8CHPOD4PggJReqbAME=
+@size 12730
+lib/apache2/mod_logio.so
+@sha QFWCfQa6BXSMO/K+R7L1RrEdyqyHcO/2x6Iwh0zYu+s=
+@size 11962
+lib/apache2/mod_mime.so
+@sha MjAuq8csb6BxwkEMqt2RjveqAseXqwKob1W+pjPrsI0=
+@size 18839
+lib/apache2/mod_mime_magic.so
+@sha kK4N0pwiWfEmXPb4NNkRWCKZfi/1zcnbG/0lwLeaBPU=
+@size 27771
+lib/apache2/mod_negotiation.so
+@sha kfRu1NkrrtAenxeHjZ/F3JFnOdcn8jSn3QU3hdbCxeo=
+@size 36492
+lib/apache2/mod_proxy.so
+@sha HF/ephOiY7U91bDKELtG5rBsKmA21oMd3W/fdvDeA2A=
+@size 90460
+lib/apache2/mod_proxy_ajp.so
+@sha j4I53OrprQiOwPwsyQvZzxGxgkbPPEubO62cAuO/rB4=
+@size 40502
+lib/apache2/mod_proxy_balancer.so
+@sha Nbs++L6NOxf/Jj3vB3i9GCHD0eOeR0DdQtT3i193j7I=
+@size 33405
+lib/apache2/mod_proxy_connect.so
+@sha xXuXCAyAKzaxFbOiFQurVlnqeJvWKj06OmogBihLlnE=
+@size 12281
+lib/apache2/mod_proxy_ftp.so
+@sha nuTmian7rb65NM1fkrI/vElqVfMZmbFxGmPzlt8j+eo=
+@size 38324
+lib/apache2/mod_proxy_http.so
+@sha o23CbrUPFpOizRFTsf4xq7nPNrfKSQRL230JiS6YN/0=
+@size 38435
+lib/apache2/mod_proxy_scgi.so
+@sha FcjNjvzoqYQPY8jWR2HZn5GQ4JqHo4kyq1KeT52qtgI=
+@size 18337
+lib/apache2/mod_reqtimeout.so
+@sha glohxKdJ29ox0jS3nsCOKWdrDgN9DPjf7lX/t4qu7Wg=
+@size 20421
+lib/apache2/mod_rewrite.so
+@sha OiSxneBVSF9UIKciTY83nt+LFH8DUFbVaOBUBtQjYc4=
+@size 70905
+lib/apache2/mod_setenvif.so
+@sha ieniDrwf5mEqbmgRgxRFp7sBKjN2KTptFwJR7tpJNoQ=
+@size 12811
+lib/apache2/mod_speling.so
+@sha xLeK/QXt5W5Dz1v0U+A8e6vgZPoVfMteqayzlA5qcwk=
+@size 13004
+lib/apache2/mod_ssl.so
+@sha c9RuZC6meS7YmhR7+y5KDZesoW+7hHE0PBkuu1vd2wM=
+@size 197566
+lib/apache2/mod_status.so
+@sha 489XNt2qEVTdObINOS3WirYqXj+bjkiKamUyGTrBYko=
+@size 30891
+lib/apache2/mod_substitute.so
+@sha 8lTTj0qOu1iUhZq7gvROB9E5S0lQq27SDoqTVD5k7c8=
+@size 12664
+lib/apache2/mod_suexec.so
+@sha QgAdTuA6j9AhWLLVORfGnkxKJv2riyUTke5g0BJ+gI0=
+@size 7717
+lib/apache2/mod_unique_id.so
+@sha W9ARCwz+DUNNXudePLo+Q+vg/i4WqLn26wtd3rXE7cA=
+@size 18113
+lib/apache2/mod_userdir.so
+@sha 1epkyqKlAYL3j9Y2gkPHiea4TH4vRNQ6773QAo56Sh8=
+@size 12112
+lib/apache2/mod_usertrack.so
+@sha uoVYnEj3mq/6N3fb2HdyRtnHrdqi3SLlW980X8n/+aE=
+@size 13080
+lib/apache2/mod_version.so
+@sha 4GPjPAQltyKCwO0/tMa017m9vI5RshUh8J1pBePfiXE=
+@size 11651
+lib/apache2/mod_vhost_alias.so
+@sha 5VABzoQM6R592Xnn2XeA+qO6N1sCRBQkvaXiYMEdms8=
+@size 12199
+@man man/cat1/dbmmanage2.0
+@sha YdQ5noVGnBVwjjvzWNqCkTEzyaeE4DeZX5P4WqG/inw=
+@size 6184
+@man man/cat1/htdbm.0
+@sha KGZ0pOdtMGC4pM5f0bvBwgP5bBgpDTVd/jNtHyW0V+k=
+@size 8308
+@man man/cat1/htdigest2.0
+@sha eZRuV+jC9WsC1+O832BsP2Ms++52XHnTOL09OJn90hs=
+@size 1990
+@man man/cat1/htpasswd2.0
+@sha L3MOU5farh26mRhrQV2nOJQMH0PWSpQaLSPanK+I2ig=
+@size 7876
+@man man/cat1/httxt2dbm.0
+@sha Oc048q/C8xOXOfrKLilKzoBxZNXBkMth5zc6SrYf+B4=
+@size 1500
+@man man/cat8/ab.0
+@sha Il2Ch2jlhFJEWLhu76q4sHyaPkjgvFz6jBrMipDdaWc=
+@size 11306
+@man man/cat8/apachectl2.0
+@sha Ok2yTqmr7IvYGiK6XcAHRw9ddeDzXn65RdwhBtcfjOw=
+@size 4687
+@man man/cat8/apxs2.0
+@sha 0a80GQ/vBIy8hzKem2XlVPT6vIkj3pboUB71Iquhf10=
+@size 11469
+@man man/cat8/htcacheclean.0
+@sha FGbGHJE93slUl6T0gi4Nwyy+onP2pqI8cUBsH53+/V8=
+@size 3191
+@man man/cat8/httpd2.0
+@sha Of/8xxchWOhqzqg8wCjHQujycppHO0Z4d+V/gEJfL2g=
+@size 5394
+@man man/cat8/logresolve2.0
+@sha dHyRhoDn4AAdYJatLyk8Z3jYv5eDlrw6wqgVK23t8j8=
+@size 1352
+@man man/cat8/rotatelogs2.0
+@sha WXrpuwVaGvz33AotadZ1Q2bjA0L/MqbpeJcQgeyHKtE=
+@size 4914
+@man man/cat8/suexec2.0
+@sha acFYin1qQquv96c6hQ3TvFUoDAhAdWcvT8ZJAdPNKbM=
+@size 1108
+@bin sbin/ab
+@sha bMpwM69FF2AmwFX0XN9fatZGDdciS/jjHf4imYei4Aw=
+@size 60563
+sbin/apachectl2
+@sha rYk2kXlzrcu4qjVqr2eBMHlOfKUjpfHCN6PQMfCy+ko=
+@size 3462
+sbin/apxs2
+@sha HaH90uAmUMpl04QBo0LYPa3+Xii0pkWXAkT8znf7ozc=
+@size 22693
+@bin sbin/checkgid
+@sha kn/ggWd2dC88b2KqYbVKH1BPbUlTe+Joq/HwVVrvfPo=
+@size 7172
+sbin/dbmmanage2
+@sha 6Y+31NF8XKjIz/Mf0ug3aYSOpocQZigeRWOQtczxEOg=
+@size 8925
+sbin/envvars
+@sha YLWwbnkDZW1UxRc/tbzuXYyUZgKUVFQmcT8iapmtxpk=
+@size 1057
+sbin/envvars-std
+@sha YLWwbnkDZW1UxRc/tbzuXYyUZgKUVFQmcT8iapmtxpk=
+@size 1057
+@bin sbin/htcacheclean
+@sha veXjaFJMKnA9W4KhGZsFLSDeUHz66u3XFHsiSOYM118=
+@size 27821
+@bin sbin/htdbm
+@sha 1mqDVe1C7HtzoY+A54Vh+kPiChDoIXIApuOUcLEmOTg=
+@size 18507
+@bin sbin/htdigest2
+@sha W6YkAeQWem2B4aa6Uf0sx6uGZqhm1WMgxXcO3b/geXI=
+@size 12734
+@bin sbin/htpasswd2
+@sha sfyld3Kpp62kM0kRrziKzdHKjzCzh/YZUvJEJCu+x5Y=
+@size 18544
+@bin sbin/httpd2
+@sha TOTMRCwTk6VoUxgdKULFwmrQcYRWrJN9h0xRgM7VaxE=
+@size 465728
+@bin sbin/httxt2dbm
+@sha XrCsAFCGLpPwro2xzkxzB4J8Sj5yOzKZPG73MWXkc8M=
+@size 13080
+@bin sbin/logresolve2
+@sha ELyiM2l+nfwjjRd4bTwQKWfSoEZ7Me5TpZcYlvTmi+0=
+@size 12430
+@bin sbin/rotatelogs2
+@sha tGFIJuakuuSFaCici4tj7Z08tyM0IfPb0LD6+ycknTA=
+@size 13042
+@bin sbin/suexec2
+@sha EfrmAFDloaBnG8S/PDRSZSlXHD5pWTCQGLFPSsjNloc=
+@size 18245
+share/apache2/
+share/apache2/build/
+share/apache2/build/config.nice
+@sha 0hTpLlWZE8Cr85r84mC4sOB8NjMjAGa+Nsps1yXP1CA=
+@size 882
+share/apache2/build/config_vars.mk
+@sha Q8fCSTWxrCx5Mgt0WKK1JZphYia5WBdc8I3YrylsHZk=
+@size 2786
+share/apache2/build/instdso.sh
+@sha BfaUtFqvlfZp8iVUas+8rN2U9P/WCOdWeJ+DngQLnu8=
+@size 2860
+share/apache2/build/library.mk
+@sha KKE3oTK1fWkdsP6gwlUwOD+oShdv7uA1ZXx+10BT3wk=
+@size 1060
+share/apache2/build/ltlib.mk
+@sha 2Nna99L//2kLjG1qPYtyyHigNgS9541dgAN0l5Y1lKM=
+@size 951
+share/apache2/build/mkdir.sh
+@sha YnSoO8m9mCKO1XZ7cUFYVzuUDhEqR124W1n+CgAXnSo=
+@size 1660
+share/apache2/build/program.mk
+@sha vWVHV5SGB/CA9vO1cBaZIo7LkmqGXbVW7enq1aWg7oc=
+@size 1032
+share/apache2/build/rules.mk
+@sha dv7HfJMOsU8a585gkwSqYqdBxBW0jWINh1ZV3Li8uIQ=
+@size 6970
+share/apache2/build/special.mk
+@sha U/I7DS6O91s3Vj0ZUQaLrVvXldFOn8meIr+NbW5+Cu0=
+@size 1258
+share/doc/apache2/
+share/doc/apache2/LICENSE
+@sha yVuuHRzgI17MzTVgt3LsHvuX80innw++CmNPDCzO/iw=
+@size 11358
+share/doc/apache2/bind.html
+@sha 16n6Vu3WMtwfoc3Ziozt4hWqRiVadvt1UJnydGlXIqI=
+@size 543
+share/doc/apache2/bind.html.de
+@sha TirtaHw/wvsK44Wv4RKwYIkUzzCJJ22ShsJMXzleHqY=
+@size 13181
+share/doc/apache2/bind.html.en
+@sha 0/XCTHzw6AtO5GxSGm/KVE724AMbLlHWnucw6DB2YRg=
+@size 12136
+share/doc/apache2/bind.html.fr
+@sha umhDzbvf/i/QOXh6FoygyUb7Q/8L4aiVk52BqNm9NUc=
+@size 13054
+share/doc/apache2/bind.html.ja.utf8
+@sha OhSG27np2AilYuX+CgIp25/UjBYUSA2zW5PTLA57joE=
+@size 14336
+share/doc/apache2/bind.html.ko.euc-kr
+@sha MWhfmNWoX3fJZINq1Da3MG54Cvb7pHeqFW1xaRhd7Kc=
+@size 10982
+share/doc/apache2/bind.html.tr.utf8
+@sha oH5hsIfPVADJEJizQMnLTulsZEq8i9nSJCoPmriHUDo=
+@size 12777
+share/doc/apache2/caching.html
+@sha pezHP70eLzpV/jF9M2TibbHlfLdW/ChR6V4cKe6UpIc=
+@size 297
+share/doc/apache2/caching.html.en
+@sha e7e6trts2valjINsuNlEltlZher48OeFxVGtGUPAM+o=
+@size 40971
+share/doc/apache2/caching.html.fr
+@sha 55S/j5QJNlMFlNPjI/FLIW/3UfVWMgHpNSveUFR5Ei4=
+@size 46513
+share/doc/apache2/caching.html.tr.utf8
+@sha X/YIGITlKXtHZMqV0FEI1dSRVLtjWss0qxtPzkOsYpE=
+@size 45597
+share/doc/apache2/configuring.html
+@sha DIplELGErpXo9A3jYWbqTxKWpTOhJK1+R3UKK4gtVnQ=
+@size 585
+share/doc/apache2/configuring.html.de
+@sha vHtpAtmpGv8I5MEL64lpdZ8k48ifxwvRCm2/mGyTRkc=
+@size 16455
+share/doc/apache2/configuring.html.en
+@sha Mg0cMwdqdHdWG5AsczKWUIEH6DzWrfxowa0tfux4dQQ=
+@size 15691
+share/doc/apache2/configuring.html.fr
+@sha kC4NIBMX9Edt7AOca6+rGH3VHpEVWnDyg9yE2AXbeE4=
+@size 16250
+share/doc/apache2/configuring.html.ja.utf8
+@sha 65VeEUNFSxSDNyBOKkqSswj7BYQl92mjWp1MLqdM5QI=
+@size 17117
+share/doc/apache2/configuring.html.ko.euc-kr
+@sha /ysVpzFDuO+aOATnXquKFC14aFYHfoyGz+EYqLYZivw=
+@size 13773
+share/doc/apache2/configuring.html.tr.utf8
+@sha aSbu9/DMACun9h1pAve1pSkExlugdH9UMbJFtJqsECM=
+@size 16666
+share/doc/apache2/content-negotiation.html
+@sha v4cGEeKY8SH6BnpeCRHY4tmFcvd6eQNCGJ11ytOrEBk=
+@size 534
+share/doc/apache2/content-negotiation.html.en
+@sha fFzNiR/HYrXc8PCy0NveZHDV5cqaNq91lXvq3TWtf2w=
+@size 33910
+share/doc/apache2/content-negotiation.html.fr
+@sha BmOJoYhV+IL7p5mLZSQVOQUUBafbuz7Q9uBLdflWJkY=
+@size 38160
+share/doc/apache2/content-negotiation.html.ja.utf8
+@sha zad9YM5j2JSpNm04E5L3nf05lgzX7tLPGT/uAOVrtyM=
+@size 41638
+share/doc/apache2/content-negotiation.html.ko.euc-kr
+@sha 8Mlyw01cNmLZ/JDR2nNcoCYj0wN/jhMl9gYOj/elcck=
+@size 28896
+share/doc/apache2/content-negotiation.html.tr.utf8
+@sha Z0eA0dZSaw1peFUI2Jjc7CInJBlz2gmIQY5hAD54i6U=
+@size 37333
+share/doc/apache2/convenience.map
+@sha 2xJ+XyiV0qc8Js28oUsAuvQC6nn7YJCMt5Frz/j8TKc=
+@size 21053
+share/doc/apache2/custom-error.html
+@sha bbXEEUEo9kXaQYrcX1eGC/MzOeh9jt5rrI6ObWuzZy0=
+@size 499
+share/doc/apache2/custom-error.html.en
+@sha cCuocWrXnT8AbCYBAFTwOcWccWadUsYD/NqJQLPu+OE=
+@size 11821
+share/doc/apache2/custom-error.html.es
+@sha ynxYGp1Jufx4yv09L6Ea/PgNw5H/JcywphkU8BAQVOU=
+@size 13036
+share/doc/apache2/custom-error.html.ja.utf8
+@sha F2pTf9TrD+gpMaXCJjOy72OoMQsamjT3Jn1DG7p2nxw=
+@size 13157
+share/doc/apache2/custom-error.html.ko.euc-kr
+@sha soXsn/O6M+qYNIyv3neYTGDsQAmOg6wBXsuP3TI1m4c=
+@size 11318
+share/doc/apache2/custom-error.html.tr.utf8
+@sha mnHXUaapPVeZw1rqA3mj6TGU8/WsqksQFnulgIjVvOo=
+@size 12539
+share/doc/apache2/developer/
+share/doc/apache2/developer/API.html
+@sha 4j2AKGrjl4HsRSTsmU7kpl4LOnvUJB1lVUzWBhi64aQ=
+@size 119
+share/doc/apache2/developer/API.html.en
+@sha dSHNEwT6TkepzOas4Ua9O0tXvHcFn1xcPRW/uYeCMjg=
+@size 65121
+share/doc/apache2/developer/debugging.html
+@sha yZUkg1KnlhFF3wWCY8Jvtnr18qJqqT5+zM2ucY9OCJg=
+@size 125
+share/doc/apache2/developer/debugging.html.en
+@sha r+QW5EoAzaIL+Vpvl0NnWSsSgWP1P5VRZqifSU3nSqg=
+@size 4391
+share/doc/apache2/developer/documenting.html
+@sha 6VSAcKMoSP1yOzlM9zh7KMYTvi1i8q9EuMTgVPqX+gs=
+@size 224
+share/doc/apache2/developer/documenting.html.en
+@sha 4nMlU+eE3GZBeYsAxK+qfFumz5DziAVFibZColC3w1g=
+@size 6872
+share/doc/apache2/developer/documenting.html.zh-cn.utf8
+@sha WG4wJKyOW5PGPjp4YW/oBkmZQjnZpOSbKU+/AYHNn1k=
+@size 6671
+share/doc/apache2/developer/filters.html
+@sha 0BtCHFVkmHLKW2871eIqcfjfd9zXW5hcFrBxykmhXxE=
+@size 123
+share/doc/apache2/developer/filters.html.en
+@sha /9UqfoVURo+15IYW6lzgMZiKJTca2sM0sE0m4ijonms=
+@size 14670
+share/doc/apache2/developer/hooks.html
+@sha KWxghTIDyjX/pTHiOx1mXfrZQuLgwFCl7UVJ3dJzgy0=
+@size 121
+share/doc/apache2/developer/hooks.html.en
+@sha OCZX0vomI+t0/04YS0bDhLLSdxXsO2saRn6uRv6jbhA=
+@size 13127
+share/doc/apache2/developer/index.html
+@sha KKvxngvssgODYeXp4jxOfgmZ+QyGB4tNCoxoSbyG6AQ=
+@size 212
+share/doc/apache2/developer/index.html.en
+@sha 7lDwlQfiMZ4lGXFuXKfxwJSJ3cP2RM477iDlfgYgA3g=
+@size 5106
+share/doc/apache2/developer/index.html.zh-cn.utf8
+@sha UGVaDjkMYfoHjOmvzq+tYlRpqivso8Q7q4GCnurm1us=
+@size 5553
+share/doc/apache2/developer/modules.html
+@sha a9tri8d/6X6i6Orrl5U+KwbQ+2+QrhUS+je5AgVK+VU=
+@size 210
+share/doc/apache2/developer/modules.html.en
+@sha etvbWHYxSDJKiMjuXTBFjaB7z0HGJsOKMP9Gu5qU0p4=
+@size 14163
+share/doc/apache2/developer/modules.html.ja.utf8
+@sha 81/SDGXss46hvD/xyyIDG6PezRDW+yMlMFQ7bWZGmUc=
+@size 15892
+share/doc/apache2/developer/request.html
+@sha X3jG5O3kdFBarovytnB5eS29LFaEWT/W9YrDxT0KSnA=
+@size 123
+share/doc/apache2/developer/request.html.en
+@sha Z6RBPbKwj5T1OyEX7U0xkv4h/pmBRWkm4UVJNNlTJhY=
+@size 16474
+share/doc/apache2/developer/thread_safety.html
+@sha inMuRxMEy6nw9k+j4xhbIKn4I7kQHqaWtdIrJqalW38=
+@size 129
+share/doc/apache2/developer/thread_safety.html.en
+@sha XN9WbXrPBYl73nMJddOkl2ANaIHaIbkBrYxI8pvdpvU=
+@size 17753
+share/doc/apache2/dns-caveats.html
+@sha P0Q+fGEXP3hXjNer7r849y/D5zQT4rgmusYgIR6MMXg=
+@size 403
+share/doc/apache2/dns-caveats.html.en
+@sha 8AyZMZJBeKAsBhPqAQQWyP1nBVfqWpeyLfY5yu8Opbk=
+@size 14897
+share/doc/apache2/dns-caveats.html.ja.utf8
+@sha ad5/3dlYioRtSkyI76tByl08UMNN2MJLxE9ECbLvfjQ=
+@size 17243
+share/doc/apache2/dns-caveats.html.ko.euc-kr
+@sha B9ZmC/Ekjo6wWkSvMh/hxVoS6I42odGRqTNu5uQ8DiU=
+@size 13319
+share/doc/apache2/dns-caveats.html.tr.utf8
+@sha 9oGM1a+5MmdG3EMpI3tSaRks1eUw2m9TKafVa+2puIU=
+@size 15946
+share/doc/apache2/dso.html
+@sha SWP4NAKbrLyYW7vkmcshbcHOj7IrwJxQX8na7Ae/s0Y=
+@size 371
+share/doc/apache2/dso.html.en
+@sha odYyIV7TiD6FJldQe5M7Mumyd1gPAuPfZt67ffJ2yy4=
+@size 19481
+share/doc/apache2/dso.html.ja.utf8
+@sha gnP+H2pzgk5twS+uCuR/fo1ZHG+azadT5HxfqPKefo4=
+@size 23379
+share/doc/apache2/dso.html.ko.euc-kr
+@sha oTB8oGmOCjc8WU3qPl/I8H3X3CQIJPtQOg9qImBlpnU=
+@size 16532
+share/doc/apache2/dso.html.tr.utf8
+@sha AKnBq5sY3tSli+8VjYA7gL1tzv4vmsY2DYoJa1gRo0Q=
+@size 21995
+share/doc/apache2/env.html
+@sha qCkGacq8TgaxGf1NYJQvQR+aqxFGaVb190uxx8jN7Oo=
+@size 371
+share/doc/apache2/env.html.en
+@sha Cq5SF5Bf/UY5bONyKlWSL4mFgXSJOZZBJpiB544v5Z0=
+@size 28042
+share/doc/apache2/env.html.ja.utf8
+@sha 8TeNfrhU44M5RVptr1e4BHjDyjKEtgdOM7prFEcl33U=
+@size 29331
+share/doc/apache2/env.html.ko.euc-kr
+@sha FgjY23/T8zxX/rsohsmldl57pzG7jKePLYDjJsnvUkA=
+@size 22215
+share/doc/apache2/env.html.tr.utf8
+@sha bHiLaFE1L+eWsWXbx+p46hAcNu9KgseofTR8nRzTMEE=
+@size 29842
+share/doc/apache2/faq/
+share/doc/apache2/faq/index.html
+@sha TnJgPs9W5CqsjO95+J/YaH8e1f7ZD3X29zB0lh+BII8=
+@size 297
+share/doc/apache2/faq/index.html.en
+@sha 4ubqKoKaJUahRFkA7l+mqdgQfNplXF5GVHVmrZ5F3lU=
+@size 3238
+share/doc/apache2/faq/index.html.tr.utf8
+@sha 43pa73b65bJbu3N+/+YiTyCI3hDGVaZ87N6K5q9jyMQ=
+@size 3253
+share/doc/apache2/faq/index.html.zh-cn.utf8
+@sha vQk1Hoi9dRjYlsInbY7MEWmxYm3lNYsNttvt28RRPAg=
+@size 3212
+share/doc/apache2/filter.html
+@sha yKJNWOwJE2uk7XENT1aGlmcIj+wBxV509kfr8jPVlMw=
+@size 555
+share/doc/apache2/filter.html.en
+@sha 7KFgxAOCZhU82DBK67Lcpgiyy5zX4Jw3DMTmTeU9Nfo=
+@size 12797
+share/doc/apache2/filter.html.es
+@sha 5qD5XVR1LlICPuTipgtlID09lUwu5EYZCleWVO5GcOM=
+@size 9018
+share/doc/apache2/filter.html.fr
+@sha C1zFZ4v8Zt++JkQCsPEPuNgsWiWqnIHSQWarD3X6Sxs=
+@size 13632
+share/doc/apache2/filter.html.ja.utf8
+@sha mzpXZUk1NlBXWJ/KdwUzQ6LUFEaCIfLfEz5Z2vni9Ug=
+@size 14204
+share/doc/apache2/filter.html.ko.euc-kr
+@sha vTzAt05eQ+9mlvdwpQO+rY5mhAWK8dQx46+U8HM4DwM=
+@size 8485
+share/doc/apache2/filter.html.tr.utf8
+@sha 9coKEDRoEXe2A9DnIYOP/9KTrPy5b7u/zYaTTEB4ktA=
+@size 13912
+share/doc/apache2/glossary.html
+@sha BHhCUPE/adMFxQd5t3Ico7hDJBudKwiuaOpPVV/EEI0=
+@size 655
+share/doc/apache2/glossary.html.de
+@sha eZKqoF0FrrHJehtyT5MlUyB/ZJbYTV6+bUyXBsNx6Pk=
+@size 34540
+share/doc/apache2/glossary.html.en
+@sha //ehPLeCioE70JckEmKXwvVmlyCkjIRn+Xsna4yukis=
+@size 29679
+share/doc/apache2/glossary.html.es
+@sha 3HEknfqPRicGCZqBL0OhbyfggJkVlANzGQhw3OSvAHk=
+@size 25413
+share/doc/apache2/glossary.html.fr
+@sha KrQQHIpmGRjvR5AJaMlXMc3r/XmiavEZPpmUnsi6qCs=
+@size 32389
+share/doc/apache2/glossary.html.ja.utf8
+@sha V3xNRZ7hgQBSROxTRAhYMZrhsv8x0Hfu03Kbr4/Grlo=
+@size 32708
+share/doc/apache2/glossary.html.ko.euc-kr
+@sha Pyf50Z28wOTbnn5n/ROVHm/alhYyRPW8WEL28GQ/Bvs=
+@size 21298
+share/doc/apache2/glossary.html.tr.utf8
+@sha jQ/yiVSQei/K8iEHGG8hrqHiucERdu9vp9DTfN3VIJo=
+@size 32732
+share/doc/apache2/handler.html
+@sha cZ0AY99yQr0BVpuCcLowlmWB7QrOfdQHkowHeQEYB5k=
+@size 744
+share/doc/apache2/handler.html.en
+@sha nXd1DSnElG5cuSj0v3QbCJq05MdVF0Lw60sncQvo66g=
+@size 12084
+share/doc/apache2/handler.html.es
+@sha ghDN3lwLNNH1B/0LXDCeMsuTZJrwiodRmfTP2TzHoxg=
+@size 12907
+share/doc/apache2/handler.html.fr
+@sha W46hEYb08xJsNYMtgDk7GW0eAOYaAUV1ebmL1l9ZVbM=
+@size 12829
+share/doc/apache2/handler.html.ja.utf8
+@sha 8P9RI60Kp6+73IdvZ1/QjefthjbatOwtsa9jmNUVnn4=
+@size 13330
+share/doc/apache2/handler.html.ko.euc-kr
+@sha hXRLqZPkAiEc/6c+pdND+DuGEvaCEKPr4u0UA1uTSwk=
+@size 11548
+share/doc/apache2/handler.html.ru.koi8-r
+@sha kK1VSPzu65i6Z0h4KZcdEvzHWw/9CZ0DPXtnwFK6NxA=
+@size 12981
+share/doc/apache2/handler.html.tr.utf8
+@sha Fci0/P4/lKsVNl0wmTsRgzK+IHEKAhWd0+3gyNPrhOI=
+@size 12717
+share/doc/apache2/handler.html.zh-cn.utf8
+@sha h1D1wnHThQjElLO/bM/RzlyO9ICVzvpVPkImMpBemaw=
+@size 11435
+share/doc/apache2/howto/
+share/doc/apache2/howto/access.html
+@sha W538y78O5jqOWPwmKaM2pYXczC+Oq5yZjPAcbKoXgRE=
+@size 122
+share/doc/apache2/howto/access.html.en
+@sha zeDHg7ElJ+Ff1ecfc32s/g0n8JBxZ76WFu8pIi4PNps=
+@size 11980
+share/doc/apache2/howto/auth.html
+@sha ewSG0YNZIg9ocH/C1l6E7I3GWaf2u+ryI+j6buzSxm8=
+@size 459
+share/doc/apache2/howto/auth.html.en
+@sha BGUfxa99l3MtbE8k7pNuBl6sCMSRbRu+kJa/5PRWREI=
+@size 26689
+share/doc/apache2/howto/auth.html.fr
+@sha NFefAfKJZcvz0is+c15Nkg0a+Eyj7VaPXv92cgdU9ok=
+@size 28721
+share/doc/apache2/howto/auth.html.ja.utf8
+@sha BVB9/CPEeHnoCPFroYVqlXbQxb4WY4CZubN3HG5fjpE=
+@size 27820
+share/doc/apache2/howto/auth.html.ko.euc-kr
+@sha TmEl67bOHGPsuzUGguQYH8Lqs7WOA4GW/7Ar/VvkX7Q=
+@size 20579
+share/doc/apache2/howto/auth.html.tr.utf8
+@sha bBjn9kG9d1Iyq0rPPTIyx1iaNYnFyHviLbIUsbfsqCQ=
+@size 27734
+share/doc/apache2/howto/cgi.html
+@sha J/W9XyYrIEaTqAXXwkxa5F38tE0sNWJJfonFOgU9QRQ=
+@size 288
+share/doc/apache2/howto/cgi.html.en
+@sha ykER22edlBzonQYljA9iGDqdOCy2/pEmoxDUVAVql5k=
+@size 30709
+share/doc/apache2/howto/cgi.html.ja.utf8
+@sha uf2VMr7BAhvEVOHZc0YuJhH6QcLBKd6Tvm+mEM4Tj70=
+@size 35538
+share/doc/apache2/howto/cgi.html.ko.euc-kr
+@sha 5Gsqq93imIFt2dj2E4xAagqtgtTlc+4yoqGSJK++PC0=
+@size 25749
+share/doc/apache2/howto/htaccess.html
+@sha 7ZyVASrc6YemO0v8bbmaaCOjX8l9dWTfp3GymRKw/i0=
+@size 485
+share/doc/apache2/howto/htaccess.html.en
+@sha T/OT4wawiTLUBRFZ0ymiXLof8ZBr3DHciaS28/u0qLY=
+@size 26299
+share/doc/apache2/howto/htaccess.html.fr
+@sha b8ZaOWp/lRcSEdYz6RtJ5pgZkmR+v3MkUxiB/LfqrUc=
+@size 29340
+share/doc/apache2/howto/htaccess.html.ja.utf8
+@sha 7NOpPsHw3/4HE6IjW8ScXPGABSMrvCZP2WEVcFc1yHA=
+@size 28386
+share/doc/apache2/howto/htaccess.html.ko.euc-kr
+@sha 41rd+RmanTb8ikyH9Uqo5mYxd0qeugf4ehK8h5cxMM8=
+@size 20177
+share/doc/apache2/howto/htaccess.html.pt-br
+@sha lcn14L3ecf5Id7BiiaKbuE/JQOaxzhMHJFTC7UsQYhU=
+@size 23945
+share/doc/apache2/howto/index.html
+@sha K1pQcEoovjz7cASYQW6Q1i/orJFpLXo3BH1Ljb1BsrE=
+@size 385
+share/doc/apache2/howto/index.html.en
+@sha P9eXiYzMtjTG3QTgpUDdRVN25qiVj5VOD6TQZg5bGu4=
+@size 6593
+share/doc/apache2/howto/index.html.ja.utf8
+@sha lJix5iMtfPLV4T+uKJ9TYKfUlMUVe/OEg27iZVWfbE8=
+@size 7397
+share/doc/apache2/howto/index.html.ko.euc-kr
+@sha h9u+P01lVR1CeFHWC4+n/oMmaW/hRwJgKCpAcDA4SVs=
+@size 5972
+share/doc/apache2/howto/index.html.zh-cn.utf8
+@sha 6uhhEHVR+iXSYtT7PrLOA+HWIHQ/5Uk1PgeJuh8hTz0=
+@size 6230
+share/doc/apache2/howto/public_html.html
+@sha 6ykWtswrHnYnxh+2AiJUt9tU/+gv0XkaAe+lU0YIf1A=
+@size 403
+share/doc/apache2/howto/public_html.html.en
+@sha 1hCxtVwpna8VSuShBsPFa4ZGzZCbgVwEuiQ/Yv5jn9k=
+@size 13079
+share/doc/apache2/howto/public_html.html.ja.utf8
+@sha 9UPTlx9d3n+ODRenm+CQ2T+tWsW+P8AHEISXtdjd5Cg=
+@size 12471
+share/doc/apache2/howto/public_html.html.ko.euc-kr
+@sha JKuGmgcPblxDYiOC1VxuvDiFV3xzPspPitZsVGL9Qqw=
+@size 10792
+share/doc/apache2/howto/public_html.html.tr.utf8
+@sha qxQ6Lul19eFe1V989MM2lLE9s+dQF02OP0vwkuNXRXA=
+@size 14118
+share/doc/apache2/howto/ssi.html
+@sha 2mlEi2aPzRLKwkbHDjy0fFHHLlB9RbIvXscg34KajDA=
+@size 288
+share/doc/apache2/howto/ssi.html.en
+@sha /amInoV+hVw8I4tJH/z4eFAR9k6vmLm5piU96NeR/30=
+@size 25746
+share/doc/apache2/howto/ssi.html.ja.utf8
+@sha DA1SM6FWELBK2FLqwrOKrWhv8AR5jZ6mC1EOXzrEiaU=
+@size 30642
+share/doc/apache2/howto/ssi.html.ko.euc-kr
+@sha HcHK3F3EEfR554A7UgCtIYSyeC7BMORQD0aNMez2jKk=
+@size 22141
+share/doc/apache2/images/
+share/doc/apache2/images/apache_header.gif
+@sha LBNhGbCYdkMDGjxyn8t0o7uL2uvcOnyXdZTSi1TLHdU=
+@size 4084
+share/doc/apache2/images/caching_fig1.gif
+@sha wontiXSqlR6lrDpY6m6hltZCCbGZ9UtEAgvEPCEt91k=
+@size 16515
+share/doc/apache2/images/caching_fig1.png
+@sha DNHaWGQWYfD5LaH5QkiYVd3xu6OU4ikTzXjj0GuvxiQ=
+@size 13452
+share/doc/apache2/images/caching_fig1.tr.png
+@sha 7gvP1fu6kgPyG6NIvKnj1FdfX9JFUvp4spCSMqZDE4Q=
+@size 11460
+share/doc/apache2/images/custom_errordocs.png
+@sha 8mYt1cEO2ZH84vQQNvAedFUFi3p2TUGDtS7yVsL2K6k=
+@size 17167
+share/doc/apache2/images/down.gif
+@sha OuSp3RS31j455Pdun5PWwe6MMZC+3Hg5o0UK3KhtOV8=
+@size 56
+share/doc/apache2/images/favicon.ico
+@sha rHrU0UYP0Gxnont3Cm/lHjnchOlodpE7aPcgoWlQHoo=
+@size 1078
+share/doc/apache2/images/feather.gif
+@sha Y/ILX4YeXSv4McGVW2HiWUlxv8ccAkOkGZGavPLX+Uw=
+@size 6471
+share/doc/apache2/images/feather.png
+@sha 3Za1xgqQ+X8TcypM0lJ8TyvTz7lKqIB4v+KOqjUiHFo=
+@size 5768
+share/doc/apache2/images/filter_arch.png
+@sha rWaBmYyIfjbono78Ppv/xwaB6LsRusf1caeDhc/c+dE=
+@size 2411
+share/doc/apache2/images/filter_arch.tr.png
+@sha ylvRyuarB4Z2ITrfbNA2weJUzyVuQ+c9Mcwbk9gUv3I=
+@size 2502
+share/doc/apache2/images/home.gif
+@sha CFBrSj1Nf/GJrvx+4FIk07Q9xCQnouv4LdB7b5jDcBs=
+@size 1465
+share/doc/apache2/images/index.gif
+@sha f9iTLdQEXRrn1xdj9xnnkh0Gfz45GjFBeSIibjsx9FY=
+@size 1540
+share/doc/apache2/images/left.gif
+@sha BDBD8Jmvk2UPcGeUoGL0EP2eGWzuAFTfDetQVkZLm3s=
+@size 60
+share/doc/apache2/images/mod_filter_new.gif
+@sha jmVbkpqqrzriHinpukQHOGW1uKidBlQnULtqldeHjhI=
+@size 2392
+share/doc/apache2/images/mod_filter_new.png
+@sha ZeH90oJo4su+KAkO5Xwei+X/ODvdWimXMKU7ruKBcP4=
+@size 1052
+share/doc/apache2/images/mod_filter_new.tr.png
+@sha S6nWbSqmXDbNwOt/8GXojeNnHwvoulMi73k+rdB4krI=
+@size 1326
+share/doc/apache2/images/mod_filter_old.gif
+@sha 28AySE5qC+ML/EaA7nYv6lco/YAaB9LakHB98eoJAzc=
+@size 1230
+share/doc/apache2/images/mod_filter_old.png
+@sha Dqq86XFbQ0GLqhZHE/szfruTZcM5e7EFtuWf7VG0Zdc=
+@size 738
+share/doc/apache2/images/mod_rewrite_fig1.gif
+@sha Rd5puNu7559QMyS4M8rF4C8o9yMDq6YWAPVdA765nG4=
+@size 3525
+share/doc/apache2/images/mod_rewrite_fig1.png
+@sha jQSMO5VyfXnX8GN0bZX9V8br1o0Y4eLfNwKIkSJbias=
+@size 1700
+share/doc/apache2/images/mod_rewrite_fig2.gif
+@sha CQQOi5IEovxdDY38trPu1PuUW8LrxVqXxFjci94MCPk=
+@size 2553
+share/doc/apache2/images/mod_rewrite_fig2.png
+@sha UiuWFhCLOEPIYOFQhHKzHJkWCG3kMFPS1DWQsjHVoVM=
+@size 1381
+share/doc/apache2/images/pixel.gif
+@sha gPB8mzSvxN9zvCzWXwqzlgHjt6cVGsKu7Ia5uTTjVd8=
+@size 61
+share/doc/apache2/images/rewrite_backreferences.png
+@sha xHegmT53oWYtAA9eyV8nr0OlRww4nLLxQgNA1aAFIkc=
+@size 37163
+share/doc/apache2/images/rewrite_rule_flow.png
+@sha Iischp1CEOlVI9msCBE8opvjHZIihdLy6yQfK3aGKKU=
+@size 40325
+share/doc/apache2/images/right.gif
+@sha 06oE23jz33ay9GfBM+1vD/O94EmrBACTJcDEY8us1NE=
+@size 59
+share/doc/apache2/images/ssl_intro_fig1.gif
+@sha ZFdkWx8GKHxLPPhM9v5LZaZTZ7xwzq6e5ak8nYwtKzo=
+@size 5738
+share/doc/apache2/images/ssl_intro_fig1.png
+@sha 5j3sJWtjPc2GGQGdyvrMVQkcTmGRepmeVgUerGfsNo0=
+@size 3331
+share/doc/apache2/images/ssl_intro_fig2.gif
+@sha W71COtdaMZUXEn8CNePVFdQy1kCoZp7GFnwWnNAhtlw=
+@size 2700
+share/doc/apache2/images/ssl_intro_fig2.png
+@sha sdJdJto69sym8hIVCVqa8UajAKXGScfaSaDloiODEIY=
+@size 1208
+share/doc/apache2/images/ssl_intro_fig3.gif
+@sha 0avqRZ9YKHNISVcoKsmr+bQTVQNQ64JhYoKN5noIojM=
+@size 4020
+share/doc/apache2/images/ssl_intro_fig3.png
+@sha AEjHH/eV83aj2ACWg4ME0G8WOrXhSLI2K8Rz32zuRCM=
+@size 2568
+share/doc/apache2/images/sub.gif
+@sha ZNu5Vk0ABWk0Sj66doDhVvBMNDw8+YyenkDOVFocx6Q=
+@size 6083
+share/doc/apache2/images/syntax_rewritecond.png
+@sha LPGOaLxV71bkN2OqTYIL8JQ/y1uXJkROxZtruvxyhzk=
+@size 44876
+share/doc/apache2/images/syntax_rewriterule.png
+@sha 8Eue/qpto75D32c0CPdKAqyUWjQwEji+8Y9v02F8//M=
+@size 53367
+share/doc/apache2/images/up.gif
+@sha YsyAy3UHBsm9eZ7PEqAeuuDKKlWWjqU0Opr2S2/SMwQ=
+@size 57
+share/doc/apache2/index.html
+@sha 6tArT4xjGU5n0cw405WkKhVgJ1mpTSfGljx3H/wZP30=
+@size 816
+share/doc/apache2/index.html.de
+@sha MrJF2MmVnxal0C7ScZsBswLJNMt05LqR8djmPVG/1cs=
+@size 8421
+share/doc/apache2/index.html.en
+@sha wkD8vpp4m4vRn8/Dr6N8ihAi0PItuKaHg3EfGT2mBAM=
+@size 8324
+share/doc/apache2/index.html.es
+@sha YbfuONrxTf2L/XHz3QlGlZOZhhMeMzCU0xiNeOuazAM=
+@size 8753
+share/doc/apache2/index.html.fr
+@sha zKl+zh7+9+0PxaPghHl+BWEqiAmjhxXKaN9z450zdog=
+@size 8620
+share/doc/apache2/index.html.ja.utf8
+@sha /irtRgEv4od4xqhVCZHbzESbZtFXAjrmqBG58kSC8fo=
+@size 8959
+share/doc/apache2/index.html.ko.euc-kr
+@sha ok/aMMdfiVNA4/h43ELFSLmu5tLyHStcXCdcVuCxPAw=
+@size 8011
+share/doc/apache2/index.html.pt-br
+@sha k1wO9o+39OUQnzdHeRRWJLTPC+NohS8DS8ckcErSaOs=
+@size 8504
+share/doc/apache2/index.html.tr.utf8
+@sha hlpiNag4Fz/YQPuDfDiunGe3inUPKhkfxHUpLNtpQK8=
+@size 8539
+share/doc/apache2/index.html.zh-cn.utf8
+@sha DTn+qB3xqcnRpNI84P7OmH+L6Kbc6WWkvXQKxKVellU=
+@size 8199
+share/doc/apache2/install.html
+@sha nlA2qNX0nef4zt0VaCTLsIsZZ/reDuMx6e4DVpVHepw=
+@size 648
+share/doc/apache2/install.html.de
+@sha hJG8CdodDNkAyH8gQG5bBCa+A6du14woUcMSwuZ1dk8=
+@size 26333
+share/doc/apache2/install.html.en
+@sha EAzPdVy8sv1q7X/vMMPULEfQ/rM0g2DRWjynt294EHY=
+@size 25047
+share/doc/apache2/install.html.es
+@sha zeO/tHp9UXtNght/6Q9gwYvoO67zj8Nn2hKMsIj3P8I=
+@size 25121
+share/doc/apache2/install.html.fr
+@sha sT5d3V8b3SNjmNzRojua/2pkE/4Olgcn11mizIrwVaw=
+@size 26873
+share/doc/apache2/install.html.ja.utf8
+@sha En/qE/sa3Fkis969+tQGEWCDxJh/Hbf0xw3xcX5W52c=
+@size 28859
+share/doc/apache2/install.html.ko.euc-kr
+@sha bdXMos3roEl2xXhkt3JpbloP1Dz/3zmfu27rh8md/Cs=
+@size 20080
+share/doc/apache2/install.html.tr.utf8
+@sha 4SvVXeticVpLaK8q+fkLmruqEvRg0H65kJOdwSQOHOY=
+@size 27033
+share/doc/apache2/invoking.html
+@sha DP16dbsIvvwXylEGIKkw3IZ3ByTEduKQVYrhNjHnsSA=
+@size 746
+share/doc/apache2/invoking.html.de
+@sha ZxNV8urpSe73d8xGlo+AIOXioHcQ/F6RR55YwTDOeIE=
+@size 13916
+share/doc/apache2/invoking.html.en
+@sha za31KlG+WEguHCgFT5+krVfH4+XTEoy7AASpwUQcBkc=
+@size 12983
+share/doc/apache2/invoking.html.es
+@sha UZ3tHLzMgU6V2qykDRgdCDOCSpP52pPKgRCZZPvCwgY=
+@size 13316
+share/doc/apache2/invoking.html.fr
+@sha syiMLd/543CRZMaxqCeYto2tOWvAM0DVUCP+JZvkpjw=
+@size 13833
+share/doc/apache2/invoking.html.ja.utf8
+@sha IyByDOT5E+6WVwWgnVCQ3WOnwL9peFBddKlCEFNgWig=
+@size 14773
+share/doc/apache2/invoking.html.ko.euc-kr
+@sha oZnO9pBpqnorhAXfg1B5JXsBhrEgyzP1fNVJbsrdpWI=
+@size 11095
+share/doc/apache2/invoking.html.ru.koi8-r
+@sha eTbE3crUax18tek4Rhaw/x6u5Rsfjt40ddxYrzm+30I=
+@size 13658
+share/doc/apache2/invoking.html.tr.utf8
+@sha 87+GGJI1kmiWV4W8Z64ftZ/4rDl3UArcxBp2rxoC5qE=
+@size 13820
+share/doc/apache2/license.html
+@sha O7/kdxe5/oB83hJs61IidqMopbURQLDYHXHaqWj3TTg=
+@size 123
+share/doc/apache2/license.html.en
+@sha /WDJZxKI+wWQNyWidgvy4t2NypMSrAgkPLYrT5GZKNA=
+@size 15784
+share/doc/apache2/logs.html
+@sha ncqggX1QTsaes2COi3gwp13stdxKUhisK3XKJV4YIco=
+@size 459
+share/doc/apache2/logs.html.en
+@sha hD8fUGqmRtdtxP2qT6ta+hZD45wRQzF8qqPQtBwZDeI=
+@size 35957
+share/doc/apache2/logs.html.fr
+@sha FQWODu2W9iqSop+2MHKaXA5w9piGLWnUKb9Kg6vjbz0=
+@size 40253
+share/doc/apache2/logs.html.ja.utf8
+@sha LimlyhDwUqWZ/zdIcIUpBc9EQazsQ8gMNx/rANSFeDo=
+@size 40966
+share/doc/apache2/logs.html.ko.euc-kr
+@sha NnfGG5z9Tcc6Pc5erFdXgI5yCd1+cGlndTC9a08Hbs8=
+@size 29592
+share/doc/apache2/logs.html.tr.utf8
+@sha d7nHToD5EYoHcJ32YXGvBqENJfuYMtL6q8lwk47QL2Q=
+@size 39126
+share/doc/apache2/misc/
+share/doc/apache2/misc/index.html
+@sha BlLKpK+UtAMVkXxUUXPl5wJe/Q189qlogGRWWYhaT4k=
+@size 385
+share/doc/apache2/misc/index.html.en
+@sha +io4wj12MaQ9gf6RbwBK6zHBVH/CZgSijCV4PzCXYUo=
+@size 5228
+share/doc/apache2/misc/index.html.ko.euc-kr
+@sha 2fLfxIm1oxG2UR/5hNqNnIpk20SyQLlNbLnq2HwKVG0=
+@size 4801
+share/doc/apache2/misc/index.html.tr.utf8
+@sha f3MCvJq6E3mKfLl4XX13REUDTI5mS7RKbHLfzdwDkyk=
+@size 5502
+share/doc/apache2/misc/index.html.zh-cn.utf8
+@sha xMomHbDkIpI1UktCddNjIh6MuGIbYPCJXAqolVgqCjU=
+@size 4992
+share/doc/apache2/misc/password_encryptions.html
+@sha s/DzjvxoyFdrma/TJDV4OX0BSa0wYcQgtsJzEDM0Fuk=
+@size 136
+share/doc/apache2/misc/password_encryptions.html.en
+@sha pPZ/fjeds2eh12YQjufdCqiiWuuwl90q/aSwWbxszxU=
+@size 11725
+share/doc/apache2/misc/perf-tuning.html
+@sha 4EnuLWH83wjp7HV/G8fU29i2bFqTjptSrKKMB132YlE=
+@size 312
+share/doc/apache2/misc/perf-tuning.html.en
+@sha 46RmbAQ3xcewXKtGDEiyi1qRWG17hTOX/yjrVXB/nGI=
+@size 54094
+share/doc/apache2/misc/perf-tuning.html.ko.euc-kr
+@sha +yFWhekdNinzBX26QqlEZN9zKgtPFK9bkjcmLJmqZ/A=
+@size 47390
+share/doc/apache2/misc/perf-tuning.html.tr.utf8
+@sha E/YjOWzxXxqJnbPYNSM0hDY6EBelkl/Zf/8S/cpk9/A=
+@size 61460
+share/doc/apache2/misc/relevant_standards.html
+@sha TDmiNFsRdN1f66Rl9b6e+ZtSoMzU6TeuDlUitCx6vx8=
+@size 235
+share/doc/apache2/misc/relevant_standards.html.en
+@sha 6Vd7JD8D4GD78cN/7roftwt/lhZnRPCp0ViSq1BUJpU=
+@size 11685
+share/doc/apache2/misc/relevant_standards.html.ko.euc-kr
+@sha ntCk9EVT/QxNGV9Mc8jyqpx5nAYlG/JKNLYq37RKjlI=
+@size 10865
+share/doc/apache2/misc/rewriteguide.html
+@sha uoeCTvxnNPStUxSdMComF/baAowvs40RrC1GrTfRBwU=
+@size 223
+share/doc/apache2/misc/rewriteguide.html.en
+@sha SDGoFCUW18prU9h6BTCg4hoWazxo9dz1To1GmvurFmM=
+@size 4674
+share/doc/apache2/misc/rewriteguide.html.ko.euc-kr
+@sha Qf9Pz3s/4MNMrln/iAkMYC2FYshkuo9rImPYsYWnAJM=
+@size 65937
+share/doc/apache2/misc/security_tips.html
+@sha No8zrWxdl3NErCj8k3y5pQqHGxAg6Zb2Jf2OKriXt1M=
+@size 318
+share/doc/apache2/misc/security_tips.html.en
+@sha sOtOBoZhMUeYXuYHAVafyFsH8/i3QxhhocP3oyEHXUY=
+@size 20359
+share/doc/apache2/misc/security_tips.html.ko.euc-kr
+@sha gFhQ0H29Dslojj6R+7r1D/hyPK1sTGEwwVrWxeEnwjs=
+@size 18483
+share/doc/apache2/misc/security_tips.html.tr.utf8
+@sha IopxDeVSXyj6hrfW7zorPvmf1GtJdmTxiPLRHkExJB0=
+@size 22289
+share/doc/apache2/mod/
+share/doc/apache2/mod/beos.html
+@sha rr0uSTwXscTNqDfBQI0v3E7LXlIGK1rmfdUKrFkmCtk=
+@size 375
+share/doc/apache2/mod/beos.html.de
+@sha zQ7avwg7XndsmLuqGwnIhluYRPOTRLFxsHfijUGwqhQ=
+@size 9419
+share/doc/apache2/mod/beos.html.en
+@sha xptU7hZKBDxxAfjKmxks6J/CFNEZG6mKmHgrJm2BBWw=
+@size 9320
+share/doc/apache2/mod/beos.html.es
+@sha B/+PgUVOuyZpHcOrY2xCDEyXCZRHs0jXZsfsFxJfp8I=
+@size 9901
+share/doc/apache2/mod/beos.html.ko.euc-kr
+@sha +jwainh6gSFYMRsgfWPmvLx50luBptuvv0HXNkOknks=
+@size 9092
+share/doc/apache2/mod/core.html
+@sha I8j10r+015FRG/OHmVlvrIC3mk8/lhMs+WUK4VUg6j0=
+@size 456
+share/doc/apache2/mod/core.html.de
+@sha hLv4q2W6tcbNJ3PJanO0teQIuRJLwOjNuMQ5K0YBN5M=
+@size 201544
+share/doc/apache2/mod/core.html.en
+@sha m17sGMHfqF8TaNsWiBNRbqqyZ1TuKQq9kSxfHwLKqNQ=
+@size 209010
+share/doc/apache2/mod/core.html.fr
+@sha MPiGGJKi9hAi86gRAUBrtiOqjQSLl9JyY1o/s1X94Gc=
+@size 229485
+share/doc/apache2/mod/core.html.ja.utf8
+@sha BwBCcNp7zi+y/HFd3Ff+VFlrmOTSBiUH/pll2tOlDpE=
+@size 230618
+share/doc/apache2/mod/core.html.tr.utf8
+@sha I/G9afJmO3coX87LK18/pp7g6G1tbfEUXozjmyGnqTQ=
+@size 223613
+share/doc/apache2/mod/directive-dict.html
+@sha R43FH5BTZ6sLEh01nk0W1QHCtHqMQ9BU2Z/CuXbSdeY=
+@size 415
+share/doc/apache2/mod/directive-dict.html.en
+@sha gbU4K+e7/eY0/npH0NhT91iOtJuZrn8+FtlrMmDdlrY=
+@size 17485
+share/doc/apache2/mod/directive-dict.html.ja.utf8
+@sha nntoCZmwM/o6In6RZ6DJk+hL46RA1WjEUjsA4famNZo=
+@size 19793
+share/doc/apache2/mod/directive-dict.html.ko.euc-kr
+@sha bFGHywsjHZW8dGfiAXU35CXzVNcIrQW7DdJuQHOOJx4=
+@size 15352
+share/doc/apache2/mod/directive-dict.html.tr.utf8
+@sha dQBFp27pHkjOyIARRzWNQpRPvI1UrQ738o1dL/mqUOw=
+@size 18025
+share/doc/apache2/mod/directives.html
+@sha 5jPFy3QeWRLYpBajo9LmsmFqWis4buV4Q8EadR7DDaw=
+@size 768
+share/doc/apache2/mod/directives.html.de
+@sha bVeeIknAoPGKtkBcwBHsXtA5Va8ipDWsw2flsaDLKCY=
+@size 36193
+share/doc/apache2/mod/directives.html.en
+@sha bOG/YUnpHL8AIWiZYr6NUZ3RjyCYyMDiQuxGCajSHIc=
+@size 36136
+share/doc/apache2/mod/directives.html.es
+@sha 756EfD79sy+0UL0J4iBBQ2n3pnXofEkbP9zYtz54YU8=
+@size 36304
+share/doc/apache2/mod/directives.html.ja.utf8
+@sha y2dxUca7hsKmxtuZPTseesLgn7YmyRIw5r1FJdzUzrk=
+@size 36329
+share/doc/apache2/mod/directives.html.ko.euc-kr
+@sha aGCc2HbZ/lsFN9yFFpzIzRXuw0K5fKR5QEpctatccU8=
+@size 35970
+share/doc/apache2/mod/directives.html.ru.koi8-r
+@sha wUZpnGlxnGL9aUxw6LdEFvEEdO4h2Xph/X0aT/xNUTA=
+@size 36194
+share/doc/apache2/mod/directives.html.tr.utf8
+@sha ta/xpzumSgsz4X8sKfxnFKtDnTlJ1jHKZ7IaaJowHEY=
+@size 36164
+share/doc/apache2/mod/directives.html.zh-cn.utf8
+@sha KnWDesTYzxVfx/iDO2NZsE1TrpislD80TU4EjHTitXU=
+@size 36001
+share/doc/apache2/mod/event.html
+@sha I3gwN1daA3z9JFsumvXXGbwG7cun3ic4z//ItcsLEVo=
+@size 121
+share/doc/apache2/mod/event.html.en
+@sha LplK4uAdR7MfVYeWYzF9nsNO03RqYcmEAl4UMkbi9X8=
+@size 11062
+share/doc/apache2/mod/index.html
+@sha 2Ml5v8O6pC+m9UfjBVmWd94onc8QVPXchyDv6HHm0R8=
+@size 640
+share/doc/apache2/mod/index.html.de
+@sha 0HYoDg8omt/du+y2tw6mgy/tem/VVJHYAYtTaPDbvsQ=
+@size 16264
+share/doc/apache2/mod/index.html.en
+@sha oFyIeqfiqE90JEDcroPhC3ijojxkjwGY6aUd8ljEDvs=
+@size 16120
+share/doc/apache2/mod/index.html.es
+@sha QTbnaf7HWt1epO0zFyA7xe01FU4xAN7tvlskqw5Y6l8=
+@size 16300
+share/doc/apache2/mod/index.html.ja.utf8
+@sha dX0nwwOzoOwg5vMvpyeRYbo4cAnDcONBvxUHn0bNeBk=
+@size 17554
+share/doc/apache2/mod/index.html.ko.euc-kr
+@sha I6iY1BHHgYPUeuLTDHdBoTcdqfB4VN1g0jfRkDXBuJA=
+@size 15386
+share/doc/apache2/mod/index.html.tr.utf8
+@sha 3W0iaXpJZ5pi1Unue3PKx5VelexndSIhun0QzvPQzeQ=
+@size 16375
+share/doc/apache2/mod/index.html.zh-cn.utf8
+@sha 5CrkxU5n4Om0N9+xT9YtZI4oGz+g4dVO6rxmPYKw6uw=
+@size 15999
+share/doc/apache2/mod/mod_actions.html
+@sha T0daEd/5mv9r6pkWdLU+HiNmHh8ocrCUMrLvL+pHMt4=
+@size 403
+share/doc/apache2/mod/mod_actions.html.de
+@sha /sJ8JnxbUB2Xul6QdXZu/YdjPvTFaZ17Kd/z/PL5mBI=
+@size 12777
+share/doc/apache2/mod/mod_actions.html.en
+@sha DXl9M9de/fAH7o0ixWD0XjUlTog1gJ3SxbfqICynOXg=
+@size 12239
+share/doc/apache2/mod/mod_actions.html.ja.utf8
+@sha eqFfYTi2jPpOkZxnh1LjTBdxJUmSjZhOCeue0w3zUeA=
+@size 13604
+share/doc/apache2/mod/mod_actions.html.ko.euc-kr
+@sha 95xEplaHBw52HAnHOlqG5PcQAwYADAojAEatJ9SZCho=
+@size 11700
+share/doc/apache2/mod/mod_alias.html
+@sha 00RqVGMzah464G4qc97jF9iTFd5+W+AR7Nge3q/24f8=
+@size 395
+share/doc/apache2/mod/mod_alias.html.en
+@sha ep5yBteJ5lNpZk6tNiwlxkGV1uJDxN28OtQsn7UHHrw=
+@size 31777
+share/doc/apache2/mod/mod_alias.html.ja.utf8
+@sha +y0p1HzgfI4FpFlauVruuaJtkVJMAfe5acJnDnN1pH0=
+@size 29450
+share/doc/apache2/mod/mod_alias.html.ko.euc-kr
+@sha yVoxO34Vwca/JxogBKaAODIkp7EmjK7UwCjI9/YPxyM=
+@size 22543
+share/doc/apache2/mod/mod_alias.html.tr.utf8
+@sha 6x6cwOLUSMNl0vYIbLqtJc+KO01gRMFyQfYq4k/sdcc=
+@size 34181
+share/doc/apache2/mod/mod_asis.html
+@sha rcAhdXT7UFB09L1qHKz00bm4GNdwj70wGVlCFw7+WvQ=
+@size 303
+share/doc/apache2/mod/mod_asis.html.en
+@sha UU1VXtx6gWkF2v5Rmr3l/bHDXezKXU0yKTF2CvdF8r8=
+@size 8012
+share/doc/apache2/mod/mod_asis.html.ja.utf8
+@sha GVkutTGaiVpp61M1S8OCEuBVehZSTUWSib4chEJBz3M=
+@size 8765
+share/doc/apache2/mod/mod_asis.html.ko.euc-kr
+@sha qlIgk4kfsjbqHxSDn0SnAuSbH8CuIed7jbk8zLrbqxI=
+@size 7723
+share/doc/apache2/mod/mod_auth_basic.html
+@sha lcKqmPSxB6nnxgzx14zWICrpXXwyPAwR3M48jwe4cqg=
+@size 415
+share/doc/apache2/mod/mod_auth_basic.html.en
+@sha LMWh5qm3L1mIo4RHRaFSe5SWeLv5QBk7B6iobgPPQL4=
+@size 11510
+share/doc/apache2/mod/mod_auth_basic.html.fr
+@sha EdP7s5J+2cW51vspMLfyPnogny7pp11iyZ1iftNIVsU=
+@size 12219
+share/doc/apache2/mod/mod_auth_basic.html.ja.utf8
+@sha As0oKp5wjY/neUTPwvT42so8GsyjWd/DllLWBUYAfBg=
+@size 12028
+share/doc/apache2/mod/mod_auth_basic.html.ko.euc-kr
+@sha eK0y86eeDQQ2k3emhcPrQja7QWzqXigjHKe/YDCeMEA=
+@size 10487
+share/doc/apache2/mod/mod_auth_digest.html
+@sha y1rjCCNMY9WAiGVYZUEPpG7htH02edHE6dnPj3002yQ=
+@size 324
+share/doc/apache2/mod/mod_auth_digest.html.en
+@sha k39wElawtQdWV2Vu+qkO9lEG8xfuAdV7XMsajcbgOtU=
+@size 22383
+share/doc/apache2/mod/mod_auth_digest.html.fr
+@sha E8ntfeZbjjMxDd2k86WF76dmDvGGvtPwMwGq+WZq5X4=
+@size 22840
+share/doc/apache2/mod/mod_auth_digest.html.ko.euc-kr
+@sha RJ6QaLzMR23oIkClV3HA/cO1E8xHKkvsfrd/xRHg8fw=
+@size 22323
+share/doc/apache2/mod/mod_authn_alias.html
+@sha 95RBIjKZUiIxIXEiahHjIW/NXh8l6GHbU1+I82lnAws=
+@size 226
+share/doc/apache2/mod/mod_authn_alias.html.en
+@sha VO+Rq7d/g8HP2xW1GTiY5grGLKckcfjh7OK9zzJTmuE=
+@size 10305
+share/doc/apache2/mod/mod_authn_alias.html.fr
+@sha 9I1GR24QO9nzsSLxwOB5vH6prkK8YaKtFSGc9c6vf04=
+@size 10681
+share/doc/apache2/mod/mod_authn_anon.html
+@sha xLij8z0PBohf/fUO9oSgK3R8yQEfWCYtNxvLFR0e3ko=
+@size 321
+share/doc/apache2/mod/mod_authn_anon.html.en
+@sha KxBLTfHFXca3Llwg9NBwkGx1+oy17W5QhGUFoQagqMg=
+@size 16075
+share/doc/apache2/mod/mod_authn_anon.html.ja.utf8
+@sha eeIF722xTYOLK+5Ulh3tw/NAfllpBRSCl6mYmS79Inc=
+@size 17885
+share/doc/apache2/mod/mod_authn_anon.html.ko.euc-kr
+@sha 1JfgG7yqfg4TNPbts30OI5WJb7d+ezvVJAHHzxs1+Cc=
+@size 15292
+share/doc/apache2/mod/mod_authn_dbd.html
+@sha IMZPpGKuvqcjr2GIVMbSKovcwBkEAN7Erir2kBclDCg=
+@size 129
+share/doc/apache2/mod/mod_authn_dbd.html.en
+@sha lCAonW3sh+6bwXN5TFfXmjj9diWUexI9R7PtXYYU8cc=
+@size 14027
+share/doc/apache2/mod/mod_authn_dbm.html
+@sha bjUN46jcDdVKdmk6GxJZYpSyqH3WYlrhlcARBunKiRk=
+@size 318
+share/doc/apache2/mod/mod_authn_dbm.html.en
+@sha 7J+c6/b0RNqWbx9vaDNWIL+aDSbnXKCsZ2be688V1ls=
+@size 10983
+share/doc/apache2/mod/mod_authn_dbm.html.ja.utf8
+@sha eAcpeXpvn3Dm8hPLVRvoBOoDUPDBfFxSlbYxs67L9es=
+@size 12173
+share/doc/apache2/mod/mod_authn_dbm.html.ko.euc-kr
+@sha 3CqfRoQXpfe4FnbHaYRxc68qWM5iNcmtmbB8AWdI1Ek=
+@size 10383
+share/doc/apache2/mod/mod_authn_default.html
+@sha Sojz31i+qCOPh0azwNW/OVFN1H0jOR+oU9W2yVXCMiY=
+@size 330
+share/doc/apache2/mod/mod_authn_default.html.en
+@sha PbdXaaGAKLo3e02Sr4p1D2B1NFjSiXFM9ZI+s6Q9YeI=
+@size 7580
+share/doc/apache2/mod/mod_authn_default.html.ja.utf8
+@sha i0NZziumX9SAVQr8WMYGuy3AFNbWZES/30sPLQtxUN0=
+@size 8015
+share/doc/apache2/mod/mod_authn_default.html.ko.euc-kr
+@sha /1drVl7ndsBfKF6Di6LzpmA82gfu7z8nsz27LKQPPfw=
+@size 7273
+share/doc/apache2/mod/mod_authn_file.html
+@sha q3by7Rw9mEx+4OsfksiWLTfEEOQpIcmkyN+4XV62Bos=
+@size 415
+share/doc/apache2/mod/mod_authn_file.html.en
+@sha VpaHTrUirdkpXWHxhO8amBb3BilYVPFoqAwLxyhl1vQ=
+@size 10562
+share/doc/apache2/mod/mod_authn_file.html.fr
+@sha ti9BQZEAoPhtsJ+F1YmscmlYuBhW+Fl5Kq1SUAZCD6E=
+@size 11197
+share/doc/apache2/mod/mod_authn_file.html.ja.utf8
+@sha m1k+rBoG55myJ+7C7j1YUakypiCglTB5lRrrrdi/hig=
+@size 11767
+share/doc/apache2/mod/mod_authn_file.html.ko.euc-kr
+@sha sP2pNB1Mef8JWSUaId/A9XHTdPLZhe46GC+2G/MWl3U=
+@size 10039
+share/doc/apache2/mod/mod_authnz_ldap.html
+@sha uTfSfNaUhsRu50ZMjP6zIqD3R5sf00BstuM37ymiTmI=
+@size 226
+share/doc/apache2/mod/mod_authnz_ldap.html.en
+@sha rQAQ2i8wG9Y4oTsZyEq5+Oj1xpf8azg0y6m4mWrUONI=
+@size 61487
+share/doc/apache2/mod/mod_authnz_ldap.html.fr
+@sha Q+aZXZsGvfGbtwtFThZHVoSsGB7/iVx5y6rltKprTXQ=
+@size 66752
+share/doc/apache2/mod/mod_authz_dbm.html
+@sha VAz4dYrdLUU8NicOQHRuMlOqAYn4//BETN1m8T3PA4w=
+@size 225
+share/doc/apache2/mod/mod_authz_dbm.html.en
+@sha fLgWzpqZ5Zknb0H8BcnLHFsXrlcxRvfeUA3ZyLMLjFs=
+@size 13442
+share/doc/apache2/mod/mod_authz_dbm.html.ko.euc-kr
+@sha PreoCL4xm51M/0GwTXTP30WVSstFvTrP6M33QYPKmzg=
+@size 12314
+share/doc/apache2/mod/mod_authz_default.html
+@sha mmr/6qNNSNp2XRJWeCrBsryHhohGM0HKpAN9oNKD7GI=
+@size 330
+share/doc/apache2/mod/mod_authz_default.html.en
+@sha sQ/thyTTHJ3lUGnYTxvbGLpH781lUjUA3jHwYbconng=
+@size 7673
+share/doc/apache2/mod/mod_authz_default.html.ja.utf8
+@sha /fTp2oOWyGSOOIzJFtnC/BAQ/bgqDbHB/51cQix2VfY=
+@size 8134
+share/doc/apache2/mod/mod_authz_default.html.ko.euc-kr
+@sha x7CYvLxF/yyccHoLnzHDEIQPRi1j7/PlcMeDvuctgFM=
+@size 7397
+share/doc/apache2/mod/mod_authz_groupfile.html
+@sha iPONefxwTkYYB6z+GkDXWOhMPq+bW/bYvhl1xlIo9n4=
+@size 336
+share/doc/apache2/mod/mod_authz_groupfile.html.en
+@sha RYNeCQAUgZrgTvTrVvIdiuUJr3T/IYfxacbPqxyLIH4=
+@size 10402
+share/doc/apache2/mod/mod_authz_groupfile.html.ja.utf8
+@sha GuenC7OxDOh5A8YGb3hh9oSFWNm5klIcD+3Gt0EdvcU=
+@size 11575
+share/doc/apache2/mod/mod_authz_groupfile.html.ko.euc-kr
+@sha sK3VX1R31geDR1pN9ousg89bXLo6pzNmVJ/aQu9E8jU=
+@size 9849
+share/doc/apache2/mod/mod_authz_host.html
+@sha 2CjPFxImI0pDyf13zqoKOqNnk3gRVDCVsFJTUtPNu/U=
+@size 415
+share/doc/apache2/mod/mod_authz_host.html.en
+@sha ZWUvwphlYq4NbW+nXO1FKugnmjoHoZwYV44iImeBv4U=
+@size 23037
+share/doc/apache2/mod/mod_authz_host.html.fr
+@sha bv69YWVvnZ4KE/eGlPqoOmZVaUcRjMIKjAl2fZnximA=
+@size 24720
+share/doc/apache2/mod/mod_authz_host.html.ja.utf8
+@sha PcNf2cWTLdVChNF85IDKtQH3vHmegYKg7nnBF7umESE=
+@size 23507
+share/doc/apache2/mod/mod_authz_host.html.ko.euc-kr
+@sha iYFe7uBxZAYRIceRrlZVMoFnXuIucZcNXYBeTc4+Ifw=
+@size 19008
+share/doc/apache2/mod/mod_authz_owner.html
+@sha n18azPn1avwv+/q2m9qlbruU3qbJ9h18JmmOzR23gg8=
+@size 324
+share/doc/apache2/mod/mod_authz_owner.html.en
+@sha 3M+mJklRXomlH5nhBQ+yEsWIsxOocxAfDFoGyXZH0+c=
+@size 13230
+share/doc/apache2/mod/mod_authz_owner.html.ja.utf8
+@sha pYVk9BMSd+fGT1DikJUwy0vmsw3ILcDmPeqb0AgcVL4=
+@size 14657
+share/doc/apache2/mod/mod_authz_owner.html.ko.euc-kr
+@sha sAv5+UQimH82rMeYh6tHNn3gWQAaRXTzwG9Ew33nlUE=
+@size 12246
+share/doc/apache2/mod/mod_authz_user.html
+@sha KOMANB/hlN8LfmZ3m60j2XXwAb3tfxO3orkQhz3esUc=
+@size 321
+share/doc/apache2/mod/mod_authz_user.html.en
+@sha lxiVoVRAR1WWCo+peiKIordk3g4V7DU5S7H7210dpxQ=
+@size 7825
+share/doc/apache2/mod/mod_authz_user.html.ja.utf8
+@sha 296Pkcf8t9n7HdqAZRCfuXrhkPW4jqW4uLUfpDueZK4=
+@size 8531
+share/doc/apache2/mod/mod_authz_user.html.ko.euc-kr
+@sha 9FJXM+Y3Ip1wfZBXrgAKBPDUEnLzkz7vHLBkXcpABMM=
+@size 7612
+share/doc/apache2/mod/mod_autoindex.html
+@sha s37OeudVWdjBue8elDSWryZ2jwGO90ESBOJT/GVxe58=
+@size 504
+share/doc/apache2/mod/mod_autoindex.html.en
+@sha xfhX67PTYucBC/fJ70MBnA1HwmFzKXHFOwaxqHENulY=
+@size 56874
+share/doc/apache2/mod/mod_autoindex.html.fr
+@sha RAfg3vr5ytQzTjFaeuBUk63KJ9ozZVP6bTQdwuUKhsY=
+@size 62586
+share/doc/apache2/mod/mod_autoindex.html.ja.utf8
+@sha 1HOUtkjYG1j98Pi4XaxyML0TG8bAfa4TInKTA1SChko=
+@size 63005
+share/doc/apache2/mod/mod_autoindex.html.ko.euc-kr
+@sha tgKh+N+ZB7GsZHR3JNWOPJs9x4NTDpClV6zny5z+Ttk=
+@size 49652
+share/doc/apache2/mod/mod_autoindex.html.tr.utf8
+@sha vUQnupj/qTFupc8CQL8t4JNlXgPyII1N0TwGY+K7gfo=
+@size 62072
+share/doc/apache2/mod/mod_cache.html
+@sha 75qwMcZE7Zu1EQAPHDd3Dp3g91d3g+Ahg9P6PLd3Qx0=
+@size 306
+share/doc/apache2/mod/mod_cache.html.en
+@sha qEwvd+bnIApZckfmBqErvSO8E16SNKFFBzCj/4lVl/g=
+@size 44198
+share/doc/apache2/mod/mod_cache.html.ja.utf8
+@sha yhQj/RvMjV+j1N4SefW8ibN2Yb0k8sCY/I1wmoS9WSs=
+@size 42246
+share/doc/apache2/mod/mod_cache.html.ko.euc-kr
+@sha bek/6klBWNizD1es2V6OmQlybWRF4zCGr8kcePkbVDU=
+@size 33746
+share/doc/apache2/mod/mod_cern_meta.html
+@sha gtP+Ev4Lt59obrqo+4uMmLvZChblLnmgoVuIyPHnOzo=
+@size 225
+share/doc/apache2/mod/mod_cern_meta.html.en
+@sha 3fpHqRmJuX2OXpvvjE/0zJm3ulCVYk3r7cXNPyrvaFI=
+@size 10294
+share/doc/apache2/mod/mod_cern_meta.html.ko.euc-kr
+@sha 5vtFo3TCBlfk7U3nbrp79GQcMlog88tBo0kduYoy0FE=
+@size 9702
+share/doc/apache2/mod/mod_cgi.html
+@sha X65SqanJUnLYu3gkbILkra44ZX3WOAk1gyuhXIGsQdw=
+@size 300
+share/doc/apache2/mod/mod_cgi.html.en
+@sha 8noldAljZ3YOPlpLnRrniLHd7f9U0dTetdmyLSnjVUk=
+@size 16731
+share/doc/apache2/mod/mod_cgi.html.ja.utf8
+@sha rNnU0HFvC1S3DntRzbXxN6dgluXyg2fLUUsualJf6B8=
+@size 19258
+share/doc/apache2/mod/mod_cgi.html.ko.euc-kr
+@sha O15BI8NDB3dFzH+zhYblpKHuo42D0YK5Xb/wLbV2ewY=
+@size 15755
+share/doc/apache2/mod/mod_cgid.html
+@sha e0rgPCjwKCz2tujyqtZPtGwoV1I0+e2kWHAxLwtQinI=
+@size 303
+share/doc/apache2/mod/mod_cgid.html.en
+@sha 4QKx7pNb0+kklsFaXvrJ07CeMdj4wCCm2COG3yBa8uo=
+@size 9028
+share/doc/apache2/mod/mod_cgid.html.ja.utf8
+@sha TFwrkhajyZdStIG0CGDUlKJSflxlD1iMWjm4U9BcEBI=
+@size 9747
+share/doc/apache2/mod/mod_cgid.html.ko.euc-kr
+@sha UJNb/YRcHO1yfSGV6liqnp1t/jOYh1K5ShLP1Y+DkAU=
+@size 8537
+share/doc/apache2/mod/mod_charset_lite.html
+@sha WmRN+IK6NxJ3ruZ31ZtQHD4y70w/fPnheImJ8KOQrcE=
+@size 231
+share/doc/apache2/mod/mod_charset_lite.html.en
+@sha HJLv+BRUKvbMhIngHK6SJ6T+EqPXOoiK3yvF3p8Rzus=
+@size 14740
+share/doc/apache2/mod/mod_charset_lite.html.ko.euc-kr
+@sha 3J38cHH81s4ZPGDrAm/6prqoKdVi9amtOLB7q7jsLdA=
+@size 13594
+share/doc/apache2/mod/mod_dav.html
+@sha 5MKT8B5cWofN3UGHBAuJo5HRWWi4w0AsTlqNHW+bNjY=
+@size 300
+share/doc/apache2/mod/mod_dav.html.en
+@sha 20Ef+JYJubMHy59dWatr44xXzeSPIszqmaZpLcyigck=
+@size 18082
+share/doc/apache2/mod/mod_dav.html.ja.utf8
+@sha Zc68f8cny3mfX7EW23acBUP2ahKkuuY69YFz0co8ZzA=
+@size 20955
+share/doc/apache2/mod/mod_dav.html.ko.euc-kr
+@sha UGocFZwnEo9Ct+O7m8Ux2kHJZKCnjJkHoQ6hgVki5Fw=
+@size 17192
+share/doc/apache2/mod/mod_dav_fs.html
+@sha ++15BxSXHvhte69ZIUZIgfahOEdedIxJmTITMHaVpNg=
+@size 309
+share/doc/apache2/mod/mod_dav_fs.html.en
+@sha myyYa04nNo7gvG3cO0y6OxrUJg8Jxy9yYJYPmkQyVqk=
+@size 8436
+share/doc/apache2/mod/mod_dav_fs.html.ja.utf8
+@sha eYi0xKrslGvwyaYU07qtZ46VsLWsB2k/f8umK+eXQGI=
+@size 8300
+share/doc/apache2/mod/mod_dav_fs.html.ko.euc-kr
+@sha CHlJKG6tqkX/lXcAeDHOCYb/2PuCmZNrLzyGWU0lFpg=
+@size 8062
+share/doc/apache2/mod/mod_dav_lock.html
+@sha +td+a06W04LwwRYmjjnxclxwpcQfGYsv+V78kzsTPOk=
+@size 220
+share/doc/apache2/mod/mod_dav_lock.html.en
+@sha E8+SjJugZHKkuPhjAfxOQA4rkwWXBWB2GETS4Ntq6X8=
+@size 9025
+share/doc/apache2/mod/mod_dav_lock.html.ja.utf8
+@sha a1xpZFj8GihlaComx8dTtwqTLHBRsW6l+gCa9tHjg+M=
+@size 9999
+share/doc/apache2/mod/mod_dbd.html
+@sha Z5vACmI0uS0fPLMqxq+RXOQLOS2Yu4wTtUCsn20STX0=
+@size 123
+share/doc/apache2/mod/mod_dbd.html.en
+@sha cQykyUkbRZ8TQJBb3gK5Bkdp60QocON/SGNydkyM5Bo=
+@size 22083
+share/doc/apache2/mod/mod_deflate.html
+@sha JPThGJ9ZzzR96hgtoGwSl1TPsfPdQFvF690tgu9wV5s=
+@size 312
+share/doc/apache2/mod/mod_deflate.html.en
+@sha Rl156THCbCrnU+ZVF+DOnnNTMa0Gr3rwhK8VaToVz4c=
+@size 22727
+share/doc/apache2/mod/mod_deflate.html.ja.utf8
+@sha mASiroSAUelG7fhQFiJKTYY0Fgr+4w9jcgY8dTmuKpk=
+@size 26322
+share/doc/apache2/mod/mod_deflate.html.ko.euc-kr
+@sha Vo25LQz1g4R1jV6totUbqGG4qPHxLGy6V70oF4KixJA=
+@size 21669
+share/doc/apache2/mod/mod_dir.html
+@sha 2+tDflRqgVxGpOlhbtk1RJu/Dj8DFqFM6hIibuQYpKM=
+@size 387
+share/doc/apache2/mod/mod_dir.html.en
+@sha BV3vmI8N/a61EPcL2/5z1auXKjivieDSr2LkbuBw0dY=
+@size 16573
+share/doc/apache2/mod/mod_dir.html.ja.utf8
+@sha fL+rxqDlWB+jpsmE4+eQJKc5kf6/Ap/E11PHfbAzc0E=
+@size 16439
+share/doc/apache2/mod/mod_dir.html.ko.euc-kr
+@sha yWvs+n7HfdwdM0wB+44NV6m9arjs8lQ1GRB0+ZR3isg=
+@size 13434
+share/doc/apache2/mod/mod_dir.html.tr.utf8
+@sha grPzy+1uSC8EMBlYv+1jrLtXllGOOj45lMP41gNmrHI=
+@size 17423
+share/doc/apache2/mod/mod_disk_cache.html
+@sha WyFZ84saRwBZviRRjGwMbAocUQIZa4lmvEB29Inn1YI=
+@size 321
+share/doc/apache2/mod/mod_disk_cache.html.en
+@sha Cfkjqu6Ne+IS4UsKnB4UqOyFFDvGEkT52lFTbg9MeBM=
+@size 14334
+share/doc/apache2/mod/mod_disk_cache.html.ja.utf8
+@sha VBXaHr5urGfrp/NhUkMpgf74eaiQ/l4TK+BTfpIQaJw=
+@size 15029
+share/doc/apache2/mod/mod_disk_cache.html.ko.euc-kr
+@sha mlPndLfrOlMN5molwdhWxn/V2zc/GCoGAZN3Cpa1iJQ=
+@size 13045
+share/doc/apache2/mod/mod_dumpio.html
+@sha 9GUtkmxmcXtE22khU3e1u4Co+iV/XfGzTOijxSRh824=
+@size 216
+share/doc/apache2/mod/mod_dumpio.html.en
+@sha DYlksdF2r6ixg7RygqQwvkfERAgTAbKFI4k82O78s0Y=
+@size 10200
+share/doc/apache2/mod/mod_dumpio.html.ja.utf8
+@sha 1jlrgJbXcBtkx2Sa6v9Jw4IJB9KoomeaBtl4Hyi0hfY=
+@size 10930
+share/doc/apache2/mod/mod_echo.html
+@sha D3Dbiowu8vkgvNLoKMWuBYt8rHZOG+XMEJT2PQonSqQ=
+@size 303
+share/doc/apache2/mod/mod_echo.html.en
+@sha Kz8bx4u7aY6ZYf0druOTkB6E+Lgi5fdMFrrmQ2ak5BI=
+@size 6886
+share/doc/apache2/mod/mod_echo.html.ja.utf8
+@sha 7dC6lHIAgEIHnks1DZFdFGmO+qQM8k1BmIJUG3TBskk=
+@size 7285
+share/doc/apache2/mod/mod_echo.html.ko.euc-kr
+@sha X416GMLZ3JRsfj5jvISzjBzxeHl5iZI0Mx3PFIOX3No=
+@size 6739
+share/doc/apache2/mod/mod_env.html
+@sha YdwrpKrfLcZAgTqlUGukhp0P2l3n331hMLGpBW2+364=
+@size 387
+share/doc/apache2/mod/mod_env.html.en
+@sha 5IgIJ0IHUqjVS537u57FrvUBPGJdBB0AeFQf/ceHpfQ=
+@size 11011
+share/doc/apache2/mod/mod_env.html.ja.utf8
+@sha aouuA5i35ww3W75H49DiMEiWqxvjBZhIXDsTNsUKDc4=
+@size 10393
+share/doc/apache2/mod/mod_env.html.ko.euc-kr
+@sha 8Nx3tg6TOLspbWlVQW2JTuHfC6jsoUd69X74LFS2r6Q=
+@size 9193
+share/doc/apache2/mod/mod_env.html.tr.utf8
+@sha 8kaZT8ChV4wyrHTr68IN2e04lqhhh3ucmRZUrXqNnQI=
+@size 10916
+share/doc/apache2/mod/mod_example.html
+@sha miOMEFk8JHUGUym2fq6IOx8DDM4flmlyMWsnMLgV1ao=
+@size 221
+share/doc/apache2/mod/mod_example.html.en
+@sha qJVfK51bOcG72dQUvxDVzryX/B1+RC0SWpphMBZLOD8=
+@size 10335
+share/doc/apache2/mod/mod_example.html.ko.euc-kr
+@sha iiIvrTzc33V9VC9bQV8MRiWdsurwmXaCzMfKs0K1/ys=
+@size 9874
+share/doc/apache2/mod/mod_expires.html
+@sha csfrnbJsJAZyayy3URW+opZpgR4h+bNI1uko6iW+pRc=
+@size 312
+share/doc/apache2/mod/mod_expires.html.en
+@sha 6I1W/p7DHhCk5LwMXvjM9kFB4RiXCuCTZW0z1BVM2Ww=
+@size 16189
+share/doc/apache2/mod/mod_expires.html.ja.utf8
+@sha Q8Mfn/zhdg6BU9tgsA/0DwNQhvWPf8N/kVVVgD3OOpI=
+@size 17729
+share/doc/apache2/mod/mod_expires.html.ko.euc-kr
+@sha VSNGJJsQO1QFKXi7eO/SBMpW0olL9yvB2Ge19uqd0yw=
+@size 14439
+share/doc/apache2/mod/mod_ext_filter.html
+@sha OBhW52OHC8Whwvy/LJ6wltSEF+Bo9I9tW9S0c25AtP8=
+@size 321
+share/doc/apache2/mod/mod_ext_filter.html.en
+@sha ses84HGxHXxCEdXXXXxeIOMvGp84Hzm6BWH/HbY6QiA=
+@size 20565
+share/doc/apache2/mod/mod_ext_filter.html.ja.utf8
+@sha lHeldsjeGyshtiWrslWkA5DOiNbbukPOU3dqWJuLu/c=
+@size 22433
+share/doc/apache2/mod/mod_ext_filter.html.ko.euc-kr
+@sha 4vd+170Y7P201ZmAj21eXxtb0TOsJeJxqGm9DBsQIPc=
+@size 18422
+share/doc/apache2/mod/mod_file_cache.html
+@sha eiYkU2xcdEy4ZVjkPHBryHvzZd2Ddmw5gceH+AGH8ho=
+@size 227
+share/doc/apache2/mod/mod_file_cache.html.en
+@sha xzTPiVv2CZl2e3BNJiWXvjNeGbQh/jYdIptrK7zpH6o=
+@size 14739
+share/doc/apache2/mod/mod_file_cache.html.ko.euc-kr
+@sha r3NVv5OIdrm31aS9pPfpzJdMN/n1F/MVBTNHuqmpP/M=
+@size 13784
+share/doc/apache2/mod/mod_filter.html
+@sha QKVNN4OTy0kahfYqOWxEC29Fu+qei4ZR6k60Uz3Ztwo=
+@size 126
+share/doc/apache2/mod/mod_filter.html.en
+@sha 0HGY4qyRaF/jCKOgMEN/81EP1ESwAfHsd4S7qDpKvHM=
+@size 28584
+share/doc/apache2/mod/mod_headers.html
+@sha UPMYyN12efmVtQqZ2TVAb6C8kLTBPcfHux+FGo17jhg=
+@size 312
+share/doc/apache2/mod/mod_headers.html.en
+@sha l3DwbkyyuVMmfCpyva+Yq7BiqeoPHv7HxbLnpHAOptU=
+@size 27422
+share/doc/apache2/mod/mod_headers.html.ja.utf8
+@sha qG7dxde3XY9O/odegdMG95VUaHR4l5cfbOLxXt8p3HI=
+@size 24577
+share/doc/apache2/mod/mod_headers.html.ko.euc-kr
+@sha AdAWuxbFsd+7JAybMjrFcjjTt/OFYxAgfPC6diOEpTo=
+@size 18832
+share/doc/apache2/mod/mod_ident.html
+@sha xxz5Co+yer6SFc/kJgT27g/xjkWINkG8j4FP1RTFLW4=
+@size 306
+share/doc/apache2/mod/mod_ident.html.en
+@sha /YsAuhnOCjC9gkxw9qyldQhBa0M5/10LJU1xawHZQcA=
+@size 9235
+share/doc/apache2/mod/mod_ident.html.ja.utf8
+@sha 0pmKLlQIxs4Sr3OUAo4XW1tHgbhXKxRHqjKCMk6x+Ak=
+@size 10185
+share/doc/apache2/mod/mod_ident.html.ko.euc-kr
+@sha dBjx3Sr92HnPN2wR1RHtWXBpDcUItPMoex6sNEOnMlg=
+@size 8743
+share/doc/apache2/mod/mod_imagemap.html
+@sha buoh2gnbz2+B67z3U1vlI0xrPcknj6z79108C6txwY8=
+@size 223
+share/doc/apache2/mod/mod_imagemap.html.en
+@sha JdpnKMAnNROfHB+o/xhIGL6NEF86HMwjbZjzUKtINFs=
+@size 20631
+share/doc/apache2/mod/mod_imagemap.html.ko.euc-kr
+@sha lGsSgmu24U1bp/xfVu+E2108eWqU/RLzYgplSA/Yr5M=
+@size 19236
+share/doc/apache2/mod/mod_include.html
+@sha mXkWz0gr3kXCuX9d+Up/Ei9eFwvTLEfI+ryXBpMah/Q=
+@size 218
+share/doc/apache2/mod/mod_include.html.en
+@sha Gb0Zft7/pElALonmZ6jS5ioaI7apa87KNThD9RhgMig=
+@size 52444
+share/doc/apache2/mod/mod_include.html.ja.utf8
+@sha 035K/FSpH2ThV9a0xsAR2NVABqyDXSoo15XFXN9dw+c=
+@size 53230
+share/doc/apache2/mod/mod_info.html
+@sha 2YmbdNanqd8B3D2rBJano8T59K4AMdOtlP3cM9OSJbM=
+@size 303
+share/doc/apache2/mod/mod_info.html.en
+@sha DgH0RFWdLpP6EC466Mu3nMHDoCVjorBUVYYe6a5HUKY=
+@size 13208
+share/doc/apache2/mod/mod_info.html.ja.utf8
+@sha rJH20MlLMlMlBb6OA18VzHjHVWh8iiQCaFg960RHeyg=
+@size 14493
+share/doc/apache2/mod/mod_info.html.ko.euc-kr
+@sha /nod/igvNacBZeNjclm/CuxTUuhF0wfZ+EkLOfreUlU=
+@size 11902
+share/doc/apache2/mod/mod_isapi.html
+@sha PzEgslb4QuCSmapV/h/aEHzh9k89XFXUOmLv+4w60S8=
+@size 217
+share/doc/apache2/mod/mod_isapi.html.en
+@sha wfTZZsLoOKd+hi2lMVdkbXnmQ1DsITwf6iLLKLqjG5E=
+@size 23059
+share/doc/apache2/mod/mod_isapi.html.ko.euc-kr
+@sha Aa/vZhMxC02lZdYik4RypJTdy7oStyLMwED51ndCWYw=
+@size 21143
+share/doc/apache2/mod/mod_ldap.html
+@sha EpGAcnrKqq6YXy7tTim+VQTjsS+51sVbiJ8WZ3cKbrA=
+@size 124
+share/doc/apache2/mod/mod_ldap.html.en
+@sha YX/ChC5yq1mtDiNWjSrKaTYlk4oHq8WMcjWsdr/cNNE=
+@size 39583
+share/doc/apache2/mod/mod_log_config.html
+@sha 5/YV01s/eq8M1eLQNO3zTZFGahxevPNztNtnUS10LWs=
+@size 415
+share/doc/apache2/mod/mod_log_config.html.en
+@sha 9lVX3MJMtzkSw1HLCsbZKJdW01tVA+lQiYkApcAGAP0=
+@size 30763
+share/doc/apache2/mod/mod_log_config.html.ja.utf8
+@sha vrpOyA7/RV/ytLJcCeFHofQ77HLzNL3Zp8DQJOxIMdQ=
+@size 33395
+share/doc/apache2/mod/mod_log_config.html.ko.euc-kr
+@sha 9tq9BN/cFvyUXm6zou9Rjz0lVu4etztZhdXWwa53W7U=
+@size 25550
+share/doc/apache2/mod/mod_log_config.html.tr.utf8
+@sha uyU2bNxNXMSqNuQSWWmRmLdmO7jwbmnwYmuG7kAm5Zs=
+@size 32428
+share/doc/apache2/mod/mod_log_forensic.html
+@sha hJpwPq4z1QVqNAKJpIhuAu+RRiQNSLIbkPeQiBX12FM=
+@size 324
+share/doc/apache2/mod/mod_log_forensic.html.en
+@sha 70VkCYEv7/9B3Mwm4owVkGFMQ0JNTdrldREEMNAyDao=
+@size 12094
+share/doc/apache2/mod/mod_log_forensic.html.ja.utf8
+@sha WQ2Uj+im5CVHzp6iCFHj638Se4ttztl90rJVeBeJTWQ=
+@size 13553
+share/doc/apache2/mod/mod_log_forensic.html.tr.utf8
+@sha oTFv06KjxLh6pxHF4GZ50kRH7Qt6sus6Rmz/x7nljg4=
+@size 12576
+share/doc/apache2/mod/mod_logio.html
+@sha dzEjAGHHmoyfGJWdBMyL90b5ecFDFp/5tMQC/41tmsg=
+@size 395
+share/doc/apache2/mod/mod_logio.html.en
+@sha rzyMrD8OjLRs4ko2ZMAorcJP/zf6ro/qXq0trkb9RXs=
+@size 7675
+share/doc/apache2/mod/mod_logio.html.ja.utf8
+@sha OsCWXbXbX8EkzVr+S1cfnSQJs61EodYObOIRrmywNUs=
+@size 8126
+share/doc/apache2/mod/mod_logio.html.ko.euc-kr
+@sha FLf9TowJDXnNuxk0S3hpTIu1pwtZO8FXPfWenmJ+h/g=
+@size 7158
+share/doc/apache2/mod/mod_logio.html.tr.utf8
+@sha Mbb0qUl375MgkE3pcXMcYB7E9xWSNbD1c2y9OMzTPGs=
+@size 7841
+share/doc/apache2/mod/mod_mem_cache.html
+@sha NfhqGP7HRb0CpnUpp1RMAo2pAEprjEdPwAl9J30OXhY=
+@size 318
+share/doc/apache2/mod/mod_mem_cache.html.en
+@sha mwpwZ7V9xDEQo+2U+Rn1vNXJOqYPXW4dv1JSFUr1kJU=
+@size 18570
+share/doc/apache2/mod/mod_mem_cache.html.ja.utf8
+@sha BlrGCbafE2DsG+w7JmKjeMhE10NYBGbCrwXJ0OQKWwM=
+@size 20024
+share/doc/apache2/mod/mod_mem_cache.html.ko.euc-kr
+@sha RVq8nIixLs/6isKSxzADgoBOo9u0nn4dJlN8bRIffgU=
+@size 16942
+share/doc/apache2/mod/mod_mime.html
+@sha qyAK2PSWgg1YuwTvhsZneBpKogPSJvyWd0WQDPPzF3c=
+@size 212
+share/doc/apache2/mod/mod_mime.html.en
+@sha aJ9uXiNfAtlZBxPSypYkf1+jgA6Yu5rCIDBJ1ug1pbM=
+@size 62977
+share/doc/apache2/mod/mod_mime.html.ja.utf8
+@sha jmdTPci60pVYaVNgpNwhLlRSaegUoUKC8UE9Vw05k3E=
+@size 68523
+share/doc/apache2/mod/mod_mime_magic.html
+@sha MFz6XHrVm7/V4ljNjv6lg/R77OPRW8kiyyoYptHqiU8=
+@size 130
+share/doc/apache2/mod/mod_mime_magic.html.en
+@sha 3zTIZAFRXgTo5cdO4Ksetxbea7gTWYAyxcWarl5br2o=
+@size 16054
+share/doc/apache2/mod/mod_negotiation.html
+@sha MFLZce/dGvCmSEwWLaMJyPY2l5KRjUEzVGy6SR7Vjb0=
+@size 226
+share/doc/apache2/mod/mod_negotiation.html.en
+@sha SCJAD1BSVdUG9LDaU1/nQ9GP/WcjB7ucF14g4Wo3F0A=
+@size 19479
+share/doc/apache2/mod/mod_negotiation.html.ja.utf8
+@sha VbKcBzWDmZatMuFaWtBA4tatU40foq04Z1IjhKzQMV8=
+@size 22001
+share/doc/apache2/mod/mod_nw_ssl.html
+@sha CtDgxsDxWD5ZOw1X5BeVMYq6iSxHpfSrCVbNaUr+M/E=
+@size 126
+share/doc/apache2/mod/mod_nw_ssl.html.en
+@sha 4srTHgxQD7+YFxZK17+gTOSMf+h51FnDso7wmXuS17Y=
+@size 8741
+share/doc/apache2/mod/mod_proxy.html
+@sha 0biXClpFyvkHFP0BYMcYwvuiBx5KkqOEeyzsJGy9B9k=
+@size 303
+share/doc/apache2/mod/mod_proxy.html.en
+@sha XS2ZklhmjUXY8yALt+hJJgopfEm/lbBGRs9rMdqHKIU=
+@size 104531
+share/doc/apache2/mod/mod_proxy.html.fr
+@sha 0MAwY4rRqY3ztZ/NAlOCH4mnMdnhuuC2eA2JHm6EZbc=
+@size 115374
+share/doc/apache2/mod/mod_proxy.html.ja.utf8
+@sha hTAVx11djTjkhYx6RId5SMkP33Vk1q1ryOjQGNXYpIk=
+@size 121249
+share/doc/apache2/mod/mod_proxy_ajp.html
+@sha yrvzhT9Qo/A00ZFBeNqH+owTf0L5xEcTPOSxbByNDaM=
+@size 222
+share/doc/apache2/mod/mod_proxy_ajp.html.en
+@sha xNjmTDBHND1toU/kJQG1jFrBG9GW+l/TJVHNHqGgjH8=
+@size 30947
+share/doc/apache2/mod/mod_proxy_ajp.html.ja.utf8
+@sha hhQmfqz8mBDeqSPv5GAP8qu3EUe3H77Hxd4QNHssO+4=
+@size 31823
+share/doc/apache2/mod/mod_proxy_balancer.html
+@sha gryyRZ19yJBnlXLKoUa7xSc7tBbs9cdMiqwdnP0peU4=
+@size 232
+share/doc/apache2/mod/mod_proxy_balancer.html.en
+@sha 7RSuTZjrSTREEe7S0AVfpCGUKfzZfmCn3dpKagastTo=
+@size 29036
+share/doc/apache2/mod/mod_proxy_balancer.html.ja.utf8
+@sha 094+up5tAtJJWfqxXCm0eEgF9fZyPyYjqAE5/uaZWtE=
+@size 34124
+share/doc/apache2/mod/mod_proxy_connect.html
+@sha 79yzZZUnGvIHo5q/2peMniRd/zdc8XdHc1SvQ3hnwkQ=
+@size 230
+share/doc/apache2/mod/mod_proxy_connect.html.en
+@sha sp2+YNwU3Vc1t4Mne4/6R08QYWFoe9yMSmQOFY+kiu0=
+@size 6699
+share/doc/apache2/mod/mod_proxy_connect.html.ja.utf8
+@sha +JKYACWSerPlkA5rMI97yUJmTkQFjWD67MojP/0snXw=
+@size 6951
+share/doc/apache2/mod/mod_proxy_ftp.html
+@sha W45IzGwv8CMkEAP4IiDgahED9j27VM/o5Vg53MrSDPc=
+@size 222
+share/doc/apache2/mod/mod_proxy_ftp.html.en
+@sha tDz4buPykSlsuZ4V8XNbXHYzEBLJGtYmhMCrlVga8bQ=
+@size 11861
+share/doc/apache2/mod/mod_proxy_ftp.html.ja.utf8
+@sha ZxJHJYVpx7mluewOCzpevLrT6nKwt+aSXZaFMzg8pS8=
+@size 13926
+share/doc/apache2/mod/mod_proxy_http.html
+@sha 3yhmjjMsdB1cZ/PMQGiddFwtt+COoJbALhsNCWwUsSk=
+@size 318
+share/doc/apache2/mod/mod_proxy_http.html.en
+@sha 0Qrxzu13MnzFqJr6mrUVgOH0p4MLI4e77IQlEnDFsZw=
+@size 10647
+share/doc/apache2/mod/mod_proxy_http.html.fr
+@sha KsprC79ovBMG3ale7o+F8ImF0icD7RWJiXBHC60zm3Y=
+@size 11356
+share/doc/apache2/mod/mod_proxy_http.html.ja.utf8
+@sha 68oByh4O4KbGcYoqq0YO0l59AHP+0Q72yjeu6tkqGu0=
+@size 12338
+share/doc/apache2/mod/mod_proxy_scgi.html
+@sha I+hOOpQb5/cBSwjBybf+k2jezjc3nGBNFnwP524zwu4=
+@size 224
+share/doc/apache2/mod/mod_proxy_scgi.html.en
+@sha K8nXxWHgq54D9dtfwNzOuuEXspZrxG96plFaPoJlbLw=
+@size 11887
+share/doc/apache2/mod/mod_proxy_scgi.html.ja.utf8
+@sha 5sydz2l3F2Fbp4mcNPTK2EYcIZMdc+mmh5lbznUFCLA=
+@size 13059
+share/doc/apache2/mod/mod_reqtimeout.html
+@sha NamNRmGq3NHhrjzwPN1zlegYVN8aiJ9ex1HOo+8KALE=
+@size 130
+share/doc/apache2/mod/mod_reqtimeout.html.en
+@sha uNySkh5A3i08QQkpi2IL437XdKkJU5SaNVpPZhZ8fUU=
+@size 10541
+share/doc/apache2/mod/mod_rewrite.html
+@sha aNI0ycQwzMR7yOePK0eOViZA5RZJB9Qkq9kXVzIKGL8=
+@size 218
+share/doc/apache2/mod/mod_rewrite.html.en
+@sha Gcrxz3LAZlnW1gb8LZLx0gkEBmOYuWog7xsPH+wljnY=
+@size 76189
+share/doc/apache2/mod/mod_rewrite.html.fr
+@sha dQXQ7v2QVhAjC1ad1ANwTVYDHl70VJbcYge4XJOl71M=
+@size 83148
+share/doc/apache2/mod/mod_setenvif.html
+@sha l+1WAChqoEZ/6Uo/u05+coBrOZyyQaTgXWm7rybXGP4=
+@size 407
+share/doc/apache2/mod/mod_setenvif.html.en
+@sha syGjldb03nNFMtqZCNhv+FTuUlt8aV/kUQ2UdJNHrp4=
+@size 17849
+share/doc/apache2/mod/mod_setenvif.html.ja.utf8
+@sha LtvRQg1q7vdp+Co18Z+VGeDUbM5M/NxQTsioflG8UIo=
+@size 18860
+share/doc/apache2/mod/mod_setenvif.html.ko.euc-kr
+@sha OLDkw7Lge3EgTpNYZVaU2kGNmClm3EPAkhy2xvBZkZ4=
+@size 15898
+share/doc/apache2/mod/mod_setenvif.html.tr.utf8
+@sha vRaY/5zhgVx2kbG0yHI09GtIoetLvfjz+tLl0mAIpws=
+@size 18618
+share/doc/apache2/mod/mod_so.html
+@sha Vp0pKK6Mlxo/ErlHHLCgrm+hqrmPdATFyFDPK1l2FH4=
+@size 383
+share/doc/apache2/mod/mod_so.html.en
+@sha xZLYVMsmJ53idPrfBLXrhOkQ5id8qXi9RZ6rUWGaJZo=
+@size 12502
+share/doc/apache2/mod/mod_so.html.ja.utf8
+@sha xCCMGyH6Pg8rVgfdg50WcJbiiybXEbGEv5P/V00p7to=
+@size 14891
+share/doc/apache2/mod/mod_so.html.ko.euc-kr
+@sha S4OTIBWUcXaTKYLnp1oDu4tp0DazlAlDc+Vfe2bwAbY=
+@size 11587
+share/doc/apache2/mod/mod_so.html.tr.utf8
+@sha FlCHfP9ZCXC3QEXFIj663Fs2sUDuJnOaKAUeIFablPs=
+@size 13985
+share/doc/apache2/mod/mod_speling.html
+@sha u6D0vwUfc+hxi6eFW9/HNFzhFsshRgRax8do9bEhIaQ=
+@size 312
+share/doc/apache2/mod/mod_speling.html.en
+@sha r7E6PU5dE1PgcUm2fpOfHDt1RjEt/KFSbC1wJKD/s/s=
+@size 10586
+share/doc/apache2/mod/mod_speling.html.ja.utf8
+@sha nFbz9BFiyxDJDIdXj+WAc3+8R/u5qyGPTEfPV6Ywzdc=
+@size 12330
+share/doc/apache2/mod/mod_speling.html.ko.euc-kr
+@sha xqPeJbxSNsPORwO7pWQl3DKuG/d4qfayppCSbElKX28=
+@size 9905
+share/doc/apache2/mod/mod_ssl.html
+@sha LvozayoEn6rO8eultErvmUkXWrZrjvPZja9cNMq0sRg=
+@size 123
+share/doc/apache2/mod/mod_ssl.html.en
+@sha iVQMtqEikSPaq2EgL4+9O6BUF8v0eTi1X6UC6f1+Bxg=
+@size 126144
+share/doc/apache2/mod/mod_status.html
+@sha fenn8krm/BqpHF+V8XBK3eos691AwKZnFc9fQQ7AZJw=
+@size 399
+share/doc/apache2/mod/mod_status.html.en
+@sha KI1rq8V0WIWRhvvyw8ms7zzpme6jzwiXvpQmnz9W75I=
+@size 12846
+share/doc/apache2/mod/mod_status.html.ja.utf8
+@sha UO78IMOz3Dtog2+5GxaN56slrXchUWkcyWb5hKA56uc=
+@size 14618
+share/doc/apache2/mod/mod_status.html.ko.euc-kr
+@sha VBNrDaRjtHwAu9ZLXBjgIHrKGgvqWZoQUbXacTzm1O4=
+@size 11322
+share/doc/apache2/mod/mod_status.html.tr.utf8
+@sha V3EuTPckWj0LxZthsGgQ5YjPv6f14vM8JwSToHaVnUI=
+@size 13404
+share/doc/apache2/mod/mod_substitute.html
+@sha PsKrxNLgKAnZdYd8paTvfhpbb67u/29FSkAC/muPsvc=
+@size 130
+share/doc/apache2/mod/mod_substitute.html.en
+@sha eeB4DXW80hXVa6Wv6LvmE52YZYB+i1zZQhCm9Wo/i84=
+@size 8173
+share/doc/apache2/mod/mod_suexec.html
+@sha kPLjHrCu41jUNjoPodc1FJ3Og1KXp//X4DFXBevCvM0=
+@size 489
+share/doc/apache2/mod/mod_suexec.html.en
+@sha Z3ke+UcsNkAt+XNrkzsyX2s/qVtaz3bWOOtiBcx0yXE=
+@size 7858
+share/doc/apache2/mod/mod_suexec.html.fr
+@sha qQZuGuby0Vp/JDMM4QLQa/wiym/GjaAxncty2L/rvLc=
+@size 8106
+share/doc/apache2/mod/mod_suexec.html.ja.utf8
+@sha OGGm84IsU3uFUDbBKHmXlQRFbHjsVTA9Bh3SeAlwNYw=
+@size 8393
+share/doc/apache2/mod/mod_suexec.html.ko.euc-kr
+@sha TABpmYmRAr/acNUft5IlQhIoIJXRHa9Kx7e2UhhWWv8=
+@size 7519
+share/doc/apache2/mod/mod_suexec.html.tr.utf8
+@sha 8K8nP4dMeNO+I/n3rPOotafPg3mnYHbSsjykt6DDUoo=
+@size 8029
+share/doc/apache2/mod/mod_unique_id.html
+@sha b3vmCSf8/RJWlkHktaRUnT2sJnf4XOHQpw9z+bvFMhc=
+@size 318
+share/doc/apache2/mod/mod_unique_id.html.en
+@sha lN75usfxgoybRKbxPEso2v8h4dyftdcWDu1Lwg+ow2k=
+@size 14380
+share/doc/apache2/mod/mod_unique_id.html.ja.utf8
+@sha OZsH3oH15y3NgHepmj/kqBR+euALbx/ZDwbaghoOeVM=
+@size 17666
+share/doc/apache2/mod/mod_unique_id.html.ko.euc-kr
+@sha gMEtJihTKFYiffgI3QslXGLIkwLWhf5jNdNu25Gj5LI=
+@size 12394
+share/doc/apache2/mod/mod_userdir.html
+@sha 0NLMWWent3jh9ldbNNNvelpTN8tWK2U30HoRkgSUeVA=
+@size 403
+share/doc/apache2/mod/mod_userdir.html.en
+@sha TwWhft/nujsXckkn/TBgNINnQOoSUUwveCB1yQ04B/s=
+@size 11285
+share/doc/apache2/mod/mod_userdir.html.ja.utf8
+@sha Xu+nRUkTBpsxn2J9YkD9Ln9TfEHSQhQQBfsVFPmPqNE=
+@size 12356
+share/doc/apache2/mod/mod_userdir.html.ko.euc-kr
+@sha gzQB6L/s7chM6VCm880sdRwdb/wARIe2mq7+Ru/kpfc=
+@size 10087
+share/doc/apache2/mod/mod_userdir.html.tr.utf8
+@sha D50qyBDMyjHbphrX8V7x3TFnRTfXyWTAkKKVH9ZbXiM=
+@size 11763
+share/doc/apache2/mod/mod_usertrack.html
+@sha AWIHqMUM/FVxgsF92lPXC35/wngyR7+tASBvr8CfA7M=
+@size 129
+share/doc/apache2/mod/mod_usertrack.html.en
+@sha 9DoCk4/tO2e/MoG4jmdUoMcKnDSwAJyzCNWMK94Wecg=
+@size 17260
+share/doc/apache2/mod/mod_version.html
+@sha tKuNm2LyC42NhZXCo7/IPDNRehy1ELtwoycJCSw/EF0=
+@size 312
+share/doc/apache2/mod/mod_version.html.en
+@sha PEdFfZ1rThEOFPLB3hXFPizqznnb/S9W7Q4ki4elJwg=
+@size 10038
+share/doc/apache2/mod/mod_version.html.ja.utf8
+@sha yIbMOYF7FO6W7xR9Npt1oWMiPiVhRLh7YYy5TqtLWf4=
+@size 10579
+share/doc/apache2/mod/mod_version.html.ko.euc-kr
+@sha 9woF1S8CqXB8/9vHqxW67HZcdSLGq8Cly7TTO67jXbg=
+@size 9522
+share/doc/apache2/mod/mod_vhost_alias.html
+@sha 72155vfdK25XuGz17DYZhqSH/D5zPnv7MQQyk17h4sM=
+@size 226
+share/doc/apache2/mod/mod_vhost_alias.html.en
+@sha vlY/IykbqEB8p+vf3r9SJdTNI7MUIyQ0OJ2XB10DZps=
+@size 18838
+share/doc/apache2/mod/mod_vhost_alias.html.tr.utf8
+@sha sNssg0eoxoTH3YutSDO8NNsWErmxTKAbCnzKI8GJ0kw=
+@size 19257
+share/doc/apache2/mod/module-dict.html
+@sha yX4+FuqNzjuvyChJ4W/ukt8wuH8+Aj91NeeN5/y3UA0=
+@size 403
+share/doc/apache2/mod/module-dict.html.en
+@sha czup13NdKjfYJTqIkn498K+iZwQ00FA6shC0hIQ9Pdk=
+@size 8967
+share/doc/apache2/mod/module-dict.html.ja.utf8
+@sha DcET+iUJb8DCUHiIc3Bhpc5qBvpFdyNVmG0LYANa1sw=
+@size 10048
+share/doc/apache2/mod/module-dict.html.ko.euc-kr
+@sha VrSzBVuI+2RjxfufZG8PMv72rsasQ/GsvnxElWy3usI=
+@size 8212
+share/doc/apache2/mod/module-dict.html.tr.utf8
+@sha TjujUXPUYRA9+F2w4V7/63zBznvCQFNvb607RL0lAnw=
+@size 9159
+share/doc/apache2/mod/mpm_common.html
+@sha gyuxql+a8FZtj79EvdmHCfROg6qmr+ysrSL6GYwbvH8=
+@size 396
+share/doc/apache2/mod/mpm_common.html.de
+@sha iihmpRhL3ifBLwRzNELZJtJDOI3y1FXjZ0UPUP2KB2c=
+@size 80843
+share/doc/apache2/mod/mpm_common.html.en
+@sha Wwz9HuXVTtlYAFxcmue5gQLSA8SDUfMrDzub7siepD4=
+@size 71142
+share/doc/apache2/mod/mpm_common.html.ja.utf8
+@sha IJh76au/ZOfJTyouNONQe7yDzYfbKGtJp5B2fxfwRDc=
+@size 79337
+share/doc/apache2/mod/mpm_common.html.tr.utf8
+@sha F6CgbDWceOP1pO07Rud8JYYfP9d+5psIPLJAM2scV3k=
+@size 76370
+share/doc/apache2/mod/mpm_netware.html
+@sha LbHvVEFPf6A7B3Y4sdpUkLuFlR2VHdH+cMjoe8ZqI+g=
+@size 127
+share/doc/apache2/mod/mpm_netware.html.en
+@sha PBkOYl4HqdpQvh4GUtdWR1VptT83yEiWr7lv/hRVQTY=
+@size 9310
+share/doc/apache2/mod/mpm_winnt.html
+@sha TywZhM4JmJ2svp07RrblpwMq039RgCCDUvlo/KAr6fo=
+@size 303
+share/doc/apache2/mod/mpm_winnt.html.de
+@sha A9+MTbo4pt8HP41BooEMF1p6ANYj4yEEKL2in8xh6qY=
+@size 9092
+share/doc/apache2/mod/mpm_winnt.html.en
+@sha IwM07WOqlK/VmMqDlqWeB2ZvexLyAgCqXdhzQ93P2p8=
+@size 8910
+share/doc/apache2/mod/mpm_winnt.html.ja.utf8
+@sha qB/ZACxH2MAWDALEPgWCzwvnjs32wKQjAIJ+fOlgBAg=
+@size 9491
+share/doc/apache2/mod/mpmt_os2.html
+@sha lnyNKWmYhTUNipwGRovWpDWGwEEymRepg76L/Q9rSuQ=
+@size 124
+share/doc/apache2/mod/mpmt_os2.html.en
+@sha fDUVjXkKc0dwDCkcUu123ngDspy9wASqcBeBSJnVYbc=
+@size 7023
+share/doc/apache2/mod/prefork.html
+@sha TrN713SxbS0ZoE/TbTqm60iI0wj4PgSRP2n2BiUnnMY=
+@size 384
+share/doc/apache2/mod/prefork.html.de
+@sha yT4yDqvObPd40KONV5dJDTRkCxHpDc2XUL/c/z2pDBA=
+@size 15324
+share/doc/apache2/mod/prefork.html.en
+@sha 2k6am0yj+cU2muf2gMA/N6AT38CRny1hKMHdaYQJteQ=
+@size 14586
+share/doc/apache2/mod/prefork.html.ja.utf8
+@sha bDAmH1hKwHYFF9J7sWMt+I225g8MjyT/0XcAGqXXZIg=
+@size 16400
+share/doc/apache2/mod/prefork.html.tr.utf8
+@sha 2dHy7Zgod+PdfB/eE5bd069PFhdOLqO1HI/F5fRjkDk=
+@size 15305
+share/doc/apache2/mod/quickreference.html
+@sha K3FWLhDas2J6KhCtsdhfIJXAKoh5bxnThh83ER1okts=
+@size 800
+share/doc/apache2/mod/quickreference.html.de
+@sha JwFN4xeTuWnppJyHMAyT7/XNSHPmT1mPm59T/ZuMl9c=
+@size 116839
+share/doc/apache2/mod/quickreference.html.en
+@sha auOTlKAai3fPGfW7Ne30HjB8VSR8vWPLVUjg8FEqc6w=
+@size 115629
+share/doc/apache2/mod/quickreference.html.es
+@sha xDxlEHcWptRxorQvM1F12EsX8JwogpfhQuEXVhQ6JJo=
+@size 116091
+share/doc/apache2/mod/quickreference.html.ja.utf8
+@sha fbXb1daS/sAQ8UvS4I/IIy6Ky6Xr+CHVYuAxNNi5ehs=
+@size 121145
+share/doc/apache2/mod/quickreference.html.ko.euc-kr
+@sha mnKNW8w+ivz9CzfWdEtfe1jSuyV8F1+TyqjXz2jsLjQ=
+@size 113359
+share/doc/apache2/mod/quickreference.html.ru.koi8-r
+@sha U/sB0+QcieMopxLTxlca9hgqgOjOsBH0JCMtFTzUhHY=
+@size 115969
+share/doc/apache2/mod/quickreference.html.tr.utf8
+@sha 6MfUZ8onZp9q7AB3LG5qfq2eLK5JEEv7WeR0u4v/tII=
+@size 118170
+share/doc/apache2/mod/quickreference.html.zh-cn.utf8
+@sha wDgnpJvYgKybBUFv1SCNeNWCO+MRQVZCJ1FteEhhkLs=
+@size 115539
+share/doc/apache2/mod/worker.html
+@sha 6EeKRwys8IQWDB+hZoaFuhVcEaEE6fEkt8Cu9AYgibk=
+@size 380
+share/doc/apache2/mod/worker.html.de
+@sha IjF9rZLRVv6pzAbjY7x/uyG0SKWnfRbio4/sHAs4nU8=
+@size 15153
+share/doc/apache2/mod/worker.html.en
+@sha j9Rr6N2ppXyZBVQs1ISW+vsY6357S7FkyY/axbuJlNI=
+@size 14636
+share/doc/apache2/mod/worker.html.ja.utf8
+@sha LzbXi2mL94YoNKTvywtixXn6lF9RMASGgvDKgUofFT4=
+@size 16459
+share/doc/apache2/mod/worker.html.tr.utf8
+@sha u2yKp8bY9RjRCxCo8yatXuLq0tjs6e9CJDLpa0cEUp4=
+@size 15222
+share/doc/apache2/mpm.html
+@sha 8Qcfe8y9oFTMn2N6Pm4IJjkmsYRxisxZZCso2kLvyH8=
+@size 709
+share/doc/apache2/mpm.html.de
+@sha cYyWhC5gcYKSuLWcI3CPVdmM2bxktTZjusTjiNmO2lQ=
+@size 10670
+share/doc/apache2/mpm.html.en
+@sha 0egQQuvX4gpuCUBY0C44isa33sbhEDlQSOyXTpXi8zc=
+@size 10248
+share/doc/apache2/mpm.html.es
+@sha p4x5iYChenE/koXMlPUP77lJj11RFUFmKmFjOFpCmzE=
+@size 11128
+share/doc/apache2/mpm.html.fr
+@sha CFNaZvIAG172N8kwztLQ7OW7dzYf4SwlAa9c9dOJHxE=
+@size 10674
+share/doc/apache2/mpm.html.ja.utf8
+@sha 1yJxpoVLXLWeEGGfVPmKv6uGn7ASmcD53MQ/Aer0Jdc=
+@size 11496
+share/doc/apache2/mpm.html.ko.euc-kr
+@sha Xx9/6dHRXxGPwMJNCmjhXMztWZkJK3PYEbgYsieF73c=
+@size 9743
+share/doc/apache2/mpm.html.tr.utf8
+@sha TdR1nXI6L4Kc3c2pUXjdn+qeo6IElUzAcfp4jfn9V5A=
+@size 10928
+share/doc/apache2/mpm.html.zh-cn.utf8
+@sha 2+HYxYVXqcKs6uGoz7HjlwvyMEf65oMmMI0pfq7O3fI=
+@size 9623
+share/doc/apache2/new_features_2_0.html
+@sha eOTqECzYXgkosTXH7Uwrzezey9X/aNvjkXIMTHWZl0s=
+@size 816
+share/doc/apache2/new_features_2_0.html.de
+@sha 3W0oJoycj16gePg9bzsSpW+5NXTKr10lSfCc1g7Gpfo=
+@size 17287
+share/doc/apache2/new_features_2_0.html.en
+@sha I1TiudNy4b3P/3jeLKfy8FWWpx7mhb4kT9Y7kdM4gNc=
+@size 15727
+share/doc/apache2/new_features_2_0.html.fr
+@sha gsK1VKoejv0v+r7okWo+LPCBpo6k/CHH6v5sHYATNaA=
+@size 18289
+share/doc/apache2/new_features_2_0.html.ja.utf8
+@sha XjA8PsApsLS3Gn2PBP4LP7exFikCXLsist7zpSmDQe4=
+@size 18976
+share/doc/apache2/new_features_2_0.html.ko.euc-kr
+@sha J+XuTcxGtDjU+Vfr4woZYLfQppu39exUzx9uTzk6OGE=
+@size 14855
+share/doc/apache2/new_features_2_0.html.pt-br
+@sha ED2EgtgSkC3EwAlQCFl8z+itAYEr+nZJIo3SCHHx2nU=
+@size 16757
+share/doc/apache2/new_features_2_0.html.ru.koi8-r
+@sha uFtRa9qY6nogUkoAl7fq2xytpbcNr3EeriIyTTEfA7s=
+@size 17567
+share/doc/apache2/new_features_2_0.html.tr.utf8
+@sha 9p/8XTOWO0FK4tIcdEXr1WUzuvEv1jDIIQQszTY8Pnw=
+@size 17584
+share/doc/apache2/new_features_2_2.html
+@sha WcDqqkGM3jJpRCbwhhjQ53B/OhZtCFKuJOi47Hoaye8=
+@size 621
+share/doc/apache2/new_features_2_2.html.en
+@sha MIMZmaojPbBjOR2Ima+kRLzPhCiO4ew5iWAQ2tdsOJU=
+@size 19056
+share/doc/apache2/new_features_2_2.html.fr
+@sha keUbxD90hjaP+TOkLMyVAPBKxkqoBoPWVAJ5LZ5kq5g=
+@size 21139
+share/doc/apache2/new_features_2_2.html.ja.utf8
+@sha 3wj7+bwH6p9hwlgojexiaIYHANKxrfxyFC8bEUo6dSE=
+@size 22054
+share/doc/apache2/new_features_2_2.html.ko.euc-kr
+@sha qpSzTZJ6yfenA6UrivtRXhFISTtNogPlXxul/e8V3zw=
+@size 9643
+share/doc/apache2/new_features_2_2.html.pt-br
+@sha adIqqEMspmgAPBF4ocO0B8bgSz5mFLCeUhjqUZta6Pg=
+@size 10512
+share/doc/apache2/new_features_2_2.html.tr.utf8
+@sha 70U6yxpULSiVWypqm9u+RTgE+5WE+DxxsqC+RjGvPiQ=
+@size 20825
+share/doc/apache2/platform/
+share/doc/apache2/platform/ebcdic.html
+@sha S6/2u99/y0dj4ffPBJNjiIoNMiv4vLduOYuk/jLs+dI=
+@size 211
+share/doc/apache2/platform/ebcdic.html.en
+@sha fnPD4WYvSgVc9RE8dsylicbU0YzMDBiPWBUsSH5yWQU=
+@size 23944
+share/doc/apache2/platform/ebcdic.html.ko.euc-kr
+@sha 4qgyrK/1MwrCNDzwjTZoW0mRiLGeVKKtoapaHFPDECY=
+@size 21972
+share/doc/apache2/platform/index.html
+@sha x9LNxwUIgUrjpyTXzFXqh/7cr4lFyoKAziO+PoBwus0=
+@size 300
+share/doc/apache2/platform/index.html.en
+@sha Qo6yMW9kYGSbZ/QMceFOV1sfgCjKSXLVYflvrY0IrWQ=
+@size 5188
+share/doc/apache2/platform/index.html.ko.euc-kr
+@sha NBB0O1NGBJ12dnWbPAGUs1tXEZh/kmPYFoexphwa7js=
+@size 4945
+share/doc/apache2/platform/index.html.zh-cn.utf8
+@sha Zd8QPCnDR65oRTRcWOAhbkyOP3F2j7xVHZOH8Bf8lA8=
+@size 5014
+share/doc/apache2/platform/netware.html
+@sha jlsYIL44GBgj4GCN75Yf0NT8BRL7vF/uTP0VZBBBEZ0=
+@size 213
+share/doc/apache2/platform/netware.html.en
+@sha NaNy0JzVwtDQC+T0r+pHpYJotsQr4UTHQ7B683o/MiY=
+@size 32759
+share/doc/apache2/platform/netware.html.ko.euc-kr
+@sha lKrKxqBQ1H3C7mWPCVCSAn7rcfQ9tru8l88kXGcYeb4=
+@size 26477
+share/doc/apache2/platform/perf-hp.html
+@sha LaXh9TDZn7xrPOfw3MJD4+yBVx3qHjqsytFfaQkOyCI=
+@size 213
+share/doc/apache2/platform/perf-hp.html.en
+@sha HiegIUcIF5pdPFPVoHuzRbVmjBsCERy1agtnxDGRQBM=
+@size 8183
+share/doc/apache2/platform/perf-hp.html.ko.euc-kr
+@sha 3VqssdoaZA/EZFKaMWDAwqaQsyCOjJwytZca4AaQ7LE=
+@size 7615
+share/doc/apache2/platform/win_compiling.html
+@sha vWNGkT6GYAInTpQKcvOJ3rNQprJSNwoW1xpWcrPQ/98=
+@size 225
+share/doc/apache2/platform/win_compiling.html.en
+@sha CVZch/TM739uloR7au6mX9D8etYRr3R/D1o5MMcSW/c=
+@size 24840
+share/doc/apache2/platform/win_compiling.html.ko.euc-kr
+@sha knIusk+v+LOCVAjm7f5nCrllU6HXDo0ZoS+zPDdZWbM=
+@size 21294
+share/doc/apache2/platform/windows.html
+@sha iHvppwPueFOo7IBA3PUQ9TS2xoTvgIL2dIskmei17KY=
+@size 213
+share/doc/apache2/platform/windows.html.en
+@sha tRZ50n1+B3xzC1YGWUMyoggy/73cLM4BIeQ70VTowHI=
+@size 41924
+share/doc/apache2/platform/windows.html.ko.euc-kr
+@sha bBDgfAk+XlwJPOzOCrhryZbfW+z41gqmRFyfOKO8TLw=
+@size 32027
+share/doc/apache2/programs/
+share/doc/apache2/programs/ab.html
+@sha c2lABVrJMp4/PMO/bKDbJATwND/rCwodIX2r9uieAGI=
+@size 285
+share/doc/apache2/programs/ab.html.en
+@sha TNDJn1kFeMdyvNvwhKCCmbjypjtttOfZWW/flqy8chw=
+@size 17811
+share/doc/apache2/programs/ab.html.ko.euc-kr
+@sha sHZGatTgw9wvMLgprKAh4O7nHJiiibMQrAONlcjMAMc=
+@size 12246
+share/doc/apache2/programs/ab.html.tr.utf8
+@sha 6FrU1cxJeLMxVtdYfcU2ck3EwgXBxDmOWy3uaTrOdwU=
+@size 19446
+share/doc/apache2/programs/apachectl.html
+@sha +l76ePMELtrdH+a9eL8vgh0wTQ/LKwQepX1vF+QK8rk=
+@size 306
+share/doc/apache2/programs/apachectl.html.en
+@sha 5FWEdHpiUWXdPD5hQM3Le7Q7zf/ERoFcg2GyUGH2SP4=
+@size 11190
+share/doc/apache2/programs/apachectl.html.ko.euc-kr
+@sha x4eNbKnAbT5bTMu3bFZPfVOJ+A0now11E9GhQ/LQGsY=
+@size 9556
+share/doc/apache2/programs/apachectl.html.tr.utf8
+@sha smvwgR0K8QyhZyzkhC7cbvziCu9pULaiLgZC1HwAa+A=
+@size 13130
+share/doc/apache2/programs/apxs.html
+@sha eIO1AT5GYwanjoIFtuVsiJPdF+M2J3YPTwFFVBvhaRE=
+@size 291
+share/doc/apache2/programs/apxs.html.en
+@sha e7j/LqiVxeCYfjaiMUBt1tzW4W+8Y8liBr7mrXAqtl8=
+@size 19247
+share/doc/apache2/programs/apxs.html.ko.euc-kr
+@sha a24Rwly86dPINwmuv3U9QN9QAY9FIlNQ4718JOYasH8=
+@size 17513
+share/doc/apache2/programs/apxs.html.tr.utf8
+@sha j+J0EpzJ/gI/tf19CbWIjD+sJxRIhfomh1/ywv3evL4=
+@size 21604
+share/doc/apache2/programs/configure.html
+@sha CrsgBXWfd4FOFbvcR4sRX51KkMZeTBfnjSolIm3RDHs=
+@size 306
+share/doc/apache2/programs/configure.html.en
+@sha XeD5BkQ6sYgqbRO8RqpwpJ6CpWKY/Ncc8gDzV7VkmJs=
+@size 52902
+share/doc/apache2/programs/configure.html.ko.euc-kr
+@sha rUWw4BpPFX1IivS4YzEWHMU/4PiS/PC4SQdkCfhh9I4=
+@size 46071
+share/doc/apache2/programs/configure.html.tr.utf8
+@sha erRc23rz/3yWuLzIF7QodFtXG2d1m+Zplst288odEJE=
+@size 59743
+share/doc/apache2/programs/dbmmanage.html
+@sha W2WzZy6wRL9wBqN0eNVs0PzALx/II6ilzyyI8Vafp3A=
+@size 306
+share/doc/apache2/programs/dbmmanage.html.en
+@sha 7kv5DZO0Ftacx+yhwUUDitPO0Dk0d7WCOMbnfbUGQd8=
+@size 13001
+share/doc/apache2/programs/dbmmanage.html.ko.euc-kr
+@sha YC2+d7DlYFBCfOK1ApsbaFtMgkr+0N1Tlv7rVtD5dHU=
+@size 11210
+share/doc/apache2/programs/dbmmanage.html.tr.utf8
+@sha cvRWUULqpmRbvdXFJCga4aj8jZXQGjzBwYj7oukiKww=
+@size 14384
+share/doc/apache2/programs/htcacheclean.html
+@sha +LC8BSEGt7Apya7uYlNBhllFK9RccmR57RD7p1igeNk=
+@size 315
+share/doc/apache2/programs/htcacheclean.html.en
+@sha tG9rX9SgKeOVa1+KoAWnC4I5GCTiOHCOCh1utDo/Ww4=
+@size 9299
+share/doc/apache2/programs/htcacheclean.html.ko.euc-kr
+@sha 6ZaPZ9mojKVk1hIpNdfVp+tzj7UUEEZmjr3/6Xo8ZQo=
+@size 8676
+share/doc/apache2/programs/htcacheclean.html.tr.utf8
+@sha jHIqricb1B/4HCmriJ1PnShvTTPIabpxSUqTfF69t/s=
+@size 9949
+share/doc/apache2/programs/htdbm.html
+@sha twgy6UED3TY8x+DW/3Fsk+RA5qVf2z3mAQnvLFMImVM=
+@size 206
+share/doc/apache2/programs/htdbm.html.en
+@sha YnsL9FnPueK6SEwBPmEvmnd3fOvdVZI+KDNF09HCo5I=
+@size 16693
+share/doc/apache2/programs/htdbm.html.tr.utf8
+@sha LGPsIw/RF47jsjh+VvQ3p4R20UaoIQK61PlTpr5UCEc=
+@size 17731
+share/doc/apache2/programs/htdigest.html
+@sha Ezdpr3WGZDUWZD1Qlw98N16jbm23uZG5sN5rt2vteA0=
+@size 303
+share/doc/apache2/programs/htdigest.html.en
+@sha 5OOoZQlI331elOsGTAgFFsZppaQIZzMdco2jv7LFtNc=
+@size 7724
+share/doc/apache2/programs/htdigest.html.ko.euc-kr
+@sha 2HzEyBixRI+GZjhsn2yeSsjL6OcgWUfSIMHVBjSQplk=
+@size 6962
+share/doc/apache2/programs/htdigest.html.tr.utf8
+@sha B71xN4l35JrBUy3O6qNS44iSr9IRhZ/Q3zUBTVVO8OY=
+@size 8199
+share/doc/apache2/programs/htpasswd.html
+@sha k9SSVWE1yNozNEdD0piYRH2ZPK6+Epvyvs9PlnZtNE8=
+@size 303
+share/doc/apache2/programs/htpasswd.html.en
+@sha yuJ++JQV4cjD70/9u7jJLWn3OtKyrnmwUvYq7jfFIjg=
+@size 15274
+share/doc/apache2/programs/htpasswd.html.ko.euc-kr
+@sha DneYkVjQiZZyIu6bg9HlMwbEqoqa48cO05igCPkONhA=
+@size 13297
+share/doc/apache2/programs/htpasswd.html.tr.utf8
+@sha JcWOvLG4pFLMzAEDRRL57bulxXhjPwOhSxT9e1sM/9Q=
+@size 16315
+share/doc/apache2/programs/httpd.html
+@sha yV3EmoPHKqYf1xYaTBZxDd/wIVnGwzJmbkGL7PeHxek=
+@size 294
+share/doc/apache2/programs/httpd.html.en
+@sha btvCBPziC4EypLXINg+H6DgwA6/ZQXocWfQhguGft4w=
+@size 11962
+share/doc/apache2/programs/httpd.html.ko.euc-kr
+@sha 3cIpqH4vkIxT3JT+STVgqRoScYbMOJuGYWjrbsgS9H4=
+@size 10871
+share/doc/apache2/programs/httpd.html.tr.utf8
+@sha usLUQGb/ROkOlVYDXmBRBL69hclnqDB4FaK/Fu1QORg=
+@size 13932
+share/doc/apache2/programs/httxt2dbm.html
+@sha gIsWJgGLZfBJkjwI1vvxUMBNqAaBlQrbMxZLbE/re4A=
+@size 214
+share/doc/apache2/programs/httxt2dbm.html.en
+@sha e+P9IaIV7/ds0gOcQyQ/QzdkxoSLQKfCn1qLUw6JvGE=
+@size 7320
+share/doc/apache2/programs/httxt2dbm.html.tr.utf8
+@sha 0pn6hZkrCoOa6fbRj7mts+vmqQ0c0jF7cbLzMn9pO6c=
+@size 7613
+share/doc/apache2/programs/index.html
+@sha 3DwTVv+HwgHrw/OOrxZTv+hSAC53rIf1cPc9TEUwU4E=
+@size 643
+share/doc/apache2/programs/index.html.en
+@sha KjrF+DyT3RvRqOrq9Kt4hHPaxCbSMkSSKRyBg1TbUS0=
+@size 6479
+share/doc/apache2/programs/index.html.es
+@sha UC5baghKwAjo6zuHSHI0F1WWyiTjkDlT83HNlr0WgmY=
+@size 6248
+share/doc/apache2/programs/index.html.ja.utf8
+@sha EzUHBjV0QduM6tQV937jKiicBSjzZ4v3Q7BaPPOPNvE=
+@size 6912
+share/doc/apache2/programs/index.html.ko.euc-kr
+@sha L40VseW3pL8xUwzWsFRpEN/hwppMF5iyde16F3YF7Og=
+@size 5713
+share/doc/apache2/programs/index.html.ru.koi8-r
+@sha LKpzHoYef03vImJWQB7KO/eCQM2JmiJfnisa4xBH3tA=
+@size 6549
+share/doc/apache2/programs/index.html.tr.utf8
+@sha eQ4pH2TDjekVJUUUUJnLXv22jLP4gr/NUOrT+5vdzyI=
+@size 6871
+share/doc/apache2/programs/index.html.zh-cn.utf8
+@sha nBsG2NyA0gqeDdLltAJ1gfHM/LQfWY5U4ywx1sUxYeI=
+@size 6369
+share/doc/apache2/programs/logresolve.html
+@sha r30rvOEtyhOeOImHSJSBCF4JougFRoLcux6C6LvAVBw=
+@size 309
+share/doc/apache2/programs/logresolve.html.en
+@sha zluK9Bn1rKNnyaFK4bhCRwWREIseARj3OIcRx6fJzKA=
+@size 6502
+share/doc/apache2/programs/logresolve.html.ko.euc-kr
+@sha SSM/oP/D3hdFaHxX52VC05lEE2WZ7hzthQfN/Xiju+8=
+@size 6264
+share/doc/apache2/programs/logresolve.html.tr.utf8
+@sha PIf8ANxXGpIyap/I0SmqroFQGOY6TzWfUi6K401X9FQ=
+@size 6697
+share/doc/apache2/programs/other.html
+@sha Nigr1UqRWCWt2TmROnN7UhIoZBGLOjik6jQvxW4S17U=
+@size 294
+share/doc/apache2/programs/other.html.en
+@sha spEjkMBkjJBZI7iUSVD3BBcpRfV3/e68LE7mk7o9Jj8=
+@size 6514
+share/doc/apache2/programs/other.html.ko.euc-kr
+@sha sBXsLWEq9bo/C8GV7sVg5U8SpgEKeA2nUNQL0ErAPiw=
+@size 6267
+share/doc/apache2/programs/other.html.tr.utf8
+@sha mj6dujUHqh7MjoDamQM/yqh8UhWKbMFw5k/EvqNvyak=
+@size 6766
+share/doc/apache2/programs/rotatelogs.html
+@sha R7McQgcvvqoHucpMXNLc+cTR/KMnI7fPBnGTTm88Omw=
+@size 309
+share/doc/apache2/programs/rotatelogs.html.en
+@sha MVMBiOJyq1csTxUZqpSWVJsRQlDkmbZf/eSikEOXx7E=
+@size 12416
+share/doc/apache2/programs/rotatelogs.html.ko.euc-kr
+@sha y0ndW9SEedLsvsCQT/TC7BkJT2HpPtzw/iVAoeho9Q8=
+@size 9642
+share/doc/apache2/programs/rotatelogs.html.tr.utf8
+@sha VxYOHD00pFu7VtoZnkvKXXeqBXApTYJIJffyM8MBt2I=
+@size 13301
+share/doc/apache2/programs/suexec.html
+@sha E6P8LQggZ38ffnoVP3klsRKgZvbX/4h5nBOE/noAUEE=
+@size 297
+share/doc/apache2/programs/suexec.html.en
+@sha qZnLx1t4JqLRfGwfa5bLHXcjEKkvQvcoHMA/p7IiQjo=
+@size 6356
+share/doc/apache2/programs/suexec.html.ko.euc-kr
+@sha zLzb07Nfbr/U8OShmgopzYdBMAc+M93WkcLVq90YtJk=
+@size 6333
+share/doc/apache2/programs/suexec.html.tr.utf8
+@sha 8bRUB6UV41BOgiq7Y6eIoAL/tZtx37xK1DOECDY69oI=
+@size 6627
+share/doc/apache2/rewrite/
+share/doc/apache2/rewrite/access.html
+@sha W538y78O5jqOWPwmKaM2pYXczC+Oq5yZjPAcbKoXgRE=
+@size 122
+share/doc/apache2/rewrite/access.html.en
+@sha BsL3Ej/JslQvM/JuFY0jNvZ6HyvrruzTDGHLIG2z3P8=
+@size 14476
+share/doc/apache2/rewrite/advanced.html
+@sha Fu+NDKKji2jm45ms/41vcUTwvE4tUTpTBiEX/EfGwho=
+@size 124
+share/doc/apache2/rewrite/advanced.html.en
+@sha kiW0iftBmSkVuwA4XoutRGcyFGYMSG2h3Ek9GJ5MrWs=
+@size 19702
+share/doc/apache2/rewrite/avoid.html
+@sha jqmOd4X4iu9w9FUurFON4pnWaWTvxprJA67XP+QoCY0=
+@size 121
+share/doc/apache2/rewrite/avoid.html.en
+@sha HUOXZs356O97UTRZvRMv3BmAd2OcYuBgiwCpy7HKAhY=
+@size 13429
+share/doc/apache2/rewrite/flags.html
+@sha JE+6RixAdRCUhCCitpHyZxwtaRgbF7P5PUc2Wc0C8ws=
+@size 206
+share/doc/apache2/rewrite/flags.html.en
+@sha dQrxTU1egm3dAZRbmjB1Gbu5bmBWPal3TJpF8FVkUxk=
+@size 35892
+share/doc/apache2/rewrite/flags.html.fr
+@sha DKURwZ9hGkX3OtdmhYM8hzEGhNbYZYe0EzGdwPL7T6E=
+@size 40515
+share/doc/apache2/rewrite/htaccess.html
+@sha htQlmuDgzq5PXYl2k8aOEINvphVfYilh83Q9AdBR7zo=
+@size 124
+share/doc/apache2/rewrite/htaccess.html.en
+@sha QqVOsbiNhZOEJPHvnvYCvjxxzP3KNAuTONjQ9pDXVnA=
+@size 5197
+share/doc/apache2/rewrite/index.html
+@sha OF6v3wjtUSwuPlpFKa/1bUVaLZa2PHwW8DFXBlpwBAw=
+@size 382
+share/doc/apache2/rewrite/index.html.en
+@sha qhUDz5iHlpVJlP92l218ArLeS4wE30JrSNZiZt0QfXY=
+@size 6464
+share/doc/apache2/rewrite/index.html.fr
+@sha oFFcpOpDSqkGKXX1ceKZwTOqwRYVwL61/EFZewivWhU=
+@size 7060
+share/doc/apache2/rewrite/index.html.tr.utf8
+@sha PV0yEqLZ8mUVOj2ph9k3EPTlX09GID/H5nIWidU6NUc=
+@size 6811
+share/doc/apache2/rewrite/index.html.zh-cn.utf8
+@sha VADMIdFUNf2Yvlj12rSZBFk+014kCyUty09r/g0AsNc=
+@size 6121
+share/doc/apache2/rewrite/intro.html
+@sha 356/6T/7bGXjXJ2JS3oFgCGr5x8dn5HjN4EJAoN0kGY=
+@size 206
+share/doc/apache2/rewrite/intro.html.en
+@sha +4WiU1BXESAoJLfwPDXgmLqo6qkFu/eiMfy7PBj7gbs=
+@size 20892
+share/doc/apache2/rewrite/intro.html.fr
+@sha TCexk1zzunlwi4coOOySxKZ2dMzpTAb33E7A1PJk01o=
+@size 23004
+share/doc/apache2/rewrite/proxy.html
+@sha vrDre8H/ObseyV9ZN0gXnMk7pNoSQyAUS4ZKLkIXcnk=
+@size 121
+share/doc/apache2/rewrite/proxy.html.en
+@sha 9984NMY002wKi90GHOZaajnk4c0DZDzrLSL8N1KEw6o=
+@size 7391
+share/doc/apache2/rewrite/remapping.html
+@sha IhjaqrhpzDCilrJZGrYNtMT/WFWe7ZvJQEBJMt33o+U=
+@size 125
+share/doc/apache2/rewrite/remapping.html.en
+@sha TD/FPZoCrSyhAPGGbRsRmdVLpO8uXBAcv6l7o7YJ5Zw=
+@size 26223
+share/doc/apache2/rewrite/rewritemap.html
+@sha Paxjdyy2mChElEvgcshSG5y8MO3eo5GOZUf+oYweuOI=
+@size 126
+share/doc/apache2/rewrite/rewritemap.html.en
+@sha 56WsWGgEzSmmUhZ/tFitJdLp6GoPaVq0ffr+tzu1blg=
+@size 21448
+share/doc/apache2/rewrite/tech.html
+@sha sX5A1Bru0YFtrjQYtGuI9onJ0sCM8rsNRnLKuiiPKkg=
+@size 204
+share/doc/apache2/rewrite/tech.html.en
+@sha fYHmfkrYfq9qEJ0eWGF6A+FkdVXaC7Qvks6On3gMmk8=
+@size 12545
+share/doc/apache2/rewrite/tech.html.fr
+@sha rAIfDxQcw3XbCG4jLk5cjF1y7nboPjITlwz1Osl1HjE=
+@size 13837
+share/doc/apache2/rewrite/vhosts.html
+@sha AiDHMX3d8J8qMSxO18pZIvgZwiXOzV/SellUBhB6k7w=
+@size 122
+share/doc/apache2/rewrite/vhosts.html.en
+@sha 0Rn9j8sZmYs/h5d0uVaLrmnG7ZfO4tm7sMKHzvCO5/g=
+@size 12317
+share/doc/apache2/sections.html
+@sha p0VUtplvq/cz9icDyy+uUgYZ80Tg+7b2g3A3cXFjcqU=
+@size 479
+share/doc/apache2/sections.html.en
+@sha Jadlh37S2euoyAp1SDTpOjBe0faQZEoIBk9qlwkSLTI=
+@size 29586
+share/doc/apache2/sections.html.fr
+@sha dgfg4Pr8ujfmQkxVFbNm78UBXiDeS1nYQQpXFoKIoLw=
+@size 32623
+share/doc/apache2/sections.html.ja.utf8
+@sha w5VbiDBHQ/ZD6fh8Id6xS5354NiaH1ANDyXmtcPXka0=
+@size 33353
+share/doc/apache2/sections.html.ko.euc-kr
+@sha P3onMnpE3iGpQJF2zTDxOM4SBImR69ik1y/HbS85rIg=
+@size 25461
+share/doc/apache2/sections.html.tr.utf8
+@sha st+EqVnEekH0bwTVNIT581gHpulJE9vU/lZh08O9lhE=
+@size 31859
+share/doc/apache2/server-wide.html
+@sha q2W752Bzq0HZvr+KzXb3mC4v69PDyqOE17yKwwS20oQ=
+@size 403
+share/doc/apache2/server-wide.html.en
+@sha bbOYYQxg6Q/120syZn8O6JUWMzRbFXgtsiFUI8CR2s0=
+@size 10891
+share/doc/apache2/server-wide.html.ja.utf8
+@sha XW9KqntHY+2w7AIFqudPrGBPhs1Fjd8UvazLnK5V3GY=
+@size 11620
+share/doc/apache2/server-wide.html.ko.euc-kr
+@sha 8dqEd2Q0HlW2LVZ3ktTWH9+BjRqricZaWx/Nuveh4e0=
+@size 10187
+share/doc/apache2/server-wide.html.tr.utf8
+@sha 4L6k7i+XjvL8xrDjtuYa51Uw/p6azjatdedBinGaoEw=
+@size 11328
+share/doc/apache2/sitemap.html
+@sha fK1jNPHNyHoJg94Y63QqlCicHMySeoDiSX44gWhL6mA=
+@size 654
+share/doc/apache2/sitemap.html.de
+@sha Nt6VU1+eIb8FBXMPaAS9r/0q22jqwzraZLtfxsHYBIA=
+@size 21709
+share/doc/apache2/sitemap.html.en
+@sha W8O/MLC9CN0Aq9jIVrAkzNJyKrDTGQtfd9Prw6Hi6aw=
+@size 21669
+share/doc/apache2/sitemap.html.es
+@sha QO8nGPEtxXghuHsQSJOZNHSaYlrYJSojnRzn5H7uRu0=
+@size 21401
+share/doc/apache2/sitemap.html.ja.utf8
+@sha wQ9HcNPmX2lBT0IdWESptSULW3wHwXfiNQcfQ87DN9A=
+@size 22524
+share/doc/apache2/sitemap.html.ko.euc-kr
+@sha gXfJgl/KXUbaGfgUAY+6s7nezfSvci5BYLQqZCw/A4s=
+@size 19732
+share/doc/apache2/sitemap.html.tr.utf8
+@sha 6qW5YA5ayepkuQkUlcCjOKbGpjxX1bTW33J41ivRtrA=
+@size 22413
+share/doc/apache2/sitemap.html.zh-cn.utf8
+@sha G3GMtuq7phxM9ll21nTkhplB10iFNsJhrSirROh4ZyI=
+@size 20482
+share/doc/apache2/ssl/
+share/doc/apache2/ssl/index.html
+@sha x5cBRpMW7rhRAGNw/wdjLcylPTNvqM4lPjzW7/isEcw=
+@size 382
+share/doc/apache2/ssl/index.html.en
+@sha HBR/gcZbPVPO84cod4zF8NE+dtILGIbuhqMjivuacVE=
+@size 4711
+share/doc/apache2/ssl/index.html.ja.utf8
+@sha +AMdCRXrN29UvMoDCPzoiJRjQEWfi/LyB07Sg/koWfM=
+@size 4957
+share/doc/apache2/ssl/index.html.tr.utf8
+@sha ksccyRZO54zfotCzXGjk4f8haHhK8H2ZyQ3fZ1Bs5oE=
+@size 4850
+share/doc/apache2/ssl/index.html.zh-cn.utf8
+@sha 4SK4WPIkIB0p3Y6Gl5LzP63bGsSM5FhHigMkNbcA40A=
+@size 4543
+share/doc/apache2/ssl/ssl_compat.html
+@sha 0Kyz2vs+SR37EAR8JfRMHs27IiIWuLBtbLzomH6r3Qo=
+@size 126
+share/doc/apache2/ssl/ssl_compat.html.en
+@sha jBDchJhOIYXDBMBxKZxxweovF3hZVR77htKQs8gWsYw=
+@size 21282
+share/doc/apache2/ssl/ssl_faq.html
+@sha AOkBm7eT8L+fQtn7KygJfxBnFVT1TZFtwA1wmfrzFdQ=
+@size 123
+share/doc/apache2/ssl/ssl_faq.html.en
+@sha 99L5aGis0LsnXvELpm1NQuI2Ustsw5NbhzkZT6HdBeA=
+@size 58349
+share/doc/apache2/ssl/ssl_howto.html
+@sha MWOLuxgrtx/xsH4dE7vakOQU513AO2L/Y5RdUuZH180=
+@size 125
+share/doc/apache2/ssl/ssl_howto.html.en
+@sha KiHnH8VJCCLavwd9BpR2C/hcPxL3OvSBrQHE/EDtgaw=
+@size 16728
+share/doc/apache2/ssl/ssl_intro.html
+@sha QCqsC7MXTaQPkpFI4kX9Hu/haylYVvyxEb6okNJE9iQ=
+@size 214
+share/doc/apache2/ssl/ssl_intro.html.en
+@sha ljSyHS0mJLXChlLuto0MKbXTU7clpi9/PQ66eARNVQM=
+@size 36095
+share/doc/apache2/ssl/ssl_intro.html.ja.utf8
+@sha yU8RtksVdcHxZX4z8BHm30sUR53cewtk5P4lwazW4QU=
+@size 40626
+share/doc/apache2/stopping.html
+@sha jm2enWmfXPkYXudqW6lGZ1tjWfatNsF0NoO0PAhcIXo=
+@size 655
+share/doc/apache2/stopping.html.de
+@sha GVUt9uyhRgLlcrBDzGpEUNVQdbNqUSJN8N+rW6osSgg=
+@size 22633
+share/doc/apache2/stopping.html.en
+@sha kZyfVpU05WvHwAUCGKR879zHBokbRBMqJyY0M77ARdo=
+@size 17713
+share/doc/apache2/stopping.html.es
+@sha gn3+4W6oic4gblzCrD7sLxT6i/otz0+BUrzklxhofN4=
+@size 18775
+share/doc/apache2/stopping.html.fr
+@sha hY4DGr9madg9Izql0qEPh17WjyUZ9RgnBEY9+eemI8I=
+@size 19835
+share/doc/apache2/stopping.html.ja.utf8
+@sha 3Ngv5ucB6udWUJTZbz72GH0SfWP6hqRfil+PMkb7fHw=
+@size 20783
+share/doc/apache2/stopping.html.ko.euc-kr
+@sha KZ/t4OMtKKxzUNIPySe2m3A33zTu9WqKFnsOBOBIKww=
+@size 14794
+share/doc/apache2/stopping.html.tr.utf8
+@sha IqCxVNKXz1CAZl9o5K0pd5qLt7XDuu4T1AwtQTBWld8=
+@size 19847
+share/doc/apache2/style/
+share/doc/apache2/style/build.properties
+@sha pShxuzZfwQIQyH1GBc06chcz/jTXLR3nQ17qc2K1Qn4=
+@size 404
+share/doc/apache2/style/common.dtd
+@sha VH5lGF4/cOnGha4NyErra4jjEf74YijwZdrsDd7wO+I=
+@size 5685
+share/doc/apache2/style/css/
+share/doc/apache2/style/css/manual-chm.css
+@sha mconFpDsRR9SjKW2uK5SGz/eO7ffA+KcEH+Snpnce10=
+@size 915
+share/doc/apache2/style/css/manual-loose-100pc.css
+@sha N3J98fZdmwfbxSnc6ToL6kYPgoAGAw4Ww/OMl66JODQ=
+@size 3065
+share/doc/apache2/style/css/manual-print.css
+@sha RiwJaCqa5/kcvX0/bWtiEEV1yj79zN8Ra2XRsF0Y4V4=
+@size 13200
+share/doc/apache2/style/css/manual-zip-100pc.css
+@sha 5QkRGCiMQl13YCCwafzti4UkBaXMjBdHaql9lLilVuo=
+@size 885
+share/doc/apache2/style/css/manual-zip.css
+@sha C5qDVtFDPlJUYTxaKDCaCbzC/X/9hsuB0qsicFhfb04=
+@size 874
+share/doc/apache2/style/css/manual.css
+@sha 2H8xgvJBa3J3TbzLak2kiUpTM3LQCkudYOAdD5VEMkU=
+@size 18754
+share/doc/apache2/style/css/prettify.css
+@sha MA8HnSO1JQi4cV4j6UpOIRzpP0OII+nibzFyRdqKS1Q=
+@size 3616
+share/doc/apache2/style/faq.dtd
+@sha 0XVVdQ9geSWlSzlfCh0/nbSTsRsiQVLFtpu8ZbXJMI0=
+@size 1247
+share/doc/apache2/style/lang/
+share/doc/apache2/style/lang.dtd
+@sha i8/5Az/1o/+0xqFYBOE9cPaTPVpH5HU+Y3Fod1ocSVI=
+@size 907
+share/doc/apache2/style/latex/
+share/doc/apache2/style/latex/atbeginend.sty
+@sha QYlDVQDb/rszKuTmRV+AELHxirfOO5nhAt0txhQyHp0=
+@size 2582
+share/doc/apache2/style/manualpage.dtd
+@sha QUYoaYxKx0foSfuDcR7CRCnYFm6u7WEq4F9pXTyaxII=
+@size 1082
+share/doc/apache2/style/modulesynopsis.dtd
+@sha Wq+Vv8p5C76ScAvG9Y0J2mqm+uh2x1UdrtviKsf+mr8=
+@size 2246
+share/doc/apache2/style/scripts/
+share/doc/apache2/style/scripts/MINIFY
+@sha 4go6OY3swWqr4ihPL4zb5ds8h4md9bkoNmgNJJObqD4=
+@size 167
+share/doc/apache2/style/scripts/prettify.js
+@sha OrwqkKBKCNwNTI35vK1zFzWR446v+voNbTNziQtJo+4=
+@size 72106
+share/doc/apache2/style/scripts/prettify.min.js
+@sha 1WLoglNxEO4g2VfvysaPbgPUl6MjfCe6fyiOudTkIlI=
+@size 36840
+share/doc/apache2/style/sitemap.dtd
+@sha 3F6jpwij6oVbD1cpOGajo3TqUQdgPMlPTcHRsCcrDEo=
+@size 1425
+share/doc/apache2/style/version.ent
+@sha pqI/aGlLwSXHFejecQ1oydkiU4r0nmA6Xh0X2r6ZIvY=
+@size 925
+share/doc/apache2/style/xsl/
+share/doc/apache2/style/xsl/util/
+share/doc/apache2/suexec.html
+@sha ErjVOuxY9O9ncE66o9y/IMgpETudn+XrMgZXidIj0qw=
+@size 469
+share/doc/apache2/suexec.html.en
+@sha 9QHLhddaEVHPiltTxLupeocylgfjX9sUknzTLobUwMg=
+@size 29117
+share/doc/apache2/suexec.html.fr
+@sha Q8pSsF8iyscg7ev9ew+5NCoWUaQVAJjQap/cvcHOXaI=
+@size 32331
+share/doc/apache2/suexec.html.ja.utf8
+@sha coZ6aDlAGoQBQBcmY2v0osi0/YWpBE1jpQgsnLZEDxM=
+@size 33736
+share/doc/apache2/suexec.html.ko.euc-kr
+@sha S2UI6HNvCB0qM9ynYkYw6WZXexJOyDo8iauvGTfY1+k=
+@size 24401
+share/doc/apache2/suexec.html.tr.utf8
+@sha zg1Aht+4431niYBzmy83d4JtBe1GuXDcPsxu+/RL5X8=
+@size 31591
+share/doc/apache2/upgrading.html
+@sha vinFtvqaG5QCzTBRH1mreK1hbK6qEWfnvAfTKxl2jTE=
+@size 392
+share/doc/apache2/upgrading.html.de
+@sha lLilA8KAUJPcB+Q2mnOXTPE4u3OTQeZaRCsIeHuwl2E=
+@size 9781
+share/doc/apache2/upgrading.html.en
+@sha cxWEy2EhvRkuxVtsYTSvmdTvf2Yl/HNjePNtM4t7kQI=
+@size 12011
+share/doc/apache2/upgrading.html.fr
+@sha +BY0gYfsn9Pklg3lPM3TcRfMdZZZYcX4OoP/Cy4a2K0=
+@size 13021
+share/doc/apache2/upgrading.html.ja.utf8
+@sha HQ4vaOv2SUcpP9FkIPDu9BBGlwjmu5dZbwQuo/6t4Wo=
+@size 13594
+share/doc/apache2/urlmapping.html
+@sha vMh+Erl1aFeA2nBVwgdFEDPHoNOzDzk06yAW2EICayQ=
+@size 399
+share/doc/apache2/urlmapping.html.en
+@sha ogGhdZ/f3+to68nXpmkc+u6GDKwP/Dh/03zpf7rOiTs=
+@size 22648
+share/doc/apache2/urlmapping.html.ja.utf8
+@sha RlREo9e/+GUxEv+gcpxlVxVHmD6rFCx1lZJXSXN0eJQ=
+@size 26020
+share/doc/apache2/urlmapping.html.ko.euc-kr
+@sha asVDwMCB91xbFUrQ11fSXYmweGpESaarv5Y5qp9crJo=
+@size 19318
+share/doc/apache2/urlmapping.html.tr.utf8
+@sha qKhj6VrH8iUv7t6jAMScUIYmByVu7xuTZUpZ7JVDopo=
+@size 24545
+share/doc/apache2/vhosts/
+share/doc/apache2/vhosts/details.html
+@sha +8HcCKKFQEn2Augi1s2INNo0gUIkoC5LDOaIcfDCiCM=
+@size 387
+share/doc/apache2/vhosts/details.html.en
+@sha UriF5BWulzXPR0Je6E/UPFzusEjgg2CQwgf3KEjVdRg=
+@size 23121
+share/doc/apache2/vhosts/details.html.fr
+@sha pgRnt5+TOp6U27gxQZ1L55S3PA/x+Tp4+2mzFRXssH4=
+@size 25895
+share/doc/apache2/vhosts/details.html.ko.euc-kr
+@sha TaMUUL+2oWY5etY90uFKNI7mwt0X8PXjYetWHPGgAO4=
+@size 20083
+share/doc/apache2/vhosts/details.html.tr.utf8
+@sha Qh6nrr3p2OUoF78F7oJ9EWFH+CdZ6zCXUslAfjg/b7E=
+@size 23867
+share/doc/apache2/vhosts/examples.html
+@sha KIIke83AHVf1opJrtFE94zYyOOdYjxW56b/wzsy4aCY=
+@size 479
+share/doc/apache2/vhosts/examples.html.en
+@sha 6dyH22PuxQiSYZXWefoxYNiMaDjYfR4xPAMAIUiYJAk=
+@size 28366
+share/doc/apache2/vhosts/examples.html.fr
+@sha 4qtqk2A/3RenstorYCtv3j8a1Qt+LigU3OjROjBqyns=
+@size 30475
+share/doc/apache2/vhosts/examples.html.ja.utf8
+@sha 9VfZMNGx5UoPbHktee7AjQPR4MPAPfk0vDJKwF1hraM=
+@size 31881
+share/doc/apache2/vhosts/examples.html.ko.euc-kr
+@sha OWVLIqbmyBW083Jf4Kq/lG2iB0Fu797zMeDn0nW1GmY=
+@size 25478
+share/doc/apache2/vhosts/examples.html.tr.utf8
+@sha KAXxjK6RZ8m1bWk1+xAlF9QHjJvEsYK3sA2Kdqf5Zos=
+@size 30046
+share/doc/apache2/vhosts/fd-limits.html
+@sha WXETiMArtW/DDTDAXx6+WmLb4j0TjB+WRMRdSeCQZ0c=
+@size 484
+share/doc/apache2/vhosts/fd-limits.html.en
+@sha UpYyDw0YzrKUlDxQ0gBsDy+pnsJtnl8N/qsHn45LRrA=
+@size 8923
+share/doc/apache2/vhosts/fd-limits.html.fr
+@sha 4Qx1x1aPtJARC5UWZ2yTk0f5LsToicOlIgPxxCyoWb0=
+@size 9888
+share/doc/apache2/vhosts/fd-limits.html.ja.utf8
+@sha 1ZrfbV3xUzOHogPE2JnJwbkbfIL8iI0YYQJDBqAXnF4=
+@size 10444
+share/doc/apache2/vhosts/fd-limits.html.ko.euc-kr
+@sha tY7/jsbaruhnBxADqOPXllk3hvZIreAeqdG6strJYMM=
+@size 8539
+share/doc/apache2/vhosts/fd-limits.html.tr.utf8
+@sha DbVivbZHQKNhhV+sAVUh1D5sLKHJtLMFf7XYe32yNvI=
+@size 9484
+share/doc/apache2/vhosts/index.html
+@sha OaMosNhHIaLgvo7HQ80jBGdwymgVfTy+fpsPX08pTxk=
+@size 728
+share/doc/apache2/vhosts/index.html.de
+@sha 9HeXW14OAo4lHpRZjADwv+QdXXSsR9Z8BwQ/GvGGkkc=
+@size 8520
+share/doc/apache2/vhosts/index.html.en
+@sha Owq2LvQ/6WEfR/Z1BXQqkSM5KlcN/qyPAd+oOp8IOfE=
+@size 7974
+share/doc/apache2/vhosts/index.html.fr
+@sha r6e3Lb4zc7NjqlamPYMhixSurjPmyVfyea1Bi7E3J2c=
+@size 8367
+share/doc/apache2/vhosts/index.html.ja.utf8
+@sha nVYMpqY7L5cw+dpihjgvdmlrIpo7RzUd4ZyfN/ttxZM=
+@size 9093
+share/doc/apache2/vhosts/index.html.ko.euc-kr
+@sha m7epQoh9ApkbxKSwIgw/Ley+5SzbfovpUGdhZVMTLXU=
+@size 7640
+share/doc/apache2/vhosts/index.html.ru.koi8-r
+@sha cjWRtON4pJJBKc+793UX/gqk//H6vI/1vbU+bMDk6uQ=
+@size 8490
+share/doc/apache2/vhosts/index.html.tr.utf8
+@sha XKFRkbOm1CNzs/uUPdOEeLPiszSRoMS886+MnT/frpk=
+@size 8230
+share/doc/apache2/vhosts/index.html.zh-cn.utf8
+@sha COVXNx7+luMEfsJF7X5BQcRq7n3OgDBdLpz7boddwUo=
+@size 7713
+share/doc/apache2/vhosts/ip-based.html
+@sha +w3pdz15kICP0z1aEs9J/KWpoY8ZzyuM2YKDVQ6kKnU=
+@size 479
+share/doc/apache2/vhosts/ip-based.html.en
+@sha cjgM64EFg6fQO35JukXEExzcLrreiRiuN2uuIpQBwhg=
+@size 13523
+share/doc/apache2/vhosts/ip-based.html.fr
+@sha LDKtqszf2FyPWy8iKkcp2oStv4uSl9pnOYocPEepC9U=
+@size 14505
+share/doc/apache2/vhosts/ip-based.html.ja.utf8
+@sha fOvtj7320EVGRCB4538fZWqAEFQq6zjmnn8G5f3W+2Q=
+@size 14048
+share/doc/apache2/vhosts/ip-based.html.ko.euc-kr
+@sha MeEt2skK5SPB6KjI1mXpUd+fDhY2FBiJWftBoCpH6fs=
+@size 11262
+share/doc/apache2/vhosts/ip-based.html.tr.utf8
+@sha WGDdykoy4Il4ry0jrVmJBMU8IsB4zl2B2+tbndd1Xbk=
+@size 14828
+share/doc/apache2/vhosts/mass.html
+@sha bVHJxB2MKGFgtRewA9EAxS6tK8Bu+fghXsa3uipUIqY=
+@size 291
+share/doc/apache2/vhosts/mass.html.en
+@sha cNMnxhZgLAzvTTEGY7lFRfG+Ey3QVmYAv9ufJtgBICM=
+@size 21755
+share/doc/apache2/vhosts/mass.html.ko.euc-kr
+@sha /S9OBzW4LqaSGlUCgQL1yrlur6g86xconbLzJ3OKq+Q=
+@size 20617
+share/doc/apache2/vhosts/mass.html.tr.utf8
+@sha 7PaR7oevfliMWb2JWRbMtbHXy1ZXT5ksgQwJte1qrRA=
+@size 23178
+share/doc/apache2/vhosts/name-based.html
+@sha 5jXTSA7mOmy47X2+7ofWwSnYg/AQ9kCX3YvufDlE1Ps=
+@size 579
+share/doc/apache2/vhosts/name-based.html.de
+@sha +TzSTSlp5xFCPFiYYoKY81hwY1fiXlcktEvx2sZ/1r8=
+@size 21187
+share/doc/apache2/vhosts/name-based.html.en
+@sha 2pDrDH3WEdEiDzhPZKpQQSQ3Zl0EqyutSfToo6ueEQM=
+@size 19251
+share/doc/apache2/vhosts/name-based.html.fr
+@sha 8/PLo/npeQ0k7x/Ln0Kr/GW3h8G3dtqRg8XpzS27c7Q=
+@size 20489
+share/doc/apache2/vhosts/name-based.html.ja.utf8
+@sha sf9NBf1Q6hVnvLhcE5SBJlVFyZ0zVfI2CuKnkckosuQ=
+@size 23488
+share/doc/apache2/vhosts/name-based.html.ko.euc-kr
+@sha QDkhYfDyMT25TsLkyUggbN4rsgpQUDnz9NIWvSolAAM=
+@size 17779
+share/doc/apache2/vhosts/name-based.html.tr.utf8
+@sha jqGSPmcrkVbSAQgeYNpGN405cU5fI+fOIxXG/sum/bw=
+@size 19972
+share/examples/apache2/
+@sample /var/apache2/
+share/examples/apache2/cgi-bin/
+@sample /var/apache2/cgi-bin/
+share/examples/apache2/cgi-bin/printenv
+@sha yqBJ0mx9aPHKQvdA7ZMD0yTIWye5E1/wjJKLRMr+2Bk=
+@size 294
+@sample /var/apache2/cgi-bin/printenv
+share/examples/apache2/cgi-bin/test-cgi
+@sha aJ3MJuoV7RJa5vW78uKqVbPUurBGepuKIpHlOCWbT44=
+@size 779
+@sample /var/apache2/cgi-bin/test-cgi
+share/examples/apache2/conf/
+@sample /etc/apache2/
+share/examples/apache2/conf/extra/
+@sample /etc/apache2/extra/
+share/examples/apache2/conf/extra/httpd-autoindex.conf
+@sha S5pFKiFn/w7vGn894SbPILLxq+ygQKRjQUyE+KNuCBg=
+@size 2833
+@sample /etc/apache2/extra/httpd-autoindex.conf
+share/examples/apache2/conf/extra/httpd-dav.conf
+@sha Tn2btakDf/oUe1QVLewUpXD+ea8twk8/seozwPKjKm8=
+@size 1688
+@sample /etc/apache2/extra/httpd-dav.conf
+share/examples/apache2/conf/extra/httpd-default.conf
+@sha tancNs0qZ3IXFQjFvrTxi2761RB3s0vapWwVvZf6Vc4=
+@size 2344
+@sample /etc/apache2/extra/httpd-default.conf
+share/examples/apache2/conf/extra/httpd-info.conf
+@sha waDpAkfU3LePWpzMS/Yo9g5FWP/mco7Pgw2YzgbE8xw=
+@size 1103
+@sample /etc/apache2/extra/httpd-info.conf
+share/examples/apache2/conf/extra/httpd-languages.conf
+@sha qUGQhvwrcPaRMMPun4dhsKErDH2kfTt3mwSrOCcIHPA=
+@size 5078
+@sample /etc/apache2/extra/httpd-languages.conf
+share/examples/apache2/conf/extra/httpd-manual.conf
+@sha GytrH879846p819TG05Izp9eThSJ/zbmmkDCCb7liAY=
+@size 941
+@sample /etc/apache2/extra/httpd-manual.conf
+share/examples/apache2/conf/extra/httpd-mpm.conf
+@sha q7EhSp7ggmWEdlAFIwMe49zIHY+znRXXtxkL8UVyVj4=
+@size 3789
+@sample /etc/apache2/extra/httpd-mpm.conf
+share/examples/apache2/conf/extra/httpd-multilang-errordoc.conf
+@sha gXNWPQ6UAX2s+uHBs/4osqpLiqFmC8hjqoBu9WNHaWw=
+@size 2168
+@sample /etc/apache2/extra/httpd-multilang-errordoc.conf
+share/examples/apache2/conf/extra/httpd-ssl.conf
+@sha /DgPDeu1/YuCJgOaAHmSBE/HQFO2pQC4kE5PsB9fjzM=
+@size 11228
+@sample /etc/apache2/extra/httpd-ssl.conf
+share/examples/apache2/conf/extra/httpd-userdir.conf
+@sha /S+oJWrN2zJ9yICYLY2ZdnkZWDVpuq8kVDx/CwOKtpU=
+@size 817
+@sample /etc/apache2/extra/httpd-userdir.conf
+share/examples/apache2/conf/extra/httpd-vhosts.conf
+@sha hptalIcXNLN9DluS11/ckLgmqIZtnkc397CmqFJUG+A=
+@size 1481
+@sample /etc/apache2/extra/httpd-vhosts.conf
+share/examples/apache2/conf/httpd2.conf
+@sha Dv0FVCgTXLkWVTx/ahKFBTFkPOUgZ45H1DGHdZloU3M=
+@size 17794
+@sample /etc/apache2/httpd2.conf
+share/examples/apache2/conf/magic
+@sha ao7FYyzWYeL5/5aQkcfkl2CaCd6RV2Gh4lvvAoDNuIk=
+@size 12958
+@sample /etc/apache2/magic
+share/examples/apache2/conf/mime.types
+@sha Pkoiumyp092ZlBIsbtqobgczrbbbT46/PHNmhoPtzno=
+@size 53011
+@sample /etc/apache2/mime.types
+share/examples/apache2/conf/original/
+share/examples/apache2/conf/original/extra/
+share/examples/apache2/conf/original/extra/httpd-autoindex.conf
+@sha S5pFKiFn/w7vGn894SbPILLxq+ygQKRjQUyE+KNuCBg=
+@size 2833
+share/examples/apache2/conf/original/extra/httpd-dav.conf
+@sha Tn2btakDf/oUe1QVLewUpXD+ea8twk8/seozwPKjKm8=
+@size 1688
+share/examples/apache2/conf/original/extra/httpd-default.conf
+@sha tancNs0qZ3IXFQjFvrTxi2761RB3s0vapWwVvZf6Vc4=
+@size 2344
+share/examples/apache2/conf/original/extra/httpd-info.conf
+@sha waDpAkfU3LePWpzMS/Yo9g5FWP/mco7Pgw2YzgbE8xw=
+@size 1103
+share/examples/apache2/conf/original/extra/httpd-languages.conf
+@sha qUGQhvwrcPaRMMPun4dhsKErDH2kfTt3mwSrOCcIHPA=
+@size 5078
+share/examples/apache2/conf/original/extra/httpd-manual.conf
+@sha GytrH879846p819TG05Izp9eThSJ/zbmmkDCCb7liAY=
+@size 941
+share/examples/apache2/conf/original/extra/httpd-mpm.conf
+@sha q7EhSp7ggmWEdlAFIwMe49zIHY+znRXXtxkL8UVyVj4=
+@size 3789
+share/examples/apache2/conf/original/extra/httpd-multilang-errordoc.conf
+@sha gXNWPQ6UAX2s+uHBs/4osqpLiqFmC8hjqoBu9WNHaWw=
+@size 2168
+share/examples/apache2/conf/original/extra/httpd-ssl.conf
+@sha /DgPDeu1/YuCJgOaAHmSBE/HQFO2pQC4kE5PsB9fjzM=
+@size 11228
+share/examples/apache2/conf/original/extra/httpd-userdir.conf
+@sha /S+oJWrN2zJ9yICYLY2ZdnkZWDVpuq8kVDx/CwOKtpU=
+@size 817
+share/examples/apache2/conf/original/extra/httpd-vhosts.conf
+@sha hptalIcXNLN9DluS11/ckLgmqIZtnkc397CmqFJUG+A=
+@size 1481
+share/examples/apache2/conf/original/httpd.conf
+@sha Dv0FVCgTXLkWVTx/ahKFBTFkPOUgZ45H1DGHdZloU3M=
+@size 17794
+share/examples/apache2/error/
+@sample /var/apache2/error/
+share/examples/apache2/error/HTTP_BAD_GATEWAY.html.var
+@sha d4ndYOHfDWVkI+KKEP7ilr8qvoXGIopV60eSAcVdlwY=
+@size 9544
+@sample /var/apache2/error/HTTP_BAD_GATEWAY.html.var
+share/examples/apache2/error/HTTP_BAD_REQUEST.html.var
+@sha TYxULu1GWWIGlP1Sej0WiItqZqHq71Kh00Q2EIyXPS8=
+@size 6902
+@sample /var/apache2/error/HTTP_BAD_REQUEST.html.var
+share/examples/apache2/error/HTTP_FORBIDDEN.html.var
+@sha 8ljTQWb+6FSZwFLxunE/zVERHGLmKVe596r+/eGFNf4=
+@size 11736
+@sample /var/apache2/error/HTTP_FORBIDDEN.html.var
+share/examples/apache2/error/HTTP_GONE.html.var
+@sha 6D/EVYF+dvOG2wvVT2ZEdwFyb5vruxudfNTB9vVMt/Y=
+@size 13420
+@sample /var/apache2/error/HTTP_GONE.html.var
+share/examples/apache2/error/HTTP_INTERNAL_SERVER_ERROR.html.var
+@sha EE02dyENSI8FrY701+jQj5WBSHWBuN3hadOW18UVfKM=
+@size 13403
+@sample /var/apache2/error/HTTP_INTERNAL_SERVER_ERROR.html.var
+share/examples/apache2/error/HTTP_LENGTH_REQUIRED.html.var
+@sha EcsWEf/13yww3ftEZOMUjJFZbaQeAwsaoQCcOcuMnfg=
+@size 7944
+@sample /var/apache2/error/HTTP_LENGTH_REQUIRED.html.var
+share/examples/apache2/error/HTTP_METHOD_NOT_ALLOWED.html.var
+@sha xZmvGfMTli3sjw6X9Eq4G/9Dq16knkweIaa0nInFZe8=
+@size 7080
+@sample /var/apache2/error/HTTP_METHOD_NOT_ALLOWED.html.var
+share/examples/apache2/error/HTTP_NOT_FOUND.html.var
+@sha vPAIr90Man5CgIXBIjgDXY1mnkDsZ06fm1OqmTct3lA=
+@size 13566
+@sample /var/apache2/error/HTTP_NOT_FOUND.html.var
+share/examples/apache2/error/HTTP_NOT_IMPLEMENTED.html.var
+@sha YEZ9wPVXdIq5jEr1iRw226EUmSWZknhhRLrGd5/Qnu0=
+@size 6627
+@sample /var/apache2/error/HTTP_NOT_IMPLEMENTED.html.var
+share/examples/apache2/error/HTTP_PRECONDITION_FAILED.html.var
+@sha 1cXOe7kQETruA2mMQgOhbM56vRlwvXZeugF15ULBPQA=
+@size 6861
+@sample /var/apache2/error/HTTP_PRECONDITION_FAILED.html.var
+share/examples/apache2/error/HTTP_REQUEST_ENTITY_TOO_LARGE.html.var
+@sha thVfoB0/rUgl89Jz5V8Pm+PUdQs5AWjPnbjQPBdKgV0=
+@size 8165
+@sample /var/apache2/error/HTTP_REQUEST_ENTITY_TOO_LARGE.html.var
+share/examples/apache2/error/HTTP_REQUEST_TIME_OUT.html.var
+@sha bn4BTIZxzWArj0h7xs4kV99ubaxt3/bEqrEeMRfSQLY=
+@size 7371
+@sample /var/apache2/error/HTTP_REQUEST_TIME_OUT.html.var
+share/examples/apache2/error/HTTP_REQUEST_URI_TOO_LARGE.html.var
+@sha NuUXb1PMaMC2akW7viL+hUKKu9YVPLFX0CNuaBysYCQ=
+@size 7385
+@sample /var/apache2/error/HTTP_REQUEST_URI_TOO_LARGE.html.var
+share/examples/apache2/error/HTTP_SERVICE_UNAVAILABLE.html.var
+@sha APUirB4JXVwauenKrIDA4tR0EJaMM8Dx5LGBy3WyDHU=
+@size 8233
+@sample /var/apache2/error/HTTP_SERVICE_UNAVAILABLE.html.var
+share/examples/apache2/error/HTTP_UNAUTHORIZED.html.var
+@sha W36nWyuVGPRThC51XMPTXfDmUx9lOpt/gVwHCl5ZZgo=
+@size 13557
+@sample /var/apache2/error/HTTP_UNAUTHORIZED.html.var
+share/examples/apache2/error/HTTP_UNSUPPORTED_MEDIA_TYPE.html.var
+@sha 4GyIpqN9pW4LwPKnC/RCiFA1tP0NWKH6DWBk5uEbeJo=
+@size 6626
+@sample /var/apache2/error/HTTP_UNSUPPORTED_MEDIA_TYPE.html.var
+share/examples/apache2/error/HTTP_VARIANT_ALSO_VARIES.html.var
+@sha iX/x2LniOkdF4kgGnCgMo8ZtBHYUAgm6tOUYcx4YC6g=
+@size 7374
+@sample /var/apache2/error/HTTP_VARIANT_ALSO_VARIES.html.var
+share/examples/apache2/error/README
+@sha Dy1qNq0U7s2cFFYKx/XUms7wvUjHNtDEjB75UwkZJPE=
+@size 1979
+@sample /var/apache2/error/README
+share/examples/apache2/error/contact.html.var
+@sha 0Orm3ytECa4LzQ+VGzD29LyetZ3HdcsZonFmghcO7bY=
+@size 4245
+@sample /var/apache2/error/contact.html.var
+share/examples/apache2/error/include/
+@sample /var/apache2/error/include/
+share/examples/apache2/error/include/bottom.html
+@sha GHg5mRXckdRKqv/4yAVQUkuk/n/Nm+ybHepL1im7F1o=
+@size 343
+@sample /var/apache2/error/include/bottom.html
+share/examples/apache2/error/include/spacer.html
+@sha xNT1nnI/9JdRN42eu7+zfroFj7BlV7YyyCaNMphH7+I=
+@size 9
+@sample /var/apache2/error/include/spacer.html
+share/examples/apache2/error/include/top.html
+@sha qNBsyeGSZZQdJ2fU0sXKwTlMQgIJ+VTFVG2/HpNOOlg=
+@size 969
+@sample /var/apache2/error/include/top.html
+share/examples/apache2/htdocs/
+@sample /var/apache2/htdocs/
+share/examples/apache2/htdocs/index.html
+@sha jz/y4kgkaPO5MVpDOzg/DMD561JYiaNNRwO3aBMwo/s=
+@size 44
+@sample /var/apache2/htdocs/index.html
+share/examples/apache2/icons/
+@sample /var/apache2/icons/
+share/examples/apache2/icons/README
+@sha RBdnBtwJgtl11HnGlxf9xrR5M9LQnixlvisPkEIE244=
+@size 5108
+@sample /var/apache2/icons/README
+share/examples/apache2/icons/README.html
+@sha eGCZf04VvzPjqsPWm+XV3WXavc5BSZDJCj2gNl5AOa0=
+@size 36057
+@sample /var/apache2/icons/README.html
+share/examples/apache2/icons/a.gif
+@sha zhQB7Jc4Id04OqMYd0O6l/EKiehALoT6nKuiz+kWw7Y=
+@size 246
+@sample /var/apache2/icons/a.gif
+share/examples/apache2/icons/a.png
+@sha nMuk2h0+EvqjLw8SBZvq5Mzi3EDrfNO3DHuxdUJ8bJA=
+@size 306
+@sample /var/apache2/icons/a.png
+share/examples/apache2/icons/alert.black.gif
+@sha QMsQhwDCR0hKZuChTlaQDEuHggOA2kScQd/j6mBfYUQ=
+@size 242
+@sample /var/apache2/icons/alert.black.gif
+share/examples/apache2/icons/alert.black.png
+@sha bIo4mPYdq8zeQcEIqPAnEvk1eJqI3OJrgtpUxGV3kic=
+@size 293
+@sample /var/apache2/icons/alert.black.png
+share/examples/apache2/icons/alert.red.gif
+@sha XbmRTTKKRJOYg+oEmOrCfblmnEmbmrY4ZNSbwaKdxfg=
+@size 247
+@sample /var/apache2/icons/alert.red.gif
+share/examples/apache2/icons/alert.red.png
+@sha rIHnhospfRO/Fq7vCJia1fQhuUkymQbCDEvbKThdv+s=
+@size 314
+@sample /var/apache2/icons/alert.red.png
+share/examples/apache2/icons/apache_pb.gif
+@sha FlRBb+w1qLXTbuAlcCXOxj5W3+hXK2/2fGsNDUMVjLs=
+@size 2326
+@sample /var/apache2/icons/apache_pb.gif
+share/examples/apache2/icons/apache_pb.png
+@sha 1k7dNOZgVhbzOkQc3Ef4TBUoMJPs6/s67OBCTTAxyCI=
+@size 2088
+@sample /var/apache2/icons/apache_pb.png
+share/examples/apache2/icons/apache_pb2.gif
+@sha FYi6bc2nJyiuM3cSnCgJrStwtI/wdFVzHMs0WZsppLw=
+@size 1797
+@sample /var/apache2/icons/apache_pb2.gif
+share/examples/apache2/icons/apache_pb2.png
+@sha JLfr43uY1d5jxfWIium3OYFk49b27vU/QjFjknHiBYA=
+@size 1505
+@sample /var/apache2/icons/apache_pb2.png
+share/examples/apache2/icons/apache_pb2_ani.gif
+@sha axCHRg/MM4uQsnJmBuTQrXvwH1y+t6pVYaPTvG6zlY8=
+@size 2434
+@sample /var/apache2/icons/apache_pb2_ani.gif
+share/examples/apache2/icons/back.gif
+@sha DpztEBk4WxEB/ap8B9AdY6rncRdqRNPfgdR7EVtRKKo=
+@size 216
+@sample /var/apache2/icons/back.gif
+share/examples/apache2/icons/back.png
+@sha Hsw3Vl8GqPYuMdkne8OKZkrfEMlwEIuV+j0b2Tr4OGo=
+@size 308
+@sample /var/apache2/icons/back.png
+share/examples/apache2/icons/ball.gray.gif
+@sha t/V7d4pzuO8m7X20gGv3Ir29y9W0IdQDVduxxoKm6nU=
+@size 233
+@sample /var/apache2/icons/ball.gray.gif
+share/examples/apache2/icons/ball.gray.png
+@sha 52QPMd8hQIGWFMTnSZ3GXJHuNTjUFkOs4ClgKHpL8oo=
+@size 298
+@sample /var/apache2/icons/ball.gray.png
+share/examples/apache2/icons/ball.red.gif
+@sha 2a+JPvEA45gD4J1BRId7PhuuAEWuSi49yJwvpXO9nJ8=
+@size 205
+@sample /var/apache2/icons/ball.red.gif
+share/examples/apache2/icons/ball.red.png
+@sha i+e/7aDI+XGNVQA/kuMg6z3v4ulypUp32SyEnpJnfgI=
+@size 289
+@sample /var/apache2/icons/ball.red.png
+share/examples/apache2/icons/binary.gif
+@sha ijHnhVKS4KjGbGf/kupmB0MAbUfenwEhk8vRI6F7p50=
+@size 246
+@sample /var/apache2/icons/binary.gif
+share/examples/apache2/icons/binary.png
+@sha iuBUuySRooOJSN4X3cEzSmeAz3qBZKQRRBLbc0xw64I=
+@size 310
+@sample /var/apache2/icons/binary.png
+share/examples/apache2/icons/binhex.gif
+@sha um24x/Fjima+myG0e9l5LVK6pMAHgn4JKuiWNr+4nZA=
+@size 246
+@sample /var/apache2/icons/binhex.gif
+share/examples/apache2/icons/binhex.png
+@sha f6xiI9XCXC6JzaSnT97sZxPUVdOZFP/4Ie8Gla8aKtE=
+@size 319
+@sample /var/apache2/icons/binhex.png
+share/examples/apache2/icons/blank.gif
+@sha PLDlS6vwGXA/5nGjL8w5R6q5B57Chxzw+WOSRcwS2Hg=
+@size 148
+@sample /var/apache2/icons/blank.gif
+share/examples/apache2/icons/blank.png
+@sha 2blaGAo1E+7J6CBhwhQX2f4cZ0zK05B78dqOM3cEpWU=
+@size 215
+@sample /var/apache2/icons/blank.png
+share/examples/apache2/icons/bomb.gif
+@sha yZunjFRK53kGbwAVFjWm4qrZ2ieZNFry9wBd75a9aoA=
+@size 308
+@sample /var/apache2/icons/bomb.gif
+share/examples/apache2/icons/bomb.png
+@sha ltOnf7jcz+zQUJ9FQDbh8RgVopkRT0AniyN9w9cp+vc=
+@size 375
+@sample /var/apache2/icons/bomb.png
+share/examples/apache2/icons/box1.gif
+@sha TSCcx5GwL+MVLBv0URMgTMf8bkozvpJlbcWO/iDbX50=
+@size 251
+@sample /var/apache2/icons/box1.gif
+share/examples/apache2/icons/box1.png
+@sha 4Jj/u96LoftWrBMKDDS3XW4rmQVuMdZO3u/gZ7Mp6E4=
+@size 325
+@sample /var/apache2/icons/box1.png
+share/examples/apache2/icons/box2.gif
+@sha eRpPT4gyCsFytX6arpnsgC3sYz8W/zVzwMNKIWJRfmg=
+@size 268
+@sample /var/apache2/icons/box2.gif
+share/examples/apache2/icons/box2.png
+@sha lOliMRJcPLTmfCnHjhDfpMRAYXlZN3GTX/JaUMVLp5E=
+@size 336
+@sample /var/apache2/icons/box2.png
+share/examples/apache2/icons/broken.gif
+@sha PzQwD/lnip0EsWQeFheOtwipl8GY+NJjUVp2MeM/mBo=
+@size 247
+@sample /var/apache2/icons/broken.gif
+share/examples/apache2/icons/broken.png
+@sha y6J/to6UxUp/nfrxUwj3uSDrgUqjBzt47SoYKZfbRn0=
+@size 320
+@sample /var/apache2/icons/broken.png
+share/examples/apache2/icons/burst.gif
+@sha aSmU+oOL6wwNuxydui/xUW5c07YDBHxpcjmcu/wSqJg=
+@size 235
+@sample /var/apache2/icons/burst.gif
+share/examples/apache2/icons/burst.png
+@sha UBQrmCSbC6+HrIKzIuijELPg+jI2IjUCvdXdU/qgefQ=
+@size 341
+@sample /var/apache2/icons/burst.png
+share/examples/apache2/icons/c.gif
+@sha 7LX5rlAOTqxo/Qn2qI8H6F+A0rAuDFUFmqjwH6EOwGc=
+@size 242
+@sample /var/apache2/icons/c.gif
+share/examples/apache2/icons/c.png
+@sha rZTrKTOQ+Rj7Tje9A92PzCUiOzMi1jHpAJKWykWVeyw=
+@size 299
+@sample /var/apache2/icons/c.png
+share/examples/apache2/icons/comp.blue.gif
+@sha q5kgZHy4JZrBAvgzr5Oqcg04/PFZQI8VAHtvvhcbIGc=
+@size 251
+@sample /var/apache2/icons/comp.blue.gif
+share/examples/apache2/icons/comp.blue.png
+@sha D85bgXzqzTq+IcCp0hkkkbpaQoaig17eGoE2P/GED/k=
+@size 330
+@sample /var/apache2/icons/comp.blue.png
+share/examples/apache2/icons/comp.gray.gif
+@sha ssp+fYIe9T0wWl8wAR6eyeCTkTwecS9/yfPUSm5khZ4=
+@size 246
+@sample /var/apache2/icons/comp.gray.gif
+share/examples/apache2/icons/comp.gray.png
+@sha Tlz2g/I+l5gpWIz0Yqtu1kPG5ts1SuxZnGuMEdueStw=
+@size 318
+@sample /var/apache2/icons/comp.gray.png
+share/examples/apache2/icons/compressed.gif
+@sha cgKP9Rem6B9yohhMf10ZGUTbSJDlpteqtcofWUW20u0=
+@size 1038
+@sample /var/apache2/icons/compressed.gif
+share/examples/apache2/icons/compressed.png
+@sha PzfilT2vLNxNgy8i85uXJXxkiy+U0MiqZUYD4B3ErOU=
+@size 1108
+@sample /var/apache2/icons/compressed.png
+share/examples/apache2/icons/continued.gif
+@sha ueMBtsm8ESyWBSXWgrn8+GoifWrgg8oFu7MTCPak/j4=
+@size 214
+@sample /var/apache2/icons/continued.gif
+share/examples/apache2/icons/continued.png
+@sha RIX4rblKkSfKemy09k4eeif0gubRa4o/YOjtrtII2GA=
+@size 296
+@sample /var/apache2/icons/continued.png
+share/examples/apache2/icons/dir.gif
+@sha ++XspxfPvLWIkdQx+a+vMKp0DZ/OAH6CClmfIq+g3uI=
+@size 225
+@sample /var/apache2/icons/dir.gif
+share/examples/apache2/icons/dir.png
+@sha j7n6Ubepcw54T97mKhp9aDc44roRV6FrlyCF2mNHVOE=
+@size 295
+@sample /var/apache2/icons/dir.png
+share/examples/apache2/icons/diskimg.gif
+@sha Hm1pTXUEltpmtErRL0B2PM+HTAt/AQRwHyK8D17dMjU=
+@size 167
+@sample /var/apache2/icons/diskimg.gif
+share/examples/apache2/icons/diskimg.png
+@sha ytyHdjio1WzMhudPf63t8CAt8mP+0gQXQjhWMmAf+ok=
+@size 215
+@sample /var/apache2/icons/diskimg.png
+share/examples/apache2/icons/down.gif
+@sha gHuhil7AwvQS9178I6YOYy1OiOptjS4XfQO/90G3neo=
+@size 163
+@sample /var/apache2/icons/down.gif
+share/examples/apache2/icons/down.png
+@sha fjF2O0qrh9nHl0age1KTi9D5Wb0j4AwZSvjfKaH2cDI=
+@size 256
+@sample /var/apache2/icons/down.png
+share/examples/apache2/icons/dvi.gif
+@sha iGGVpfAKPk/zuPgPVeMQQkei+cLS+yZ2hUQh9C/hUqg=
+@size 238
+@sample /var/apache2/icons/dvi.gif
+share/examples/apache2/icons/dvi.png
+@sha 8W13WSLBRs9cbjyuKDU6uQ8/ZkQH9pcDOevJQmHzEuc=
+@size 305
+@sample /var/apache2/icons/dvi.png
+share/examples/apache2/icons/f.gif
+@sha Rl9zkF6j9/zHYUO23TdV4jHK5J8CbSeEk1N/I4D2nR8=
+@size 236
+@sample /var/apache2/icons/f.gif
+share/examples/apache2/icons/f.png
+@sha JZpcWcGdgfFtcOpSvFr4vXY9QwLV5NQJ24h+0HCRMvY=
+@size 296
+@sample /var/apache2/icons/f.png
+share/examples/apache2/icons/folder.gif
+@sha ++XspxfPvLWIkdQx+a+vMKp0DZ/OAH6CClmfIq+g3uI=
+@size 225
+@sample /var/apache2/icons/folder.gif
+share/examples/apache2/icons/folder.open.gif
+@sha nWovIKi3LYYcDM5lvFINAb63T/S7DCLTsa749Dr/aYg=
+@size 242
+@sample /var/apache2/icons/folder.open.gif
+share/examples/apache2/icons/folder.open.png
+@sha nPQwimVgBCcPmzoAawaVVXm7Yt2KZ/S7cXDJlDj6urM=
+@size 332
+@sample /var/apache2/icons/folder.open.png
+share/examples/apache2/icons/folder.png
+@sha j7n6Ubepcw54T97mKhp9aDc44roRV6FrlyCF2mNHVOE=
+@size 295
+@sample /var/apache2/icons/folder.png
+share/examples/apache2/icons/folder.sec.gif
+@sha MGqriMUbRNMERQCj9zesZPkrVjty/2oTCN9pf3OlJ/s=
+@size 243
+@sample /var/apache2/icons/folder.sec.gif
+share/examples/apache2/icons/folder.sec.png
+@sha tZbz3w9UOezTbx5IqYzrJW1P0KrtEzkfAZVeAL7W4L4=
+@size 313
+@sample /var/apache2/icons/folder.sec.png
+share/examples/apache2/icons/forward.gif
+@sha Zj1UCMMqxhDyisFywIasRe31CJFTVhiH2F5aXmcWZGM=
+@size 219
+@sample /var/apache2/icons/forward.gif
+share/examples/apache2/icons/forward.png
+@sha qGxzUZTgZTQRz4nG6X5fZtov0bsNd+khMAzCIzWyIc0=
+@size 308
+@sample /var/apache2/icons/forward.png
+share/examples/apache2/icons/generic.gif
+@sha 5/gy61DB4anehIJGf/n1NuV1bTNXSbUOBgGUjdctvIQ=
+@size 221
+@sample /var/apache2/icons/generic.gif
+share/examples/apache2/icons/generic.png
+@sha UwkMXOajoU68u90CWo8rJToFPiIQ8+GjF2b0KD2qhTA=
+@size 275
+@sample /var/apache2/icons/generic.png
+share/examples/apache2/icons/generic.red.gif
+@sha b9SV6cGXA1lYaCUARW5noM0B6b321PCd00Duw+L7TYE=
+@size 220
+@sample /var/apache2/icons/generic.red.gif
+share/examples/apache2/icons/generic.red.png
+@sha bV7iYE1MjSMA3lyxzVgdKkjJjEPG0QfgJm3NLf6hWxA=
+@size 283
+@sample /var/apache2/icons/generic.red.png
+share/examples/apache2/icons/generic.sec.gif
+@sha KY5uvZAqLeGEkcmsdvN/A5dhvGpaO9AvTKEpkJJwgbw=
+@size 249
+@sample /var/apache2/icons/generic.sec.gif
+share/examples/apache2/icons/generic.sec.png
+@sha Of6gKnZsVcSAQy4eDpKuU1E5+i6jz8cw1PgJXCJcX8k=
+@size 295
+@sample /var/apache2/icons/generic.sec.png
+share/examples/apache2/icons/hand.right.gif
+@sha jbh2G/9mo1XWoikN5r20SekPjhEU/oeJ98TLbBgEAIE=
+@size 217
+@sample /var/apache2/icons/hand.right.gif
+share/examples/apache2/icons/hand.right.png
+@sha MfmCjBNLqezhCeTXIjjySpg7qWiE//bH1ZDcPIIO144=
+@size 311
+@sample /var/apache2/icons/hand.right.png
+share/examples/apache2/icons/hand.up.gif
+@sha MIC/hglwGoGFZ2z1J78pCXSc/Vma7UlftXCnHIDUXD8=
+@size 223
+@sample /var/apache2/icons/hand.up.gif
+share/examples/apache2/icons/hand.up.png
+@sha 2rna8bwwAnR9SQcs92Npj5pBfMPpbT/0Ytf+/1QMfuM=
+@size 304
+@sample /var/apache2/icons/hand.up.png
+share/examples/apache2/icons/icon.sheet.gif
+@sha EH50PBh0UM1cxft+UEQxmA8jRFvGNtOPhEuZvFhEL44=
+@size 11977
+@sample /var/apache2/icons/icon.sheet.gif
+share/examples/apache2/icons/icon.sheet.png
+@sha dBSh955u2ziCXChel3inQlaI7DlJlSnbBgMLgb0mg+Q=
+@size 9018
+@sample /var/apache2/icons/icon.sheet.png
+share/examples/apache2/icons/image1.gif
+@sha lqn5cjb1thttOlfczpBTcBUVv9A4AZmFj7hJldnb890=
+@size 274
+@sample /var/apache2/icons/image1.gif
+share/examples/apache2/icons/image1.png
+@sha KqKT5kV62sNDe8pvAwnDDQtV/PZD6oQ29dKafQlHpz4=
+@size 325
+@sample /var/apache2/icons/image1.png
+share/examples/apache2/icons/image2.gif
+@sha HgnV5OA8V7okwjuEzErzzmbLRCWYSdkpuRFxHCXSXF4=
+@size 309
+@sample /var/apache2/icons/image2.gif
+share/examples/apache2/icons/image2.png
+@sha UnOiK4ieFp8Jq9IFisAyKibil0ZTM7R5gXpEePmaino=
+@size 371
+@sample /var/apache2/icons/image2.png
+share/examples/apache2/icons/image3.gif
+@sha L1Hcl83MddmeM7k3Heudny8lq/0FoNhtnFpnwjaV3WA=
+@size 286
+@sample /var/apache2/icons/image3.gif
+share/examples/apache2/icons/image3.png
+@sha HkguGqBHIdPKoLodqKLuYybPLUDvxsCrutAFff8Tuno=
+@size 338
+@sample /var/apache2/icons/image3.png
+share/examples/apache2/icons/index.gif
+@sha c8Lh19z/M8ky78hSDxLdMOYYNoV/feTAmT/oXwYbITE=
+@size 268
+@sample /var/apache2/icons/index.gif
+share/examples/apache2/icons/index.png
+@sha DLRXJ0FxsNdN7jwh/lcEP/XL+yYO33cOTbMo3nabSr0=
+@size 332
+@sample /var/apache2/icons/index.png
+share/examples/apache2/icons/layout.gif
+@sha NOSOlDk0y59Sr9GjsMYMz1YpHWkc484o+D4G6agb5BM=
+@size 276
+@sample /var/apache2/icons/layout.gif
+share/examples/apache2/icons/layout.png
+@sha VdoclcbjDq193+yBtaQrXt5eqT1mcgO10y5unu8z1Zk=
+@size 323
+@sample /var/apache2/icons/layout.png
+share/examples/apache2/icons/left.gif
+@sha mXlEfPahpk/82ybrn/9CLB90S/avNJBE+K5X+stfnNY=
+@size 172
+@sample /var/apache2/icons/left.gif
+share/examples/apache2/icons/left.png
+@sha wnS1aFiKXBBMcW0OiPSQ917AT5iRBLKBxamnpjsjJbU=
+@size 257
+@sample /var/apache2/icons/left.png
+share/examples/apache2/icons/link.gif
+@sha a74zm9k2g41MHjchpv5tOPNFYoNrHe6lukD3hSmPki4=
+@size 249
+@sample /var/apache2/icons/link.gif
+share/examples/apache2/icons/link.png
+@sha mCL/cM8hPwZwtzI+awarlQgUpOWgEaKM8waWJQ46ctQ=
+@size 314
+@sample /var/apache2/icons/link.png
+share/examples/apache2/icons/movie.gif
+@sha YdEkGzkyWvNLL56yDxK96UZwplf8GAhpLW0Qq08/+DQ=
+@size 243
+@sample /var/apache2/icons/movie.gif
+share/examples/apache2/icons/movie.png
+@sha oKjK/7nhpdVOJND9FxOGGVGYxh3Nmt2Qpc7JUo8Z3cI=
+@size 272
+@sample /var/apache2/icons/movie.png
+share/examples/apache2/icons/p.gif
+@sha WDDvUa3/YU68cB/wqJ2bfIXH1rRh28XvKTUry5HOG2w=
+@size 237
+@sample /var/apache2/icons/p.gif
+share/examples/apache2/icons/p.png
+@sha 3Drmiw6zKrj2TsbcAoh5iW0cH8FMIQvM0Fl4NVwEDlQ=
+@size 298
+@sample /var/apache2/icons/p.png
+share/examples/apache2/icons/patch.gif
+@sha T3ESDdnqf5eSrW9nXi4OBQ+Ck1odvk6YtVZw1rv65Mo=
+@size 251
+@sample /var/apache2/icons/patch.gif
+share/examples/apache2/icons/patch.png
+@sha V0ZajLvKRTPzmFXGg/hBVxeJC8VfuJyuziscBenTTqc=
+@size 310
+@sample /var/apache2/icons/patch.png
+share/examples/apache2/icons/pdf.gif
+@sha 4RuuDAkGCzPGNvzOFnmAuwfVPyVpA3tPjOB18ccUSR8=
+@size 249
+@sample /var/apache2/icons/pdf.gif
+share/examples/apache2/icons/pdf.png
+@sha Hd2qhzBI5eTnTRwILT+z71Wtk0m6ATa3iKOJqtZld7Y=
+@size 304
+@sample /var/apache2/icons/pdf.png
+share/examples/apache2/icons/pie0.gif
+@sha ATqPKZXA0XuLHYL3ptQ57Q+6ipW0RFjYpfDlVz0JNEg=
+@size 188
+@sample /var/apache2/icons/pie0.gif
+share/examples/apache2/icons/pie0.png
+@sha FzTFj6c9gT2fDAcHnKLvNuHD1ckbjtMDWLISVAkusa4=
+@size 259
+@sample /var/apache2/icons/pie0.png
+share/examples/apache2/icons/pie1.gif
+@sha BYzZE0sarv+zhOaRnjYlokboFGiV/3rF9kB8bsHvIJQ=
+@size 198
+@sample /var/apache2/icons/pie1.gif
+share/examples/apache2/icons/pie1.png
+@sha ilvAKPUU+I374XLjGqFu4aT/Pvp2ljtabzkeStPpg+0=
+@size 279
+@sample /var/apache2/icons/pie1.png
+share/examples/apache2/icons/pie2.gif
+@sha HZNZ+C00JEwPHh8bCDP+d1UC3BJQri7UzpouNpA+igs=
+@size 198
+@sample /var/apache2/icons/pie2.gif
+share/examples/apache2/icons/pie2.png
+@sha nEwiMk3XIy5i/q/w5AdZz/t934JfAWaezQJ+HC26xcg=
+@size 272
+@sample /var/apache2/icons/pie2.png
+share/examples/apache2/icons/pie3.gif
+@sha za74hDXamlKmi2kA6uYRb3NJxARfplP0CU+uXiNT8Lc=
+@size 191
+@sample /var/apache2/icons/pie3.gif
+share/examples/apache2/icons/pie3.png
+@sha DQYkwMb4e7l+tMFhNSwUvm9y/djaB1AZ+ixloCxcxcw=
+@size 276
+@sample /var/apache2/icons/pie3.png
+share/examples/apache2/icons/pie4.gif
+@sha DfxU6OTdg/lhNR+Q9HMshinG2nPPr7/pHzvUe/xqvk0=
+@size 193
+@sample /var/apache2/icons/pie4.gif
+share/examples/apache2/icons/pie4.png
+@sha Q4q8z7OwNvOShdzA4bwV1Ls1EtXG52ZSAdARSUE5DMI=
+@size 258
+@sample /var/apache2/icons/pie4.png
+share/examples/apache2/icons/pie5.gif
+@sha Fn6CDJbnVskmbPGW0mTeO0kHJG4iP8PLlbAOiYxNCfQ=
+@size 189
+@sample /var/apache2/icons/pie5.gif
+share/examples/apache2/icons/pie5.png
+@sha uvcU7y+eCptYuFgLfxiO4Vu9I8t2cW12QxdgEaYzmwU=
+@size 277
+@sample /var/apache2/icons/pie5.png
+share/examples/apache2/icons/pie6.gif
+@sha uSItidzc3xm/hmqmClufZGLT7CuZXDX8DhRAqJwGb1A=
+@size 186
+@sample /var/apache2/icons/pie6.gif
+share/examples/apache2/icons/pie6.png
+@sha 9gMhvN5Jnb+/QYOnzs0dFCzTKX0vfkkMEzXLsre4cTg=
+@size 273
+@sample /var/apache2/icons/pie6.png
+share/examples/apache2/icons/pie7.gif
+@sha FHhHTfvl6vY9Htc7RBsOMW80uDLcRuQoxkIdl/vHuvk=
+@size 185
+@sample /var/apache2/icons/pie7.gif
+share/examples/apache2/icons/pie7.png
+@sha 9Gg5bN1QE4bxE8ePDld4H9i7hukFvwAOPJdhg9gvEW0=
+@size 275
+@sample /var/apache2/icons/pie7.png
+share/examples/apache2/icons/pie8.gif
+@sha sBW+F+zq+fgL+94a7p5Sfp74QiQcZstmWR7yjMaPtuA=
+@size 173
+@sample /var/apache2/icons/pie8.gif
+share/examples/apache2/icons/pie8.png
+@sha Eqo7XodFUWQvx6YLMFAhWH9sGINx5DnChQQ6sdRjtqQ=
+@size 259
+@sample /var/apache2/icons/pie8.png
+share/examples/apache2/icons/portal.gif
+@sha Lr0BwTX3wkonfTj64d0q+4oj2B56KRL8aP1AFQUl5C8=
+@size 254
+@sample /var/apache2/icons/portal.gif
+share/examples/apache2/icons/portal.png
+@sha 5C30nFDPrFLej9F8+pThs2rHc5Nw7cJADrgf7GjJ/Bg=
+@size 319
+@sample /var/apache2/icons/portal.png
+share/examples/apache2/icons/ps.gif
+@sha iAUw/d3ORiG9jr8Gz93KwDJ/9Pi0+s3TQmMR/u5jYmY=
+@size 244
+@sample /var/apache2/icons/ps.gif
+share/examples/apache2/icons/ps.png
+@sha Uv7sKuQDjGlzExA7Nsl7dKF8IswXg5tx17uLcKHLf5A=
+@size 303
+@sample /var/apache2/icons/ps.png
+share/examples/apache2/icons/quill.gif
+@sha kVn4zTWdAqAYeYr2aWkjNIL3e4baamb17j/CogPi/H4=
+@size 267
+@sample /var/apache2/icons/quill.gif
+share/examples/apache2/icons/quill.png
+@sha B+KoMEEA0LX83TbREt8pslJEgLjGPFqhKZjSQoIZ654=
+@size 329
+@sample /var/apache2/icons/quill.png
+share/examples/apache2/icons/right.gif
+@sha HOPDHireNtST0aaoeNoF2Mr8nYnqGWNYsFrQmtp8UYU=
+@size 172
+@sample /var/apache2/icons/right.gif
+share/examples/apache2/icons/right.png
+@sha HXhn8RcR8ZTntwYGgoZGwE/mSrCyCS1CDtNo5Lvhs3w=
+@size 254
+@sample /var/apache2/icons/right.png
+share/examples/apache2/icons/screw1.gif
+@sha 311/0pTPOwpkvNczMWaZF/YSA+PpeUrQ/fwN11Dv3zw=
+@size 258
+@sample /var/apache2/icons/screw1.gif
+share/examples/apache2/icons/screw1.png
+@sha 2V76lHqssVMTqCfUPCZ8PLlQ8w5DBOFljSpMyhozhEE=
+@size 328
+@sample /var/apache2/icons/screw1.png
+share/examples/apache2/icons/screw2.gif
+@sha rr22vgdquPELDJ5UOeqwYlJI56RrNNCIxEfaDoGD72Y=
+@size 263
+@sample /var/apache2/icons/screw2.gif
+share/examples/apache2/icons/screw2.png
+@sha Wwhbqfz3rJeKzCy5Ml+1sNIK0v8Uyen7XGMTOPPNwoA=
+@size 333
+@sample /var/apache2/icons/screw2.png
+share/examples/apache2/icons/script.gif
+@sha dNSj9Kbv7LCqaAgL4p3tkVHskxaDFiqEOlUC0rFmKLw=
+@size 242
+@sample /var/apache2/icons/script.gif
+share/examples/apache2/icons/script.png
+@sha CLbllki3NpbF+O3WFkgdlLD6VN5xbiMx/A1BpX/YkW8=
+@size 290
+@sample /var/apache2/icons/script.png
+share/examples/apache2/icons/small/
+@sample /var/apache2/icons/small/
+share/examples/apache2/icons/small/back.gif
+@sha YgPopAMnW1JCjjBm4d1bTBFcBGB1NfzPmANzwLtLfZw=
+@size 129
+@sample /var/apache2/icons/small/back.gif
+share/examples/apache2/icons/small/back.png
+@sha +e9JK7XBlBkjMNjFt3pmwPykfaz5N5spmNeydjMMghM=
+@size 181
+@sample /var/apache2/icons/small/back.png
+share/examples/apache2/icons/small/binary.gif
+@sha z7e3cSowSpvkOfiJ0Ugj7R9kswXulZuy3Fbrr0N9EkE=
+@size 134
+@sample /var/apache2/icons/small/binary.gif
+share/examples/apache2/icons/small/binary.png
+@sha ZKQdxroZrCeePLTTWTvqihH3x9PJ/w/B0xZeI+EHBRg=
+@size 172
+@sample /var/apache2/icons/small/binary.png
+share/examples/apache2/icons/small/binhex.gif
+@sha n26VNqrYV5wp8U6yVmj+RkEQbATF3SS1DXKzXf70EIw=
+@size 131
+@sample /var/apache2/icons/small/binhex.gif
+share/examples/apache2/icons/small/binhex.png
+@sha Vc7LVun+T2EGJz8IuDtkCGEn3owHMPk8erGlVUQbS40=
+@size 178
+@sample /var/apache2/icons/small/binhex.png
+share/examples/apache2/icons/small/blank.gif
+@sha 5vG8AhjryOc7gDsY+QD1PgN3n3oEsRq8QJdtxY0mXfw=
+@size 55
+@sample /var/apache2/icons/small/blank.gif
+share/examples/apache2/icons/small/blank.png
+@sha ciM7hZ7VjgoPQaL0LJM4z1vxazg8fLMvawrHvyuhLxE=
+@size 100
+@sample /var/apache2/icons/small/blank.png
+share/examples/apache2/icons/small/broken.gif
+@sha U29SbGERK61Km1c23Z2OirxDUkm8CJ8UOMLvnGPyYlE=
+@size 139
+@sample /var/apache2/icons/small/broken.gif
+share/examples/apache2/icons/small/broken.png
+@sha Vhh+5hbCtt3hqMprO9JyCX398wmg1qhXOHHm+Ql8pQE=
+@size 184
+@sample /var/apache2/icons/small/broken.png
+share/examples/apache2/icons/small/burst.gif
+@sha 5MHmV/FkgJzPXXrWTFJVOUB88BMPDsr8uab6lGsxrcA=
+@size 128
+@sample /var/apache2/icons/small/burst.gif
+share/examples/apache2/icons/small/burst.png
+@sha UtlG3xYO8//rCW4nfNVV9kz3Ymgii1wdatYzde+u6Tk=
+@size 210
+@sample /var/apache2/icons/small/burst.png
+share/examples/apache2/icons/small/comp1.gif
+@sha HVRLNgIt+Maz8PwbI9QDF33Jn/vEhBQW29Pi3HB8lYI=
+@size 130
+@sample /var/apache2/icons/small/comp1.gif
+share/examples/apache2/icons/small/comp1.png
+@sha dH/9zi/Hb7pasQTeSi3jNbfvv3/3f+zjRQYZWvG3Jn4=
+@size 216
+@sample /var/apache2/icons/small/comp1.png
+share/examples/apache2/icons/small/comp2.gif
+@sha 9HwpiG3DP7/ZW0crKu2ywJjfwJMazbGCfyrUJY9Ee7U=
+@size 131
+@sample /var/apache2/icons/small/comp2.gif
+share/examples/apache2/icons/small/comp2.png
+@sha BDKs/5ucdBdtj2slF/n8W8S3kwNPaBqXlH233WbgR0w=
+@size 215
+@sample /var/apache2/icons/small/comp2.png
+share/examples/apache2/icons/small/compressed.gif
+@sha Hkzh+Ugop8d5taKXvGbouu8r3sWsCoSTivJw16R9TQE=
+@size 128
+@sample /var/apache2/icons/small/compressed.gif
+share/examples/apache2/icons/small/compressed.png
+@sha Bg8Lwh8XHey/3XG5SWimsr8b/yXLxJWxAsaYhd+D7MU=
+@size 212
+@sample /var/apache2/icons/small/compressed.png
+share/examples/apache2/icons/small/continued.gif
+@sha vd83sfNUoIerWaxxrkPCt2V7u8gb6Ul9Ea9ecc4cJIA=
+@size 114
+@sample /var/apache2/icons/small/continued.gif
+share/examples/apache2/icons/small/continued.png
+@sha ddkJujWnFu8KikQavpmRtoJaeTRaua1QKuVTMatfmrI=
+@size 163
+@sample /var/apache2/icons/small/continued.png
+share/examples/apache2/icons/small/dir.gif
+@sha FvdB0Uqa8s8FWI1Mp0jdmku6l4DEZPQkB2JYs5EYB+4=
+@size 132
+@sample /var/apache2/icons/small/dir.gif
+share/examples/apache2/icons/small/dir.png
+@sha ytOCUJ0/JCH2FtoiaT8q0gCpZXrqZYUqcoFFYIFsBwI=
+@size 175
+@sample /var/apache2/icons/small/dir.png
+share/examples/apache2/icons/small/dir2.gif
+@sha s5zHHdDvpFkWenRq/rGwjpemxw60m9yiaXWFSkiS2Gc=
+@size 122
+@sample /var/apache2/icons/small/dir2.gif
+share/examples/apache2/icons/small/dir2.png
+@sha tjLRZonjWh1gsSCyWfoe8tc8wxpIpGNP0+l6a4WrkgU=
+@size 161
+@sample /var/apache2/icons/small/dir2.png
+share/examples/apache2/icons/small/doc.gif
+@sha 3jgqIdLnj/rpqlo+enFuXlJ7hnUgrlIwRnNTp1w4oOs=
+@size 191
+@sample /var/apache2/icons/small/doc.gif
+share/examples/apache2/icons/small/doc.png
+@sha vzNTJwK63BEKx4TBqzwRB0XO7vI+/lh5HVV2UR7Xj+k=
+@size 222
+@sample /var/apache2/icons/small/doc.png
+share/examples/apache2/icons/small/forward.gif
+@sha 2sRN/PZlwtoz+urk6zKQB/UMuTccP0kaMrMCnXa0c6I=
+@size 125
+@sample /var/apache2/icons/small/forward.gif
+share/examples/apache2/icons/small/forward.png
+@sha nehfksP1WcUmXHFaQabKtcJY/XDJoyBp4GWHK3uSoAU=
+@size 174
+@sample /var/apache2/icons/small/forward.png
+share/examples/apache2/icons/small/generic.gif
+@sha DhqRCoI0+6YTyHVcLjnltOaSPx0wgyZDlpl6bfzilrA=
+@size 116
+@sample /var/apache2/icons/small/generic.gif
+share/examples/apache2/icons/small/generic.png
+@sha 34hA6ri+DtZ/3hrTQKAMkc/zc+9BxiUry/vx4UFnDb4=
+@size 149
+@sample /var/apache2/icons/small/generic.png
+share/examples/apache2/icons/small/generic2.gif
+@sha 1tI7HdGZu9/gp0DFdS32BYOm+iT2vuDKUbiDqeudwNc=
+@size 127
+@sample /var/apache2/icons/small/generic2.gif
+share/examples/apache2/icons/small/generic2.png
+@sha pOOz7ldmO0YIg6yMApZ90uBU7lpwdta4IlU7B20A43g=
+@size 179
+@sample /var/apache2/icons/small/generic2.png
+share/examples/apache2/icons/small/generic3.gif
+@sha YSZ+4L9nsUFpBX1TvaBGxRdqbCWIQMSG0qTF7ZCbfd4=
+@size 113
+@sample /var/apache2/icons/small/generic3.gif
+share/examples/apache2/icons/small/generic3.png
+@sha rRrV+aFmR1a+coXDoqDDP8+QyS9rSryvV5Ql1TWdb4w=
+@size 171
+@sample /var/apache2/icons/small/generic3.png
+share/examples/apache2/icons/small/image.gif
+@sha S99nmbyV+w2Baenlj5yGe5UHEQtT3Mw/d2LTBohSU4Q=
+@size 126
+@sample /var/apache2/icons/small/image.gif
+share/examples/apache2/icons/small/image.png
+@sha FSI/0j36PDae7l2V7+OK1PU8C76mIayB9907DBomc+c=
+@size 197
+@sample /var/apache2/icons/small/image.png
+share/examples/apache2/icons/small/image2.gif
+@sha OVHwsGfiuCrPZTJwJBqL2pmY+c2jU4X7jl+Ji6qIUWk=
+@size 138
+@sample /var/apache2/icons/small/image2.gif
+share/examples/apache2/icons/small/image2.png
+@sha CUV4WLr7H9qp38/YSdJjc57LY7fRt/BNts5uQ+oNW2M=
+@size 203
+@sample /var/apache2/icons/small/image2.png
+share/examples/apache2/icons/small/index.gif
+@sha IGOZxj0taDxqbJ3Trzd1sOCs1DwU+Z2FaQh2i9buApA=
+@size 145
+@sample /var/apache2/icons/small/index.gif
+share/examples/apache2/icons/small/index.png
+@sha FFJ9F3coHzWzDNCOO2iQ1jrIGotTxZdfXgunVSE0xiY=
+@size 225
+@sample /var/apache2/icons/small/index.png
+share/examples/apache2/icons/small/key.gif
+@sha Prvgh+io+n5aA4N52GUbom6gCMRxpyVg7ryqnZIkFCM=
+@size 187
+@sample /var/apache2/icons/small/key.gif
+share/examples/apache2/icons/small/key.png
+@sha GZxrzG2bDJu/pqtiAwIHc5Nv7Xap1X46U18HLMl18vU=
+@size 210
+@sample /var/apache2/icons/small/key.png
+share/examples/apache2/icons/small/movie.gif
+@sha +vj86CwYCSO09cuNp3tM/N2JLkSA+yn0JjcjU4B0QdE=
+@size 134
+@sample /var/apache2/icons/small/movie.gif
+share/examples/apache2/icons/small/movie.png
+@sha GCM78CzMRjujE2JFW+FnCMlTuYBBNatXeW/W0HjEOss=
+@size 159
+@sample /var/apache2/icons/small/movie.png
+share/examples/apache2/icons/small/patch.gif
+@sha X3qx2Sc/E/QmSPsk65R5txbQ1Sn2rjcLJVYWdCNHZFU=
+@size 182
+@sample /var/apache2/icons/small/patch.gif
+share/examples/apache2/icons/small/patch.png
+@sha WfuCi6Kn9ROEg0jgVzcU1SRudtKs117kRN2SySwuBFQ=
+@size 211
+@sample /var/apache2/icons/small/patch.png
+share/examples/apache2/icons/small/ps.gif
+@sha 9Cn1yslid76e8Kd7NyvpNXKcAO8g6D8EtaEEfTBBurQ=
+@size 184
+@sample /var/apache2/icons/small/ps.gif
+share/examples/apache2/icons/small/ps.png
+@sha 9VS02BERr/AoI3GblB7m+Gg3CichEgokkxbhwhW0PRM=
+@size 217
+@sample /var/apache2/icons/small/ps.png
+share/examples/apache2/icons/small/rainbow.gif
+@sha Vg0PCcbDe2lHYauqwRODIVpKCTmhx0Acj4Vys8x2NzI=
+@size 3811
+@sample /var/apache2/icons/small/rainbow.gif
+share/examples/apache2/icons/small/rainbow.png
+@sha 2SSytRfxtkx4YZf+UHBMAO6giMg26+YI+K9aob3rZCo=
+@size 2427
+@sample /var/apache2/icons/small/rainbow.png
+share/examples/apache2/icons/small/sound.gif
+@sha jW0I7YEeMMDDXKzUtC3NvrOuJdTdEK8aCGxJv+nZ0FM=
+@size 130
+@sample /var/apache2/icons/small/sound.gif
+share/examples/apache2/icons/small/sound.png
+@sha p7DCMHgO+3FPxA5JekmHxXAgUxqB3vDk2v0jaV3HIwE=
+@size 197
+@sample /var/apache2/icons/small/sound.png
+share/examples/apache2/icons/small/sound2.gif
+@sha 8RmUQkyXI+Wl0Z1Xd2J7j8hVAnPFMqJaPsKs8wRm5f8=
+@size 119
+@sample /var/apache2/icons/small/sound2.gif
+share/examples/apache2/icons/small/sound2.png
+@sha AKP6g8/4Wtt/GDoTKQSalyJgFufHwZ04pFFF7VkqLV0=
+@size 171
+@sample /var/apache2/icons/small/sound2.png
+share/examples/apache2/icons/small/tar.gif
+@sha ZDxYF3Bx5wbwWCyYU4ppF02f1EBvYaU3B8mpthhcV3s=
+@size 132
+@sample /var/apache2/icons/small/tar.gif
+share/examples/apache2/icons/small/tar.png
+@sha Eik+fJ+zX6nzUoA2qLMX10WAzmVJbztksx70o8Z4ziI=
+@size 173
+@sample /var/apache2/icons/small/tar.png
+share/examples/apache2/icons/small/text.gif
+@sha rWLbY5Xk5Lwh0EQgYmWdsPXOk2VujWRkwXIyjf9bKsg=
+@size 128
+@sample /var/apache2/icons/small/text.gif
+share/examples/apache2/icons/small/text.png
+@sha Gm9/5TUOadpkgIe/CUfjTRjlsRNoQoek41bf3aO3P9w=
+@size 163
+@sample /var/apache2/icons/small/text.png
+share/examples/apache2/icons/small/transfer.gif
+@sha nOFakFVHL5L3rFZR+/bqfh2tqJ7i2PMGH+eHiOMJLpc=
+@size 124
+@sample /var/apache2/icons/small/transfer.gif
+share/examples/apache2/icons/small/transfer.png
+@sha iIt/OKTxgJ7ad829i2e/HD0/q5kiuo3LO8OepjF9bdY=
+@size 211
+@sample /var/apache2/icons/small/transfer.png
+share/examples/apache2/icons/small/unknown.gif
+@sha MRgaTrfnsnGfGFfPYcLBbbCCPDr4JIZ2HTLOnJ1Bxh8=
+@size 131
+@sample /var/apache2/icons/small/unknown.gif
+share/examples/apache2/icons/small/unknown.png
+@sha LVfYGNzAiMJRX+vICC5eBP+dr8ukEZ4mMJxL+pYzF3U=
+@size 172
+@sample /var/apache2/icons/small/unknown.png
+share/examples/apache2/icons/small/uu.gif
+@sha pkjvK+dJijldf0O975J4r30dvR6fGb76M9kae0s+Ytg=
+@size 125
+@sample /var/apache2/icons/small/uu.gif
+share/examples/apache2/icons/small/uu.png
+@sha QVx6H9uv5DLODHQ3SGi3fbCHx++4f4eXAuhI9kXGt2g=
+@size 166
+@sample /var/apache2/icons/small/uu.png
+share/examples/apache2/icons/sound1.gif
+@sha CZhxpy2FeelWsQVLbe2OaOXqqlYD1LDrWGsI9cbs9EQ=
+@size 248
+@sample /var/apache2/icons/sound1.gif
+share/examples/apache2/icons/sound1.png
+@sha Zr3+od9xaXCUxuHhEumOkLmHGhVSTgCqA/xrFNp6LfA=
+@size 331
+@sample /var/apache2/icons/sound1.png
+share/examples/apache2/icons/sound2.gif
+@sha fuH4Y6EBSctUhNcnb5YaqftbCV2nMQuAETOoWvFCu+k=
+@size 221
+@sample /var/apache2/icons/sound2.gif
+share/examples/apache2/icons/sound2.png
+@sha cKgF7J6V+s2NzqoHd+sscX0x4sxmik1VbD6zG0iNKGs=
+@size 315
+@sample /var/apache2/icons/sound2.png
+share/examples/apache2/icons/sphere1.gif
+@sha ycZtposyo4uTPOYtbUs9LJ0vmzOXjZhNh3Xy+JOd4r4=
+@size 285
+@sample /var/apache2/icons/sphere1.gif
+share/examples/apache2/icons/sphere1.png
+@sha E3vVyfLZKHGSIlRzauFFezWC6veS4G4NLR8HH/uketE=
+@size 347
+@sample /var/apache2/icons/sphere1.png
+share/examples/apache2/icons/sphere2.gif
+@sha FZURqh4ppfYa6J7AOe6IbG/9AVrtzE3RU5smxclFQIY=
+@size 264
+@sample /var/apache2/icons/sphere2.gif
+share/examples/apache2/icons/sphere2.png
+@sha DfWf2V5ETB43yuC4y7H20Qh3kXmgsX9JfaEDrt04e8U=
+@size 339
+@sample /var/apache2/icons/sphere2.png
+share/examples/apache2/icons/tar.gif
+@sha k8JBOd8pfoCp2RPgAg5OiblFeGBGu8De4QqFJiJ1RIQ=
+@size 219
+@sample /var/apache2/icons/tar.gif
+share/examples/apache2/icons/tar.png
+@sha HJG4hCyu9cxI1ehPiSWhneg9EPhrG3nlG5SbBud7GOA=
+@size 261
+@sample /var/apache2/icons/tar.png
+share/examples/apache2/icons/tex.gif
+@sha ThYKa47I/79UWRTmCjKQwleM87eeOCOZLp8efxIl3ns=
+@size 251
+@sample /var/apache2/icons/tex.gif
+share/examples/apache2/icons/tex.png
+@sha jSXGhXB+W4P/33zfcCToL5A4JE17tdoUr8lNEoxp55A=
+@size 310
+@sample /var/apache2/icons/tex.png
+share/examples/apache2/icons/text.gif
+@sha Zh1D+zAVGgUNo7XO9JosfQsB7q/fH0oAGHNAZliw93Y=
+@size 229
+@sample /var/apache2/icons/text.gif
+share/examples/apache2/icons/text.png
+@sha PshKl4iXjFp6uJHXLhNusYUt0S1OXV+LE1esOor22tE=
+@size 288
+@sample /var/apache2/icons/text.png
+share/examples/apache2/icons/transfer.gif
+@sha l7TDkFMQESprKcLVPvEOY9RHSv5gDf81lLSKwFyHoBE=
+@size 242
+@sample /var/apache2/icons/transfer.gif
+share/examples/apache2/icons/transfer.png
+@sha sPQ3ArY8Qq18Y4LQCWLdt2Unk7Lgdqk7dLr3W3Tjs1w=
+@size 334
+@sample /var/apache2/icons/transfer.png
+share/examples/apache2/icons/unknown.gif
+@sha FfX9UwCfYcZTqiPZEzT51/ovvTJeq4WbaNd6RbtqeLg=
+@size 245
+@sample /var/apache2/icons/unknown.gif
+share/examples/apache2/icons/unknown.png
+@sha mJuEpMXTcoec00D5ia3ewErBobMkytrX+S0K8MxmNKQ=
+@size 307
+@sample /var/apache2/icons/unknown.png
+share/examples/apache2/icons/up.gif
+@sha dxv96Nqq2SsosppeLClv9S2Ccz04E6a0mflVsw3gDYE=
+@size 164
+@sample /var/apache2/icons/up.gif
+share/examples/apache2/icons/up.png
+@sha 9Ur5IQpRnGkNCFjmw/ZVTwaQfl8ETb/hDic4H4D5N1g=
+@size 255
+@sample /var/apache2/icons/up.png
+share/examples/apache2/icons/uu.gif
+@sha AltWzGD7nNL4zc7Av3wNuyDwRrG4Z+OF58wDAfc0ddA=
+@size 236
+@sample /var/apache2/icons/uu.gif
+share/examples/apache2/icons/uu.png
+@sha jq98lFip4h3R+au8HOfxGT8CXITFKG8jocrZ1/y4nzE=
+@size 296
+@sample /var/apache2/icons/uu.png
+share/examples/apache2/icons/uuencoded.gif
+@sha AltWzGD7nNL4zc7Av3wNuyDwRrG4Z+OF58wDAfc0ddA=
+@size 236
+@sample /var/apache2/icons/uuencoded.gif
+share/examples/apache2/icons/uuencoded.png
+@sha jq98lFip4h3R+au8HOfxGT8CXITFKG8jocrZ1/y4nzE=
+@size 296
+@sample /var/apache2/icons/uuencoded.png
+share/examples/apache2/icons/world1.gif
+@sha AVrJx+3myKI/7Fri9knF17/nXfrefP4JdhZv5dXoZdk=
+@size 228
+@sample /var/apache2/icons/world1.gif
+share/examples/apache2/icons/world1.png
+@sha O1zIZsgexGmi2pRfzfzudP/rye6tgwBJmnIptytmkOc=
+@size 332
+@sample /var/apache2/icons/world1.png
+share/examples/apache2/icons/world2.gif
+@sha nradzQ6Qk1hPW3BT7rjx+4RRwJ55ZzFaePXcY0e/bqo=
+@size 261
+@sample /var/apache2/icons/world2.gif
+share/examples/apache2/icons/world2.png
+@sha L+OBqpLaSfXVqgbAk50sHBqrW14NkZQwaROSNY7Q/GA=
+@size 363
+@sample /var/apache2/icons/world2.png
+share/examples/apache2/logs/
+@sample /var/apache2/logs/
+@rcscript /etc/rc.d/apache2
+@sha W+JLfuFEDOfe72jjXk2g7as1HvurKVeN40OqpAuamak=
+@size 213

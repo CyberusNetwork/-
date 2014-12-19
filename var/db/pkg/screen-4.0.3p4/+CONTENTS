@@ -1,0 +1,97 @@
+@comment $OpenBSD: PLIST,v 1.23 2004/08/11 10:07:56 espie Exp $
+@name screen-4.0.3p4
+@url http://ftp.fr.openbsd.org/pub/OpenBSD/5.6/packages/i386/screen-4.0.3p4.tgz
+@signer openbsd-56-pkg
+@digital-signature signify:2014-08-02T11:07:25Z:RWSPEf7Vpp2j0OZJi96MACHSwv7iseKc6PH0mhc6n3Csuw1N9XchqLNWX8vATgHEQq0BD+QNP0+YiU6y69TN08Us9vCSjQlANQg=
+@option manual-installation
+@comment pkgpath=misc/screen cdrom=yes ftp=yes
+@arch i386
++DESC
+@sha TOfsA1K+zgkYhTUM9N7H7ZdwoVyV6c25G2o0DKc7S78=
+@size 763
+@wantlib c.77.0
+@wantlib curses.14.0
+@wantlib util.12.1
+@cwd /usr/local
+bin/screen
+@sha E7k+x4oV9R8irFeyf8tCQ3ZBEfsuPoPHiHFiJJNMp4Q=
+@size 345584
+@info info/screen.info
+@sha MgZV9hMdBHwBsGy0ZVcup/ilDlYPy18I63rXSX8RSm0=
+@size 4839
+info/screen.info-1
+@sha v3xi2UTYs8kC7OaTJJpOBLzEh3nmRv6Je5rNes8IOn8=
+@size 46865
+info/screen.info-2
+@sha dpzOrrGKajwdsSMZrQD636jTatnXIGFXZqf5fF4tpuo=
+@size 46574
+info/screen.info-3
+@sha OOgIIK3ZhO9wslC0pdnN3wohq5ttPLVpSrFxdiAeAF0=
+@size 49249
+info/screen.info-4
+@sha NvXnn0Sx0U4OSqSwCvkWuTCNwRU0/kfjvpXBOygDypw=
+@size 50393
+info/screen.info-5
+@sha Cng0R1W3WLt/88Os/vCmpolkBStiRylEhpm4qKk4STQ=
+@size 25534
+@man man/cat1/screen.0
+@sha pKEvUSH1pdrQp4GPwbWdmRdm+jWfk9cYSucTO4UGXrY=
+@size 172392
+share/examples/screen/
+share/examples/screen/screenrc
+@sha HrW4Ix4m5QVtNXYJFyCW7gSOaig7FLc4L3HYSpEC858=
+@size 3312
+@sample /etc/screenrc
+share/screen/
+share/screen/utf8encodings/
+share/screen/utf8encodings/01
+@sha zaJzYtAlPc1hiBKyD1L3kF5vgPvO3xe2qCkJdFkgMKM=
+@size 29808
+share/screen/utf8encodings/02
+@sha KZd4hItPKpT+Qod4mLv7tzDxzvCs4mbErs9l4tjNL24=
+@size 27550
+share/screen/utf8encodings/03
+@sha 2a1lQlJuXOj7gSGKE+ab8nIzsZSybU27CHSBQY8i2BE=
+@size 32926
+share/screen/utf8encodings/04
+@sha +gwfHMCWFLiHQLd5bM29RXs7dvBS567f9KTUhHreoss=
+@size 24302
+share/screen/utf8encodings/18
+@sha YHqwjvbUD8fUuBDRNiSLql5pIBclt6n+J0BCpiWY/QY=
+@size 54862
+share/screen/utf8encodings/19
+@sha B0+H2FVw3ymZRPvL9tRQudUfW0Gkdg1AWLEMBVaUGX0=
+@size 95776
+share/screen/utf8encodings/a1
+@sha vOVn3zaZscd9sQdma/Y74CY4jcqFfAcnRxtnKMoLbPI=
+@size 536
+share/screen/utf8encodings/bf
+@sha MCHBSnogpsceZg/JBSgc/TtHv9OSMizOjS5NBGSXJVU=
+@size 232
+share/screen/utf8encodings/c2
+@sha DXs825oN6AVFJU/7gueLM6/l7E5DixGitrRUzvzGpOg=
+@size 256
+share/screen/utf8encodings/c3
+@sha dWafh+zZ7XLyoqQUIHxgkiusAixzJLCKBfcf7l1p2iQ=
+@size 140
+share/screen/utf8encodings/c4
+@sha 6VZ1bv0Xh8GbONO1ojzVNu5PQr4ZCeREXE5LO7ppuHE=
+@size 228
+share/screen/utf8encodings/c6
+@sha JFtTUk9/2/QQjvZb6PT77TyElZbw1EXbFGnbqZz6ZU0=
+@size 68
+share/screen/utf8encodings/c7
+@sha 66epZ+1RKCwlF4llsB4EdqnAKrT3pdFVM9GloP27P0M=
+@size 52
+share/screen/utf8encodings/c8
+@sha FqUwjCgu8iltUCteeQMJbIpEgKx6dh0RusXyUJyP5As=
+@size 40
+share/screen/utf8encodings/cc
+@sha 1V0HS4+Ke+j8orAciLY24cAy2VGWX/VMObpuTJLo9vs=
+@size 68
+share/screen/utf8encodings/cd
+@sha TQY98fo0TV9Q7mX8EacK/SiWMIFWuN+pGozwBua1ajk=
+@size 52
+share/screen/utf8encodings/d6
+@sha nYsl41YoLmUAysl4nrtE5/BFYzPkVaYQQbY3+EzzhH0=
+@size 212

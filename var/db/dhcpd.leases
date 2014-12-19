@@ -1,0 +1,12 @@
+lease 192.168.3.11 {
+	starts 5 2014/12/19 09:52:22 UTC;
+	ends 5 2014/12/19 21:52:22 UTC;
+	hardware ethernet 00:0e:6a:04:c3:80;
+}
+lease 192.168.3.10 {
+	starts 3 2014/12/17 12:45:02 UTC;
+	ends 4 2014/12/18 00:45:02 UTC;
+	hardware ethernet 08:60:6e:11:58:98;
+	uid 01:08:60:6e:11:58:98;
+	client-hostname "PC-ADRIEN";
+}

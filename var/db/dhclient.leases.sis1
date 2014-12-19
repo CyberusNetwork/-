@@ -1,0 +1,18 @@
+lease {
+  interface "sis1";
+  fixed-address 192.168.16.5;
+  next-server 192.168.16.1;
+  option subnet-mask 255.255.255.0;
+  option routers 192.168.16.1;
+  option domain-name-servers 10.8.100.2,208.67.222.222,208.67.220.220,8.8.8.8,8.8.4.4;
+  option domain-name "cyberus.itinet.fr";
+  option dhcp-lease-time 43200;
+  option dhcp-message-type 5;
+  option dhcp-server-identifier 192.168.16.1;
+  option dhcp-renewal-time 21600;
+  option dhcp-rebinding-time 37800;
+  option dhcp-client-identifier 1:0:0:24:c4:f5:dd;
+  renew 2 2014/12/16 20:45:54 UTC;
+  rebind 3 2014/12/17 01:15:54 UTC;
+  expire 3 2014/12/17 02:45:54 UTC;
+}

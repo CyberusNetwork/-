@@ -1,0 +1,5 @@
+Don't forget to remove /usr/local/bin/python,
+/usr/local/bin/2to3, /usr/local/bin/python-config and/or
+/usr/local/bin/pydoc if they were symlinks to
+/usr/local/bin/python2.7, /usr/local/bin/python2.7-2to3,
+/usr/local/bin/python2.7-config or to /usr/local/bin/pydoc2.7.

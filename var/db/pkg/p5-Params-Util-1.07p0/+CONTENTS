@@ -1,0 +1,28 @@
+@comment $OpenBSD: PLIST,v 1.4 2014/06/14 23:24:58 sthen Exp $
+@name p5-Params-Util-1.07p0
+@url http://ftp.fr.openbsd.org/pub/OpenBSD/5.6/packages/i386/p5-Params-Util-1.07p0.tgz
+@signer openbsd-56-pkg
+@digital-signature signify:2014-08-02T11:04:11Z:RWSPEf7Vpp2j0DqcPwpX2o1R+3ioB8obc32sWnho97JgJbJf0sAILJnNygNHWFPsAUKx2g6JwN0sYaW8z2aQqxh+oyeENIDxQw0=
+@comment pkgpath=devel/p5-Params-Util cdrom=yes ftp=yes
+@arch i386
++DESC
+@sha X4XJ6YoWnZHXSvq5b8IgBPIpTZfLzvw7AimvM5WIZgY=
+@size 239
+@wantlib c.77.0
+@wantlib perl.15.0
+@cwd /usr/local
+libdata/perl5/site_perl/i386-openbsd/
+libdata/perl5/site_perl/i386-openbsd/Params/
+libdata/perl5/site_perl/i386-openbsd/Params/Util.pm
+@sha oyj69/T8gxuR6FZ6hz5G/jvPzbfSPArFuuYBCfgP6R8=
+@size 22375
+libdata/perl5/site_perl/i386-openbsd/auto/
+libdata/perl5/site_perl/i386-openbsd/auto/Params/
+libdata/perl5/site_perl/i386-openbsd/auto/Params/Util/
+@comment libdata/perl5/site_perl/i386-openbsd/auto/Params/Util/Util.bs
+libdata/perl5/site_perl/i386-openbsd/auto/Params/Util/Util.so
+@sha XlYlmJ49BxJYDfyJUTxh3AUDIgqn3i53oVW6cv1lhyU=
+@size 17038
+@man man/man3p/Params::Util.3p
+@sha +YGCTj1bkkcd8rwA/EVXnoZ9ZAbzsHOVauWNj/vnBVs=
+@size 22958

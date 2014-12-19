@@ -1,0 +1,82 @@
+@comment $OpenBSD: PLIST,v 1.3 2013/04/04 16:03:56 brad Exp $
+@name lzo2-2.08
+@url http://ftp.fr.openbsd.org/pub/OpenBSD/5.6/packages/i386/lzo2-2.08.tgz
+@signer openbsd-56-pkg
+@digital-signature signify:2014-08-02T11:01:13Z:RWSPEf7Vpp2j0ODxmEKZFPRTW52TT5+aXWcP3uxGnIQjiUgeqjpaYZC+wShJfnXNLDH4jYYH/jm3PqK+ChFUaa+r7vA6Z7gaggY=
+@comment pkgpath=archivers/lzo2 cdrom=yes ftp=yes
+@arch i386
++DESC
+@sha aoa8J7tNKbyU5HkUESIhoPJZTSrxvnQAECwKb4+iXLY=
+@size 940
+@cwd /usr/local
+include/lzo/
+include/lzo/lzo1.h
+@sha 6XLjQv6E3Lme4Qni0cg2H6JeepovjvakFelX4elqZc8=
+@size 2630
+include/lzo/lzo1a.h
+@sha L5RJPgHG6Fmtl4kFRgG4N61MZwaemBBJWcsDHZarGAI=
+@size 2634
+include/lzo/lzo1b.h
+@sha +wBLy2B4NWkGZsRVJ6454pPHX5jSKgfXqitMh/YKEJA=
+@size 5383
+include/lzo/lzo1c.h
+@sha uhY3Z3bjKUjcpX4pLRsCDy5YiHmpAcYTW4QNibw71qM=
+@size 5380
+include/lzo/lzo1f.h
+@sha pSU0vRGDuEWVaaV+peRnVsyMu/ey7IjOFHxNVfD7bLY=
+@size 3069
+include/lzo/lzo1x.h
+@sha 8rOlU3F/R/k1tspLFBGx6XOEfOGxR+UWrN1yI40CNA4=
+@size 5869
+include/lzo/lzo1y.h
+@sha 103uMQaJ/BwxtoRiAstZ+g5FQtcPq3N1/0ZnTVsJ82U=
+@size 4637
+include/lzo/lzo1z.h
+@sha IK+Fkb8iBDQ95cZVqCTDpKJg/Km1yP6tpxDXNkvmjf8=
+@size 3767
+include/lzo/lzo2a.h
+@sha S4i8uJbkbsC59d/OE0y9olytV2dx1z0Sd0IHxGkaSb8=
+@size 2521
+include/lzo/lzo_asm.h
+@sha n515DvHKrBG27jMITa6OadIaDx0BklwN0AeGmq+72aw=
+@size 5562
+include/lzo/lzoconf.h
+@sha kBBT5vFytftu3Yv7F1wZAceWgm6B1mhzrKl1BVWkGnc=
+@size 15597
+include/lzo/lzodefs.h
+@sha P01ELVT4fi7tyAI8r90vSqudLJp5ek9NZJsXLNjQlRc=
+@size 116580
+include/lzo/lzoutil.h
+@sha tWrG+ywNBlCK+CZKRUS9J8z/gla+Ejy9GlW8c5CfNeA=
+@size 1804
+lib/liblzo2.a
+@sha 7yF/kwTMDAULDPtyJT71pyL84IheopW2ToQ4ImCFL/o=
+@size 190420
+lib/liblzo2.la
+@sha fLD6V+X1Xg1/GKC6UNxOLFDxXc6ndLwXPQplqwDFGV8=
+@size 715
+@lib lib/liblzo2.so.0.0
+@sha zvuAljhbhgdyb7B/bdjmMiMPccfvviyUbM0nxJDDIA0=
+@size 136831
+share/doc/lzo2/
+share/doc/lzo2/AUTHORS
+@sha qU8tORbSmHrgrcCo3GQdlL6zjjQdVDvJVqbI8MMVHEA=
+@size 112
+share/doc/lzo2/COPYING
+@sha gXf5dRMhNSbfLPYYTY/5hsZ1r7UU1OaKQEAQUhuIBkM=
+@size 18092
+share/doc/lzo2/LZO.FAQ
+@sha Wz2bVFW67VvIQJCDEmPcuv6XqAKxcstvXf7TVi0mkq8=
+@size 7616
+share/doc/lzo2/LZO.TXT
+@sha UtmhNyITetNHnJKmZ9xkYoi++ki0aeVHYM9tu8+Sjko=
+@size 13009
+share/doc/lzo2/LZOAPI.TXT
+@sha twByxVFbra4CMc64F6qJ+tSNENcgTUUkpkoqq6Zhp+4=
+@size 6228
+share/doc/lzo2/NEWS
+@sha +4Rd7IQQLEKIEdwvsC5tSK4pnw0A4HKQTCa9IGpuUHE=
+@size 12279
+share/doc/lzo2/THANKS
+@sha biKqcOSp2hEK+hIuMBm7tim2shlV7I3HVssCq0zfR50=
+@size 690

@@ -1,0 +1,5 @@
+@comment patch for 009_httpd.patch
+@option always-update
+./usr/
+./usr/sbin/
+./usr/sbin/httpd

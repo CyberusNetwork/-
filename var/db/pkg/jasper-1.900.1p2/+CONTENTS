@@ -1,0 +1,104 @@
+@comment $OpenBSD: PLIST,v 1.4 2013/04/20 15:25:35 naddy Exp $
+@name jasper-1.900.1p2
+@url http://ftp.fr.openbsd.org/pub/OpenBSD/5.6/packages/i386/jasper-1.900.1p2.tgz
+@signer openbsd-56-pkg
+@digital-signature signify:2014-08-02T10:59:31Z:RWSPEf7Vpp2j0O3i8wFrpJO1X5EgIrmfc4iC3y5CMkmQULyvAT3GMpj7n92DlQb8nh39+Uk45Pu0lS831aTGLnhoVRoiQOgbCw0=
+@comment pkgpath=graphics/jasper cdrom=yes ftp=yes
+@arch i386
++DESC
+@sha +G8ytRCjlrMy59ZBK8pJXsrC7NBpCwkbjt4YmvUvipI=
+@size 272
+@wantlib c.77.0
+@wantlib m.9.0
+@cwd /usr/local
+@bin bin/imgcmp
+@sha eeuOpH8o4fcFvWq2ojwNFCbFLk72mtMzse65/3hph34=
+@size 14896
+@bin bin/imginfo
+@sha F16PD+pCEgjOBtEkyfYPNc8Z+0bBXZ5BK0dAfUYbhcw=
+@size 10128
+@bin bin/jasper
+@sha UpOFNbOrAZFuI9Ggz9dBDf4sb8Wo3R3PIcgZFkqkBOI=
+@size 17232
+@bin bin/tmrdemo
+@sha gelmg+XDLhKhAV6hTBdPjbLQRD4ZGkDubslCPeKZTOo=
+@size 5712
+include/jasper/
+include/jasper/jas_cm.h
+@sha k/6x6as6nx2g48jtB6jeXYFqbwWD4j34Q/55ZQKm8FU=
+@size 8058
+include/jasper/jas_config.h
+@sha C/kQ2cqth4wQMsKMaTx7eXTr1Q+YGZHRelBfgZDe9NE=
+@size 4748
+include/jasper/jas_config2.h
+@sha zz5MlB7zAZdWcBXnOpVEH5Q2DSxBM69S/aRiVqamx7w=
+@size 3706
+include/jasper/jas_debug.h
+@sha zz15AEhjg6Md5G2pDMG7GGYGPtdeOa+dDaFNjqhAWH4=
+@size 4238
+include/jasper/jas_fix.h
+@sha xJWIQ+54KuWLv+xaf0YJP7SYwu8Vdc5P3wMJ+9Sy/lE=
+@size 13264
+include/jasper/jas_getopt.h
+@sha QCs+ilanBD0D2fslGVEQan0cuVQ7j52CCDqacWtQSsQ=
+@size 4626
+include/jasper/jas_icc.h
+@sha xY03NImv7Vw2GzQGIfCYaXgObbmZnK1zNmKqXUBMezM=
+@size 15305
+include/jasper/jas_image.h
+@sha R3mue6Ptcsu4luV0sCotqymu2zZ97PvzqrePDoK/Yng=
+@size 18602
+include/jasper/jas_init.h
+@sha 0RL6qteJj0WpO9tKBpflfQeobxC51MUr5/rpp6oktf0=
+@size 3415
+include/jasper/jas_malloc.h
+@sha cSqqGd6nwM6BcSY44BOBDR+8zxE7mw1o0P8eA8TLZzQ=
+@size 4858
+include/jasper/jas_math.h
+@sha g4v/tExKhAgS50R/guZBIYv/KSs8fLxvh4U76EOtzOQ=
+@size 4353
+include/jasper/jas_seq.h
+@sha MWbVbd84ZivMKM0q1RmPGpAFkKlDml/AL4GU3+ymjyo=
+@size 10185
+include/jasper/jas_stream.h
+@sha NDcyPqul0tOsGvlX4pRnHCDkYmDlSxWqWiGayOghYzE=
+@size 14825
+include/jasper/jas_string.h
+@sha ZxLkLPRS2jN+XKhidFB6E23X3npJIOU1WD0sN9TpdOI=
+@size 3763
+include/jasper/jas_tmr.h
+@sha nDUmjglnjvHLXndL/I2AP/yto6gYefR5xG1ocAp8jvI=
+@size 3621
+include/jasper/jas_tvp.h
+@sha n6DhV+7+t+/Nk8A1LYpQBCE+VYlgE0+KiioeTI4UB8U=
+@size 5271
+include/jasper/jas_types.h
+@sha hzOSuLeK/FYYOD2rlspX80QCEQEYsSxL1XmlcOEFPtU=
+@size 6676
+include/jasper/jas_version.h
+@sha pDu/Yx04AvkywUTlxhA55FiLZGY8LfLOdlQ48TNOPt0=
+@size 4867
+include/jasper/jasper.h
+@sha mLa5Kl52rJxnG8k9NQwKVrukG0jrYYBCOC+W2FOsX3I=
+@size 3697
+lib/libjasper.a
+@sha LAWe5ZFzKBhdEHqapLp6QB4cRdRbatQon9BN8plncdw=
+@size 406506
+lib/libjasper.la
+@sha 2aj5Fo+GGjwaO9d0AahEo4sL/6w/wBd6bF8dy4yJjJc=
+@size 728
+@lib lib/libjasper.so.2.1
+@sha uAHrz2OymQBUJglV8GEJACF7lnsER38c2yibsdtV8Zw=
+@size 317134
+@man man/man1/imgcmp.1
+@sha uoM97oXUgvsdkkWfg2T5fxBGgE9oPRXq6wtcfg8UZmM=
+@size 538
+@man man/man1/imginfo.1
+@sha 5pRXxXJMsfoJ8xiu8tscqUMXQSE4mbENrPyWCGUPEOw=
+@size 507
+@man man/man1/jasper.1
+@sha oizLF/7t8qWdhRGCUps4cu3npyabLiGc0HJhz881H6k=
+@size 505
+@man man/man1/jiv.1
+@sha v+kwvZr0L7oif34or/VSZfk52efjL6h+8E1CTizX7+A=
+@size 570

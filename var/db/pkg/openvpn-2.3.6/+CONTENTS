@@ -1,0 +1,166 @@
+@comment $OpenBSD: PLIST,v 1.16.6.1 2014/12/01 21:44:53 sthen Exp $
+@comment $OpenBSD: PFRAG.shared,v 1.1 2013/04/20 16:22:55 sthen Exp $
+@name openvpn-2.3.6
+@url https://stable.mtier.org/updates/5.6/i386/openvpn-2.3.6.tgz
+@signer mtier-56-pkg
+@digital-signature signify:2014-12-02T11:08:57Z:RWQQss3E1pCsGzELXXQRN3eqvbpT8ZCkQWQZrTAPxAi0EBBbz4pZstOYSyL6BAtYwGEWwzywzEt6renANbHP4VfgB43M0IgzBAA=
+@option manual-installation
+@comment pkgpath=net/openvpn cdrom=yes ftp=yes
+@arch i386
++DESC
+@sha Vp1so3/gHry1C2bSEjYu0ko/xnr4WpYt4DegrQj4mUU=
+@size 638
+@depend archivers/lzo2:lzo2-*:lzo2-2.08
+@wantlib c.77.0
+@wantlib crypto.30.0
+@wantlib lzo2.0.0
+@wantlib ssl.27.0
+@newgroup _openvpn:577
+@newuser _openvpn:577:_openvpn:daemon:OpenVPN Daemon:/nonexistent:/sbin/nologin
+@cwd /usr/local
+lib/openvpn/plugins/openvpn-plugin-down-root.so
+@sha g9Ga5PaD9ZCym7TZ/5fffmLaeYz2S0H3yFMAHd9w5fo=
+@size 12565
+include/openvpn/
+include/openvpn/openvpn-plugin.h
+@sha 8obS3YFa1SpedAZrm3wDXq3ULQcy97uAtvXvCi7nSRI=
+@size 28014
+lib/openvpn/
+lib/openvpn/plugins/
+lib/openvpn/plugins/openvpn-plugin-down-root.a
+@sha XYIispHPpF3RmQO3i4/3EfRKHf/z6KXD07tLUp4+E6I=
+@size 7368
+lib/openvpn/plugins/openvpn-plugin-down-root.la
+@sha cjFmpwbdHQmui5/6DZ00nNR+NJuhhJnTV83PYOTpoAs=
+@size 825
+@man man/man8/openvpn.8
+@sha nbvk85wyCcNU/wjzCJ8GGYfLUPVtrrImm//VG6P3GEQ=
+@size 207345
+@bin sbin/openvpn
+@sha 5wsE7AsVTJH3ZGiMvNnw5vaMVpKbTEW7PgTd3u93HA4=
+@size 633328
+share/doc/openvpn/
+share/doc/openvpn/README.down-root
+@sha lBrHuCl9ocRtSgVqCtz5IKi4orrTiwvvVIyCx5IZZVw=
+@size 866
+share/doc/openvpn/management-notes.txt
+@sha UcoJzZOk9vD54ZC5R7Tk/MxlrAihDggQGD1ncC3vtjM=
+@size 34049
+share/doc/pkg-readmes/openvpn-2.3.6
+@sha rVytXcbtfkyaBHCNlVIde4JhuS1ae0WbjQ8agkuD2DU=
+@size 2441
+share/examples/openvpn/
+share/examples/openvpn/sample-config-files/
+share/examples/openvpn/sample-config-files/README
+@sha wBIaOFV4Xri7QSG2mOMPhZc5AjytOlpvIqFPLe+moVU=
+@size 131
+share/examples/openvpn/sample-config-files/client.conf
+@sha W7M1NyKVpdJGKp3vGX9vM7hq9VaK27H2lalFTSQwYtw=
+@size 3443
+share/examples/openvpn/sample-config-files/firewall.sh
+@sha 5M82JqBLAk+MjncnYBdeFzq1+HDZH48E5JVO99OmJgY=
+@size 3562
+share/examples/openvpn/sample-config-files/home.up
+@sha FwwJQFLvoSOEG1DNM2+R4T++3yXvI72mtVEoRsTWhPg=
+@size 62
+share/examples/openvpn/sample-config-files/loopback-client
+@sha l+SQU6ZlwIuOMnJ5EJEQAAJK0CpGn6Z+6SfpWr0B2hc=
+@size 642
+share/examples/openvpn/sample-config-files/loopback-server
+@sha MJ9Ck+uffgXpU/fjpDSch2azXMshLsP8/g4P3Bvms6g=
+@size 645
+share/examples/openvpn/sample-config-files/office.up
+@sha jb2TzWNvkxUJAjxQ5NUaJ/zTdpJR3MWh4H4MMnm3tC0=
+@size 62
+share/examples/openvpn/sample-config-files/openvpn-shutdown.sh
+@sha JyAVOkdNeLdHXo64E6hwGP3qa53Ca3M68KpYAIJ115I=
+@size 63
+share/examples/openvpn/sample-config-files/openvpn-startup.sh
+@sha UPcHEdBv8A5MdHwAdhhlLgWPJeEaPkJROlJ4zBMGW4Q=
+@size 776
+share/examples/openvpn/sample-config-files/server.conf
+@sha C4BlaR2Nj+jGyyeEfIjWvJHMPApklWUS+UNGAFkXan4=
+@size 10443
+share/examples/openvpn/sample-config-files/static-home.conf
+@sha EfvEY3vJFG1Mn2B405Uhv3/AmujcQ6epHA7Y6eo3y10=
+@size 1744
+share/examples/openvpn/sample-config-files/static-office.conf
+@sha /0PmxQV2iMCrm0X49bpK3xi91HrOWaUs/NeE+SHpDnw=
+@size 1690
+share/examples/openvpn/sample-config-files/tls-home.conf
+@sha kvaTpZ2eLPvPLiUy1e6luoxvYkcn+AU0+l9wm3SAggg=
+@size 1939
+share/examples/openvpn/sample-config-files/tls-office.conf
+@sha 294diR6JmL1U2FOmIc6S0GCtZcckJMe18THLAkwPJA8=
+@size 1950
+share/examples/openvpn/sample-config-files/xinetd-client-config
+@sha CxbITym550pIc89Amlc/MtdPt1YsUTLQ6HX3FZ0QPkg=
+@size 201
+share/examples/openvpn/sample-config-files/xinetd-server-config
+@sha 1VbjQEeZDd3zkwTVgL/JKcsgmZMPGZxKPaKxzqkNoEI=
+@size 991
+share/examples/openvpn/sample-keys/
+share/examples/openvpn/sample-keys/README
+@sha VoRh64hY0kgXUG3xTF820imMm9nLv++8rsa8u2Sl3M0=
+@size 737
+share/examples/openvpn/sample-keys/ca.crt
+@sha wARgQ5H+ZbtDC2DndLJp9EO3hbFktnX00S1+ACe+5fc=
+@size 2195
+share/examples/openvpn/sample-keys/ca.key
+@sha nN4HKAVzZm2f/n0p9kVhZD8dEIbdQlUDlooUhcUzThI=
+@size 3272
+share/examples/openvpn/sample-keys/client-ec.crt
+@sha Ru5v18wDMXnOWpaJsURjFevASqk1D2eWLWkeqcmL8WE=
+@size 4798
+share/examples/openvpn/sample-keys/client-ec.key
+@sha v6tCl/U8cyppWRELBZU6Mbou5oJhXZU5mvaSEzS24W8=
+@size 237
+share/examples/openvpn/sample-keys/client-pass.key
+@sha PytP4Y84DV4slZDwU1KI/2mlVsQNKo/evFbmXHLikNI=
+@size 1766
+share/examples/openvpn/sample-keys/client.crt
+@sha Jg6nSdlJG74nqPKecGKnzZXVb+YD+STyVIVhGy2Aee8=
+@size 5934
+share/examples/openvpn/sample-keys/client.key
+@sha XzYIR7gwbAdOT/0DCqNq0d5DGXD4M5T5LS5gkDzigG0=
+@size 1704
+share/examples/openvpn/sample-keys/client.p12
+@sha VYuHXOdhgeqgtxzTJ2ozVASWD0j0894ywg5RUFaL0Pw=
+@size 4533
+share/examples/openvpn/sample-keys/dh2048.pem
+@sha NZi/SDbMIsU0e2T/ej8B8+5ihEQBSVWaHB4awg6gvuM=
+@size 424
+share/examples/openvpn/sample-keys/gen-sample-keys.sh
+@sha byYDDepRMM4Bvp3PbF3amIef5krOtnS5Txnc/nCVqB8=
+@size 2883
+share/examples/openvpn/sample-keys/openssl.cnf
+@sha Uw7issc7HLVm7bscVQpudgrz6sHMT1RVYCMX3BokkVY=
+@size 4312
+share/examples/openvpn/sample-keys/server-ec.crt
+@sha yIOqWbUUFZVjbjDMsWgLRs+bKcIaWImnLmU+wDNL8u0=
+@size 5254
+share/examples/openvpn/sample-keys/server-ec.key
+@sha E70mGVrXUVIncbXRtGJ4k4NHUyFio7FYHH7GlMfi4lY=
+@size 237
+share/examples/openvpn/sample-keys/server.crt
+@sha 04OGjdvsJBvmhgoBrRF3y1vpHQPSXvf0NR0LqCQHVLw=
+@size 6391
+share/examples/openvpn/sample-keys/server.key
+@sha x6vcq/9UXdpEgPr9Xslu5wYpru1N4t8uiQJ3Z45cF6A=
+@size 1704
+share/examples/openvpn/sample-scripts/
+share/examples/openvpn/sample-scripts/auth-pam.pl
+@sha B0FB4YEEC5EUQK03x/hFdB7JzF+455RtkLKag5LsMXs=
+@size 2408
+share/examples/openvpn/sample-scripts/bridge-start
+@sha a9Y1kGe4UMC8PV7WhYF3T1MvaHqVVNrx2mNgO2mxQjk=
+@size 741
+share/examples/openvpn/sample-scripts/bridge-stop
+@sha xaXFe5TV++SHmaInNW6A8SVX2nWugc11EIOMcW835rU=
+@size 313
+share/examples/openvpn/sample-scripts/ucn.pl
+@sha mmuNXVJBBbsO/1EIpASUxSraFvs1r7bOH04P5okb9gE=
+@size 339
+share/examples/openvpn/sample-scripts/verify-cn
+@sha aXp7s8kP0RHsljObei/oOhRE0znzjCbK/d0M7p8zKFc=
+@size 2183

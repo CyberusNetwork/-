@@ -1,0 +1,88 @@
+
+OpenBSD 5.6 errata 10, Dec 5, 2014:
+
+Several bugs were fixed that allowed a crash from remote when an active pipex
+session exists.
+
+Apply patch using:
+
+    signify -Vep /etc/signify/openbsd-56-base.pub -x 010_pipex.patch.sig \
+        -m - | (cd /usr/src && patch -p0)
+
+Then build and install a new kernel.
+
+Index: sys/net/pipex.c
+===================================================================
+RCS file: /cvs/src/sys/net/pipex.c,v
+retrieving revision 1.55
+retrieving revision 1.55.4.1
+diff -u -p -u -r1.55 -r1.55.4.1
+--- sys/net/pipex.c	22 Jul 2014 11:06:10 -0000	1.55
++++ sys/net/pipex.c	1 Dec 2014 06:57:33 -0000	1.55.4.1
+@@ -1037,6 +1037,7 @@ pipex_ppp_input(struct mbuf *m0, struct 
+ 	struct m_tag *mtag;
+ 	struct pipex_tag *tag;
+ 
++	KASSERT(m0->m_pkthdr.len >= PIPEX_PPPMINLEN);
+ 	proto = pipex_ppp_proto(m0, session, 0, &hlen);
+ #ifdef PIPEX_MPPE
+ 	if (proto == PPP_COMP) {
+@@ -1294,7 +1295,8 @@ pipex_common_input(struct pipex_session 
+ 	int proto, ppphlen;
+ 	u_char code;
+ 
+-	if (m0->m_pkthdr.len < hlen + PIPEX_PPPMINLEN)
++	if ((m0->m_pkthdr.len < hlen + PIPEX_PPPMINLEN) ||
++	    (plen < PIPEX_PPPMINLEN))
+ 		goto drop;
+ 
+ 	proto = pipex_ppp_proto(m0, session, hlen, &ppphlen);
+@@ -1358,6 +1360,7 @@ pipex_ppp_proto(struct mbuf *m0, struct 
+ 	int proto;
+ 	u_char *cp, pktbuf[4];
+ 
++	KASSERT(m0->m_pkthdr.len > sizeof(pktbuf));
+ 	m_copydata(m0, off, sizeof(pktbuf), pktbuf);
+ 	cp = pktbuf;
+ 
+@@ -1621,6 +1624,13 @@ pipex_pptp_lookup_session(struct mbuf *m
+ 		goto not_ours;
+ 	}
+ 
++	/* flag check */
++	if ((flags & PIPEX_GRE_UNUSEDFLAGS) != 0) {
++		PIPEX_DBG((NULL, LOG_DEBUG,
++		    "<%s> gre header has unused flags at pptp.", __func__));
++		goto not_ours;
++	}
++
+ 	/* lookup pipex session table */
+ 	id = ntohs(gre.call_id);
+ 	session = pipex_lookup_by_session_id(PIPEX_PROTO_PPTP, id);
+@@ -2575,6 +2585,8 @@ pipex_mppe_input(struct mbuf *m0, struct
+ 		mppe->coher_cnt++;
+ 		mppe->coher_cnt &= PIPEX_COHERENCY_CNT_MASK;
+ 	}
++	if (m0->m_pkthdr.len < PIPEX_PPPMINLEN)
++		goto drop;
+ 
+ 	pipex_ppp_input(m0, session, 1);
+ 
+Index: sys/net/pipex_local.h
+===================================================================
+RCS file: /cvs/src/sys/net/pipex_local.h,v
+retrieving revision 1.19
+retrieving revision 1.19.8.1
+diff -u -p -u -r1.19 -r1.19.8.1
+--- sys/net/pipex_local.h	20 Apr 2013 07:54:28 -0000	1.19
++++ sys/net/pipex_local.h	1 Dec 2014 06:57:33 -0000	1.19.8.1
+@@ -217,7 +217,8 @@ struct pipex_gre_header {
+ #define PIPEX_GRE_SFLAG			0x1000	/* seq present */
+ #define PIPEX_GRE_AFLAG			0x0080	/* ack present */
+ #define PIPEX_GRE_VER			0x0001	/* gre version code */
+-#define PIPEX_GRE_VERMASK		0x0003	/* gre version mask */
++#define PIPEX_GRE_VERMASK		0x0007	/* gre version mask */
++#define PIPEX_GRE_UNUSEDFLAGS		0xcf78	/* unused at pptp. set 0 in rfc2637 */
+ 
+ 	uint16_t type;
+ #define PIPEX_GRE_PROTO_PPP		0x880b	/* gre/ppp */

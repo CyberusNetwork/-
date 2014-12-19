@@ -1,0 +1,97 @@
+[Sun Dec 07 14:59:15 2014] [alert] (EAI 5)no address associated with name: mod_unique_id: unable to find IPv4 address of "cyberus.itinet.fr"
+Configuration Failed
+[Sun Dec 07 15:02:50 2014] [alert] (EAI 5)no address associated with name: mod_unique_id: unable to find IPv4 address of "cyberus.itinet.fr"
+Configuration Failed
+[Sun Dec 07 15:04:07 2014] [alert] (EAI 5)no address associated with name: mod_unique_id: unable to find IPv4 address of "cyberus.itinet.fr"
+Configuration Failed
+[Sun Dec 07 15:12:02 2014] [alert] (EAI 5)no address associated with name: mod_unique_id: unable to find IPv4 address of "cyberus.itinet.fr"
+Configuration Failed
+[Mon Dec 08 09:39:08 2014] [alert] (EAI 5)no address associated with name: mod_unique_id: unable to find IPv4 address of "cyberus.itinet.fr"
+Configuration Failed
+[Mon Dec 08 11:00:01 2014] [alert] (EAI 5)no address associated with name: mod_unique_id: unable to find IPv4 address of "cyberus.itinet.fr"
+Configuration Failed
+[Mon Dec 08 11:01:18 2014] [alert] (EAI 5)no address associated with name: mod_unique_id: unable to find IPv4 address of "cyberus.itinet.fr"
+Configuration Failed
+[Mon Dec 08 11:01:30 2014] [alert] (EAI 5)no address associated with name: mod_unique_id: unable to find IPv4 address of "cyberus.itinet.fr"
+Configuration Failed
+[Mon Dec 08 11:05:13 2014] [warn] Init: Session Cache is not configured [hint: SSLSessionCache]
+[Mon Dec 08 11:05:15 2014] [notice] Digest: generating secret for digest authentication ...
+[Mon Dec 08 11:05:15 2014] [notice] Digest: done
+[Mon Dec 08 11:05:23 2014] [notice] Apache/2.2.27 (Unix) DAV/2 mod_ssl/2.2.27 LibreSSL/2.0 configured -- resuming normal operations
+[Mon Dec 08 11:05:23 2014] [error] [client 10.8.97.1] File does not exist: /var/apache2/htdocs/favicon.ico
+[Mon Dec 08 11:12:47 2014] [notice] caught SIGTERM, shutting down
+[Wed Dec 10 16:02:35 2014] [warn] Init: Session Cache is not configured [hint: SSLSessionCache]
+[Wed Dec 10 16:02:36 2014] [notice] Digest: generating secret for digest authentication ...
+[Wed Dec 10 16:02:36 2014] [notice] Digest: done
+[Wed Dec 10 16:02:43 2014] [notice] Apache/2.2.27 (Unix) DAV/2 mod_ssl/2.2.27 LibreSSL/2.0 configured -- resuming normal operations
+[Wed Dec 10 16:02:43 2014] [error] [client 10.8.97.1] File does not exist: /var/apache2/htdocs/favicon.ico
+[Wed Dec 10 16:52:16 2014] [error] [client 10.8.97.1] File does not exist: /var/apache2/htdocs/favicon.ico
+[Fri Dec 12 09:41:47 2014] [error] [client 10.8.97.1] File does not exist: /var/apache2/htdocs/favicon.ico
+[Fri Dec 12 10:57:13 2014] [error] [client 10.8.97.1] File does not exist: /var/apache2/htdocs/favicon.ico
+[Fri Dec 12 11:29:20 2014] [notice] caught SIGTERM, shutting down
+[Fri Dec 12 11:29:42 2014] [warn] Init: Session Cache is not configured [hint: SSLSessionCache]
+[Fri Dec 12 11:29:44 2014] [notice] Digest: generating secret for digest authentication ...
+[Fri Dec 12 11:29:44 2014] [notice] Digest: done
+[Fri Dec 12 11:29:52 2014] [notice] Apache/2.2.27 (Unix) DAV/2 mod_ssl/2.2.27 LibreSSL/2.0 configured -- resuming normal operations
+[Fri Dec 12 11:41:17 2014] [notice] caught SIGTERM, shutting down
+[Fri Dec 12 11:42:01 2014] [warn] Init: Session Cache is not configured [hint: SSLSessionCache]
+[Fri Dec 12 11:42:03 2014] [notice] Digest: generating secret for digest authentication ...
+[Fri Dec 12 11:42:03 2014] [notice] Digest: done
+[Fri Dec 12 11:42:10 2014] [notice] Apache/2.2.27 (Unix) DAV/2 mod_ssl/2.2.27 LibreSSL/2.0 configured -- resuming normal operations
+[Fri Dec 12 11:43:25 2014] [notice] caught SIGTERM, shutting down
+[Fri Dec 12 11:43:54 2014] [warn] Init: Session Cache is not configured [hint: SSLSessionCache]
+[Fri Dec 12 11:43:55 2014] [notice] Digest: generating secret for digest authentication ...
+[Fri Dec 12 11:43:55 2014] [notice] Digest: done
+[Fri Dec 12 11:43:59 2014] [notice] Apache/2.2.27 (Unix) DAV/2 mod_ssl/2.2.27 LibreSSL/2.0 configured -- resuming normal operations
+[Fri Dec 12 11:59:59 2014] [notice] caught SIGTERM, shutting down
+[Fri Dec 12 12:00:08 2014] [warn] Init: Session Cache is not configured [hint: SSLSessionCache]
+[Fri Dec 12 12:00:09 2014] [notice] Digest: generating secret for digest authentication ...
+[Fri Dec 12 12:00:09 2014] [notice] Digest: done
+[Fri Dec 12 12:00:12 2014] [notice] Apache/2.2.27 (Unix) DAV/2 mod_ssl/2.2.27 LibreSSL/2.0 configured -- resuming normal operations
+[Tue Dec 16 09:32:28 2014] [warn] (2)No such file or directory: Cannot reinit SSLMutex
+[Tue Dec 16 09:32:28 2014] [error] [client 10.8.97.1] File does not exist: /var/apache2/htdocs/favicon.ico
+[Tue Dec 16 10:35:14 2014] [notice] SIGHUP received.  Attempting to restart
+[Tue Dec 16 10:35:17 2014] [notice] Digest: generating secret for digest authentication ...
+[Tue Dec 16 10:35:17 2014] [notice] Digest: done
+[Tue Dec 16 10:35:21 2014] [notice] Apache/2.2.27 (Unix) DAV/2 mod_ssl/2.2.27 LibreSSL/2.0 configured -- resuming normal operations
+[Tue Dec 16 10:35:21 2014] [warn] (2)No such file or directory: Cannot reinit SSLMutex
+[Tue Dec 16 10:35:21 2014] [warn] (2)No such file or directory: Cannot reinit SSLMutex
+[Tue Dec 16 10:35:21 2014] [warn] (2)No such file or directory: Cannot reinit SSLMutex
+[Tue Dec 16 10:35:21 2014] [warn] (2)No such file or directory: Cannot reinit SSLMutex
+[Tue Dec 16 10:35:21 2014] [warn] (2)No such file or directory: Cannot reinit SSLMutex
+[Tue Dec 16 10:44:09 2014] [error] [client 10.8.97.1] File does not exist: /var/apache2/htdocs/favicon.ico
+[Tue Dec 16 10:44:22 2014] [warn] (2)No such file or directory: Cannot reinit SSLMutex
+[Tue Dec 16 12:00:58 2014] [notice] caught SIGTERM, shutting down
+[Wed Dec 17 11:21:57 2014] [warn] Init: Session Cache is not configured [hint: SSLSessionCache]
+[Wed Dec 17 11:22:01 2014] [notice] Digest: generating secret for digest authentication ...
+[Wed Dec 17 11:22:01 2014] [notice] Digest: done
+[Wed Dec 17 11:22:05 2014] [notice] Apache/2.2.27 (Unix) DAV/2 PHP/5.4.35 mod_ssl/2.2.27 LibreSSL/2.0 configured -- resuming normal operations
+[Wed Dec 17 11:22:19 2014] [error] [client 10.8.97.1] File does not exist: /var/apache2/htdocs/favicon.ico
+[Wed Dec 17 11:32:49 2014] [notice] SIGHUP received.  Attempting to restart
+Warning: DocumentRoot [/var/apache2/docs/dummy-host.example.com] does not exist
+Warning: DocumentRoot [/var/apache2/docs/dummy-host2.example.com] does not exist
+[Wed Dec 17 11:32:53 2014] [notice] Digest: generating secret for digest authentication ...
+[Wed Dec 17 11:32:53 2014] [notice] Digest: done
+[Wed Dec 17 11:32:57 2014] [notice] Apache/2.2.27 (Unix) DAV/2 PHP/5.4.35 mod_ssl/2.2.27 LibreSSL/2.0 configured -- resuming normal operations
+[Wed Dec 17 11:40:40 2014] [notice] SIGHUP received.  Attempting to restart
+Warning: DocumentRoot [/var/apache2/docs/dummy-host.example.com] does not exist
+Warning: DocumentRoot [/var/apache2/docs/dummy-host2.example.com] does not exist
+[Wed Dec 17 11:40:44 2014] [notice] Digest: generating secret for digest authentication ...
+[Wed Dec 17 11:40:44 2014] [notice] Digest: done
+[Wed Dec 17 11:40:49 2014] [notice] Apache/2.2.27 (Unix) DAV/2 PHP/5.4.35 mod_ssl/2.2.27 LibreSSL/2.0 configured -- resuming normal operations
+[Wed Dec 17 11:44:14 2014] [notice] SIGHUP received.  Attempting to restart
+Warning: DocumentRoot [/var/apache2/docs/dummy-host.example.com] does not exist
+Warning: DocumentRoot [/var/apache2/docs/dummy-host2.example.com] does not exist
+[Wed Dec 17 11:44:18 2014] [notice] Digest: generating secret for digest authentication ...
+[Wed Dec 17 11:44:18 2014] [notice] Digest: done
+[Wed Dec 17 11:44:24 2014] [notice] Apache/2.2.27 (Unix) DAV/2 PHP/5.4.35 mod_ssl/2.2.27 LibreSSL/2.0 configured -- resuming normal operations
+[Wed Dec 17 11:45:02 2014] [notice] SIGHUP received.  Attempting to restart
+[Wed Dec 17 11:45:07 2014] [notice] Digest: generating secret for digest authentication ...
+[Wed Dec 17 11:45:07 2014] [notice] Digest: done
+[Wed Dec 17 11:45:11 2014] [notice] Apache/2.2.27 (Unix) DAV/2 PHP/5.4.35 mod_ssl/2.2.27 LibreSSL/2.0 configured -- resuming normal operations
+[Wed Dec 17 14:30:42 2014] [error] [client 10.8.97.1] PHP Notice:  Undefined index: app in /var/apache2/htdocs/admin/index.php on line 11
+[Wed Dec 17 14:30:42 2014] [error] [client 10.8.97.1] PHP Notice:  Undefined index: userid in /var/apache2/htdocs/admin/global/controller/index.php on line 23
+[Wed Dec 17 14:30:42 2014] [error] [client 10.8.97.1] PHP Fatal error:  Uncaught exception 'PDOException' with message 'could not find driver' in /var/apache2/htdocs/admin/account/model/AccountModel.php:25\nStack trace:\n#0 /var/apache2/htdocs/admin/account/model/AccountModel.php(25): PDO->__construct('mysql:host=loca...', 'admin', 'c4EDKnXADZdBLhp...')\n#1 /var/apache2/htdocs/admin/global/controller/index.php(27): AccountModel->__construct(NULL)\n#2 /var/apache2/htdocs/admin/index.php(25): include_once('/var/apache2/ht...')\n#3 {main}\n  thrown in /var/apache2/htdocs/admin/account/model/AccountModel.php on line 25
+[Wed Dec 17 14:34:05 2014] [error] [client 10.8.97.1] File does not exist: /var/apache2/htdocs/phpmyadmin
+[Wed Dec 17 14:36:34 2014] [error] [client 10.8.97.1] client denied by server configuration: /var/www/phpMyAdmin
+[Wed Dec 17 14:36:37 2014] [error] [client 10.8.97.1] client denied by server configuration: /var/www/phpMyAdmin

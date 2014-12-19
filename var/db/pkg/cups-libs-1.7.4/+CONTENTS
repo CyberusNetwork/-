@@ -1,0 +1,131 @@
+@comment $OpenBSD: PLIST-libs,v 1.6 2014/04/10 17:15:34 ajacoutot Exp $
+@name cups-libs-1.7.4
+@url http://ftp.fr.openbsd.org/pub/OpenBSD/5.6/packages/i386/cups-libs-1.7.4.tgz
+@signer openbsd-56-pkg
+@digital-signature signify:2014-08-02T10:55:51Z:RWSPEf7Vpp2j0CZPwkdLnYf/26RMxRVKe6mFAY9AFUbvhvQFTuD7cYWHkjvEfzQN4usPTQN5mUEk28Q/EWI7R2e912NR5tfC9A4=
+@comment pkgpath=print/cups,-libs cdrom=yes ftp=yes
+@arch i386
++DESC
+@sha PR0u8PFMga/b6TrujLc3mwZyc4f2PuCKAFWEro5+E1w=
+@size 299
+@conflict cups-<1.6.0
+@depend net/avahi,-main:avahi-*:avahi-0.6.31p13
+@wantlib avahi-client.0.0
+@wantlib avahi-common.0.0
+@wantlib crypto.30.0
+@wantlib m.9.0
+@wantlib pthread.18.0
+@wantlib ssl.27.0
+@wantlib stdc++.57.0
+@wantlib z.5.0
+@newgroup _cups:541
+@newuser _cups:541:541:daemon:CUPS printer spooler daemon:/nonexistent:/sbin/nologin
+@cwd /usr/local
+bin/cups-config
+@sha bLzN1xUjeg411PJfHq4Dr4No8U5lNt6cu9WUEWdN7so=
+@size 3136
+include/cups/
+include/cups/adminutil.h
+@sha jZbyum6mysOxLg1E3sTepGEDVLLFRvr1PT1ymw3ak+0=
+@size 2219
+include/cups/array.h
+@sha vKsRsiB+A/Zf1xLadSPkM8STAccfhO11kRDzHf3/Afs=
+@size 3189
+include/cups/backend.h
+@sha f4lvxQQuJzcVyFP+PjhfrKB0KuC0TzvBQ2Pdf835vbw=
+@size 2086
+include/cups/cgi.h
+@sha z2VjgPWpAZ+lSefYoiqp0eAskuDXqmoF7x4p+9d/eHQ=
+@size 3909
+include/cups/cups.h
+@sha 2qCqRrc4GnANZrvsudrqY3mGDgYWVxB7Yj3ob7Wxt1w=
+@size 25198
+include/cups/dir.h
+@sha lGHkDN3Yltfn0mxZzk0+ruUYjyvz62VW1TyPSaktcw0=
+@size 1568
+include/cups/file.h
+@sha 0vmQM9HPPac89iq45J3akx7rp1e1VIVaj+DE8EoE+5c=
+@size 4017
+include/cups/help-index.h
+@sha Z2uF3bce3vkrm6F50TeflTuu9gcCyttxt/jmVo+cln0=
+@size 2356
+include/cups/http.h
+@sha Fnebw5Ztq/wBXtLOvot1RKEe9TfgH/Dif2tYVuYYyDo=
+@size 27915
+include/cups/ipp.h
+@sha 2B1WnCzwwoUkjYBaPj7E5IQ5qTzmIGYZgSJOMwFBo/A=
+@size 48970
+include/cups/language.h
+@sha qRuA074jIwUAn2aleZA95z42zwgQT3EBuG2dg2a7IWI=
+@size 3602
+include/cups/mime.h
+@sha MyqfeYWW9QbXwdr0TxfrN4Ot9w4gGRSduwVrbzVGL7Q=
+@size 5510
+include/cups/ppd.h
+@sha q9MyURDrwX+NL99FdtNWlClczF9FVHMQc6usdCgLXrw=
+@size 19050
+include/cups/ppdc.h
+@sha q78vl2kXVwkHCZfm3e6HtGFaEklpA/35PzThNO5Dz9w=
+@size 13434
+include/cups/pwg.h
+@sha kcv3URxUqFcbe6jqfG5+yNHEeSE20eFaO75jWLa+GsM=
+@size 2527
+include/cups/raster.h
+@sha k5d099ETWpdCI3EDa9EuAHGohZ9EyMpp/aKOxHwk6DU=
+@size 17892
+include/cups/sidechannel.h
+@sha 2Xg6X5/exFyJKFdvVTNRmK3Kzr6FIx28L7nh2B9EuJo=
+@size 4898
+include/cups/transcode.h
+@sha q7rym9AzkdXFEpKaaV86An2IQ2A7gmSbhcm/z4kjG00=
+@size 2167
+include/cups/versioning.h
+@sha 77GDAumWkvw/j8NCy5HNVU/3g1y5teAgl/Sjf+gu5zo=
+@size 7170
+lib/libcups.a
+@sha 146YWS3IXva3UP4yeXt5GLNbpPVBLRkAkwj9F5mJBHQ=
+@size 398074
+@lib lib/libcups.so.6.1
+@sha t9Ah0O2ISv0AHRwiVnjGEwwBjXgQBGgj9FBVchJPCjY=
+@size 423124
+lib/libcupscgi.a
+@sha tN+W3Lqrb92Pdi+D4D4mXGADp/cxz6WnQ8HiP4mWXA4=
+@size 48320
+@lib lib/libcupscgi.so.1.0
+@sha b3bCDlGGbJRCWvQ+hEbhgD1/Gh5kF8jNCiPgZfhnvZk=
+@size 57356
+lib/libcupsimage.a
+@sha dMJbDr/nQtal6DqxcaQ57sEIBcF7OzNWHHRk2ZxGpIk=
+@size 21780
+@lib lib/libcupsimage.so.5.0
+@sha CO04Y/gu8tq8LUx7GonQisJQbR4glfiQiKeOogxij9s=
+@size 27508
+lib/libcupsmime.a
+@sha i6i63/kpH1+girGPHPQ7c96SpQP+yq9B3k+keo/UREY=
+@size 14908
+@lib lib/libcupsmime.so.1.0
+@sha gMQOY1jeQPrwfj1udftpZ9GGnDpJdU7YYAnuG9DT4SI=
+@size 22416
+lib/libcupsppdc.a
+@sha znncSmRXr9FjlaU8znwsSn6w3hsMZGP2Tdof76v3Cb0=
+@size 136230
+@lib lib/libcupsppdc.so.1.0
+@sha Y7vOIcsZ0YYcWBsVjZio3nebh8arpNQ1d4bBiHfEqZ8=
+@size 139856
+libexec/cups/
+libexec/cups/backend/
+libexec/cups/driver/
+libexec/cups/filter/
+@man man/man1/cups-config.1
+@sha P9BA5S1qsoDxuj/p1MKYXrR9yQV5xoreEgg5s71490w=
+@size 2464
+share/cups/
+share/cups/banners/
+share/cups/data/
+share/cups/drv/
+share/cups/mime/
+share/cups/model/
+share/cups/ppdc/
+@group _cups
+@sample /etc/cups/
+@group

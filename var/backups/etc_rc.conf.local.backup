@@ -1,0 +1,13 @@
+ntpd_flags=
+pf=YES
+dhcpd_flags="sis0 sis1"
+snmpd_flags=
+gateway_enable=YES
+ftpd_flags=YES
+# openvpn
+openvpn_enable=YES
+openvpn_configfile="/etc/openvpn/server.conf"
+# Server WEB
+mysqld_flags=""
+httpd_flags=""
+pkg_scripts="mysqld"

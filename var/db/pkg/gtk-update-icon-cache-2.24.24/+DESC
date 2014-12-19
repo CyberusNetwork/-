@@ -1,0 +1,6 @@
+gtk+ icon theme caching utility
+gtk-update-icon-cache creates mmapable cache files for icon themes.
+
+Maintainer: Antoine Jacoutot <ajacoutot@openbsd.org>
+
+WWW: http://www.gtk.org/

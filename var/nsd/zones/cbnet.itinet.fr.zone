@@ -1,0 +1,14 @@
+$ORIGIN cbnet.itinet.fr.
+$TTL 300
+
+@       IN    SOA     cbnet.itinet.fr. postmaster.cbnet.itinet.fr. (
+                        2014121802      ; serial
+                        1800            ; refresh
+                        7200            ; retry
+                        1209600         ; expire
+                        300 )           ; negative
+
+@       IN      NS      cbnet.itinet.fr.
+@       IN      A       10.8.100.2
+ns      IN      A       10.8.100.2
+www	IN	CNAME	cbnet.itinet.fr.

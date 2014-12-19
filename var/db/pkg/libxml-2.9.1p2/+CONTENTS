@@ -1,0 +1,840 @@
+@comment $OpenBSD: PLIST-main,v 1.8 2013/04/14 23:22:05 sthen Exp $
+@name libxml-2.9.1p2
+@url https://stable.mtier.org/updates/5.6/i386/libxml-2.9.1p2.tgz
+@signer mtier-56-pkg
+@digital-signature signify:2014-10-29T20:08:17Z:RWQQss3E1pCsG1K7i7NXlI6BZSgQV/QH+dTFy6QOFmvG6n8bFS2L/zUhrA9SNZTY3d7r6GjQSHkjQvmMPTcSNI8OCqL/92UI0AM=
+@comment pkgpath=textproc/libxml,-main cdrom=yes ftp=yes
+@arch i386
++DESC
+@sha 08zxPxNbmdkCGXx26JC+J6uEsEhRR6AWTdfwtHjPWA8=
+@size 158
+@pkgpath textproc/libxml
+@depend converters/libiconv:libiconv-*:libiconv-1.14p1
+@wantlib c.77.0
+@wantlib iconv.6.0
+@wantlib m.9.0
+@wantlib pthread.18.0
+@wantlib util.12.1
+@wantlib z.5.0
+@cwd /usr/local
+bin/xml2-config
+@sha VeCIEKJ3wynYVQFsW+g8Lh9KqHbWdoarInsGnxOiRsE=
+@size 1723
+@bin bin/xmlcatalog
+@sha x9TE22JafBKBpvgy857p5wt2aCXrppoI/estR6csRm0=
+@size 15836
+@bin bin/xmllint
+@sha g3at7cIHC72cCGnmOFCF4JEY41aGD6saK2fvQRrxzk8=
+@size 60444
+include/libxml2/
+include/libxml2/libxml/
+include/libxml2/libxml/DOCBparser.h
+@sha QCzfpD+a5w+3T9fbCLhJI12H/iN5LVtOiWu3L21eyJo=
+@size 3157
+include/libxml2/libxml/HTMLparser.h
+@sha niQ/cFuh1b0V3qM1jOZbtTdD/7mif95Fy4j5v9NqXOc=
+@size 9398
+include/libxml2/libxml/HTMLtree.h
+@sha +i37+IqS/LU9jei/9yUi6Fs80ZErlrCGZWwaTHIg9p8=
+@size 3646
+include/libxml2/libxml/SAX.h
+@sha EgEjbXP/0OtfSYEb6FHHnWmPEgnQYZ5IaX8Ehh7YvVg=
+@size 4341
+include/libxml2/libxml/SAX2.h
+@sha or+qSaWHSMgi59bqhvZEdHgp7eUBFkR9V/rh+qU+uvY=
+@size 4878
+include/libxml2/libxml/c14n.h
+@sha yJO+/m0HOgTfbBiv/j+P02LftZ8/ofzIpJEonBPyULY=
+@size 3109
+include/libxml2/libxml/catalog.h
+@sha ugBmcsBjZefAsAE8vs7OwMZonYVBzDj2rNyWVF4YK3I=
+@size 4905
+include/libxml2/libxml/chvalid.h
+@sha H9/NIeLyDhdKDZg9euK/5b5QmeXWWNq4KTENFkcUUtA=
+@size 5159
+include/libxml2/libxml/debugXML.h
+@sha eatflryQfcmuAgmyz/f3JoSpTmvDA26mrcUjd7vwSLY=
+@size 5152
+include/libxml2/libxml/dict.h
+@sha pc8JQDN05auw0GGfTF7qS19GJUFnafaqCbesWA8WrmM=
+@size 1842
+include/libxml2/libxml/encoding.h
+@sha 4D82UVBCn1biuxeAOarKDGqu5u+HOWZABy3+2Ns/IeQ=
+@size 8301
+include/libxml2/libxml/entities.h
+@sha BkiHy1ZWVrPnvuV5bQCZHXFv3QXtd8EARtzpktbwUsE=
+@size 4703
+include/libxml2/libxml/globals.h
+@sha Cqi6SBq4DAcv75k7wBQWgKEG2C1GxjslbDJz8j65hL0=
+@size 14651
+include/libxml2/libxml/hash.h
+@sha yqN7eHBJ4GrDbMl+9D9DWWC/fOh7xDPF3OdVzKO+qdw=
+@size 6492
+include/libxml2/libxml/list.h
+@sha QTym8NLQGYBe91ddyqhXW4fZIJBf13VHOC7T54RBzyw=
+@size 3366
+include/libxml2/libxml/nanoftp.h
+@sha ZOKrFIQjW+h4d7gsG45h05GhpqdD9f9lCwgvP2D8l8Q=
+@size 3762
+include/libxml2/libxml/nanohttp.h
+@sha LLgN/JcupVO24/Oki895yVKsJzFe5mcF2vH8Ekymq/I=
+@size 2005
+include/libxml2/libxml/parser.h
+@sha eURg21s0D2sVR9MNts7vvER8BwqxmpenVz1SGDwWnXg=
+@size 39719
+include/libxml2/libxml/parserInternals.h
+@sha Y2ltKFypDAsrGX3aapxVfwhf3qPEj0P6gZ7jfO/GkiQ=
+@size 17394
+include/libxml2/libxml/pattern.h
+@sha FK85vxjka2kzTPZeCep57HMa7qc+I46WH3fOkUYOsWc=
+@size 2586
+include/libxml2/libxml/relaxng.h
+@sha KQPMS+eDzkb8PrlG0paIZgR+DLBUdfExnyIkORUWmCI=
+@size 5958
+include/libxml2/libxml/schemasInternals.h
+@sha rlsOH/remXbXewVKVOZ8YhHQDLlliJJ++t4/V4lmswE=
+@size 26021
+include/libxml2/libxml/schematron.h
+@sha lNOe9oFbhBqk1GVv4nJ4eZR3tieJVuw+gqbrmPtG3K4=
+@size 4371
+include/libxml2/libxml/threads.h
+@sha xJjVOa3EFYx3INBFQ/+IHI4Xm6AwNBgAlLzfK8mNEJ8=
+@size 1852
+include/libxml2/libxml/tree.h
+@sha x8kO/dKAs7RjwY6NYhTHLmEwjaIKzLWqAUFDH0yg0s0=
+@size 37843
+include/libxml2/libxml/uri.h
+@sha nGU1MVe2zr7e3jReDYKCMPQkTkQRN+iNlLewkpP9cLo=
+@size 2664
+include/libxml2/libxml/valid.h
+@sha //oCp9iK1nJc7s2iRZqtz8iHu6++9+XI/MWLXIBq/C0=
+@size 13622
+include/libxml2/libxml/xinclude.h
+@sha iL/sqfaWIhThheHWBbEUQt59/sd+jnExhxaYeXxInqk=
+@size 2967
+include/libxml2/libxml/xlink.h
+@sha hV+cvCxIJ/F1VdWcMYZ3w2jkGwWyLc9SZ8PdnUZxYNs=
+@size 5040
+include/libxml2/libxml/xmlIO.h
+@sha NQtnND1BU/mgC0GNPkwVXZxZ9tN05V9uEXZ2J0CWm0o=
+@size 10615
+include/libxml2/libxml/xmlautomata.h
+@sha rIJxLWBGZrfkFYDXdJZBoAhygp93vFBO/WI6nUCxBN4=
+@size 3956
+include/libxml2/libxml/xmlerror.h
+@sha Md6v15IpxRYuutJhW+5W507AfwAmSr643uai5v8LamY=
+@size 36803
+include/libxml2/libxml/xmlexports.h
+@sha xKNFpSDT+d53xTWeyClzXtsFusNiyo9l4Iwo4JNc7MM=
+@size 3920
+include/libxml2/libxml/xmlmemory.h
+@sha Z6y0IQCIKXfVnYOPiGoFwc5Hq4rUdZ5AJwKJeav0TNw=
+@size 5945
+include/libxml2/libxml/xmlmodule.h
+@sha c5vXusZj46FsM9UPHGt8g9gdPhTVOH1rJEFf2pJ8K4c=
+@size 1170
+include/libxml2/libxml/xmlreader.h
+@sha Aj6SyXMZROneHkTgOunBELU+Z0Tpu1s9Th5ApztCfWo=
+@size 12606
+include/libxml2/libxml/xmlregexp.h
+@sha UHbZDD3CZVn4NDiaHB64Aa+90pxzSsconMqneCp1ZDc=
+@size 5458
+include/libxml2/libxml/xmlsave.h
+@sha 8QlBKC6tuZ7lFQr/KJDTAxp4gmXtZWg+KGmLMkD7TCw=
+@size 2337
+include/libxml2/libxml/xmlschemas.h
+@sha mvK9+OmM+FxfAPSpfkte4R+EWdkwvY6WFX6JmUeF3/U=
+@size 7069
+include/libxml2/libxml/xmlschemastypes.h
+@sha alMLzZOds02Ksbv7K86owr0/IXjFPQ2Kk99rGhniZPE=
+@size 4841
+include/libxml2/libxml/xmlstring.h
+@sha r8nDoFVoj5X2OmrdqwGB//PpuHUlFbab8zO8H6MhlTk=
+@size 5469
+include/libxml2/libxml/xmlunicode.h
+@sha TpTZ8Bf313Rs9m+ww1cBCHwvW+uHj9tQ125iQfaDorU=
+@size 9993
+include/libxml2/libxml/xmlversion.h
+@sha 1BhIoPbE5Ykkwzi7f9Coh/wdDoXC+qC/N3Kb5cH7v8I=
+@size 8119
+include/libxml2/libxml/xmlwriter.h
+@sha ddjdRh9PBH+FynmNgjkRg1JFBRzlZBPyyh7FX3JX1lY=
+@size 21265
+include/libxml2/libxml/xpath.h
+@sha zo45KZIebdrOgK+Zu7kWQMm9yAs4pt/5b5QGnDApMc0=
+@size 16398
+include/libxml2/libxml/xpathInternals.h
+@sha zPORw04KPXOUnm7alcu3uKszlOkO//8yisPu60GpGjk=
+@size 19353
+include/libxml2/libxml/xpointer.h
+@sha 6MQwhGyIy3PKp9yWaXRg0LAdL+bR2jjFNYUxUSkc6lk=
+@size 3359
+lib/libxml2.a
+@sha tNKxv7G9WJPaEGrG7EDreBCFI6k/8G5t6FOLmM6KeHA=
+@size 1711222
+lib/libxml2.la
+@sha 0Qgvb9kWiC6Ir0tHji1gWW9tkTIeX+mhhQKQzpQjjTY=
+@size 769
+@lib lib/libxml2.so.15.1
+@sha f670x56YOO84+9t6z+9IHRUZAffLjwBUqvzYKS6dXY4=
+@size 1387611
+lib/pkgconfig/
+lib/pkgconfig/libxml-2.0.pc
+@sha zqVnIFXTLPV2aq7tMtHvGhzwZzUz2KlUbfumqius210=
+@size 312
+lib/xml2Conf.sh
+@sha FHISaX9ICLj9h+/fJU5GxrSiznZ6LLkJIQkOmVh+odo=
+@size 255
+@man man/man1/xml2-config.1
+@sha ItD4CXEZh9T99n0SbEWxL/SO4Uaw+/drv5xL63K+VsY=
+@size 1181
+@man man/man1/xmlcatalog.1
+@sha 13wrVMKvdqjh8+9+v/dILltMfyRAHjGb7YdLFSe+FYg=
+@size 7683
+@man man/man1/xmllint.1
+@sha T0mcTgbhBh8kLwq8qcLot8sHKKAeYZJObYFB/+wNjLw=
+@size 13384
+@man man/man3/libxml.3
+@sha INvmk92sZ4VoaN1HgLHmpsdw42CFra/gVYnM7kMzvxU=
+@size 1631
+share/aclocal/
+share/aclocal/libxml.m4
+@sha LEHGCWGI/Y3dp4r35VO+7NinwxsL1+im74MPf+qztfk=
+@size 7880
+share/doc/libxml2/
+share/doc/libxml2/Copyright
+@sha xcY2dPioPE0uOF2W0cZwoDy4cbopJ3VUZwFzF4eFdL0=
+@size 1289
+share/doc/libxml2/examples/
+share/doc/libxml2/examples/testHTML.c
+@sha aa66zZiyO+aBY/y5GXnYk0ztsOObwcF2VXRalrsE2a0=
+@size 21153
+share/doc/libxml2/examples/testSAX.c
+@sha tr6AaV2sgyGtCPAdQcg3zXaSxAXMr4NNumA4O5C/YLw=
+@size 27598
+share/doc/libxml2/examples/testXPath.c
+@sha LWuuS29nSfOjMMj2BETjHMYHoGNIwMRd4m79i7tpGR8=
+@size 5919
+share/doc/libxml2/examples/xmllint.c
+@sha X0WFVIHrTnlG0y/S7LVzQN9p73mL/SO76g+rfxoype4=
+@size 98952
+share/doc/libxml2/html/
+share/doc/libxml2/html/DOM.gif
+@sha vYwhrWNv/lQaQB8xndyOFzM24zkM+e6mQ+1fFFLFFtM=
+@size 3166
+share/doc/libxml2/html/FAQ.html
+@sha FWw2mAhCg2LP0J+gEV2t5/1+1MZMFuFN1Njv/0pdGy0=
+@size 21065
+share/doc/libxml2/html/Libxml2-Logo-180x168.gif
+@sha frwEfbQOn0xHsyWM8BH5Nfiwyv7ghhqKhXOoeI/eQVs=
+@size 8195
+share/doc/libxml2/html/Libxml2-Logo-90x34.gif
+@sha qk9jfGL2bjIWgPDWOkMaphU0qoUIFp9OTTq+ZMYbEEQ=
+@size 3070
+share/doc/libxml2/html/encoding.html
+@sha bIetlKNEgz30wc5ki52jSJirsNBdp2S5KvV96V1rnAY=
+@size 19380
+share/doc/libxml2/html/examples.xml
+@sha 2t3ORERnukJguHTpPmlKMfBP5hrYQbBUmmY9I4AwqtQ=
+@size 32163
+share/doc/libxml2/html/examples.xsl
+@sha /eobF9ObzNFtrypATduEKiLlUXW3ojfLaC8PBBV9BRU=
+@size 7232
+share/doc/libxml2/html/html/
+share/doc/libxml2/html/html/book1.html
+@sha /TLT75TslI9T6fUbRmc1RwPSwQcr250zlAXTgqhOeYY=
+@size 9635
+share/doc/libxml2/html/html/home.png
+@sha A0wjFRP+pyu8eIEJWW+bNdt7h+JwwZyLPdIpQPs15r4=
+@size 654
+share/doc/libxml2/html/html/index.html
+@sha /TLT75TslI9T6fUbRmc1RwPSwQcr250zlAXTgqhOeYY=
+@size 9635
+share/doc/libxml2/html/html/left.png
+@sha muCR5SxmenLXfrbEHNmvx69gvIm/wwIySLHcO7fb9GE=
+@size 459
+share/doc/libxml2/html/html/libxml-DOCBparser.html
+@sha FGvzsqpAmAXikFN0uWcE1DR7NWAl0AFTFGLxk2eD5c8=
+@size 20623
+share/doc/libxml2/html/html/libxml-HTMLparser.html
+@sha igmZzA9Vt8NVWe/gdzCQmvnIaG/IdRd39p7STspj6vg=
+@size 59960
+share/doc/libxml2/html/html/libxml-HTMLtree.html
+@sha 3k9sCntmP2+OGlYWosx4qSvnB/tnMuSWp0IjpjwVwA8=
+@size 28599
+share/doc/libxml2/html/html/libxml-SAX.html
+@sha tb13aGSqw6gf8UPBOrTixClpYkIQ1gGcv9H9yHRqAGU=
+@size 43480
+share/doc/libxml2/html/html/libxml-SAX2.html
+@sha LU7yODPhGGsUoqWkolit/J1h3L0lR1LQX4d6N9Kc1xU=
+@size 44449
+share/doc/libxml2/html/html/libxml-c14n.html
+@sha 9ATAER7O88R7Z8issPoJwt1HxwyXkl0k7FNS+iA/c6Q=
+@size 18053
+share/doc/libxml2/html/html/libxml-catalog.html
+@sha kIJnRlA+0JsF9JAhVpfF3v3hbpgGRSGqgz+gwLQPaNc=
+@size 41018
+share/doc/libxml2/html/html/libxml-chvalid.html
+@sha 1JjLRpO+9iJ3irO8TxiMhglfVUlo/knmUFlDhFhT2CI=
+@size 18421
+share/doc/libxml2/html/html/libxml-debugXML.html
+@sha mIoShnVVjFoSzeGXAEYykP8lmFq4nXo1jMvLfMc//vo=
+@size 37910
+share/doc/libxml2/html/html/libxml-dict.html
+@sha q0YwfOBEPixhMzZgqmbpvsPava03orWlUWVvKYZGLt0=
+@size 17960
+share/doc/libxml2/html/html/libxml-encoding.html
+@sha zSedtaUfLH3F8EoACVxZbXWucb9esipuBt+4DtKAFUU=
+@size 34704
+share/doc/libxml2/html/html/libxml-entities.html
+@sha RffmBArUwgO1DOFb2hh8sDQq0RssUcx95RfaV9wZ6PU=
+@size 27679
+share/doc/libxml2/html/html/libxml-globals.html
+@sha FXY0qT4HJeijr1a+eD1CqWGyY2WFSpcf7ZPVQU6tNJU=
+@size 33086
+share/doc/libxml2/html/html/libxml-hash.html
+@sha CJ5pZsVNGN4WJEEd5FuNIfl7tcbU58S3S40W0UgTRyg=
+@size 46537
+share/doc/libxml2/html/html/libxml-lib.html
+@sha /TLT75TslI9T6fUbRmc1RwPSwQcr250zlAXTgqhOeYY=
+@size 9635
+share/doc/libxml2/html/html/libxml-list.html
+@sha 8CGlQKkxvdtLQ2ZjtwR2O8+VGCe6DhoRdg9nTMkYWEg=
+@size 30105
+share/doc/libxml2/html/html/libxml-nanoftp.html
+@sha 5ZjbaQoYuQwc5GRNwANpuuv3a3+hD9ULsuQxikm3CeM=
+@size 27085
+share/doc/libxml2/html/html/libxml-nanohttp.html
+@sha NBbOfVVEwwPZRJjJGznG9o6Phcr5cVYHWbuAL2IuN5g=
+@size 21222
+share/doc/libxml2/html/html/libxml-parser.html
+@sha kZWgidUQ1/1lzZdg20iPHmGW745G2jZUI566rFZBbeg=
+@size 146340
+share/doc/libxml2/html/html/libxml-parserInternals.html
+@sha ueCTSAbzHs/fSJY2N7ZEv/70b5wcHTuEVRUvUMERqY8=
+@size 122664
+share/doc/libxml2/html/html/libxml-pattern.html
+@sha ueB6FZqGjaqwQIYZUkxf0/x3IRn7YXgWYi2E9Zq6gI0=
+@size 23671
+share/doc/libxml2/html/html/libxml-relaxng.html
+@sha WWQO6MwCDoJBpUvetkFqw+aWFqZ30a4IIfAFVh2UePg=
+@size 41000
+share/doc/libxml2/html/html/libxml-schemasInternals.html
+@sha QIKZ9OuORq7IDfsxUEgGd8I3aoLDvNvU27rpOC2W9eE=
+@size 64056
+share/doc/libxml2/html/html/libxml-schematron.html
+@sha 9viX/NA6CBz9C8zEemHFfUqC2cVd8S8SOAm3rMnP6Bs=
+@size 21727
+share/doc/libxml2/html/html/libxml-threads.html
+@sha kBTTesVnOS6bk7yywN461+iuoIFbAf4fuVAdU9CaKUY=
+@size 17159
+share/doc/libxml2/html/html/libxml-tree.html
+@sha 1SN2rq0tE4o4NW+qofCQXbInEAi8jlUZqG2acwIAenM=
+@size 235129
+share/doc/libxml2/html/html/libxml-uri.html
+@sha W3CFdLhTthyVxTPn2ywFctkuar9hDrLCejgHilK5BtI=
+@size 22676
+share/doc/libxml2/html/html/libxml-valid.html
+@sha Jh9ZLOUBE/TlSgm//zXLFIsbbgFdrXImoKfOIoQ2ecI=
+@size 102457
+share/doc/libxml2/html/html/libxml-xinclude.html
+@sha qOcchZaeZes0Gcw99qlSTYltPS+iUjg/+nb8UKjZFiE=
+@size 19704
+share/doc/libxml2/html/html/libxml-xlink.html
+@sha 2/ViXnjQ82i/beMDDVXarxuKB9jqMUtkci7hZSCqD2E=
+@size 21644
+share/doc/libxml2/html/html/libxml-xmlIO.html
+@sha Cxs1hsxXqCXbCToULyzi4dBGPxCCHDjaENfUW8LFrjY=
+@size 63312
+share/doc/libxml2/html/html/libxml-xmlautomata.html
+@sha TocCXFGKc/rTEdw0y6FXpvV4MoF4tzbl9O1idKGhrIA=
+@size 39564
+share/doc/libxml2/html/html/libxml-xmlerror.html
+@sha XAL2baLIt7T2BaMQDetw9VX5zpopY59fbFgPWXUHn38=
+@size 109697
+share/doc/libxml2/html/html/libxml-xmlexports.html
+@sha VHw2Lg0v+ptlqrtQ3W1JGKH9Z6LRB+AWXkZ2QesGcSc=
+@size 7589
+share/doc/libxml2/html/html/libxml-xmlmemory.html
+@sha 28V7iho7o8sZHBkBCzj5aGuWyze+siRU0h2HURRAxrQ=
+@size 29216
+share/doc/libxml2/html/html/libxml-xmlmodule.html
+@sha vHC/x7eKA+7bBe/3VtLhgQGCeBd6fl1yDdzLBL1chO4=
+@size 11709
+share/doc/libxml2/html/html/libxml-xmlreader.html
+@sha N98FLSqJ1lwhfXZazqfqZ+5aYTg8PHAyMmhrI83mEqw=
+@size 114131
+share/doc/libxml2/html/html/libxml-xmlregexp.html
+@sha D2O4IQNcwPwyIV9DwCFP0TI8gbqoSnv4axumFxWN2Nk=
+@size 45784
+share/doc/libxml2/html/html/libxml-xmlsave.html
+@sha zKfkQ/OX8ZkRCdicu8cDKJizxMT1KT33LxDdrWxlf+A=
+@size 19285
+share/doc/libxml2/html/html/libxml-xmlschemas.html
+@sha A0+L+fIozqbtxek1m9mioadnSTIFHfxBhLphWSDx7f0=
+@size 47770
+share/doc/libxml2/html/html/libxml-xmlschemastypes.html
+@sha XbamRyefBaAd+I830CNTXuzpX+28U+BMBfM39kQpG1I=
+@size 49378
+share/doc/libxml2/html/html/libxml-xmlstring.html
+@sha CE49rksarT3AFO8+L60X565+5XeFxGFDVaPyHw4fGow=
+@size 39294
+share/doc/libxml2/html/html/libxml-xmlunicode.html
+@sha DGc8DOl66l8Gd0OYm1l/n9rF96eLFusKQOxZEt0+j5M=
+@size 112850
+share/doc/libxml2/html/html/libxml-xmlversion.html
+@sha t972ZYb2MgHgWD8DxSUs5kjRMpKi1L5Fuxw1pTFevNE=
+@size 20563
+share/doc/libxml2/html/html/libxml-xmlwriter.html
+@sha PmUzAUqpKfPlqj48/m1g8D6mnjyAjlUUSB7UD1Mttm0=
+@size 117477
+share/doc/libxml2/html/html/libxml-xpath.html
+@sha ckenfMZoAXERlV5BBeeVwWLqyFNhIn6Ih78Mxbxkl78=
+@size 65049
+share/doc/libxml2/html/html/libxml-xpathInternals.html
+@sha wATHldZ9Vmsu+GPo3cXw43mrGTpk8hpLrVHHVqERTfQ=
+@size 143102
+share/doc/libxml2/html/html/libxml-xpointer.html
+@sha wuPbcluxWqQqkWjCcNkhnP8b+QDgnClta2hDS9tFaJA=
+@size 29866
+share/doc/libxml2/html/html/right.png
+@sha F9zAsXW6vFHQf3E4LPIIO81Omr/tCRpFlj9e6YKqe0g=
+@size 472
+share/doc/libxml2/html/html/up.png
+@sha KvlFxMbOKIrfrXFq4XR/NwVve/Z7hTbS5ea44M6EyHI=
+@size 406
+share/doc/libxml2/html/index.html
+@sha 1+7Xa1DgKH1TKI5jUGxf90Cet174+lZE9gLeNcV77bA=
+@size 32920
+share/doc/libxml2/html/io1.c
+@sha NNKzVIKTrYahr7FXBaDmVtgE21xdSGXIzSo7Delj50s=
+@size 3753
+share/doc/libxml2/html/io1.res
+@sha dNrBThrY14qsEPj7j/iPYkhDql4OaNQNPax+B4oOVwM=
+@size 206
+share/doc/libxml2/html/io2.c
+@sha B5Yt4uHAZXikjjllOMCZdRAQO1lPliIw/YXyaQeZdRM=
+@size 1182
+share/doc/libxml2/html/io2.res
+@sha mvcgjAH4iCtBYw81hVS1Eiu3HsjMsKXqajQ3PLDyvdQ=
+@size 43
+share/doc/libxml2/html/libxml.gif
+@sha wuwkBdv1Ts/oG86Usdf+dms0DmxiQlakDVLK+Edzbjw=
+@size 7692
+share/doc/libxml2/html/parse1.c
+@sha JUKq5JakPcDJ82HPNCxthwkrvOX3hc+t5YqBrfcroHw=
+@size 1300
+share/doc/libxml2/html/parse2.c
+@sha x+l36/vBvC4fR43fv2eWeL4Uvmo1LNyCNGBqoTUhxhk=
+@size 1967
+share/doc/libxml2/html/parse3.c
+@sha P3NbM8oXEltgT/YH1soZbGtXdGa3lBC7jz6jCKNNiBc=
+@size 1506
+share/doc/libxml2/html/parse4.c
+@sha f0as53BN33KoFKXUGjZSmsEIz0GcAK90Fs+ilRJ4478=
+@size 3545
+share/doc/libxml2/html/reader1.c
+@sha paGF0SpV9Rn3IEmlD8+Dil+sG7AyIyu/DWCmbOj0Fnc=
+@size 2530
+share/doc/libxml2/html/reader1.res
+@sha G8J+DWm5p5K5iGuMuUJd9qQrU7FKjiRMBk6dTUCmii4=
+@size 149
+share/doc/libxml2/html/reader2.c
+@sha aq1DFf9xrS+wKeGQvdvANPqDj9a3qA3y04BITJ3VlQY=
+@size 3133
+share/doc/libxml2/html/reader3.c
+@sha Ndr2JVWGC5MUK52erJA28EhLsBeNgh6FryrGvVxE7t4=
+@size 2947
+share/doc/libxml2/html/reader3.res
+@sha f/sAp2kaSEpWl2yFegow14y3l/ytgnr1e7Dj2eua3oU=
+@size 360
+share/doc/libxml2/html/reader4.c
+@sha dy7a78z9ZucVVJ2dFVsgEj4JiQ+Th8tu60S1s2p/Dhs=
+@size 3128
+share/doc/libxml2/html/reader4.res
+@sha xwfVJ2t17Akr7F/KNHL1OFUu9dWbybJwkG25eSdsYPs=
+@size 72
+share/doc/libxml2/html/redhat.gif
+@sha VvFkfLp1ujX/8639YGhh1UNsrXKk6zM9/Lqm3zFc47w=
+@size 697
+share/doc/libxml2/html/smallfootonly.gif
+@sha nIBmvY77oU2QL3W4mgbD1BZs0MBr8IoneqsU29Stjxc=
+@size 2772
+share/doc/libxml2/html/structure.gif
+@sha TvlCm6lHHcPt2pcCtpMrpN9r/thNS4s9iNvP2R4UJq4=
+@size 5559
+share/doc/libxml2/html/test1.xml
+@sha SpJGxlImp/AjwnzgOaBxUrh33z5AVeoN0bz2Nj+/y7s=
+@size 7
+share/doc/libxml2/html/test2.xml
+@sha +e9jzY0irw5ZihA3zbzryMNTj6Jo//feExvmMXTMbec=
+@size 227
+share/doc/libxml2/html/test3.xml
+@sha +s5pEosoepbMgIkH2KJ8dKSXWIbgbsYnnamUKYW9Dk8=
+@size 833
+share/doc/libxml2/html/testWriter.c
+@sha 4t00nyfblhBwKiaOrCCkVbz7TYtEONpihK9qApdMvLs=
+@size 38407
+share/doc/libxml2/html/tree1.c
+@sha 33Ps3gWWcMacXmVmsnVqoTypi5t8FJB1Ynav4Zd2Wjs=
+@size 2245
+share/doc/libxml2/html/tree1.res
+@sha jVaJ6/OnIBBYI1fbmSMMp1tMR2CFYLXRn4Y/Cko/M/Q=
+@size 121
+share/doc/libxml2/html/tree2.c
+@sha Ic2T4b58Nx3YXAYT1caHupvf4T+3y65PYLNr60sxVBw=
+@size 3471
+share/doc/libxml2/html/tree2.res
+@sha L5hfTRGcFuKQjvIWqI6C1RrRoL061ZB42JPEDr5cS5c=
+@size 453
+share/doc/libxml2/html/tst.xml
+@sha Tj0mgfi/HbRt0ZX2IUEtv2luEr3W1E8sL4yfpwpLWVU=
+@size 91
+share/doc/libxml2/html/tutorial/
+share/doc/libxml2/html/tutorial/apa.html
+@sha FqruPgmtM3n4+Kq2u42gzlDfEz3bgzDR3UWK39cuPT0=
+@size 2114
+share/doc/libxml2/html/tutorial/apb.html
+@sha KopJYa5+tTw9BKhuQ0rTR22xvJFkhr9DsvkyUdpBTEA=
+@size 2026
+share/doc/libxml2/html/tutorial/apc.html
+@sha 7I2y1EtsUHMn3w1Ggxc1qH0K91D12zFP/JeUDAcJh0Q=
+@size 3094
+share/doc/libxml2/html/tutorial/apd.html
+@sha +enLlzo2xQw+LDyzUhHAsiJvYC0qxHmOLanVR77zYjo=
+@size 3232
+share/doc/libxml2/html/tutorial/ape.html
+@sha 1G+LGS1mPTn8geRGItiRiKlp/ublC3jlRnH0NuXIBac=
+@size 3096
+share/doc/libxml2/html/tutorial/apf.html
+@sha uUfdmhnBhqHCY4Nwgaj5d2qtmHjzHt2J9npL1i4g++M=
+@size 2949
+share/doc/libxml2/html/tutorial/apg.html
+@sha WUbjsWYA62Q+0vOnC9CTY+lD19RlTvLf4OBs4jZ9GL0=
+@size 3022
+share/doc/libxml2/html/tutorial/aph.html
+@sha LwYT61qM/7lvqQ1+55bWa/LrCN9lYKs5SX+8JV9U+wo=
+@size 3600
+share/doc/libxml2/html/tutorial/api.html
+@sha kW6D01lAuHRkdaGYqL6918/mYnBRPvg0+P6FMKP3ssk=
+@size 1899
+share/doc/libxml2/html/tutorial/ar01s02.html
+@sha zGUpoJDO9fpS2Df0VlNXUgkSZM2IBPhI2ptvYxB2K2w=
+@size 3298
+share/doc/libxml2/html/tutorial/ar01s03.html
+@sha ZFKfx8R3KJW7uFs7+14rNeJCJwZc1Zizji5UdpbgDKo=
+@size 5718
+share/doc/libxml2/html/tutorial/ar01s04.html
+@sha /ofIa0J6GAmQ9rjRjYkayUJ/aJhhLwLwCxk7n01e9vQ=
+@size 6223
+share/doc/libxml2/html/tutorial/ar01s05.html
+@sha Gx3t4/hiPM0gWDIu7MPOYhi76aUNZk6JcPYNiHy7PkY=
+@size 7422
+share/doc/libxml2/html/tutorial/ar01s06.html
+@sha E3Gq+Q199GPEWXnnh8aKDEZ6NEjMwbCijGuNO5nlqFA=
+@size 3849
+share/doc/libxml2/html/tutorial/ar01s07.html
+@sha Z7Y6HVe11ZtMT4xbBy2bfqhM05ZFlKGDdo7FQn1xMgU=
+@size 3866
+share/doc/libxml2/html/tutorial/ar01s08.html
+@sha V5SLTTye7A018UBo3rb1nLY17Xo2cCuBIDoLkwqU93k=
+@size 3894
+share/doc/libxml2/html/tutorial/ar01s09.html
+@sha SDy/nYjsCQkXa0wiwWMBTTiHvlEVLkycKHTLd1m49CI=
+@size 7603
+share/doc/libxml2/html/tutorial/images/
+share/doc/libxml2/html/tutorial/images/blank.png
+@sha QFoSkdF9Lb6elGbpVL1utAA+pUjh5Uu14IYYxGNKBxI=
+@size 374
+share/doc/libxml2/html/tutorial/images/callouts/
+share/doc/libxml2/html/tutorial/images/callouts/1.png
+@sha 1xzbhfxGU8jyJ8WryGPVU67d4rv5MwXp7rOxBLPY0Uo=
+@size 329
+share/doc/libxml2/html/tutorial/images/callouts/10.png
+@sha /VohKAwlCBfiPmbRVGYIQI+y9XQQtzBBMn94Vor9s1c=
+@size 361
+share/doc/libxml2/html/tutorial/images/callouts/2.png
+@sha AJv0dnHhdRMcxBQHYhzRmgBjZ5A5od6H5MbwQfMTK64=
+@size 353
+share/doc/libxml2/html/tutorial/images/callouts/3.png
+@sha zcm1OjgLhIl08FLoiIeWcqHk2bT8yO67Tb6jCcS14F8=
+@size 350
+share/doc/libxml2/html/tutorial/images/callouts/4.png
+@sha T7i+aqJmn4qeUd1dOdGbGvJguVAkbW6p2e1l113FBW4=
+@size 345
+share/doc/libxml2/html/tutorial/images/callouts/5.png
+@sha OJbLrL5Q7ruQRrrRbKkXg+iodEB3lys5acC2bNLYC70=
+@size 348
+share/doc/libxml2/html/tutorial/images/callouts/6.png
+@sha UO6F5b+ffdAq5UNe8KAk6ajj2kjGRa22s/76Hgj31X4=
+@size 355
+share/doc/libxml2/html/tutorial/images/callouts/7.png
+@sha lZmGsz9WRl4qz+hQBMFo4MCYi2nscmv38Y8JNtrO+h8=
+@size 344
+share/doc/libxml2/html/tutorial/images/callouts/8.png
+@sha 2DxXgMyB1Xci3xbzRGD+nMpaCjZx5GU3zi0eTo+xwD0=
+@size 357
+share/doc/libxml2/html/tutorial/images/callouts/9.png
+@sha kGqDHCQDrkO2boJBsbG6uy2wPjyfvr2exkJGaZX16vU=
+@size 357
+share/doc/libxml2/html/tutorial/images/caution.png
+@sha RnUdUlhya0plaqEkqVA/Wl37+q+zCnUbTdKOCoG9hYQ=
+@size 1250
+share/doc/libxml2/html/tutorial/images/draft.png
+@sha JrwHUa6SYJXKC+vYyrz9N8YEA+7oLsW883e8zQh/oX0=
+@size 17454
+share/doc/libxml2/html/tutorial/images/home.png
+@sha ThU+nP2hndRahMymLNqYyEglBZN44FMS4sBMJT0cPaQ=
+@size 1156
+share/doc/libxml2/html/tutorial/images/important.png
+@sha DpyWpb/7jPheYPBAE87pLCxv4DXEM8bPOzRnW2gxcyU=
+@size 722
+share/doc/libxml2/html/tutorial/images/next.png
+@sha tDTliFN2m37Ex/hlkRTwiLdyFyep40Qrs6jxT8LIeXk=
+@size 1150
+share/doc/libxml2/html/tutorial/images/note.png
+@sha ULcOZzhwO3fDfmnJJFPCcqxNT1+wr2YAlscF/js7t+o=
+@size 490
+share/doc/libxml2/html/tutorial/images/prev.png
+@sha G9zROF0lGNrBIY2EPBYVpSpX5ucsnWr2ssrAE6LyOAw=
+@size 1132
+share/doc/libxml2/html/tutorial/images/tip.png
+@sha KxWoHcu+kE8xywLeeRx8PdxOpkGtR6GnbuF6SngpjVM=
+@size 449
+share/doc/libxml2/html/tutorial/images/toc-blank.png
+@sha PSUyVi44V/zUttq4otJomd0XbD5eAqzJI+kzdsQJQZo=
+@size 318
+share/doc/libxml2/html/tutorial/images/toc-minus.png
+@sha To20HgNi/W4tSiRWaeHmkFUe+0EHMBiEJKUj2XjQqYQ=
+@size 259
+share/doc/libxml2/html/tutorial/images/toc-plus.png
+@sha w9E/lpxfyT2xu98aCiAEnzd0XZz3XDoaayrhkT1wxS8=
+@size 264
+share/doc/libxml2/html/tutorial/images/up.png
+@sha uU69hDH4bSr+2VoRen31Qdix4BzG/EXuxXIV91rzMNQ=
+@size 1111
+share/doc/libxml2/html/tutorial/images/warning.png
+@sha XeZkIKDIS0nRTK/y0wWyiwNaFgOhFNtLUvDYP15/lYA=
+@size 1241
+share/doc/libxml2/html/tutorial/includeaddattribute.c
+@sha X6dUwGfZLHzOgUof+altDxR1S1HM2KYI3e1OY+7zUt8=
+@size 1136
+share/doc/libxml2/html/tutorial/includeaddkeyword.c
+@sha zCzJd5UFkNFjGPSV720kJEQt7VbWLH8wikmagoZaiOk=
+@size 1320
+share/doc/libxml2/html/tutorial/includeconvert.c
+@sha UgpSO4QLfd99bQJPh/33I2H/o8YflVhNTRi5wLIObWs=
+@size 1808
+share/doc/libxml2/html/tutorial/includegetattribute.c
+@sha OJwK2UvZ7moIJ2XPUE6V1qdid8LEbfY4/ySUtPX5ZlQ=
+@size 1171
+share/doc/libxml2/html/tutorial/includekeyword.c
+@sha 4/0mpTuSk3AySZehVfVp6da9Cl7PgwrTmi7aCtkYuNU=
+@size 1351
+share/doc/libxml2/html/tutorial/includexpath.c
+@sha A7Vm8Q0rD2lmOhB7FawCF+bbwP2nzgy2OMzBieHdZb0=
+@size 1491
+share/doc/libxml2/html/tutorial/index.html
+@sha Gt/Zom57wnYHct8svhq6/VfrKZsr4Bwx2OFp2s1L2Ng=
+@size 5930
+share/doc/libxml2/html/tutorial/ix01.html
+@sha FFT7rtezch1yaPpxaVhMgGHM747Y3X2kk/CcPysy1V8=
+@size 2545
+share/doc/libxml2/html/tutorial/xmltutorial.pdf
+@sha RtwCR0CCqpE7Y6XuwB9EKkeMU3Re/NPbRWKbBJ0WWsY=
+@size 51709
+share/doc/libxml2/html/w3c.png
+@sha O9Q/7uBkP7fQB9LHiCoI//IBOo7yF+bL3Mo0Om8JVQo=
+@size 2028
+share/doc/libxml2/html/writer.xml
+@sha AptqZeTtjFWd1I0klMokKeUBVWMcuFUQnRoh2TR0XE0=
+@size 544
+share/doc/libxml2/html/xml.html
+@sha rvly0cPN2kRkIU9rmZi5LbGWlaXhpN1wqw3MkNPo8SM=
+@size 271178
+share/doc/libxml2/html/xpath1.c
+@sha PkqWqvtj3eVD0J7uggpC6xzP4pAmHL8trMF7j+0m/Us=
+@size 6624
+share/doc/libxml2/html/xpath1.res
+@sha Lw2UMAPia5B6ICKeh2dpkM+TpNvTQE5sJFQuE8nkCuw=
+@size 114
+share/doc/libxml2/html/xpath2.c
+@sha eY/9B6cQpARio44iU4clRhn0APt5/8J8iMgYd8Ro0vo=
+@size 5330
+share/doc/libxml2/html/xpath2.res
+@sha n9mazUJs8/ypHrj9g940XjG1gQHsfGdmets/eZvH66M=
+@size 757
+share/gtk-doc/
+share/gtk-doc/html/
+share/gtk-doc/html/libxml2/
+share/gtk-doc/html/libxml2/general.html
+@sha wwAGtEUDujbSlgY3XtnBK8E+JTCrWXJJ/UaSf3ziA3w=
+@size 5470
+share/gtk-doc/html/libxml2/home.png
+@sha A0wjFRP+pyu8eIEJWW+bNdt7h+JwwZyLPdIpQPs15r4=
+@size 654
+share/gtk-doc/html/libxml2/index.html
+@sha Q7rwySLb+KunD0u3k0cKHzmRwxV2f1gMqjXwr7LQaH8=
+@size 4321
+share/gtk-doc/html/libxml2/left.png
+@sha muCR5SxmenLXfrbEHNmvx69gvIm/wwIySLHcO7fb9GE=
+@size 459
+share/gtk-doc/html/libxml2/libxml2-DOCBparser.html
+@sha LDSVm+BLPjoFQX5lqLH+4mgpu8bPLRGvt3tNCh3up0k=
+@size 17361
+share/gtk-doc/html/libxml2/libxml2-HTMLparser.html
+@sha Gvbj+tOqXHapfneXr5u1G/wXdNcb3L5I4Il602cR+MU=
+@size 58095
+share/gtk-doc/html/libxml2/libxml2-HTMLtree.html
+@sha g2xAqADsYAdjE8z1h1zkyjMuvjXxL+H1zVp1849QYkI=
+@size 24416
+share/gtk-doc/html/libxml2/libxml2-SAX.html
+@sha jL9YAX4AyfEhz9Kk5slqdeJnI96RDpEzAVLr8NvpxK8=
+@size 38875
+share/gtk-doc/html/libxml2/libxml2-SAX2.html
+@sha AKwyMApInPkoeMZ9MT6KeX5Vo2h2Y3O3spXdsmCCzMA=
+@size 39659
+share/gtk-doc/html/libxml2/libxml2-c14n.html
+@sha bYzfUYIwjr882u6wpEAvEQPbZuSqAReltin+pSuk9pI=
+@size 13546
+share/gtk-doc/html/libxml2/libxml2-catalog.html
+@sha 9CZUtPQzL+PeWD/nzc5zNXo6SWu/seBDaf+NQOZsV2s=
+@size 36549
+share/gtk-doc/html/libxml2/libxml2-chvalid.html
+@sha pUZQsSUvqhEuTTJU4fXsKiDzwNBhsqKzNPgymln+VvU=
+@size 19835
+share/gtk-doc/html/libxml2/libxml2-debugXML.html
+@sha e36+EhqlzXBBVEs+qBY/ncZf8t+WeVfomVTNfZ8PY30=
+@size 33317
+share/gtk-doc/html/libxml2/libxml2-dict.html
+@sha 2e7sB7CT71s75Z7ZsiNy2+dcm3iWa4X+Hu9bti2pDNs=
+@size 13582
+share/gtk-doc/html/libxml2/libxml2-encoding.html
+@sha xMC2I7Cabp8Ug7yDeDXfak9TEaFsijQl/Q5Tk0YhQ4E=
+@size 29515
+share/gtk-doc/html/libxml2/libxml2-entities.html
+@sha 3EggUpeA7WK5lkNH9flget/dWcFR4EgftpRKZPC4+DY=
+@size 23118
+share/gtk-doc/html/libxml2/libxml2-globals.html
+@sha eXztXO0+Jg2Y1PYhHu0TgnVRBr7ouqEH6t7l80ibbOs=
+@size 35642
+share/gtk-doc/html/libxml2/libxml2-hash.html
+@sha dVmJmERTYueHnceVZbv42ADpbDHHhs0E76B24UDXe8s=
+@size 42055
+share/gtk-doc/html/libxml2/libxml2-list.html
+@sha K9fRHpjiY14p/+99dLLHROrDvPCn1apLl7xrIv/4y+Q=
+@size 25568
+share/gtk-doc/html/libxml2/libxml2-nanoftp.html
+@sha sSNaCIMvp7U5PEteAi423ry7kM/omPCZYRv7KNxSfUw=
+@size 22403
+share/gtk-doc/html/libxml2/libxml2-nanohttp.html
+@sha zaROR+OXtbsU6/a7JFlfhzm3jPmzboh3m49SPgaKJxE=
+@size 16614
+share/gtk-doc/html/libxml2/libxml2-parser.html
+@sha wJSSxV1m93tggmZy7nzEbqAVSJYKc7tYVlU/SqPuKz4=
+@size 137495
+share/gtk-doc/html/libxml2/libxml2-parserInternals.html
+@sha CuzcMDLUNoFEI10jNFijhrRU3jrbABJmthb1RxYwN8E=
+@size 125357
+share/gtk-doc/html/libxml2/libxml2-pattern.html
+@sha UtWkOy5BFczvnysCxV05raRByVPR/fMe3762x5QVR4M=
+@size 19362
+share/gtk-doc/html/libxml2/libxml2-relaxng.html
+@sha I3RLEc+r/nAyAUVlIjuVwUCUXWfmZ/qYwbBsaxSAegI=
+@size 35230
+share/gtk-doc/html/libxml2/libxml2-schemasInternals.html
+@sha L83NyFNIlYVUwKtgmgWvDEuV5hPK/vDJln7OAYRBhjw=
+@size 65119
+share/gtk-doc/html/libxml2/libxml2-schematron.html
+@sha p/0g71rpgzcaRjG6ocx2Oe5pwFsLl1khg8gOka18074=
+@size 17105
+share/gtk-doc/html/libxml2/libxml2-threads.html
+@sha 2SocFSMzz9AjE87KMenZHuupQpCMUFA/PrwvgNXMz/w=
+@size 12896
+share/gtk-doc/html/libxml2/libxml2-tree.html
+@sha c+YJwjOUhIKaqGQx6wz5b+LklDaaixthqiwVVYQjEJA=
+@size 234315
+share/gtk-doc/html/libxml2/libxml2-uri.html
+@sha 0uhcln0B8Wzd6q9fGxUzgEuXTvXhEHb+NnywL/bPCKM=
+@size 18434
+share/gtk-doc/html/libxml2/libxml2-valid.html
+@sha paiXjyKFWJ8O0Dh/xy/axrMOGyYtFpvHTEj3I0iXD9o=
+@size 98504
+share/gtk-doc/html/libxml2/libxml2-xinclude.html
+@sha JMSMMfsxPPuO/JHrO7pSX63ZNqVWSgLTWrhAcA582U4=
+@size 15920
+share/gtk-doc/html/libxml2/libxml2-xlink.html
+@sha Zsyfr80GwtQHnv8sc8Qoa7wRKMqZRW4kTD7sldsmxBc=
+@size 17329
+share/gtk-doc/html/libxml2/libxml2-xmlIO.html
+@sha s4xc6oHEW2bPYxu8GCmvlhixjtRv0dlrSqpxTNwpr0k=
+@size 57496
+share/gtk-doc/html/libxml2/libxml2-xmlautomata.html
+@sha 8jfgDzomcNoKRwI1ZCqGEOTZrjKzb71aUJuTZVY9VpI=
+@size 35179
+share/gtk-doc/html/libxml2/libxml2-xmlerror.html
+@sha 6xaQDNXoIx/Z+5fFX1rvLHcHXVwUfZaNE90uyLImp2Q=
+@size 84712
+share/gtk-doc/html/libxml2/libxml2-xmlexports.html
+@sha zWkaLbiORMktHmP7Ncv2iXfCTescq/TIa26dEClWn0g=
+@size 3585
+share/gtk-doc/html/libxml2/libxml2-xmlmemory.html
+@sha 49cUOqw66S8A1fxRmIyGnepcxiQVuComxOXK2OiUJg0=
+@size 24012
+share/gtk-doc/html/libxml2/libxml2-xmlmodule.html
+@sha sWRppJI/3aIIWfAQuu6Q84lrKiwpD+LvZx4en6rmkJI=
+@size 7370
+share/gtk-doc/html/libxml2/libxml2-xmlreader.html
+@sha oRIpbQku52eMrNGWQaiy02oSmL95XM6LhVDcFYxDvss=
+@size 108093
+share/gtk-doc/html/libxml2/libxml2-xmlregexp.html
+@sha r4Qrap0nyPWr4Hv18Cee/7S/k81NogFlCfaYUKMHYDs=
+@size 42013
+share/gtk-doc/html/libxml2/libxml2-xmlsave.html
+@sha jmCglNfSxnPEkB3CO9ZW/R0QfoEmDsQPqlMtXfwF7AE=
+@size 14842
+share/gtk-doc/html/libxml2/libxml2-xmlschemas.html
+@sha 49i++68LL6AI937l4rSAh2MSTq7+f0fB1+ySLNs9jRM=
+@size 42521
+share/gtk-doc/html/libxml2/libxml2-xmlschemastypes.html
+@sha D/vJQzCjQ5JHkEBITMgLDVmCJyvCWyM/zcoH7PxHbpA=
+@size 44455
+share/gtk-doc/html/libxml2/libxml2-xmlstring.html
+@sha tcLhCwhQnQx5wiyAqQYmAVM9u54OK/DE/STOZO1iRK0=
+@size 35113
+share/gtk-doc/html/libxml2/libxml2-xmlunicode.html
+@sha MLTyrwbMIbFcQsGkJVGExJoFmmfrVmxH66jfrsoX98g=
+@size 106596
+share/gtk-doc/html/libxml2/libxml2-xmlversion.html
+@sha OnL2XaZ0PIAe1aqKGZ+rWATM66YqDFXhaHmlPyYeXzc=
+@size 19026
+share/gtk-doc/html/libxml2/libxml2-xmlwriter.html
+@sha EwFHAprHNJsc7nUzSsjbAAwGtxYMx7Vd0uKmK0Zo38I=
+@size 112077
+share/gtk-doc/html/libxml2/libxml2-xpath.html
+@sha 2Wb3i4nl+ItPunG25COxhEX8N43JbbwY1Rbp17emD3I=
+@size 62285
+share/gtk-doc/html/libxml2/libxml2-xpathInternals.html
+@sha L9nCc7at8VoBqSfG9KmB+ZycA6QgeSfXBpNGKVGH2L0=
+@size 144913
+share/gtk-doc/html/libxml2/libxml2-xpointer.html
+@sha kKjhlzrvGolTi/ea89Wsb+Q1sH74MfYFBtCAfBJIWA0=
+@size 25453
+share/gtk-doc/html/libxml2/libxml2.devhelp
+@sha 4V/S0f7QaLlAK5UgdK8etM+hPFOnX4bZKllmmQt5YRk=
+@size 343185
+share/gtk-doc/html/libxml2/right.png
+@sha F9zAsXW6vFHQf3E4LPIIO81Omr/tCRpFlj9e6YKqe0g=
+@size 472
+share/gtk-doc/html/libxml2/style.css
+@sha X3a9uex4IJf1zsTrvaKL35Oq312cUh1XS7smc1ByJIE=
+@size 820
+share/gtk-doc/html/libxml2/up.png
+@sha KvlFxMbOKIrfrXFq4XR/NwVve/Z7hTbS5ea44M6EyHI=
+@size 406
+share/libxml2/
+share/libxml2/rebuild
+@sha BP22UEUef0Rp9fxa6ljvzt3aAOYsse+yqiAFf0HKE6A=
+@size 433
+@exec %D/share/libxml2/rebuild
+@extra /var/db/xmlcatalog

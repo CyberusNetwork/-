@@ -1,0 +1,38 @@
+NSDXFRD1
+# This file is written on exit by nsd xfr daemon.
+# This file contains slave zone information:
+# 	* timeouts (when was zone data acquired)
+# 	* state (OK, refreshing, expired)
+# 	* which master transfer to attempt next
+# The file is read on start (but not on reload) by nsd xfr daemon.
+# You can edit; but do not change statement order
+# and no fancy stuff (like quoted "strings").
+#
+# If you remove a zone entry, it will be refreshed.
+# This can be useful for an expired zone; it revives
+# the zone temporarily, from refresh-expiry time.
+# If you delete the file all slave zones are updated.
+#
+# Note: if you edit this file while nsd is running,
+#       it will be overwritten on exit by nsd.
+
+filetime: 1418924416	# Thu Dec 18 18:40:16 2014
+
+# The number of zone entries in this file
+numzones: 1
+
+zone: 	name: cbnet.itinet.fr
+	state: 1 # refreshing
+	master: 0
+	next_master: -1
+	round_num: -1
+	next_timeout: 15248	# = 4h 14m 8s
+	soa_nsd_acquired: 1418867888	# was 15h 42m 8s ago
+	soa_nsd: 6 1 300 7 cbnet.itinet.fr. postmaster.cbnet.itinet.fr. 2014121802 1800 7200 1209600 300
+	# refresh = 30m retry = 2h expire = 14d minimum = 5m
+	soa_disk_acquired: 0
+	soa_notify_acquired: 1418868149	# was 15h 37m 47s ago
+	soa_notify: 0 0 0 0 . . 0 0 0 0 0
+	# refresh = 0s retry = 0s expire = 0s minimum = 0s
+
+NSDXFRD1

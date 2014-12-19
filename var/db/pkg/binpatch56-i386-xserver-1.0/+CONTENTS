@@ -1,0 +1,123 @@
+@name binpatch56-i386-xserver-1.0
+@url https://stable.mtier.org/updates/5.6/i386/binpatch56-i386-xserver-1.0.tgz
+@signer mtier-56-pkg
+@digital-signature signify:2014-12-11T11:21:36Z:RWQQss3E1pCsG6p/kYokyYE0g4AaD6Hic5CQMv8q9zFmL7Y7HATbWBBqKt9Plc0+BmPZg7ZsPaW5hml2m0p3WsqJlraznRrj0Q4=
+@option manual-installation
+@option always-update
+@comment pkgpath=/binpatch/56/xserver cdrom=yes ftp=yes
+@arch i386
++DESC
+@sha BsYD76vnDFtGxZ9u5YQNzcFE55YzHY3eYOD1bHTZWXE=
+@size 122
+@cwd /
+@comment patch for 014_xserver
+var/db/binpatch/5.6-014/fake/usr/X11R6/lib/
+var/db/binpatch/5.6-014/fake/usr/X11R6/lib/modules/
+var/db/binpatch/5.6-014/fake/usr/X11R6/lib/modules/extensions/
+var/db/binpatch/5.6-014/fake/usr/X11R6/lib/modules/extensions/libglx.la
+@sha q0rHuXlsW0MDDDa/OEY9LZfMx7SjHBCmAOt56Fc1yZE=
+@size 977
+var/db/binpatch/5.6-014/fake/usr/X11R6/lib/modules/extensions/libglx.so
+@sha otMRH6DPsOEvlCriv/Z3x30O6ZMMEucAw/UIXDiT7Os=
+@size 314227
+var/db/binpatch/5.6-014/fake/usr/X11R6/lib/modules/libexa.la
+@sha xpIaH+/PXzPvCdSKPz03f76BUHMZeIjFOyt6YWc2slw=
+@size 1007
+var/db/binpatch/5.6-014/fake/usr/X11R6/lib/modules/libexa.so
+@sha fZ81gjSmVoA2z9nHMwhhmy2FsQwzsBEHuFUiZfDhrPg=
+@size 101829
+var/db/binpatch/5.6-014/fake/usr/X11R6/lib/modules/libfb.la
+@sha ugzd+Tqj5b3FhDUpQj3nPM34nzPaeUwZ69hfUgMl+NA=
+@size 1002
+var/db/binpatch/5.6-014/fake/usr/X11R6/lib/modules/libfb.so
+@sha U9WbaUwU76kA18LHAgJok8IkjtScTiDiPh2krTQ8DPo=
+@size 149453
+var/db/binpatch/5.6-014/fake/usr/X11R6/lib/modules/libfbdevhw.la
+@sha y5WRg6TJjtOnpyhP+yLt6SdgpG8JkPZ52Mo2fno5mCA=
+@size 964
+var/db/binpatch/5.6-014/fake/usr/X11R6/lib/modules/libint10.la
+@sha xUdTRESKbKkDbQAUReDlWpwsRWhKY7mSozW0lonuVvA=
+@size 1001
+var/db/binpatch/5.6-014/fake/usr/X11R6/lib/modules/libint10.so
+@sha oD8i0m1B5rbnwvTLP7kILKVwH+BXg00tzjNW3CBaKkI=
+@size 149595
+var/db/binpatch/5.6-014/fake/usr/X11R6/lib/modules/libshadow.la
+@sha qtN8RdIOtvUfuq1KJtC0GCfo5SB77oQRBjjDFd/+xog=
+@size 959
+var/db/binpatch/5.6-014/fake/usr/X11R6/lib/modules/libshadow.so
+@sha /X7AmjgKkBph39swK7dE7YRjzWKMI80XLdlWKkZ5YGA=
+@size 35612
+var/db/binpatch/5.6-014/fake/usr/X11R6/lib/modules/libshadowfb.la
+@sha CkwuiWAF9GWcwn4HLlHwdT4oYg2dwzbXTYR2DvjDwFQ=
+@size 1032
+var/db/binpatch/5.6-014/fake/usr/X11R6/lib/modules/libshadowfb.so
+@sha f0fB8ATSPcidJ7gO7b1MJKMd3OkIL+ZxfM7p0fLy7wI=
+@size 33781
+var/db/binpatch/5.6-014/fake/usr/X11R6/lib/modules/libvbe.la
+@sha 41HF2ZCDp61YLLn1Oi5iv3qVRCyV264pm+zC5UR9kiU=
+@size 944
+var/db/binpatch/5.6-014/fake/usr/X11R6/lib/modules/libvgahw.la
+@sha h8j2ZMYHOxuxtJbVH54VrBaSYqvPu88BFmMqIOYA41E=
+@size 953
+var/db/binpatch/5.6-014/fake/usr/X11R6/lib/modules/libwfb.la
+@sha Slv3iVlWCPZip1Aj64MPAT9mh/jxfULdF42T8lke3aI=
+@size 1007
+var/db/binpatch/5.6-014/fake/usr/X11R6/lib/modules/libwfb.so
+@sha S6YULHDNSPGq3UuG/cXzAUPTtCK1RoJ5ea0qSNLsIFs=
+@size 190609
+var/db/binpatch/5.6-014/fake/usr/X11R6/lib/modules/multimedia/
+var/db/binpatch/5.6-014/fake/usr/X11R6/lib/modules/multimedia/bt829_drv.la
+@sha Rh1mrkBXi2FAWGcpwIEqnWLKmclrFfq+DaWrG+KI69M=
+@size 970
+var/db/binpatch/5.6-014/fake/usr/X11R6/lib/modules/multimedia/fi1236_drv.la
+@sha YMJ3o1I901TbLLwB3ulu9l8kcny4RCb1keyFeRvdKS4=
+@size 975
+var/db/binpatch/5.6-014/fake/usr/X11R6/lib/modules/multimedia/msp3430_drv.la
+@sha 0BmwEvbLAoYgPn4KCCnjo+9yQ/uVWAYSzCMiQ7A6emQ=
+@size 980
+var/db/binpatch/5.6-014/fake/usr/X11R6/lib/modules/multimedia/msp3430_drv.so
+@sha BY9k5kw6SY2u0fQf47ccCoplZvB0ph2Prl6wucv8iGk=
+@size 11800
+var/db/binpatch/5.6-014/fake/usr/X11R6/lib/modules/multimedia/tda8425_drv.la
+@sha xvwjgHG7ohFdTI0ZYBIo2dQqDOF+x7ehd83P54Us+ts=
+@size 980
+var/db/binpatch/5.6-014/fake/usr/X11R6/lib/modules/multimedia/tda9850_drv.la
+@sha wA4iJtwgyz2PCxf/xCGYKAN8Czlqfb5eoT1AJkAPpOg=
+@size 980
+var/db/binpatch/5.6-014/fake/usr/X11R6/lib/modules/multimedia/tda9885_drv.la
+@sha 6MiPNxS4e8SrJyvjoDosh9r/kB/P6oKyvYeUt1uwWbM=
+@size 980
+var/db/binpatch/5.6-014/fake/usr/X11R6/lib/modules/multimedia/uda1380_drv.la
+@sha YAjFdZp3WtPTcDbGBvkNEuURHlP6hKnyjRBy+HyZIi0=
+@size 980
+var/db/binpatch/5.6-014/fake/usr/X11R6/bin/
+@mode 4755
+var/db/binpatch/5.6-014/fake/usr/X11R6/bin/X
+@symlink Xorg
+@mode
+var/db/binpatch/5.6-014/fake/usr/X11R6/bin/Xnest
+@sha 2D4TCEpV9N0G41qS9va389ozFq8w7A8Rpkg14gEcOlI=
+@size 1585550
+@mode 4755
+var/db/binpatch/5.6-014/fake/usr/X11R6/bin/Xorg
+@sha +/cw2K/oOo+Oo+oYPmbmqp7OGjjJzXrNVol+ZwNG2qo=
+@size 2335247
+@mode
+var/db/binpatch/5.6-014/fake/usr/X11R6/bin/Xvfb
+@sha yqdzc2B0bMLnoCHWK4DOAjdxo2stxTZ89pDsZPw8Bu0=
+@size 2066571
+var/db/binpatch/5.6-014/fake/usr/X11R6/include/xorg/
+@unexec /var/db/binpatch/5.6-014/install.sh rollback 014 /var/db/binpatch all
+var/db/binpatch/5.6-014/PLIST
+@sha T0Hxz4oKa6VBy6MlAYS0/x1REwhHkrPn+KdMX55/bsw=
+@size 1347
+var/db/binpatch/5.6-014/install.sh
+@sha LUC9g1EWUG1Tehl4L4oaR2fDEj2nuWtzzvTXZZagxDw=
+@size 4215
+@exec /var/db/binpatch/5.6-014/install.sh install 014 /var/db/binpatch all
+var/db/binpatch/5.6-014/patches/
+var/db/binpatch/5.6-014/patches/014_xserver.patch
+@sha 2ot+MyZrzZsrestSzZos7jbvzLWfrUvVxMCknk9aT7k=
+@size 133587
+var/db/binpatch/5.6-014/fake/
+var/db/binpatch/5.6-014/

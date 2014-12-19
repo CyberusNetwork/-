@@ -1,0 +1,147 @@
+@comment $OpenBSD: PLIST-ltdl,v 1.4 2011/09/22 21:10:19 jasper Exp $
+@comment $OpenBSD: PFRAG.shared-ltdl,v 1.5 2005/12/23 17:02:46 bernd Exp $
+@name libltdl-2.4.2p0
+@url http://ftp.fr.openbsd.org/pub/OpenBSD/5.6/packages/i386/libltdl-2.4.2p0.tgz
+@signer openbsd-56-pkg
+@digital-signature signify:2014-08-02T11:00:38Z:RWSPEf7Vpp2j0Ft99x2WpgSS/udMCuQntfNzgTzenSogFpHzaQZfUdedjzLDCq/W+ozdj07c4LXsj+WfTax2uTqf6BoX4nEYwg8=
+@comment pkgpath=devel/libtool,-ltdl cdrom=yes ftp=yes
+@arch i386
++DESC
+@sha CmTjt2nOXtctd/07xGZSd0T7wOdMOwYONtzYxMRs0lY=
+@size 481
+@cwd /usr/local
+include/libltdl/
+include/libltdl/lt_dlloader.h
+@sha Cb2S6dJhEzvklqblkzGbkgvYZdlAaPA1P5l9CGLbdno=
+@size 3200
+include/libltdl/lt_error.h
+@sha 03uA8zcOT1frJ6p9A4/0MaaxAbomRTftwMzYdDd6M9E=
+@size 3642
+include/libltdl/lt_system.h
+@sha sxrUa+EYDNa4SQe4V6ITGCJxtMJ8gJHcqj4RE4J/sbs=
+@size 5371
+include/ltdl.h
+@sha M6N8Py8OnSaLUUfp9HPlJyFNwGgrkrIoTpdn01nvoNw=
+@size 5717
+lib/libltdl.a
+@sha ULqDfniPny7iM6+h9H1TflFXQoRsZevh/0Kylt+sc1g=
+@size 49436
+lib/libltdl.la
+@sha iDYvi3mlwxD63B+2Dyd9YJF1lzHUp53Oz1BkDgpScoo=
+@size 909
+share/aclocal/
+share/aclocal/ltdl.m4
+@sha MmOaO6A6zUQxHZtFGKHJ5WriAqosyNclhx7dDB91EAc=
+@size 27059
+share/libtool/
+share/libtool/libltdl/
+share/libtool/libltdl/COPYING.LIB
+@sha 8YoIEfoOIgzLxC9mFUXnfwOIYx4glYXtWCocaTApxqo=
+@size 26542
+share/libtool/libltdl/Makefile.am
+@sha H5dzuucVbKX0RxoQBvcc08gbb5VVWFgEC5BJ+ySi9LE=
+@size 5184
+share/libtool/libltdl/Makefile.in
+@sha /811TnyhPya8NORJ8f4788JJUNpbflYN1t0/fSqvBlw=
+@size 50789
+share/libtool/libltdl/Makefile.inc
+@sha bQToIFLDfm+vicXR/QXeer4TJHQa8Z2Jo8/S5CAZld0=
+@size 5682
+share/libtool/libltdl/README
+@sha 5yjRo5vBdPPXgRusmhq3TOTgGHgGt/KP1GIyroGvWO4=
+@size 688
+share/libtool/libltdl/aclocal.m4
+@sha zybQOcC/Gzx6q6sRdM5RqZi3sEAENhzFEPnleopiX94=
+@size 34809
+share/libtool/libltdl/argz.c
+@sha lFrZnrdjphyzBzyVjUH30UFCem1KtRQ8isvRy32xkyk=
+@size 5903
+share/libtool/libltdl/argz_.h
+@sha GGvbSNqx+giyp0wr5o5T4tGQAoa2WWf+eTg7iN4AL5g=
+@size 2220
+share/libtool/libltdl/config-h.in
+@sha rDXVyDvLiTXGawrmExGQrV8dceXtzZP1ESaaghdYGHo=
+@size 4768
+share/libtool/libltdl/configure
+@sha ejeb9ll7hTI6DSdhPg303DAWpjnS8R1L1HTODGWVGgg=
+@size 438645
+share/libtool/libltdl/configure.ac
+@sha f0ZrWOMeTVWZRdiQS6S5nsq2xsNmNT4caS0ukjfMQoE=
+@size 2568
+share/libtool/libltdl/libltdl/
+share/libtool/libltdl/libltdl/lt__alloc.h
+@sha 77M8BQ4iY0sanwigsg2qaCeUrQnkZsMHhZMNwgNX2rA=
+@size 2195
+share/libtool/libltdl/libltdl/lt__dirent.h
+@sha Q7Ygc1H1wIrUid/QOUpGxglv0cCNmAsaNaUd6fXi/Vc=
+@size 2516
+share/libtool/libltdl/libltdl/lt__glibc.h
+@sha f3Dj55x5peDncb/AJdpeFnbOElKAGxt9QeIhNCo2ff4=
+@size 2720
+share/libtool/libltdl/libltdl/lt__private.h
+@sha e2BvSIlzVcYyfLqsswoDwpjLyetFuzdSl0D0kMfiAKo=
+@size 4520
+share/libtool/libltdl/libltdl/lt__strl.h
+@sha 0N/CtlrA8/EGrMNZaMI5+n6OLScMSsy8F05C472cTng=
+@size 1984
+share/libtool/libltdl/libltdl/lt_dlloader.h
+@sha Cb2S6dJhEzvklqblkzGbkgvYZdlAaPA1P5l9CGLbdno=
+@size 3200
+share/libtool/libltdl/libltdl/lt_error.h
+@sha 03uA8zcOT1frJ6p9A4/0MaaxAbomRTftwMzYdDd6M9E=
+@size 3642
+share/libtool/libltdl/libltdl/lt_system.h
+@sha sxrUa+EYDNa4SQe4V6ITGCJxtMJ8gJHcqj4RE4J/sbs=
+@size 5371
+share/libtool/libltdl/libltdl/slist.h
+@sha DE7xsnxLdQwSMEf7WWNNLoxCva8vdfAZsuGtZIymiYA=
+@size 3225
+share/libtool/libltdl/loaders/
+share/libtool/libltdl/loaders/dld_link.c
+@sha YIWvE5nwgIl/HP3RFblbWMx8h0S676xxZ3gQ0YlLYik=
+@size 4577
+share/libtool/libltdl/loaders/dlopen.c
+@sha YQlIwybt03+H1w1EzxO8DqNFkPRQQNGeFB+OopqKZQo=
+@size 6369
+share/libtool/libltdl/loaders/dyld.c
+@sha vvpjl88bXkQtD6hOs+yfDpMW+3NbOtiZnLoVFcXbzF8=
+@size 13662
+share/libtool/libltdl/loaders/load_add_on.c
+@sha VDJRDk/z8VhG9I9n1clr7T25uvUyvjx2OYoiwPqS+nA=
+@size 4804
+share/libtool/libltdl/loaders/loadlibrary.c
+@sha ZBxLONGBhBGa+DfCnhf2QlpE8v7B6tJWJ1UaQPc6vkY=
+@size 10875
+share/libtool/libltdl/loaders/preopen.c
+@sha 4H5qKMBOTxMSlOXBPep6CiXp6WYW2LpDCA/4WWK1+NM=
+@size 9517
+share/libtool/libltdl/loaders/shl_load.c
+@sha qEBgREUECJi+IAwSiKaGA8wLBgyBBzUMhhTgV90Rl2M=
+@size 6718
+share/libtool/libltdl/lt__alloc.c
+@sha bY1lpF0H4Q6wAzkq16cZBzjqTIUdx1AFJgmprfzFBIo=
+@size 2285
+share/libtool/libltdl/lt__dirent.c
+@sha 2ENYz/j1eOHz+uiDRn8hrthV4xY/976hy3M1qzJQb1w=
+@size 3034
+share/libtool/libltdl/lt__strl.c
+@sha HoQ/GX0WExF6Cuu73GmAE6A7Mvagx5aYFr4zdRsSC0Q=
+@size 3606
+share/libtool/libltdl/lt_dlloader.c
+@sha woAKGOzWrWxRjHTv1fdyRm2yiivEBbAXjW4dtOHEi2A=
+@size 6076
+share/libtool/libltdl/lt_error.c
+@sha HfSt5DvRvaSlC5rG1UsfJ2/Gif/WV7tmOdBuqhZIc5k=
+@size 2961
+share/libtool/libltdl/ltdl.c
+@sha abeqxT2lGYKRmuoMT6oe594U0OI5MR+yKopTLIyChjc=
+@size 55227
+share/libtool/libltdl/ltdl.h
+@sha M6N8Py8OnSaLUUfp9HPlJyFNwGgrkrIoTpdn01nvoNw=
+@size 5717
+share/libtool/libltdl/slist.c
+@sha p7zYglVNiVgaWU+yX9JLq6qDVdSalP8Hvzckbvm6fgI=
+@size 9844
+@lib lib/libltdl.so.5.0
+@sha iqIEqMgvKhywK8OAoJxBLtqv9tH7sXnDryjOEoEXG+E=
+@size 39783

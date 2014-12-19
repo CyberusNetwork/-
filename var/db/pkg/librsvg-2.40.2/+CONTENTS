@@ -1,0 +1,178 @@
+@comment $OpenBSD: PLIST,v 1.30 2012/12/28 09:54:47 ajacoutot Exp $
+@name librsvg-2.40.2
+@url http://ftp.fr.openbsd.org/pub/OpenBSD/5.6/packages/i386/librsvg-2.40.2.tgz
+@signer openbsd-56-pkg
+@digital-signature signify:2014-08-02T11:00:47Z:RWSPEf7Vpp2j0FiECD5vtIfDNqc/wvVi0RlXxdkuE+SE5E2IZhlL+8olF1et5vO2eGLUTM66H0sFVs9jyLshdcNsBIiKh0vfmQU=
+@comment pkgpath=x11/gnome/librsvg cdrom=yes ftp=yes
+@arch i386
++DESC
+@sha 6OCGtMkd6OlfMDtskcLBSfvJTm9Uacd2Fs+rEZLgODw=
+@size 485
+@depend converters/libiconv:libiconv-*:libiconv-1.14p1
+@depend devel/gettext:gettext->=0.10.38:gettext-0.19.1p0
+@depend devel/pango:pango-*:pango-1.36.5
+@depend graphics/gdk-pixbuf2:gdk-pixbuf-*:gdk-pixbuf-2.30.8
+@depend textproc/libxml,-main:libxml-*:libxml-2.9.1p1
+@depend www/libcroco:libcroco-*:libcroco-0.6.8p0
+@wantlib X11.16.0
+@wantlib Xext.13.0
+@wantlib Xrender.6.0
+@wantlib c.77.0
+@wantlib cairo.12.2
+@wantlib croco-0.6.4.0
+@wantlib expat.11.0
+@wantlib ffi.1.0
+@wantlib fontconfig.9.1
+@wantlib freetype.22.0
+@wantlib gdk_pixbuf-2.0.3000.0
+@wantlib gio-2.0.4000.0
+@wantlib glib-2.0.4000.0
+@wantlib gmodule-2.0.4000.0
+@wantlib gobject-2.0.4000.0
+@wantlib graphite2.0.0
+@wantlib gthread-2.0.4000.0
+@wantlib harfbuzz.4.4
+@wantlib iconv.6.0
+@wantlib intl.6.0
+@wantlib m.9.0
+@wantlib pango-1.0.3600.0
+@wantlib pangocairo-1.0.3600.0
+@wantlib pangoft2-1.0.3600.0
+@wantlib pcre.3.0
+@wantlib pixman-1.32.6
+@wantlib png.17.2
+@wantlib pthread-stubs.2.0
+@wantlib pthread.18.0
+@wantlib xcb-render.1.0
+@wantlib xcb-shm.1.1
+@wantlib xcb.3.1
+@wantlib xml2.15.1
+@wantlib z.5.0
+@cwd /usr/local
+@bin bin/rsvg-convert
+@sha jUwJczk5+rNHYNsZc7hNoXCaKMRLpgt5g3+U96ENzoM=
+@size 37380
+include/librsvg-2.0/
+include/librsvg-2.0/librsvg/
+include/librsvg-2.0/librsvg/librsvg-enum-types.h
+@sha TdatiyChC4T3rhVkFNs2YCiDilG0b27sBaXbeCM60zE=
+@size 535
+include/librsvg-2.0/librsvg/librsvg-features.h
+@sha 03P+1bxGd0uDTPCXKpPBwPzw/O1X3vcFa0Zh7ekTAiE=
+@size 956
+include/librsvg-2.0/librsvg/rsvg-cairo.h
+@sha Voje/Bprr1KeFvyAdq2uS8gR4BEGcIHgRvgHgtVe4wY=
+@size 1434
+include/librsvg-2.0/librsvg/rsvg.h
+@sha Bhxs3fa3A5a/RYlcpwDS2phjrZZdmk9nfceFhr5GGO0=
+@size 8213
+lib/gdk-pixbuf-2.0/2.10.0/loaders/libpixbufloader-svg.so
+@sha D03Of5vQw1i2sU+pkpYZideZ408gaupiu50EnjJjiak=
+@size 85908
+lib/girepository-1.0/Rsvg-2.0.typelib
+@sha t3EGh70bUcU7aREveexpeay1C7Hq+Q/KUgGsyHTucs4=
+@size 4560
+lib/librsvg-2.a
+@sha DOfZJh1x5lApNhdrWALzIbe63ea0vQS6PoAduzOZCQ0=
+@size 328410
+lib/librsvg-2.la
+@sha Id6MEH8fOuEeivKiNB/0mudvUzj+BaaVfDtoUS3L+r4=
+@size 1583
+@lib lib/librsvg-2.so.38.1
+@sha naI44884NjsjwUU/nIV/UkB5/dQncEJgHK9bQz+Lgcw=
+@size 318429
+lib/pkgconfig/librsvg-2.0.pc
+@sha Z5NPtlfRMbxaClYSxOpaUHn84kIezSn554O0xVZP5UI=
+@size 343
+@man man/man1/rsvg-convert.1
+@sha ibO23LvA0wcDVqhmBX4ChKQLKEEnIple6KgCnGwxCkw=
+@size 2064
+share/gir-1.0/Rsvg-2.0.gir
+@sha 07cQ3m86QR9L/3537H/nzDqmrDwnfcrCFRPPJdbra7k=
+@size 32861
+share/gtk-doc/html/rsvg-2.0/
+share/gtk-doc/html/rsvg-2.0/RsvgHandle.html
+@sha iM5bloCn43IjYk3vK56o7LZzufzeCcu4m9Ml8DQxupU=
+@size 59976
+share/gtk-doc/html/rsvg-2.0/annotation-glossary.html
+@sha 9Se1XsExne5G55QMvaWwsdF42HonyHW/n0YVAnvVgX8=
+@size 3053
+share/gtk-doc/html/rsvg-2.0/api-index-2-14.html
+@sha 1Ma6J/e9QBjMB0Ua9VU1pmjS6wSwhf2rUMIURaDOBWI=
+@size 3369
+share/gtk-doc/html/rsvg-2.0/api-index-2-22.html
+@sha 6dudJ39DemnhQex/ox5q2nNKonrMbE+FT9yXc/9CRVU=
+@size 2471
+share/gtk-doc/html/rsvg-2.0/api-index-2-32.html
+@sha Xudzd/UJZjOyr0vaps6KcIX7NRB+kf2U3kCiTlWuWzY=
+@size 2939
+share/gtk-doc/html/rsvg-2.0/api-index-2-36.html
+@sha NwEv/GkRkdTLwSK5HMayYUQiIk5YIQenroc+Ljoblr0=
+@size 2543
+share/gtk-doc/html/rsvg-2.0/api-index-2-4.html
+@sha 2+sueuUqE4vequCHbFf5cwvmQg2jvDdOIABmUipau5Y=
+@size 2204
+share/gtk-doc/html/rsvg-2.0/api-index-2-8.html
+@sha w3zCM8th7roRyUQBtfrsOw1cphLInLhEJNeKnEM+0N4=
+@size 3020
+share/gtk-doc/html/rsvg-2.0/api-index-2-9.html
+@sha J+Xluh65CmoIV2Hbu7ZdtzGRFtt9R+CNxy3Tazr6Ypo=
+@size 2856
+share/gtk-doc/html/rsvg-2.0/api-index-deprecated.html
+@sha 9Otuq33cjQ6TYQxbjWU9bLYtThcg9JjonQoFmDETVIg=
+@size 5940
+share/gtk-doc/html/rsvg-2.0/api-index-full.html
+@sha Hcwsk8DknPz47V5E2T0blxxe1pgHofsnrMa+gE4xofk=
+@size 19479
+share/gtk-doc/html/rsvg-2.0/home.png
+@sha A0wjFRP+pyu8eIEJWW+bNdt7h+JwwZyLPdIpQPs15r4=
+@size 654
+share/gtk-doc/html/rsvg-2.0/index.html
+@sha Eu5fSC5THtmYwze4bQvWDKFvsXoy9eoSzgNgCIqlbaY=
+@size 4551
+share/gtk-doc/html/rsvg-2.0/index.sgml
+@sha 50XHs1J3VZHxEEgrhPV3rG7wIWhTRiM49c5793XW1Ag=
+@size 10015
+share/gtk-doc/html/rsvg-2.0/left.png
+@sha muCR5SxmenLXfrbEHNmvx69gvIm/wwIySLHcO7fb9GE=
+@size 459
+share/gtk-doc/html/rsvg-2.0/licence.html
+@sha ryaRbbJoj5LZDhgwByx8suKWWIu0fRbRa73h8E5pe1o=
+@size 2656
+share/gtk-doc/html/rsvg-2.0/object-tree.html
+@sha 4xyqt686kUrEE7MRDLcO+xN/+RueKqsa4dq1i5Sf0ag=
+@size 1910
+share/gtk-doc/html/rsvg-2.0/right.png
+@sha F9zAsXW6vFHQf3E4LPIIO81Omr/tCRpFlj9e6YKqe0g=
+@size 472
+share/gtk-doc/html/rsvg-2.0/rsvg-2.0.devhelp2
+@sha AFZ687chZZnYdMhXsNgdnnDpjiSgOl3xtKf+h3ibQoo=
+@size 10666
+share/gtk-doc/html/rsvg-2.0/rsvg-Using-RSVG-with-GIO.html
+@sha im7q7uAj0vt/N17fRk/fvl/gwRgc5+rJCR4ZZtvcwTA=
+@size 17516
+share/gtk-doc/html/rsvg-2.0/rsvg-Using-RSVG-with-GdkPixbuf.html
+@sha 7N7Xw1upHhsJCr2nYBu2sUfZPxonxmapDm9IwwJROHM=
+@size 24777
+share/gtk-doc/html/rsvg-2.0/rsvg-Using-RSVG-with-cairo.html
+@sha F3A1jv84rXYeMjMuDrCAgM/EVC+rTwsDpM4BBT2/0Pg=
+@size 6789
+share/gtk-doc/html/rsvg-2.0/rsvg-Version-check-and-feature-tests.html
+@sha pE6/nRvRBEHIn8PSvDiHmWaB9XqAVzni2ALa6Kkzkmw=
+@size 5546
+share/gtk-doc/html/rsvg-2.0/rsvg.html
+@sha lMl4UEjFuyZkeHk2ySvViKZ3XRQ6rbizR4Wh4l9nVLU=
+@size 2592
+share/gtk-doc/html/rsvg-2.0/style.css
+@sha +EQoZ90XouDSJxvG1qkwGkXFgSYM9UsvPeyjpBIjNDE=
+@size 5184
+share/gtk-doc/html/rsvg-2.0/up.png
+@sha KvlFxMbOKIrfrXFq4XR/NwVve/Z7hTbS5ea44M6EyHI=
+@size 406
+share/vala/
+share/vala/vapi/
+share/vala/vapi/librsvg-2.0.vapi
+@sha RjD9qo4tAd+2GElcBcNO2SU1R3vfv57O51OkTwTKA5s=
+@size 5975
+@exec %D/bin/gdk-pixbuf-query-loaders --update-cache
+@unexec-delete %D/bin/gdk-pixbuf-query-loaders --update-cache

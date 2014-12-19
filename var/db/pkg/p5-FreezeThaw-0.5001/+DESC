@@ -1,0 +1,10 @@
+module for converting structures to strings and back
+Converts data to/from stringified form, appropriate for
+saving-to/reading-from permanent storage.
+
+Deals with objects, circular lists, repeated appearance of
+the same reference. 
+
+Maintainer: The OpenBSD ports mailing-list <ports@openbsd.org>
+
+WWW: http://search.cpan.org/dist/FreezeThaw/

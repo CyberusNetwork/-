@@ -1,0 +1,75 @@
+#	$OpenBSD: pf.conf,v 1.53 2014/01/25 10:28:36 dtucker Exp $
+
+# Remember to set net.inet.ip.forwarding=1 and/or net.inet6.ip6.forwarding=1
+
+# Macro
+tcp_port = "{ 53 80 443 10006 }"
+udp_port = "{ 53 10006 }"
+lan_ip = "192.168.0.0/24"
+lan = "sis0"
+management = "sis1"
+fai = "sis2"
+fai_gw = "" 
+sfr = "sis3"
+sfr_gw = "192.168.2.1"
+free = "sis4"
+free_gw = "10.8.97.1"
+vpn = "tun0"
+# Fin
+
+# Table_list
+table <blacklist> persist
+
+#Interfaces sur lesquelles PF ne filtre pas
+set skip on lo0
+
+#Protection contre les paquets illogiques
+antispoof log for sis0
+antispoof log for sis1
+antispoof log for sis2
+antispoof log for sis3
+antispoof log for sis4
+
+# Vérification des paquets fragmentés
+match in all scrub (no-df)
+
+# Load Balancing
+pass in on $lan from $lan_ip route-to { ($sfr $sfr_gw), ($free $free_gw) }
+pass out on $sfr from $free route-to ($free $free_gw) 
+pass out on $free from $sfr route-to ($sfr $sfr_gw)
+
+# NAT
+match out on $free from $lan_ip nat-to ($free)
+match out on $free from 192.168.13.0/24 nat-to ($free)
+match out on $sfr from $lan_ip nat-to ($sfr)
+
+# Redirection de port
+
+# Forwarding_port
+
+#block tous les paquets entrants et sortants
+block in log all
+
+# Quick permet d'ignorer toute autre rêgle de filtrage 
+block quick from { <whitelist> }
+block quick from { <blacklist> }
+
+# Bloque ceux qui sont dans la table sur les ports concernés
+# Block_ip_port
+
+#tout les règles passe
+pass quick on lo0 all
+pass quick on $management all
+pass quick on $free from { <whitelist> }
+
+# Filtering ports :
+
+# TCP_port
+
+# Fin_tcp
+
+# UDP_port
+
+# Fin_udp
+
+pass all

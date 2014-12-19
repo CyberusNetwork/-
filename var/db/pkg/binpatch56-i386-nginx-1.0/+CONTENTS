@@ -1,0 +1,32 @@
+@name binpatch56-i386-nginx-1.0
+@url https://stable.mtier.org/updates/5.6/i386/binpatch56-i386-nginx-1.0.tgz
+@signer mtier-56-pkg
+@digital-signature signify:2014-10-28T16:11:44Z:RWQQss3E1pCsG2/MmEYEvTiFuXiElRuolLKXEE1YK6Gv60TZLWDVggb/AGB90cvFZ5vQXkFEaaHPyEOc369Cla03Pf/lhpDbSgM=
+@option manual-installation
+@option always-update
+@comment pkgpath=/binpatch/56/nginx cdrom=yes ftp=yes
+@arch i386
++DESC
+@sha TscwdsAXmjuSyUX8FYIYTsHHXwmIuDYBGb5JMIWtzsI=
+@size 124
+@cwd /
+@comment patch for 003_nginx.patch
+var/db/binpatch/5.6-003/fake/usr/
+var/db/binpatch/5.6-003/fake/usr/sbin/
+var/db/binpatch/5.6-003/fake/usr/sbin/nginx
+@sha +1j7mMb/BQDMSJ5HZSQdpFkman70LGOIkKZTjHJ0xN4=
+@size 886756
+@unexec /var/db/binpatch/5.6-003/install.sh rollback 003 /var/db/binpatch all
+var/db/binpatch/5.6-003/PLIST
+@sha Gah0AkLVY/ixY4ukEfa0yro2l9UmB9UFr3mwynxgjNI=
+@size 93
+var/db/binpatch/5.6-003/install.sh
+@sha LUC9g1EWUG1Tehl4L4oaR2fDEj2nuWtzzvTXZZagxDw=
+@size 4215
+@exec /var/db/binpatch/5.6-003/install.sh install 003 /var/db/binpatch all
+var/db/binpatch/5.6-003/patches/
+var/db/binpatch/5.6-003/patches/003_nginx.patch
+@sha h5SbEupLtkw0+NXddTGm911/ABFh9XaRfRADkZJiH6Q=
+@size 4466
+var/db/binpatch/5.6-003/fake/
+var/db/binpatch/5.6-003/

@@ -1,0 +1,596 @@
+@comment $OpenBSD: PLIST,v 1.17 2013/06/11 19:03:00 robert Exp $
+@comment $OpenBSD: PFRAG.shared,v 1.9 2012/02/17 08:32:34 ajacoutot Exp $
+@name pcre-8.35
+@url http://ftp.fr.openbsd.org/pub/OpenBSD/5.6/packages/i386/pcre-8.35.tgz
+@signer openbsd-56-pkg
+@digital-signature signify:2014-08-02T11:04:50Z:RWSPEf7Vpp2j0MxDO5UwxmlGq22tBK3X31RkEWGMBufiR9oQMlg05mvy+hi2mQqzaXUdENMml7C60Fzh0Yh68FXUFUId8onaWgk=
+@comment pkgpath=devel/pcre cdrom=yes ftp=yes
+@arch i386
++DESC
+@sha KaoAOE0dcY7+eh5sU9cZSkbfvqK+Y9D8UIeWKjWI74Q=
+@size 438
+@wantlib c.77.0
+@wantlib curses.14.0
+@wantlib m.9.0
+@wantlib readline.4.0
+@wantlib stdc++.57.0
+@cwd /usr/local
+bin/pcre-config
+@sha xHTd3iHpcVr7trYrotTCIc/NB70yB2PG17+HYYqKR7c=
+@size 2365
+@bin bin/pcregrep
+@sha oL7rPbI/wr4Gw6ubJVflWXKT0DBOJGvn87x8RD/B218=
+@size 37168
+@bin bin/pcretest
+@sha 4ostHKgv+YySmcL8fGDEI/bU/jneAOb+vLazQFmo/QU=
+@size 85392
+include/pcre.h
+@sha TSQRsYLbvDK8U0eysd1kpX+T1LgtTDWlYCp0R/EnzIA=
+@size 31706
+include/pcre_scanner.h
+@sha dEJjjXVSLodJfUQkJdxRptae9r7XPIqyZtu3M0MDn7Y=
+@size 6600
+include/pcre_stringpiece.h
+@sha sKvFrE4rEyy2RhtT+ZqHpx4/QbRdCi5hMWKo6tu6Kj4=
+@size 6253
+include/pcrecpp.h
+@sha Fldn5S4DeXy7zj5hR+JDZFn4tGj/7O/t/YR3wVeuz+c=
+@size 26529
+include/pcrecpparg.h
+@sha iZEvA/jahPccRkU4XUXn1q9uKGYBKF5DIknaO1QguYs=
+@size 6783
+include/pcreposix.h
+@sha F3DyswwK8vJFQ0KBc89uZHnpIQRe/b0An9B4F7hOBK0=
+@size 5452
+lib/libpcre.a
+@sha 9K9z7o4rsOT92UD0EmfgxetL194QMyYGVlM1j1RurEo=
+@size 317824
+lib/libpcre.la
+@sha /cpol+kuAXD0TuA5PtELdXo5mHmmAF4MC7Pf3rPLbSI=
+@size 715
+lib/libpcre16.a
+@sha vxECNzRGTLkXoDy/OqJLiFqBBep7TPQVMkQEUBkiJWg=
+@size 293020
+lib/libpcre16.la
+@sha RxNDODMTCJ+eNVmJp2a1hjX9jmGMQfRSsOPrnkg5r8E=
+@size 725
+lib/libpcrecpp.a
+@sha XvK4iEZtc6qHl6iP6EFCzgAwx5iROCRwoiiVeNkU174=
+@size 43642
+lib/libpcrecpp.la
+@sha K19ubNiAkVG7ZZ35SCH4LI2knQog8oBpFMuVLnCf9dc=
+@size 755
+lib/libpcreposix.a
+@sha wq2LaWaC7rFRE0BW5gywlL9GYDY6F+h7M5IIJ3xRvmg=
+@size 4442
+lib/libpcreposix.la
+@sha 1HL4rJQQKn96x+BfZeDFk9e3E12ACX3SdNe+2kOc56c=
+@size 765
+lib/pkgconfig/
+lib/pkgconfig/libpcre.pc
+@sha SyRHKjZEyPm9iCMMIsjVFXAVCJvF+Q2wQTXgK6luIP8=
+@size 307
+lib/pkgconfig/libpcre16.pc
+@sha 0Y1IWIToApp9/dP/sD3NCTSF8U6QCqVO1G8SEfFfgHc=
+@size 312
+lib/pkgconfig/libpcrecpp.pc
+@sha XML3IbfkT9T7RTSlsD1PCkZ+ayNEs6r6PaQRmfS0G2U=
+@size 269
+lib/pkgconfig/libpcreposix.pc
+@sha SBAtDmeNNEEdQrb3iJZvfJm300CvyJM0cnjYlBJkyNg=
+@size 311
+@man man/cat1/pcre-config.0
+@sha sCeoUpbIL+uZ3obrNFQGa2HYJxJqp0xIJQtngSFKXBk=
+@size 3864
+@man man/cat1/pcregrep.0
+@sha xCEO7myzV6t3sy/FT9bkEceNOF+TsFiVlthA0fJ7HnM=
+@size 46836
+@man man/cat1/pcretest.0
+@sha J74QZagNcm0Q4KQbOV3htvZa/ZDlv0qTTeei5fsFcEM=
+@size 59401
+@man man/cat3/pcre.0
+@sha b1DuGDkAkSXdOlYXj5755ltQTdeXfyKtvgoH33gWyEY=
+@size 9890
+@man man/cat3/pcre16.0
+@sha s4uy1F53u1poeiBIac+sm+h7LSPX9lzl+//paBU0WEo=
+@size 19663
+@man man/cat3/pcre16_assign_jit_stack.0
+@sha EUY5tUhLJNmD9r0DYC355iY+fKbRP1iv0YxxKafdVmw=
+@size 2896
+@man man/cat3/pcre16_compile.0
+@sha LtOJ1ztCVl74/Y7f04D/T7MJGfog8cisvNYrS9SP75k=
+@size 5487
+@man man/cat3/pcre16_compile2.0
+@sha rVx/Z44b9zEHH0aOugj8d71evfkkQP4+YpsexycmJTY=
+@size 5777
+@man man/cat3/pcre16_config.0
+@sha ckVhJtfH9gA48ndFdQuq4Wi5ZXFAKAG2ecwUO9Nu4p4=
+@size 4124
+@man man/cat3/pcre16_copy_named_substring.0
+@sha reJdtW2g9Xl0S/di4QUtNcbU75GdBL+ebOziGZrv7kA=
+@size 2928
+@man man/cat3/pcre16_copy_substring.0
+@sha J0GSeiSTHnyU7+ZsaOT8RE3QAWJcBJi1rWPRL6qWSMc=
+@size 2535
+@man man/cat3/pcre16_dfa_exec.0
+@sha 17kUU/x4nY7HO3LaSLgcj3jw74bZfQp3HSvDblRE/BQ=
+@size 7203
+@man man/cat3/pcre16_exec.0
+@sha 9QH/P1jgmFtTAQ6kXdJIXNFUiTefDTxTEqOuLOaaJ1A=
+@size 6005
+@man man/cat3/pcre16_free_study.0
+@sha zf10TOymyIcmtAf1uTq8PwHjvmoVwPRsl/X6gh/xGmc=
+@size 1164
+@man man/cat3/pcre16_free_substring.0
+@sha R59LZSwCZrkSULz+GqusPqiPnR179Gj1TJHfAT/3cq0=
+@size 1329
+@man man/cat3/pcre16_free_substring_list.0
+@sha CB0aMPRpd09KyChkyqIJobOiH7m2fzbiJeoQMfQZmXE=
+@size 1310
+@man man/cat3/pcre16_fullinfo.0
+@sha OtQhApnIdHEyv+6R36Xw+O7bB/U3yd6bRXsYcYXEclk=
+@size 5070
+@man man/cat3/pcre16_get_named_substring.0
+@sha WWkXbOAuZjUiB8hLhP3zlhytZWOBcbYQKBzGr2Ao19g=
+@size 3073
+@man man/cat3/pcre16_get_stringnumber.0
+@sha 9YtZCNuVz+5gDfUW8KURVMS0Io61t4oKz8Mt8kgEygU=
+@size 1905
+@man man/cat3/pcre16_get_stringtable_entries.0
+@sha chD3UIEsBKnSig4Jcq7Y8xSvT+ZOw8Q3jqo8n26cybg=
+@size 2361
+@man man/cat3/pcre16_get_substring.0
+@sha 7v0/8KuO7ymI5lZ/dux6q8q4qujlSUsfE1EIAgh05lE=
+@size 2711
+@man man/cat3/pcre16_get_substring_list.0
+@sha mlHFkRkGlVEn5afWHZTp5Ozb/yNsQ7HKddRxL+3aEXA=
+@size 2595
+@man man/cat3/pcre16_jit_exec.0
+@sha 5TXyjgaxZg9HxG8HYKAiJU7+9vLGyUUfWo6iMQxPDTY=
+@size 5798
+@man man/cat3/pcre16_jit_stack_alloc.0
+@sha afVBoi+uLCMe7KWuFd7aaTHE0t8VjBl/vur1Qr7YW4s=
+@size 1826
+@man man/cat3/pcre16_jit_stack_free.0
+@sha mtTvrzDbPGbsFv1Sr5unbLjvIthIr+VMJUVgf+9TYVM=
+@size 1252
+@man man/cat3/pcre16_maketables.0
+@sha JY1Q/EARVAGtfhAocRgAQU/MC6aUh7L8h4jt5Nm0N54=
+@size 1421
+@man man/cat3/pcre16_pattern_to_host_byte_order.0
+@sha 8qxOOtbBsNPH+0hNZBVsrkBbHlFWLWjpHnZbBfninco=
+@size 2200
+@man man/cat3/pcre16_refcount.0
+@sha fTOES2iUdme1TIcN/X49ovzvNKzJJN0b20fFpBoivWc=
+@size 1343
+@man man/cat3/pcre16_study.0
+@sha KOMrr1cGKWEtF5sBvbWvE5on2iQDMvb99UkmbNkKMqo=
+@size 2339
+@man man/cat3/pcre16_utf16_to_host_byte_order.0
+@sha 2p4uJRGAxySebKeoGQXwbKLC8BCi+Gcw7r422MFuFFc=
+@size 2061
+@man man/cat3/pcre16_version.0
+@sha H31OdZQWlnlSgCp9RvsimBV7I9vVf64ytNixmzhgeMc=
+@size 1040
+@man man/cat3/pcre32.0
+@sha xwTzjK9LfnP9qD0hvXgM0etYsc8KaBeumf6H0jPkE18=
+@size 19481
+@man man/cat3/pcre32_assign_jit_stack.0
+@sha EUY5tUhLJNmD9r0DYC355iY+fKbRP1iv0YxxKafdVmw=
+@size 2896
+@man man/cat3/pcre32_compile.0
+@sha LtOJ1ztCVl74/Y7f04D/T7MJGfog8cisvNYrS9SP75k=
+@size 5487
+@man man/cat3/pcre32_compile2.0
+@sha rVx/Z44b9zEHH0aOugj8d71evfkkQP4+YpsexycmJTY=
+@size 5777
+@man man/cat3/pcre32_config.0
+@sha ckVhJtfH9gA48ndFdQuq4Wi5ZXFAKAG2ecwUO9Nu4p4=
+@size 4124
+@man man/cat3/pcre32_copy_named_substring.0
+@sha reJdtW2g9Xl0S/di4QUtNcbU75GdBL+ebOziGZrv7kA=
+@size 2928
+@man man/cat3/pcre32_copy_substring.0
+@sha J0GSeiSTHnyU7+ZsaOT8RE3QAWJcBJi1rWPRL6qWSMc=
+@size 2535
+@man man/cat3/pcre32_dfa_exec.0
+@sha 17kUU/x4nY7HO3LaSLgcj3jw74bZfQp3HSvDblRE/BQ=
+@size 7203
+@man man/cat3/pcre32_exec.0
+@sha 9QH/P1jgmFtTAQ6kXdJIXNFUiTefDTxTEqOuLOaaJ1A=
+@size 6005
+@man man/cat3/pcre32_free_study.0
+@sha zf10TOymyIcmtAf1uTq8PwHjvmoVwPRsl/X6gh/xGmc=
+@size 1164
+@man man/cat3/pcre32_free_substring.0
+@sha R59LZSwCZrkSULz+GqusPqiPnR179Gj1TJHfAT/3cq0=
+@size 1329
+@man man/cat3/pcre32_free_substring_list.0
+@sha CB0aMPRpd09KyChkyqIJobOiH7m2fzbiJeoQMfQZmXE=
+@size 1310
+@man man/cat3/pcre32_fullinfo.0
+@sha OtQhApnIdHEyv+6R36Xw+O7bB/U3yd6bRXsYcYXEclk=
+@size 5070
+@man man/cat3/pcre32_get_named_substring.0
+@sha WWkXbOAuZjUiB8hLhP3zlhytZWOBcbYQKBzGr2Ao19g=
+@size 3073
+@man man/cat3/pcre32_get_stringnumber.0
+@sha 9YtZCNuVz+5gDfUW8KURVMS0Io61t4oKz8Mt8kgEygU=
+@size 1905
+@man man/cat3/pcre32_get_stringtable_entries.0
+@sha chD3UIEsBKnSig4Jcq7Y8xSvT+ZOw8Q3jqo8n26cybg=
+@size 2361
+@man man/cat3/pcre32_get_substring.0
+@sha 7v0/8KuO7ymI5lZ/dux6q8q4qujlSUsfE1EIAgh05lE=
+@size 2711
+@man man/cat3/pcre32_get_substring_list.0
+@sha mlHFkRkGlVEn5afWHZTp5Ozb/yNsQ7HKddRxL+3aEXA=
+@size 2595
+@man man/cat3/pcre32_jit_exec.0
+@sha 5TXyjgaxZg9HxG8HYKAiJU7+9vLGyUUfWo6iMQxPDTY=
+@size 5798
+@man man/cat3/pcre32_jit_stack_alloc.0
+@sha afVBoi+uLCMe7KWuFd7aaTHE0t8VjBl/vur1Qr7YW4s=
+@size 1826
+@man man/cat3/pcre32_jit_stack_free.0
+@sha mtTvrzDbPGbsFv1Sr5unbLjvIthIr+VMJUVgf+9TYVM=
+@size 1252
+@man man/cat3/pcre32_maketables.0
+@sha JY1Q/EARVAGtfhAocRgAQU/MC6aUh7L8h4jt5Nm0N54=
+@size 1421
+@man man/cat3/pcre32_pattern_to_host_byte_order.0
+@sha 8qxOOtbBsNPH+0hNZBVsrkBbHlFWLWjpHnZbBfninco=
+@size 2200
+@man man/cat3/pcre32_refcount.0
+@sha fTOES2iUdme1TIcN/X49ovzvNKzJJN0b20fFpBoivWc=
+@size 1343
+@man man/cat3/pcre32_study.0
+@sha KOMrr1cGKWEtF5sBvbWvE5on2iQDMvb99UkmbNkKMqo=
+@size 2339
+@man man/cat3/pcre32_utf32_to_host_byte_order.0
+@sha vDHzXlKzB4kIgnteEz0xz+tA9YcJe/+mecjNjZLAUuA=
+@size 2059
+@man man/cat3/pcre32_version.0
+@sha H31OdZQWlnlSgCp9RvsimBV7I9vVf64ytNixmzhgeMc=
+@size 1040
+@man man/cat3/pcre_assign_jit_stack.0
+@sha EUY5tUhLJNmD9r0DYC355iY+fKbRP1iv0YxxKafdVmw=
+@size 2896
+@man man/cat3/pcre_compile.0
+@sha LtOJ1ztCVl74/Y7f04D/T7MJGfog8cisvNYrS9SP75k=
+@size 5487
+@man man/cat3/pcre_compile2.0
+@sha rVx/Z44b9zEHH0aOugj8d71evfkkQP4+YpsexycmJTY=
+@size 5777
+@man man/cat3/pcre_config.0
+@sha ckVhJtfH9gA48ndFdQuq4Wi5ZXFAKAG2ecwUO9Nu4p4=
+@size 4124
+@man man/cat3/pcre_copy_named_substring.0
+@sha reJdtW2g9Xl0S/di4QUtNcbU75GdBL+ebOziGZrv7kA=
+@size 2928
+@man man/cat3/pcre_copy_substring.0
+@sha J0GSeiSTHnyU7+ZsaOT8RE3QAWJcBJi1rWPRL6qWSMc=
+@size 2535
+@man man/cat3/pcre_dfa_exec.0
+@sha 17kUU/x4nY7HO3LaSLgcj3jw74bZfQp3HSvDblRE/BQ=
+@size 7203
+@man man/cat3/pcre_exec.0
+@sha 9QH/P1jgmFtTAQ6kXdJIXNFUiTefDTxTEqOuLOaaJ1A=
+@size 6005
+@man man/cat3/pcre_free_study.0
+@sha zf10TOymyIcmtAf1uTq8PwHjvmoVwPRsl/X6gh/xGmc=
+@size 1164
+@man man/cat3/pcre_free_substring.0
+@sha R59LZSwCZrkSULz+GqusPqiPnR179Gj1TJHfAT/3cq0=
+@size 1329
+@man man/cat3/pcre_free_substring_list.0
+@sha CB0aMPRpd09KyChkyqIJobOiH7m2fzbiJeoQMfQZmXE=
+@size 1310
+@man man/cat3/pcre_fullinfo.0
+@sha OtQhApnIdHEyv+6R36Xw+O7bB/U3yd6bRXsYcYXEclk=
+@size 5070
+@man man/cat3/pcre_get_named_substring.0
+@sha WWkXbOAuZjUiB8hLhP3zlhytZWOBcbYQKBzGr2Ao19g=
+@size 3073
+@man man/cat3/pcre_get_stringnumber.0
+@sha 9YtZCNuVz+5gDfUW8KURVMS0Io61t4oKz8Mt8kgEygU=
+@size 1905
+@man man/cat3/pcre_get_stringtable_entries.0
+@sha chD3UIEsBKnSig4Jcq7Y8xSvT+ZOw8Q3jqo8n26cybg=
+@size 2361
+@man man/cat3/pcre_get_substring.0
+@sha 7v0/8KuO7ymI5lZ/dux6q8q4qujlSUsfE1EIAgh05lE=
+@size 2711
+@man man/cat3/pcre_get_substring_list.0
+@sha mlHFkRkGlVEn5afWHZTp5Ozb/yNsQ7HKddRxL+3aEXA=
+@size 2595
+@man man/cat3/pcre_jit_exec.0
+@sha 5TXyjgaxZg9HxG8HYKAiJU7+9vLGyUUfWo6iMQxPDTY=
+@size 5798
+@man man/cat3/pcre_jit_stack_alloc.0
+@sha afVBoi+uLCMe7KWuFd7aaTHE0t8VjBl/vur1Qr7YW4s=
+@size 1826
+@man man/cat3/pcre_jit_stack_free.0
+@sha mtTvrzDbPGbsFv1Sr5unbLjvIthIr+VMJUVgf+9TYVM=
+@size 1252
+@man man/cat3/pcre_maketables.0
+@sha JY1Q/EARVAGtfhAocRgAQU/MC6aUh7L8h4jt5Nm0N54=
+@size 1421
+@man man/cat3/pcre_pattern_to_host_byte_order.0
+@sha 8qxOOtbBsNPH+0hNZBVsrkBbHlFWLWjpHnZbBfninco=
+@size 2200
+@man man/cat3/pcre_refcount.0
+@sha fTOES2iUdme1TIcN/X49ovzvNKzJJN0b20fFpBoivWc=
+@size 1343
+@man man/cat3/pcre_study.0
+@sha KOMrr1cGKWEtF5sBvbWvE5on2iQDMvb99UkmbNkKMqo=
+@size 2339
+@man man/cat3/pcre_utf16_to_host_byte_order.0
+@sha 2p4uJRGAxySebKeoGQXwbKLC8BCi+Gcw7r422MFuFFc=
+@size 2061
+@man man/cat3/pcre_utf32_to_host_byte_order.0
+@sha vDHzXlKzB4kIgnteEz0xz+tA9YcJe/+mecjNjZLAUuA=
+@size 2059
+@man man/cat3/pcre_version.0
+@sha H31OdZQWlnlSgCp9RvsimBV7I9vVf64ytNixmzhgeMc=
+@size 1040
+@man man/cat3/pcreapi.0
+@sha rBfTqjKFWDUd18nxmjE7SYP1qEGrobbZQZ1tkNO9bIo=
+@size 156783
+@man man/cat3/pcrebuild.0
+@sha 8dVBA2MVPsljFwItNl1UTiam/auJdqYhwWqAhL5o1PA=
+@size 23350
+@man man/cat3/pcrecallout.0
+@sha d9QL9XaMckBz4e3iGSsfy2FR6m6SRZ+Z/KoIXXZBQ3I=
+@size 12964
+@man man/cat3/pcrecompat.0
+@sha 5PuH4IMFRaqOBpZnmXlnibLQexbeDqfAclxaNYvjQ28=
+@size 10241
+@man man/cat3/pcrecpp.0
+@sha pcwu6DpMblNjvvdITVoe2ZT82jTq/p01/3CGO1/n2U0=
+@size 14985
+@man man/cat3/pcredemo.0
+@sha smW1uhARVSpEcuLfbF7xY96JhubjWaSYB4p3571xRd4=
+@size 15576
+@man man/cat3/pcrejit.0
+@sha g2c6NyDCnrQsS8rgTnCkiM7ul77iSC0TvAWW94G460U=
+@size 21226
+@man man/cat3/pcrelimits.0
+@sha yWAxANu3vVk4cUhh+VVaQSMEKyLQw2krHyBpuZDJNRE=
+@size 3088
+@man man/cat3/pcrematching.0
+@sha Gc/hrtLw9LDaFcVtKay9WYD8G+VnqslNzKhi4luztU8=
+@size 10980
+@man man/cat3/pcrepartial.0
+@sha I6ijsNes+2RQsl7SMGnsIU8k111SNaoDe35FLas999U=
+@size 25372
+@man man/cat3/pcrepattern.0
+@sha wpeiTjdbbJ6PrlYKJY7WbBHOfQGuakzSgU7RUeuAkXU=
+@size 148632
+@man man/cat3/pcreperform.0
+@sha eoQnDtx8AhZ25CTJd0qSfW9oFW1menb6PKdSNcB4Kyc=
+@size 8105
+@man man/cat3/pcreposix.0
+@sha UOGBOsm+o05Lqo7R/sIEChLj6ncMux42JXyocZVwHak=
+@size 12859
+@man man/cat3/pcreprecompile.0
+@sha LWL9IQ2uFbbZwk/RmRyF+PE4DXEyk0HZa+Z0S8KiX5g=
+@size 7853
+@man man/cat3/pcresample.0
+@sha 1nchycjeCEhbmN2YpRFSWjLBTJtux6aUPAfqFOj+uSE=
+@size 3782
+@lib lib/libpcre.so.3.0
+@sha g/Cdw6xmm36usxGAc9lfFhWC68RgtZXTSl1qQksC2W0=
+@size 280407
+@lib lib/libpcre16.so.0.0
+@sha URwCgPFCzEFDCERAhFppJwAFN++mlf1lcmNeWn11R7A=
+@size 253066
+@lib lib/libpcrecpp.so.3.3
+@sha HzAuBhj2XwDylEZ/+nlojFgVaO+KIwaWOTJn5+xeEcA=
+@size 46629
+@lib lib/libpcreposix.so.1.5
+@sha 0cDukBHb1UC6RG+8w37cMv6cPjSGoIl75JsE7atZLEA=
+@size 11839
+@man man/cat3/pcrestack.0
+@sha mwyxB6x1Fq7P1/zsHRbyGrVzaxknkwQ2dpz9vFvY8PU=
+@size 10768
+@man man/cat3/pcresyntax.0
+@sha uZZ7ODbV+EKcv23nqP0fmS3D/vPB2YfoeLAPMl4E2r8=
+@size 15697
+@man man/cat3/pcreunicode.0
+@sha TmMnyl5Kjr+1EnxTsVSLndyOCxuXMCp+KdgRaCwXuKU=
+@size 12317
+share/doc/pcre/
+share/doc/pcre/AUTHORS
+@sha i8S+M6qdQJVq6zrnjNSccCqzpixlu5IEbkHaGczkSxw=
+@size 851
+share/doc/pcre/COPYING
+@sha F6vh27krIasXPPl1fdV7CxXNjYY7LM3vY1/b7wMHf7A=
+@size 95
+share/doc/pcre/ChangeLog
+@sha lrCFpUPBvg0fYVMgckT5rsJoIQ8EW9g8F+imCtJxGO0=
+@size 264114
+share/doc/pcre/LICENCE
+@sha iyTSm0T9LIIthPyLD35AUfzcVRv6Mot5rsdxljWU9Sg=
+@size 3099
+share/doc/pcre/NEWS
+@sha 89Jdzm3dfaWdERV30NF9T565hUYMUHWtDbt8kSIs2aA=
+@size 27924
+share/doc/pcre/README
+@sha XaE85DhLFLELRkHpYiwjKiZWi49S6LfWFhe7MmUZgAY=
+@size 44896
+share/doc/pcre/html/
+share/doc/pcre/html/NON-AUTOTOOLS-BUILD.txt
+@sha r9at/avkrUnqDX8OXSwmIlknGHuEHhQl6750P80J0lI=
+@size 30689
+share/doc/pcre/html/README.txt
+@sha XaE85DhLFLELRkHpYiwjKiZWi49S6LfWFhe7MmUZgAY=
+@size 44896
+share/doc/pcre/html/index.html
+@sha qZQRcGc7nVnwB/fx56MT+hLiABBUtlPmlwQ3GOJ/i14=
+@size 7677
+share/doc/pcre/html/pcre-config.html
+@sha lKml9lTZTGbG7inlfrrborLM/YgB2aT3bZlTcyxMP6M=
+@size 3659
+share/doc/pcre/html/pcre.html
+@sha l13zaeTq0kdHy7Wug+qrH/UpgeRLr8DVESmPjqQD0YY=
+@size 9804
+share/doc/pcre/html/pcre16.html
+@sha RCSicZXEvgN4A3XQOIj4Zl3jeqWrvcCkChzu5yKhO7U=
+@size 16214
+share/doc/pcre/html/pcre32.html
+@sha Xe91Ec3TlooBz2JwQz80iJvBl8bh01/rsPm25iuRl8k=
+@size 16098
+share/doc/pcre/html/pcre_assign_jit_stack.html
+@sha l4OIomjSbbvUnkWLOeM8C5SAVUYeMWO1/kI4M1H3T8k=
+@size 2541
+share/doc/pcre/html/pcre_compile.html
+@sha 0+U4r8wmOpYlgfH6fLNYgqhb9oHdoYVuw69VoAZtGpU=
+@size 4735
+share/doc/pcre/html/pcre_compile2.html
+@sha WK2RFaMy23OAfBAU79ComBn7+2Te2vrBCSJXPfazrQY=
+@size 4907
+share/doc/pcre/html/pcre_config.html
+@sha UcChh+M1bs/lhk0jqe7wdmUREn/wQXDMkQHNTjPawRg=
+@size 3843
+share/doc/pcre/html/pcre_copy_named_substring.html
+@sha IuqojmRyUiyI+e7mGaCg1Oi9ThU1oQJgQc+l7Qp/zqI=
+@size 2359
+share/doc/pcre/html/pcre_copy_substring.html
+@sha FIpLy8TFx/09FktIMnPycHZxGEgaAdCIIGqY18g2yPM=
+@size 2115
+share/doc/pcre/html/pcre_dfa_exec.html
+@sha 9tj0kNRAtN30EaDoJzuc+hea2Tv8s75e/n/4u08kodM=
+@size 5969
+share/doc/pcre/html/pcre_exec.html
+@sha TRp7f67TjVoW3HBghfSug7tKhJ6i9NehXnoHuDcjvsc=
+@size 5059
+share/doc/pcre/html/pcre_free_study.html
+@sha a1a+zdkiSqYhDg62+WXOw28z8iSweocHzvrQhyyeDds=
+@size 1231
+share/doc/pcre/html/pcre_free_substring.html
+@sha iTtsth01hsi+iKCbgvRDclXcDNDvaII80WMHaq8TIkU=
+@size 1283
+share/doc/pcre/html/pcre_free_substring_list.html
+@sha 2os9QEoYADWzkBuAKqoahNH/wAY1o5YLEI3et/aXXeg=
+@size 1289
+share/doc/pcre/html/pcre_fullinfo.html
+@sha NCXuylddikdYgCLoP5VudUMjM8flNISCi+LtKQyhT08=
+@size 4603
+share/doc/pcre/html/pcre_get_named_substring.html
+@sha AsZojBAOKQGjwXYnCOFioLu8pnYMa/OjdGDx18wYV54=
+@size 2460
+share/doc/pcre/html/pcre_get_stringnumber.html
+@sha BYzvl15ZSiwTebsxaxiRbTvhS1pZDiaLO4UD6/TVp64=
+@size 1773
+share/doc/pcre/html/pcre_get_stringtable_entries.html
+@sha 52cOcH1Ql2V8VLsoyvFY8PpbjI7B+hNMTzeGiffGJRA=
+@size 2062
+share/doc/pcre/html/pcre_get_substring.html
+@sha WSnhYObCRhBhTaOZtaSLW1Trn9bCsHJ4J/yuQr32+hw=
+@size 2243
+share/doc/pcre/html/pcre_get_substring_list.html
+@sha U/UnEuiUsOdhLfStpRQNVzDz/cyhssnGBJ7tIXFObE4=
+@size 2198
+share/doc/pcre/html/pcre_jit_exec.html
+@sha E673+z3wnkNleS14wXB1fMvBjv/yGuDt/MSNBEWkAJM=
+@size 4814
+share/doc/pcre/html/pcre_jit_stack_alloc.html
+@sha Cky2/URDGmCKn3Z/5Tfloomd/wGH8Y+eC6mHPPW7Ca0=
+@size 1720
+share/doc/pcre/html/pcre_jit_stack_free.html
+@sha h//A8koVMsAD8NkDoABBUYNnloJkdLxemJCzF9MbnZ4=
+@size 1279
+share/doc/pcre/html/pcre_maketables.html
+@sha 5AbJRfw7dqfSWeBkg/WN8aQBwA9Raqc3t80ZFSyPVS4=
+@size 1397
+share/doc/pcre/html/pcre_pattern_to_host_byte_order.html
+@sha vpGI6zCMhJGl7nscf1NjK1uUWWghcbbZA8V7poIu9oQ=
+@size 1960
+share/doc/pcre/html/pcre_refcount.html
+@sha vNxVK17329nzG/JEWdFguehNqXJxVHn4KVod1ubPWmQ=
+@size 1442
+share/doc/pcre/html/pcre_study.html
+@sha BzzYQunu4R9cMVW2b4I6IFr23w6TZasnXI6k+2qKWZ0=
+@size 2146
+share/doc/pcre/html/pcre_utf16_to_host_byte_order.html
+@sha 1KGbuiRLgv5RisYf+818FYdchRpqeO28H8yvGq0C4yg=
+@size 2033
+share/doc/pcre/html/pcre_utf32_to_host_byte_order.html
+@sha P7bVNiMujODAxzg1epoa+GfXO4+rH3Uu1tew7fBW1rc=
+@size 2033
+share/doc/pcre/html/pcre_version.html
+@sha vMMub1aXKyVuyhKjknxup6snMS2GKrTIuH1Uo7llHvw=
+@size 1172
+share/doc/pcre/html/pcreapi.html
+@sha 3yAG7JZBL8FQGbmn1tWvSUQJ0VO/x53D5QnwI0v1hDQ=
+@size 135424
+share/doc/pcre/html/pcrebuild.html
+@sha J8qHBiU3oOklmXPQSNJYLz491o7HVSRA9ov6QbbQc4o=
+@size 22838
+share/doc/pcre/html/pcrecallout.html
+@sha FVftBoUcJmtXIguXyN0c2yM0vXKOjq7plEhrp3utyhc=
+@size 11675
+share/doc/pcre/html/pcrecompat.html
+@sha sxY3TDT1DZs/oS2ZCSpjISg9Of4LDl+qQx1r4j4TM8A=
+@size 9787
+share/doc/pcre/html/pcrecpp.html
+@sha h7ln2Qf7iojGDpQ1kBPYmhIEzKBOc1AwsRvu4uacul4=
+@size 14395
+share/doc/pcre/html/pcredemo.html
+@sha diJdUyEBxgqZV6engItreFqlmYZ7gBAjKgnVnQsgC+I=
+@size 16192
+share/doc/pcre/html/pcregrep.html
+@sha 2TyT66tmdDfSPqZngST3MpfcbuoiolZkKkwTFYkZlfE=
+@size 37847
+share/doc/pcre/html/pcrejit.html
+@sha fxZo9NSOAqmVaWnI0Xh/AtRju6wh7kzO2JiT3D2I7d8=
+@size 20049
+share/doc/pcre/html/pcrelimits.html
+@sha pyNJ6mBjDEXqDvhI7/iVn0ongI8QHOlMfsPvQlcpA9g=
+@size 3195
+share/doc/pcre/html/pcrematching.html
+@sha xa/fv273NgJtCvdDaPXaHjBBzkskHvYsyEB+U+NjGVM=
+@size 10898
+share/doc/pcre/html/pcrepartial.html
+@sha /++QxWbF9OwiOMppUp9KfdnmjZIZo8ZT6D1doyOAqzQ=
+@size 23592
+share/doc/pcre/html/pcrepattern.html
+@sha LXLzBCG5IWYeOXjaGHD/J0fCL3EgpX+c6khJs2R10NU=
+@size 139405
+share/doc/pcre/html/pcreperform.html
+@sha 0+6nT8BKIPMcC4RHyk1LDnUbupkKhxEhKkZs+0Nj2tY=
+@size 7827
+share/doc/pcre/html/pcreposix.html
+@sha Yst6E6Az37e5CsiN1MPyb5lMbOcHwVxKECco1BCTCgc=
+@size 12139
+share/doc/pcre/html/pcreprecompile.html
+@sha W+tzFLoS/VNPZ+s402PBdAQmVZvaJNFDubQoO1PYXaM=
+@size 7399
+share/doc/pcre/html/pcresample.html
+@sha nSFHem8Eoc/z83WCpFXOTOD2iXfGRJIcyRl28Y542G4=
+@size 3784
+share/doc/pcre/html/pcrestack.html
+@sha SNilr7XuSlh3aLADO1/2mq+xbTf/xWSmRWvRD35DAVw=
+@size 9594
+share/doc/pcre/html/pcresyntax.html
+@sha A/iTZqsXZ2tm+3Vo1uPWs890sagldxo8vSzYw98QM3E=
+@size 16430
+share/doc/pcre/html/pcretest.html
+@sha FwpPscgoIO5+IaxcC0o15wT9i7EgA8BdSkR9mwZnDzQ=
+@size 51976
+share/doc/pcre/html/pcreunicode.html
+@sha VJDpOiHCUAmctFgg48YXVz79cGiTMmZPAvHMneg5zOo=
+@size 11444
+share/doc/pcre/pcre-config.txt
+@sha uZKFIaWc6ky8OdwgPhJMcBdZhrTEmf6HvNTPtZh1CRs=
+@size 3146
+share/doc/pcre/pcre.txt
+@sha yY1wn/hnZiOE0sD2mYeSXF2fAJ1Fp1x0EAoIuf3Xao8=
+@size 504077
+share/doc/pcre/pcregrep.txt
+@sha 360/7Did0BorYvbyYLc0GMXuF0kLG3mmm1ukGLpYWzc=
+@size 42257
+share/doc/pcre/pcretest.txt
+@sha /mjkImZmJM7H8j55DV6jftsqv0ddSKo7+mOVq9hKFEw=
+@size 54244

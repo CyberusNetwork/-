@@ -1,0 +1,177 @@
+@comment $OpenBSD: PLIST,v 1.16 2014/03/10 11:58:31 naddy Exp $
+@name bash-4.3.27
+@url https://stable.mtier.org/updates/5.6/i386/bash-4.3.27.tgz
+@signer mtier-56-pkg
+@digital-signature signify:2014-10-29T19:48:17Z:RWQQss3E1pCsG82lXpCVmC63IFQBHhGOiH2iPuDBfkMjG58zFGKYMA6qEUYDJwF7T08HGYQEyO6AXJrzR2nvd5yMfV9LhNnD7AA=
+@option manual-installation
+@comment pkgpath=shells/bash cdrom=yes ftp=yes
+@arch i386
++DESC
+@sha ejt4yQi2gcBVBScUrLRGotL7xxUZqp9J0Q79+pBCPY4=
+@size 505
+@pkgpath shells/bash,static
+@depend converters/libiconv:libiconv-*:libiconv-1.14p1
+@depend devel/gettext:gettext->=0.10.38:gettext-0.19.1p0
+@wantlib c.77.0
+@wantlib iconv.6.0
+@wantlib intl.6.0
+@wantlib termcap.14.0
+@cwd /usr/local
+@shell bin/bash
+@sha +dkiTxIYKM7wqGGL5UL3/KQIo/l/TAyQV6kovG5Iu1o=
+@size 883088
+bin/bashbug
+@sha ADpo1xAJZJKxM55vEvoKTxpYqh+G+iu6NEao1HP18ZI=
+@size 6848
+@info info/bash.info
+@sha Xh0f9h72xz6TS+nMjim7IkAl6jweTEoF/DcQVICHnBc=
+@size 486450
+@man man/man1/bash.1
+@sha QFGbJX9QsFBSZ5pNzwh+ICR1H5zIlgJTXkeY992x3Qc=
+@size 299110
+@man man/man1/bashbug.1
+@sha sZtSJv3QG4kJwrwhA5u9qSvokLtrDO7D90XBnwKzfMI=
+@size 1817
+share/doc/bash/
+share/doc/bash/CHANGES
+@sha ocQgdqdGQQW2vt9PW9Ft/v7JIuYy323KRPHz6vN9mhE=
+@size 315176
+share/doc/bash/COMPAT
+@sha MVKEn1v9YrSSjoi6T4LYP1biA8tRQxeZswaGixaVnvs=
+@size 19000
+share/doc/bash/FAQ
+@sha KA+csESQDIiCx6vGICz5S0qlkjPUbmXLRKL2St5+Kps=
+@size 99588
+share/doc/bash/INTRO
+@sha iNT0OK9q8QjVlwrtOoggiilbba/C1VtUkWm7Cjcuwfs=
+@size 7072
+share/doc/bash/NEWS
+@sha vKZyHI9VTj2uFcx8XTcbQdN0cAJfckdRwFHXV5cMp8M=
+@size 77335
+share/doc/bash/POSIX
+@sha TpYYwHzieArrEl6JQIfy6BbV/NgnK8uGavEpAYEc4rQ=
+@size 9279
+share/doc/bash/RBASH
+@sha fwTLXwmS4iIJrFVtcaPU0VXKonytBvHPs/5W9WZPpVI=
+@size 1705
+share/doc/bash/README
+@sha 1jClxsW5ISmR26am4zQklDF1pSiYr9HUbebL4HwKjgA=
+@size 3839
+share/doc/bash/bash.html
+@sha 75ixI2AFs7yN7Qf+qYcAGswRiG6FNGc/ZbSrY+6iznE=
+@size 329685
+share/doc/bash/bashref.html
+@sha LWUTqwP8jFzDfgK+vYazS7LhZnybs/KsU9H7FCiDQpg=
+@size 842052
+share/locale/af/
+share/locale/af/LC_MESSAGES/
+share/locale/af/LC_MESSAGES/bash.mo
+@sha 0avd1xIYIhtP0Yec4XT5iskniHv6gJTNi700MacpdkQ=
+@size 1244
+share/locale/bg/LC_MESSAGES/bash.mo
+@sha TNOSYSlwXvPmELdn9/fopws6DlUYPe2C8ZXMQtuRdmw=
+@size 235979
+share/locale/ca/LC_MESSAGES/bash.mo
+@sha 69uAfPnwAt01/fBywdL0X/VQJ/nNaW/K285/+pRc0gs=
+@size 9739
+share/locale/cs/LC_MESSAGES/bash.mo
+@sha uAxb/dEs5gldxAmmmzZyDKrdGdPRU0Vww++FH5KTxu0=
+@size 173589
+share/locale/da/LC_MESSAGES/bash.mo
+@sha HL5H0gXnvMiYgPwJvjcu5we7UY4/nPHenDsigBNwq3k=
+@size 100735
+share/locale/de/LC_MESSAGES/bash.mo
+@sha arWNQy7srjjxy0VckayLVteab9xWB0kWoPi4BiDgKAI=
+@size 89921
+share/locale/el/LC_MESSAGES/bash.mo
+@sha klHdshSa3eGONuA/kZcHf0ZGb4FmjqfVlBTHf9gDmKY=
+@size 37185
+share/locale/en@boldquot/LC_MESSAGES/bash.mo
+@sha 5a9ygffWYtDjSys34J8AJYwxhWSlt7GdIhdXgc+iv20=
+@size 165724
+share/locale/en@quot/LC_MESSAGES/bash.mo
+@sha hqa22etBSWkebtR2ppcM86B9k7i/J/UkSo8KtTRZN+g=
+@size 164132
+share/locale/eo/LC_MESSAGES/bash.mo
+@sha CZSKUS3C9I82dFi4LC7Q7Zg82tq11RNbrRb70xgKW9Q=
+@size 161232
+share/locale/es/LC_MESSAGES/bash.mo
+@sha 3JQoMnHC9+u3r3x6YGA41qtTO26eVicpNnFoXoLW5GY=
+@size 122470
+share/locale/et/LC_MESSAGES/bash.mo
+@sha u04mmAkjvf3L9M1NrfooLWwanNb4bHGP1slsMyMrlyI=
+@size 12133
+share/locale/fi/LC_MESSAGES/bash.mo
+@sha wNqSkErEqajli3CBz/ax5x3eR2rBloL4A6ZhZG1Jipc=
+@size 102765
+share/locale/fr/LC_MESSAGES/bash.mo
+@sha xnxdBL0LoWazeet75dRvNfrOom0mYLEoYU4RH+Dj0S4=
+@size 126213
+share/locale/ga/LC_MESSAGES/bash.mo
+@sha ZZWwGqZ71jftk8a7f4qvimztQchzw6fyto+PL6HxpQM=
+@size 58471
+share/locale/gl/LC_MESSAGES/bash.mo
+@sha aVByirCgGiE9FdG8UCyrocDg4uuOQ0gy8+s8Z0ODun0=
+@size 63233
+share/locale/hr/LC_MESSAGES/bash.mo
+@sha Gr8prJ7/Tn5zu8BKVQeEnS04keZBiWE757FlTXeYxeM=
+@size 34075
+share/locale/hu/LC_MESSAGES/bash.mo
+@sha 0Tm6uRKNbRAoJN92PXbSb5o29CDpemA/CUs5yofCpQY=
+@size 110947
+share/locale/id/LC_MESSAGES/bash.mo
+@sha v8vhYZ5ehgsHj8WNxNwmXO9tJMVBzgqySTzJ+aEKhek=
+@size 108579
+share/locale/it/LC_MESSAGES/bash.mo
+@sha 5+BxjcsTaVXvLknkA1Q3/JsxeZDMDsqB94a0ThrrVrM=
+@size 122520
+share/locale/ja/LC_MESSAGES/bash.mo
+@sha WcK07lfpOsWC1pbmxNdX0o5pxGGour/Xm30NMJvb6H0=
+@size 133748
+share/locale/lt/
+share/locale/lt/LC_MESSAGES/
+share/locale/lt/LC_MESSAGES/bash.mo
+@sha IPWgczI88VJXu4HuFzaZbai+Sn3Kn8fnXeUMWdO25DU=
+@size 29354
+share/locale/nl/LC_MESSAGES/bash.mo
+@sha 3WU7ww7Iqp00YIAIhGMQfUNuKLhrlnaMXR/7W3bc2/o=
+@size 170658
+share/locale/pl/LC_MESSAGES/bash.mo
+@sha lTWD2q8o/0ORsbonkJ6624l5LQ5sPp8RuTWCniqD6UI=
+@size 173751
+share/locale/pt_BR/LC_MESSAGES/bash.mo
+@sha hUSWNrSAK1KW7G0Qb1AcelH44ba6HNLnFTukQigpsQA=
+@size 9580
+share/locale/ro/LC_MESSAGES/bash.mo
+@sha RlTABxW9RGSQobHE7ek7bOkTWDrj2JoeGnrHg83Yfi4=
+@size 9358
+share/locale/ru/LC_MESSAGES/bash.mo
+@sha PzJbAKvJq1bU7KqB1kgNwaVjYRWUd3pMnHYW3h/KSYE=
+@size 9155
+share/locale/sk/LC_MESSAGES/bash.mo
+@sha 0XID/PWot5EloE4BF7hPDJW+yzbJjcr4QkbCdoeOqd8=
+@size 121115
+share/locale/sl/LC_MESSAGES/bash.mo
+@sha BpzjJpBwpLmW3apu26KQZ375LGz9ibu1FgOJG74vEEA=
+@size 117289
+share/locale/sr/LC_MESSAGES/bash.mo
+@sha 1TpfAnonfdoi1JAuNqaHTuwRijpZ0hdlIKi64/2FIKs=
+@size 219040
+share/locale/sv/LC_MESSAGES/bash.mo
+@sha fXQyxREYxOML7vhjc+bgyrWmxd7OOPsgxOhHSTz0GqU=
+@size 165974
+share/locale/tr/LC_MESSAGES/bash.mo
+@sha W322CbAGTgpc+PChg4auh3IkwLIuNZ5zLurqscAiLgI=
+@size 88390
+share/locale/uk/LC_MESSAGES/bash.mo
+@sha 8gAghk8Hyc7bvyYfCox0AFH2+YvuSAtDDNT9AgTeB+Y=
+@size 222687
+share/locale/vi/LC_MESSAGES/bash.mo
+@sha 3fEMCACtlRb1cRABicf0ytCE+QOwsnBUvaBUYaD7HLA=
+@size 179349
+share/locale/zh_CN/LC_MESSAGES/bash.mo
+@sha EzL0UviDgUS9zummP9sMOnoQB02cUJ5+LGLXTUEM3ig=
+@size 102094
+share/locale/zh_TW/LC_MESSAGES/bash.mo
+@sha QHmn1g++NWKA4PVxN2gJe0Omsh+DuhAQKhnMuhDp8cY=
+@size 5876

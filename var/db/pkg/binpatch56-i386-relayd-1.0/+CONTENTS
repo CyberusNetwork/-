@@ -1,0 +1,32 @@
+@name binpatch56-i386-relayd-1.0
+@url https://stable.mtier.org/updates/5.6/i386/binpatch56-i386-relayd-1.0.tgz
+@signer mtier-56-pkg
+@digital-signature signify:2014-11-17T19:58:31Z:RWQQss3E1pCsG/R3lf+C1rLDPMTiHExJZpJ6AxsAsxiJ3xu2E3Cj9OZsuxwMszAOr1oAKP/zlxVVI1PEhiGr/1o/XJdtSRa3SgY=
+@option manual-installation
+@option always-update
+@comment pkgpath=/binpatch/56/relayd cdrom=yes ftp=yes
+@arch i386
++DESC
+@sha tBAAvfftH62QuBO/dUbocM1fa4oX+yYWWL3KzZJCZKw=
+@size 126
+@cwd /
+@comment patch for 006_relayd.patch
+var/db/binpatch/5.6-006/fake/usr/
+var/db/binpatch/5.6-006/fake/usr/sbin/
+var/db/binpatch/5.6-006/fake/usr/sbin/relayd
+@sha KAAsD4B7ZCxS0+7QNpCBOU5op3aAg9VtF5bgeFGh828=
+@size 218960
+@unexec /var/db/binpatch/5.6-006/install.sh rollback 006 /var/db/binpatch all
+var/db/binpatch/5.6-006/PLIST
+@sha 2R2iAOgOuUnn1Wx98nKVauO1ViZIASDU0Sq0/5x1qt8=
+@size 95
+var/db/binpatch/5.6-006/install.sh
+@sha LUC9g1EWUG1Tehl4L4oaR2fDEj2nuWtzzvTXZZagxDw=
+@size 4215
+@exec /var/db/binpatch/5.6-006/install.sh install 006 /var/db/binpatch all
+var/db/binpatch/5.6-006/patches/
+var/db/binpatch/5.6-006/patches/006_relayd.patch
+@sha XiEXTgY4XYqdEb8W39liDQNXNkyWFyIvsY9id71slF0=
+@size 1436
+var/db/binpatch/5.6-006/fake/
+var/db/binpatch/5.6-006/

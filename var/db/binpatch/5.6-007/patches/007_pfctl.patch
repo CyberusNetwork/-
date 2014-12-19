@@ -1,0 +1,141 @@
+
+OpenBSD 5.6 errata 7, Nov 17, 2014:  A PF rule using an IPv4 address
+followed by an IPv6 address and then a dynamic address, e.g. "pass
+from {192.0.2.1 2001:db8::1} to (pppoe0)", will have an incorrect /32
+mask applied to the dynamic address.
+
+Apply patch using:
+
+    signify -Vep /etc/signify/openbsd-56-base.pub -x 007.pfctl.patch.sig \
+        -m - | (cd /usr/src && patch -p0)
+
+Then build and install pfctl:
+    cd /usr/src/sbin/pfctl
+    make obj
+    make
+    make install
+
+Index: sbin/pfctl/parse.y
+===================================================================
+RCS file: /cvs/src/sbin/pfctl/parse.y,v
+retrieving revision 1.636
+retrieving revision 1.636.4.1
+diff -u -p -r1.636 -r1.636.4.1
+--- sbin/pfctl/parse.y	2 Jul 2014 13:03:41 -0000	1.636
++++ sbin/pfctl/parse.y	29 Oct 2014 15:29:33 -0000	1.636.4.1
+@@ -4516,7 +4516,7 @@ expand_rule(struct pf_rule *r, int keepr
+ 	char			 tagname[PF_TAG_NAME_SIZE];
+ 	char			 match_tagname[PF_TAG_NAME_SIZE];
+ 	u_int8_t		 flags, flagset, keep_state;
+-	struct node_host	*srch, *dsth;
++	struct node_host	*srch, *dsth, *osrch, *odsth;
+ 	struct redirspec	 binat;
+ 	struct pf_rule		 rb;
+ 	int			 dir = r->direction;
+@@ -4607,6 +4607,18 @@ expand_rule(struct pf_rule *r, int keepr
+ 		    r->af, src_host, src_port, dst_host, dst_port,
+ 		    proto->proto);
+ 
++		osrch = odsth = NULL;
++		if (src_host->addr.type == PF_ADDR_DYNIFTL) {
++			osrch = src_host;
++			if ((src_host = gen_dynnode(src_host, r->af)) == NULL)
++				err(1, "expand_rule: calloc");
++		}
++		if (dst_host->addr.type == PF_ADDR_DYNIFTL) {
++			odsth = dst_host;
++			if ((dst_host = gen_dynnode(dst_host, r->af)) == NULL)
++				err(1, "expand_rule: calloc");
++		}
++
+ 		error += check_netmask(src_host, r->af);
+ 		error += check_netmask(dst_host, r->af);
+ 
+@@ -4757,6 +4769,14 @@ expand_rule(struct pf_rule *r, int keepr
+ 			    uid, gid, rcv, icmp_type, anchor_call);
+ 		}
+ 
++		if (osrch && src_host->addr.type == PF_ADDR_DYNIFTL) {
++			free(src_host);
++			src_host = osrch;
++		}
++		if (odsth && dst_host->addr.type == PF_ADDR_DYNIFTL) {
++			free(dst_host);
++			dst_host = odsth;
++		}
+ 	))))))))));
+ 
+ 	if (!keeprule) {
+Index: sbin/pfctl/pfctl_parser.c
+===================================================================
+RCS file: /cvs/src/sbin/pfctl/pfctl_parser.c,v
+retrieving revision 1.298
+retrieving revision 1.298.6.1
+diff -u -p -r1.298 -r1.298.6.1
+--- sbin/pfctl/pfctl_parser.c	20 Jan 2014 02:59:13 -0000	1.298
++++ sbin/pfctl/pfctl_parser.c	29 Oct 2014 15:29:34 -0000	1.298.6.1
+@@ -1244,16 +1244,12 @@ int
+ check_netmask(struct node_host *h, sa_family_t af)
+ {
+ 	struct node_host	*n = NULL;
+-	struct pf_addr	*m;
++	struct pf_addr		*m;
+ 
+ 	for (n = h; n != NULL; n = n->next) {
+ 		if (h->addr.type == PF_ADDR_TABLE)
+ 			continue;
+ 		m = &h->addr.v.a.mask;
+-		/* fix up netmask for dynaddr */
+-		if (af == AF_INET && h->addr.type == PF_ADDR_DYNIFTL &&
+-		    unmask(m, AF_INET6) > 32)
+-			set_ipmask(n, 32);
+ 		/* netmasks > 32 bit are invalid on v4 */
+ 		if (af == AF_INET &&
+ 		    (m->addr32[1] || m->addr32[2] || m->addr32[3])) {
+@@ -1263,6 +1259,30 @@ check_netmask(struct node_host *h, sa_fa
+ 		}
+ 	}
+ 	return (0);
++}
++
++struct node_host *
++gen_dynnode(struct node_host *h, sa_family_t af)
++{
++	struct node_host	*n;
++	struct pf_addr		*m;
++
++	if (h->addr.type != PF_ADDR_DYNIFTL)
++		return (NULL);
++
++	if ((n = calloc(1, sizeof(*n))) == NULL)
++		return (NULL);
++	bcopy(h, n, sizeof(*n));
++	n->ifname = NULL;
++	n->next = NULL;
++	n->tail = NULL;
++
++	/* fix up netmask */
++	m = &n->addr.v.a.mask;
++	if (af == AF_INET && unmask(m, AF_INET6) > 32)
++		set_ipmask(n, 32);
++
++	return (n);
+ }
+ 
+ /* interface lookup routines */
+Index: sbin/pfctl/pfctl_parser.h
+===================================================================
+RCS file: /cvs/src/sbin/pfctl/pfctl_parser.h,v
+retrieving revision 1.102
+retrieving revision 1.102.4.1
+diff -u -p -r1.102 -r1.102.4.1
+--- sbin/pfctl/pfctl_parser.h	19 Apr 2014 14:22:32 -0000	1.102
++++ sbin/pfctl/pfctl_parser.h	29 Oct 2014 15:29:34 -0000	1.102.4.1
+@@ -265,6 +265,7 @@ extern const struct pf_timeout pf_timeou
+ void			 set_ipmask(struct node_host *, u_int8_t);
+ int			 check_netmask(struct node_host *, sa_family_t);
+ int			 unmask(struct pf_addr *, sa_family_t);
++struct node_host	*gen_dynnode(struct node_host *, sa_family_t);
+ void			 ifa_load(void);
+ unsigned int		 ifa_nametoindex(const char *);
+ char			*ifa_indextoname(unsigned int, char *);

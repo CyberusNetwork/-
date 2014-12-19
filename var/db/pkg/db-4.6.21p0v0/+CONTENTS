@@ -1,0 +1,3722 @@
+@comment $OpenBSD: PLIST-main,v 1.3 2013/07/05 12:03:52 espie Exp $
+@comment $OpenBSD: PFRAG.shared-main,v 1.2 2013/07/05 12:03:52 espie Exp $
+@name db-4.6.21p0v0
+@url http://ftp.fr.openbsd.org/pub/OpenBSD/5.6/packages/i386/db-4.6.21p0v0.tgz
+@signer openbsd-56-pkg
+@digital-signature signify:2014-08-02T10:55:56Z:RWSPEf7Vpp2j0B690HaZp+ER4odqo/xCLpvKJtFsX9Z0vaxpz0r645MIupaOMF2ibaaREc86HEFxfL4rgDuR1etA5CUsvMWMyAU=
+@option no-default-conflict
+@comment pkgpath=databases/db/v4,-main cdrom=yes ftp=yes
+@arch i386
++DESC
+@sha SclyMmoSbvFh0NdnZ1CzUQXLIB0j5Hx3KUl9PmiJuZI=
+@size 1131
+@conflict db->=4,<5
+@pkgpath databases/db/v4,no_tcl
+@pkgpath databases/db/v4
+@wantlib c.77.0
+@wantlib m.9.0
+@wantlib stdc++.57.0
+@cwd /usr/local
+bin/db4_archive
+@sha nMDhUseYXV7ViM8flOyZIgLZ4XwcXH/auhEI3eHuylc=
+@size 10000
+bin/db4_checkpoint
+@sha il/e3w8MRVzu3hz9CRtAZvbIem31JNHgB2akeVKRRYY=
+@size 10192
+bin/db4_codegen
+@sha bUnFczzE60jiBgXDsPWirhehii7nvdxj+cvw/X8u5FM=
+@size 23088
+bin/db4_deadlock
+@sha dhqeBnByXWbWcSWJPNJTHjReq7X0J2PcVIU2cXIR6pI=
+@size 10160
+bin/db4_dump
+@sha NMxZF7lC/GAzO3SMzyOcafTx3+hcxVZ6fej29AhKPaE=
+@size 14640
+bin/db4_dump185
+@sha P+kiS57CdZMj873Fh69DUZNu2E39KGBq31WzHB2bumI=
+@size 9968
+bin/db4_hotbackup
+@sha mFz/A8tBvROoqfW0fZlxyL0nJb21ta6G28+DffzIM3k=
+@size 19472
+bin/db4_load
+@sha BDaxvSnczgUdLDwT9vINc1ziXDSWShTRMMjCIe4/KF8=
+@size 23536
+bin/db4_printlog
+@sha ZvIGQvyJzL4ZxYZZzgLiMg9kOVJL8WQmGrMIFR0PIaE=
+@size 59248
+bin/db4_recover
+@sha OL0dSxVHizrYbTzfd98vKJQro0ueI/bU8Up+g5RrGC0=
+@size 10192
+bin/db4_stat
+@sha Abx/WP8izWwANkizh3gK6h57wb/E0Z3zfuB1jqVMpus=
+@size 10288
+bin/db4_upgrade
+@sha WNT+zyKADJkFHG+apvicjvUTEvntAfA42IW3bqnSitY=
+@size 10128
+bin/db4_verify
+@sha k9kOLEcA+H0tHaXXhNbXcEVEC883/M6Ur0LyWb9faEo=
+@size 10096
+include/db4/
+include/db4/db.h
+@sha KndO2u4h6TlyEuoRKaKh3TqejfTLL2o8sHMGQncn3oc=
+@size 107147
+include/db4/db_185.h
+@sha 1BsCjcI+b8Me067iLmLBuSbFKWT1wTCrl+5mmnv5fqo=
+@size 6010
+include/db4/db_cxx.h
+@sha hS4bACf2uZLkT+q+ZGKGTorwj5688wqQZ628XQxS9nc=
+@size 38220
+lib/db4/
+@comment can't losed the SHARED: .la don't get built if !shared
+@lib lib/db4/libdb.so.5.0
+@sha 1pefMbm5gXK24tToher6p5ncdVnYTI6FxWDnvupIb+8=
+@size 1180688
+lib/db4/libdb.la
+@sha a421p5R+OdlFJVswYHtGE563+nADjuwaTBSM4IOS+pA=
+@size 709
+@lib lib/db4/libdb_cxx.so.6.0
+@sha PWgF5CeWMJYQYe5G0yMf98gvC94NpUs/y6mR+5MfK2A=
+@size 1299260
+lib/db4/libdb_cxx.la
+@sha Y/e9vz8iWsYjV/nuCI8Gw4nxcJDe5KyP9/q+BBz6y+E=
+@size 729
+@lib lib/libdb.so.5.0
+@symlink db4/libdb.so.5.0
+@lib lib/libdb_cxx.so.6.0
+@symlink db4/libdb_cxx.so.6.0
+lib/db4/libdb.a
+@sha mz/nd68ON4giJzGldM3/Rnz8CND6DM3VGxQMLwLuf/4=
+@size 1705266
+lib/db4/libdb_cxx.a
+@sha DBTTsibnJvGEEA4vNVvoNMkmbsyeOBlCt7m3DZdThNA=
+@size 1883086
+share/doc/db4/
+share/doc/db4/api_c/
+share/doc/db4/api_c/api_core.html
+@sha 3H/knZ9NlX5Z6fRdGmkasZfMFNX5+giUYz+eVVqVQh0=
+@size 29518
+share/doc/db4/api_c/c_pindex.html
+@sha Bz85dQKNW8wCG5i9ySWmW5X3wRdMwbkOV6SfeRmdCt8=
+@size 85444
+share/doc/db4/api_c/db_associate.html
+@sha aaVa5SikpNLhpbrTS5JCdUWIJ91h91C+pcLI4PqbyhQ=
+@size 10478
+share/doc/db4/api_c/db_class.html
+@sha Oy/oeeu4QvFOHYvXt9xrxSKAbSFLJBlubSXPRHhJ2Bs=
+@size 4775
+share/doc/db4/api_c/db_close.html
+@sha VY74/ve4CkEJ59UuCUFJNnVJbGo+0ES/5Y5HG8h5Djc=
+@size 4308
+share/doc/db4/api_c/db_compact.html
+@sha iMw5fJ0sNIANeFqWomNbILbi8bjadURvCE1HCRzAtLg=
+@size 6732
+share/doc/db4/api_c/db_cursor.html
+@sha xrL8bFq0tkSJL1ZDc/6djjV4f4EVKmC6O11qlvyxu2Y=
+@size 4823
+share/doc/db4/api_c/db_del.html
+@sha gYNEb0lPHPNBwGJfM4LCA2XDy1I+sB+alhNdz1fHPzQ=
+@size 4156
+share/doc/db4/api_c/db_err.html
+@sha REsW8ziIdDB+CpMSW7+EqVCeMAWzbrxDLtkrlk5ayAw=
+@size 4332
+share/doc/db4/api_c/db_exists.html
+@sha 0e+z0gnUlDtNX7z83KauqiZw+o8YLJ2y71gFQOMwBNM=
+@size 4001
+share/doc/db4/api_c/db_fd.html
+@sha BzuwOtR0TQZ9ZBMOoXYwPRPJ0zRljoiFOb3mCHGmGv8=
+@size 2213
+share/doc/db4/api_c/db_get.html
+@sha vQwt+fA6fp93RX5qOdCckc66DU/tmSZtT7pwV1z2Ewk=
+@size 10767
+share/doc/db4/api_c/db_get_byteswapped.html
+@sha 3SnK1C3mJwcqNbtoyAm9U+CNUmjwcFn6a+T0m9zM5Qc=
+@size 2804
+share/doc/db4/api_c/db_get_mpf.html
+@sha GTa+tV7EfcwNeP764+DyAP4A4DUL+Zc4OS85ugI4nNk=
+@size 1627
+share/doc/db4/api_c/db_get_type.html
+@sha uFe8Os/XNH/FxvdGuN5nOTnrwURYm3Y7P0b9qBf/yRg=
+@size 2482
+share/doc/db4/api_c/db_getenv.html
+@sha L6RRJCem0AWxAuQDQpt3+3plVIUZlsuSuxj8zsiDMog=
+@size 1631
+share/doc/db4/api_c/db_join.html
+@sha +PCCY8+rhD8VBloAD/emr+B/aF+hXwlKLustewI6vRQ=
+@size 6624
+share/doc/db4/api_c/db_key_range.html
+@sha BTOXn0JhMkHz5IdOY/3pcTzR9AASESZsk6e2SWHUeCI=
+@size 4650
+share/doc/db4/api_c/db_list.html
+@sha eDJOdpYQnobVr7C+wUM6Lbz1pcLEXZGNvzZn8gPtGiA=
+@size 7790
+share/doc/db4/api_c/db_open.html
+@sha 2VbPq/r16GoK3auDRu9+ESSLOgvPUqFiQMxWsyIK8eU=
+@size 14441
+share/doc/db4/api_c/db_put.html
+@sha cUHk3vl0kMIcIe7qTKKpRxxrKDu8ClVs0gBCn8qGjR4=
+@size 5837
+share/doc/db4/api_c/db_remove.html
+@sha BrtXb7cYrt9kPctBYzi8gHQtGxwIjixHdqjp46m/bAA=
+@size 4348
+share/doc/db4/api_c/db_rename.html
+@sha YlQTItkLFncIfO7DvVBRlibfq6uyMR/A+WWOs5d15gU=
+@size 4537
+share/doc/db4/api_c/db_set_alloc.html
+@sha gXSLYYlzKQp7lLLoWZmdd2beoCPepYT7ug9PX791XdQ=
+@size 4618
+share/doc/db4/api_c/db_set_append_recno.html
+@sha LjSfMFWjMEGcRD5Pvk14eKOiRPfTJZ4XZz2NjEeTUHg=
+@size 3961
+share/doc/db4/api_c/db_set_bt_compare.html
+@sha Hshzu92ku3s3TSM/vfyi5QRlbUOhT8vHrUlry7k2IPQ=
+@size 4336
+share/doc/db4/api_c/db_set_bt_minkey.html
+@sha +TCqHelEE0m/963+57//6SI8d+4nO6Cmo0LNqiASams=
+@size 3663
+share/doc/db4/api_c/db_set_bt_prefix.html
+@sha sbVuXiWIqwsbSqvHbfarqwrwnGfEq2IewVrbJzpPMhk=
+@size 4572
+share/doc/db4/api_c/db_set_cachesize.html
+@sha eT+7/NPSoRxVvK56TamZTiUqv9dN3FgYTK1aynrESjM=
+@size 4903
+share/doc/db4/api_c/db_set_dup_compare.html
+@sha eqPJrLhbodlXgR3oaYkZ3wpqKorF1W3j6zzZq5kSFNU=
+@size 4078
+share/doc/db4/api_c/db_set_encrypt.html
+@sha CaKbCJZHfwZTdPtu8M1/yj6QqNbB8L1hG9Q7idJAcm0=
+@size 3490
+share/doc/db4/api_c/db_set_errcall.html
+@sha HZJbPseyarqUyAeyOjoqLbtAmKy6C9qSNobU5e5HJBU=
+@size 4235
+share/doc/db4/api_c/db_set_errfile.html
+@sha yj9MlgjTRe8jovuUmKJBYvpqGEO57otKgY9mG0EXFrw=
+@size 5087
+share/doc/db4/api_c/db_set_errpfx.html
+@sha Dcf/F2H4ureFy+n598SshA8p3AHaKzZGFnPlN3Lp5gk=
+@size 3282
+share/doc/db4/api_c/db_set_feedback.html
+@sha LLu1A6vkSVMG6c1ZchoA9e7x3GTHfrNElO0BdjDiHGE=
+@size 3302
+share/doc/db4/api_c/db_set_flags.html
+@sha jjp+ZBOr09D0OW+bP3N5ZpjYx1qEOPPHXdYfmUjpHvg=
+@size 16188
+share/doc/db4/api_c/db_set_h_compare.html
+@sha Vr1HC7Khj1t46vzZH33C4ksCY9t4TJQ4APCxweHm1wI=
+@size 3949
+share/doc/db4/api_c/db_set_h_ffactor.html
+@sha Lu5RGiQ3kXITTtmyBys/f36FzDqpESreTu0abwzntkQ=
+@size 3600
+share/doc/db4/api_c/db_set_h_hash.html
+@sha /ndNTxX4P12/KmCjrQ39b90MOrE6DbFFU+i0zacPPUk=
+@size 3222
+share/doc/db4/api_c/db_set_h_nelem.html
+@sha p6LyTUVMQCetl3MjX8c5Ou9AwmJy2N9qY/AZcpZV47s=
+@size 3441
+share/doc/db4/api_c/db_set_lorder.html
+@sha frGfdLbVS6qA+qrhs2+ayW6tVhbI0XYSw5sJCjC+VP4=
+@size 3712
+share/doc/db4/api_c/db_set_msgcall.html
+@sha ckEMYVpoexRtge+MDIWb8Hoz4BblOJvdvpm/Z0Wd464=
+@size 3669
+share/doc/db4/api_c/db_set_msgfile.html
+@sha N/LvS7GsV1+jUbrPz0TAbNUDa+AQfd+rb2hn8WAE/FQ=
+@size 3691
+share/doc/db4/api_c/db_set_pagesize.html
+@sha 4I+NbL0rg1A4jpaKRswxSMsAKKmb03g9V+92zcKw/ak=
+@size 3663
+share/doc/db4/api_c/db_set_priority.html
+@sha qgCuWnNpuqykXzeFktet9nz0w6AGciQmsXUBZXw9Rl0=
+@size 3570
+share/doc/db4/api_c/db_set_q_extentsize.html
+@sha SP8HLjtVgT3Zxv6jPCf3n0TaQJtpR1AHXJXAmSZwMwM=
+@size 3476
+share/doc/db4/api_c/db_set_re_delim.html
+@sha Co/WQ/731fPAM1rcncB1omzNWzDpIjOSXCjfPPfKVH8=
+@size 3360
+share/doc/db4/api_c/db_set_re_len.html
+@sha M7195RUp1c+nDGWuMgYC/2G0EX9e5EMCoLlfsSHDL2E=
+@size 3738
+share/doc/db4/api_c/db_set_re_pad.html
+@sha Mljdg+pPwgEJ+Rbr53o+tN6q/3uUMtx8mRpUMsTUAIo=
+@size 3180
+share/doc/db4/api_c/db_set_re_source.html
+@sha 4PfAKREqp/JlDmhNK78ZBN5b+D4H4wq19A7FkrK9fow=
+@size 6261
+share/doc/db4/api_c/db_stat.html
+@sha jiWNBYEUkCBsW2VB96dhwTR74N/vogfomVQEcGVz/3o=
+@size 13553
+share/doc/db4/api_c/db_sync.html
+@sha qK5zeMOQ0dkMfGSw4+2pYXSjv/d2VhN7Ol0exzALEY8=
+@size 2927
+share/doc/db4/api_c/db_truncate.html
+@sha YXiTzfnZEPBdrs6o0PKtL0xcg594IGGa+Z0RjFs9sAQ=
+@size 3512
+share/doc/db4/api_c/db_upgrade.html
+@sha 11yW2BLbbZ00IEMBQkUtfcbgR4Zwqp+4jEBhSYUdtMA=
+@size 4990
+share/doc/db4/api_c/db_verify.html
+@sha 0fYCQ+z+fi/xWbrcRAivFlskCa7SqrfAbHHSEU3/5qI=
+@size 7766
+share/doc/db4/api_c/dbc_class.html
+@sha rM2W8fKqsV4LVc/+g1T+Zd2Evz384zfgbFKtRl788eM=
+@size 1799
+share/doc/db4/api_c/dbc_close.html
+@sha ZqRkWOvOJc46i9ieJUWQxOHeiMoXHs7okhAPJZRuGeY=
+@size 2587
+share/doc/db4/api_c/dbc_count.html
+@sha ukMy3vRQn92tzrx6sg97J4HJ+p0NmNB6UikhS/6rx4M=
+@size 2456
+share/doc/db4/api_c/dbc_del.html
+@sha ok8AH8R5vM88HeNOTlgsDwAbYjVqfc3Hgbk1KExCcMU=
+@size 3576
+share/doc/db4/api_c/dbc_dup.html
+@sha +9PpB9nukjgsxmixvi+i5yKKBabiZAhtDvWS9vREvBM=
+@size 2899
+share/doc/db4/api_c/dbc_get.html
+@sha Gt5rMcMSZXZOQi5lc813dE9zTx9eQr/p8eucJwoJfgg=
+@size 19554
+share/doc/db4/api_c/dbc_list.html
+@sha hbz+6lfNLv+5DTveuvwIQ1CSGbng4I+/qLq1kNLT9lk=
+@size 1953
+share/doc/db4/api_c/dbc_put.html
+@sha 3NAIcphghJooBPlaMIWUrPYQW+ZH5zHrgUqRH0okKe8=
+@size 8440
+share/doc/db4/api_c/dbc_set_priority.html
+@sha 8Vv1G4Pi0yekDmgVT5SK2yu/u+wSTrovZqpDV55GMC4=
+@size 3608
+share/doc/db4/api_c/dbm.html
+@sha ibdvrwaWF4LOOnffwM+WvK6vZQNVVayMjXggN0brvSA=
+@size 9399
+share/doc/db4/api_c/dbt_bulk.html
+@sha 1M6rW5qqc3QrgM0h0h2Zoxoi4mrQRvS2TTn/I9hcRO4=
+@size 5607
+share/doc/db4/api_c/dbt_class.html
+@sha kR2vZLJ7xpxjSKpmOrjxPXqu8xRfMGBHrjZ5gVklYNE=
+@size 9165
+share/doc/db4/api_c/dbt_package.html
+@sha N//325xxtymMFhCz4gebHxVoF4HewfPUfy4n6oERSdM=
+@size 1392
+share/doc/db4/api_c/env_cdsgroup_begin.html
+@sha ToTFWAqBjIEFP9wQk/JuzD9szYiNlcCH/H78uqohaOY=
+@size 2532
+share/doc/db4/api_c/env_class.html
+@sha D/Rpl4YSCHB6aZ6k3Bm1E7+kXx+reDSjKUyYJd0W5kI=
+@size 3835
+share/doc/db4/api_c/env_close.html
+@sha 6Q5ZeE78GWEoB+kj8HohpyszUEltf4Wi94jPQM2Mxgc=
+@size 4453
+share/doc/db4/api_c/env_dbremove.html
+@sha +xIJbGJzbaGqxlYD3Ks3EnaJwwuo7DZ1ynK0xo06eZQ=
+@size 4697
+share/doc/db4/api_c/env_dbrename.html
+@sha bIf025IpCAKbCrUxKeys8Xuo+xMYP7AmeZttfaUL8yA=
+@size 4892
+share/doc/db4/api_c/env_err.html
+@sha JrhQ1iWHpDQIXeOZUmwC9a9Xecsj5bMWQ+f8paii1EY=
+@size 4317
+share/doc/db4/api_c/env_event_notify.html
+@sha Bqng5y5X0sRHoXnSIRi32Nb6dd2uyklH8Y7vKxx5+XU=
+@size 5817
+share/doc/db4/api_c/env_failchk.html
+@sha SHPIWIG7Oxh9Kk7MBjpWo/0O7nvf19uTYIZRphj+iis=
+@size 4602
+share/doc/db4/api_c/env_fileid_reset.html
+@sha ccaT8+MNDqKS1g6atW63itY/BnhGx5wDsq/dW9nVOtE=
+@size 2877
+share/doc/db4/api_c/env_list.html
+@sha sGwns862fhksaIpNoazApBiPy6P2sczDl0U41eyi0Vs=
+@size 6443
+share/doc/db4/api_c/env_lsn_reset.html
+@sha Y43+NUc1oBJsVD2cc+3Q3TmlYQeNIFQr5P2I2VqJ0aY=
+@size 3179
+share/doc/db4/api_c/env_open.html
+@sha m4ur+FWzhV0RAyoiP0DXAXQmlAomLs8ZiwJNHf/YHek=
+@size 15364
+share/doc/db4/api_c/env_remove.html
+@sha u71+SaEIJ1WeVyrQC1j1T3O1u/pA2bHhqMjonL6clqQ=
+@size 6602
+share/doc/db4/api_c/env_set_alloc.html
+@sha iQgArCUI1RiPrN2myjMwbrUvrfZg8COYvhG3cPTwzD0=
+@size 4924
+share/doc/db4/api_c/env_set_app_dispatch.html
+@sha a0eL1a0/UGI635MkSfDG/kEnnA4Xpz1aUQ7LFUHXqj8=
+@size 4948
+share/doc/db4/api_c/env_set_cache_max.html
+@sha XRGV+nphe0raEq9ZA5A0mwYpdyYUS+dmR2vcnC9wLTQ=
+@size 3968
+share/doc/db4/api_c/env_set_cachesize.html
+@sha q8J3aYEG2EhY+1vb3ZZgbt6RGZfq2+dXh0GkTuW+d1A=
+@size 5842
+share/doc/db4/api_c/env_set_data_dir.html
+@sha F+tCeXrIFcMOKvPthc1o77ZH8Xy4NUMOK2rWngu/rb0=
+@size 4424
+share/doc/db4/api_c/env_set_encrypt.html
+@sha rgcVVhyVW417SKQKyfoU/tUxanqD/w4HpdrqjM8hARU=
+@size 3736
+share/doc/db4/api_c/env_set_errcall.html
+@sha LWyLqxrxzTafJWb5exNG8TaimDasko4nCO4KJZWxoeQ=
+@size 3952
+share/doc/db4/api_c/env_set_errfile.html
+@sha a/Pqbe37i2SBxfmQupv78cYcwH0Mj25lQGtJ45EB4Ak=
+@size 4830
+share/doc/db4/api_c/env_set_errpfx.html
+@sha v2cHv0J0g6v/1+PvxcsnPHHZexOkmsAIuf4gCcjJ4vY=
+@size 3032
+share/doc/db4/api_c/env_set_feedback.html
+@sha zxgcKN1ujAXRW/aFiVCL3Nq6DZPPIbapGQbltAZMSZo=
+@size 3360
+share/doc/db4/api_c/env_set_flags.html
+@sha x5MFovTcGOhqMVNOq28gp2uwfOlj/UXMZMzkUWX/t7k=
+@size 24113
+share/doc/db4/api_c/env_set_isalive.html
+@sha pET4FWF8FIdLrN65kCMqtNLvXEUaH4CQk7ZJcf+mhj0=
+@size 3695
+share/doc/db4/api_c/env_set_lg_bsize.html
+@sha 7fiZHEoHNmGuW2yYJ+7/gI45U0oe7K19+7ghj1rLZ64=
+@size 4872
+share/doc/db4/api_c/env_set_lg_dir.html
+@sha 6pydA3pqiiVxjWxaY2MjtBngpLW+/fE6crCCljsxrjA=
+@size 4357
+share/doc/db4/api_c/env_set_lg_max.html
+@sha KiSCsafHejS5/I7yuBgqsLmXXqyQc+YXi4p7yDAB4k4=
+@size 4935
+share/doc/db4/api_c/env_set_lg_mode.html
+@sha wUGVrX+dnBuXi2e1xJVpvG35vNsOGtmOU2e782rScCE=
+@size 3855
+share/doc/db4/api_c/env_set_lg_regionmax.html
+@sha hdEAnhQFN/8CHhtOHSnHsvgj4IG7rW5TmdeE+mLOA/w=
+@size 4181
+share/doc/db4/api_c/env_set_lk_conflicts.html
+@sha SdQ30VGyLJD8zc0LiWYGc9AR6CfePsmL+Pk/75jt4kE=
+@size 4125
+share/doc/db4/api_c/env_set_lk_detect.html
+@sha I8OkMHiPw4/VWw6c3U36Kq9TBoGQImLjKDoaAyOtJpA=
+@size 4931
+share/doc/db4/api_c/env_set_lk_max_lockers.html
+@sha DtUQMbyT0JtzEy24CDaJ2JkAamkVHne4zQA8/x8f/So=
+@size 4175
+share/doc/db4/api_c/env_set_lk_max_locks.html
+@sha ATFhoTESr3GAR3JJSQLy4IooMOfLUp1FA6JmirRK3Ls=
+@size 4098
+share/doc/db4/api_c/env_set_lk_max_objects.html
+@sha rZOak7ZLI/D8ac8yFsT/ebgdn77MZEXiWElmjSpi4sY=
+@size 4175
+share/doc/db4/api_c/env_set_mp_mmapsize.html
+@sha zSb/VG7XKULgTtcdIurxldzdef50Aq9oFpPsWFB78UA=
+@size 4224
+share/doc/db4/api_c/env_set_msgcall.html
+@sha oUt9h3cXO6Vgny3pIKH8kXGnNuJsfro6g7fe66qpqrs=
+@size 3438
+share/doc/db4/api_c/env_set_msgfile.html
+@sha G6PFrS63Bb6nTACYpoMoav/xXug2IXC0d/Ab6iZwxBU=
+@size 3439
+share/doc/db4/api_c/env_set_rpc_server.html
+@sha 3ChPtVTbpUeh25zi23C+nkt3tvO2uwKet45GMbU+1jw=
+@size 4091
+share/doc/db4/api_c/env_set_shm_key.html
+@sha V5tkXRirM/mccNdGMWr3HeiABnmajDvocAgAZtvHENk=
+@size 5100
+share/doc/db4/api_c/env_set_thread_count.html
+@sha Fc1xz+1RNrHoTfAUmW3oORmN/1Hvle7470Q3Ms64yt4=
+@size 4811
+share/doc/db4/api_c/env_set_thread_id.html
+@sha c+Mws/eKLBZ6qMrve7bppk4DHoHIHTVNUPv0dyjqV04=
+@size 6482
+share/doc/db4/api_c/env_set_thread_id_string.html
+@sha Gvc6a0kJF6u4El70vowCxZF6+I38IMix3cEvoSNSoVk=
+@size 3615
+share/doc/db4/api_c/env_set_timeout.html
+@sha LbfBYeYqY4W5SEvBEJfc5LVqAxwcFK/h2AHnJtzGbfY=
+@size 5564
+share/doc/db4/api_c/env_set_tmp_dir.html
+@sha ORgOFrUkzkJ5qQrKjG8j00jk/eSqBnozSeKyvW7LUTs=
+@size 5120
+share/doc/db4/api_c/env_set_tx_max.html
+@sha 42drdW8/NzMJFH8XGu3GygsG4Nvb+93+z6G3aG4Thj8=
+@size 4520
+share/doc/db4/api_c/env_set_tx_timestamp.html
+@sha UZXFM63Ds2USPkkIu5MExjVUV5A4CqDjUGKWBZ4rte4=
+@size 3684
+share/doc/db4/api_c/env_set_verbose.html
+@sha VSp9JvXVJ38xf28Yt7+GK7/gmxgBeHLBjRmpAA9juFY=
+@size 5368
+share/doc/db4/api_c/env_stat.html
+@sha WtJ15QYIuC3u2E5BeLdeMRhRprNa6L+7L5v4jtgKxoU=
+@size 2635
+share/doc/db4/api_c/env_strerror.html
+@sha JK5agX5F3Thu+ekmbg/z3gWeezIevFbrrWJkXhNtV2k=
+@size 2179
+share/doc/db4/api_c/env_version.html
+@sha oY6XhpV2TBvuCsVVV7s21mMEBqWZ/KHIhnZvwGByAEI=
+@size 2040
+share/doc/db4/api_c/frame.html
+@sha e1ALOu48aG9ct/nWdyi5MWTW8l/ksd2I3TN4m9zdWkQ=
+@size 666
+share/doc/db4/api_c/hsearch.html
+@sha T5/RoelOOH8NjpTa8WK/wyyiLlClCdpSVSfE1cTVZe0=
+@size 4190
+share/doc/db4/api_c/lock_class.html
+@sha 8xATwHIrOuZQ8QbECqIlL+JtOYjo2c5wnYHUZWprST4=
+@size 1665
+share/doc/db4/api_c/lock_detect.html
+@sha V4U2yvSJbInjRCMS0dSWsfqxs9WsL8PNoQ8aZr0TDRo=
+@size 4054
+share/doc/db4/api_c/lock_get.html
+@sha Ic/N9fC/EYz5PpuWHXhTZza9F1mHjCDpkKcC0nilbhM=
+@size 4260
+share/doc/db4/api_c/lock_id.html
+@sha TD2m/wIJO/3tV8yVWMNMMq5TElMfsfJvETvF3YgD/3c=
+@size 2122
+share/doc/db4/api_c/lock_id_free.html
+@sha ina6dE6qqo5HKWfs0SWUKkjpsVvV9JIP5mDpJa1rN0U=
+@size 2176
+share/doc/db4/api_c/lock_list.html
+@sha dLcdY+wCdlKvgMnByCe5ADn0QY4MTB8cq7XaSXx8Oiw=
+@size 3111
+share/doc/db4/api_c/lock_put.html
+@sha dosfYqjyDe3xh4+Y18r1N51CGOJNbvOQMeEKeQv6d/E=
+@size 1994
+share/doc/db4/api_c/lock_stat.html
+@sha 9Gb5qfLr5/uLmiCSZeCJAsiEUb+sJ5aOzHfbP0BoLNs=
+@size 7885
+share/doc/db4/api_c/lock_vec.html
+@sha iBzN5y2f94ZUTHScVweE3DNvIWJdF5HjfEZj1gkZjJo=
+@size 8280
+share/doc/db4/api_c/log_archive.html
+@sha 7QJLchO0OcGHw4Az7G8z8XZ5bgIjkJRA7DDUMG7HRb8=
+@size 6048
+share/doc/db4/api_c/log_compare.html
+@sha NX3FXQ0tWlELY0/Eb/CsJmtz9EGxt5/KxsbbZjl8FuM=
+@size 1988
+share/doc/db4/api_c/log_cursor.html
+@sha TShKbwFUw9E0bdvBQC7akHaszr0gIAg7q30ng75Yxkk=
+@size 2231
+share/doc/db4/api_c/log_file.html
+@sha dwbK26l17Y5jXDuRwAUN5IW5nNt/5BK7VN2hFJ0tXaI=
+@size 3065
+share/doc/db4/api_c/log_flush.html
+@sha V4M7cJUKSb8P+2bFmwTO5x8EYARqXVPWKaPNglCf7G0=
+@size 2203
+share/doc/db4/api_c/log_list.html
+@sha 2Mv95oaKhR2lR9kY6Jm0gXTFkdB4gfnrVqfyzkjfzLs=
+@size 3200
+share/doc/db4/api_c/log_printf.html
+@sha gLcMpvN2IyVE+9NY/4wKgXoSaDckzHYf6ORo9y26Xcc=
+@size 2869
+share/doc/db4/api_c/log_put.html
+@sha hLhz4ny9ODOfyCq4VUhhfoh74bmk5A1iqlIIS30JRzo=
+@size 3357
+share/doc/db4/api_c/log_stat.html
+@sha B4SSHkh9+48+VaccwdoOHUM6sOdeauA4sNlGSu2JfWc=
+@size 6515
+share/doc/db4/api_c/logc_class.html
+@sha voqxYmRsIYTnS/pnn4RYgMm49drZx+DBYEE53ScD7U4=
+@size 1816
+share/doc/db4/api_c/logc_close.html
+@sha GPcLfB0lNF8jIqXFceUjJ7feDzvZA2M80kJMFtRgoVA=
+@size 2205
+share/doc/db4/api_c/logc_get.html
+@sha PZCbaX8MqBJfboFRrejrb7cKy1K+jeLVKhhkojyeq9M=
+@size 5636
+share/doc/db4/api_c/lsn_class.html
+@sha najnXF8HVLyhRbQouTqsfkpJZqm1bcGmKv/jmCZjneM=
+@size 1722
+share/doc/db4/api_c/memp_fclose.html
+@sha oh0gCe9jztuvg9M/CfA510W1cRjtzy06ICAcbxSCo2Q=
+@size 2521
+share/doc/db4/api_c/memp_fcreate.html
+@sha pc6/KJngwjXaa119FkGXTu4ekky3GWiijBxyEARYyP0=
+@size 2199
+share/doc/db4/api_c/memp_fget.html
+@sha f9mzE+zELQh8dmOlNSOvlE7QWiZ/IE7ygEPNW/uFo0c=
+@size 6154
+share/doc/db4/api_c/memp_fopen.html
+@sha YZ9M9r7i8XDDAdt/tBABTBDXHKZ+U2fszrno2a4ln+Q=
+@size 5380
+share/doc/db4/api_c/memp_fput.html
+@sha /OE12uNUBkEXfAXDUCv6r8TXXK1Bkz+QEdZJ7I4c8fw=
+@size 3102
+share/doc/db4/api_c/memp_fsync.html
+@sha jbHwQVrybbmswdpkOAv9s4qw9IYiza2hkUsTB6VKtHs=
+@size 1918
+share/doc/db4/api_c/memp_list.html
+@sha OM7g5V0W9hQ1GO9RI5njWNP+DuUixlKshEJx7BtTFeA=
+@size 4925
+share/doc/db4/api_c/memp_maxwrite.html
+@sha 2U+MEpQX3kiRAFmQhrLkxuoVNVabvgm49TMeondDTBk=
+@size 3462
+share/doc/db4/api_c/memp_openfd.html
+@sha wMj4bi/aEyvB1huLsKy//Jl5FU1VvxxPo5JQgr7V/YU=
+@size 2870
+share/doc/db4/api_c/memp_register.html
+@sha 3xdmQgvLYZ9asmSrWYeFWym0UXjiwZ4IFJXfDef1ojk=
+@size 3943
+share/doc/db4/api_c/memp_set_clear_len.html
+@sha V5ZTGJcbm7kgwp78c4S7WUmUvDaO3yoOR3ZEc4gZvBo=
+@size 3622
+share/doc/db4/api_c/memp_set_fileid.html
+@sha XSOChTDyOlB4celo5T7nr8R4L9v3xE+2EGzqhOM+UtM=
+@size 4387
+share/doc/db4/api_c/memp_set_flags.html
+@sha UBb8NfKQUUxJZ4AElv8+5lB4PfCbkcM/Ua/kr4YfV0M=
+@size 3824
+share/doc/db4/api_c/memp_set_ftype.html
+@sha rEzKYOejqrVjrcoLZ4GZ7omHVRmow90g5INqU1BkthU=
+@size 3435
+share/doc/db4/api_c/memp_set_lsn_offset.html
+@sha u/dYB/K/ojpYUIMoyGupdFpGn6rYtGHWdqZ713MpYo8=
+@size 3509
+share/doc/db4/api_c/memp_set_maxsize.html
+@sha Tg96X2ytFvx2X3+VV72V74BihLbWF8F+nE17RlTwAmo=
+@size 3517
+share/doc/db4/api_c/memp_set_pgcookie.html
+@sha rN6kvp7t+gEfEYhe4HatATpQFUPyC03m+CSoNK7GovM=
+@size 3408
+share/doc/db4/api_c/memp_set_priority.html
+@sha 8zE8JKgG2civwQ2j6p9UM+yxnrGRTJwicW9JHWK4OHk=
+@size 4321
+share/doc/db4/api_c/memp_stat.html
+@sha kuPaxr6uqqjzjPB3+40zif4+IIIRoYKv7hI96FpGb3U=
+@size 9671
+share/doc/db4/api_c/memp_sync.html
+@sha bgGpm2raXK0+UOUBpECAkCY3CSibOldshcpdJ8S2rv8=
+@size 2425
+share/doc/db4/api_c/memp_trickle.html
+@sha HJzTtTFtwV1G5h0YuwUpmvuHzXThfoNoubtSpuwVGy0=
+@size 2549
+share/doc/db4/api_c/mempfile_class.html
+@sha 3lj1+ozvT/zRGPVAK79Hd/or0U4P3SErXSilAZ6oaB0=
+@size 2771
+share/doc/db4/api_c/mutex_alloc.html
+@sha fpP40E//T9qoIGmfj0gdKcIgBNvOczpcdK7fHkj8Jqk=
+@size 3093
+share/doc/db4/api_c/mutex_free.html
+@sha m3XKH+PzMnY1jNuSAi7uSBEvxEM8ZTjXG+/uHcVYc6w=
+@size 2260
+share/doc/db4/api_c/mutex_list.html
+@sha uYUDcyhkBCCixcmf8ViOUOK8lnHgGzi2WtMymZEzUyU=
+@size 2232
+share/doc/db4/api_c/mutex_lock.html
+@sha TNOT1KAfOPTY5A9a/t+9wDcWqmJpHn3xmqu8+RVecFc=
+@size 2352
+share/doc/db4/api_c/mutex_set_align.html
+@sha gS5tdPgTe/xv8RS7+LXdh5M6f9n9nllUjB7RA6T8pa8=
+@size 3791
+share/doc/db4/api_c/mutex_set_max.html
+@sha AR/chnlCPQhJlYthsBqoHXfQaYcWsvS3i8x3fDvt878=
+@size 6754
+share/doc/db4/api_c/mutex_set_tas_spins.html
+@sha cVQzSov9JjLUgcX73bGvoRoDC3RGiK4hbGyrj0RqEf4=
+@size 3622
+share/doc/db4/api_c/mutex_stat.html
+@sha fEJpNt/k88waDE7znAB9jN36I++aRMW3Jh9DWxDeAA4=
+@size 5207
+share/doc/db4/api_c/mutex_unlock.html
+@sha EdlmXfUbqZOprd9BWJZOiBet36WWImqLRPcUzOih+Es=
+@size 2269
+share/doc/db4/api_c/object.html
+@sha 5ldI9LKL6d7fcVb1WIQrf+lU8huMbGku5NfUALFaA7Y=
+@size 1569
+share/doc/db4/api_c/pindex.src
+@sha 2RmlAJwVNw8X4m44yn0XS/oNStqU3RIIa1GiG86wgbg=
+@size 56168
+share/doc/db4/api_c/rep_config.html
+@sha PK02VqBb+2SOGCfxPjDyTPCuTmLWMO2/wGygYQzsHqQ=
+@size 4659
+share/doc/db4/api_c/rep_elect.html
+@sha UgYf6e5yHnkqFXSleobjb0RIdXpiYYdDlproXvAwXO8=
+@size 6694
+share/doc/db4/api_c/rep_limit.html
+@sha q4sIjUakyTCibCtfOTqU9ASncIkqYK8GAmjTOsNaApE=
+@size 3643
+share/doc/db4/api_c/rep_list.html
+@sha rnwoZ/auCaHf5MfQKGG60nSYF3K4aqn2P8FjHXS67nY=
+@size 3936
+share/doc/db4/api_c/rep_message.html
+@sha oi5+cV41GcW4y5dv7Ah3xToObLiIe9sViL3jfb3oaHM=
+@size 6353
+share/doc/db4/api_c/rep_nsites.html
+@sha I3DnTsK6AFoFuIY7pZJh597k+g29aOHovHKl3mxUwW4=
+@size 3041
+share/doc/db4/api_c/rep_priority.html
+@sha /WDNP8SHeea+hjur1A9ll9XqAVeiRWBpHf8tR5LKz5Y=
+@size 3069
+share/doc/db4/api_c/rep_request.html
+@sha gYj+JVIix/hiK6zSl6B8UP8AjdKzKSx8AhlWl123fgU=
+@size 3884
+share/doc/db4/api_c/rep_start.html
+@sha Mk2MgZoVs1Wq03DnLwSgzgobcWVhjTmJYrdcQmdaMuU=
+@size 3787
+share/doc/db4/api_c/rep_stat.html
+@sha sDa2E+Xn1B6N8CWhMniOrseKzWIiQUapkEPkZlfcwBI=
+@size 10290
+share/doc/db4/api_c/rep_sync.html
+@sha LltTBIMT6qxoqLJEB5M0PlU4GRzVLnm3QjyTdad0azE=
+@size 2663
+share/doc/db4/api_c/rep_timeout.html
+@sha 3lQiy0c6s3kJK7FkO3Km1E7I82KDX7dIRmu/5lqXIas=
+@size 5032
+share/doc/db4/api_c/rep_transport.html
+@sha xswV41+Bu3VvvujXu4wO8VKw82+30OCfCM/8rUu4dJQ=
+@size 6241
+share/doc/db4/api_c/repmgr_ack_policy.html
+@sha sfj6NsupocW3UyeaCyJS1CeilwL4iyZN9R1N3rpguSU=
+@size 4785
+share/doc/db4/api_c/repmgr_local_site.html
+@sha QhztGzYL1sAfPLuaMLwYQU8SFixpaLlY+dBaR+MBQOw=
+@size 2266
+share/doc/db4/api_c/repmgr_remote_site.html
+@sha +lxE5ZiWiUvCPLa8SM/l0EkHmXyzspZ9oeHMtuwwDxk=
+@size 2856
+share/doc/db4/api_c/repmgr_site_list.html
+@sha Am5CdaRKPtYCZ9/o7npMqueamssg2B0SFupMOUc69AI=
+@size 3418
+share/doc/db4/api_c/repmgr_start.html
+@sha xC8aSLVzo/Wa9AS882knF236JvWKvl22OoIXptGRj3A=
+@size 4436
+share/doc/db4/api_c/repmgr_stat.html
+@sha Mgnox6M/rUKAM8DR/w+417B1/fs6ah92j3R5+kqgFaY=
+@size 5387
+share/doc/db4/api_c/seq_class.html
+@sha XvBQyyArRigMBe9WmGZ7ChG2z9YjnhG5iIr55UC874k=
+@size 3376
+share/doc/db4/api_c/seq_close.html
+@sha JjWw0HpElm5iF5TF4BGdZHIYlae0kZvB+SJBbbTn9fw=
+@size 2180
+share/doc/db4/api_c/seq_get.html
+@sha mchhpNIk0qwmu09CaRP2pwyglblMvhQKMTF3D4BefeM=
+@size 4717
+share/doc/db4/api_c/seq_initial_value.html
+@sha uvVmViD3Xa+/cz1BP5TIVhwrJVMzzFqDdrxKBoTdO18=
+@size 2190
+share/doc/db4/api_c/seq_list.html
+@sha 7aQ/oEtq9AzlC/4/i1UnOAW7i2pfbbYXBvVUNHxTQnk=
+@size 2671
+share/doc/db4/api_c/seq_open.html
+@sha 65XGeDfRy8FclJKb6pFaicqyhtYwkLINXdGIQOsv//M=
+@size 4860
+share/doc/db4/api_c/seq_remove.html
+@sha uqztvbvkk08h1Fsv2BPUf9kkM9h6vIjIgS59jOCaxQM=
+@size 3174
+share/doc/db4/api_c/seq_set_cachesize.html
+@sha tEL5SgGlk8YkHkEjzxh8hRC9MuOSP7CrCreJ1LmmmqE=
+@size 2750
+share/doc/db4/api_c/seq_set_flags.html
+@sha FkOHPL2TK4Nlp2cLShXtbc2TQItNKtgXMcj9FGWghv8=
+@size 3316
+share/doc/db4/api_c/seq_set_range.html
+@sha /quNbmTFHeezxQwfUjWQE0rDTYcVMFcRqUNBMmGzYcE=
+@size 2980
+share/doc/db4/api_c/seq_stat.html
+@sha Nl1a6PCK/oJpletCoCOwMQkLPUFxCzUAlqtlBgfS6b4=
+@size 4637
+share/doc/db4/api_c/set_func_close.html
+@sha Equbv3ycqvquwBLS1CF9A5bIa/u7J5cq8yr1H7d7Dwg=
+@size 2321
+share/doc/db4/api_c/set_func_dirfree.html
+@sha BSzf6Fqy+CBAIk6JmjsZykBmN0uulOdw/PSsbVojkK4=
+@size 2693
+share/doc/db4/api_c/set_func_dirlist.html
+@sha SopfVnaL19lbv4A9hwIQvqE8dx2G2SEtQvzvHPwyqhg=
+@size 2805
+share/doc/db4/api_c/set_func_exists.html
+@sha BmKrNuYTTZO9hjvgHeLHliqktGkuHRTNmYkCzkEufPw=
+@size 2656
+share/doc/db4/api_c/set_func_free.html
+@sha D3zqMBvQIu9Rcq0HTN9tyMXZMCaMemVLo7yLqJUV+ts=
+@size 2320
+share/doc/db4/api_c/set_func_fsync.html
+@sha jSE6n7HeQNlHB5BfL1dMuyG9bgpbJwgjZYP4OiBakXw=
+@size 2321
+share/doc/db4/api_c/set_func_ftruncate.html
+@sha 4AMJr54RSUr+Dz2pRBxyoEaSBRZmGHvdMlcNB278bIc=
+@size 2525
+share/doc/db4/api_c/set_func_ioinfo.html
+@sha TGiLv0eFho6qG/Weht+PuTmu2mnAcclTNGBFZC9iCLE=
+@size 3170
+share/doc/db4/api_c/set_func_malloc.html
+@sha tvh5RPLH9KqvqINYKjFirA6IOB+xUVm6KXQXQoezAMI=
+@size 2349
+share/doc/db4/api_c/set_func_map.html
+@sha Bz7DblJBl2SEHWJDnA6r36CRt1ldC1q1IilPsnhRLMA=
+@size 3420
+share/doc/db4/api_c/set_func_open.html
+@sha sgpl8g1uH1TXNM4bFj8Kbb+8bVlIBbeyvFrqtfJYZZ4=
+@size 2339
+share/doc/db4/api_c/set_func_pread.html
+@sha 3Vhc2vxWhaFkizEb8QmFfQfhMVc/s5P+mehIUzQxqIE=
+@size 2363
+share/doc/db4/api_c/set_func_pwrite.html
+@sha Z/PjaFXJZ61b5nxemMiEnjCSmolSHVYT+Bzd8jbI6Ck=
+@size 2382
+share/doc/db4/api_c/set_func_read.html
+@sha ie7kuqMVo9Fdc1yR6XiSKEhXK5vx/4IhCJrrKM4rO0Q=
+@size 2338
+share/doc/db4/api_c/set_func_realloc.html
+@sha DuBPSVuI2WaXU1ufFZoFSC/LFjqqa1imuNfGwK1gcV0=
+@size 2373
+share/doc/db4/api_c/set_func_rename.html
+@sha IuyoBXOYr4m8nqg888AlL0+gDS1OYci63SScsT6LJqE=
+@size 2360
+share/doc/db4/api_c/set_func_seek.html
+@sha rM27hUx+mItDzrB19xVz6Ooo0j8KYaqrMj0gOMgTmyY=
+@size 2793
+share/doc/db4/api_c/set_func_sleep.html
+@sha bjsNQsJA+RThUvmfWpwJqNvvNHcrGWje+OzVJMw3qiw=
+@size 2808
+share/doc/db4/api_c/set_func_unlink.html
+@sha ZaXtIQFr9vmPwHRvz8+NmX6M+P4TB7sy3m+SyWJ1GDQ=
+@size 2344
+share/doc/db4/api_c/set_func_unmap.html
+@sha Id4oXJ7xQgzGh8ZqVsvK1cyUAA2DDuA1+P7D3mTsMUc=
+@size 2730
+share/doc/db4/api_c/set_func_write.html
+@sha oeuW8KhDZhfv1XwOZ24w/j1mcAGBAl0hqYKsy9snbXk=
+@size 2360
+share/doc/db4/api_c/set_func_yield.html
+@sha 9k+gFTq3vVFsIs/1TvxbLKL1nFxvJQ3DgrPriIPsL3E=
+@size 3289
+share/doc/db4/api_c/txn_abort.html
+@sha 0dX8CEJxkB13bB4yIhCMuq598qnYLDEgmjWjNNUQiUs=
+@size 2388
+share/doc/db4/api_c/txn_begin.html
+@sha ZQKT4KPyAznBpeBR5hgzWOSUQ39hexk2IcOtO6w+MAk=
+@size 8130
+share/doc/db4/api_c/txn_checkpoint.html
+@sha 67OVELBK5Mq4wwqFPlBGAHMCRuDWGOKx9Y/1oLa3RyA=
+@size 3091
+share/doc/db4/api_c/txn_class.html
+@sha TgqDq671vDWnIBbW1XgCkxgmYfZPPtpc80dYvrx8kT8=
+@size 2494
+share/doc/db4/api_c/txn_commit.html
+@sha Du/NEAZ2SvOhqVAOSxwbTi4KKlkQ3f/USuWBWfdX01Y=
+@size 4119
+share/doc/db4/api_c/txn_discard.html
+@sha SpNKk12xDhwaGSgZFGruKxRP5U1pcoLKMSUB93qReAk=
+@size 2866
+share/doc/db4/api_c/txn_id.html
+@sha uCA4Ex203qDONH5Cs34n/n9MdVq0Ie80T0YgMHNu4Yg=
+@size 1857
+share/doc/db4/api_c/txn_list.html
+@sha NdT5UB6vDIPlKLbuMDUS5bJhx3yS/fmJd+vVpNGE2Ec=
+@size 3048
+share/doc/db4/api_c/txn_prepare.html
+@sha uufjP93sXq4WvQBZcG+93cBUDESio8TQ97wQZiLDnIY=
+@size 2896
+share/doc/db4/api_c/txn_recover.html
+@sha 7mT09sKocSZ7IAxh8Zw8YfaYOzjZJgrDc19vMCNO3IQ=
+@size 4390
+share/doc/db4/api_c/txn_set_name.html
+@sha lu9JxdetOBFF5NVW04fxO0JBIhoIjQnuJjFNT6sWdC8=
+@size 2982
+share/doc/db4/api_c/txn_set_timeout.html
+@sha v7fzAghThyneUbiJ7HO0pbIttGiceue2jBZZF0lpIq0=
+@size 3531
+share/doc/db4/api_c/txn_stat.html
+@sha KoYJqlLkMGNZ3grkP6lHNMDgE2jn1l10588L3rBxE18=
+@size 7714
+share/doc/db4/api_cxx/
+share/doc/db4/api_cxx/api_core.html
+@sha 3r+BFpCxWBr8ojamW9afq8daYcyUCUlF8i9pKpGz55U=
+@size 30322
+share/doc/db4/api_cxx/cxx_pindex.html
+@sha 2g52+i6DZlGzolvtNwONq8H1gxYdgRDvyw94aWMsI0s=
+@size 84102
+share/doc/db4/api_cxx/db_associate.html
+@sha PHdDv4zPp3RGojPHqT+dGTG7hdOlEOWzPhib0TeayEc=
+@size 10676
+share/doc/db4/api_cxx/db_class.html
+@sha R4EVOq0p0PKKM8DJ9+p7v2pguUFgfSOS97PY7qGG8Vo=
+@size 5544
+share/doc/db4/api_cxx/db_close.html
+@sha br6jULP7qnlQj28Yq7hcptTNqHrU6KQ0jjWHATlteuA=
+@size 4486
+share/doc/db4/api_cxx/db_compact.html
+@sha fzK4G+OgUcZzYuOI2K90pXFEhsxSn3CSGJZP8NOxl5M=
+@size 7295
+share/doc/db4/api_cxx/db_cursor.html
+@sha Yy6eF43EDrZkIiszWLdCJo+dvytMM9PRdiBUQ2lMRRo=
+@size 5003
+share/doc/db4/api_cxx/db_del.html
+@sha 7Lmc2CAqU+G+XYb1EPtHtwQ+DJq0YLZXVOnSfvtH4wg=
+@size 4704
+share/doc/db4/api_cxx/db_err.html
+@sha 6Bl9cWhIuMBXzaVb/bRN9YaZTEGpoRzuj3NLT97OqN8=
+@size 4505
+share/doc/db4/api_cxx/db_exists.html
+@sha 0vCLMX2BFi+QYNqmy3XW24CSBBcgoR8eVGRgiOH9TKg=
+@size 4056
+share/doc/db4/api_cxx/db_fd.html
+@sha KOUVuF91ANa3LhGeVVOQUfKWdI2HOtvv5GUjq/w3cBY=
+@size 2275
+share/doc/db4/api_cxx/db_get.html
+@sha hCr8/7OW7UK9Z/6K7wpCOXrfxJlABYBz4CS/KMJJ95A=
+@size 11600
+share/doc/db4/api_cxx/db_get_byteswapped.html
+@sha vonOcJe9P3hydUrHrWNwWI+KPTMWQwc2g4qen+sRc18=
+@size 2979
+share/doc/db4/api_cxx/db_get_mpf.html
+@sha QgYSwpHX54B+b6vJ8HJzSW6kYj7BOO51QIDyaViGE4Y=
+@size 1614
+share/doc/db4/api_cxx/db_get_type.html
+@sha emXXGO6e4o0X82S52KKzA+RFYk93Wy7xF2JPVsc6ESE=
+@size 2656
+share/doc/db4/api_cxx/db_getenv.html
+@sha yawfq8i43SPqNn6lt84UvWY5zBRheIMRDnkCnfFwxRQ=
+@size 1613
+share/doc/db4/api_cxx/db_join.html
+@sha ftUrGSpp+R4bCnZ1oy50Syxjz6mcxf4SpSSMy3u+ucg=
+@size 6756
+share/doc/db4/api_cxx/db_key_range.html
+@sha sYSgvm4aN9mCZWx9MoLTGhgbwlg0rfXrmeT5gLiHC5s=
+@size 5213
+share/doc/db4/api_cxx/db_list.html
+@sha rj34ZzD77N10UzF+4laiOndd43H0qOotr5V/Us+jheo=
+@size 7951
+share/doc/db4/api_cxx/db_open.html
+@sha SM+Z9VvAfXv24bcFTazi3p28Z/QYmKLWETImaBQ7R2A=
+@size 15063
+share/doc/db4/api_cxx/db_put.html
+@sha ZAfEb+PqFSwmHS5pEPrzQd31K2FspK2mV9qCQhCA6Yw=
+@size 6379
+share/doc/db4/api_cxx/db_remove.html
+@sha YOugBuz61WI+5XMQu+RalFjFB3CayA5RAuHXto7qlL0=
+@size 4507
+share/doc/db4/api_cxx/db_rename.html
+@sha vNdojESsZYjtYitDo8JWVhztsXlQg8M3SZWRiYuJDac=
+@size 4695
+share/doc/db4/api_cxx/db_set_alloc.html
+@sha m7t9i4wT7z8CmdReIhvfnG7K3XyRsbLA8C52XDdmd90=
+@size 4958
+share/doc/db4/api_cxx/db_set_append_recno.html
+@sha /EmrH/weJfHVpVRWUsvPd35QfhJiT5BatNZGJVlHhRc=
+@size 4140
+share/doc/db4/api_cxx/db_set_bt_compare.html
+@sha B7Wpt9yr1J08GY44ksH6Cudhi/ODlY4zrYKATeK/W+E=
+@size 4579
+share/doc/db4/api_cxx/db_set_bt_minkey.html
+@sha YYA77smzXiiKvbyj6qQrmo8pmOh/He2g2rkpPsUb9+w=
+@size 3890
+share/doc/db4/api_cxx/db_set_bt_prefix.html
+@sha mQ7zolFBqIUTx8Dz0C2CHBrNmtuDZ7fOck8pzbd2GII=
+@size 4814
+share/doc/db4/api_cxx/db_set_cachesize.html
+@sha aqYidmVtOf6ZE4zGtdHOR2htosmn5xehpsdwJ7RZMU4=
+@size 5126
+share/doc/db4/api_cxx/db_set_dup_compare.html
+@sha yOKjrI6JWRX1xfjwjjjwkr7p6g0U+/MDkeBTx118JaA=
+@size 4324
+share/doc/db4/api_cxx/db_set_encrypt.html
+@sha ZeS5f7Q8PeVIkj0iqU4KNNDX2Ktk0PQlOokU6jTmczM=
+@size 3722
+share/doc/db4/api_cxx/db_set_errcall.html
+@sha heI9oFkaxzfUBbKc7DzQhYYrImxKmzZw6g8eFM/FS00=
+@size 4469
+share/doc/db4/api_cxx/db_set_errfile.html
+@sha e23SNv1yzT1tqJN6fc/C1dA4G/mUmQ2qBBjDzNNbALY=
+@size 5580
+share/doc/db4/api_cxx/db_set_error_stream.html
+@sha Y503A3o6Nx0ZffKDs7HGJb4ApoBwjBd+E/ciSabd2Hc=
+@size 4071
+share/doc/db4/api_cxx/db_set_errpfx.html
+@sha 7AjWctT22FgeOOFr6f/cVmpduQSN8paV/g8/do5oC44=
+@size 3316
+share/doc/db4/api_cxx/db_set_feedback.html
+@sha PwYDmVNBM9vLkyKEDt2KBKMmCYLKgsM3Cro+yUE4YKA=
+@size 3363
+share/doc/db4/api_cxx/db_set_flags.html
+@sha MUokof0lurttTSPaqKPTxGzJqXD3cp/IfeX4OmFroko=
+@size 16367
+share/doc/db4/api_cxx/db_set_h_compare.html
+@sha E8z/zrt04htijTUN5v+CXAe6lV9WpXWsGII6u1xumrg=
+@size 4187
+share/doc/db4/api_cxx/db_set_h_ffactor.html
+@sha 8N1r2zudi4nFKozUJX3wpzpa41f7UxlwnJiM1mnA5X0=
+@size 3827
+share/doc/db4/api_cxx/db_set_h_hash.html
+@sha BLcxorRsmLHXgDNM0k7iW+Lc7NbGzSfc/AsAVvogfHo=
+@size 3454
+share/doc/db4/api_cxx/db_set_h_nelem.html
+@sha sM/5VHJlorCwAQhEEa92J2Qk86ipEl9Z8l2rsUz0Moo=
+@size 3667
+share/doc/db4/api_cxx/db_set_lorder.html
+@sha aJlBjxOnspBKDOGQ7YiMx8pxMtwgOI2uNef+A5OuGvM=
+@size 3936
+share/doc/db4/api_cxx/db_set_msg_stream.html
+@sha 6Mt7FwRYHhB/XEq89DS0gHiSvo2orxgt45gjU+WQ8PM=
+@size 3534
+share/doc/db4/api_cxx/db_set_msgcall.html
+@sha RflkYS3t6jceEU96uripHJWtHljhU6jCNBrKEz/XNOU=
+@size 3846
+share/doc/db4/api_cxx/db_set_msgfile.html
+@sha whcmn31TjSVkEbrSc7XUlXSeqPAq+8z32pOpkhRPw+k=
+@size 3995
+share/doc/db4/api_cxx/db_set_pagesize.html
+@sha XIhuUDauV2NFru2/VIqz/2ner7EMhvY2qcUfIgw9yME=
+@size 3887
+share/doc/db4/api_cxx/db_set_priority.html
+@sha IJrskH4IbMQlkHQFaRndM4CBry098UFH6paDdUWtnvg=
+@size 2990
+share/doc/db4/api_cxx/db_set_q_extentsize.html
+@sha qp8BB9dfPOESfI4GDZRuv7XxIfoLisWEeTcPnMfiNXY=
+@size 3703
+share/doc/db4/api_cxx/db_set_re_delim.html
+@sha 24zitJ3mQnxdP6S1qZdh+x6abPBfyWuycR464dUcros=
+@size 3590
+share/doc/db4/api_cxx/db_set_re_len.html
+@sha pb8Rqpp14qrwAYKRhRd8FbOlccGUHbjfrQ0Dld78M/k=
+@size 3964
+share/doc/db4/api_cxx/db_set_re_pad.html
+@sha 6hyJuFI1N5yrByyqJOgXfXfxN58tBWV+eSRQiVqLG34=
+@size 3407
+share/doc/db4/api_cxx/db_set_re_source.html
+@sha UC/JvmkZlEggqxvgpVHXT8+AbARt43McWIF9P1K1YZs=
+@size 6410
+share/doc/db4/api_cxx/db_stat.html
+@sha lfFeIldhr6CzISPM1SZ8SGdihmor1xZhhpQupasewvc=
+@size 13773
+share/doc/db4/api_cxx/db_sync.html
+@sha CzHzoR0qgokk6xsjth38xeCnbu4iOM6ad93aCY2X/w4=
+@size 3103
+share/doc/db4/api_cxx/db_truncate.html
+@sha HBJbbbBo+630Kd6A7/WwjUzgs5UcUgSfVu9zKMP41R8=
+@size 4067
+share/doc/db4/api_cxx/db_upgrade.html
+@sha 7PIXFp3NPjTYuxFwzhWLVa1cXlrkWV+LUp2uSs7xRCA=
+@size 4847
+share/doc/db4/api_cxx/db_verify.html
+@sha F5tNNSbSW+JDOSTZ6HnsDtvtBAVCTN80r+En0wgo9N0=
+@size 7623
+share/doc/db4/api_cxx/dbc_class.html
+@sha m7XaFF1g14g2r6TsLnT1k7T5bdcl+4ufq6OtRTOpvDI=
+@size 1794
+share/doc/db4/api_cxx/dbc_close.html
+@sha tNyHkpR8hT4e1dVe8Jqkwi/V721srQL/icmmhCzIMvc=
+@size 3102
+share/doc/db4/api_cxx/dbc_count.html
+@sha MsCf1uVQ5uQO29wAnBj4dcKjeTWCLtUjOmJY1OQHAe4=
+@size 2594
+share/doc/db4/api_cxx/dbc_del.html
+@sha qN4i2T2KpDEaeHemK0lABE80mUP464ixrDHxXv00yvk=
+@size 4087
+share/doc/db4/api_cxx/dbc_dup.html
+@sha CNc0dXLkqkpipnQQSaGUQFZQc+FU6QiGN2C5s83EzJE=
+@size 3036
+share/doc/db4/api_cxx/dbc_get.html
+@sha GF3wHzCNQvetNeuFmN/fMM2uurTS/ZWV2pAWuT30LZk=
+@size 19924
+share/doc/db4/api_cxx/dbc_list.html
+@sha Wjvibx5WK16w69D3y8DhgpiiNsTxjursIEwzVqvEKx8=
+@size 1904
+share/doc/db4/api_cxx/dbc_put.html
+@sha s2MOEnpnvmRZR2RoMHt/OXjOHppql7RGF8bQ2GdUpms=
+@size 8933
+share/doc/db4/api_cxx/dbc_set_priority.html
+@sha wjoeSZEXhiIvCay/a2Xx8rfdXueSFp6VuBxMWpOsOEU=
+@size 2940
+share/doc/db4/api_cxx/dbt_bulk_class.html
+@sha xYO+UIK9nodRlePkN3hA7oARdmP7W+t567pOWMX1/KM=
+@size 8110
+share/doc/db4/api_cxx/dbt_class.html
+@sha qvHtyjnmGo+J+F6WrVMXJr5s271fvoMajcMfSXiC8oY=
+@size 14005
+share/doc/db4/api_cxx/dbt_package.html
+@sha Nr1Wvq/IpySgNpBc9qjvMW5XKhyr3UdC+0lLFONViLE=
+@size 1246
+share/doc/db4/api_cxx/deadlock_class.html
+@sha rqExlDkLYJ00RLZJyvJOhDnvzYFWFmWSOlgOo4sgsjM=
+@size 1894
+share/doc/db4/api_cxx/env_cdsgroup_begin.html
+@sha l2SWnNxIfPzqxKduw1VONSW3jdQKQf4E3ak5r1L6WYA=
+@size 2552
+share/doc/db4/api_cxx/env_class.html
+@sha MkYx1Mzq6a2+petWIVUAK74VdtJjLPtAPblGdZ+3SQM=
+@size 4848
+share/doc/db4/api_cxx/env_close.html
+@sha Xg0bcI+VzoWm9mjNX2oECghfSoCdKlHNL7eHovDVBGk=
+@size 4477
+share/doc/db4/api_cxx/env_dbremove.html
+@sha SZxLiSELI/13LCCvWlDqslktWoe3F3cmHV50g19Fm9M=
+@size 5240
+share/doc/db4/api_cxx/env_dbrename.html
+@sha afgmP/Hxa4n4u2EdbcrjcqYBbIlXw/ZP9BMnxCj4aYk=
+@size 5429
+share/doc/db4/api_cxx/env_err.html
+@sha /wVRYcS2vglpxEbgBHC24XjTucNMNtjM/h0V06f1lhI=
+@size 4470
+share/doc/db4/api_cxx/env_event_notify.html
+@sha /T/xx9qGLSif8byLgctgTBYDYOTh/yoT8aAhEu4uDOs=
+@size 5972
+share/doc/db4/api_cxx/env_failchk.html
+@sha WuO313dBTmsFAyPp26+hZCKeN58MUyI4x31P+bXE+kU=
+@size 4724
+share/doc/db4/api_cxx/env_fileid_reset.html
+@sha N0N2rZcdO6b43mlC4tf892y3kc2zCGC7s0RfoVqS4Ss=
+@size 3030
+share/doc/db4/api_cxx/env_list.html
+@sha +76mu67eogZ8m+0vlNqpe9zdQLisAq6nmXWRueQ5UoY=
+@size 6606
+share/doc/db4/api_cxx/env_lsn_reset.html
+@sha gWTMgKWRn8BelZxci89neIXfTI451cnPrCMe3md3IQg=
+@size 3332
+share/doc/db4/api_cxx/env_open.html
+@sha OIPgxTQ0aLMmhgmHt0kLKa443zkknvWhxxyN7v/AP1M=
+@size 15519
+share/doc/db4/api_cxx/env_remove.html
+@sha Liji1979RHF93k6b0i+p2M3ccxlfLEHD/S4nZ+OGPTE=
+@size 6741
+share/doc/db4/api_cxx/env_set_alloc.html
+@sha dls9AAyTjVfsKTDxsbvnLNNvqYQXcIOsQvak+6Jkh5g=
+@size 5244
+share/doc/db4/api_cxx/env_set_app_dispatch.html
+@sha qBgiY3YCBT4BNbVbdsv291HBAWtEI+/CBwCruOI9ZtM=
+@size 5095
+share/doc/db4/api_cxx/env_set_cache_max.html
+@sha QDUf/8sNE4EYhhdWF7tUg1LytZ0fZ2bUIRNVj6XsWlY=
+@size 4167
+share/doc/db4/api_cxx/env_set_cachesize.html
+@sha 8sedt+S5JDmdb1fnztL+buV58cCWyjCh+hxiAc2XaAQ=
+@size 6035
+share/doc/db4/api_cxx/env_set_data_dir.html
+@sha mEKUMG76924C265QggIddw6NcGFOHqUJG2GLSTAYmwA=
+@size 4616
+share/doc/db4/api_cxx/env_set_encrypt.html
+@sha h94vGVZ5gsKlFEmWFwei313gMKFI2OS26Ai2p5zjxFY=
+@size 3929
+share/doc/db4/api_cxx/env_set_errcall.html
+@sha b3f+4dAwRuYSnXn/dnJPnxIFBHZdAovTVfQsEyJV0Lw=
+@size 4172
+share/doc/db4/api_cxx/env_set_errfile.html
+@sha mYZIRytfIj+5T/mwMTxBUxvGCoXJC9ie6vXBrmFYP78=
+@size 5299
+share/doc/db4/api_cxx/env_set_error_stream.html
+@sha 23WdiKy3jLnvh2X4u8Hp9xjsZg751P+7m4QFCW/khow=
+@size 3755
+share/doc/db4/api_cxx/env_set_errpfx.html
+@sha 9XhoKi8oy92Kus2RPcnirrK7dQw4BUP+e0qibjR1f6Q=
+@size 3041
+share/doc/db4/api_cxx/env_set_feedback.html
+@sha AwNg7Y4CyK6kMzSIvjsIfWKd9UTR3es9Xi7xFRS8xWE=
+@size 3400
+share/doc/db4/api_cxx/env_set_flags.html
+@sha adz4I0iPCqEf7AesDT6Ksqx5vlTxhD+kqtCLXBL25A4=
+@size 24464
+share/doc/db4/api_cxx/env_set_isalive.html
+@sha dlYE1wz4jhcWpFCztbhb709m0QAKWuSc3IOaZx/ZOno=
+@size 3842
+share/doc/db4/api_cxx/env_set_lg_bsize.html
+@sha wF9FFs9u42qib606zMPaFLGYCQsVH4rKsOmNnCKHxc8=
+@size 5069
+share/doc/db4/api_cxx/env_set_lg_dir.html
+@sha yL5RaauW/1+hgJioN3o1EExshfzPdj/eB3yNyYkgMEw=
+@size 4552
+share/doc/db4/api_cxx/env_set_lg_max.html
+@sha +22s4HCbz1jCb0WfbBQXCk8U2scJlB21rcEW8J4Xkus=
+@size 5132
+share/doc/db4/api_cxx/env_set_lg_mode.html
+@sha WaWOB0xPXVDPTREoDuRPZDkoWqn8fXd9Rvvvshsmsbc=
+@size 3935
+share/doc/db4/api_cxx/env_set_lg_regionmax.html
+@sha EP5da5X3l918bizlUWbJsgQIcY0tgEzVslgHnquSRuE=
+@size 4376
+share/doc/db4/api_cxx/env_set_lk_conflicts.html
+@sha 1ps1UkrWoe/M2ACclCqTU+6KlIkHW5UG8aMxwhpl3i4=
+@size 4392
+share/doc/db4/api_cxx/env_set_lk_detect.html
+@sha A/eL5Wm9DNJCbdSNt+MdiVHGbt+zvIMaivRr5QkdV7M=
+@size 5135
+share/doc/db4/api_cxx/env_set_lk_max_lockers.html
+@sha VeZE2Qgezk6zg/thNg2dxNnKoOgH6r0juo6Qpk+mFSQ=
+@size 4369
+share/doc/db4/api_cxx/env_set_lk_max_locks.html
+@sha o3IMbxmSb0OGiIaqKYPKjDXTWP7yNrTj1SvRprGJsLU=
+@size 4290
+share/doc/db4/api_cxx/env_set_lk_max_objects.html
+@sha IU3Qsm5hOfJSyXyIA/LI4s4O6Z6UWP3cQIDv3kdnFbA=
+@size 4367
+share/doc/db4/api_cxx/env_set_mp_mmapsize.html
+@sha 4mBgL6q8JPL4bgLboDJgVlZwSs9c8Vs6CZMexX1TB0Q=
+@size 4422
+share/doc/db4/api_cxx/env_set_msg_stream.html
+@sha zpLsDp0GMNpx1x6DCQDw0um7O44AGReQo/sLndgxCf8=
+@size 3219
+share/doc/db4/api_cxx/env_set_msgcall.html
+@sha HpixuRWLbJdIE6xpgtjKVwWzFHhEsZVi26wkRghx3Zw=
+@size 3603
+share/doc/db4/api_cxx/env_set_msgfile.html
+@sha Fcl79Drs/WcVFit1DQn9neKsx9fpB0KXdIaUO7n/AbA=
+@size 3718
+share/doc/db4/api_cxx/env_set_rpc_server.html
+@sha 1sdDHZhmkD/IHh9J0QXCsHk2jSddnZva37pcqXTJxDk=
+@size 4247
+share/doc/db4/api_cxx/env_set_shm_key.html
+@sha gf2IfbpG5BkAWYyuU2U6LBAhG9FABS/ogDRLT/v10Qk=
+@size 5293
+share/doc/db4/api_cxx/env_set_thread_count.html
+@sha EWd0b2OyK86t+iRRWB0JsU96UTibbG/yl2iz2Ip1XEE=
+@size 4986
+share/doc/db4/api_cxx/env_set_thread_id.html
+@sha IMws1ooI7co2tachp/JqGocjnhLCOtG7xAaL1MdNxCM=
+@size 6621
+share/doc/db4/api_cxx/env_set_thread_id_string.html
+@sha dfFoS2CizLIBBb48kXsOWT4l3VKvpAs+N4uQvb7+NLA=
+@size 3759
+share/doc/db4/api_cxx/env_set_timeout.html
+@sha 6tW0hILrIxbOIpBJIZHM+YBPKux6zpTR5N1BRp8QUOs=
+@size 5763
+share/doc/db4/api_cxx/env_set_tmp_dir.html
+@sha iIYAvuRugLgOJ1WXzvE3udrsW6sVnYUiZsRL1vJ1PdU=
+@size 5317
+share/doc/db4/api_cxx/env_set_tx_max.html
+@sha GBkVC1YU0kgrBrvH/YKQHSEBJrrkLN7ewKzjhVpuP+U=
+@size 4712
+share/doc/db4/api_cxx/env_set_tx_timestamp.html
+@sha v9Kni4L36az9KQ+Uo2lfYywrcFo2TG9qzMrpb7xl4V4=
+@size 3886
+share/doc/db4/api_cxx/env_set_verbose.html
+@sha dlUY+g0zUfeWOkXjEgjqJt377uG5osUw4yxkbuuHVUU=
+@size 5577
+share/doc/db4/api_cxx/env_stat.html
+@sha s7K0NeBl6ktGRxU9RHPfElM8xZwin3bYjsIuzO/rfeY=
+@size 2677
+share/doc/db4/api_cxx/env_strerror.html
+@sha U24PwPxkC7EGfBXdUqgxlWW8edLqUeUY4YcWbn1xD90=
+@size 2217
+share/doc/db4/api_cxx/env_version.html
+@sha 0xy8QalyN0q3/9iSjyKYGqfJcsjcU2lTxs17/SoPmqQ=
+@size 2078
+share/doc/db4/api_cxx/exc_package.html
+@sha IfT1lqEp9RQD32B+d/9t8BY3czfUXUKlhzR/lQZKoaw=
+@size 1393
+share/doc/db4/api_cxx/except_class.html
+@sha 2+4DbPsHdOZgGOHwQUuKwLcj12y0R/91n3ufxsH0npE=
+@size 3155
+share/doc/db4/api_cxx/frame.html
+@sha e1ALOu48aG9ct/nWdyi5MWTW8l/ksd2I3TN4m9zdWkQ=
+@size 666
+share/doc/db4/api_cxx/lock_class.html
+@sha AGezvgl8BkAN3n8H3iUa7wFWRxL5+m6C9LXQC56gXWU=
+@size 1748
+share/doc/db4/api_cxx/lock_detect.html
+@sha 9094KOkapbUgUZ1Ecm0bbX6IuDTNMjLkhOl69vUSuVA=
+@size 3901
+share/doc/db4/api_cxx/lock_get.html
+@sha i/IegNRea3rBfvpoleQLVJtK8CZewS3F4dMQ/Ql/Ubc=
+@size 5099
+share/doc/db4/api_cxx/lock_id.html
+@sha 7Gd0yULJhrVjZDg0I65efA/OQmbA/WdB4DgQ3XNxoVI=
+@size 2175
+share/doc/db4/api_cxx/lock_id_free.html
+@sha en8mzUPyhqwkRMPtGBT9mx1dfQ9F08EK2fTn+BflWmo=
+@size 2342
+share/doc/db4/api_cxx/lock_list.html
+@sha 7mJogO7hPR9sn0GSBOdvFQXXwrf1qtu0YU0ag5h5crY=
+@size 3398
+share/doc/db4/api_cxx/lock_put.html
+@sha lU//6uedXRhY1cvontsnmP7tI5v4eAFnoNE1DMlKYSg=
+@size 2161
+share/doc/db4/api_cxx/lock_stat.html
+@sha U9KwWXEaCjiM9u8ozB/NVtQClxEIAHIBCWaxeRC7j6U=
+@size 8078
+share/doc/db4/api_cxx/lock_vec.html
+@sha 0HXIBbTEcDHd9cefryMhPA10v6Y7rdGCh1wuN5n+vPs=
+@size 9232
+share/doc/db4/api_cxx/lockng_class.html
+@sha 7kcjFHuVCPbQPm19ydM9k6+dgvP+Anpz8++NkZmBVig=
+@size 4205
+share/doc/db4/api_cxx/log_archive.html
+@sha P5Qqw0iRJloe5Wny509gd5G4feVsz7AaEd1mbArLZ/I=
+@size 5884
+share/doc/db4/api_cxx/log_compare.html
+@sha qN5v0NtqPE3RHT/shK3P4IxDFyOSV1/vqtTO7WyL+Gs=
+@size 2149
+share/doc/db4/api_cxx/log_cursor.html
+@sha Y+6OSlTiRB+tU0pTevGkGlNI/L+QWkUWBVMHr35ADmo=
+@size 2397
+share/doc/db4/api_cxx/log_file.html
+@sha GAr/3x+axml1q9BoRR6+wFvvO2Osf09X36mx9+Hl0g0=
+@size 3335
+share/doc/db4/api_cxx/log_flush.html
+@sha 98ZP9+2+OTBPu6eOV5l2LP6j0vruSSt/xflEff/m0UQ=
+@size 2372
+share/doc/db4/api_cxx/log_list.html
+@sha xZvtVDDS4t3bR7p5V6GrNlwRZCu89EXfvoOkZu014SY=
+@size 3273
+share/doc/db4/api_cxx/log_printf.html
+@sha D6HDtKBxLkPTjAKCpH7ceML9WumlDwzNRH6YfoYnZyU=
+@size 3032
+share/doc/db4/api_cxx/log_put.html
+@sha kfeogRe5LLrPqEN/AFGRJ/16lWKHsUP9GX+/pHMRjNw=
+@size 3523
+share/doc/db4/api_cxx/log_stat.html
+@sha VSNwywcUv6hQzzy1twgpw7bBdN6AVvZ3YPTiwkilsSU=
+@size 6709
+share/doc/db4/api_cxx/logc_class.html
+@sha cbRqgHQK/sXf6N13r+WUaShfY1rYSVPsqB6m/v190eQ=
+@size 1803
+share/doc/db4/api_cxx/logc_close.html
+@sha RWZ1XO3cuczAQNrnnfYlEnauQe5TrqJfriOmVSgPEDM=
+@size 2366
+share/doc/db4/api_cxx/logc_get.html
+@sha IiWkce/bzO8YDUPJ8vR6L8XT4aR8FobKVIsb19gobKk=
+@size 5794
+share/doc/db4/api_cxx/lsn_class.html
+@sha mpkYBjYAGJfwF9lOfCbZHwkX8rXvQkx+v3FR8w8WduU=
+@size 1733
+share/doc/db4/api_cxx/memp_class.html
+@sha gL2mfeo0eyLWPHcCQGb7VTIToB8417nKde9d6zCU0qU=
+@size 2494
+share/doc/db4/api_cxx/memp_fclose.html
+@sha jovEsYD0kMdOffjlv/XbmC2CNk/hDAZK8rolXZjJqJE=
+@size 2557
+share/doc/db4/api_cxx/memp_fcreate.html
+@sha qLXr2BG37U33n3eKSKl+GO0GbS8knaKhXmz7cjMx4Jc=
+@size 2249
+share/doc/db4/api_cxx/memp_fget.html
+@sha 3p0CO2TyNMO+VVEIyQnWSeSwOYQPe/YKaSuIPc0ZdAw=
+@size 6440
+share/doc/db4/api_cxx/memp_fopen.html
+@sha v6F8kkLhRYfcKQS53fISOQ9/mCyw+LfSxFMtDBnk21Q=
+@size 5599
+share/doc/db4/api_cxx/memp_fput.html
+@sha ubixR9Cpv2P/GbXv3GtcZNOaK2Ln2PhRMtLvfruNb+8=
+@size 3258
+share/doc/db4/api_cxx/memp_fsync.html
+@sha mt5jz0WGVbe4hmelM3yOITWbKtptUpkhFS/MpJQxItk=
+@size 1966
+share/doc/db4/api_cxx/memp_list.html
+@sha f5hPr7WfirHX7xTGQiLu0VXz8vG+pGL8zAndgrOPh7c=
+@size 5101
+share/doc/db4/api_cxx/memp_maxwrite.html
+@sha mMKBicJzn55EGb3qjOAKkG2bNDcFJTlkEApjMDGQxAI=
+@size 3677
+share/doc/db4/api_cxx/memp_openfd.html
+@sha Vz8cFELGA7a05DJL4fMfaNKG4OmIExrTx/v0sECD0lk=
+@size 3081
+share/doc/db4/api_cxx/memp_register.html
+@sha FGn+yYrcuBqtNo31iJk1PITlpo4isc2dIPRJSMAKh5s=
+@size 4087
+share/doc/db4/api_cxx/memp_set_clear_len.html
+@sha xx1TQ7blfJ0HFaQaGbknm4Js3NBp/NaS9CrCdU/W0dc=
+@size 3685
+share/doc/db4/api_cxx/memp_set_fileid.html
+@sha lySB6+ZfecjQ+tiBlu+aiIUNtYC0jXOKxlklnmDnZ2Q=
+@size 4457
+share/doc/db4/api_cxx/memp_set_flags.html
+@sha ojuYIL6YHqerxomEH2f9GYWR9+oixYIPHP7zEr9i1F4=
+@size 3918
+share/doc/db4/api_cxx/memp_set_ftype.html
+@sha +xoqJMB9mI99Eet5VL5SIXfibvSrmLH6IZv1G54RCUE=
+@size 3496
+share/doc/db4/api_cxx/memp_set_lsn_offset.html
+@sha /vWgxUtT4X/FTdJVt9EfZ0pHeJARnn23XJCyt/PqIUg=
+@size 3568
+share/doc/db4/api_cxx/memp_set_maxsize.html
+@sha 2BSULfkwE0WRq45lRyd67fXQzv6UwXUXgdtBsG5sXvI=
+@size 3599
+share/doc/db4/api_cxx/memp_set_pgcookie.html
+@sha +Rei/bkf9frFR9YwhSSMmdGCBhLQsoVJM9tujqEe+pc=
+@size 3468
+share/doc/db4/api_cxx/memp_set_priority.html
+@sha hU7XWHYG647m9hH610c363YJxyncWb8iLKomXGH9hAQ=
+@size 4109
+share/doc/db4/api_cxx/memp_stat.html
+@sha M56quiM/m/8DtpKbX4FUnkBZMXmgfPzJzDcaLUottf8=
+@size 9860
+share/doc/db4/api_cxx/memp_sync.html
+@sha rXZR7/11lYqKCc3uXn4VpSInu5QxFihdGo4lxS2sUpM=
+@size 2480
+share/doc/db4/api_cxx/memp_trickle.html
+@sha zaCrrv9vOoLKKYyrS5UhZNBiS75pPmHIftjDZeaRLo0=
+@size 2713
+share/doc/db4/api_cxx/mempfile_class.html
+@sha uLxwApcEQmTFo5v0T5e0JNGWz0X3haEbGjYO54jYk3E=
+@size 3414
+share/doc/db4/api_cxx/mutex_alloc.html
+@sha FG0HSZxQFgKX2Pv1iiwCAomrUMjGLfJAeXF9HUpHmJA=
+@size 3250
+share/doc/db4/api_cxx/mutex_free.html
+@sha hESMSu7VSXZx3v1Gz+6kc2LLgmwK5xu6H/K8Stmy1CE=
+@size 2415
+share/doc/db4/api_cxx/mutex_list.html
+@sha GqInKODjVaX8MuaVtzEqOLetE+or7/PThrbtLQG3KQ8=
+@size 2214
+share/doc/db4/api_cxx/mutex_lock.html
+@sha Ebb0BNvCpHld7m5gohZ7S1wnpKvsjBkLBItoPYVbf44=
+@size 2503
+share/doc/db4/api_cxx/mutex_set_align.html
+@sha TOzoNhbFB1bgX0NOHPo4J1RU+SIASVRy0r2ofb632FU=
+@size 3982
+share/doc/db4/api_cxx/mutex_set_max.html
+@sha 3E0/jKFFZA5SjTxNwPBqexpJhG5oNb1dkeQgNRmGsw0=
+@size 7113
+share/doc/db4/api_cxx/mutex_set_tas_spins.html
+@sha yFaU2nheVXq47YaN8dVtuaFGR7JhskCb2MJyi5M+Wn4=
+@size 3827
+share/doc/db4/api_cxx/mutex_stat.html
+@sha bfruILSqRS4B3OTID0Y9FMg44Jsk8or1lfjjY5FM3eU=
+@size 5399
+share/doc/db4/api_cxx/mutex_unlock.html
+@sha R4bMdUVM1CGfQn1UhSL8HdEDhxaIAUOWC9i1Bsjs6As=
+@size 2424
+share/doc/db4/api_cxx/object.html
+@sha I/eMsTS+C1j16CJkRgXWK9smlkhYj3uQ981zctFeJoo=
+@size 1635
+share/doc/db4/api_cxx/pindex.src
+@sha 4x047y5NMvJD73eN3Ir2pUjN8lTcc1p8N3jMEjg01S0=
+@size 34194
+share/doc/db4/api_cxx/rep_config.html
+@sha r+Jih14VrqOFWwSLn9LK95S7t/mqzmJJe9aM2wShqjY=
+@size 4862
+share/doc/db4/api_cxx/rep_elect.html
+@sha 3DVTSWu279GfITrGH1uL0qCZ4GcguZH3ZKVd3/yANi8=
+@size 6771
+share/doc/db4/api_cxx/rep_limit.html
+@sha MJFl4us5DXqubHwtsmp6ZrpqBIpYqZQmDaGpQEMky80=
+@size 3733
+share/doc/db4/api_cxx/rep_list.html
+@sha RcfWZ4dixy/zmEup2LL/NMihsn4H9pXmnrvO2BjFKpM=
+@size 3900
+share/doc/db4/api_cxx/rep_message.html
+@sha LDNdyyFbnT7c9TjCPKlmrAMKVyg13nzFOnt1vtCignI=
+@size 6486
+share/doc/db4/api_cxx/rep_nsites.html
+@sha 3Ig+wl+fV/tMJ4wn+GZ7tiCYAxcIxXhfTWEvs3L2OS4=
+@size 3125
+share/doc/db4/api_cxx/rep_priority.html
+@sha yyEmQyt8FH8im7Y9DdH3/k6Lx3wbd4OAAT9QC61+/H0=
+@size 3159
+share/doc/db4/api_cxx/rep_request.html
+@sha US+K6x7iYzwUz6RzNJ0L8U8it9lZgBGCBrtXtSuoyC8=
+@size 4091
+share/doc/db4/api_cxx/rep_start.html
+@sha qYvww93wKT6iCUBnoE37rokYVw0mzJ00kMMlUj8Uqp8=
+@size 3944
+share/doc/db4/api_cxx/rep_stat.html
+@sha XeRmimlXmf43npPw7LFL+zjFaSj/rzsUOsYHZ/uULB4=
+@size 10486
+share/doc/db4/api_cxx/rep_sync.html
+@sha /WiDp5aF58dD+CWeb1eVQmoBpEtnBCDE3x+fbOqPTuE=
+@size 2709
+share/doc/db4/api_cxx/rep_timeout.html
+@sha rtS6to6nDtRbkV2995i21cMn5032vFxHUsoNNG5loKo=
+@size 5239
+share/doc/db4/api_cxx/rep_transport.html
+@sha F8pxRydqknR0iWoUcIjqWmkDd6tCYwLDtqfWgsXD/t4=
+@size 6396
+share/doc/db4/api_cxx/repmgr_ack_policy.html
+@sha ktS3u/NDjlqSFXWUmhwLOcr+fEy6fLniFHyiAy2BfqY=
+@size 4875
+share/doc/db4/api_cxx/repmgr_local_site.html
+@sha RjZmnBfUckdf9LHK8NPFNPfoRMKPNX9XklOk1iviWvc=
+@size 2308
+share/doc/db4/api_cxx/repmgr_remote_site.html
+@sha jfjlGofG8dRszjcIgSTJXysqIeOWbFf2blITcEX6bDk=
+@size 2902
+share/doc/db4/api_cxx/repmgr_site_list.html
+@sha 4ryYVcSgf+j7wNrwjDJnl6+DbHXmx4JZflw7iu46Tj8=
+@size 3460
+share/doc/db4/api_cxx/repmgr_start.html
+@sha 6BNR9qC3ti77YwbeHZXW39rUixuGrAR4D0LqeYAPMwE=
+@size 4472
+share/doc/db4/api_cxx/repmgr_stat.html
+@sha g/ssot+4WhI06u5hnItF6gXTWjBiDWnDhXsTKKHGxBI=
+@size 5579
+share/doc/db4/api_cxx/runrec_class.html
+@sha 4QU6PRwc3CCgDPlgxWBunt60PI5sgiwZSjS3vQm02OM=
+@size 1965
+share/doc/db4/api_cxx/seq_class.html
+@sha CSK7m6HFV9XCVAqa0VX613KCEtrIPNk3+BvoxgxU+mE=
+@size 3121
+share/doc/db4/api_cxx/seq_close.html
+@sha Srle0XF4+iYPnqrm0cW3rKhRp8bOeJZgLm0IE1jDXjk=
+@size 2339
+share/doc/db4/api_cxx/seq_get.html
+@sha O7N/2zK2LFEd/qLb/zzJNrr8jJtZSsEbE7boXjeXxUY=
+@size 4663
+share/doc/db4/api_cxx/seq_initial_value.html
+@sha En5HKcRQflNhrD95Kdv0c5SJTCmZIqbLII1wNKk3kKs=
+@size 2350
+share/doc/db4/api_cxx/seq_list.html
+@sha xmiAPZucCWpN/WsLgmBkFGrffEDffIdGNWTEypTTNgo=
+@size 2643
+share/doc/db4/api_cxx/seq_open.html
+@sha z1XdYxk2hSjWLXO/NecL0FiS4LO2rBNVJtigZk14csg=
+@size 4907
+share/doc/db4/api_cxx/seq_remove.html
+@sha ihb3HPXnWRAtla4gJzL/swT2nqGO4nYSIZ2OzIXiiTY=
+@size 3314
+share/doc/db4/api_cxx/seq_set_cachesize.html
+@sha 7FEZvXs6N5veULIJ1EX+K3yVIaVbMIm2YG71OIwv040=
+@size 2940
+share/doc/db4/api_cxx/seq_set_flags.html
+@sha LSsxK4/5atKt/7HwofsU/lGLVsqLKjpvE+HiD3R9S2k=
+@size 3510
+share/doc/db4/api_cxx/seq_set_range.html
+@sha rqtSblMYa3sm0gafiHq4SP/c7MZMnBJH/88gxtwF5q0=
+@size 3185
+share/doc/db4/api_cxx/seq_stat.html
+@sha Y1kG3InISnMdtIb/kKfZqZjd3/MK6zz4gdjytKXzo78=
+@size 4624
+share/doc/db4/api_cxx/txn_abort.html
+@sha KJKK2sL7DNlROECcjXqkLdwCX34q2FfhUXPJNAwjv88=
+@size 2436
+share/doc/db4/api_cxx/txn_begin.html
+@sha k9pbYiKgnVbhbu0DBLhMhAm+52ffxIowmTCDfF7G9P8=
+@size 8323
+share/doc/db4/api_cxx/txn_checkpoint.html
+@sha QsgQ2BrN4JFoAY5i/+QurGbB1bvIlbPmC/BtxylJ6T4=
+@size 2924
+share/doc/db4/api_cxx/txn_class.html
+@sha K2I1QzdEkJu2IICYhblqX7i2pm+wU5MWG4jq/vYGFBU=
+@size 3557
+share/doc/db4/api_cxx/txn_commit.html
+@sha iNCtocEF0DylhS8gLhnbDgK9+yCWYTjkVB3WPnkWAK0=
+@size 4161
+share/doc/db4/api_cxx/txn_discard.html
+@sha 1ZzuWB/MTdpsPpr9kHdL0ECWKruBmlVGwa00gO7b/9k=
+@size 3024
+share/doc/db4/api_cxx/txn_id.html
+@sha yJcS0nInIIAhx+Ajc/j5uZKC3G+5kqSqpjR0Mr/Taio=
+@size 1830
+share/doc/db4/api_cxx/txn_list.html
+@sha x+adlTMD1FMmbBTna87T9ebm+QB7q+Y1U+a0bWJUoso=
+@size 3110
+share/doc/db4/api_cxx/txn_prepare.html
+@sha 0k3PD3T+x1qess4jJQNUWXMOL6Joht/DgJW3oRVWAwc=
+@size 2945
+share/doc/db4/api_cxx/txn_recover.html
+@sha S3pfNFkmHD/xTVHocOkdE23iwD2FiwUKwiF1ecNe71M=
+@size 4405
+share/doc/db4/api_cxx/txn_set_name.html
+@sha UeKRT7YWvhmFknw9T9ag54w/M2P20BxuchUkB4W+rLw=
+@size 3072
+share/doc/db4/api_cxx/txn_set_timeout.html
+@sha v04elIjd1J34GXp3ICi7mXY58yn3Bchw+qNpzefnyLA=
+@size 3690
+share/doc/db4/api_cxx/txn_stat.html
+@sha MGVAL97/HC9ut0NSEFnVHqw938TrNobBjnZ2ig9fEqM=
+@size 7909
+share/doc/db4/articles/
+share/doc/db4/articles/inmemory/
+share/doc/db4/articles/inmemory/C/
+share/doc/db4/articles/inmemory/C/InMemoryDBApplication.pdf
+@sha BzhDKFCWuxY4l8JbV630KqKySPHDrLkEk6Tok15z1to=
+@size 183024
+share/doc/db4/articles/inmemory/C/gettingStarted.css
+@sha gMi1GG/SWNMYVIH7PAMRvdVLxsVxx7M0Q5yJ0g7CXe8=
+@size 895
+share/doc/db4/articles/inmemory/C/index.html
+@sha vxe13CFUVTH7+H3AyzMhGZuY7pJlVrCtWaY/LtbJKpQ=
+@size 47360
+share/doc/db4/collections/
+share/doc/db4/collections/tutorial/
+share/doc/db4/collections/tutorial/BasicProgram.html
+@sha Batd/Wgzg9XqexboWkrrECbi75On7KqrARdIouo8Myw=
+@size 13446
+share/doc/db4/collections/tutorial/BerkeleyDB-Java-Collections.pdf
+@sha 9s4WWN2z8MAfl/9oiIDMVzHdMiXSlbduVWYA8JD03zA=
+@size 447906
+share/doc/db4/collections/tutorial/Entity.html
+@sha rxNzgj3dR+ymsgismcUsPy/9Z2HTPJ6eGI118W6fx1Q=
+@size 11820
+share/doc/db4/collections/tutorial/SerializableEntity.html
+@sha j8S0Md6ESc8ZiY8SLOGoMsGWljTJvTu0NO1qqlN3XT4=
+@size 10577
+share/doc/db4/collections/tutorial/SerializedObjectStorage.html
+@sha BFPXjXArtAjHgM5BYG4a8QksH2OIN8TKewFJ+c1+INY=
+@size 3376
+share/doc/db4/collections/tutorial/Summary.html
+@sha xO5qK/QY/RaWHMybEifTQBDw07x+iGZKHuANl6PrycE=
+@size 6796
+share/doc/db4/collections/tutorial/Tuple.html
+@sha MF6SMLrv54IaxA7BPJB+1s3mMHqg6lBIfLs2AU8Jqs0=
+@size 7782
+share/doc/db4/collections/tutorial/UsingCollectionsAPI.html
+@sha a786pxRYEN484c28kUqx2Da1zJmmG8K22WjktiOpMzo=
+@size 24688
+share/doc/db4/collections/tutorial/UsingSecondaries.html
+@sha VuP5eQqqHH15IEMN80bWjuxrCV4WXhJmrrTbru+bgco=
+@size 16912
+share/doc/db4/collections/tutorial/UsingStoredCollections.html
+@sha cvhgLzi0K1oiiLD3VZ2yA2BbbNFPiTQ0c4IU8zE8xIg=
+@size 37731
+share/doc/db4/collections/tutorial/addingdatabaseitems.html
+@sha G8Y3NQ+un9xsc/PNsiagQvTJbey611xYyNFXVrDNGgA=
+@size 8840
+share/doc/db4/collections/tutorial/collectionOverview.html
+@sha KdZsN7vd4WrMwvQbH8NZYplvs2/Iflj469scgWmJx1k=
+@size 19719
+share/doc/db4/collections/tutorial/collectionswithentities.html
+@sha 4Zg06C8ZXShq/5n+kMbMmJUF8f7al9K/xuRN29WhxWA=
+@size 6520
+share/doc/db4/collections/tutorial/createbindingscollections.html
+@sha ddzCvN5NLoL8bJGMwnDeSVFyG9jXfIFZOO+31rK3kr8=
+@size 10951
+share/doc/db4/collections/tutorial/creatingentitybindings.html
+@sha DekZjqOC7nLREEyfjz0Yx9JQF7AXpMSbNoEL/eHnp1M=
+@size 10620
+share/doc/db4/collections/tutorial/developing.html
+@sha j3HTe0g5NAayP0MGUc7tD1hD3SQ8rJI5xzUbGDiU+KM=
+@size 9516
+share/doc/db4/collections/tutorial/entitieswithcollections.html
+@sha g13dy5RMUP0W/5/yoIcYSx+LJmKoAXeKsfaYepdAG9Q=
+@size 10034
+share/doc/db4/collections/tutorial/gettingStarted.css
+@sha gMi1GG/SWNMYVIH7PAMRvdVLxsVxx7M0Q5yJ0g7CXe8=
+@size 895
+share/doc/db4/collections/tutorial/handlingexceptions.html
+@sha N7io9af81ufYWo3O7C2lzsHGmvKCvwDY2ui6C+Jsd3M=
+@size 8398
+share/doc/db4/collections/tutorial/implementingmain.html
+@sha RbbR9mV+RoTwZKXlVUL+psHjO4pkEqrnaIAaIMVKgqA=
+@size 9050
+share/doc/db4/collections/tutorial/index.html
+@sha rHkswv6XFCybWbQoT5G8yRoakToQEaWtJL8HdXLguk8=
+@size 16067
+share/doc/db4/collections/tutorial/indexedcollections.html
+@sha /Kk+SRfrbRAlBwEMvy91TvrAcZXfCCoe0a3Bbxm/Rp0=
+@size 9035
+share/doc/db4/collections/tutorial/intro.html
+@sha ubxGk6XyWJLLpjXYTCfTOEKyHVZrhO5j2IQgn+iWoOk=
+@size 8789
+share/doc/db4/collections/tutorial/moreinfo.html
+@sha 8j/i1aGBfBZsjkR1Q+nx06sLLjcMsYOFl0BvFJVQpuA=
+@size 4113
+share/doc/db4/collections/tutorial/openclasscatalog.html
+@sha y3ct4Ld/5W/EPksmf3K+s7Y3JR4oW06loLOS7nJ7eWc=
+@size 8246
+share/doc/db4/collections/tutorial/opendatabases.html
+@sha l8tUu+0VGZFbMc9NnBkSakUO/n6NhsA1Z4BV+0K1jxg=
+@size 6095
+share/doc/db4/collections/tutorial/opendbenvironment.html
+@sha l6FImcI/iga98ykq6k+7979TcorNBaF+xpD6G1FIg7k=
+@size 7476
+share/doc/db4/collections/tutorial/openingforeignkeys.html
+@sha CmZDX3Yovpxy1uh0YhV+W9n2whIRgy+iR0CdDsZZO+w=
+@size 8919
+share/doc/db4/collections/tutorial/preface.html
+@sha 6qkp4YBXtHPzl0gDlwbzNeFkHGSt0f53YrhwCa33fE0=
+@size 5319
+share/doc/db4/collections/tutorial/removingredundantvalueclasses.html
+@sha H6Jmtp2cW6rT4HKlF13qn+bsv3vSdttoT3NDaW5KC2I=
+@size 5022
+share/doc/db4/collections/tutorial/retrievingbyindexkey.html
+@sha 1S/T/qR9uLs3inmDEPvB1nzCx5Yp7wI5Bq2sfEsP9hc=
+@size 10942
+share/doc/db4/collections/tutorial/retrievingdatabaseitems.html
+@sha Sv2yLA/rEnaB5fbtN1yVHOP5PdoBqDPGRsl7MmBl+7E=
+@size 7605
+share/doc/db4/collections/tutorial/sortedcollections.html
+@sha dL97QeendyR+o8aNKMdCtQC/OFCpqH7+7nQWnyTVk20=
+@size 5780
+share/doc/db4/collections/tutorial/transientfieldsinbinding.html
+@sha MC0spMIH0g+g4gaSMim9ctLS7xsjPIhUh7RGJmvctGI=
+@size 6338
+share/doc/db4/collections/tutorial/tuple-serialentitybindings.html
+@sha Xzdw+41JUbu7CBtaSTGHQMUFNpW6gPGP6OyxhIHLXts=
+@size 8266
+share/doc/db4/collections/tutorial/tuplekeybindings.html
+@sha WwPIcTm2HLn+B3yFCehUFKKMBXnMB69ntcP8Dg/mqkY=
+@size 8227
+share/doc/db4/collections/tutorial/tupleswithkeycreators.html
+@sha 9Q/pcsRFRS9LgZoz05Jve/n73d4BkeAFmI64FoTULbo=
+@size 8138
+share/doc/db4/collections/tutorial/tutorialintroduction.html
+@sha /UCJf3tGdGsL6VHz7T4sSU9YpMYJaKEFz9rBebqRV9M=
+@size 11531
+share/doc/db4/collections/tutorial/usingtransactions.html
+@sha KgvdeLpVPt0yi1jdHftyP5ziOIjk23njsNIfms5ojC0=
+@size 8947
+share/doc/db4/gsg/
+share/doc/db4/gsg/C/
+share/doc/db4/gsg/C/BerkeleyDB-Core-C-GSG.pdf
+@sha /I5BsOpXL/9MN1bDWTdlCs3g52E6nnk/MiFKY/0UnOk=
+@size 461205
+share/doc/db4/gsg/C/CoreCursorUsage.html
+@sha RFyp713sqapM+sLxlZiBN61PzTFmQovr06yksDq8OyQ=
+@size 14747
+share/doc/db4/gsg/C/CoreDBAdmin.html
+@sha XnS8784Xo+KYdYVLBr3bY+Dx5KiqYyMVNOc7GLKInW0=
+@size 5397
+share/doc/db4/gsg/C/CoreDbUsage.html
+@sha VwyqVBQ/bLgnPMj/Kat4JnQV+4Wf96B9DiJ8GC7UJWE=
+@size 11024
+share/doc/db4/gsg/C/CoreEnvUsage.html
+@sha bVI2wHM4YQpwoGEwXeYSV2upHCV6dvig5FIxTo4owE0=
+@size 6116
+share/doc/db4/gsg/C/Cursors.html
+@sha F7PS0WuLzPxvZmNxlR3mvJV7h3PKEi5ewuftxRj3AZY=
+@size 6040
+share/doc/db4/gsg/C/DB.html
+@sha 1k1KCwCddLjwmEUzgevgtBGadeD46TJ+kK43Ap76730=
+@size 6513
+share/doc/db4/gsg/C/DBEntry.html
+@sha 82NRnPcUCO4gfTK9oEqMZiABCp52Mf/+at6aCV4FNH0=
+@size 7782
+share/doc/db4/gsg/C/DBOpenFlags.html
+@sha r49diwJf200Lgwn3CEWungwovPf44GEIQi7H3vewcKA=
+@size 4305
+share/doc/db4/gsg/C/DbUsage.html
+@sha gG9TnGRulVB9gA8X9eQBxfxI7FjKp194lHwRe3cMufA=
+@size 21346
+share/doc/db4/gsg/C/DeleteEntryWCursor.html
+@sha +xmnTEWcYmSUbAAcbjxoeHO8yrdrUzYlrGwR5VoqnXQ=
+@size 3634
+share/doc/db4/gsg/C/Positioning.html
+@sha ivvvc+80dpz2ORkkhRoh8KneJeJtYkmOh6HpVPWvszE=
+@size 19167
+share/doc/db4/gsg/C/PutEntryWCursor.html
+@sha CSDjnClDTUXNb0elnhinORBxacZwoGTN6FOtoDCbzhQ=
+@size 8221
+share/doc/db4/gsg/C/ReplacingEntryWCursor.html
+@sha mnk0LKt/5+MfcYroXHDmAUpq2nsUcJR9SM9Ad/WeWoI=
+@size 4908
+share/doc/db4/gsg/C/accessmethods.html
+@sha QSM5r8WXVbYaRlrEeHwZmWD7v2KW6uId3pBn7NtrqGE=
+@size 12229
+share/doc/db4/gsg/C/btree.html
+@sha yP6Qz2s3kEmCqBrdhLV5I8JmaPpnNXH00c51ZVFJtl4=
+@size 22631
+share/doc/db4/gsg/C/cachesize.html
+@sha d8wZ6QyDm/BSs0KEewp+vuXuogHwtE8tsugJvCSoPgs=
+@size 4594
+share/doc/db4/gsg/C/concepts.html
+@sha wi1trq7Raj5lIIXPWVwkKJnkaTBseNZpDAcj3OPRTKs=
+@size 8727
+share/doc/db4/gsg/C/coredbclose.html
+@sha 7QAApUIOolvb+/wRPJPdmKLV6QwS3JpuRJm+0hlvHj8=
+@size 4121
+share/doc/db4/gsg/C/coreindexusage.html
+@sha oSqYJEQAc1IUh9D8I10FVuFkxh3CFXehqdW7ukqzGMY=
+@size 29975
+share/doc/db4/gsg/C/cstructs.html
+@sha 4g4KeSvEOe+oTfA/yZnH3l3ZyzPTRXxMekW5se7vca0=
+@size 10225
+share/doc/db4/gsg/C/databaseLimits.html
+@sha /qL3/btbyEFpGWiMOFxJXg6fRY5IkbWhjwUs3Cub1Zw=
+@size 3750
+share/doc/db4/gsg/C/dbErrorReporting.html
+@sha kEA+5L6CNsTybCKEvLSghLBJLT1RIYR7ZmZvSXmJSkU=
+@size 6915
+share/doc/db4/gsg/C/dbconfig.html
+@sha gsZfnifqidZ2sQykZY0zjlKF3NpGID16waphGo/mV28=
+@size 17406
+share/doc/db4/gsg/C/environments.html
+@sha 9uyrsVMc3tFoZEPJxB21wzcdOScW2RBgC076SrS4e28=
+@size 6612
+share/doc/db4/gsg/C/gettingStarted.css
+@sha gMi1GG/SWNMYVIH7PAMRvdVLxsVxx7M0Q5yJ0g7CXe8=
+@size 895
+share/doc/db4/gsg/C/gettingit.html
+@sha WNzlarpe9BedQ4Ax9D105CGZXLbAujgJc0Y2xdKyR5c=
+@size 3436
+share/doc/db4/gsg/C/index.html
+@sha rLPEppUWlFUBY5Td3hgV/FPn50q7NRm78heCAXw5Blc=
+@size 17104
+share/doc/db4/gsg/C/indexes.html
+@sha 9GSZH1pn317ecEryDc8YZXvTf9VV0AYAvXoFgPiVZWU=
+@size 13413
+share/doc/db4/gsg/C/introduction.html
+@sha V6tZRGZqavuC3qcQevZa3QqTCbwKDh3yGSw6n69IwKU=
+@size 9520
+share/doc/db4/gsg/C/joins.html
+@sha tT0SfEPMmqBkXnQZACBaaINQVe5hD7RNsW7EZi9OIYM=
+@size 10594
+share/doc/db4/gsg/C/keyCreator.html
+@sha YhQBJJk4M+1pJpGf53IJ3UVnjp5BRjWwWRl5feaWC10=
+@size 10294
+share/doc/db4/gsg/C/preface.html
+@sha Deo0GyFvK9a4yDQms0oifaKOiPQdko8cYU6OBUzdb3k=
+@size 8315
+share/doc/db4/gsg/C/readSecondary.html
+@sha luc7BWM6VdA4gVI/xLmXcehzH0F6NuaHX9xN7HicmOY=
+@size 5607
+share/doc/db4/gsg/C/returns.html
+@sha YHq4eekygYtJSyc3+d4TOHcxYD3yCmmdkF6ia8tPNNg=
+@size 4463
+share/doc/db4/gsg/C/secondaryCursor.html
+@sha N6bYDwiP+x0TSVnEK5o5gUjsk4Zwrf+yak8XiqbtFxs=
+@size 5804
+share/doc/db4/gsg/C/secondaryDelete.html
+@sha QyI4FKlHLClhHzCU//PDm/fuYPm0CpLgF/cBSUrLPOg=
+@size 7037
+share/doc/db4/gsg/C/usingDbt.html
+@sha uMaC6MMJTD0k+YzakYDCu2lw/oA/Ez8oWqmSajGbty0=
+@size 14980
+share/doc/db4/gsg/CXX/
+share/doc/db4/gsg/CXX/BerkeleyDB-Core-Cxx-GSG.pdf
+@sha MtwgX9tvRpVy/tFnCa83uFa/IWE0K+xjRH9yAvzAFlE=
+@size 434577
+share/doc/db4/gsg/CXX/CoreCursorUsage.html
+@sha +25fgeM4CuAA6hzqWHMvqiz7zl1HxS7y1U50afPfb6A=
+@size 11094
+share/doc/db4/gsg/CXX/CoreDBAdmin.html
+@sha 8IcpuL4KgOnZMaF/n8v63tfb7Ma8GrQzWE6ocxIbXcU=
+@size 5238
+share/doc/db4/gsg/CXX/CoreDbCXXUsage.html
+@sha v7kOyMflva8xnF6L1Vh6chO88U1Ffz2OEWHw1IBeKzY=
+@size 7891
+share/doc/db4/gsg/CXX/CoreEnvUsage.html
+@sha dRHCqRQ6ck/Nto4GqISuHRKSPdOx+b4YUepVRPSUe1w=
+@size 6864
+share/doc/db4/gsg/CXX/Cursors.html
+@sha Eqwabqr3AoLUK7x9SRj5elQ8cydnGoFROQYmYgMJudc=
+@size 5986
+share/doc/db4/gsg/CXX/DB.html
+@sha 70KV9pfWRohrt7bpyRjhIZQCs9+jwUjTewIFaGUbyws=
+@size 6138
+share/doc/db4/gsg/CXX/DBEntry.html
+@sha +PgW7D1ueSKHGO/aFaDq2LET6cZwjQHW/oJChset568=
+@size 6602
+share/doc/db4/gsg/CXX/DBOpenFlags.html
+@sha UhFtxClwx9savA5HlFB2k+06aSz+J5kM/M4IYsfGoP8=
+@size 4304
+share/doc/db4/gsg/CXX/DbCXXUsage.html
+@sha SAGlEieYgnxKotcu7zGdxrvAdACPorPFgt3Jl2I4BY4=
+@size 25544
+share/doc/db4/gsg/CXX/DeleteEntryWCursor.html
+@sha pxZKyBqegIldqRS5UMIgX/Gqi2HlHeSA7HU9EiUU9rk=
+@size 3704
+share/doc/db4/gsg/CXX/Positioning.html
+@sha CiMCIF+Fz5Hgw9mqJv/FNFmZ9V/f5bk8Hz9hA7XwjB4=
+@size 19623
+share/doc/db4/gsg/CXX/PutEntryWCursor.html
+@sha DDDE/t2MlCoLkdWdZULrf9HqMA/kJxYQD++wr/i83Mc=
+@size 8431
+share/doc/db4/gsg/CXX/ReplacingEntryWCursor.html
+@sha oUfYt7is35bYZ7JiqSq3nHTMxVlf0qE2ScPxYSIMhbY=
+@size 4981
+share/doc/db4/gsg/CXX/accessmethods.html
+@sha QSM5r8WXVbYaRlrEeHwZmWD7v2KW6uId3pBn7NtrqGE=
+@size 12229
+share/doc/db4/gsg/CXX/btree.html
+@sha 6N2wiTL38ubAWam4AbddAIeeMCoQw6Yari3d4LuHnrA=
+@size 21483
+share/doc/db4/gsg/CXX/cachesize.html
+@sha yPR/y7UYq3zqQvzkrloUzwD4NnldmY1wzzXVnBVPDFs=
+@size 4587
+share/doc/db4/gsg/CXX/concepts.html
+@sha wi1trq7Raj5lIIXPWVwkKJnkaTBseNZpDAcj3OPRTKs=
+@size 8727
+share/doc/db4/gsg/CXX/coreExceptions.html
+@sha XZnQZJWrrTMex6xhCoEK3IXID0uK8V/Gwr0CL336b+o=
+@size 4348
+share/doc/db4/gsg/CXX/coredbclose.html
+@sha yyjZDOLzufnQlACjHwFM55tuuRCKuZcSFSjcB7tLHVM=
+@size 4265
+share/doc/db4/gsg/CXX/coreindexusage.html
+@sha a7zsOoQu01uYIlJMGOggVv9i+dKOfES9rg+qrSUdib8=
+@size 25248
+share/doc/db4/gsg/CXX/databaseLimits.html
+@sha /qL3/btbyEFpGWiMOFxJXg6fRY5IkbWhjwUs3Cub1Zw=
+@size 3750
+share/doc/db4/gsg/CXX/dbErrorReporting.html
+@sha JhJSMaXApIsDOizzInf8/btbaZhwkcTJajvqIF+Oa+o=
+@size 7369
+share/doc/db4/gsg/CXX/dbconfig.html
+@sha 5UxwjBld0M68oVCh3w9vl4PrUuPTEGg54zHxtdQRkV4=
+@size 17450
+share/doc/db4/gsg/CXX/environments.html
+@sha oyR+Ely6vfxvM9FxQvpIv3F3QfUBZGMVvNLpJfqDo3Q=
+@size 6643
+share/doc/db4/gsg/CXX/gettingStarted.css
+@sha gMi1GG/SWNMYVIH7PAMRvdVLxsVxx7M0Q5yJ0g7CXe8=
+@size 895
+share/doc/db4/gsg/CXX/gettingit.html
+@sha WNzlarpe9BedQ4Ax9D105CGZXLbAujgJc0Y2xdKyR5c=
+@size 3436
+share/doc/db4/gsg/CXX/index.html
+@sha F03fwASxSDlwaA0D5hEc/aYFchjyQHBZuVrF2+Q9q04=
+@size 16520
+share/doc/db4/gsg/CXX/indexes.html
+@sha +FnSARXcaIm0Dt54F27+frThgH3C8K6tSgreH0/ymu0=
+@size 12355
+share/doc/db4/gsg/CXX/introduction.html
+@sha SYIjb82t7m/lwBo+in1ELyCo+YOLBx8NOsLL2ei3s8k=
+@size 9673
+share/doc/db4/gsg/CXX/joins.html
+@sha rjj6Wh3YN5u+G/Is2jP/QdmdzIS42WV63ekCCj4C7ak=
+@size 10060
+share/doc/db4/gsg/CXX/keyCreator.html
+@sha 3tYJPWq6JzykAQIo4f20c6n3+QeQhG38+EB6qAIXCbE=
+@size 10160
+share/doc/db4/gsg/CXX/preface.html
+@sha dXMxa8fcosQTdWmivYDUBUBgbu7Q4DCmA7UCbEnbSOQ=
+@size 8287
+share/doc/db4/gsg/CXX/readSecondary.html
+@sha 571gC7coaE1dh9Ol6PI83DFWcVHbrCSSzS4KTgXTzcU=
+@size 5236
+share/doc/db4/gsg/CXX/returns.html
+@sha yobIMiekT0lqQBmdzJ2ECaTBvDY6bqqsEgm4GJfYdok=
+@size 3527
+share/doc/db4/gsg/CXX/secondaryCursor.html
+@sha tA+5homIkYumz6lCR9EwmQiJ483S4bbvAFzENgk/rbg=
+@size 5528
+share/doc/db4/gsg/CXX/secondaryDelete.html
+@sha dKWyV+/UT+gsFPSxrwkPiRVq6kldhZdRzSUQxG8F2uk=
+@size 6011
+share/doc/db4/gsg/CXX/usingDbt.html
+@sha Hrq1BKNuJiHdmMkCaI1TthtcXi30DjhYCT2kMhbjbAc=
+@size 14494
+share/doc/db4/gsg_db_rep/
+share/doc/db4/gsg_db_rep/C/
+share/doc/db4/gsg_db_rep/C/Replication-C-GSG.pdf
+@sha wkpziaTG4hnX6yMMux5opWm7b99g6fF7txDI8qKzTMI=
+@size 357213
+share/doc/db4/gsg_db_rep/C/addfeatures.html
+@sha CrdeJtKLuksFICBzWGEpQ/3F75JJzELCATJhDPSwx+I=
+@size 7324
+share/doc/db4/gsg_db_rep/C/apioverview.html
+@sha iq2Ysr3d/COMOySctxqrFqGZDUOcJno4QGRlMwEh5Vw=
+@size 10111
+share/doc/db4/gsg_db_rep/C/bulk.html
+@sha lYSlNnyXg88oDbOxNFKu07/thvYGkWbRBioqHESiMUA=
+@size 5753
+share/doc/db4/gsg_db_rep/C/c2ctransfer.html
+@sha zsXybfl/HZaJP5G1w87uUXl+BR75Z3un60PAocs5AVU=
+@size 6386
+share/doc/db4/gsg_db_rep/C/elections.html
+@sha 8+kBya6sERuCV0IKmBttXGqwHGyWGx9wDyBoGo4hyVw=
+@size 10527
+share/doc/db4/gsg_db_rep/C/electiontimes.html
+@sha vDpow90IGNEvfXk4H3O2DsNhdCQa6DPVMyzPdXxiEK4=
+@size 7426
+share/doc/db4/gsg_db_rep/C/exampledoloop.html
+@sha yhcopZY5wqUFdb4QEn/nvwxyrgsMjJGALGUghZlOb38=
+@size 23459
+share/doc/db4/gsg_db_rep/C/fmwrkconnectretry.html
+@sha in/0R2siVjHNNv7UxecceeooV4kZWpbTFqX0DruhezA=
+@size 3351
+share/doc/db4/gsg_db_rep/C/fwrkmasterreplica.html
+@sha H5rpiXdpZQ03M0O6bjpCVf+/VUXzSjSY/VakfOC9CQ8=
+@size 11992
+share/doc/db4/gsg_db_rep/C/fwrkpermmessage.html
+@sha +lLeJYxkW5Rj6/wKc0FuzaU7nSboWOqIZys+jMyETU4=
+@size 15717
+share/doc/db4/gsg_db_rep/C/gettingStarted.css
+@sha gMi1GG/SWNMYVIH7PAMRvdVLxsVxx7M0Q5yJ0g7CXe8=
+@size 895
+share/doc/db4/gsg_db_rep/C/index.html
+@sha KJ/iyIJ8eGBSHR7ftaWRgh4FnsyLlzip1f5WC3VWffo=
+@size 15461
+share/doc/db4/gsg_db_rep/C/introduction.html
+@sha d1P7u/Ih35pKlD10ZeMAKBDti/Jrvcb68ewx5TsDyZI=
+@size 16961
+share/doc/db4/gsg_db_rep/C/manageblock.html
+@sha GFygxOxG+GL3TKZAX1iSF2VPqXbZ9asiSx1Nwrkjk6s=
+@size 4044
+share/doc/db4/gsg_db_rep/C/noautoinit.html
+@sha ARKvl9ZMqNuBwm+R7Gfy9gI6as3syQivf2i/L/2D1lc=
+@size 4595
+share/doc/db4/gsg_db_rep/C/permmessages.html
+@sha WkiYBKiTGyo5haLxq1Zk4JFV694LtgA76DoySyXqJO8=
+@size 20530
+share/doc/db4/gsg_db_rep/C/preface.html
+@sha nt46IF1fKfsAp9X0wozGZwQ7uqsbne6Bu6bU7KGGTT8=
+@size 8376
+share/doc/db4/gsg_db_rep/C/processingloop.html
+@sha YThXAu4T7Xo233kCRP8rQ4G4QBfJka49P031TqTtUcA=
+@size 11641
+share/doc/db4/gsg_db_rep/C/repadvantage.html
+@sha Bue3SbwjHtB08r2lk81IdZ67x5Ye28KMhRwq97W7PSQ=
+@size 8638
+share/doc/db4/gsg_db_rep/C/repapp.html
+@sha Pgzzj+jfg4fRpCy7qVaVP5jb4IbuHIKP92Svz56wLtE=
+@size 29996
+share/doc/db4/gsg_db_rep/C/repmgr_init_example_c.html
+@sha ZV++iqMmygVKbpPdpbp9MStO9A8Czi8JOk5P+KnMqTk=
+@size 14444
+share/doc/db4/gsg_db_rep/C/simpleprogramlisting.html
+@sha m9mdyXi+fS2vss/pRbqxyQiZ4ctyfy39BTV+6K29dkI=
+@size 21590
+share/doc/db4/gsg_db_rep/C/txnapp.html
+@sha JtVKY4UpSmqeYfYvgi1RM6iovQ5Qtoyfj2nHppjtPZM=
+@size 6544
+share/doc/db4/gsg_db_rep/CXX/
+share/doc/db4/gsg_db_rep/CXX/Replication-CXX-GSG.pdf
+@sha qOnebQYBmKDfcC3InI7gcrB71EsQfJzzjvQOouRximU=
+@size 361655
+share/doc/db4/gsg_db_rep/CXX/addfeatures.html
+@sha jfh0Xcl62LGJeOyKYVPkFQWOP/L+lpRza7VDJoaJW1M=
+@size 7316
+share/doc/db4/gsg_db_rep/CXX/apioverview.html
+@sha 2vsnwCQXnXD/+T9OPiGOaSzTN1B1emMFEMM7b4fBeXE=
+@size 10110
+share/doc/db4/gsg_db_rep/CXX/bulk.html
+@sha Q/wgC7fjvq+oI2oaS2rKbrq+YL7dSrR/KtWZ5+hDlQA=
+@size 5749
+share/doc/db4/gsg_db_rep/CXX/c2ctransfer.html
+@sha H9WH4pKVTRcPAn6JMEmenUbXZBfe7C4mqaYTKp0LzUE=
+@size 6382
+share/doc/db4/gsg_db_rep/CXX/elections.html
+@sha 8+kBya6sERuCV0IKmBttXGqwHGyWGx9wDyBoGo4hyVw=
+@size 10527
+share/doc/db4/gsg_db_rep/CXX/electiontimes.html
+@sha ucyvNc8xRfLdv+GEQ9o9EUBa9ADWBOsabHs4vJKFbOI=
+@size 7418
+share/doc/db4/gsg_db_rep/CXX/exampledoloop.html
+@sha 2MPonKqBoG7hoKw/WJafY30E0tsXPMkeZFl7xg1wF9k=
+@size 20327
+share/doc/db4/gsg_db_rep/CXX/fmwrkconnectretry.html
+@sha hGaMBb9Hid5XzTmu2+meO9NTLxFwDapqk+nlRJVdikg=
+@size 3347
+share/doc/db4/gsg_db_rep/CXX/fwrkmasterreplica.html
+@sha Z2plDJlQbOarQxc/v4e7BbeBovTuF738WWWYvZ12dT8=
+@size 11878
+share/doc/db4/gsg_db_rep/CXX/fwrkpermmessage.html
+@sha sJiUTkDjQrS5TYjPHsNqT4olnuI/WR9zkmoc8g4uBUY=
+@size 16209
+share/doc/db4/gsg_db_rep/CXX/gettingStarted.css
+@sha gMi1GG/SWNMYVIH7PAMRvdVLxsVxx7M0Q5yJ0g7CXe8=
+@size 895
+share/doc/db4/gsg_db_rep/CXX/index.html
+@sha 6puLh0+rSkhJtQ+PnyV+WMMkP75Mr28lhswtRScVFkE=
+@size 15973
+share/doc/db4/gsg_db_rep/CXX/introduction.html
+@sha 1J9u0EdzLaWqqAT6Of//4UTXoQbyfAwUZI1hUkzlY7s=
+@size 16955
+share/doc/db4/gsg_db_rep/CXX/manageblock.html
+@sha HIPWX/YXgZGLlgYbjDpGmBmmeskK9LCqwYh5cOpQrLA=
+@size 4040
+share/doc/db4/gsg_db_rep/CXX/noautoinit.html
+@sha JR05ZCsjjbnvD/N5wLOKcIKNp+WR/lg0K4lEmQiYENM=
+@size 4591
+share/doc/db4/gsg_db_rep/CXX/permmessages.html
+@sha RG2dJSIWxvrLyyms/Iad/8DeqolD+KMuJos+Lolmk40=
+@size 20526
+share/doc/db4/gsg_db_rep/CXX/preface.html
+@sha zE/lJ1unVEWqLGE+hcQYI1Y030lAET+1JLD9SM1AuTQ=
+@size 8332
+share/doc/db4/gsg_db_rep/CXX/processingloop.html
+@sha 4UhG9UioMD91BUFGaZa8+9PlVO7AAidYhxPzO8l4RP8=
+@size 11837
+share/doc/db4/gsg_db_rep/CXX/repadvantage.html
+@sha Bue3SbwjHtB08r2lk81IdZ67x5Ye28KMhRwq97W7PSQ=
+@size 8638
+share/doc/db4/gsg_db_rep/CXX/repapp.html
+@sha 2JE9LzddOjGXMhJDhEaN6h+OmF6RnOlW30YndaDHSFY=
+@size 29614
+share/doc/db4/gsg_db_rep/CXX/repmgr_init_example_c.html
+@sha SUKTRdtS3GLim4W8caRCk03mFFdOkS41tI3Zwr+SE7A=
+@size 19423
+share/doc/db4/gsg_db_rep/CXX/simpleprogramlisting.html
+@sha bBqF0qM+bW6DFdCaWTC0y36AGkT5bsxLwE7+b9OLiV8=
+@size 24083
+share/doc/db4/gsg_db_rep/CXX/txnapp.html
+@sha neXoqA/kkPwxwkDrquKvMRw7WtX0U/faSBzik+4MFTQ=
+@size 7017
+share/doc/db4/gsg_txn/
+share/doc/db4/gsg_txn/C/
+share/doc/db4/gsg_txn/C/BerkeleyDB-Core-C-Txn.pdf
+@sha mliGi6w/FdUbD9DVceomcMe1k49fnRm3UbV/VM3DBQw=
+@size 613657
+share/doc/db4/gsg_txn/C/abortresults.html
+@sha QSbubiuzB6IkOm1pYo9IntSuONkmy8X1gjiXaWjV/+M=
+@size 3973
+share/doc/db4/gsg_txn/C/architectrecovery.html
+@sha PsrYa9zAZkkLKUTzvgB1M4a/AKTp48M4rgpnmwDjzXU=
+@size 23079
+share/doc/db4/gsg_txn/C/autocommit.html
+@sha yXLXIYFWUr8WKofwnC1WWydr5DBWcwLhN+Nc/rnAzAs=
+@size 8108
+share/doc/db4/gsg_txn/C/backuprestore.html
+@sha A70vWfP5nQ4Yq4dCrOR44Oj209ZJv6KIrGy4XMdbbW8=
+@size 15867
+share/doc/db4/gsg_txn/C/blocking_deadlocks.html
+@sha MZ/lyGMlOUD7DeVO8Nen7ZSEDXAjMLP7fcLXwNBhWUs=
+@size 30616
+share/doc/db4/gsg_txn/C/deadlock.jpg
+@sha z0x8w66N9Equ6pUWniD2INcuLFn3PsuMsStT++jJkTk=
+@size 12599
+share/doc/db4/gsg_txn/C/enabletxn.html
+@sha YtEpuxjAgO2N6jP8rcSsJ2jni7e+/AswfxQ4XfQt3w0=
+@size 39697
+share/doc/db4/gsg_txn/C/envopen.html
+@sha URHMrNuUfEhlc8+a7coWHNcbLakpwY/2mbTVteTd0iw=
+@size 8590
+share/doc/db4/gsg_txn/C/filemanagement.html
+@sha zXGweVp4kbAjYR7KtHRR3wsZYZU7vEi6T454XKmvdLo=
+@size 14796
+share/doc/db4/gsg_txn/C/gettingStarted.css
+@sha gMi1GG/SWNMYVIH7PAMRvdVLxsVxx7M0Q5yJ0g7CXe8=
+@size 895
+share/doc/db4/gsg_txn/C/hotfailover.html
+@sha aDd4mUj/V2ayzROoc1QGoGWVXdsYr+3GWNTPPKoPRfA=
+@size 9029
+share/doc/db4/gsg_txn/C/index.html
+@sha ObS4hBv4rmPvKQAkRc7h8dEr2Yl8J+7MozObVNvIrRg=
+@size 18180
+share/doc/db4/gsg_txn/C/inmem_txnexample_c.html
+@sha IhCXfBGfLw1CQOJgCKJotETlD/3A8HPFrqG6AzHwOVo=
+@size 23341
+share/doc/db4/gsg_txn/C/introduction.html
+@sha JxaXgzGkoLfOuJ9bFtxabu6cdUEyID2+k1Su6tdeTEU=
+@size 20460
+share/doc/db4/gsg_txn/C/isolation.html
+@sha 9Ir/m1YWqkhyl9Igfio1yViefrWPqYiAir23F2iOyNk=
+@size 34181
+share/doc/db4/gsg_txn/C/lockingsubsystem.html
+@sha iAec/lF1l+Fd4hN7KuPLgIWUqC02POQtOL2W96nErBY=
+@size 23160
+share/doc/db4/gsg_txn/C/logconfig.html
+@sha Q68np704Pc2gk8fDzoxfyGWp2xEtOtjKp0Wsc49Cng0=
+@size 18148
+share/doc/db4/gsg_txn/C/logfileremoval.html
+@sha cVB5zKSCOVNvVusNEXEJZDIEGcWEhm6kUVl6GqqL6aw=
+@size 8660
+share/doc/db4/gsg_txn/C/maxtxns.html
+@sha EndVx4nLC3KSMD4+FKxYpBwxjwHhp2cqai0YDFKbIIA=
+@size 9686
+share/doc/db4/gsg_txn/C/nestedtxn.html
+@sha lCEGmuTIRnkvwHMmdRVZ88hlU7k5kx2Y/G+aRiLEdcs=
+@size 6075
+share/doc/db4/gsg_txn/C/perftune-intro.html
+@sha SiPS6LQ211FRZ0BtiLoD1Uy9Z+vIU8t6DU2ANf5VMrg=
+@size 4003
+share/doc/db4/gsg_txn/C/preface.html
+@sha /cGvp04hUzDWp1cE6ZVKjADaMAqVo/zRJTyXusc3OLs=
+@size 8519
+share/doc/db4/gsg_txn/C/readblock.jpg
+@sha +bh6N9SYiC3JGzLV3j259ECG/TTo29h6Xdx92/4KhuQ=
+@size 10504
+share/doc/db4/gsg_txn/C/readmodifywrite.html
+@sha rQiAzT93DqrbOsIYydBHNTT6uK3zcjzsYif22DUmkxY=
+@size 4851
+share/doc/db4/gsg_txn/C/recovery-intro.html
+@sha jL+OXBt/8UpWYjxpGvav58an6Nhgh4dTmyjxriqq4NY=
+@size 4606
+share/doc/db4/gsg_txn/C/recovery.html
+@sha 1ZpCRHFDRLjMFA9zQjwuVfNOuPYIAGA2sI8YbVd6Dg0=
+@size 12635
+share/doc/db4/gsg_txn/C/reversesplit.html
+@sha n24tvcz/CsYp3/Mj7wr30efMOj6LhE8DF7yEGWxX2Uc=
+@size 7053
+share/doc/db4/gsg_txn/C/rwlocks1.jpg
+@sha H8foXVW1kCczEMkGtsqqMryxKljxX5Fr2Xet4HM97jw=
+@size 7428
+share/doc/db4/gsg_txn/C/simplelock.jpg
+@sha Zl7EY3JMf4TUy7WAeqgz1S7cYU6riklPYqKdXi/KusA=
+@size 4453
+share/doc/db4/gsg_txn/C/txn_ccursor.html
+@sha cMP9rnA/yAG4zyQSMwxked7S2awlUY/hIld34aA+Bio=
+@size 8094
+share/doc/db4/gsg_txn/C/txnconcurrency.html
+@sha sO/zoSNF0SpVZeFQZbbshZ2sUcpIDcuzQ62QIvtOsYU=
+@size 13520
+share/doc/db4/gsg_txn/C/txncursor.html
+@sha UWhLVkbYhBRI6xVuZ/Hup0oePLVwsZ4z/qM+NeDXxaQ=
+@size 5217
+share/doc/db4/gsg_txn/C/txnexample_c.html
+@sha h1CBVTCcYmp4vfYFVUIOzDTMxEWPypukjyTDlvEX6tc=
+@size 29994
+share/doc/db4/gsg_txn/C/txnindices.html
+@sha Px6RunSOue9gYVCBQPgtDegZPgeRDvPtYJ1gJtLE5Lc=
+@size 5641
+share/doc/db4/gsg_txn/C/txnnowait.html
+@sha iP2VvtmNeQ6Y3gTFCT3atSZdnYq/UX4rROcnr613/tc=
+@size 3585
+share/doc/db4/gsg_txn/C/usingtxns.html
+@sha wlnJpuV5Ld/buFsMipSH9wQECGeO2Tm/OMgmVWTbxwQ=
+@size 23068
+share/doc/db4/gsg_txn/C/wrapup.html
+@sha TRV7ZcHfiqL2dNKyJ1t0+fpiBdpJGlRfzfH1MMmOkMQ=
+@size 10472
+share/doc/db4/gsg_txn/C/writeblock.jpg
+@sha htuDnCvHy6N88hjz164eymp+DxgWCJqCwPU+AHpPGs8=
+@size 6369
+share/doc/db4/gsg_txn/CXX/
+share/doc/db4/gsg_txn/CXX/BerkeleyDB-Core-Cxx-Txn.pdf
+@sha TsM5RhAow9TpawXDwHkQRNUtXYVv/X1OWVY16LOlIh0=
+@size 589605
+share/doc/db4/gsg_txn/CXX/abortresults.html
+@sha 7eEISwOGkIKKIwYdAz+eIhl74Kt7ehDpdHsEGp8afIw=
+@size 3969
+share/doc/db4/gsg_txn/CXX/architectrecovery.html
+@sha xxjhTFnLiAAGJ5wPgImGOVybPokfqdjQGesCjqNwaVA=
+@size 23067
+share/doc/db4/gsg_txn/CXX/autocommit.html
+@sha BONyNUKJLw8ZXvBN+/MbeD4/U/qwRQfYWxgVYH5zfZ8=
+@size 7383
+share/doc/db4/gsg_txn/CXX/backuprestore.html
+@sha 2J/1u1Q64PHpmmkot3fSyBlHbztRPpXFiwlS5HSF+rY=
+@size 15859
+share/doc/db4/gsg_txn/CXX/blocking_deadlocks.html
+@sha EZ57rhermzeq4EuNFCKJKyF1RXndia8Af++GOWUUc98=
+@size 30616
+share/doc/db4/gsg_txn/CXX/deadlock.jpg
+@sha z0x8w66N9Equ6pUWniD2INcuLFn3PsuMsStT++jJkTk=
+@size 12599
+share/doc/db4/gsg_txn/CXX/enabletxn.html
+@sha Mjp3bIKtq09Ej13shMiTE22cqJJxImweLZDOX6pPrh0=
+@size 40123
+share/doc/db4/gsg_txn/CXX/envopen.html
+@sha 7HU2xjbXtz4wfv815U8QcNHlBnBdGOL2TlcUGE+xo/I=
+@size 7689
+share/doc/db4/gsg_txn/CXX/filemanagement.html
+@sha XnxM1aJAxp2ThabaHuqSDMtboPurZl521q5wiGQdPcI=
+@size 14579
+share/doc/db4/gsg_txn/CXX/gettingStarted.css
+@sha gMi1GG/SWNMYVIH7PAMRvdVLxsVxx7M0Q5yJ0g7CXe8=
+@size 895
+share/doc/db4/gsg_txn/CXX/hotfailover.html
+@sha aDd4mUj/V2ayzROoc1QGoGWVXdsYr+3GWNTPPKoPRfA=
+@size 9029
+share/doc/db4/gsg_txn/CXX/index.html
+@sha ObS4hBv4rmPvKQAkRc7h8dEr2Yl8J+7MozObVNvIrRg=
+@size 18180
+share/doc/db4/gsg_txn/CXX/inmem_txnexample_c.html
+@sha DNGQcrcjqhilv4+Uu72BY8CEvQUvzEsKpEpjXd6oBoE=
+@size 21650
+share/doc/db4/gsg_txn/CXX/introduction.html
+@sha R9/KbIdU4kKIiTgmOy+XV9pNlyqurPpVBpKdbpJ3c6U=
+@size 20458
+share/doc/db4/gsg_txn/CXX/isolation.html
+@sha YFqtn843uJNkvGTi+f/yGX1bZyejg77+BGRJKy5rPD8=
+@size 32151
+share/doc/db4/gsg_txn/CXX/lockingsubsystem.html
+@sha 6POUGHzKTjvbaGWk64BYgnDVJ52gofuoCUiymVdtJa8=
+@size 21877
+share/doc/db4/gsg_txn/CXX/logconfig.html
+@sha 9zqb5nGGz2eSns7IWi/aOYuEPxld/CWmi6StfaZnAXQ=
+@size 17367
+share/doc/db4/gsg_txn/CXX/logfileremoval.html
+@sha GPibtKL6vZyVq0GRbBthChDjBKFP0szzkyT7TWfZhug=
+@size 8652
+share/doc/db4/gsg_txn/CXX/maxtxns.html
+@sha Mp9rvtreeAQeAEd1RJFf12OMyMiA5Ukfm6yCt2zV1zw=
+@size 8875
+share/doc/db4/gsg_txn/CXX/nestedtxn.html
+@sha Tp7JdF7eAtbpXgok6uAdM6I1MjIBnVW3PP0/aRy9Ox4=
+@size 6046
+share/doc/db4/gsg_txn/CXX/perftune-intro.html
+@sha SiPS6LQ211FRZ0BtiLoD1Uy9Z+vIU8t6DU2ANf5VMrg=
+@size 4003
+share/doc/db4/gsg_txn/CXX/preface.html
+@sha u0T42RZ4wMCkVvGhWx4tHmNZ5AXY+voePAklaMyzieQ=
+@size 8485
+share/doc/db4/gsg_txn/CXX/readblock.jpg
+@sha +bh6N9SYiC3JGzLV3j259ECG/TTo29h6Xdx92/4KhuQ=
+@size 10504
+share/doc/db4/gsg_txn/CXX/readmodifywrite.html
+@sha 5agE29EiSJlyf7fs8awhoTE5yn7+bnDx7GS63HUv8pQ=
+@size 4917
+share/doc/db4/gsg_txn/CXX/recovery-intro.html
+@sha jL+OXBt/8UpWYjxpGvav58an6Nhgh4dTmyjxriqq4NY=
+@size 4606
+share/doc/db4/gsg_txn/CXX/recovery.html
+@sha jkKjalwgeNn3+6DbUTXpDoRkt3fX9wOxnCuKQsow7DQ=
+@size 11964
+share/doc/db4/gsg_txn/CXX/reversesplit.html
+@sha hPg5AhNGmSlsL57Ub2Ptp6Yk/OQmlD+GdCzVDmxc2XY=
+@size 6633
+share/doc/db4/gsg_txn/CXX/rwlocks1.jpg
+@sha H8foXVW1kCczEMkGtsqqMryxKljxX5Fr2Xet4HM97jw=
+@size 7428
+share/doc/db4/gsg_txn/CXX/simplelock.jpg
+@sha Zl7EY3JMf4TUy7WAeqgz1S7cYU6riklPYqKdXi/KusA=
+@size 4453
+share/doc/db4/gsg_txn/CXX/txn_ccursor.html
+@sha ccPcnW0VEZFNs97BeQMweCEm/D/de+dK7F2T7+Tgpho=
+@size 7228
+share/doc/db4/gsg_txn/CXX/txnconcurrency.html
+@sha JRjo7GduwRJBeTMaH9tVeCYptuzRIhU9+doPGb6xSUY=
+@size 13518
+share/doc/db4/gsg_txn/CXX/txncursor.html
+@sha /FHqLZcGWMXI2MdmkT50bqQFfPfv9yKMent3kinuxBI=
+@size 4815
+share/doc/db4/gsg_txn/CXX/txnexample_c.html
+@sha /olWYw7SxPXW2IrfueQMTtwUOW9xUYSPRRL4NfsZnXw=
+@size 27496
+share/doc/db4/gsg_txn/CXX/txnindices.html
+@sha nXGUgN6n00xoEkLYeQa4K6WGUeU3lxARpKJw4VoJr9A=
+@size 5235
+share/doc/db4/gsg_txn/CXX/txnnowait.html
+@sha vh4kbeCkmhRIBVvO7jnJdesg+ANlkbr9vXijCWmO3ZU=
+@size 3491
+share/doc/db4/gsg_txn/CXX/usingtxns.html
+@sha 2EacoMt07fgjw5qele1T6Jo+jH0B6uaqB9phw77j7JY=
+@size 22065
+share/doc/db4/gsg_txn/CXX/wrapup.html
+@sha TRV7ZcHfiqL2dNKyJ1t0+fpiBdpJGlRfzfH1MMmOkMQ=
+@size 10472
+share/doc/db4/gsg_txn/CXX/writeblock.jpg
+@sha htuDnCvHy6N88hjz164eymp+DxgWCJqCwPU+AHpPGs8=
+@size 6369
+share/doc/db4/images/
+share/doc/db4/images/api.gif
+@sha ZI35aUJINR0KdglgBaOPeQISA1leroSrUYyIM/wCWfw=
+@size 121
+share/doc/db4/images/next.gif
+@sha ezLmNk+IcnP0L6/nggR1By0k0z3muqRK0s1EtdCS+II=
+@size 225
+share/doc/db4/images/prev.gif
+@sha 3E/Ye+/jC16gbVHHTfUsyiKNleXjN3e6K4S2LryhNBY=
+@size 234
+share/doc/db4/images/ps.gif
+@sha iAUw/d3ORiG9jr8Gz93KwDJ/9Pi0+s3TQmMR/u5jYmY=
+@size 244
+share/doc/db4/images/ref.gif
+@sha j8Sj8FcSpiqjoMFF/0AEWGpKUp5+HRSInAgKhlCYWJQ=
+@size 119
+share/doc/db4/index.html
+@sha ykitASXyNTMKiZszrIYxErNelE7EtNAGH+q8MEYR+QA=
+@size 6136
+share/doc/db4/license/
+share/doc/db4/license/license_db.html
+@sha A56/7JtPal2VjdZq2yE4CXCJNNgbb8KZNrdBTYexOPw=
+@size 1110
+share/doc/db4/ref/
+share/doc/db4/ref/am/
+share/doc/db4/ref/am/close.html
+@sha qTNgum1NqxwlKFzhJMCPMhInIJnsE97lev8O6kJxSKw=
+@size 2706
+share/doc/db4/ref/am/count.html
+@sha bdNaB9DDVsgqdI2r7lBGWx0DkzcVvc2l0YOFSDTedp8=
+@size 1793
+share/doc/db4/ref/am/curclose.html
+@sha SoFEd/TuS539uv+L57w7cJu7EkyttFx+wxIMU9uzDVE=
+@size 1860
+share/doc/db4/ref/am/curdel.html
+@sha UYcCsZqwrvsyeb6EGeb8tOpQBXmQNV2Nfo7EUhb4wsI=
+@size 1746
+share/doc/db4/ref/am/curdup.html
+@sha Ds6j+NbqjWlLFTrWE9PUElCCppSXMs/8VujGk2AV9Ig=
+@size 2280
+share/doc/db4/ref/am/curget.html
+@sha s4WO51VuVRatVBVLUNjCIifyinacQbNzusFFejrf/60=
+@size 7100
+share/doc/db4/ref/am/curput.html
+@sha mfGz1iaey6X7/7J/OVEESsG2MdbmzSAtOM1iA++6k/o=
+@size 4240
+share/doc/db4/ref/am/cursor.html
+@sha xsohgmCTtdZGzxFw5t5JuXIlgMfsWa8QIWBkXHBCC5Y=
+@size 3880
+share/doc/db4/ref/am/delete.html
+@sha T6GtfhpRlVOwi2f/xI1gvzkyrOOhEwKdNJ+fRqm82So=
+@size 1870
+share/doc/db4/ref/am/get.html
+@sha NNqB1SOoNR5KT1VuoZua3q/moaPlu2gbtDlSbMjKFSg=
+@size 2535
+share/doc/db4/ref/am/join.html
+@sha MDop85R6A+V2ZtQ0jLj0YQ1QkM5LAEvkukGX1KF4CaI=
+@size 9393
+share/doc/db4/ref/am/open.html
+@sha BIQPMLnBRxQS1A2DLcQGQlAhd6ZxL5OPtEhZNmcffBA=
+@size 3002
+share/doc/db4/ref/am/opensub.html
+@sha sBlR+MjNcvgAGamPK1aIsFOiufwve+skNjxDwIm5OPg=
+@size 5386
+share/doc/db4/ref/am/ops.html
+@sha rz1Wsjp4iT3BtP0SKIEOlUqh7v3fPfefKzKviGvUAvA=
+@size 10027
+share/doc/db4/ref/am/put.html
+@sha p7E2gDEwExQ5XduK7CdTv3ggMFIIyhgW86a9DGkBhe0=
+@size 2361
+share/doc/db4/ref/am/second.html
+@sha 0/g2r00INygDQsrDJWXey1Yqr+mMISqBoYetMwTD0Os=
+@size 11136
+share/doc/db4/ref/am/stat.html
+@sha 9vq5nhcS+KK3faO02j8rEPX+YECOZysv48Sqr05uv2A=
+@size 1880
+share/doc/db4/ref/am/sync.html
+@sha 4L1agL33oMH2sfr6vvmsBibgg3eU76/IVxYP+EJ3FY0=
+@size 2360
+share/doc/db4/ref/am/truncate.html
+@sha FgEgEKBBv6w8EJ24ap5xVIO3Hy0QTPOE2jfevh4ImIw=
+@size 1523
+share/doc/db4/ref/am/upgrade.html
+@sha AVCuHqkanjPDPJXZqxUWvgyHH8PvT1PWmTr4fbZvLHs=
+@size 3372
+share/doc/db4/ref/am/verify.html
+@sha djzcoHSNXEPsaDikd2E21O/d8lN1LeDI8bT3wfOmmHU=
+@size 3549
+share/doc/db4/ref/am_conf/
+share/doc/db4/ref/am_conf/bt_compare.html
+@sha Nna3CL21mgdmL5jjaxswk6QG9YvDK28nQi2jADOvkXM=
+@size 4620
+share/doc/db4/ref/am_conf/bt_minkey.html
+@sha fHfo73J1u7cYzkVOaZEAt6hZbtzJcRmW7D4Sr9wHUg8=
+@size 3658
+share/doc/db4/ref/am_conf/bt_prefix.html
+@sha J70MZN6zNpojEjDBBD7pF7Ffv/igXRpPGLGikaW9LUQ=
+@size 3649
+share/doc/db4/ref/am_conf/bt_recnum.html
+@sha L2ZrisaWHzKT2rsQ3axBxXNplJ0qftCEoNVkRirm4S0=
+@size 4469
+share/doc/db4/ref/am_conf/byteorder.html
+@sha PBbAR+XyRWDhpp3pV5csk1wsXvdoGx6JlOYNzmde8VQ=
+@size 2435
+share/doc/db4/ref/am_conf/cachesize.html
+@sha NA7SFRJbFwNeD9PT2bXU1hXoWO5NfgThXxavZ1I5vWg=
+@size 5382
+share/doc/db4/ref/am_conf/dup.html
+@sha tcN6oj83yNEq6Qe3rfqlZkVryUhXeDL/vj4sMqa7drs=
+@size 6019
+share/doc/db4/ref/am_conf/extentsize.html
+@sha xrYxkl2kZsYR7EbwEEmnRa5BdYfnZr4KCLMk+2XL/fw=
+@size 2820
+share/doc/db4/ref/am_conf/h_ffactor.html
+@sha vnrgnbaD6oh+xU2EJwEFDu1QQQMyFWnWLw6IzuGWVUE=
+@size 2091
+share/doc/db4/ref/am_conf/h_hash.html
+@sha 6ETAsPyfRtpn8nJYQcTWGSRmxXn2I58DRcguxHOpUwY=
+@size 2703
+share/doc/db4/ref/am_conf/h_nelem.html
+@sha j/XkdiueBXZgvm474kNZgIP3BUtcJUBNht0DlrGm7bA=
+@size 2223
+share/doc/db4/ref/am_conf/intro.html
+@sha b0Siuj5Bqgty27IKaG3EQoCfT0GtoRw81U7aA4r5jOw=
+@size 2818
+share/doc/db4/ref/am_conf/logrec.html
+@sha i5nbi21JdzoO/DzstNQx9f41Cr0EaJmCur//5EI5Q8s=
+@size 5710
+share/doc/db4/ref/am_conf/malloc.html
+@sha rm4QkG0VvZRFoYxOWDkCgq53mvVZt/lj4Kya7EmSERM=
+@size 2228
+share/doc/db4/ref/am_conf/pagesize.html
+@sha Pzu7Ffd3ATPiUYwUGbPyRnPrx0/6Ie5g5eRJEdfP5/4=
+@size 5121
+share/doc/db4/ref/am_conf/re_source.html
+@sha 2CG7UOjtVRDT0Mekl3zkjnXd6rDHKABD/Vz4yBtvvNc=
+@size 4494
+share/doc/db4/ref/am_conf/recno.html
+@sha UuR2sMbffCKj8QywEPkXd+9tQLIoMDIOtnNjZ8ZA4a0=
+@size 4567
+share/doc/db4/ref/am_conf/renumber.html
+@sha iG3emmMB7mzD+iTHPJOufEeKMsg46yeuPgbZ437ijKU=
+@size 5764
+share/doc/db4/ref/am_conf/select.html
+@sha VxXMvrNEvIR1UIHcafDEPy2ggiJiJl0OaSXrLAqJ97g=
+@size 7937
+share/doc/db4/ref/am_misc/
+share/doc/db4/ref/am_misc/align.html
+@sha 3SbKKmgTY34T+nSkpuncQYGH9s/oZlFW+8ZjlnJaIXs=
+@size 1972
+share/doc/db4/ref/am_misc/dbsizes.html
+@sha 2oFRJcE9WLKS+whIexoWBn4J+lxHS4RT1NyilBY7+r4=
+@size 3028
+share/doc/db4/ref/am_misc/diskspace.html
+@sha A6wp5uf9ZMA3m3e+fJddbjLY2tUzpitA0Enb5TbWxyY=
+@size 8885
+share/doc/db4/ref/am_misc/error.html
+@sha tvcYg2Jx8HKNN2JyN7wRuuLjQd+tWztk/m66k8bHLIM=
+@size 3596
+share/doc/db4/ref/am_misc/faq.html
+@sha g7A6rpKk3AdVyX5ek+Zz3GqtpOVTriV3S69uUcD5csY=
+@size 7732
+share/doc/db4/ref/am_misc/get_bulk.html
+@sha aWuRS+lRhFb9IYeuU9tAt6ZeVUg0InbWSF6cGCbG3TY=
+@size 8058
+share/doc/db4/ref/am_misc/partial.html
+@sha u2/yj4EqsEMGC952EuekPbSIHhO6biuvHuHRl5gfR1s=
+@size 5636
+share/doc/db4/ref/am_misc/perm.html
+@sha fRj01nhs1goKlTMYFm/dqyS/5OGCnGSBTVaVdmp70Zg=
+@size 2918
+share/doc/db4/ref/am_misc/stability.html
+@sha 53vOFZuZuxtJKPeMcQeS41CaS91wfmyFBbHw7IZ+1b0=
+@size 3830
+share/doc/db4/ref/am_misc/struct.html
+@sha Dlq2j7LyhI3Gv4RdjQ25ML9X3vV0eaBSF4XBcNyemPw=
+@size 3758
+share/doc/db4/ref/am_misc/tune.html
+@sha jTFPfD8Z0MPF0lmCo65vHp0+jQFtBn/ni3xZ0sYuHgA=
+@size 8425
+share/doc/db4/ref/apprec/
+share/doc/db4/ref/apprec/auto.html
+@sha XpBhfxyXCNXXE7HsX5svLtP6WWJe4rFrdSVSZqxK64w=
+@size 8766
+share/doc/db4/ref/apprec/config.html
+@sha G3ySMhU5Wbh4bORPpu7d0RczmyO8foY9vxeXzMJDwqA=
+@size 8195
+share/doc/db4/ref/apprec/def.html
+@sha 6Vu017pKKmbnflTeFKvpKKdmLNZya5vfpCRwiy+bzPo=
+@size 7637
+share/doc/db4/ref/apprec/intro.html
+@sha mmGO/cHcGGbdqmhE7u9VsH8KQ4GPbhnAI9DsHuVXHIA=
+@size 5829
+share/doc/db4/ref/arch/
+share/doc/db4/ref/arch/apis.html
+@sha 3WuSxM7PuqZsDwoDMM212kkwIBGKiUOWJMF3HDc2bwQ=
+@size 4859
+share/doc/db4/ref/arch/bigpic.gif
+@sha 5uQQDIsSlf5hwhlcDulVn/N0CJykwc5sfkBXtuCslcE=
+@size 2589
+share/doc/db4/ref/arch/bigpic.html
+@sha EPnDAmGvZSd2Az7wBDeDnhKPQKCdPtL0+Re/BnYUvPE=
+@size 6826
+share/doc/db4/ref/arch/progmodel.html
+@sha OhekLZYAZkULMuxGIf2O3ysyQ9teEO/0Q9y8S/6moIQ=
+@size 2826
+share/doc/db4/ref/arch/script.html
+@sha 37LcWjWIQdWYyy3Y97QVvQ7EyqUJ+vpPRO62NejaniE=
+@size 2029
+share/doc/db4/ref/arch/smallpic.gif
+@sha L3yqP0rL6Je2uxkJyZARRdTjCVSm0CsQXaUAyvutWhY=
+@size 1613
+share/doc/db4/ref/arch/utilities.html
+@sha igI+5zRqmnd1REoGZwa82ENM8kbBLIgWnRCnnDFEn3E=
+@size 4957
+share/doc/db4/ref/build_brew/
+share/doc/db4/ref/build_brew/intro.html
+@sha +8ICnRovLv1ahuwYz9Z/mNVtGZM3O/iCIZCdgupIodE=
+@size 6128
+share/doc/db4/ref/build_s60/
+share/doc/db4/ref/build_s60/intro.html
+@sha ZpNeePnV0GjxAHRq7NilyXmYLicwB7WKLtUKMp3+c08=
+@size 3883
+share/doc/db4/ref/build_unix/
+share/doc/db4/ref/build_unix/aix.html
+@sha nJjf9ysx8TeYBE//t4329LctHKlBf/DG0ldb5A2RwPQ=
+@size 4955
+share/doc/db4/ref/build_unix/conf.html
+@sha A05s06Mhlx7wIwsEYuPNT0X1MhDvLtWvdrY2N4Lku3c=
+@size 14646
+share/doc/db4/ref/build_unix/flags.html
+@sha lOYd8TZGtvQpKh7SVqFGD8FrMBrEIJVz+mJ1FUXo6rU=
+@size 4099
+share/doc/db4/ref/build_unix/freebsd.html
+@sha x0WjdcEcioSWnGJFyUy5cj5EaZHUzPtvrO22Q8ApfR4=
+@size 3378
+share/doc/db4/ref/build_unix/hpux.html
+@sha KjD2MEr3mJIR1Lm6P45HgKWwH9W2jvpFLVclYgt6z6Y=
+@size 6295
+share/doc/db4/ref/build_unix/install.html
+@sha mkwGAlcGvO+EvPfD8R8ykpwWs/xoGt5pnNxDKcP4oK4=
+@size 3895
+share/doc/db4/ref/build_unix/intro.html
+@sha NnDt3LyuI/q86bncEy83KFkdecm2IqWWCXyiqhQfdiM=
+@size 3413
+share/doc/db4/ref/build_unix/irix.html
+@sha vufGFHc/zLUi8ZuuqZT0ozx6e6V4/uAG65Yq4JQRdxo=
+@size 1812
+share/doc/db4/ref/build_unix/linux.html
+@sha fVoSsjLnG60l4sy454VSD0HaPU9DArWaXft/xHTK8Ok=
+@size 2511
+share/doc/db4/ref/build_unix/macosx.html
+@sha nMi0isKv0AKpPXj3KzYLvsuQIArlx6/OzduHRmyWwBE=
+@size 3286
+share/doc/db4/ref/build_unix/notes.html
+@sha oav87FKSJpSNFryeBDVu8HzJXkwxXTasuWOhBlXxqmc=
+@size 9978
+share/doc/db4/ref/build_unix/osf1.html
+@sha TGX02pvxccvTa0YNOUKJoxDhJB1JVxT6W4Ekh0cpbzw=
+@size 1808
+share/doc/db4/ref/build_unix/qnx.html
+@sha fAxK43bo67MXBX4zAGXaRvxBO7ubz3S/ffkV8OGOsSw=
+@size 5867
+share/doc/db4/ref/build_unix/sco.html
+@sha ffmZz8uvqdxeP96C910cBrr8JxqlC+qifnhnC2qFUwI=
+@size 1680
+share/doc/db4/ref/build_unix/shlib.html
+@sha c2nxjMgErJz+LPYu1SPraLOJnXQOyX5yFolNGxtfV4s=
+@size 6474
+share/doc/db4/ref/build_unix/small.html
+@sha 9+edb6pSR0H9niNWyL/F5/2g2QGHRuO3aMCB8h2JoI0=
+@size 4723
+share/doc/db4/ref/build_unix/solaris.html
+@sha FnYAfrRY0vwZqmv9YfUIRJDkx8Y9BPqxQ2TTemoyEt0=
+@size 6454
+share/doc/db4/ref/build_unix/sunos.html
+@sha Wjmx62XPCvKGFzDDZHDOaYgVXMdl3Pp1FLT09DZYYBY=
+@size 1943
+share/doc/db4/ref/build_unix/test.html
+@sha uEWS8s3D4xshWGdrp0xQK7FsOHNGcwD87frEVHu5WeI=
+@size 3441
+share/doc/db4/ref/build_unix/ultrix.html
+@sha lsOgcQoYGQr8KJXevQgilsQOGK6vAnZ9NllkzSYMZFA=
+@size 1636
+share/doc/db4/ref/build_vxworks/
+share/doc/db4/ref/build_vxworks/faq.html
+@sha G/5yKk3uPWLtXYoJ0XdSHaps85zjq9ijquV1pGYclqc=
+@size 9035
+share/doc/db4/ref/build_vxworks/intro.html
+@sha Pwl46Bt60wUHpE3FCcpGcCF89nOOwDpqDOqrS6lieHk=
+@size 6796
+share/doc/db4/ref/build_vxworks/introae.html
+@sha n65ZZjMBQ/Vhl4+RuTqFU3Cj/63HacM7QaAnWEEO0NA=
+@size 8167
+share/doc/db4/ref/build_vxworks/notes.html
+@sha RQunJf7BU06/f4Wz8RFE1E2Vd4o0V3Al79VGEOGqUDY=
+@size 4579
+share/doc/db4/ref/build_win/
+share/doc/db4/ref/build_win/faq.html
+@sha Ibf0yShhMkhZGPKQ+27s25YB8I7MYN+uZk0TzD1Q1yQ=
+@size 4221
+share/doc/db4/ref/build_win/intro.html
+@sha 9NG7SOd45O9buTG/TyZmVYcP6Q+dbCzIT4GMj4zjFUw=
+@size 16097
+share/doc/db4/ref/build_win/notes.html
+@sha Ben+owA35lgi4MB0Ex3M3oFGyASGnPwg4TXQO+YpI3w=
+@size 5187
+share/doc/db4/ref/build_win/small.html
+@sha Wyku7QPuNCcB7lkVr4kGGKNlIhN41w9bDprKDAyss5o=
+@size 3112
+share/doc/db4/ref/build_win/test.html
+@sha R0mNA5QMnV427yQbtVKwjEQsNVznkL7vMTLYTNXsJ5k=
+@size 4439
+share/doc/db4/ref/build_wince/
+share/doc/db4/ref/build_wince/faq.html
+@sha rfxfej4zpkmF6vpNPjptjIGUCjccdN+rPgcMm5liJyA=
+@size 1727
+share/doc/db4/ref/build_wince/intro.html
+@sha Rbc7phOZ9C3GHvqVUNoH7Pgd4bYtys56oIiR4SACr9w=
+@size 4685
+share/doc/db4/ref/build_wince/notes.html
+@sha 0GSf+83wpBiCOuIh71QSHH159JIuV1B5YRA8OnU5Ve0=
+@size 2052
+share/doc/db4/ref/cam/
+share/doc/db4/ref/cam/app.html
+@sha NEJke1img82vLBSl9v/Dw7034NT/HpY0+eK/RTXMB4Y=
+@size 15219
+share/doc/db4/ref/cam/fail.html
+@sha i/GfFcGCAzVXXLfYQSSlfUBAIZWHrkt/H11n6eiwhf4=
+@size 6042
+share/doc/db4/ref/cam/intro.html
+@sha rVysXG73jgTQYwaV+6u/Zix9YODeKhr3o3WyQ5+VrUU=
+@size 9084
+share/doc/db4/ref/changelog/
+share/doc/db4/ref/changelog/2.1.html
+@sha CubVll292sNgfxN0o8ZG08FaobmHS+Vsm+GMDUdav4g=
+@size 3909
+share/doc/db4/ref/changelog/2.2.html
+@sha +QpyN/9zfdkTRyak9iRS3RgpWkYo2pTgkh7p32s6y/w=
+@size 11006
+share/doc/db4/ref/changelog/2.3.10.html
+@sha imRhGQaltdfDQ4VePylgAxQGWsqfiT0Isu+FQawgrkQ=
+@size 1059
+share/doc/db4/ref/changelog/2.3.11.html
+@sha RgRUe38yX9Kite3J0NiESomFXpSRhUwxjKl5E5Q4PLU=
+@size 740
+share/doc/db4/ref/changelog/2.3.12.html
+@sha EQT7i4USX0rulR0VBc8S1B5T8FDfc6IiR8jHrrnuSf8=
+@size 2560
+share/doc/db4/ref/changelog/2.3.14.html
+@sha Yybjfmzwk2d41C9w+GtE/4MSfYrpTL49qhpK9iiDcVE=
+@size 2386
+share/doc/db4/ref/changelog/2.3.16.html
+@sha CCI1GVkc5hXtiv0gAdCEVkber4Ik31zf+65klwXYKEs=
+@size 4835
+share/doc/db4/ref/changelog/2.3.5.html
+@sha VLb9wgwdMfZeC5HEgf0lEz+ygiJdmvKq3UzTE6Op17c=
+@size 1456
+share/doc/db4/ref/changelog/2.3.html
+@sha CFme1K/gTSnIdwNbnQKKn0YJ4chDVdwgQbHvmO2M4v0=
+@size 6578
+share/doc/db4/ref/changelog/2.4.10.html
+@sha cJErCu8Rh3iEJeJLIdoXmkiceEAoqgfvmtFPRL28IMU=
+@size 15455
+share/doc/db4/ref/changelog/2.4.14.html
+@sha ilWrRMgdMzT5dk41S3YauToOgJXC6+hufc4XQokVqow=
+@size 5728
+share/doc/db4/ref/changelog/2.5.9.html
+@sha pv0N1A3/xOfuCiFvbuKpoTihRdj2gDtCIo46Axv9Hys=
+@size 20871
+share/doc/db4/ref/changelog/2.6.4.html
+@sha YELU5TyolR0FwEWePE/sm7gaAz+9QVpWniwqLf1W4j4=
+@size 5675
+share/doc/db4/ref/changelog/2.6.5.html
+@sha NdKEWUlvzw2N58LnZ3+1HuovIXBMm8+5uCLImeQiG7w=
+@size 666
+share/doc/db4/ref/changelog/2.6.6.html
+@sha rGAUQ5/2XuZq5qXsu/sPUz25XSmYPyD9GIEGeMVJSqo=
+@size 2853
+share/doc/db4/ref/changelog/2.6.7.html
+@sha TI9hkiCryDxfp3PkIlrpeAAwEfvg21U4E/oRgbqhZI0=
+@size 1794
+share/doc/db4/ref/changelog/2.7.1.html
+@sha D/msMvX65z7Mo6jHr5r6HzvD7hhnYAUXx5loN4d7j4E=
+@size 1077
+share/doc/db4/ref/changelog/2.7.3.html
+@sha BrapwpHpiLI4CjQ01frIrVjUdjN/OmQImkQY2KOaCQ8=
+@size 1662
+share/doc/db4/ref/changelog/2.7.4.html
+@sha uzZkkhNTdpzVuoMVjKSbbIcgp1Nxiy+AeQAXcLucQlI=
+@size 3116
+share/doc/db4/ref/changelog/2.7.5.html
+@sha f+xQpsIa78w8CIYGXLd7BL72oFWVlkQr8OcuCr4Ld3I=
+@size 1164
+share/doc/db4/ref/changelog/2.7.7.html
+@sha O0eVSjOd7/8WjXy1GtZMgDCFNqyw29oKqU02733+SoM=
+@size 1747
+share/doc/db4/ref/changelog/3.0.55.html
+@sha TkG9oofoXS10jRN7Yh3LPFSi+uNmhLMAUdROjcrWius=
+@size 36098
+share/doc/db4/ref/changelog/3.1.14.html
+@sha uxjQKwwEsrXViatux3ZRpAIwVPo09JeIjLL0hTXtg78=
+@size 12475
+share/doc/db4/ref/changelog/3.1.17.html
+@sha 59XMbcfhovjc0TlxerbqWzlYN5U8IdY0hXGmM/cwg5I=
+@size 7841
+share/doc/db4/ref/changelog/3.2.9.html
+@sha Iz3ZNerpEY99CxtN1nj2TZ9q8BSVb1RBw5OoVlj8oIk=
+@size 14453
+share/doc/db4/ref/changelog/3.3.11.html
+@sha rWs/lsHhpnFzoxFLd/QorYvJOkq/9o5r47IgkPDTny4=
+@size 12366
+share/doc/db4/ref/changelog/4.0.14.html
+@sha 9UM2du2VRejBlxvHb+UqBH+0Nv65CMevHtf/CIR9Qug=
+@size 9705
+share/doc/db4/ref/changelog/4.1.24.html
+@sha X5vNeAnGom0OSUM0+gKv1w1EiTbxuFstR/vk5qrq1lg=
+@size 18654
+share/doc/db4/ref/changelog/4.1.25.html
+@sha ZuWVFaJiCDd+ER1Nmdhr0YshfVBtke8JjTAAHHN4ujk=
+@size 666
+share/doc/db4/ref/changelog/4.2.52.html
+@sha xvsKmfddRWlow3WMXtJBLBvoOXO68Cr4odIpiS1p+bc=
+@size 40206
+share/doc/db4/ref/changelog/4.3.29.html
+@sha zwovO2F15a6R6qjvECIybP9p3XcAuQ39fQXQx/anM/A=
+@size 24452
+share/doc/db4/ref/changelog/4.4.16.html
+@sha E0c0wJMVndfYxTFhu1dwuZ1f98zwcB0/CNHHBiVzu9A=
+@size 19281
+share/doc/db4/ref/changelog/4.4.20.html
+@sha XMqy2C/qnjI2GbPfTmb0dckeumeQuxN0rCosJLBD/oo=
+@size 2273
+share/doc/db4/ref/changelog/4.5.20.html
+@sha PvLE7oQYbwmk8AXYZwty6r5iA9vdmszJdcSwE9GatiA=
+@size 12623
+share/doc/db4/ref/changelog/4.6.html
+@sha YV070u3MTyC5+VLLluuE+w4NB2xiYqKQCZNbpARaKg8=
+@size 18034
+share/doc/db4/ref/changelog/toc.html
+@sha KNKSaQPhEig+bifV/wFIfxY3g/zJ+LcbvK7MbXxOeS0=
+@size 2652
+share/doc/db4/ref/debug/
+share/doc/db4/ref/debug/compile.html
+@sha xbN0L74NVzwK3A96rn3YFdLQLZc9UODrahb1D/gtGwE=
+@size 3042
+share/doc/db4/ref/debug/intro.html
+@sha ycEviiO+Y162/0zdamK+DnbyZMA9U4UughHotH2TEXI=
+@size 3901
+share/doc/db4/ref/debug/printlog.html
+@sha gqo/cp4ZSQYiKhY4YUHwdyLvQ4UgVRrZxPwAUGV/tKU=
+@size 12788
+share/doc/db4/ref/debug/runtime.html
+@sha uc3mpC7jpZiFQcwMeokP5W2+emrteQjBg9Omv6fTx5U=
+@size 3428
+share/doc/db4/ref/distrib/
+share/doc/db4/ref/distrib/layout.html
+@sha Ctjb/mmekXe5cI5tUrmqbPfqxyeif6HFlX3DtA/r/Q8=
+@size 5641
+share/doc/db4/ref/distrib/port.html
+@sha xNztSvz0Psa0i6SyRo5ZLqDeAMAxZBNUHiYXV7wjOc0=
+@size 7153
+share/doc/db4/ref/dumpload/
+share/doc/db4/ref/dumpload/format.html
+@sha coco5YSK1JUP/PRvExFe4MsBFOE5I7b7AQ1WRtMHRAc=
+@size 4785
+share/doc/db4/ref/dumpload/text.html
+@sha AAWOjPvz/OYJs0YR+fGqPkjHDrnFOtCsBT5fXYzo/3o=
+@size 2187
+share/doc/db4/ref/dumpload/utility.html
+@sha tyQwjoJDw0g/PAbCLaxxJFD/N4k5AJ401Fi1blxZh9E=
+@size 3276
+share/doc/db4/ref/env/
+share/doc/db4/ref/env/create.html
+@sha QIHl6SLBaYSP5EA7Eh1DPp2ftDkeLIWB9jgK7nKryOw=
+@size 7800
+share/doc/db4/ref/env/db_config.html
+@sha Rbsij4BAJBOoXsTIr0UtrAxQfxxe5rXvHWpoRx11z8w=
+@size 2982
+share/doc/db4/ref/env/encrypt.html
+@sha /IeAzPtc+DAk31nZtMI36gyCoVi/yqP1wa3FmlScu+A=
+@size 6022
+share/doc/db4/ref/env/error.html
+@sha ue58FsE5SlytAapRGyxcZAeNuDsGrpC8SeGq9bYhKgA=
+@size 3484
+share/doc/db4/ref/env/faq.html
+@sha uJfObTrk8YTtt+YyYlQxFR3P2uV3Fm+Zn+798oeXRQc=
+@size 3523
+share/doc/db4/ref/env/intro.html
+@sha OcQJj2gt0Eg5HikFa++foa0jWhWFATD2yce6PblSbt8=
+@size 9124
+share/doc/db4/ref/env/naming.html
+@sha 79f6z9jPN2fj1mvX/B28E/byp8SmCxQdHoeRoCFuUpA=
+@size 8549
+share/doc/db4/ref/env/open.html
+@sha g9Bbyv29Q9P+OyJY89t0dnUZ3jD/Az2OrrY/c08sncE=
+@size 3618
+share/doc/db4/ref/env/region.html
+@sha U7ZSYxg+kUtRmTRvmjjjQuI10Vf63pZjl3cjJH40Q/M=
+@size 5594
+share/doc/db4/ref/env/remote.html
+@sha yNk4Ts1F5izBYET/e0SCud8yN/UAM279fUZRjVMMSWc=
+@size 4121
+share/doc/db4/ref/env/security.html
+@sha tpzggj7npvj1Jv0BMz4tRE6N35qcMyvhZ0NIDsMwj40=
+@size 3658
+share/doc/db4/ref/ext/
+share/doc/db4/ref/ext/mod.html
+@sha Zsm6IGq1l92vCqr/n2lSG7iZtzccymeo29OA18kyDNE=
+@size 5054
+share/doc/db4/ref/ext/perl.html
+@sha 3FsAgo2iCT84mEbfcevm4HxCNUhpUDb/52EfXyPgYwE=
+@size 2683
+share/doc/db4/ref/ext/php.html
+@sha OVdkKytgI6up/kfPgW+axvAoiOCYspgGFVBE71ITVCg=
+@size 4841
+share/doc/db4/ref/install/
+share/doc/db4/ref/install/file.html
+@sha KLwe2mX7dMcZK0Zazk1nv6FfJTeSyCfr4W73ujZB3rk=
+@size 2472
+share/doc/db4/ref/install/magic.s5.be.txt
+@sha NKzsmUDxUIdSdlXDhDP+ztCC34vM5bc2sWEDHKWhn6g=
+@size 3693
+share/doc/db4/ref/install/magic.s5.le.txt
+@sha cAUZ6AJRDHuZQa6ZoaxAlHtwS7a0F6aJ1rWAXq4DQhc=
+@size 3710
+share/doc/db4/ref/install/magic.txt
+@sha r8yKfeRAeBSAD/vQ1eh+RKMOptPepJa+SAFBBGX5Gy0=
+@size 2088
+share/doc/db4/ref/install/multiple.html
+@sha JgFDkas1EOceTdaQgb7p8/Cjp6+H3vXS+tjCMODNDFw=
+@size 3987
+share/doc/db4/ref/intro/
+share/doc/db4/ref/intro/data.html
+@sha JsezPwsGy1QcMaFw2v3/z5LMd8ODCoE9+eusL5RaAEs=
+@size 3337
+share/doc/db4/ref/intro/dbis.html
+@sha EwSr68e5uGPjp+lb5LQf4Wu1HX6iZOgCBSR1EBi6CdA=
+@size 10202
+share/doc/db4/ref/intro/dbisnot.html
+@sha nUqO5sKgS2w46eyYoFRuc/CMa41HB/2yauFbYiggYzA=
+@size 9032
+share/doc/db4/ref/intro/distrib.html
+@sha HMzaXMWNSWl4raokPAROr9LKhNY3/d+gJxjL3E4GKn0=
+@size 1788
+share/doc/db4/ref/intro/need.html
+@sha Nto1O0C7qAh6vKhBSRqLVFDnoonAjE3QjTulSBLyWaE=
+@size 3972
+share/doc/db4/ref/intro/products.html
+@sha EW4dRjVMm+ty2rjpQUdk6jjPnEPsOHjtsGgG+MM+opY=
+@size 4608
+share/doc/db4/ref/intro/terrain.html
+@sha R82oAHC++I4Y6PQfHoOFB40uboXn/a8tU/helN8QQbw=
+@size 15925
+share/doc/db4/ref/intro/what.html
+@sha duza5BTSiovVnYAByK2AEHH1GCdMakLa91vlS5jivLs=
+@size 3545
+share/doc/db4/ref/intro/where.html
+@sha glK0MvKsMLbnjVl811V2SCrzhIWbjpO+VDzUa1Y+oWw=
+@size 2785
+share/doc/db4/ref/lock/
+share/doc/db4/ref/lock/am_conv.html
+@sha 25F0rcjEWSMhjA9i8no3Ua+KoZRfIFXAg0fpLbiApdQ=
+@size 9150
+share/doc/db4/ref/lock/cam_conv.html
+@sha 720y0yr1+q3h+ceFGZ7jU4ewfbcG+Kmq0JFEC3p8umc=
+@size 3283
+share/doc/db4/ref/lock/config.html
+@sha kBS3yhmUqBEoJWO8swxt0E43QaDzqYV6TnCE+A7Dm4E=
+@size 3083
+share/doc/db4/ref/lock/dead.html
+@sha deS2gjrQxWapPa6VLjQ+8XG+EkfFp0eOwux1hKo3Q5g=
+@size 6030
+share/doc/db4/ref/lock/deaddbg.html
+@sha e9hYPie751y0sINX2pL3Sk8sxN6/+1eoWgkTpcCkFo0=
+@size 9169
+share/doc/db4/ref/lock/intro.html
+@sha 7OCj0aDwRjmKpGONibb548PTeTAU5f4kcq1gp91GJWU=
+@size 9376
+share/doc/db4/ref/lock/max.html
+@sha gqdI9SLxfqp2wRx21DVfw1MzmfghhTEW2USAdRb61/s=
+@size 6994
+share/doc/db4/ref/lock/nondb.html
+@sha IzTp6bYwy6QCpmpIs3/pVHmTNl7seIuc3QBYEdP9/8g=
+@size 3630
+share/doc/db4/ref/lock/notxn.html
+@sha bxAfLe020uSzxbDOJio3u4EFBDHuZrb8QhLCvVQkk6A=
+@size 3310
+share/doc/db4/ref/lock/page.html
+@sha WeDI/efrgiqZ4xt0w8CP62Nk9fPu9g0Mjk4KK6ScoE0=
+@size 4599
+share/doc/db4/ref/lock/stdmode.html
+@sha a5ldY1+c+F39A3YzSIuAX+0oWZv/LP0UabrGd9bis1g=
+@size 3178
+share/doc/db4/ref/lock/timeout.html
+@sha tjfAxB5+rGYqj1cFvbdmbYcXwo70Kv9SfaOohU50bX8=
+@size 5027
+share/doc/db4/ref/lock/twopl.html
+@sha 7B8EtbPq03N9Jd/E1sxkvA4X7rvcO39F973NnwdBuQo=
+@size 3188
+share/doc/db4/ref/log/
+share/doc/db4/ref/log/config.html
+@sha ovJ7Se7YDMWvvnaWAru55nV7mJqCp91tfcnNRNfKeec=
+@size 3122
+share/doc/db4/ref/log/intro.html
+@sha ai324R1a7VYr4PWI8OqdBVsfFZO6PZVEnfEoUDlEa3I=
+@size 6424
+share/doc/db4/ref/log/limits.html
+@sha iYG53TKi1udmxDqrCWPmS+b7TqyI0efdH/0dECvogEw=
+@size 2946
+share/doc/db4/ref/mp/
+share/doc/db4/ref/mp/config.html
+@sha lHxur0WfpxBlkeZZQmvZDgzNyH0NK38gJ2eWwlOM0Tc=
+@size 3756
+share/doc/db4/ref/mp/intro.html
+@sha xNkdMHo1HGnTlzHQXaFw56Aum1MWsqgCmOazUARIsAE=
+@size 9980
+share/doc/db4/ref/pindex.src
+@sha nXl8WqXvmALYzhcCTOXo0QfwQFFWfZduu3u8KmdAs6o=
+@size 1200
+share/doc/db4/ref/program/
+share/doc/db4/ref/program/appsignals.html
+@sha UTeuK67z2E0VBRksS3YBUhns5wehNwUbe7u1ethgjP8=
+@size 2529
+share/doc/db4/ref/program/cache.html
+@sha KQI24NEPtJw3MY+RKu6soLq7KlQ/BOxgQFCX/2kg/Io=
+@size 2201
+share/doc/db4/ref/program/compatible.html
+@sha 0nasfzb4grckWX0swfaGR1FRORLSLk2z3ow7eSepP3o=
+@size 2367
+share/doc/db4/ref/program/copy.html
+@sha 2R3ZBA6o39cMa3W0S1EPcleeFdurD25Xn7/M4DK425Y=
+@size 5862
+share/doc/db4/ref/program/environ.html
+@sha XfxvlsOT2dC7tWjas4u4S3X+VuZUpohdMc1CSxa7H7M=
+@size 2188
+share/doc/db4/ref/program/errorret.html
+@sha S/FUiftPBJQHwvEmCxoIVeJCnnaA6cvXv9kx39K0LFg=
+@size 7877
+share/doc/db4/ref/program/faq.html
+@sha xIx3MvrwgoIWVmmmJeoB3Kt5JdDbC541fF8B8tKw0vQ=
+@size 2643
+share/doc/db4/ref/program/mt.html
+@sha GOKmZzUHEsTrBFvxLm7dGjJmPnfCeJjwXZG72Nqyx1E=
+@size 5712
+share/doc/db4/ref/program/namespace.html
+@sha 8TbrZv7WclW3+RrdGz4cqmBEtA4uDEsxzn9K6IgI20E=
+@size 3712
+share/doc/db4/ref/program/ram.html
+@sha 9Y/37tjPLn3Z6pg994Ta2qZ8w8hDBIF6lYKIUQNt4A8=
+@size 8361
+share/doc/db4/ref/program/runtime.html
+@sha 69VfNQwl+VSsG59k8UIfbP8FWq8kuKIBVmVYAf5lY70=
+@size 3912
+share/doc/db4/ref/program/scope.html
+@sha E89Xvnl47Y3moIe9ZpAvfPdJoNJc9XqECp1ll7zNQJ0=
+@size 6559
+share/doc/db4/ref/program/solaris.txt
+@sha /Vs+D+BV0Rfupc+oVYZoTcZrUF8N2SbLXZS5sU9V39o=
+@size 5752
+share/doc/db4/ref/refs/
+share/doc/db4/ref/refs/bdb_usenix.ps
+@sha 11ZmJJFVVJRwQZ53D59evr4w2nNxrxeIDinr+wXm4nY=
+@size 83908
+share/doc/db4/ref/refs/embedded.html
+@sha hOCj+RaB12gTiYqfBPu0hqqsfLu4qord/FE3DgNkYVU=
+@size 32382
+share/doc/db4/ref/refs/hash_usenix.ps
+@sha I8ypKwvtK3dXPNkkOWQ1pTqHc61XN/53ZIy0UbyLhG0=
+@size 158771
+share/doc/db4/ref/refs/libtp_usenix.ps
+@sha Qsr61BVaGGnnOi8mpuvXZ2AJSSN5eLGu2H7FmMHfhf0=
+@size 168201
+share/doc/db4/ref/refs/refs.html
+@sha bhqpNKh7Jjn2MzlOfnPI79rGfL0uSkQZlz9jj8VYYQQ=
+@size 4884
+share/doc/db4/ref/refs/witold.html
+@sha VAkmcfYv0HTGcwwyqPG2aVFef8Rvupoj2t8ZJ00yyLk=
+@size 1187
+share/doc/db4/ref/rep/
+share/doc/db4/ref/rep/app.html
+@sha 8Te6ofAOGmmbEYgAKYd7PDOc3nKcqQ5cDmPRiARhAew=
+@size 8018
+share/doc/db4/ref/rep/base_meth.html
+@sha 5FykH+SOClsYi2vZ2jY0geL7iPbJDd8COgxr5cmDJoo=
+@size 5117
+share/doc/db4/ref/rep/bulk.html
+@sha wy3UKwbYtAIpmSzE/fmbNCCf1aQkXNAqtYuFA0E9mD4=
+@size 2889
+share/doc/db4/ref/rep/comm.html
+@sha qAF24sBagLmfcQX1v2VnsNd9+B9QPrxJuVJCrPS4xmE=
+@size 7965
+share/doc/db4/ref/rep/elect.html
+@sha mS7eDxY60jsOJSUOnB3WcPwkD4NUYZ2x7pV9I2B5NaI=
+@size 10556
+share/doc/db4/ref/rep/ex.html
+@sha Vf/wSHghr6fojb6NKrVHl7yqkXhTdO1KaGsPywG4YY8=
+@size 4528
+share/doc/db4/ref/rep/ex_comm.html
+@sha faBRYSzOBKGDsT8ziMYiT5EWpREQcgMFqer3KNxrn68=
+@size 6057
+share/doc/db4/ref/rep/ex_rq.html
+@sha Qp4EhrtzoXHMnVwnPYu/tSzFRlyHiYE1gRvnePyo+k8=
+@size 4090
+share/doc/db4/ref/rep/faq.html
+@sha mfUSRFqYxvDQgpnSqm6qvds2Fr0IIS/K3LN/ZS4sQUc=
+@size 6681
+share/doc/db4/ref/rep/id.html
+@sha +Xu2m5j5hg8nspFtBPCUYfMyQGyCbezv6y6vUh0XrWc=
+@size 3200
+share/doc/db4/ref/rep/init.html
+@sha IUykOyrBvXY9PqapXx9OsCTxwyqH6dqU4wwsGQvkm98=
+@size 3729
+share/doc/db4/ref/rep/intro.html
+@sha DQ2ej0acNMMx1/Y3r3yaM7tZ1NzjZvf74+K7uEOYW4c=
+@size 8913
+share/doc/db4/ref/rep/mastersync.html
+@sha 4QcvRWYVfICI/0bwkwWQX3ocHbg5CtrqM1KwQ4SNhko=
+@size 8477
+share/doc/db4/ref/rep/mgr_meth.html
+@sha NEvvDs3F3BRyc7+px1MWFmHcGepJIHaSlWbITispJ84=
+@size 5834
+share/doc/db4/ref/rep/newsite.html
+@sha +qo8bJCOoX/CTQqW+83CY47FOSs63atxSbuq2qwpgjE=
+@size 3798
+share/doc/db4/ref/rep/partition.html
+@sha XoeYx6kL7ZbnqW7/LVHLOe5RZhijBbLJSZfmenwITOU=
+@size 7268
+share/doc/db4/ref/rep/pri.html
+@sha X3mxx4kLF3isfn8k0ku6mur0gSveROMwMPSANC1bq9Y=
+@size 2610
+share/doc/db4/ref/rep/trans.html
+@sha F1bQ2N64K5MbB1g+Dq/31kOvTfG7pG+W/MTOBCObpdU=
+@size 18214
+share/doc/db4/ref/rpc/
+share/doc/db4/ref/rpc/client.html
+@sha waq1IJigRUlh6wdkEqKmwV7lXah3/VZrepUzwu96Vio=
+@size 5333
+share/doc/db4/ref/rpc/faq.html
+@sha UQBBXDHbBhp1tKq3IcGwLiMfNz1775qh0CE5j0yuD3c=
+@size 1859
+share/doc/db4/ref/rpc/intro.html
+@sha +NLf1dR+mHq9KfwbXAwofhH8q8CbU8jEdgks//adXPM=
+@size 5320
+share/doc/db4/ref/rpc/server.html
+@sha oOWB8DfE1oX1ZmhNYhhJfX/fBsE2RQotOTuhO0931cI=
+@size 3703
+share/doc/db4/ref/sequence/
+share/doc/db4/ref/sequence/intro.html
+@sha okyCpwf0t2CD1WOBxNsmWKHkPEf33kf799j8fO17XJ0=
+@size 5085
+share/doc/db4/ref/test/
+share/doc/db4/ref/test/faq.html
+@sha taDOb2wW9cVqdGEwT74uvgfItamNpgkxRxCMuN5G0fE=
+@size 1700
+share/doc/db4/ref/test/run.html
+@sha iZUnuLXpY/QM56PyNbvSayx69e5nZVYPHMxgzpfF7NA=
+@size 3764
+share/doc/db4/ref/toc.html
+@sha zBS37hoYCmKmVuaBmZNNCHhTdPbVcnltpOnZvFuQLDo=
+@size 20316
+share/doc/db4/ref/transapp/
+share/doc/db4/ref/transapp/admin.html
+@sha 8uRZWbEYMAsIos5rtYMB2291wfj+M2RMksNMsooeods=
+@size 3355
+share/doc/db4/ref/transapp/app.html
+@sha KX9eeFy00e06eQBfP7Mrqh6dJBVgjQWWUWts9LZ+ddI=
+@size 15834
+share/doc/db4/ref/transapp/archival.html
+@sha txJvJK1IzelqLatvPv2k65Pn7QGZDGrz7NE8VXhlQu4=
+@size 9752
+share/doc/db4/ref/transapp/atomicity.html
+@sha C/I4MJFTVtKhUmV+jLiEQVi6J0ok6dis7os+VnPSRqI=
+@size 4294
+share/doc/db4/ref/transapp/checkpoint.html
+@sha pZdq3AO2pnojxr61i4Db48PFOlFlhbhOQPdrLqfOB14=
+@size 4811
+share/doc/db4/ref/transapp/cursor.html
+@sha /5sTiMGLnFuK7g//gNMw1r4cA3DhSUXUJJ0FP3mWomE=
+@size 5113
+share/doc/db4/ref/transapp/data_open.html
+@sha FrTLEsV1rvDSz/BbhZjpkl1Ha/M54FRD8qqOGsmY4lA=
+@size 6036
+share/doc/db4/ref/transapp/deadlock.html
+@sha UXSdmcfyNQGwG9Kx6KZzLQanf7KuR5yku6vH9vNs0jM=
+@size 5921
+share/doc/db4/ref/transapp/env_open.html
+@sha rWjVZ5HTzRyKOznDfHiwMfxm1MXsHV7oTCc43Oc2Ddw=
+@size 6685
+share/doc/db4/ref/transapp/fail.html
+@sha 1kOPWCDi0oAfVEuM/J5JGTm3YZ8GJ5zjuI80ocOy2dg=
+@size 5105
+share/doc/db4/ref/transapp/faq.html
+@sha r9px5eodEq6MNEodf35L+gPznbI22iL+RrK1WzvVytE=
+@size 7987
+share/doc/db4/ref/transapp/filesys.html
+@sha 53yL3XGqt0jDI3uaLGXYTJvl7G8nWdii57tu+BIhewM=
+@size 4327
+share/doc/db4/ref/transapp/hotfail.html
+@sha 0SWbYY3MvxeQEaZT5iXmJDsthMU3ISzAySkmjbgVDgI=
+@size 5648
+share/doc/db4/ref/transapp/inc.html
+@sha JPHt3QG6Yk/d7DZSvOFXdh55muoMHP2WZOpuvJ3QAM0=
+@size 6246
+share/doc/db4/ref/transapp/intro.html
+@sha KpGnABDk/ZFSodsu+qLilrTVbgrRIJNXz5Oj66LDm2c=
+@size 2786
+share/doc/db4/ref/transapp/logfile.html
+@sha 4QGux6ljJeiOu18X/O0M+8HQHMZ6wyhgOd+cqnnky0A=
+@size 3645
+share/doc/db4/ref/transapp/nested.html
+@sha +r9hUP5TpnnIYw4VHjIUX9MNzq99/mV5k/80HP+v+Ug=
+@size 4295
+share/doc/db4/ref/transapp/put.html
+@sha ET43lwxU0jZ8SnfmCl9yfvDKuD8ksBcnK6iu+d/vaxM=
+@size 10765
+share/doc/db4/ref/transapp/read.html
+@sha XNDQes3i4jEa4Zr1UtMxjzXyd2dZ8XfmnvnFx/UzQdM=
+@size 7996
+share/doc/db4/ref/transapp/reclimit.html
+@sha Ct8oIw69/Le6T4/OJ0E4JxVgHRlhNTTEQtmdxrSBWc8=
+@size 9934
+share/doc/db4/ref/transapp/recovery.html
+@sha Bi6LVhpqQX8T/e1kvlV2NuQQ0rTlN5ej1EAiwotoAwA=
+@size 6572
+share/doc/db4/ref/transapp/term.html
+@sha +XQFFPgwWp5hkWSxKEtEFlq0jEx86M0FT2oksTDXHSY=
+@size 4059
+share/doc/db4/ref/transapp/throughput.html
+@sha psZg0CzUu81o3bxE9k9DWVUMqm/RVXBI98BCE3HAQWw=
+@size 7316
+share/doc/db4/ref/transapp/transapp.cs
+@sha bqa04drD1/n1KtvhSfzVw5f4MUuiEetbc+Sl4uJmDPc=
+@size 10592
+share/doc/db4/ref/transapp/tune.html
+@sha 7bfcWUIx3NHRjGD/phyybqH7mBNlQ00brkvuEaNPwB4=
+@size 10712
+share/doc/db4/ref/transapp/why.html
+@sha 8YndITpYHc9KoeVOTpXbGSq8/R4tZ8FWVojdSaIpjbc=
+@size 2501
+share/doc/db4/ref/transapp/writetest.cs
+@sha UQzZY/309Q+RziSK7jvDs4PBQu3BRC1lEbGjtdhluR8=
+@size 2380
+share/doc/db4/ref/txn/
+share/doc/db4/ref/txn/config.html
+@sha g/n01T7mc/igZCEZmwx9LJE9yaWyBz5nVjHziRVKO1Y=
+@size 2775
+share/doc/db4/ref/txn/intro.html
+@sha 6G/bf8MxOjgS7BFU4Rd0kxoa+qPkX9CO6tRn5i5atN4=
+@size 8036
+share/doc/db4/ref/txn/limits.html
+@sha r9CQ2w8EDqbXYPgSwBHCBRyqp0EpULqosqt3DuZ7lVM=
+@size 3490
+share/doc/db4/ref/upgrade/
+share/doc/db4/ref/upgrade.2.0/
+share/doc/db4/ref/upgrade.2.0/convert.html
+@sha qdIkO5uwP1Uk8vytxtDpgtQFVam1SXfL/mWNUU4/Uis=
+@size 5152
+share/doc/db4/ref/upgrade.2.0/disk.html
+@sha DXCRmFkC8KBmj9XbTQ/rit8r6v7YO2cXR1coUl4DA7E=
+@size 1915
+share/doc/db4/ref/upgrade.2.0/intro.html
+@sha NHwQskWzOojRqsn67xCZII8qrWkj+6OxQt6FdPrJXiY=
+@size 2125
+share/doc/db4/ref/upgrade.2.0/system.html
+@sha HavXRfl4A+eefcvjywqAYzL6MyV8EfsBnWEcoM+EeS8=
+@size 5934
+share/doc/db4/ref/upgrade.2.0/toc.html
+@sha JRJt7LUY2KoHMOzTd0agVScVxR8lM9vXY/YU4aXigAw=
+@size 1452
+share/doc/db4/ref/upgrade.3.0/
+share/doc/db4/ref/upgrade.3.0/close.html
+@sha iWYtZC0npdIukpzRnZbSASNVLVhAMYGyXpWeAKtiahc=
+@size 2523
+share/doc/db4/ref/upgrade.3.0/cxx.html
+@sha 45gFBjDGmSzspvSBm4n98ukOCDdYf1CvRAbrTY53vw4=
+@size 2044
+share/doc/db4/ref/upgrade.3.0/db.html
+@sha NOqPK0tvDthLFDyyc35aZU4uerwsAzCeXJsMEA7KEG0=
+@size 3065
+share/doc/db4/ref/upgrade.3.0/db_cxx.html
+@sha vscqK2jjMeqHa9WVhZG9FFrSr8VJWPdxxbNkfgJygD4=
+@size 3159
+share/doc/db4/ref/upgrade.3.0/dbenv.html
+@sha 3DAqlIpBz4SmgWal8Q+Nydah+txaQZkm9Fqj4LZVo8s=
+@size 5031
+share/doc/db4/ref/upgrade.3.0/dbenv_cxx.html
+@sha nkJ6UkVkQvSn0ShTphZdUa1DuleNptUftYdYhtW8Lyo=
+@size 3551
+share/doc/db4/ref/upgrade.3.0/dbinfo.html
+@sha etYFrYQo0wwBsZvjYzNBVMT6tMCLwZVB533lEHFApFA=
+@size 5175
+share/doc/db4/ref/upgrade.3.0/disk.html
+@sha KS89nfaqPfVLmFp4pJ6wBWZXrQ4DKCPO/YMPOmau/+A=
+@size 2045
+share/doc/db4/ref/upgrade.3.0/eacces.html
+@sha yiABmTfJfAVtcFzAmXYImcyo7cGqs5uD9eqXJOJu33E=
+@size 1872
+share/doc/db4/ref/upgrade.3.0/eagain.html
+@sha 3eQG+n/TUS+K5uBYAJrhggLcQIeLDMY5lxJ6VyD/Dys=
+@size 2274
+share/doc/db4/ref/upgrade.3.0/envopen.html
+@sha KHYp+DtJtuX62w5IOnZvtw8yLV6qEZSBseoDmoZ+/+g=
+@size 8584
+share/doc/db4/ref/upgrade.3.0/func.html
+@sha QFenpi4+FwE3YWNFayOyrFJV9hec9wblnnpod1u808E=
+@size 3503
+share/doc/db4/ref/upgrade.3.0/intro.html
+@sha biBi71SyPIUBpqOKYGQfcO3uf3fMdKRq7v1SImTrdko=
+@size 1670
+@comment share/doc/db4/ref/upgrade.3.0/java.html
+share/doc/db4/ref/upgrade.3.0/join.html
+@sha lIhrczByM92xA9j2XiQC+0J3n0zFHUHTbF63n+lRFz8=
+@size 1952
+share/doc/db4/ref/upgrade.3.0/jump_set.html
+@sha WSKhkOaf2W2Tuy644nIq1ziaMC4h0hWZ3expbP6PQG4=
+@size 3978
+share/doc/db4/ref/upgrade.3.0/lock_detect.html
+@sha 3qkqvAX93UqAkquRkKVZHV1AOuCkuSRbobouFZt/YlM=
+@size 1665
+share/doc/db4/ref/upgrade.3.0/lock_notheld.html
+@sha d80nipa5p9NpEEatzEpMif8SDxkYlIHdQYDhzqkXOcU=
+@size 1831
+share/doc/db4/ref/upgrade.3.0/lock_put.html
+@sha edDnAi84bdX/VvxBcKTbYgdEZaf4XkYTBnVlxBwgXbo=
+@size 1712
+share/doc/db4/ref/upgrade.3.0/lock_stat.html
+@sha 4M0t01/fWbeoJCu4SZ+UqNyHHn/UaFMFBuakPGSK01Y=
+@size 1637
+share/doc/db4/ref/upgrade.3.0/log_register.html
+@sha y0o2KgmwTGTqzv/eRgCE1K1GgF9S1icFQ0RYzW++wP0=
+@size 1668
+share/doc/db4/ref/upgrade.3.0/log_stat.html
+@sha SMqrR0qiqw2T5SQJr2inOP7twqCVYancjPKVc8NVTTc=
+@size 1569
+share/doc/db4/ref/upgrade.3.0/memp_stat.html
+@sha 6clBamvCmMspQEMMU+zpnwtf8wfXoIjcY+z+311+iN4=
+@size 1716
+share/doc/db4/ref/upgrade.3.0/open.html
+@sha 67uHmzT8pN+mf1xMShVvTV5rXdniA4aMzQQTqYq9I9o=
+@size 3773
+share/doc/db4/ref/upgrade.3.0/rmw.html
+@sha 91R07/nuQXl9ct0NHKUgAxaJ6gn0GbbZnEXPo4XuaAU=
+@size 2224
+share/doc/db4/ref/upgrade.3.0/stat.html
+@sha WMiC3xDrd+igXwEPI2cvhlfqwMe/qMH9NCca+mfMNG0=
+@size 1616
+share/doc/db4/ref/upgrade.3.0/toc.html
+@sha gVcywNLMijOEHegRYAaYrFZkwqGmadupecMEpYNmzJ8=
+@size 3027
+share/doc/db4/ref/upgrade.3.0/txn_begin.html
+@sha da4PrdCQgqqyGrAhOSUEUwKKiKBdEVWqoGOFg87tb1I=
+@size 1659
+share/doc/db4/ref/upgrade.3.0/txn_commit.html
+@sha PjRFlAboFhNZJwKYN9pMIrUv8ZjOaiW/WvPmG1RSOeI=
+@size 1661
+share/doc/db4/ref/upgrade.3.0/txn_stat.html
+@sha NMA+h4LWfzYEO4Q3TCGRP8n/r2FxlYc9Y9J4GnBTQwo=
+@size 1553
+share/doc/db4/ref/upgrade.3.0/value_set.html
+@sha OAb5hfLBPpp6Cy/EwS0YR885OWuQm/pB8GWwAmvTifg=
+@size 2966
+share/doc/db4/ref/upgrade.3.0/xa.html
+@sha Ccmbhq0k4JNkjYgtLfABUU7K50fdu6B5VndKixZNwXM=
+@size 2449
+share/doc/db4/ref/upgrade.3.1/
+share/doc/db4/ref/upgrade.3.1/btstat.html
+@sha xFCrtf0+u3Oyszz86MzRbKFZcmhV9FaBQswSsJMA2sY=
+@size 3405
+share/doc/db4/ref/upgrade.3.1/config.html
+@sha bviQ4QkoYjshs8+UZW2sr6wi/g3EgC0QIY25oKg+068=
+@size 2670
+share/doc/db4/ref/upgrade.3.1/disk.html
+@sha hZZgZfA4aAr+KVbnxCoN+hYsZ/C1V6H/AoyQqh1ajrg=
+@size 2436
+share/doc/db4/ref/upgrade.3.1/dup.html
+@sha ac1l60uNf34JvtAL8X0llCmFYYCgujXFMvZUESDFB/0=
+@size 2123
+share/doc/db4/ref/upgrade.3.1/env.html
+@sha VcE4OFSzl9nm+1Fv55/pQTUA7FuUHfHe3pkbl2K8rw8=
+@size 4654
+share/doc/db4/ref/upgrade.3.1/intro.html
+@sha 0YzyDRRicGR0klBt/GV+aj/gAN5nbmH+NLEMhRHYb98=
+@size 1667
+share/doc/db4/ref/upgrade.3.1/log_register.html
+@sha HCMkHB43+H7fpXYnoo5gBvab0zOXtMzas9faUQsZa/I=
+@size 1944
+share/doc/db4/ref/upgrade.3.1/logalloc.html
+@sha 5XZg1QEsTCgAqdGk4NoUlXL9KLlKTfy5uGQX1d+j8M4=
+@size 1811
+share/doc/db4/ref/upgrade.3.1/memp_register.html
+@sha HiSjpU0lxyg5wRpR6E50+s3IxT9d2p3wQPHh0RhsHrY=
+@size 2001
+share/doc/db4/ref/upgrade.3.1/put.html
+@sha TTBNj3Bu9bzCA56TkBx+aaOkN3cUsej+jU3lxsFeXNU=
+@size 3674
+share/doc/db4/ref/upgrade.3.1/set_feedback.html
+@sha RsYpurRNX/dWzBqp569MF2jeTXHF4dL77vMbuGoAba4=
+@size 2008
+share/doc/db4/ref/upgrade.3.1/set_paniccall.html
+@sha QqILShK52SimZfOXie/Hd/5pBNH9othDmf81PgIPu7w=
+@size 1896
+share/doc/db4/ref/upgrade.3.1/set_tx_recover.html
+@sha p1BR7uiUmENgNy3iStMzYbbZj6OAFdIGQbO10p+9Etc=
+@size 2315
+share/doc/db4/ref/upgrade.3.1/sysmem.html
+@sha 0LEuP8WGEPrCLEzMVLM8Rl8jBYQtesoLYOXnQODxnpg=
+@size 1803
+share/doc/db4/ref/upgrade.3.1/tmp.html
+@sha pD/MOrwqWr28u7dbh6Yyf3MEvVFotcwkagqUSoVyQO0=
+@size 2289
+share/doc/db4/ref/upgrade.3.1/toc.html
+@sha UxrScBEpeQ3RFUOkUIlNQcKB6t2EX3F+qQhuWxEayJQ=
+@size 2304
+share/doc/db4/ref/upgrade.3.1/txn_check.html
+@sha VXRmJvZptoahhXeyy3duACuCjFNE5LMyLH65jSsRU6Y=
+@size 1673
+share/doc/db4/ref/upgrade.3.2/
+share/doc/db4/ref/upgrade.3.2/callback.html
+@sha 91J0qbKgm9a/E76rrjmxdoZa2Yk0C18exApx6gKAGyQ=
+@size 2910
+share/doc/db4/ref/upgrade.3.2/db_dump.html
+@sha vN2JZRojzaWn/VazgLFziNiFvqiNX+eDq//4pviv4Uo=
+@size 2083
+share/doc/db4/ref/upgrade.3.2/disk.html
+@sha ZlQ3fg6zZ8IJdl90obNhdHdwQHHIgch80XppBTevQP4=
+@size 1966
+share/doc/db4/ref/upgrade.3.2/handle.html
+@sha wwPbKQN/Bc8LxF+PfKHHgJb4xqV1CAU1IXjNgRETyk0=
+@size 1895
+share/doc/db4/ref/upgrade.3.2/incomplete.html
+@sha DHrKXloBiDar8hMsZyGJD2r/XNCNbbPbQP02O8nWnoQ=
+@size 2603
+share/doc/db4/ref/upgrade.3.2/intro.html
+@sha 5KQCqskF2oNutwbUPRrW9Y+G1XE+SHlcNXahvAdTmKg=
+@size 1673
+share/doc/db4/ref/upgrade.3.2/mutexlock.html
+@sha AfWC0Kd+FQseXJR8t8yVWPznfTA1viofAZF9etoGEhY=
+@size 1892
+share/doc/db4/ref/upgrade.3.2/notfound.html
+@sha id5XOa3x31GQGUbtANGzd7oN75oP4h3IN5HTwkTKL+4=
+@size 1698
+share/doc/db4/ref/upgrade.3.2/renumber.html
+@sha wYGKVv+MWDkNgd9bSEvkQynE9zB6z5LdMMgdW6A7j6E=
+@size 2661
+share/doc/db4/ref/upgrade.3.2/set_flags.html
+@sha XH1SfK9vF95IkqUmsXEE7Dxx1n0bmau9sBvzG947Q5I=
+@size 3000
+share/doc/db4/ref/upgrade.3.2/toc.html
+@sha ihgE6T0HIhwbeNMknV3cgB98LFjoA64E1dTHlMd1i20=
+@size 1939
+share/doc/db4/ref/upgrade.3.2/tx_recover.html
+@sha b6wjDFcLL/CJd4b9YFDS9deGgPX4QKoDcpj5mmhF00U=
+@size 2251
+share/doc/db4/ref/upgrade.3.3/
+share/doc/db4/ref/upgrade.3.3/alloc.html
+@sha vIvc9BgCLg57kFfekEpRQOxW2MJ4Zks5busmqrSWK9Q=
+@size 4855
+share/doc/db4/ref/upgrade.3.3/bigfile.html
+@sha hXSD/DxKAGytovOVucs98sy7l2UFzhyCdGyUPx5QwNo=
+@size 1896
+share/doc/db4/ref/upgrade.3.3/conflict.html
+@sha jtzw9Iblq6LMLdziO74sxOum+G/fiE00qIqiHLjdQDY=
+@size 1621
+share/doc/db4/ref/upgrade.3.3/disk.html
+@sha mB8rdUCG25gMBn5efDTP7XGZKf1BvSP6C8rWshxcthg=
+@size 1681
+share/doc/db4/ref/upgrade.3.3/getswap.html
+@sha fCFIhH/Z/TRlSU5Yt0mE1F/xLNi1EgkRyPdVyjISCN4=
+@size 1978
+share/doc/db4/ref/upgrade.3.3/gettype.html
+@sha WKRUv/JHPeiJZxY0WuF593XpLv8Il0QUR9EIK2o3SLA=
+@size 1935
+share/doc/db4/ref/upgrade.3.3/intro.html
+@sha sMOQIpkv9+uIbuVlZseNAnVsx0GiSFTy2ADDVFL+w0M=
+@size 1661
+share/doc/db4/ref/upgrade.3.3/memp_fget.html
+@sha aHMZD6ZOrQNHvL4+6fAoWXW7DzUXRFrxCTIDabAt/wg=
+@size 2597
+share/doc/db4/ref/upgrade.3.3/rpc.html
+@sha y2e/cWT3VvUKw6prHrPG4S3lvRJsrUzH89J0Dl4UGz4=
+@size 1965
+share/doc/db4/ref/upgrade.3.3/shared.html
+@sha K5hxBP6S0fcy+ZCXis/j8WmVPjcfl4x/xfKS4k4BvZM=
+@size 2144
+share/doc/db4/ref/upgrade.3.3/toc.html
+@sha FveGawrPMYUR6RsR5EAdSw2/En5Q30iEQSH/MwTRkoc=
+@size 1895
+share/doc/db4/ref/upgrade.3.3/txn_prepare.html
+@sha P1CG8cN1qSxGqyROFSPAR5RAJ9gkbvEyDfDNx523R9I=
+@size 1722
+share/doc/db4/ref/upgrade.4.0/
+share/doc/db4/ref/upgrade.4.0/asr.html
+@sha yYlkxdXDTh2TOoDIbO2tryaMWImrCM7SYlLhft2MnZE=
+@size 2773
+share/doc/db4/ref/upgrade.4.0/cxx.html
+@sha WYr2G9RTuX+sFG5x63tgmSj71zDrIj9dExrqc8ZEA9g=
+@size 2449
+share/doc/db4/ref/upgrade.4.0/deadlock.html
+@sha QWqJ5Ux/1OHvAjbTz5R4UBR0gt+HB7pJBi+BhLVDZe0=
+@size 1668
+share/doc/db4/ref/upgrade.4.0/disk.html
+@sha vfKT3tz3CrlXeDAtwUMTrF0Hz48dkRT7JgtKaOsJ8Xs=
+@size 1715
+share/doc/db4/ref/upgrade.4.0/env.html
+@sha pH18zcBdk+KHqRS1HNw+t3IONMdOg/dgGWW+pt9akuA=
+@size 6279
+share/doc/db4/ref/upgrade.4.0/intro.html
+@sha GoqcGg1dia+PHjLWU3iFRol65WGcRbADyRI/G/2+Msc=
+@size 1671
+@comment share/doc/db4/ref/upgrade.4.0/java.html
+share/doc/db4/ref/upgrade.4.0/lock.html
+@sha mD1Ckn8yuAlweFaFhYzzNCabF0O3DFstss6m6lWw2GE=
+@size 3275
+share/doc/db4/ref/upgrade.4.0/lock_id_free.html
+@sha XggM7jqHxVFesDRWBYH6S6rl7RK26DLVEY3tFe9su74=
+@size 1810
+share/doc/db4/ref/upgrade.4.0/log.html
+@sha qOVBAGxWXBWePwqNPCVR3Q4apb821mKrE5Vt5JBcIfo=
+@size 4292
+share/doc/db4/ref/upgrade.4.0/mp.html
+@sha CtPKQRbDTL5+7PP5+5maCJk7S0vM2S4wZCM1qYiqn6E=
+@size 5395
+share/doc/db4/ref/upgrade.4.0/rpc.html
+@sha 1Kl1YG06pgjdsX/MlWKYSQirZN+kc3Qap9DgQMKamlw=
+@size 1836
+share/doc/db4/ref/upgrade.4.0/set_lk_max.html
+@sha XOCuEyK5aZsJaYCoxxYY6yr2bJcKyIfzz0GCS0Qsw08=
+@size 1930
+share/doc/db4/ref/upgrade.4.0/toc.html
+@sha ZHj5mH1zUwnIfqSFjUKWculi4fOdql6DlqFC2iQDh6U=
+@size 2021
+share/doc/db4/ref/upgrade.4.0/txn.html
+@sha aSH4QxTfveZi0BS7MErJqQLJmJpuD7hzJqSpWBuM4m4=
+@size 3335
+share/doc/db4/ref/upgrade.4.1/
+share/doc/db4/ref/upgrade.4.1/app_dispatch.html
+@sha 6kpcmR5MrgZnz0m3m6e/PL5h2w6rTUEfpZoIA3TDxZI=
+@size 2287
+share/doc/db4/ref/upgrade.4.1/checkpoint.html
+@sha 0lFk9WXOPP5LhpQjIBwdxJhr9XmvR6VuDTvIN3kYwV4=
+@size 2036
+share/doc/db4/ref/upgrade.4.1/cxx.html
+@sha yzCPAlpi748FWPIlAoyoLt0nRb1oQpNDYX3zzVuDf0k=
+@size 2882
+share/doc/db4/ref/upgrade.4.1/disk.html
+@sha 8y6hFb68R8Rw1/X13QCrXgy+SErxAjLQvYH5jiQNXq8=
+@size 2064
+share/doc/db4/ref/upgrade.4.1/excl.html
+@sha DtWBL9s/zrYsUf/YaDvnj6UucNzF5tchwulDV4hbSys=
+@size 1740
+share/doc/db4/ref/upgrade.4.1/fop.html
+@sha 89+1ExYp/VPlfDXh2e3fSjV4ePrq6s2hyjJyJdVCBBM=
+@size 7288
+share/doc/db4/ref/upgrade.4.1/hash_nelem.html
+@sha 1xiJPpsfyhYGWf3WMlCGRZNXR2S/1oVkYdryAz5gEc8=
+@size 1661
+share/doc/db4/ref/upgrade.4.1/incomplete.html
+@sha Qtyj7w+2XXcA3ANa3M75B0EcVrr1t/5wxK5mLDeDZPQ=
+@size 1963
+share/doc/db4/ref/upgrade.4.1/intro.html
+@sha GK2t8XBwQ+Q0wiCkycnJiSBp2EF0lCR8RO3CJ02Rev8=
+@size 1663
+@comment share/doc/db4/ref/upgrade.4.1/java.html
+share/doc/db4/ref/upgrade.4.1/log_register.html
+@sha +AYnfnHw+K2Ja8ArujNyj0DqTBIAgysbffRQ99wQjas=
+@size 1722
+share/doc/db4/ref/upgrade.4.1/log_stat.html
+@sha 8OMdhfiRpYCXhgVKhOEG2mEjQYB1bohKHmucHGPwuCk=
+@size 1713
+share/doc/db4/ref/upgrade.4.1/memp_sync.html
+@sha XMjTz0mjxaW/vR5f2S6Eoz8TYLgZrWTwUwyHG1aEhr8=
+@size 2170
+share/doc/db4/ref/upgrade.4.1/toc.html
+@sha MstLApq0EZ/DbBCEMMvhbjCXtQZi5txS9kCe9E6LSOs=
+@size 2059
+share/doc/db4/ref/upgrade.4.2/
+share/doc/db4/ref/upgrade.4.2/cksum.html
+@sha vLUlGbJ/RR07tSQHodv1XEZUIqZRa9MXyCKsjcViYHM=
+@size 2000
+share/doc/db4/ref/upgrade.4.2/client.html
+@sha IfJ5JMGByIplfB6AAXu3ANsbig3a07DJ+qmN72av/XU=
+@size 1804
+share/doc/db4/ref/upgrade.4.2/del.html
+@sha 2DFu1w43HgVk9lfBfHyzoYntpL4D3z3LCYveXXwNLmM=
+@size 2278
+share/doc/db4/ref/upgrade.4.2/disk.html
+@sha 23lYOfEIi9D8ovn44U1wpRvbuZq62c53Ya6B50ccY6w=
+@size 1714
+share/doc/db4/ref/upgrade.4.2/intro.html
+@sha OsxgK+PP5KPSKDLUFtzO7T3WdV+gfiWBjtA1g5Aa3Vs=
+@size 1663
+@comment share/doc/db4/ref/upgrade.4.2/java.html
+share/doc/db4/ref/upgrade.4.2/lockng.html
+@sha nAQoSxSpNhOF98H5h+jPAwiIFghm9z9dNH22pL9cfJ4=
+@size 4057
+share/doc/db4/ref/upgrade.4.2/nosync.html
+@sha UMAauewzDVlZeJj4bs7Fje0CN0V7+g+r4xI7s29J0uQ=
+@size 2546
+share/doc/db4/ref/upgrade.4.2/priority.html
+@sha IF8Eep+jkidM+0EQ9BbjiJ9HukG1w1sAVI0FPXsh7pE=
+@size 2083
+share/doc/db4/ref/upgrade.4.2/queue.html
+@sha QJGIklqILXrJr8PUgyLz6DeuuVspNnlt7DNKMTdIizI=
+@size 2274
+share/doc/db4/ref/upgrade.4.2/repinit.html
+@sha u2Up0xnWYivqej0ihZkOSOSH3DC6k2X296xxJvNK3c4=
+@size 3420
+share/doc/db4/ref/upgrade.4.2/toc.html
+@sha 8OK1a6px4ibASJS3ZtqsBM92VpYCYEprKP9cR06p4ys=
+@size 1939
+share/doc/db4/ref/upgrade.4.2/verify.html
+@sha iVtsjK/fTr4DN9zVQ0Xm2LH3pwJjiNfwKuHX2nkVYCc=
+@size 2600
+share/doc/db4/ref/upgrade.4.3/
+share/doc/db4/ref/upgrade.4.3/cput.html
+@sha S6NPh3HaWxIHLord2DVc2tAh13eKowDX44XUbufKWnY=
+@size 1775
+share/doc/db4/ref/upgrade.4.3/disk.html
+@sha xOYqnTk6l2AzkVUL0qSg0DS/ZKBIJvpYFxW29SC3AXE=
+@size 1714
+share/doc/db4/ref/upgrade.4.3/enomem.html
+@sha fRIdVBBtHrK5cuFMQv1YQQHQD4oPIQJyOJSRWy/scj0=
+@size 2998
+share/doc/db4/ref/upgrade.4.3/err.html
+@sha FoaN4M3C7gAs9/JlUjF/Z6JwERMGX0yRWwMTAaxhzxU=
+@size 2262
+share/doc/db4/ref/upgrade.4.3/fileopen.html
+@sha kyjmNhuV8j8GyzpJIg82HYfzf9Ki8vwmI6ME20woakw=
+@size 1546
+share/doc/db4/ref/upgrade.4.3/intro.html
+@sha EhpHx4dMCisT4z6sEpDkIR+tsIHGTqmCckNOLr75bOo=
+@size 1663
+@comment share/doc/db4/ref/upgrade.4.3/java.html
+share/doc/db4/ref/upgrade.4.3/log.html
+@sha HrhzFeWDpCHnDIuzNeht8g4LicOFTr8j6+6rCP2PWPo=
+@size 2231
+share/doc/db4/ref/upgrade.4.3/repl.html
+@sha IU9q+HBWCTxZT1sFJTYxIeL8UXaUfgS06oubw0UOFPw=
+@size 2627
+share/doc/db4/ref/upgrade.4.3/rtc.html
+@sha hYdOW7jLIY0eYQFtVUO8l0t8GhOIkHKZMNCVvsqmXws=
+@size 1720
+share/doc/db4/ref/upgrade.4.3/stat.html
+@sha 1t0zwAWj4PetHmzljOy/4EBM6n7dzqxj/1qeIv1ExKM=
+@size 1737
+share/doc/db4/ref/upgrade.4.3/toc.html
+@sha 6Rmn8jtQ9abK82fq3oz1s54tAfVtUnCNul2nPNROwCc=
+@size 1900
+share/doc/db4/ref/upgrade.4.3/verb.html
+@sha L7fe9FLCjKoywde29OHkwpH4Dq80fGZapwxAbxv9qEM=
+@size 2493
+share/doc/db4/ref/upgrade.4.4/
+share/doc/db4/ref/upgrade.4.4/autocommit.html
+@sha ENBaAfl+bmFdkk79v3eZ6ABk1AFGKMH8xhmVx0XoMMw=
+@size 3309
+share/doc/db4/ref/upgrade.4.4/clear.html
+@sha uFSZdijAPUAUVu3ZwF9acjwHKYvajFgWEh/jwAk5DzQ=
+@size 2213
+share/doc/db4/ref/upgrade.4.4/disk.html
+@sha Rr1UH89Nh8Fyvb9a306+3Mvrg4+dWLFq4TSrKbtNlBs=
+@size 1724
+share/doc/db4/ref/upgrade.4.4/intro.html
+@sha HmX2ucHSqxTdwbsyJk88jrfMuRjz98w+t8DMl5EEJOs=
+@size 1675
+share/doc/db4/ref/upgrade.4.4/isolation.html
+@sha ZD7uAXMzEF3+q+9sIUwPKMjcHeaqhy4IgaI3y00rshI=
+@size 1937
+share/doc/db4/ref/upgrade.4.4/joinenv.html
+@sha 1FqfiB+kOOivthZXkjVM0DPz3humzbhh7bRiHG3NrEs=
+@size 3616
+share/doc/db4/ref/upgrade.4.4/lockstat.html
+@sha 4gK+wSQ1Lwr+ErVasaorXjXtQC7z1+TMRai3442PMG8=
+@size 1803
+share/doc/db4/ref/upgrade.4.4/mutex.html
+@sha 5BH9tjNIguazcXFR/YDODDjSEhV1LOiFGFW+L7JKCmY=
+@size 2190
+share/doc/db4/ref/upgrade.4.4/toc.html
+@sha Unqr6DqSl28J87ps35fDAXrdRc0FOtx9twF2ayv4hbY=
+@size 1674
+share/doc/db4/ref/upgrade.4.5/
+share/doc/db4/ref/upgrade.4.5/alive.html
+@sha vOFIwPJ4+4+pzNyL3yZ6RWrX2Roqx5jhTudlHvz25+c=
+@size 2084
+share/doc/db4/ref/upgrade.4.5/applog.html
+@sha Qr1LGazScWJs7Xjytxkf9uIthcSiQ6wmgYP4cD+Mvwk=
+@size 2142
+share/doc/db4/ref/upgrade.4.5/collect.html
+@sha pB7FVr6DwKS7asTvZDQHUNBa3NMP26vTceXnc87f2AQ=
+@size 2009
+share/doc/db4/ref/upgrade.4.5/config.html
+@sha HtznK+KBrk8upaH/MX1y3j0huUJpLeqG4lU3F6y1kWs=
+@size 2086
+share/doc/db4/ref/upgrade.4.5/deprecate.html
+@sha Ilr/my2fAvLV9e+ScrDYK902JQHmsWY7pww4dPNojes=
+@size 2053
+share/doc/db4/ref/upgrade.4.5/disk.html
+@sha EG4bWBwEKo426ab7mMdtchgk7XW4gX1WIhx6Fk0ovwQ=
+@size 1720
+share/doc/db4/ref/upgrade.4.5/elect.html
+@sha JwLMSYPYWt+IeR0q4Jw5RlR6T2ezR9TwWxyJjsy1Rdo=
+@size 3058
+share/doc/db4/ref/upgrade.4.5/intro.html
+@sha G1DDE9YHPA0oWZ4dYUsUXOd9yBtkZyfimdxAAOTGIFs=
+@size 1673
+share/doc/db4/ref/upgrade.4.5/memp.html
+@sha tdeupbyf4rM7S5q2Mi8gyRt/HnChGBGt94s7YkqrEEY=
+@size 2123
+share/doc/db4/ref/upgrade.4.5/pagesize.html
+@sha ffUqmoeq43vc/14T/jZRdiEctJpFKzNinMYzQbYj57o=
+@size 1784
+share/doc/db4/ref/upgrade.4.5/paniccall.html
+@sha RN7OjyO5CYGZxyXob7F+O4QAPw+VjxQfBaHRdXaWy48=
+@size 2273
+share/doc/db4/ref/upgrade.4.5/rep_event.html
+@sha SOUUy+IbLDt7SCBnFbrVIqbw2z3d5YiC2IjP82SAcB0=
+@size 2030
+share/doc/db4/ref/upgrade.4.5/rep_set.html
+@sha 915vhZZ53OPhb63N2id6kdimUMtpuQhnSPbtS2EYTls=
+@size 2038
+share/doc/db4/ref/upgrade.4.5/source.html
+@sha VNPwkgQFB7J9uDszCBtI861RCbSoXHMw+mZqhn9FxXY=
+@size 2404
+share/doc/db4/ref/upgrade.4.5/toc.html
+@sha dIrVCT38hTrl5a846l6obG+AyR0XedVO71ICeS0sEeo=
+@size 2097
+share/doc/db4/ref/upgrade.4.6/
+share/doc/db4/ref/upgrade.4.6/cursor.html
+@sha z7A7RxC2f3B+L8LD7GkD/b7Oils9iJVPfxjOby9fhcQ=
+@size 2180
+share/doc/db4/ref/upgrade.4.6/disk.html
+@sha vmFFpKTt5LeapLMrGf2QRXrGWRjKLIZpUlI0nc6hKSQ=
+@size 2050
+share/doc/db4/ref/upgrade.4.6/event.html
+@sha X8De5P/a1s6cX8ZDCegO3NxFPubSw3ceG7ckaNEeo7A=
+@size 4129
+share/doc/db4/ref/upgrade.4.6/full_election.html
+@sha P/sGoZVdaW03P9TGdbW+yNn+J3SAIPCX2SbfRWtrP94=
+@size 2120
+share/doc/db4/ref/upgrade.4.6/intro.html
+@sha x9v6cUChsOCaavJn835zPaNBDD2j4HJJ5RpewTOsLq0=
+@size 1667
+share/doc/db4/ref/upgrade.4.6/memp_fput.html
+@sha iLHHBiB9lEZsfI/hU6INDuUxOpR1odAuDWKIyvdeeZE=
+@size 2078
+share/doc/db4/ref/upgrade.4.6/memp_fset.html
+@sha fOyP/+aqRBWIrT9M3Z7w5TgIsBoszyKVubQzph6NECk=
+@size 1681
+share/doc/db4/ref/upgrade.4.6/toc.html
+@sha r7JWFSoxbPH8Mr9SilGVoMPc2C1gpg9ip1FaeswPksU=
+@size 1813
+share/doc/db4/ref/upgrade.4.6/verb.html
+@sha c7ejKn8WAwAsc2UAAwWET0E8YpAOFyjtQ2o6veLEcLo=
+@size 1755
+share/doc/db4/ref/upgrade.4.6/verbose.html
+@sha zAUNwO8/Z458eDfkkYZ4nRYXptMrSpa2sjwLCuRfXAs=
+@size 3729
+share/doc/db4/ref/upgrade.4.6/win.html
+@sha t8uFdo9O8s+bWYZ4vkiGHyjyH1KaAg5BWDdTYcf5ZH4=
+@size 1675
+share/doc/db4/ref/upgrade/process.html
+@sha 18SXG6038s8URhNkXJMdoQKFXU21pNE5+L0T21BYvWQ=
+@size 10142
+share/doc/db4/ref/upgrade/version.html
+@sha FJ3ZcEP4DqkkLlgLcEpbhyVVThGzn0b1CRML4boYTbo=
+@size 3160
+share/doc/db4/ref/xa/
+share/doc/db4/ref/xa/build.html
+@sha MDM6y+4mj07aQL7M8VvraqcBwAUhlQd/4KxQzPdqs48=
+@size 12824
+share/doc/db4/ref/xa/faq.html
+@sha l4m+C5irQ7J9ZwomIvqGHmuTDOMqxkaBjRTmKvTwuQw=
+@size 4313
+share/doc/db4/ref/xa/intro.html
+@sha 5lrIhxl6N9buG27Uj9ajk7ZHRNVnuaxkKZD4WGdI69U=
+@size 3703
+share/doc/db4/ref/xa/xa_config.html
+@sha LhBKxkanKyMiMUqU/zUpH7oOMDe1pOx3jAlDSbr52OQ=
+@size 5126
+share/doc/db4/ref/xa/xa_intro.html
+@sha nc5IZPMc732NJT6bhg89xlqVGO6hsum+xkqVd9IglZ0=
+@size 3315
+share/doc/db4/utility/
+share/doc/db4/utility/berkeley_db_svc.html
+@sha sd0ajUVAUlhjUXW7UxVUoVyI/yg2ZIuNQI2ajvAHHzk=
+@size 3184
+share/doc/db4/utility/db_archive.html
+@sha qyUAd9WZjsh+/+0hvpnM8IXA3vlIsKA+Ebg5V7tJHh4=
+@size 5353
+share/doc/db4/utility/db_checkpoint.html
+@sha oOsV09zdpU2eiTmRNdqwaqWtdNysUyVvSHE8Ji+nsPc=
+@size 4393
+share/doc/db4/utility/db_codegen.html
+@sha gh1t2NNqQPptpJUIpJuuqBo1DXCtCF03bRtYhwW2nLs=
+@size 9027
+share/doc/db4/utility/db_deadlock.html
+@sha prq5TDoHmwSKxpfXtYA8p7lTqzrRE2zdIGx589Yhc4Q=
+@size 4326
+share/doc/db4/utility/db_dump.html
+@sha AmgEp1zlwn6m6ki23o5Z2n1/92SksVvEbG3LHDZdoLo=
+@size 6888
+share/doc/db4/utility/db_hotbackup.html
+@sha pE4B0IlDnci1yyHz4LKuZfddtHeA/c0tCQDVwXhpcgc=
+@size 7530
+share/doc/db4/utility/db_load.html
+@sha Gz1CVk530carfGBv6scHYu3POTVGlB4zpMGCFoacd3M=
+@size 9674
+share/doc/db4/utility/db_printlog.html
+@sha G2ia4gR2h5xzX6H8MtgrP1DhkPqc9qgtGJFh3ZLQ0OU=
+@size 3462
+share/doc/db4/utility/db_recover.html
+@sha IUd+kdUsGCnnNT+nQFQkDBgTQphe0e/tUqVzxDyAkZ0=
+@size 4865
+share/doc/db4/utility/db_stat.html
+@sha h2ACE39v+9Q/I6E1pGX8aQDxhmN35S1AUJ8z7pobri0=
+@size 5402
+share/doc/db4/utility/db_upgrade.html
+@sha Dk40NjdbpyT4SzHXWo4gsEWrQ0agSX0ZvbXTVvA+fPo=
+@size 4698
+share/doc/db4/utility/db_verify.html
+@sha x34HdSdZOeRqMLKE7GKpc1QVgXCOnfdgi1L8aOaBEj8=
+@size 3689
+share/doc/db4/utility/index.html
+@sha 62NLHFyRPwnSulvPG4DKPahzMslhf/ksg80foXbjLwE=
+@size 2097
+share/examples/db4/
+share/examples/db4/AccessExample.cpp
+@sha OJh6nDiEzbPfv7JIUha6C/3Zwc8a+lLN7hd/B02LcQk=
+@size 3489
+share/examples/db4/BtRecExample.cpp
+@sha 94TIegLJZncREzVfVdaAtflaZ4bccgce3a64ZL0B9F0=
+@size 4455
+share/examples/db4/EnvExample.cpp
+@sha C7nwbnfzSw2MyKufAwxK8jqWzey37NCgS1RADKdLOJI=
+@size 2772
+share/examples/db4/LockExample.cpp
+@sha fSWCFrYsUdL46KEK7fjBUmG7Ira+dLE63XwLEFWyrmQ=
+@size 5139
+share/examples/db4/MpoolExample.cpp
+@sha ZeL5UvZ+OkUptMbkQEC9ipZsN8VNWEni4xZ+5ETsr4w=
+@size 4718
+share/examples/db4/SequenceExample.cpp
+@sha AwAsXeyyZhpFAcjO+D3EdTmxhNOYqrC/uoQ+aCjGqEo=
+@size 2793
+share/examples/db4/TpcbExample.cpp
+@sha fA4uKG9z17g27K3E5pvjqmsYMyDY6hfSSuY08p603HQ=
+@size 15721
+share/examples/db4/bench_001.c
+@sha LeQpQZLhMrhMyiH5DvaLJSsvR5NjSRYDePW5J0yvhSc=
+@size 9203
+share/examples/db4/ex_access.c
+@sha LCBYsHGJgwvGoSTsgYGealMcv/sFfrhWcz/6KSuzE+s=
+@size 3614
+share/examples/db4/ex_btrec.c
+@sha RNyekQuBYEuaSczeEIXZY+MBGPRz6GXjvCgiAPOJP/Q=
+@size 4663
+share/examples/db4/ex_dbclient.c
+@sha 2x/9aYe+JHz54DFdpsAAGEYWu8PeUNFL6048R7k6O9E=
+@size 5037
+share/examples/db4/ex_env.c
+@sha T2qVV2N6XVEfuPrRBL9V4GF5SiNj/fM462kEDMDKbGQ=
+@size 3146
+share/examples/db4/ex_lock.c
+@sha +QZeAAmDuMm44pwJ3mpXrYCvKhb32aHM5ak11xj3iuQ=
+@size 5305
+share/examples/db4/ex_mpool.c
+@sha iNE7AddYw7Z0nlGUhkzUjObB/ToB3R05BIaofTw0qAU=
+@size 5636
+share/examples/db4/ex_sequence.c
+@sha 3jagRRNcPegaRzqNVkTJR6fEyAE1IBDvfNxRU1uV2QM=
+@size 2781
+share/examples/db4/ex_thread.c
+@sha DB58N8aY5X7s0AfwfQxTPc0JMv7Y83Ha6Kay+xVvdZQ=
+@size 13097
+share/examples/db4/ex_tpcb.c
+@sha 91zds8E0TA8FAKH24Fh/3gvFaD7/4GEBOxopRYI0RGg=
+@size 17211

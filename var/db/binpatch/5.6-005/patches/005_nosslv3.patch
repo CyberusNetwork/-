@@ -1,0 +1,39 @@
+
+OpenBSD 5.6 errata 5, Oct 20, 2014
+
+This patch disables the SSLv3 protocol by default.
+
+Applications depending on SSLv3 may need to be recompiled with
+    SSL_CTX_clear_option(ctx, SSL_OP_NO_SSLv3);
+but we recommend against the continued use of this obsolete protocol.
+
+Apply patch using:
+
+    signify -Vep /etc/signify/openbsd-56-base.pub -x 005_nosslv3.patch.sig \
+	-m - | (cd /usr/src && patch -p0)
+
+Then build and install libssl
+
+    cd /usr/src/lib/libssl/ssl
+    make obj
+    make
+    make install
+
+
+Index: lib/libssl/src/ssl/ssl_lib.c
+===================================================================
+RCS file: /cvs/src/lib/libssl/src/ssl/ssl_lib.c,v
+retrieving revision 1.78
+diff -u -p -r1.78 ssl_lib.c
+--- lib/libssl/src/ssl/ssl_lib.c	12 Jul 2014 22:33:39 -0000	1.78
++++ lib/libssl/src/ssl/ssl_lib.c	19 Oct 2014 23:09:46 -0000
+@@ -1823,6 +1823,9 @@ SSL_CTX_new(const SSL_METHOD *meth)
+ 	 */
+ 	ret->options |= SSL_OP_LEGACY_SERVER_CONNECT;
+ 
++	/* Disable SSLv3 by default. */
++	ret->options |= SSL_OP_NO_SSLv3;
++
+ 	return (ret);
+ err:
+ 	SSLerr(SSL_F_SSL_CTX_NEW,

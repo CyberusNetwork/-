@@ -1,0 +1,54 @@
+@comment $OpenBSD: PLIST,v 1.2 2010/12/14 14:54:35 ajacoutot Exp $
+@comment $OpenBSD: PFRAG.shared,v 1.1.1.1 2006/12/10 21:42:29 jasper Exp $
+@name libdaemon-0.14p0
+@url http://ftp.fr.openbsd.org/pub/OpenBSD/5.6/packages/i386/libdaemon-0.14p0.tgz
+@signer openbsd-56-pkg
+@digital-signature signify:2014-08-02T11:00:27Z:RWSPEf7Vpp2j0GhCiFLZKYsLZQyp8ML/iAsp8IlCAm1+6cBFjn8jQW/uA1ae1vnTym7OlLgQmmC6RqZj7ew1/1wIFr7x+YcNsAA=
+@comment pkgpath=devel/libdaemon cdrom=yes ftp=yes
+@arch i386
++DESC
+@sha NOWreOFq9qNQ11WKtsHMFwDAd1mXeaT5dkCkBJiWL1w=
+@size 661
+@cwd /usr/local
+@lib lib/libdaemon.so.4.0
+@sha R5BpLhwhvBLvhLZ+vweR48L8ZVbG0aS86K/bJ8RabW4=
+@size 27748
+include/libdaemon/
+include/libdaemon/daemon.h
+@sha BPRc2M0eZ+6RuQBGbBwnK0Od/3dWq4GKUZfF6X/dduk=
+@size 1051
+include/libdaemon/dexec.h
+@sha PCfQ5/PkdPDZoMbsJn/s7lH4qrnA6BEuBiY5J0VUAJA=
+@size 2516
+include/libdaemon/dfork.h
+@sha 3Zr+1XYFTucfFNCFDkQHhliV8KtC+8EemjB6uScSI7c=
+@size 5377
+include/libdaemon/dlog.h
+@sha 9oLFklx+iYV8FFIeBCpJxpdMJmLfuY0JVufGuXqqLO8=
+@size 3610
+include/libdaemon/dnonblock.h
+@sha 8FrJLYpcdYPYcdaktQ9qThyshQJAiwbawPzt3pQuCEM=
+@size 1311
+include/libdaemon/dpid.h
+@sha 6h82Vt1/MrQq+a4E8YHecoy3pGiAtCcRNPMPj5nUTSA=
+@size 2940
+include/libdaemon/dsignal.h
+@sha 4CxatskFijJ+25GsVrwQj6nXUHDQ068/kwkOClsvLdQ=
+@size 2375
+lib/libdaemon.a
+@sha yvTo+3YD7HtHsLfVd6IWivH1g9AmkjM2OQRgaihvuz0=
+@size 29412
+lib/libdaemon.la
+@sha vMbxywlVq0H3R7IRqcNvbyamcdD6bihaeH2mHW+O/Vc=
+@size 725
+lib/pkgconfig/
+lib/pkgconfig/libdaemon.pc
+@sha mH0CJ6f+JZNP9d+uQut+aFhmOAqYNOwlaaH1NJjyH+4=
+@size 266
+share/doc/libdaemon/
+share/doc/libdaemon/README.html
+@sha 87IeNJXPDJw6ckG810MRC/N9a/pyYVkbHiDDcR28mTM=
+@size 8892
+share/doc/libdaemon/style.css
+@sha jt1XFQpUXuIDsYu/uZURac6FTOyC20tZ90nr5GtxHSU=
+@size 976

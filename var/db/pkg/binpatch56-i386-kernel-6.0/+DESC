@@ -1,0 +1,11 @@
+Binary Patch for 013_virtio.patch
+Patch(es) included in this package:
+
+	001_rxr.patch
+	002_nd6.patch
+	004_kernexec.patch
+	010_pipex.patch
+	011_pppoe.patch
+	013_virtio.patch
+
+Maintainer: m:tier <info@mtier.org>

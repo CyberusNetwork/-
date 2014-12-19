@@ -1,0 +1,151 @@
+@comment $OpenBSD: PLIST,v 1.5 2012/04/28 09:49:49 stsp Exp $
+@comment $OpenBSD: PFRAG.shared,v 1.4 2012/04/28 09:49:49 stsp Exp $
+@name apr-util-1.5.3p0
+@url http://ftp.fr.openbsd.org/pub/OpenBSD/5.6/packages/i386/apr-util-1.5.3p0.tgz
+@signer openbsd-56-pkg
+@digital-signature signify:2014-08-02T10:54:36Z:RWSPEf7Vpp2j0CkEx7qK8eLXxRA992XGkplMSw2ow+qwmR7ERpJsO2n85Q3OIm639WlyQt0u9ZJpDj6Vr+hjH6i2h2ZsXblURQc=
+@comment pkgpath=devel/apr-util cdrom=yes ftp=yes
+@arch i386
++DESC
+@sha 5z1AH5ift6BHvEBpUgmkxhxqrHzj4Fnfalm849vJxFk=
+@size 210
+@conflict apr-util-mt-*
+@pkgpath devel/apr-util,mt
+@depend converters/libiconv:libiconv-*:libiconv-1.14p1
+@depend databases/db/v4,-main:db->=4,<5|db->=4v0,<5v0:db-4.6.21p0v0
+@depend devel/apr:apr-1.5.0:apr-1.5.0
+@wantlib apr-1.5.0
+@wantlib expat.11.0
+@wantlib iconv.6.0
+@wantlib lib/db4/db.5.0
+@wantlib pthread.18.0
+@cwd /usr/local
+lib/apr-util-1/apr_dbm_db-1.so
+@sha /ATkHBbVVR4ZKlyK7lGj9JiB5blY2FkwJl1tFuJOZBQ=
+@size 11402
+lib/apr-util-1/apr_dbm_db.so
+@symlink apr_dbm_db-1.so
+@lib lib/libaprutil-1.so.5.0
+@sha miyhUW+ly78tQEQbXhPFARdFiGX40CwOaH73ClcpZwQ=
+@size 160864
+bin/apu-1-config
+@sha K/WBqD3zUBfvf5Lw1QDYZ2XKbkgJubdEqTtJzFGF0NA=
+@size 6556
+include/apr-1/
+include/apr-1/apr_anylock.h
+@sha gq5LYNIBIrrJ9+FgECiD6q0XfBvDRp78W3EdBzOGNGw=
+@size 5050
+include/apr-1/apr_base64.h
+@sha jnhqPvY7eSHiZNpQtdw3plidIgotJS2tDDcrjhctNJo=
+@size 3844
+include/apr-1/apr_buckets.h
+@sha aaqdMdoNsx48VbvMCdpgI44/Dyxz+SdYZmXf75a7egI=
+@size 63412
+include/apr-1/apr_crypto.h
+@sha CqauLvR0/z0o2pV74Wc6IvIsbQHg+cg8/zIMEgrIcCA=
+@size 16911
+include/apr-1/apr_date.h
+@sha kaxe7AqAz7ERUQWZ+J/Kgjk35r1hpD8waLGEzHO4tCM=
+@size 3554
+include/apr-1/apr_dbd.h
+@sha BiXsyGfXDOhpladylyr69i4RK1yQ8cOlb+t15zUdhFw=
+@size 24093
+include/apr-1/apr_dbm.h
+@sha IEdPH2PhceqwSXnJ4mYLPxlhbhVe6pz8MVLInoZbhAg=
+@size 8599
+include/apr-1/apr_hooks.h
+@sha 07gd9E1ohj8TKjAlhpHk51DUNJ097hGQkef8OwTyZ6E=
+@size 12660
+include/apr-1/apr_ldap.h
+@sha wzUU+HYJmaquWmiMt307h7//TcTIcA6bI7L1YY/CN8k=
+@size 5670
+include/apr-1/apr_ldap_init.h
+@sha mbBo/zDsllU1mF8KVK5xxuvw2Z1zazttozwgmcB38cg=
+@size 5780
+include/apr-1/apr_ldap_option.h
+@sha OV+xOV8DUltp1NYqIPI+UmmyuB3CkZi7EZPlVohn1Zo=
+@size 8604
+include/apr-1/apr_ldap_rebind.h
+@sha MMqCcAUs92jPNwtnlTMX8E+InSlvY6gV0B2zfpTFC2U=
+@size 3168
+include/apr-1/apr_ldap_url.h
+@sha fEWjop9TmkBPxM+yQIHiqu9IpXUblCE9rvnMayRJNsw=
+@size 3799
+include/apr-1/apr_md4.h
+@sha YeTJDAXCTnhwbBA5sG2BPPaHCYPyKOViwGHmbw6Yde0=
+@size 4525
+include/apr-1/apr_md5.h
+@sha L86e04LszF3BFY/Arl/HuRlF+4dvaW/XDMkH1UQ9euE=
+@size 6350
+include/apr-1/apr_memcache.h
+@sha 7sRHYhU6Lv4f1kGpmEX0++5AuqD5V6zDcVODFJqTLAk=
+@size 17224
+include/apr-1/apr_optional.h
+@sha zKdRlVtTOpttWkjMU8a9U6oy0l167EQISCki+E2X2N4=
+@size 2780
+include/apr-1/apr_optional_hooks.h
+@sha 2qziriGXeuaujSy06fznSobbmS+edzTN+zGOz6W//nU=
+@size 3872
+include/apr-1/apr_queue.h
+@sha TijiHMReS2QolIuav/TcBptiXnbjj9Pno+rY4Wy5Ud8=
+@size 4080
+include/apr-1/apr_reslist.h
+@sha uXSCyR1GYeiS611HDCdC7ZVH1nuSpBdVfFgXmgb3npI=
+@size 7176
+include/apr-1/apr_rmm.h
+@sha 03vdByb96tnhYMTjeqi5H69OYx0A6auwVSU/Rp+FA84=
+@size 4778
+include/apr-1/apr_sdbm.h
+@sha 2A4ekuMmD8XZ5o7j4bDnHqk8oqAGz8zwSldUw8HfMeQ=
+@size 6113
+include/apr-1/apr_sha1.h
+@sha v523hDy1tVI0V+tr07GVvzyAhIjMUyx6aUVEnLnwX7I=
+@size 3884
+include/apr-1/apr_strmatch.h
+@sha JKaGZ1DsXMDIL4aglvnqd7kukKPSDqrllcoG2lPJS7M=
+@size 2677
+include/apr-1/apr_thread_pool.h
+@sha MGYCqzxrKVfNIlNnHfTZTHOoVaPyKm81Re29eM1iro8=
+@size 11104
+include/apr-1/apr_uri.h
+@sha oyywb6t6ssQ0nsyJ8+oBc7wBGqRZyKUDiP7nR80jLuI=
+@size 6589
+include/apr-1/apr_uuid.h
+@sha 8Jj2Mk4a0B6QnoujTZRXnQ4+GL7lF2Le7BAnRfG6zJ4=
+@size 2102
+include/apr-1/apr_xlate.h
+@sha +AvmOPbYrCtdIuMEnhLx4G2GRhovcxlHnVaSqlmXO1o=
+@size 6408
+include/apr-1/apr_xml.h
+@sha jsNwSkBb2vRrpOidcYVoYIEHNouF5HbGXMLw6maqqT8=
+@size 12368
+include/apr-1/apu.h
+@sha Y5WtUS85E+eV1PbdHrNPonDDM0pkQIppj+ax1VTVWeI=
+@size 4318
+include/apr-1/apu_errno.h
+@sha IQ3MrS9Dh0NyIv6DmGWv7hGy1yJHVSLzZa/X+RBYLcc=
+@size 5444
+include/apr-1/apu_version.h
+@sha e8d27Giov6EKSV50b/aelml275Q01Cik3SyY3HjyNoE=
+@size 4295
+include/apr-1/apu_want.h
+@sha zEF+CKWj3axj6LHHZt2lqKs266TGg7u8xNuNrSX+W5g=
+@size 1483
+lib/apr-util-1/
+lib/apr-util-1/apr_dbm_db.a
+@sha MrSPGCV9frMFXpo2e/MPAHYxjd58ycYdExzaKPUDCB8=
+@size 4898
+lib/apr-util-1/apr_dbm_db.la
+@sha HghgHJ1FOlQBmQyu51vVqFkwvArD42H3b79s7HssPAg=
+@size 826
+@comment lib/aprutil.exp
+lib/libaprutil-1.a
+@sha P0gfqy6cWlddbLxhdY7zkeVeSeNb3/cDkcrz5RBWiYo=
+@size 209782
+lib/libaprutil-1.la
+@sha xQuEuzs8T21LZxIfQ9JzXZKmXqEvWRZ3Pt+5oFfBifQ=
+@size 858
+lib/pkgconfig/
+lib/pkgconfig/apr-util-1.pc
+@sha m8dWUYsYMdL3BH2mne4LQySVYWkbmj737mi6OB/AGiY=
+@size 378

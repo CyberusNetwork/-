@@ -1,0 +1,4 @@
+To completely deinstall the package you need to remove the symbolic link
+from /var/www/conf/modules. As root:
+
+    rm -f /var/www/conf/modules/php.conf

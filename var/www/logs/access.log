@@ -1,0 +1,7 @@
+Dec 14 00:00:02 cyberus newsyslog[27506]: logfile turned over
+default 10.8.97.1 - - [16/Dec/2014:16:02:46 +0100] "GET /phpmyadmin HTTP/1.0" 404 0
+default 10.8.97.1 - - [16/Dec/2014:16:02:47 +0100] "GET /favicon.ico HTTP/1.0" 404 0
+default 10.8.97.1 - - [17/Dec/2014:09:29:12 +0100] "GET / HTTP/1.0" 200 80
+default 10.8.97.1 - - [17/Dec/2014:11:19:38 +0100] "GET / HTTP/1.0" 200 80
+default 10.8.97.1 - - [17/Dec/2014:11:19:38 +0100] "GET / HTTP/1.0" 200 80
+default 10.8.97.1 - - [17/Dec/2014:11:19:39 +0100] "GET /favicon.ico HTTP/1.0" 404 0

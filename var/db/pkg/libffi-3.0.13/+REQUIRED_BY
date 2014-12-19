@@ -1,0 +1,11 @@
+python-2.7.8
+avahi-0.6.31p13
+gtk+2-2.24.24
+gtk-update-icon-cache-2.24.24
+librsvg-2.40.2
+rrdtool-1.4.8p6
+pango-1.36.5
+cairo-1.12.16
+atk-2.12.0
+glib2-2.40.0p7
+gdk-pixbuf-2.30.8

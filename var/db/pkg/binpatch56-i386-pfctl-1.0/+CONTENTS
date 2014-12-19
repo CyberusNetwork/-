@@ -1,0 +1,31 @@
+@name binpatch56-i386-pfctl-1.0
+@url https://stable.mtier.org/updates/5.6/i386/binpatch56-i386-pfctl-1.0.tgz
+@signer mtier-56-pkg
+@digital-signature signify:2014-11-17T20:12:46Z:RWQQss3E1pCsG5TOmMI2FUZn6AEisAXLnVGSBXwUxbr692Se/fOswEcYkI7fo+kwFrf/jjxbrGNBrPzIetICKw6RO2YMBaFZFAY=
+@option manual-installation
+@option always-update
+@comment pkgpath=/binpatch/56/pfctl cdrom=yes ftp=yes
+@arch i386
++DESC
+@sha RBB5outRnSZFMwYbP06LWWgP8sdupetS67kspEvj2qs=
+@size 124
+@cwd /
+@comment patch for 007_pfctl.patch
+var/db/binpatch/5.6-007/fake/sbin/
+var/db/binpatch/5.6-007/fake/sbin/pfctl
+@sha 0E4kCrGnpaKSPzfdcKweaKAvHs4/xUDeXYl7+gx19LA=
+@size 500532
+@unexec /var/db/binpatch/5.6-007/install.sh rollback 007 /var/db/binpatch all
+var/db/binpatch/5.6-007/PLIST
+@sha BVttmn49uEeacmhaHrhSaQLI+984DN5cddpIRh6vwIE=
+@size 78
+var/db/binpatch/5.6-007/install.sh
+@sha LUC9g1EWUG1Tehl4L4oaR2fDEj2nuWtzzvTXZZagxDw=
+@size 4215
+@exec /var/db/binpatch/5.6-007/install.sh install 007 /var/db/binpatch all
+var/db/binpatch/5.6-007/patches/
+var/db/binpatch/5.6-007/patches/007_pfctl.patch
+@sha Ige3bDSYm0jWbEnJcAIxQCTsgANzE4Apfjr75dCNR6M=
+@size 4399
+var/db/binpatch/5.6-007/fake/
+var/db/binpatch/5.6-007/

@@ -1,0 +1,7 @@
+reference implementation of JPEG-2000
+JasPer provides a reference implementation of the codec specified
+in the JPEG-2000 Part-1 standard (i.e., ISO/IEC 15444-1).
+
+Maintainer: The OpenBSD ports mailing-list <ports@openbsd.org>
+
+WWW: http://www.ece.uvic.ca/~mdadams/jasper/

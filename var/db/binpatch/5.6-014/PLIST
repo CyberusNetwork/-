@@ -1,0 +1,41 @@
+@comment patch for 014_xserver
+@option always-update
+./usr/X11R6/lib/
+./usr/X11R6/lib/modules/
+./usr/X11R6/lib/modules/extensions/
+./usr/X11R6/lib/modules/extensions/libglx.la
+./usr/X11R6/lib/modules/extensions/libglx.so
+./usr/X11R6/lib/modules/libexa.la
+./usr/X11R6/lib/modules/libexa.so
+./usr/X11R6/lib/modules/libfb.la
+./usr/X11R6/lib/modules/libfb.so
+./usr/X11R6/lib/modules/libfbdevhw.la
+./usr/X11R6/lib/modules/libint10.la
+./usr/X11R6/lib/modules/libint10.so
+./usr/X11R6/lib/modules/libshadow.la
+./usr/X11R6/lib/modules/libshadow.so
+./usr/X11R6/lib/modules/libshadowfb.la
+./usr/X11R6/lib/modules/libshadowfb.so
+./usr/X11R6/lib/modules/libvbe.la
+./usr/X11R6/lib/modules/libvgahw.la
+./usr/X11R6/lib/modules/libwfb.la
+./usr/X11R6/lib/modules/libwfb.so
+./usr/X11R6/lib/modules/multimedia/
+./usr/X11R6/lib/modules/multimedia/bt829_drv.la
+./usr/X11R6/lib/modules/multimedia/fi1236_drv.la
+./usr/X11R6/lib/modules/multimedia/msp3430_drv.la
+./usr/X11R6/lib/modules/multimedia/msp3430_drv.so
+./usr/X11R6/lib/modules/multimedia/tda8425_drv.la
+./usr/X11R6/lib/modules/multimedia/tda9850_drv.la
+./usr/X11R6/lib/modules/multimedia/tda9885_drv.la
+./usr/X11R6/lib/modules/multimedia/uda1380_drv.la
+./usr/X11R6/bin/
+@mode 4755
+./usr/X11R6/bin/X
+@mode
+./usr/X11R6/bin/Xnest
+@mode 4755
+./usr/X11R6/bin/Xorg
+@mode
+./usr/X11R6/bin/Xvfb
+./usr/X11R6/include/xorg/

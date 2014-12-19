@@ -1,0 +1,6 @@
+XML parsing library
+This is a library for parsing the XML language.
+
+Maintainer: The OpenBSD ports mailing-list <ports@openbsd.org>
+
+WWW: http://xmlsoft.org/

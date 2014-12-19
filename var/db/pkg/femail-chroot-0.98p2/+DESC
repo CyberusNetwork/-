@@ -1,0 +1,7 @@
+simple SMTP client for chrooted web servers
+statically linked version of femail which installs itself into the
+default httpd(8) chroot area.
+
+Maintainer: Okan Demirmen <okan@openbsd.org>
+
+WWW: http://bulabula.org/femail/

@@ -1,0 +1,80 @@
+@name binpatch56-i386-asr-1.0
+@url https://stable.mtier.org/updates/5.6/i386/binpatch56-i386-asr-1.0.tgz
+@signer mtier-56-pkg
+@digital-signature signify:2014-11-18T11:03:57Z:RWQQss3E1pCsG6s/HrNLjg2bIco2Gh75hQyVA7kQ8hn2r1hTd8ugVrAtKQZO95oNvgX+JHBou7Yjbhem5TABiIuU+tvuSrhKdwc=
+@option manual-installation
+@option always-update
+@comment pkgpath=/binpatch/56/asr cdrom=yes ftp=yes
+@arch i386
++DESC
+@sha W3x2IL57SfPQqK7LL2eDICvPiTP1zvTHpHyxdjxDGEY=
+@size 120
+@cwd /
+@comment patch for 008_asr.patch
+var/db/binpatch/5.6-008/fake/usr/
+var/db/binpatch/5.6-008/fake/usr/lib/
+var/db/binpatch/5.6-008/fake/usr/lib/libc.so.77.0
+@sha iI9UQxoMdtktE1XezAjP7QI6ck+sd2B3V/wiA6UT2aU=
+@size 2806398
+var/db/binpatch/5.6-008/fake/usr/lib/libc.a
+@sha aymytPscN7Q5q1bUkY7+tuhZNxqQHS7EqGnws8ijlyM=
+@size 5200932
+var/db/binpatch/5.6-008/fake/usr/lib/libc_p.a
+@sha 4Zbj2NebPk/ANtkkzx0fmszs1L3NubvH+if9q3gNJWc=
+@size 5165526
+var/db/binpatch/5.6-008/fake/bin/
+var/db/binpatch/5.6-008/fake/bin/systrace
+@sha okDeFybO6eHkoMiqGVEeqHe/Bz3zoMZIssmdxGtGvao=
+@size 406324
+var/db/binpatch/5.6-008/fake/sbin/
+var/db/binpatch/5.6-008/fake/sbin/ifconfig
+@sha 3+KqhhPMLCyEC/PVeeeRGkOJ6QWekFCTw97qzDsp5Mg=
+@size 291636
+var/db/binpatch/5.6-008/fake/sbin/iked
+@sha jm1Mfs1f6Fcp3bs3TGzoIYm0WR3py88wAqe2ZdSb74A=
+@size 1577780
+var/db/binpatch/5.6-008/fake/sbin/ipsecctl
+@sha sJ68W0QXp1x1gyyaRqyy+iG4l4YYLLPK8Y22f5JbPRI=
+@size 271156
+var/db/binpatch/5.6-008/fake/sbin/isakmpd
+@sha 7lw2CO++37g9wHhL34eQFqSvC3wZjC5FLBtIt5hJFPA=
+@size 1696564
+var/db/binpatch/5.6-008/fake/sbin/mount_nfs
+@sha O+3B+wl5qAdkes0oRnH+Be9X7fz5FR+Nu1/VuFsS72E=
+@size 168756
+var/db/binpatch/5.6-008/fake/sbin/mountd
+@sha 4pCa8OR/ZZHWEPzhneSelHqgDSRNaPL3RETEuSfiFME=
+@size 332596
+var/db/binpatch/5.6-008/fake/sbin/pfctl
+@sha ruba5zUkufDcKTHnQxLQFjyNPhefE+DtZtiHATj6huk=
+@size 500532
+@mode 4555
+var/db/binpatch/5.6-008/fake/sbin/ping
+@sha qT/ZkNF0XRaE74NPXaOKStVu4jLuhySWhGpAWkCaHuU=
+@size 205620
+@mode
+@mode 4555
+var/db/binpatch/5.6-008/fake/sbin/ping6
+@sha CRgc3JoO6/oGBf0bW5J6GVsZ2apailmo999nMEfQsfg=
+@size 230196
+@mode
+var/db/binpatch/5.6-008/fake/sbin/route
+@sha V3Va+Y7miZvItXjDJynvUCwvgDmAERHzx5Iee0/l5E8=
+@size 226100
+var/db/binpatch/5.6-008/fake/sbin/umount
+@sha f2yKRywkyl1M9qICgyYum2G2yu46mYGdNkZzO5ReP7Y=
+@size 164660
+@unexec /var/db/binpatch/5.6-008/install.sh rollback 008 /var/db/binpatch all
+var/db/binpatch/5.6-008/PLIST
+@sha 2Rtyr1W0w8tkV8wTTbG/6kmkxEOeSiZyOgnQU7BBOko=
+@size 351
+var/db/binpatch/5.6-008/install.sh
+@sha LUC9g1EWUG1Tehl4L4oaR2fDEj2nuWtzzvTXZZagxDw=
+@size 4215
+@exec /var/db/binpatch/5.6-008/install.sh install 008 /var/db/binpatch all
+var/db/binpatch/5.6-008/patches/
+var/db/binpatch/5.6-008/patches/008_asr.patch
+@sha ++8QyzDHWmKRdrYGTPCuO15Od73APZRbWbuvDak0+h0=
+@size 2338
+var/db/binpatch/5.6-008/fake/
+var/db/binpatch/5.6-008/

@@ -1,0 +1,237 @@
+@comment $OpenBSD: PLIST-main,v 1.12 2013/09/04 19:17:00 brad Exp $
+@name mysql-client-5.1.73v0
+@url http://ftp.fr.openbsd.org/pub/OpenBSD/5.6/packages/i386/mysql-client-5.1.73v0.tgz
+@signer openbsd-56-pkg
+@digital-signature signify:2014-08-02T11:01:58Z:RWSPEf7Vpp2j0HDXLL7xKOpKa7QX6murzs2oEC0KIbsdWjygxKx7GWeXawpyGGq2HtrnfhSsg00t4e7TkTqDfhlL2JpVMqWKdgM=
+@comment pkgpath=databases/mysql,-main cdrom=yes ftp=yes
+@arch i386
++DESC
+@sha ffXJeemleaCiHs4zy1iGoEOSP6HPpGSCzKcKJUo4OTc=
+@size 320
+@conflict mysql-server-<=5.0.83
+@conflict mariadb-client-*
+@pkgpath databases/mysql
+@pkgpath databases/mariadb,-main
+@wantlib c.77.0
+@wantlib crypto.30.0
+@wantlib m.9.0
+@wantlib ncursesw.14.0
+@wantlib pthread.18.0
+@wantlib readline.4.0
+@wantlib ssl.27.0
+@wantlib z.5.0
+@cwd /usr/local
+@bin bin/mysql
+@sha uHzrjgfcamJABv0sCcxQskHBCMWvUzxpZmOelFxmSfM=
+@size 118972
+@bin bin/mysql_client_test
+@sha 09UrD5QbQ35bIDVuYMHZ7fDgf0c6msXn4dIjOZWVHrw=
+@size 398812
+bin/mysql_config
+@sha itIoW+Xk49rM0dDH0v78vzEFTT8sasigsbnvkWkp0Q4=
+@size 6158
+@bin bin/mysql_tzinfo_to_sql
+@sha OHKwm2ec/5+cW7BE19pQNn9RWTEWdg54QfGx1ZIF0GA=
+@size 293428
+@bin bin/mysqladmin
+@sha +S+oYUa2pK9wRAwigBLdrSwnVgDSy0rkEqbs3kg2xbA=
+@size 37372
+@bin bin/mysqlbinlog
+@sha 6Wnn3ApXEnFH/8ZaYyxvNwd/4dSmAjNUMmddBOxqjdw=
+@size 121084
+bin/mysqlbug
+@sha 9j7oJxM9qwbnImV0WFxsIf3Urnp2s3qjWu/yM2qYv+Y=
+@size 11246
+@bin bin/mysqlcheck
+@sha i5SkZyw83vQqAD2sYzkp1SXp/Pr5WmxoRW6zIoKYinY=
+@size 27388
+@bin bin/mysqldump
+@sha oIYRfPf1dzcd95XX+rMIk+pUpjO/fhqYkDyFdTbHmv0=
+@size 87388
+bin/mysqldumpslow
+@sha PGrN3nmRwIaOUa3Y8A0F3/uWDM0RAKm+x7chYF4/3Kc=
+@size 7402
+@bin bin/mysqlimport
+@sha FSCOmcIxrm1vWP++K/rLeY1Ps/M+nxzrZ2nspjcox70=
+@size 98652
+@bin bin/mysqlshow
+@sha fY39rprpmGhSo42HcQZpcGkyk/9URYEhOVS4li/q124=
+@size 28508
+@bin bin/mysqlslap
+@sha grG7mTE3+GepBnhQYSN7Zs2uiUT5Jfu7OorwSEbt0eA=
+@size 111900
+@bin bin/mysqltest
+@sha 8c5C+3z6DJtTBHsmy5UuT1QZ/1IwPeQZVB82Yy2I5XE=
+@size 242492
+include/mysql/
+include/mysql/decimal.h
+@sha mFwYvSXHRtfmWuxBbTFvLbsCmsatVqel1pjsJF7enTM=
+@size 4477
+include/mysql/errmsg.h
+@sha OUBNXH2QoVoSBDhqEM2TcNHzTdoC+2m8bxLD9dAiQhg=
+@size 3864
+include/mysql/keycache.h
+@sha /W2FEMdqHnpihUwWdRyUlSc8Tfi7/+3H/JdqqX3YQlM=
+@size 7033
+include/mysql/m_ctype.h
+@sha 89gEFTieLo1gYnhiY5HZ2ajXYryyS0E4ixwud62QMTU=
+@size 23073
+include/mysql/m_string.h
+@sha c0jEhj+UPCAXKV2/oTztBnD8hi+I8zzZ979EENpAmHw=
+@size 8052
+include/mysql/my_alloc.h
+@sha Sl+v7uwBU4Yr4nB+Y6RW8ua2oPQgWLaf/dlS/XrQ/Lg=
+@size 1827
+include/mysql/my_attribute.h
+@sha /DBZRX+5Mj+JteVZKJNyiR93q+6JexVFnOgRpPmNRsI=
+@size 1952
+include/mysql/my_compiler.h
+@sha OwLu6t1J6aYKzDSXyqvyLmgGPDWgxdXvFZ7sKyURENI=
+@size 4067
+include/mysql/my_config.h
+@sha OcbmEJgdQQXko+uU4qkjBh/3SUlY2SgTeQoE/qzQ7GU=
+@size 37534
+include/mysql/my_dbug.h
+@sha O6G/lQkCdluAyo8/pM4z+cM1o7fy5ZLaibisDXAh49I=
+@size 6963
+include/mysql/my_dir.h
+@sha lslL+7n5N9QHCv6nnRFAlYCd+T7SgBjeBeoG+TfjZqE=
+@size 3471
+include/mysql/my_getopt.h
+@sha ENIAAeaogeCFXSwHh2Mmf02sc6wno/GF9tlpjlZvY9w=
+@size 3755
+include/mysql/my_global.h
+@sha RQY8Zdl29Vyqh57QVvKuErnQak5w20L7CSgqzX34mws=
+@size 52802
+include/mysql/my_list.h
+@sha lMuD2GypFJUc1am7zraOAIERcJdHXTbGA9YpaAMyt34=
+@size 1510
+include/mysql/my_net.h
+@sha tqGHoGdgXE+td+TfGE5sYYGIGf6LfwRlNRpHfHAkNH8=
+@size 3672
+include/mysql/my_no_pthread.h
+@sha UVHUqP/N1UIMjF4wvL7j4/rZPZEWtYEYjq1D+M+QB2o=
+@size 1849
+include/mysql/my_pthread.h
+@sha bWXZxPo+JHGe5B1/oPFoaifdhiwEu6KArnmvQD7Nmvo=
+@size 27149
+include/mysql/my_sys.h
+@sha er3yoZ/nPGWREvMiEOD3CEEPG2WZQoJk3ZYQPWyPwPc=
+@size 41714
+include/mysql/my_xml.h
+@sha QvUFJ/MQPCAb+I+gNKHwyMSbJAXLWshENpxQVElzOBE=
+@size 2706
+include/mysql/mysql.h
+@sha rZuyKZM+wTPhQSfKsc/G76+FWDmhbJnBhlYMqYrYNUA=
+@size 33771
+include/mysql/mysql_com.h
+@sha Q2XvEG+wVNyu9lsnAqkpRVcWD5IZKbrR3s5O9ghBX8A=
+@size 20548
+include/mysql/mysql_embed.h
+@sha kKVhcfmLNi7JA+080vMJmqJlJuROtbbWjF6ux3gEYmo=
+@size 1140
+include/mysql/mysql_time.h
+@sha xt1h8t2B2W5O5TO0Xc9P2wf5cz8nxKE6RWo1wQqKys4=
+@size 2108
+include/mysql/mysql_version.h
+@sha fVNchT4Au0TBX/AsGDFDuubMuyH0eqvTfwEJHuI/Z40=
+@size 838
+include/mysql/mysqld_ername.h
+@sha vSrgFead3bj+Vsy4kuIbTUoCVAve+oXImZ7nxmgDOvs=
+@size 23447
+include/mysql/mysqld_error.h
+@sha StBSQ+PVaZxrAtYfPgJMTDsKwQDa6v8yoYra2qw0hn8=
+@size 23502
+include/mysql/plugin.h
+@sha U56UpkWUUZtzK+TdXA8nh4lNGhCdJULEI17l328RMUE=
+@size 29706
+include/mysql/sql_common.h
+@sha 6uyVY2QeEFlmHvLiNMBtoj3x4RGstqSYPqm7FQef3Ss=
+@size 2067
+include/mysql/sql_state.h
+@sha jUQnLmFxRqmN6KlOPK1G+ZoYcHfryyaMmA33LRnLTx0=
+@size 12332
+include/mysql/sslopt-case.h
+@sha 56WTSWrFvGFJSSmHgoTkuntBoPc7jJmzWbyEEnTLZek=
+@size 1016
+include/mysql/sslopt-longopts.h
+@sha iTWb44ICySDh9RXOFyEymOc9vX1UUuHHtup21M5qbIQ=
+@size 2113
+include/mysql/sslopt-vars.h
+@sha T8gMJJ7E7P+QEp1UJ/o+6vUMUG52JsjIpi3BDc87MwM=
+@size 1124
+include/mysql/typelib.h
+@sha jASFMTPhg0JW5ej5oQJTh+3YrV9f7cCKBb0aAafFVh0=
+@size 1530
+@info info/mysql.info
+@sha BshRFqQHt33bOe3Uo3jqX2utjWJipNmMPZjXdtjPoks=
+@size 11987634
+@lib lib/libmysqlclient.so.23.0
+@symlink mysql/libmysqlclient.so.23.0
+@lib lib/libmysqlclient_r.so.23.0
+@symlink mysql/libmysqlclient_r.so.23.0
+lib/mysql/
+lib/mysql/libmysqlclient.a
+@sha oRZcCrcC+fusoJVrNcMSv5bzALNCbizPBAmJesZIaMg=
+@size 633536
+lib/mysql/libmysqlclient.la
+@sha 7BJ+KHymOK+rbOr2XBVziwrgO/+rJQLEES5UjWdkGeE=
+@size 781
+@lib lib/mysql/libmysqlclient.so.23.0
+@sha zGZnlvZcBcmhMxpCu7Qhi1rwUfQi0LFbaPwNtL95RD8=
+@size 514997
+lib/mysql/libmysqlclient_r.a
+@sha /DrQQSeHNSH3G3+B7MjRPARpMSfze2AvVguN6uUf2ok=
+@size 645546
+lib/mysql/libmysqlclient_r.la
+@sha Yq1O/PbwC4718PEKkOEouXQlbRTDq+fAJKzy8gjir6A=
+@size 801
+@lib lib/mysql/libmysqlclient_r.so.23.0
+@sha IyDpKsONgYBlYke+PaVz7Eo/RsHTczVnVxp4YLvatHA=
+@size 525305
+@man man/cat1/mysql.0
+@sha zy5pKLc8DdtORx4b+SLz3LONnvoaRK38a2/UGzWsFdU=
+@size 60434
+@man man/cat1/mysql_config.0
+@sha ox4r6F5mMk0Nf5PSokJIz00l8ZxG2upDiz5rHcUXKNM=
+@size 4937
+@man man/cat1/mysql_tzinfo_to_sql.0
+@sha OgpuAW/Q0/1oQjb97XhlPwXNR8SA8nO/4JXEqTnSLKg=
+@size 4251
+@man man/cat1/mysqladmin.0
+@sha pvxeWC6mHqpQFWGRlD+yj9YDZ3m9/r1d1lUQnPZjNL8=
+@size 16613
+@man man/cat1/mysqlbinlog.0
+@sha nFqIIIPzz5bxOlfPgws+BSGIEYSV8w2eI3Wj8Z4cpA4=
+@size 58101
+@man man/cat1/mysqlbug.0
+@sha FtihNzwbcMszQ5tFkoORkw+Wr43mr6STBboEkpsCRnI=
+@size 2838
+@man man/cat1/mysqlcheck.0
+@sha wNJqGXbyweJB4kdOxFQslvi5Q0RTXjZ/HEgOkUDqKF8=
+@size 16902
+@man man/cat1/mysqldump.0
+@sha 6LkF3b90cxSMJt+DESbOKejoQwV6sVpk7XtvD0nxVh8=
+@size 52187
+@man man/cat1/mysqldumpslow.0
+@sha Qk+o/59SbjcMcs39BLz8P+eR3w9cxYuAdvFLdFSlS3E=
+@size 4681
+@man man/cat1/mysqlimport.0
+@sha DQiK1Ah/i2/m0Ldf9muMd4xE+MU8XwQITwVlFbO/pnk=
+@size 12387
+@man man/cat1/mysqlman.0
+@sha TqIirTzt3+Td6mip9OSFgl+Hh28lqDNYHGioSsTlbiU=
+@size 862
+@man man/cat1/mysqlshow.0
+@sha jAZvLZPAvATkda0TnNnq+zu8gTjeCovbSy48GYiM+oQ=
+@size 8910
+@man man/cat1/mysqlslap.0
+@sha 4LLgMm+/uBhuV26N+gldvNxI2WYkyr2vJ5AK7L3LTt0=
+@size 17606
+@man man/cat1/mysqltest.0
+@sha +sYhebcBSAimawE7V9etPSm0ItNqJDoflmLnKAIJQcQ=
+@size 14863
+share/aclocal/
+share/aclocal/mysql.m4
+@sha M0HPIdB4hyb2WVA+C4QTzihMEk4370YNZNMz/JwSqHc=
+@size 4187

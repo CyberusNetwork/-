@@ -1,0 +1,257 @@
+Fri Dec 19 01:32:07 2014 us=5670 Current Parameter Settings:
+Fri Dec 19 01:32:07 2014 us=95199   config = '/etc/openvpn/server/192.168.13.0_x509/192.168.13.0_x509_server.conf'
+Fri Dec 19 01:32:07 2014 us=95775   mode = 1
+Fri Dec 19 01:32:07 2014 us=96693   show_ciphers = DISABLED
+Fri Dec 19 01:32:07 2014 us=97246   show_digests = DISABLED
+Fri Dec 19 01:32:07 2014 us=98004   show_engines = DISABLED
+Fri Dec 19 01:32:07 2014 us=98569   genkey = DISABLED
+Fri Dec 19 01:32:07 2014 us=99133   key_pass_file = '[UNDEF]'
+Fri Dec 19 01:32:07 2014 us=99715   show_tls_ciphers = DISABLED
+Fri Dec 19 01:32:07 2014 us=100266 Connection profiles [default]:
+Fri Dec 19 01:32:07 2014 us=100914   proto = tcp-server
+Fri Dec 19 01:32:07 2014 us=101538   local = '[UNDEF]'
+Fri Dec 19 01:32:07 2014 us=102135   local_port = 10006
+Fri Dec 19 01:32:07 2014 us=102706   remote = '[UNDEF]'
+Fri Dec 19 01:32:07 2014 us=103292   remote_port = 10006
+Fri Dec 19 01:32:07 2014 us=104272   remote_float = DISABLED
+Fri Dec 19 01:32:07 2014 us=104857   bind_defined = DISABLED
+Fri Dec 19 01:32:07 2014 us=105432   bind_local = ENABLED
+Fri Dec 19 01:32:07 2014 us=106001   connect_retry_seconds = 5
+Fri Dec 19 01:32:07 2014 us=106569   connect_timeout = 10
+Fri Dec 19 01:32:07 2014 us=107150   connect_retry_max = 0
+Fri Dec 19 01:32:07 2014 us=107719   socks_proxy_server = '[UNDEF]'
+Fri Dec 19 01:32:07 2014 us=108291   socks_proxy_port = 0
+Fri Dec 19 01:32:07 2014 us=108869   socks_proxy_retry = DISABLED
+Fri Dec 19 01:32:07 2014 us=109491   tun_mtu = 1500
+Fri Dec 19 01:32:07 2014 us=110066   tun_mtu_defined = ENABLED
+Fri Dec 19 01:32:07 2014 us=110731   link_mtu = 1500
+Fri Dec 19 01:32:07 2014 us=111313   link_mtu_defined = DISABLED
+Fri Dec 19 01:32:07 2014 us=111902   tun_mtu_extra = 0
+Fri Dec 19 01:32:07 2014 us=112462   tun_mtu_extra_defined = DISABLED
+Fri Dec 19 01:32:07 2014 us=113059   mtu_discover_type = -1
+Fri Dec 19 01:32:07 2014 us=113624   fragment = 0
+Fri Dec 19 01:32:07 2014 us=114206   mssfix = 1450
+Fri Dec 19 01:32:07 2014 us=114790   explicit_exit_notification = 0
+Fri Dec 19 01:32:07 2014 us=115521 Connection profiles END
+Fri Dec 19 01:32:07 2014 us=116103   remote_random = DISABLED
+Fri Dec 19 01:32:07 2014 us=116689   ipchange = '[UNDEF]'
+Fri Dec 19 01:32:07 2014 us=117310   dev = 'tun0'
+Fri Dec 19 01:32:07 2014 us=117889   dev_type = '[UNDEF]'
+Fri Dec 19 01:32:07 2014 us=118450   dev_node = '[UNDEF]'
+Fri Dec 19 01:32:07 2014 us=119027   lladdr = '[UNDEF]'
+Fri Dec 19 01:32:07 2014 us=119587   topology = 1
+Fri Dec 19 01:32:07 2014 us=120161   tun_ipv6 = DISABLED
+Fri Dec 19 01:32:07 2014 us=120816   ifconfig_local = '192.168.13.1'
+Fri Dec 19 01:32:07 2014 us=121470   ifconfig_remote_netmask = '192.168.13.2'
+Fri Dec 19 01:32:07 2014 us=122033   ifconfig_noexec = DISABLED
+Fri Dec 19 01:32:07 2014 us=122613   ifconfig_nowarn = DISABLED
+Fri Dec 19 01:32:07 2014 us=123375   ifconfig_ipv6_local = '[UNDEF]'
+Fri Dec 19 01:32:07 2014 us=124154   ifconfig_ipv6_netbits = 0
+Fri Dec 19 01:32:07 2014 us=124969   ifconfig_ipv6_remote = '[UNDEF]'
+Fri Dec 19 01:32:07 2014 us=125547   shaper = 0
+Fri Dec 19 01:32:07 2014 us=126115   mtu_test = 0
+Fri Dec 19 01:32:07 2014 us=126694   mlock = DISABLED
+Fri Dec 19 01:32:07 2014 us=127272   keepalive_ping = 10
+Fri Dec 19 01:32:07 2014 us=127862   keepalive_timeout = 120
+Fri Dec 19 01:32:07 2014 us=128426   inactivity_timeout = 0
+Fri Dec 19 01:32:07 2014 us=129010   ping_send_timeout = 10
+Fri Dec 19 01:32:07 2014 us=129829   ping_rec_timeout = 240
+Fri Dec 19 01:32:07 2014 us=130394   ping_rec_timeout_action = 2
+Fri Dec 19 01:32:07 2014 us=131042   ping_timer_remote = ENABLED
+Fri Dec 19 01:32:07 2014 us=131621   remap_sigusr1 = 0
+Fri Dec 19 01:32:07 2014 us=132181   persist_tun = ENABLED
+Fri Dec 19 01:32:07 2014 us=132803   persist_local_ip = DISABLED
+Fri Dec 19 01:32:07 2014 us=133353   persist_remote_ip = DISABLED
+Fri Dec 19 01:32:07 2014 us=133932   persist_key = ENABLED
+Fri Dec 19 01:32:07 2014 us=134495   passtos = DISABLED
+Fri Dec 19 01:32:07 2014 us=135112   resolve_retry_seconds = 1000000000
+Fri Dec 19 01:32:07 2014 us=135670   username = 'cyberus_openvpn'
+Fri Dec 19 01:32:07 2014 us=136322   groupname = 'cyberus_openvpn'
+Fri Dec 19 01:32:07 2014 us=136903   chroot_dir = '[UNDEF]'
+Fri Dec 19 01:32:07 2014 us=137469   cd_dir = '[UNDEF]'
+Fri Dec 19 01:32:07 2014 us=138034   writepid = '[UNDEF]'
+Fri Dec 19 01:32:07 2014 us=138582   up_script = '[UNDEF]'
+Fri Dec 19 01:32:07 2014 us=139152   down_script = '[UNDEF]'
+Fri Dec 19 01:32:07 2014 us=139708   down_pre = DISABLED
+Fri Dec 19 01:32:07 2014 us=140281   up_restart = DISABLED
+Fri Dec 19 01:32:07 2014 us=140958   up_delay = DISABLED
+Fri Dec 19 01:32:07 2014 us=141519   daemon = ENABLED
+Fri Dec 19 01:32:07 2014 us=142087   inetd = 0
+Fri Dec 19 01:32:07 2014 us=142653   log = ENABLED
+Fri Dec 19 01:32:07 2014 us=143231   suppress_timestamps = DISABLED
+Fri Dec 19 01:32:07 2014 us=143790   nice = 0
+Fri Dec 19 01:32:07 2014 us=144358   verbosity = 4
+Fri Dec 19 01:32:07 2014 us=144928   mute = 0
+Fri Dec 19 01:32:07 2014 us=145500   gremlin = 0
+Fri Dec 19 01:32:07 2014 us=146093   status_file = '/var/log/openvpn/server-log/192.168.13.0_x509/openvpn-status.log'
+Fri Dec 19 01:32:07 2014 us=146681   status_file_version = 1
+Fri Dec 19 01:32:07 2014 us=147275   status_file_update_freq = 60
+Fri Dec 19 01:32:07 2014 us=147844   occ = ENABLED
+Fri Dec 19 01:32:07 2014 us=148467   rcvbuf = 65536
+Fri Dec 19 01:32:07 2014 us=149049   sndbuf = 65536
+Fri Dec 19 01:32:07 2014 us=149603   sockflags = 0
+Fri Dec 19 01:32:07 2014 us=150181   fast_io = DISABLED
+Fri Dec 19 01:32:07 2014 us=150818   lzo = 7
+Fri Dec 19 01:32:07 2014 us=151397   route_script = '[UNDEF]'
+Fri Dec 19 01:32:07 2014 us=151972   route_default_gateway = '[UNDEF]'
+Fri Dec 19 01:32:07 2014 us=152544   route_default_metric = 0
+Fri Dec 19 01:32:07 2014 us=153112   route_noexec = DISABLED
+Fri Dec 19 01:32:07 2014 us=153678   route_delay = 0
+Fri Dec 19 01:32:07 2014 us=154257   route_delay_window = 30
+Fri Dec 19 01:32:07 2014 us=154837   route_delay_defined = DISABLED
+Fri Dec 19 01:32:07 2014 us=155412   route_nopull = DISABLED
+Fri Dec 19 01:32:07 2014 us=156013   route_gateway_via_dhcp = DISABLED
+Fri Dec 19 01:32:07 2014 us=156749   max_routes = 100
+Fri Dec 19 01:32:07 2014 us=157338   allow_pull_fqdn = DISABLED
+Fri Dec 19 01:32:07 2014 us=157933   route 192.168.13.0/255.255.255.0/nil/nil
+Fri Dec 19 01:32:07 2014 us=158520   management_addr = '[UNDEF]'
+Fri Dec 19 01:32:07 2014 us=159110   management_port = 0
+Fri Dec 19 01:32:07 2014 us=159715   management_user_pass = '[UNDEF]'
+Fri Dec 19 01:32:07 2014 us=160324   management_log_history_cache = 250
+Fri Dec 19 01:32:07 2014 us=160996   management_echo_buffer_size = 100
+Fri Dec 19 01:32:07 2014 us=161585   management_write_peer_info_file = '[UNDEF]'
+Fri Dec 19 01:32:07 2014 us=162166   management_client_user = '[UNDEF]'
+Fri Dec 19 01:32:07 2014 us=162779   management_client_group = '[UNDEF]'
+Fri Dec 19 01:32:07 2014 us=163590   management_flags = 0
+Fri Dec 19 01:32:07 2014 us=164240   shared_secret_file = '[UNDEF]'
+Fri Dec 19 01:32:07 2014 us=164835   key_direction = 1
+Fri Dec 19 01:32:07 2014 us=165427   ciphername_defined = ENABLED
+Fri Dec 19 01:32:07 2014 us=166009   ciphername = 'BF-CBC'
+Fri Dec 19 01:32:07 2014 us=166597   authname_defined = ENABLED
+Fri Dec 19 01:32:07 2014 us=167186   authname = 'SHA1'
+Fri Dec 19 01:32:07 2014 us=167777   prng_hash = 'SHA1'
+Fri Dec 19 01:32:07 2014 us=168378   prng_nonce_secret_len = 16
+Fri Dec 19 01:32:07 2014 us=168952   keysize = 0
+Fri Dec 19 01:32:07 2014 us=169526   engine = DISABLED
+Fri Dec 19 01:32:07 2014 us=170117   replay = ENABLED
+Fri Dec 19 01:32:07 2014 us=170771   mute_replay_warnings = DISABLED
+Fri Dec 19 01:32:07 2014 us=171367   replay_window = 64
+Fri Dec 19 01:32:07 2014 us=172013   replay_time = 15
+Fri Dec 19 01:32:07 2014 us=172576   packet_id_file = '[UNDEF]'
+Fri Dec 19 01:32:07 2014 us=173167   use_iv = ENABLED
+Fri Dec 19 01:32:07 2014 us=173752   test_crypto = DISABLED
+Fri Dec 19 01:32:07 2014 us=174328   tls_server = ENABLED
+Fri Dec 19 01:32:07 2014 us=174919   tls_client = DISABLED
+Fri Dec 19 01:32:07 2014 us=175506   key_method = 2
+Fri Dec 19 01:32:07 2014 us=176097   ca_file = '/etc/openvpn/server/192.168.13.0_x509/ca.crt'
+Fri Dec 19 01:32:07 2014 us=176767   ca_path = '[UNDEF]'
+Fri Dec 19 01:32:07 2014 us=177361   dh_file = '/etc/openvpn/keys/dh.pem'
+Fri Dec 19 01:32:07 2014 us=177942   cert_file = '/etc/openvpn/server/192.168.13.0_x509/192.168.13.0_x509_server.crt'
+Fri Dec 19 01:32:07 2014 us=178533   priv_key_file = '/etc/openvpn/server/192.168.13.0_x509/192.168.13.0_x509_server.key'
+Fri Dec 19 01:32:07 2014 us=179125   pkcs12_file = '[UNDEF]'
+Fri Dec 19 01:32:07 2014 us=179754   cipher_list = '[UNDEF]'
+Fri Dec 19 01:32:07 2014 us=180335   tls_verify = '[UNDEF]'
+Fri Dec 19 01:32:07 2014 us=180995   tls_export_cert = '[UNDEF]'
+Fri Dec 19 01:32:07 2014 us=181571   verify_x509_type = 0
+Fri Dec 19 01:32:07 2014 us=182153   verify_x509_name = '[UNDEF]'
+Fri Dec 19 01:32:07 2014 us=182757   crl_file = '/etc/openvpn/keys/crl.pem'
+Fri Dec 19 01:32:07 2014 us=183327   ns_cert_type = 0
+Fri Dec 19 01:32:07 2014 us=183925   remote_cert_ku[i] = 0
+Fri Dec 19 01:32:07 2014 us=184510   remote_cert_ku[i] = 0
+Fri Dec 19 01:32:07 2014 us=185114   remote_cert_ku[i] = 0
+Fri Dec 19 01:32:07 2014 us=185692   remote_cert_ku[i] = 0
+Fri Dec 19 01:32:07 2014 us=186273   remote_cert_ku[i] = 0
+Fri Dec 19 01:32:07 2014 us=186871   remote_cert_ku[i] = 0
+Fri Dec 19 01:32:07 2014 us=187498   remote_cert_ku[i] = 0
+Fri Dec 19 01:32:07 2014 us=188081   remote_cert_ku[i] = 0
+Fri Dec 19 01:32:07 2014 us=188675   remote_cert_ku[i] = 0
+Fri Dec 19 01:32:07 2014 us=189251   remote_cert_ku[i] = 0
+Fri Dec 19 01:32:07 2014 us=189830   remote_cert_ku[i] = 0
+Fri Dec 19 01:32:07 2014 us=190401   remote_cert_ku[i] = 0
+Fri Dec 19 01:32:07 2014 us=281994   remote_cert_ku[i] = 0
+Fri Dec 19 01:32:07 2014 us=282592   remote_cert_ku[i] = 0
+Fri Dec 19 01:32:07 2014 us=283187   remote_cert_ku[i] = 0
+Fri Dec 19 01:32:07 2014 us=283792   remote_cert_ku[i] = 0
+Fri Dec 19 01:32:07 2014 us=284359   remote_cert_eku = '[UNDEF]'
+Fri Dec 19 01:32:07 2014 us=284941   ssl_flags = 0
+Fri Dec 19 01:32:07 2014 us=285517   tls_timeout = 2
+Fri Dec 19 01:32:07 2014 us=286201   renegotiate_bytes = 0
+Fri Dec 19 01:32:07 2014 us=286806   renegotiate_packets = 0
+Fri Dec 19 01:32:07 2014 us=287409   renegotiate_seconds = 3600
+Fri Dec 19 01:32:07 2014 us=288229   handshake_window = 60
+Fri Dec 19 01:32:07 2014 us=288829   transition_window = 3600
+Fri Dec 19 01:32:07 2014 us=289451   single_session = DISABLED
+Fri Dec 19 01:32:07 2014 us=290048   push_peer_info = DISABLED
+Fri Dec 19 01:32:07 2014 us=390792   tls_exit = DISABLED
+Fri Dec 19 01:32:07 2014 us=391408   tls_auth_file = '/etc/openvpn/keys/ta.key'
+Fri Dec 19 01:32:07 2014 us=392069   server_network = 192.168.13.0
+Fri Dec 19 01:32:07 2014 us=392720   server_netmask = 255.255.255.0
+Fri Dec 19 01:32:07 2014 us=393569   server_network_ipv6 = ::
+Fri Dec 19 01:32:07 2014 us=394175   server_netbits_ipv6 = 0
+Fri Dec 19 01:32:07 2014 us=394831   server_bridge_ip = 0.0.0.0
+Fri Dec 19 01:32:07 2014 us=395457   server_bridge_netmask = 0.0.0.0
+Fri Dec 19 01:32:07 2014 us=396074   server_bridge_pool_start = 0.0.0.0
+Fri Dec 19 01:32:07 2014 us=396724   server_bridge_pool_end = 0.0.0.0
+Fri Dec 19 01:32:07 2014 us=397313   push_entry = 'redirect-gateway'
+Fri Dec 19 01:32:07 2014 us=397916   push_entry = 'route 88.177.168.133 255.255.255.255 10.8.97.1'
+Fri Dec 19 01:32:07 2014 us=398547   push_entry = 'dhcp-option DNS 8.8.8.8'
+Fri Dec 19 01:32:07 2014 us=399136   push_entry = 'route 192.168.13.0 255.255.255.0'
+Fri Dec 19 01:32:07 2014 us=399734   push_entry = 'topology net30'
+Fri Dec 19 01:32:07 2014 us=400303   push_entry = 'ping 10'
+Fri Dec 19 01:32:07 2014 us=400970   push_entry = 'ping-restart 120'
+Fri Dec 19 01:32:07 2014 us=401543   ifconfig_pool_defined = ENABLED
+Fri Dec 19 01:32:07 2014 us=402190   ifconfig_pool_start = 192.168.13.4
+Fri Dec 19 01:32:07 2014 us=402870   ifconfig_pool_end = 192.168.13.251
+Fri Dec 19 01:32:07 2014 us=403498   ifconfig_pool_netmask = 0.0.0.0
+Fri Dec 19 01:32:07 2014 us=404107   ifconfig_pool_persist_filename = '/etc/openvpn/ipp/192.168.13.0_x509_ipp.txt'
+Fri Dec 19 01:32:07 2014 us=404734   ifconfig_pool_persist_refresh_freq = 600
+Fri Dec 19 01:32:07 2014 us=405408   ifconfig_ipv6_pool_defined = DISABLED
+Fri Dec 19 01:32:07 2014 us=406043   ifconfig_ipv6_pool_base = ::
+Fri Dec 19 01:32:07 2014 us=406700   ifconfig_ipv6_pool_netbits = 0
+Fri Dec 19 01:32:07 2014 us=407292   n_bcast_buf = 256
+Fri Dec 19 01:32:07 2014 us=407892   tcp_queue_limit = 64
+Fri Dec 19 01:32:07 2014 us=408468   real_hash_size = 256
+Fri Dec 19 01:32:07 2014 us=409071   virtual_hash_size = 256
+Fri Dec 19 01:32:07 2014 us=409647   client_connect_script = '[UNDEF]'
+Fri Dec 19 01:32:07 2014 us=410243   learn_address_script = '[UNDEF]'
+Fri Dec 19 01:32:07 2014 us=410905   client_disconnect_script = '[UNDEF]'
+Fri Dec 19 01:32:07 2014 us=411503   client_config_dir = '[UNDEF]'
+Fri Dec 19 01:32:07 2014 us=412096   ccd_exclusive = DISABLED
+Fri Dec 19 01:32:07 2014 us=412694   tmp_dir = '/tmp'
+Fri Dec 19 01:32:07 2014 us=413265   push_ifconfig_defined = DISABLED
+Fri Dec 19 01:32:07 2014 us=413947   push_ifconfig_local = 0.0.0.0
+Fri Dec 19 01:32:07 2014 us=414597   push_ifconfig_remote_netmask = 0.0.0.0
+Fri Dec 19 01:32:07 2014 us=415204   push_ifconfig_ipv6_defined = DISABLED
+Fri Dec 19 01:32:07 2014 us=415830   push_ifconfig_ipv6_local = ::/0
+Fri Dec 19 01:32:07 2014 us=416455   push_ifconfig_ipv6_remote = ::
+Fri Dec 19 01:32:07 2014 us=417045   enable_c2c = ENABLED
+Fri Dec 19 01:32:07 2014 us=417636   duplicate_cn = DISABLED
+Fri Dec 19 01:32:07 2014 us=418218   cf_max = 0
+Fri Dec 19 01:32:07 2014 us=418809   cf_per = 0
+Fri Dec 19 01:32:07 2014 us=419395   max_clients = 1024
+Fri Dec 19 01:32:07 2014 us=420006   max_routes_per_client = 256
+Fri Dec 19 01:32:07 2014 us=420657   auth_user_pass_verify_script = '[UNDEF]'
+Fri Dec 19 01:32:07 2014 us=421508   auth_user_pass_verify_script_via_file = DISABLED
+Fri Dec 19 01:32:07 2014 us=422142   port_share_host = '[UNDEF]'
+Fri Dec 19 01:32:07 2014 us=422727   port_share_port = 0
+Fri Dec 19 01:32:07 2014 us=423313   client = DISABLED
+Fri Dec 19 01:32:07 2014 us=423904   pull = DISABLED
+Fri Dec 19 01:32:07 2014 us=424568   auth_user_pass_file = '[UNDEF]'
+Fri Dec 19 01:32:07 2014 us=425356 OpenVPN 2.3.6 i386-unknown-openbsd5.6 [SSL (OpenSSL)] [LZO] [MH] [IPv6] built on Dec  2 2014
+Fri Dec 19 01:32:07 2014 us=426483 library versions: LibreSSL 2.0, LZO 2.08
+Fri Dec 19 01:32:07 2014 us=917844 Diffie-Hellman initialized with 1024 bit key
+Fri Dec 19 01:32:07 2014 us=944785 Control Channel Authentication: using '/etc/openvpn/keys/ta.key' as a OpenVPN static key file
+Fri Dec 19 01:32:07 2014 us=947094 Outgoing Control Channel Authentication: Using 160 bit message hash 'SHA1' for HMAC authentication
+Fri Dec 19 01:32:07 2014 us=947773 Incoming Control Channel Authentication: Using 160 bit message hash 'SHA1' for HMAC authentication
+Fri Dec 19 01:32:07 2014 us=948700 TLS-Auth MTU parms [ L:1544 D:168 EF:68 EB:0 ET:0 EL:0 ]
+Fri Dec 19 01:32:07 2014 us=949906 Socket Buffers: R=[16384->65536] S=[16384->65536]
+Fri Dec 19 01:32:07 2014 us=991319 ROUTE_GATEWAY 10.8.97.1
+Fri Dec 19 01:32:07 2014 us=994159 TUN/TAP device tun0 exists previously, keep at program end
+Fri Dec 19 01:32:08 2014 us=10997 TUN/TAP device /dev/tun0 opened
+Fri Dec 19 01:32:08 2014 us=11767 do_ifconfig, tt->ipv6=0, tt->did_ifconfig_ipv6_setup=0
+Fri Dec 19 01:32:08 2014 us=13319 /sbin/ifconfig tun0 192.168.13.1 192.168.13.2 mtu 1500 netmask 255.255.255.255 up -link0
+Fri Dec 19 01:32:08 2014 us=84883 /sbin/route add -net 192.168.13.0 192.168.13.2 -netmask 255.255.255.0
+route: writing to routing socket: File exists
+add net 192.168.13.0: gateway 192.168.13.2: File exists
+Fri Dec 19 01:32:08 2014 us=174874 ERROR: OpenBSD/NetBSD route add command failed: external program exited with error status: 1
+Fri Dec 19 01:32:08 2014 us=192099 Data Channel MTU parms [ L:1544 D:1450 EF:44 EB:135 ET:0 EL:0 AF:3/1 ]
+Fri Dec 19 01:32:08 2014 us=265201 GID set to cyberus_openvpn
+Fri Dec 19 01:32:08 2014 us=267405 UID set to cyberus_openvpn
+Fri Dec 19 01:32:08 2014 us=269489 Listening for incoming TCP connection on [undef]
+Fri Dec 19 01:32:08 2014 us=270470 TCPv4_SERVER link local (bound): [undef]
+Fri Dec 19 01:32:08 2014 us=283182 TCPv4_SERVER link remote: [undef]
+Fri Dec 19 01:32:08 2014 us=283911 MULTI: multi_init called, r=256 v=256
+Fri Dec 19 01:32:08 2014 us=287621 IFCONFIG POOL: base=192.168.13.4 size=62, ipv6=0
+Fri Dec 19 01:32:08 2014 us=288571 IFCONFIG POOL LIST
+Fri Dec 19 01:32:08 2014 us=290394 MULTI: TCP INIT maxclients=1024 maxevents=1028
+Fri Dec 19 01:32:08 2014 us=337272 Initialization Sequence Completed

@@ -1,0 +1,29 @@
+# /dev/rwd0c:
+type: ESDI
+disk: ESDI/IDE disk
+label: SAMSUNG HM080HC 
+duid: 570e8f3d64bd1f52
+flags:
+bytes/sector: 512
+sectors/track: 63
+tracks/cylinder: 255
+sectors/cylinder: 16065
+cylinders: 9729
+total sectors: 156301488
+boundstart: 64
+boundend: 156296385
+drivedata: 0 
+
+16 partitions:
+#                size           offset  fstype [fsize bsize  cpg]
+  a:          2097152               64  4.2BSD   2048 16384    1 # /
+  b:           522480          2097216    swap                   # none
+  c:        156301488                0  unused                   
+  d:          8388576          2619712  4.2BSD   2048 16384    1 # /tmp
+  e:          8911072         11008288  4.2BSD   2048 16384    1 # /var
+  f:          4194304         19919360  4.2BSD   2048 16384    1 # /usr
+  g:          2097152         24113664  4.2BSD   2048 16384    1 # /usr/X11R6
+  h:         18355904         26210816  4.2BSD   2048 16384    1 # /usr/local
+  i:          4194304         44566720  4.2BSD   2048 16384    1 # /usr/src
+  j:          4194304         48761024  4.2BSD   2048 16384    1 # /usr/obj
+  k:        103340992         52955328  4.2BSD   2048 16384    1 # /home

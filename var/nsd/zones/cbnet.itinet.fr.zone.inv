@@ -1,0 +1,12 @@
+$TTL 300
+
+@       IN    SOA     cbnet.itinet.fr. postmaster.cbnet.itinet.fr. (
+                        2014121801      ; serial
+                        1800            ; refresh
+                        7200            ; retry
+                        1209600         ; expire
+                        3600 )          ; negative
+
+@       IN      NS      cbnet.itinet.fr.
+@	IN	NS	itinet.fr.
+@	IN	PTR	cbnet.itinet.fr.

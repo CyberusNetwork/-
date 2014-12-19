@@ -1,0 +1,13 @@
+easy-to-use, robust, and highly configurable VPN
+OpenVPN is an easy-to-use, robust, highly configurable, cross-platform
+VPN (Virtual Private Network) daemon which can be used to securely link
+two or more private networks using an encrypted tunnel over the internet.
+
+It can forward a tun(4) interface over a single UDP or TCP port with
+support for NAT, dynamic endpoints, compression, fragmentation and keep-
+alive. It uses OpenSSL's encryption, authentication, and certification
+features, with static keys, certificates or TLS-based key exchange.
+
+Maintainer: The OpenBSD ports mailing-list <ports@openbsd.org>
+
+WWW: http://openvpn.net/

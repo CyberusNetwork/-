@@ -1,0 +1,93 @@
+
+OpenBSD 5.6 errata 1, Sep 5, 2014:  Incorrect RX ring computation
+leads to panics under load with bge(4), em(4) and ix(4).
+
+Apply patch using:
+    
+    signify -Vep /etc/signify/openbsd-56-base.pub -x 001_rxr.patch.sig -m - | \
+        (cd /usr/src && patch -p0)
+
+Then build and install a new kernel:
+
+Index: sys/dev/pci/if_bge.c
+===================================================================
+RCS file: /cvs/src/sys/dev/pci/if_bge.c,v
+retrieving revision 1.358
+diff -u -p -r1.358 if_bge.c
+--- sys/dev/pci/if_bge.c	22 Jul 2014 13:12:11 -0000	1.358
++++ sys/dev/pci/if_bge.c	28 Aug 2014 10:51:57 -0000
+@@ -1301,12 +1301,11 @@ bge_fill_rx_ring_std(struct bge_softc *s
+ 		if (bge_newbuf(sc, i) != 0)
+ 			break;
+ 
++		sc->bge_std = i;
+ 		post = 1;
+ 	}
+ 	if_rxr_put(&sc->bge_std_ring, slots);
+ 
+-	sc->bge_std = i;
+-
+ 	if (post)
+ 		bge_writembx(sc, BGE_MBX_RX_STD_PROD_LO, sc->bge_std);
+ 
+@@ -1406,11 +1405,10 @@ bge_fill_rx_ring_jumbo(struct bge_softc 
+ 		if (bge_newbuf_jumbo(sc, i) != 0)
+ 			break;
+ 
++		sc->bge_jumbo = i;
+ 		post = 1;
+ 	}
+ 	if_rxr_put(&sc->bge_jumbo_ring, slots);
+-
+-	sc->bge_jumbo = i;
+ 
+ 	if (post)
+ 		bge_writembx(sc, BGE_MBX_RX_JUMBO_PROD_LO, sc->bge_jumbo);
+Index: sys/dev/pci/if_em.c
+===================================================================
+RCS file: /cvs/src/sys/dev/pci/if_em.c,v
+retrieving revision 1.287
+diff -u -p -r1.287 if_em.c
+--- sys/dev/pci/if_em.c	13 Jul 2014 23:10:23 -0000	1.287
++++ sys/dev/pci/if_em.c	28 Aug 2014 10:51:57 -0000
+@@ -2817,17 +2817,17 @@ em_rxfill(struct em_softc *sc)
+ 	i = sc->last_rx_desc_filled;
+ 
+ 	for (slots = if_rxr_get(&sc->rx_ring, sc->num_rx_desc);
+-	    slots > 0; slots--) { 
++	    slots > 0; slots--) {
+ 		if (++i == sc->num_rx_desc)
+ 			i = 0;
+ 
+ 		if (em_get_buf(sc, i) != 0)
+ 			break;
+ 
++		sc->last_rx_desc_filled = i;
+ 		post = 1;
+ 	}
+ 
+-	sc->last_rx_desc_filled = i;
+ 	if_rxr_put(&sc->rx_ring, slots);
+ 
+ 	return (post);
+Index: sys/dev/pci/if_ix.c
+===================================================================
+RCS file: /cvs/src/sys/dev/pci/if_ix.c,v
+retrieving revision 1.96
+diff -u -p -r1.96 if_ix.c
+--- sys/dev/pci/if_ix.c	13 Jul 2014 23:10:23 -0000	1.96
++++ sys/dev/pci/if_ix.c	28 Aug 2014 10:51:59 -0000
+@@ -2564,11 +2564,11 @@ ixgbe_rxfill(struct rx_ring *rxr)
+ 		if (ixgbe_get_buf(rxr, i) != 0)
+ 			break;
+ 
++		rxr->last_desc_filled = i;
+ 		post = 1;
+ 	}
+-	if_rxr_put(&rxr->rx_ring, slots);
+ 
+-	rxr->last_desc_filled = i;
++	if_rxr_put(&rxr->rx_ring, slots);
+ 
+ 	return (post);
+ }

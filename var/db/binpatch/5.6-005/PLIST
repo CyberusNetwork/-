@@ -1,0 +1,7 @@
+@comment patch for 005_nosslv3.patch
+@option always-update
+./usr/
+./usr/lib/
+./usr/lib/libssl.so.27.0
+./usr/lib/libssl.a
+./usr/lib/libssl_p.a

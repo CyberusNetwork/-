@@ -1,0 +1,9 @@
+graphic library for gtk+2
+The Gdk Pixbuf library provides:
+    * Image loading and saving facilities
+    * Fast scaling and compositing of pixbufs
+    * Simple animation loading (ie. animated GIFs)
+
+Maintainer: Antoine Jacoutot <ajacoutot@openbsd.org>
+
+WWW: http://www.gtk.org/

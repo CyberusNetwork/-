@@ -1,0 +1,38 @@
+@name binpatch56-i386-nosslv3-1.0
+@url https://stable.mtier.org/updates/5.6/i386/binpatch56-i386-nosslv3-1.0.tgz
+@signer mtier-56-pkg
+@digital-signature signify:2014-10-28T16:25:17Z:RWQQss3E1pCsG6HFXsHpvUKx+/UzbqZDF4nmVAT8WxFwQIhzCEDE/ryC+qQyBYdDSqRAdaBGRRFb6+gmx91ToR68osuakrawPAg=
+@option manual-installation
+@option always-update
+@comment pkgpath=/binpatch/56/nosslv3 cdrom=yes ftp=yes
+@arch i386
++DESC
+@sha oBONyePOPbCQikVyqGb+l0Tt0+KrdXcsd98sTNPJjfk=
+@size 128
+@cwd /
+@comment patch for 005_nosslv3.patch
+var/db/binpatch/5.6-005/fake/usr/
+var/db/binpatch/5.6-005/fake/usr/lib/
+var/db/binpatch/5.6-005/fake/usr/lib/libssl.so.27.0
+@sha 2RF0GLGa0j0pM/ODe/GuUPICuOIWtsLveWy7897n//I=
+@size 1355840
+var/db/binpatch/5.6-005/fake/usr/lib/libssl.a
+@sha S5TWQ9UdlPoa8/azIXPo62TTMQINhR94PGG9SVLb4zo=
+@size 2130750
+var/db/binpatch/5.6-005/fake/usr/lib/libssl_p.a
+@sha sa/APNleQTPLmumeMw0Nj2iNJW0kSnuIpzJpmKhysFg=
+@size 2104064
+@unexec /var/db/binpatch/5.6-005/install.sh rollback 005 /var/db/binpatch all
+var/db/binpatch/5.6-005/PLIST
+@sha G5GmvzGSthrHtXnmCNv2FIrKWysur6HtJN4dPcqM1wQ=
+@size 142
+var/db/binpatch/5.6-005/install.sh
+@sha LUC9g1EWUG1Tehl4L4oaR2fDEj2nuWtzzvTXZZagxDw=
+@size 4215
+@exec /var/db/binpatch/5.6-005/install.sh install 005 /var/db/binpatch all
+var/db/binpatch/5.6-005/patches/
+var/db/binpatch/5.6-005/patches/005_nosslv3.patch
+@sha lG2f/V28FVPMpmE/IazKuj0J5/boV6nHfhRnJ5OaWOk=
+@size 1074
+var/db/binpatch/5.6-005/fake/
+var/db/binpatch/5.6-005/

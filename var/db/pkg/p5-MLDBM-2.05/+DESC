@@ -1,0 +1,11 @@
+store multi-level hash structure in single-level tied hash
+This module can be used to store multidimensional hash structures
+in tied hashes (including DBM files).
+
+Optionally, you can also switch to other serializing packages such
+as FreezeThaw and Storable.  Storable provides much greater speeds,
+and the performance of FreezeThaw is comparable to Data::Dumper.
+
+Maintainer: The OpenBSD ports mailing-list <ports@openbsd.org>
+
+WWW: http://search.cpan.org/dist/MLDBM/

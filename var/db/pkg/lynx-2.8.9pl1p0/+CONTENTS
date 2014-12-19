@@ -1,0 +1,382 @@
+@comment $OpenBSD: PLIST,v 1.7 2014/07/21 07:18:07 landry Exp $
+@name lynx-2.8.9pl1p0
+@url http://ftp.fr.openbsd.org/pub/OpenBSD/5.6/packages/i386/lynx-2.8.9pl1p0.tgz
+@signer openbsd-56-pkg
+@digital-signature signify:2014-08-02T11:01:12Z:RWSPEf7Vpp2j0LIjLqCnE++RlAhVm6Xm5SUMJH7q7nOE82XFnETxqw6jqz28E//YnnkQyDzH9dB2sfr5fjmm67sLlhPxPHnVCQ0=
+@option manual-installation
+@comment pkgpath=www/lynx cdrom=yes ftp=yes
+@arch i386
++DESC
+@sha u9MDGCHjBRw6Owsl8Jv7FAcUAvpCk61F3j+Lrb7O+68=
+@size 932
+@wantlib c.77.0
+@wantlib crypto.30.0
+@wantlib ncurses.14.0
+@wantlib ssl.27.0
+@wantlib z.5.0
+@cwd /usr/local
+@bin bin/lynx
+@sha EfTkW12j4+jH/rd29ogOgWdTn8JCdARjX15hc8DK0O8=
+@size 1566948
+@man man/man1/lynx.1
+@sha qTSs3WjOm9GAvrA+flH5zJpSeFlM2Nb90SkPPP6kEuA=
+@size 40373
+share/doc/lynx/
+share/doc/lynx/lynx_doc/
+share/doc/lynx/lynx_doc/CHANGES
+@sha xJ4TovjgltcNEcz6hZXbuhi9Pu8En1j3H/XYRerjFWc=
+@size 565329
+share/doc/lynx/lynx_doc/COPYHEADER
+@sha KiLnMoPTQC8pHMrh+/vBMsDF9JZ87xzWWY1rQizQpBc=
+@size 3381
+share/doc/lynx/lynx_doc/COPYHEADER.asc
+@sha TsxH0vHNNxQtb74E+mrWQ/68PqTvdhQyWYoZLqLiJ/w=
+@size 267
+share/doc/lynx/lynx_doc/COPYING
+@sha jhxpJGYJE27MrqmLjXYdO2MYMV+iuP836EY6nvhxl2o=
+@size 18156
+share/doc/lynx/lynx_doc/COPYING.asc
+@sha sZuMRmGY6kUJKHCikBzUDGwatcoZPLwbMVyZ2bxgqcc=
+@size 258
+share/doc/lynx/lynx_doc/PROBLEMS
+@sha 7QXJhaAFzNRw6OT9EdjRpq2cvoO9Og4WT5tkQrTs/o4=
+@size 11922
+share/doc/lynx/lynx_doc/README
+@sha K5gqZ+njcmYvwpOP69MuRx5zp+5oNVf907I5uFpPBT0=
+@size 6829
+share/doc/lynx/lynx_doc/docs/
+share/doc/lynx/lynx_doc/docs/CHANGES2.3
+@sha nrawJICaA++SnmQpFx2vIV9Wv/FWz04qX1B1EWD8jqg=
+@size 18096
+share/doc/lynx/lynx_doc/docs/CHANGES2.4
+@sha 3tGm1tTt2eUUfPG0zdCpDut5FAixEqRHmAiBINWDVuo=
+@size 48386
+share/doc/lynx/lynx_doc/docs/CHANGES2.5
+@sha 9wAsnnIyHCZ2MmvUu2Sloqy4/gzm64U7oSDQWcBSRHE=
+@size 93248
+share/doc/lynx/lynx_doc/docs/CHANGES2.6
+@sha 3PPWC11OaPPpldxU1b+tvhqU3mvdyI2SyuV5OdJHMB4=
+@size 41847
+share/doc/lynx/lynx_doc/docs/CHANGES2.7
+@sha z17mALKLz7thQLz4UGGMjRjGEUJdw5KagUPdW/OL1OQ=
+@size 48660
+share/doc/lynx/lynx_doc/docs/CHANGES2.8
+@sha MFxt7fsbIlkKITMbLth5958iPGDubPg72ONlIvHAHOk=
+@size 204024
+share/doc/lynx/lynx_doc/docs/CRAWL.announce
+@sha XnAKWO9sVs8NszgmaQ4Dq8Xp4tDengvJBjHhxMczEus=
+@size 5978
+share/doc/lynx/lynx_doc/docs/FM.announce
+@sha RAPmonAyCMbNbdou6XTv4Ay25IVMHZ8eiu0RkO26Ugk=
+@size 3656
+share/doc/lynx/lynx_doc/docs/IBMPC-charsets.announce
+@sha 5fWUBTIq1hHE2mbnDkT2OpfIDWv2s0icesFfDcuaQds=
+@size 3683
+share/doc/lynx/lynx_doc/docs/OS-390.announce
+@sha ucsFegEmOTcuRQHn2MJtyWm2aZoktSpb6cC5qO90LSc=
+@size 2808
+share/doc/lynx/lynx_doc/docs/README.TRST
+@sha 8UKxP8PiApVxw2UbWdHfFdjQULQ0WpP6wkZDOEerQW8=
+@size 7922
+share/doc/lynx/lynx_doc/docs/README.chartrans
+@sha 4l23ASqR7ZodETvDM0uKGalGTKeTOYkhvmebkP26TiM=
+@size 7085
+share/doc/lynx/lynx_doc/docs/README.cookies
+@sha IzwfjR2/kriQc0eRkWWTWzwz81I4Hhf+IBLCX69cHlo=
+@size 2549
+share/doc/lynx/lynx_doc/docs/README.defines
+@sha FPdO6AcbE6vW+MVSPz3RSitUtRvk0gdBxfRfpOJegLQ=
+@size 6772
+share/doc/lynx/lynx_doc/docs/README.jp
+@sha fIqZgMxAaiOQbPAVuI5y/36agbtPItE0KJv2+P8+99U=
+@size 4976
+share/doc/lynx/lynx_doc/docs/README.metrics
+@sha bzxrMibkcoVc+FngG0zkvSDwV0CSkndT6IUAh9h36H4=
+@size 7799
+share/doc/lynx/lynx_doc/docs/README.options
+@sha 6WRhK+V065LuHeBumhbcmV3BggV9KZ4FcwoQlzHEwBk=
+@size 3428
+share/doc/lynx/lynx_doc/docs/README.release
+@sha u4tp4A0+zD0q3ab8EP83DaFuUGv2hv0TKb42Ia+7b00=
+@size 324
+share/doc/lynx/lynx_doc/docs/README.rootcerts
+@sha ygjja1e0wt8TZpNhMcofeU1vEMhEmXGAe8VQ7Q8NoOY=
+@size 13516
+share/doc/lynx/lynx_doc/docs/README.ssl
+@sha nDMtpPDuxCwOZRMZkM/joosEFulNqAakpioLygwwpmE=
+@size 3062
+share/doc/lynx/lynx_doc/docs/README.sslcerts
+@sha nOKexjoVWOoAySr+smY0wrpotCuRsExZmuRQtRzNylk=
+@size 10330
+share/doc/lynx/lynx_doc/docs/SOCKETSHR.announce
+@sha X8t6J0HmhgPtOKM1OWHnCN/L3g0PC1yhsy8sjK6KV7o=
+@size 1705
+share/doc/lynx/lynx_doc/docs/TCPWARE.announce
+@sha jMNOvgUbAVpfB1TXUYZQC7alW9lwLIoDFRWUP2VyYgI=
+@size 1352
+share/doc/lynx/lynx_doc/docs/VMSWAIS.announce
+@sha XRsKt56VBY9IP66l3whVRtCvHPigSS9Qq2pHoIdBYCQ=
+@size 1549
+share/doc/lynx/lynx_doc/docs/djgpp.key
+@sha 00oNdg8RbI2WJCkhTaMqWvFvltrKYA3sSMO8AiI5o1s=
+@size 5770
+share/doc/lynx/lynx_doc/docs/pdcurses.key
+@sha zAv0am2IgKvjvvNF7sJ3CbN1j/CRwlw1xsFGYQqh7kU=
+@size 7302
+share/doc/lynx/lynx_doc/docs/slang.key
+@sha CfG78AumEUWiXe6eP2Mi1MOtvWV/KahpVNggr2wl6dQ=
+@size 88
+share/doc/lynx/lynx_doc/docs/win-386.announce
+@sha oWSvj1b2bY6PYLOPuntVDNszkJ8U+CFycQ4C+LSa5fs=
+@size 1914
+share/doc/lynx/lynx_doc/samples/
+share/doc/lynx/lynx_doc/samples/blue-background.lss
+@sha KdiovgXHMjdCifYFZzbSfgC1MhkwZf5yJLPmxe3IHJE=
+@size 3211
+share/doc/lynx/lynx_doc/samples/bright-blue.lss
+@sha SRvOOSH0BG2hvaCTBcf+ASEUOPnav6fOLsLcxEcQBzM=
+@size 2274
+share/doc/lynx/lynx_doc/samples/cernrules.txt
+@sha BTbN35Rfm2dANOqrvh12YzYk9sQX3m03CFjyvpy5bPM=
+@size 34561
+share/doc/lynx/lynx_doc/samples/home.htm
+@sha hqgzgEhzcvthsC5O6KXg24NY63Ji4NOi8XoeWz2vHh8=
+@size 743
+share/doc/lynx/lynx_doc/samples/installdirs.html
+@sha c8tMaWJCyP4gv9phDfg9VpAwjBn4ONW4Ff4Hdl5femI=
+@size 701
+share/doc/lynx/lynx_doc/samples/jumps.htm
+@sha /+ieeMAJ2BgLL4EhaInAPBFQzhc57CgdKrjZkG/k7A4=
+@size 654
+share/doc/lynx/lynx_doc/samples/jumpsUnix.html
+@sha EaQXfnockILBL4Cy+H4ll5Tgy6FkOYWNXMeK2wuPPVU=
+@size 3686
+share/doc/lynx/lynx_doc/samples/jumpsVMS.html
+@sha 04uoUC2JaeuBchRTmQmdIk2J529fC2svSXAeGJW7z7o=
+@size 1417
+share/doc/lynx/lynx_doc/samples/keepviewer
+@sha 7tDITaCgm9TCSklPBMDTEUaMULQi7rfXWc2LnOGA6ik=
+@size 606
+share/doc/lynx/lynx_doc/samples/lynx-demo.cfg
+@sha QjzqVGn1frWCLvXIMCH6KEJYeCGSZ8tYOvXkXd2GBh4=
+@size 907
+share/doc/lynx/lynx_doc/samples/lynx-keymaps
+@sha 6W/OqkPOnwXe4HVT7+aMuGsnvLj80fggGufTqaoYLwM=
+@size 5249
+share/doc/lynx/lynx_doc/samples/lynx.bat
+@sha nbsG7GZ7gYOaDaVKPJHaMVJTfYwMFqkcTA6K2qQRI04=
+@size 271
+share/doc/lynx/lynx_doc/samples/lynx.com
+@sha /TZUGqRW7FG8ry9QthatmpMfkvseSjOa86PIAhpjdw0=
+@size 2192
+share/doc/lynx/lynx_doc/samples/lynx.ico
+@sha MO/fYbxM8mkIm91Qur/swBWBkFd2NoGEKKHSmPjCTRo=
+@size 5174
+share/doc/lynx/lynx_doc/samples/lynx.lss
+@sha 5pgWjkz2ZpsJ/HRIRpKi7DCLGHhzVSCRJESWuDyXnHk=
+@size 3581
+share/doc/lynx/lynx_doc/samples/lynx_bookmarks.htm
+@sha BiAD/Y37em2jQjvZuvZBfIAbggEPvvj3qiFLhysN8ro=
+@size 805
+share/doc/lynx/lynx_doc/samples/lynxdump
+@sha mGaq6KjsBkfcTnYIxesodA3o23QBZ0CTHwhGIfduxGU=
+@size 383
+share/doc/lynx/lynx_doc/samples/mailcap
+@sha iDed2cTAJ6A3ORIekcwdhixVdZjcfH3+Qb/hpTKcVYg=
+@size 4772
+share/doc/lynx/lynx_doc/samples/mailto-form.pl
+@sha 7JAyHHDeC9Xub6T3g6GnU+e6zjCy+nVXZ20M8opgV6E=
+@size 9416
+share/doc/lynx/lynx_doc/samples/midnight.lss
+@sha d03U/srUT644HXPoKlJVqrTr0wYPYmm3KhZ7PcVWjPY=
+@size 2065
+share/doc/lynx/lynx_doc/samples/mild-colors.lss
+@sha iNgI42zcutFt5d5fYrwuY33MnZfygLmkeIHJf0gyz7k=
+@size 1858
+share/doc/lynx/lynx_doc/samples/mime.types
+@sha Xusetfz+4wpwKsroUlM+838TgLDkJmL9REIToNsCxHI=
+@size 1022
+share/doc/lynx/lynx_doc/samples/oldlynx
+@sha 5UeecDxtft64bmkjGzUWLjg2J/Kb1ix1XJxhC+iD39g=
+@size 443
+share/doc/lynx/lynx_doc/samples/oldlynx.bat
+@sha awKD90pZlqcqkrl670pTtbdip+Z1zln/6a2NHq5IDH0=
+@size 525
+share/doc/lynx/lynx_doc/samples/opaque.lss
+@sha BSnww9tmmHeRW74qATEz/ppX8vsr1l9Z+HRzA8fbMOY=
+@size 1094
+share/doc/lynx/lynx_doc/test/
+share/doc/lynx/lynx_doc/test/ALT88592.html
+@sha VZUHGsOzygNGny5nayOIhOewiVex6lSrhSgRrfLaDRQ=
+@size 15094
+share/doc/lynx/lynx_doc/test/ISO_LATIN1_test.html
+@sha XFXy1JM6yk7JP82eeBq0b24+Z1adbXtx7nLKfzRekOc=
+@size 3611
+share/doc/lynx/lynx_doc/test/README.txt
+@sha 8Dy2BsUmdmBX4uNa51sR5o0auRMAoZPRKbhuOuE6+So=
+@size 378
+share/doc/lynx/lynx_doc/test/TestComment.html
+@sha xLm6ZUP8UMKAOw816mhh138D0ciRxmqcAE47ymcrIGc=
+@size 2032
+share/doc/lynx/lynx_doc/test/X
+@sha 47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
+@size 0
+share/doc/lynx/lynx_doc/test/bad-html.html
+@sha 6TbdmbfhZFhBuamR2F8LogBSF9Dap7bFHgWadlwSEO4=
+@size 1113
+share/doc/lynx/lynx_doc/test/c1.html
+@sha 6RegFt0Y4EethW2+ijS+6/gObAQw4lAU4QeoWdZjs+8=
+@size 3877
+share/doc/lynx/lynx_doc/test/circle.html
+@sha 2GespsesraGJIUUq7UY2M5cZSr0ddTpRUCK1rI/Z1U4=
+@size 251
+share/doc/lynx/lynx_doc/test/cp-1252.html
+@sha fxfbAO8CtfHr09IvGvjuOlkhwCqr7GrCbL0CBIIvuSE=
+@size 13559
+share/doc/lynx/lynx_doc/test/cp-1252a.html
+@sha 8SKcDD1jIcZsB+YFAgBXNKUySV1l602yJplDYyk1+ZA=
+@size 13884
+share/doc/lynx/lynx_doc/test/image.jpg
+@sha UpdM5YEIcCoGjMucalt9yeERuPhqg1pVmXPYzgtvrsg=
+@size 1287
+share/doc/lynx/lynx_doc/test/iso-8859-1.html
+@sha j1tWuyLc/Pb43hbC2cuRO8OWfzTJjR6xuKI+SS38AbE=
+@size 14971
+share/doc/lynx/lynx_doc/test/iso-8859-1a.html
+@sha deBZGVAVBPFCRZgRPP2xbeVwphTN+3XF7+m0KJ/s9Bw=
+@size 17067
+share/doc/lynx/lynx_doc/test/iso-8859-2.html
+@sha Jd+N0+M6xYZP9eoCAvnV6wsEMw+R96Iarprig8KyzXY=
+@size 13044
+share/doc/lynx/lynx_doc/test/iso-8859-2a.html
+@sha 26cIGDVwaflfeleZ4LU7y25D0Nc6ItKr9gotHEuDz18=
+@size 15139
+share/doc/lynx/lynx_doc/test/koi8-r.html
+@sha /yenIs5P6E4m4a+oRP5enlzC770sQZbNZgsD9T1pa5Q=
+@size 15668
+share/doc/lynx/lynx_doc/test/nobody
+@sha 47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
+@size 0
+share/doc/lynx/lynx_doc/test/quickbrown.html
+@sha t7nCF27nRnmZCNp4jMmnPZ7gZP40bTISiWk9s/vyJso=
+@size 3856
+share/doc/lynx/lynx_doc/test/raw8bit.html
+@sha 4LX29IZYMlIpSyTw7dgYWJfRy360Bd9ZFTCaSn/+Z2I=
+@size 1196
+share/doc/lynx/lynx_doc/test/sgml.html
+@sha fA2PaUUDkDaM5rxQkm+EiVGbnaGka/G/PHQuBP1KlTc=
+@size 62215
+share/doc/lynx/lynx_doc/test/spaces.html
+@sha gjwh5/OtBCI+ab6t5K9hSIO5hsTHuCF5I1rLH+z5wqw=
+@size 2604
+share/doc/lynx/lynx_doc/test/special_urls.html
+@sha QcpfQODyc34mhF/HPYXvqxLmoc3/lpglCCll5QMDkcc=
+@size 875
+share/doc/lynx/lynx_doc/test/square.html
+@sha NEiO0Ybdpq7pM4W2WecbCgOVKjn1bxZ5n5+s0fa0Abo=
+@size 251
+share/doc/lynx/lynx_doc/test/tabtest.html
+@sha sMwIqNGLTHYaIPWfkn48ZkVkpVamFRFKRHuN0XtUMTY=
+@size 1415
+share/doc/lynx/lynx_doc/test/tags.html
+@sha kb9fAJ7aXbY2iwjH8sXK5bWI+NzPUfYHuNruFbqkYTg=
+@size 5243
+share/doc/lynx/lynx_doc/test/test-styles.html
+@sha 6jfUpbcogU5hwbusw9joORoki2nWX1u2tLHt96Bivfs=
+@size 2898
+share/doc/lynx/lynx_doc/test/triangle.html
+@sha WXglVAmlB0NxcOuf0+vLSBnsYKHHg5EhzEqck+RDZE4=
+@size 255
+share/doc/lynx/lynx_doc/test/unicode.html
+@sha mY0zudiFFcC6RwCnZISZxwdBIpz7R9hLl79A2tURjME=
+@size 44008
+share/doc/lynx/lynx_doc/test/utf-8-demo.html
+@sha X7sSq/8+vFFmnrXWDk4hTQAvDIUGBU8xpX0GYiZkYG4=
+@size 31578
+share/doc/lynx/lynx_help/
+share/doc/lynx/lynx_help/COPYHEADER
+@symlink /usr/local/share/doc/lynx/lynx_doc/COPYHEADER
+share/doc/lynx/lynx_help/COPYING
+@symlink /usr/local/share/doc/lynx/lynx_doc/COPYING
+share/doc/lynx/lynx_help/Lynx_users_guide.html
+@sha ZmOpXmxbc+Er5A56Ra4oSmstwYFJ+yMwZ4t0gLLF7xc=
+@size 183061
+share/doc/lynx/lynx_help/about_lynx.html
+@sha Jui9VtNyAaFTUaocHcYSxF8AcqVgkZnfujK9k80+t4c=
+@size 5431
+share/doc/lynx/lynx_help/keystrokes/
+share/doc/lynx/lynx_help/keystrokes/alt_edit_help.html
+@sha M1AYzJOHehYAPDKoVTix4gDt7HuE5sxzwSal+mRxJVU=
+@size 3247
+share/doc/lynx/lynx_help/keystrokes/bashlike_edit_help.html
+@sha /dh2HNcNzunyiJIykSDlGACKQHlmymKhhPvSCBojQRw=
+@size 10738
+share/doc/lynx/lynx_help/keystrokes/bookmark_help.html
+@sha IIUl9oInMRaOYJHBA/DB6YHn3Rkt2VSIvOO2LNKkuPU=
+@size 1670
+share/doc/lynx/lynx_help/keystrokes/cookie_help.html
+@sha E/HIXbPVJORl/NM7tiNzddTRKBW+j0fVsfnkTPUkZbs=
+@size 3135
+share/doc/lynx/lynx_help/keystrokes/dired_help.html
+@sha SfmENAy816O6RfqGcD6tQU/QA/lMmvwWyMP2kjXV8Gc=
+@size 2563
+share/doc/lynx/lynx_help/keystrokes/edit_help.html
+@sha MEYP6eq7zmXSH/5WCnfSzdR1UDeT0g/N8FDJDsCfCmI=
+@size 3595
+share/doc/lynx/lynx_help/keystrokes/environments.html
+@sha /vurWKttFJ78umreeTt57o93OZt6HJscMC1Mi+vg9j4=
+@size 22815
+share/doc/lynx/lynx_help/keystrokes/follow_help.html
+@sha lKItluzXSpWKFRh6+WyZcQ1bQTbHxtMn6R2akzNszyQ=
+@size 11448
+share/doc/lynx/lynx_help/keystrokes/gopher_types_help.html
+@sha 3xxiqk7JKGXLpHaH4gGxKSmlbowd50LtgDPx1JpoqRA=
+@size 1799
+share/doc/lynx/lynx_help/keystrokes/history_help.html
+@sha jgkNdiAOWKXDR3BgtKVdnoZj0Oks+W91ztuXfjdZ+DM=
+@size 2345
+share/doc/lynx/lynx_help/keystrokes/keystroke_help.html
+@sha nndPi1NgFIdgWxKyRa/oO87dONBPeOFp7KMHVT0nqKU=
+@size 8487
+share/doc/lynx/lynx_help/keystrokes/movement_help.html
+@sha H2tj6aH5mbo3InOrEjGi4Q1j4u3LSOyRkKLeRiAHON0=
+@size 2571
+share/doc/lynx/lynx_help/keystrokes/option_help.html
+@sha s/rcfkHVr5gIPKlz99RLgIDEq00P+GHJ+QEpog6cdTk=
+@size 29328
+share/doc/lynx/lynx_help/keystrokes/other_help.html
+@sha grQBGs/UarVtBrVvBryBEOhC0GNiCXN8zazCJLMJCfQ=
+@size 8460
+share/doc/lynx/lynx_help/keystrokes/print_help.html
+@sha DUafyraTo7nnYTgtc7cWb/9vsQth6OpXe8wsj0FIzQU=
+@size 1858
+share/doc/lynx/lynx_help/keystrokes/scrolling_help.html
+@sha anBHb2uAw/079mzppUcAYJkWyglefDEJTF8sHlkjydc=
+@size 3381
+share/doc/lynx/lynx_help/keystrokes/test_display.html
+@sha XifYrJFG+L2pqcR54Yai4r0XwUOufEynTVk2PTAHam4=
+@size 2237
+share/doc/lynx/lynx_help/keystrokes/visited_help.html
+@sha v+n9vVkfxopZvahaw5ZMrIgcnpRAhtQ8dTHuXl1Zw1A=
+@size 2292
+share/doc/lynx/lynx_help/keystrokes/xterm_help.html
+@sha MPgZl5HCPPgdbPCJnjeCnYb8ANFvCNE4Q2XGyFpkcqE=
+@size 1613
+share/doc/lynx/lynx_help/lynx-dev.html
+@sha Kb5yW1bDxm3LR0Qceqm6Vsz3S4xmLnPGl7KP7mPuPS4=
+@size 4169
+share/doc/lynx/lynx_help/lynx_help_main.html
+@sha D48c3AAR5L6r/l9ocNbU/mURE4/A+9dYQx8zuSAC8aU=
+@size 5701
+share/doc/lynx/lynx_help/lynx_url_support.html
+@sha W9OeXVx6sTroeEN6NZgIJ/T+YcDEIKGi3hVD+c52YVU=
+@size 32538
+share/examples/lynx/
+share/examples/lynx/lynx.cfg
+@sha 9ikIl//e76SJb5wNQA4YTSCScxQUZhMlBbAZU1zHbX0=
+@size 159582
+@sample /etc/lynx.cfg
+share/examples/lynx/lynx.lss
+@sha 5pgWjkz2ZpsJ/HRIRpKi7DCLGHhzVSCRJESWuDyXnHk=
+@size 3581
+@sample /etc/lynx.lss

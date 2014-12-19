@@ -1,0 +1,83 @@
+@comment $OpenBSD: PLIST,v 1.9 2009/04/24 18:56:49 naddy Exp $
+@comment $OpenBSD: PFRAG.shared,v 1.6 2005/12/24 16:11:52 espie Exp $
+@name libiconv-1.14p1
+@url http://ftp.fr.openbsd.org/pub/OpenBSD/5.6/packages/i386/libiconv-1.14p1.tgz
+@signer openbsd-56-pkg
+@digital-signature signify:2014-08-02T11:00:34Z:RWSPEf7Vpp2j0KuSh/drdg0YKgCHF5Uce4rTHDFNdlAQb6P/G1ErQM+UHfHvEhGZiQx9WkwQPMjhePEfUBo6NxD7htB5rZXbgAc=
+@comment pkgpath=converters/libiconv cdrom=yes ftp=yes
+@arch i386
++DESC
+@sha B3ONPpewCr5zFNM8wDRQiTJZRGT3yAZVUnQgTWJLvAk=
+@size 775
+@wantlib c.77.0
+@cwd /usr/local
+@lib lib/libcharset.so.1.1
+@sha 7e6eqF7vdWP3kpEL9HbqOJamWX6ENVF1OdEEVXrmWGQ=
+@size 11652
+@lib lib/libiconv.so.6.0
+@sha Tz4P6VsAVBmWgkNfq9Voc3+xwYxXFSTnkiKovCvSHuo=
+@size 1060842
+@bin bin/iconv
+@sha aFlInV0G67NA3lx041RBw2HgZ/z+b9FswzfBY+vNv/8=
+@size 27344
+include/iconv.h
+@sha Eff5PJUnSlsa0lzWaKHUrp2Uw+VE8uzHd1lgrqkGnGo=
+@size 9343
+include/libcharset.h
+@sha eUhtLvc0pS1uuuo+wyoKfQceaAKA8ax4MrrcIfU2oRg=
+@size 1585
+include/localcharset.h
+@sha jh4qJG6b5sIzHZ7b2laZ4M1A60cr88O6AqoIahQRACE=
+@size 1395
+lib/charset.alias
+@sha FAQlaSs/2mq7k8Qf4DYqVXyg7Ypn8Uq3B/6iV57JQc4=
+@size 351
+lib/libcharset.a
+@sha ILNeOtHF7njW6TJAxWWQkAY34xkBNA2Y3iUOMcGiOao=
+@size 5450
+lib/libcharset.la
+@sha I35qung1PMVHs9BFljucanaflm/UWvgH+g7SvhFPxq0=
+@size 730
+lib/libiconv.a
+@sha Mu4ZxNngh23ckQswTpAqgyBobKAURfzWn0ukhKVznQA=
+@size 1073814
+lib/libiconv.la
+@sha rpmvWZQ87jTH8DeUWlkpWeeX6l5OtHjq2VIPe2gIJYc=
+@size 720
+@man man/man1/iconv.1
+@sha m7dPK5KrY3a2prAXOR2pt7AuwQmhqV2Y7kUle1KGIKU=
+@size 4231
+@man man/man3/iconv.3
+@sha fK9g5q1ckeM5INwq7SsfwfpRnlVfxmG69sZwz7Zl2jI=
+@size 4239
+@man man/man3/iconv_close.3
+@sha IQR7DcwKTiuDlDuB0B1ljsAbsGM+uNi4NlAlwPK9kNY=
+@size 1044
+@man man/man3/iconv_open.3
+@sha AUBxAB+PJ4O4y/Uy7wCnNtGNUtQLVZgDf8+XvS6klGk=
+@size 4654
+@man man/man3/iconv_open_into.3
+@sha gV9q3lDIQE/9Ugj0acwmJ2ldBI10asaMuKmA2pyJe9I=
+@size 1822
+@man man/man3/iconvctl.3
+@sha 9eVQRwlYMq+OJX+heh8LRxer+2Q6ZI7LicM6yDeUDhI=
+@size 2385
+share/doc/libiconv/
+share/doc/libiconv/iconv.1.html
+@sha qpWPyExfOKPKbBOLWQOZLjGf9wFAePZfDtqSjVU8wV8=
+@size 6486
+share/doc/libiconv/iconv.3.html
+@sha s4yh47Q+qxANof19XMyzz/be1ER8KlLAdNU7vVjfjfM=
+@size 6383
+share/doc/libiconv/iconv_close.3.html
+@sha 8XJgbSiDk9ypwEjeM/wymTtioEn3q3Sx+3EbXwPxxMY=
+@size 2102
+share/doc/libiconv/iconv_open.3.html
+@sha Pjx4XYvdaC07QhSWHxxqdBaBW1346GXxQWwH7TtP8hw=
+@size 8509
+share/doc/libiconv/iconv_open_into.3.html
+@sha Yq+q6Vm/A68UgAL8MfN7U87vQMpN3Rh6g28YGWVwy7E=
+@size 4294
+share/doc/libiconv/iconvctl.3.html
+@sha n//ehVBkN/5nP37bcgxzvi/3Ey5fq/RkfPTjwwyy+68=
+@size 6810

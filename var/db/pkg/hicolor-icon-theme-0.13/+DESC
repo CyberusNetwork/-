@@ -1,0 +1,7 @@
+fallback theme of the icon theme specification
+This is the default fallback theme used by implementations of the icon
+theme specification.
+
+Maintainer: The OpenBSD ports mailing-list <ports@openbsd.org>
+
+WWW: http://www.freedesktop.org/Standards/icon-theme-spec

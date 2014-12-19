@@ -1,0 +1,7 @@
+print ascii formatted tree of a directory structure
+The tree utility displays a small formatted tree of directories. It can
+be really useful to get a quick glance of a directory structure.
+
+Maintainer: Pierre-Yves Ritschard <pyr@spootnik.org>
+
+WWW: http://spootnik.org/tree/

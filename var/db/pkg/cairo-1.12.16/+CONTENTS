@@ -1,0 +1,357 @@
+@comment $OpenBSD: PLIST,v 1.16 2013/06/01 12:11:52 ajacoutot Exp $
+@comment $OpenBSD: PFRAG.shared,v 1.7 2013/06/01 12:11:52 ajacoutot Exp $
+@name cairo-1.12.16
+@url http://ftp.fr.openbsd.org/pub/OpenBSD/5.6/packages/i386/cairo-1.12.16.tgz
+@signer openbsd-56-pkg
+@digital-signature signify:2014-08-02T10:55:26Z:RWSPEf7Vpp2j0FyaKL+Z6QDCKntM7aTq/NLZRVh3EqGeAJOPJODMO73IfKGa/xfIQc0J/RQmtuSHRfNNwVicLg/ZVZYzQu/VVQw=
+@comment pkgpath=graphics/cairo cdrom=yes ftp=yes
+@arch i386
++DESC
+@sha jSGtZfguQw9E8iyJVWPo9d18gjO5ZDif0stppdbt/kg=
+@size 940
+@depend archivers/lzo2:lzo2-*:lzo2-2.08
+@depend converters/libiconv:libiconv-*:libiconv-1.14p1
+@depend devel/gettext:gettext->=0.10.38:gettext-0.19.1p0
+@depend devel/glib2:glib2-*:glib2-2.40.0p7
+@depend graphics/png:png-*:png-1.6.12
+@wantlib X11.16.0
+@wantlib Xau.10.0
+@wantlib Xdmcp.11.0
+@wantlib Xext.13.0
+@wantlib Xrender.6.0
+@wantlib c.77.0
+@wantlib expat.11.0
+@wantlib ffi.1.0
+@wantlib fontconfig.9.1
+@wantlib freetype.22.0
+@wantlib glib-2.0.4000.0
+@wantlib gobject-2.0.4000.0
+@wantlib iconv.6.0
+@wantlib intl.6.0
+@wantlib lzo2.0.0
+@wantlib m.9.0
+@wantlib pcre.3.0
+@wantlib pixman-1.32.6
+@wantlib png.17.2
+@wantlib pthread-stubs.2.0
+@wantlib pthread.18.0
+@wantlib xcb-render.1.0
+@wantlib xcb-shm.1.1
+@wantlib xcb.3.1
+@wantlib z.5.0
+@cwd /usr/local
+bin/cairo-trace
+@sha t32uJYzZ8X5c5fW1u9U/t+73NKyEY1I360tIw9NDnC0=
+@size 3007
+lib/cairo/cairo-fdr.so
+@sha cTmNfomei5CrYeIoiZqpbHiASf4R3f60p4scHwyl6zM=
+@size 20224
+lib/cairo/cairo-sphinx.so
+@sha hcpgD/pQcDNSmd+e56peKtuYenonozgebEyigdwL8pg=
+@size 19255
+lib/cairo/libcairo-trace.so
+@sha lejhgUN6gjaOlAzGIztRzAlKRj13XbBCgVIWOftZVw8=
+@size 124234
+@bin bin/cairo-sphinx
+@sha jIMT3IHTNetod4A+L0MAoKnJV4BT1sINvZ4VzVazWiw=
+@size 57136
+include/cairo/
+include/cairo/cairo-deprecated.h
+@sha hzZUkTkX7JYjwNb0qUD46mOMCVTNLAFHHfVwBGvqK78=
+@size 8698
+include/cairo/cairo-features.h
+@sha 7pI+fXvCgJb8dbVBLVo0KdCAUr8TFuYmh69uVvuZ4ys=
+@size 958
+include/cairo/cairo-ft.h
+@sha SJ90qFIzn8BOsR4m3dIlNuAUeWfqZ7MB9mNuIbt8Ffo=
+@size 3721
+include/cairo/cairo-gobject.h
+@sha +AQ6nxOGerrKRmShJjo4oZB19jh8pO89dAPbN2Q4XSw=
+@size 6452
+include/cairo/cairo-pdf.h
+@sha qQFKFcRAWoqYNTcw6wte+/4seLr492joJShMfuKJXH0=
+@size 3136
+include/cairo/cairo-ps.h
+@sha LKccdhyAfrFvuXCZ7w+Ma4d8YfSeP1aAdet2KDey9hA=
+@size 3632
+include/cairo/cairo-script-interpreter.h
+@sha YRZotFAZpgMwQYgoDLUqO6HI3rjJgCvEAMLaSc46XQY=
+@size 4059
+include/cairo/cairo-script.h
+@sha A9ir5eN06bi1FZjx4dspzB9CzFpSciM4rK/+AhjZtvI=
+@size 3072
+include/cairo/cairo-svg.h
+@sha HMsMWFU0DQfPDm/78SMAsdxR7nFo7+y2Y9jIjixwltQ=
+@size 2823
+include/cairo/cairo-tee.h
+@sha jKdG7vKajqc14rk+aoZ0ki3nVoOm8+f/w1W6lG/IOH0=
+@size 2173
+include/cairo/cairo-version.h
+@sha Wu+cUo926fWh9mPwWudDq6MqB0N/MVf1i6Rg1rJ9bvk=
+@size 149
+include/cairo/cairo-xcb.h
+@sha GUG5d/5RgIdFoiQkMN7XoHgY/y4nttwW/fh/fEEb03w=
+@size 3775
+include/cairo/cairo-xlib-xrender.h
+@sha 21v0w8nbhSusUz31SXnmt8x1JzJPNIWCy2adlAyDT5M=
+@size 2436
+include/cairo/cairo-xlib.h
+@sha wtyBEetDJaQ52RGSxmgn4enJraSXTUU/JC3NMKutagU=
+@size 3577
+include/cairo/cairo.h
+@sha phOPJE1wSOyPxHtZ7uGQ0aRIdwNXwwGmPKKwPmI38ek=
+@size 108405
+lib/cairo/
+lib/libcairo-gobject.a
+@sha PiJLIuUKFSmVad7LCgs9stacK4gTniXZ1PeCYDnhpos=
+@size 27552
+lib/libcairo-gobject.la
+@sha KESrKFPauTJWvdE/lZ3iW47NuZIT9xqvZtkf373Cjjw=
+@size 1273
+@lib lib/libcairo-gobject.so.1.1
+@sha oKkQ0Met/pIf0OpzT11V3uh9Ij4grwlOdwNsn9sV7GE=
+@size 34489
+lib/libcairo-script-interpreter.a
+@sha SnZd7HJ26EkjHbnnC4ZAGBEJU8fmxx6h7CbAK3ApNKU=
+@size 157492
+lib/libcairo-script-interpreter.la
+@sha s8DnOahP9HJx83yQ4pcWAIxglYqs8zpv2hPZ7MxxGds=
+@size 1157
+@lib lib/libcairo-script-interpreter.so.1.1
+@sha /N3cvtDMO1NAuHqtDy0ZJF4YihNGedmVRdJjYzTTDSo=
+@size 137039
+lib/libcairo.a
+@sha UqmshZS1z5t4YtNbit+HSHrfYHXjhVH8a3TobV8bTQ4=
+@size 1680940
+lib/libcairo.la
+@sha 2cI4/5FrJz8NrD8OOvkClethU6bkXdQ+5SoFqjvZ1eU=
+@size 1012
+@lib lib/libcairo.so.12.2
+@sha gfLPH3QZj2SjBXRKykIAahb+MOOxRZmRiFrQehJAXAQ=
+@size 1201924
+lib/pkgconfig/
+lib/pkgconfig/cairo-fc.pc
+@sha rMrZGGh83iRDIzTbn0TaqrNgFSwbFxMXYw9nXd0jw+A=
+@size 269
+lib/pkgconfig/cairo-ft.pc
+@sha zw8HKX+0n0Seh8SXiUr7ezEN8vkYjvUVTsr5zUMjK48=
+@size 266
+lib/pkgconfig/cairo-gobject.pc
+@sha ZHHF7wKIHJk1MRVIAPvuiRXYybwgGWwqvu6C1IGXdOo=
+@size 295
+lib/pkgconfig/cairo-pdf.pc
+@sha sm+cR8VjSZDxzkee7muZH6Z1ACN9vwhSl2ShXqlHTxM=
+@size 249
+lib/pkgconfig/cairo-png.pc
+@sha A8Wpeyd51FiSRd7N9EYs9pYRtz62j9j+sV4wwZmV8/o=
+@size 246
+lib/pkgconfig/cairo-ps.pc
+@sha kecYcmKyiOEjHTmNY/iVw6c0g3gXIwoR9CniH8aDwSs=
+@size 255
+lib/pkgconfig/cairo-script.pc
+@sha Rb18PEriyW07q8P32xN8bOyfyqm1us9iPQAIqDDuasc=
+@size 252
+lib/pkgconfig/cairo-svg.pc
+@sha kAi8VFfvUjNC7TlyOjlNcTvyU+Ef+SHRprF/wsWho7g=
+@size 246
+lib/pkgconfig/cairo-tee.pc
+@sha z1z+2luHmhqAqMjYTh9Upw15K1fFgkDSY0pe74uco9g=
+@size 246
+lib/pkgconfig/cairo-xcb-shm.pc
+@sha TavkxdNPFCsGReSnk0t+hy0YU3uFYnJeyVJk1FCDcY4=
+@size 255
+lib/pkgconfig/cairo-xcb.pc
+@sha 3pX/6yg1OgDitVQ9xAVLyx2uDcfYri3GDdLVcoJ6EsA=
+@size 274
+lib/pkgconfig/cairo-xlib-xrender.pc
+@sha MtX8OFEdPRkXiHkUjnnEbCmHs0uet58WAhP0IJ9G81E=
+@size 283
+lib/pkgconfig/cairo-xlib.pc
+@sha +ENRF7TjJHECpmXlpZX3Y0U1rLbxrghiI89H0HBK3mM=
+@size 256
+lib/pkgconfig/cairo.pc
+@sha ivaQgGH2FMw/rGEzo6ckfUo1hBFA5TtUdJfQxKkJ30g=
+@size 483
+share/gtk-doc/
+share/gtk-doc/html/
+share/gtk-doc/html/cairo/
+share/gtk-doc/html/cairo/bindings-errors.html
+@sha Uqd4d9P1lEad9VLhtyvgMPVDBOYqpBYNcDE/g+ZNaoc=
+@size 5605
+share/gtk-doc/html/cairo/bindings-fonts.html
+@sha LV1iVuWcCDrt/AFLVfExNK0PJ7wBRyns3TwymFGkS2Y=
+@size 2705
+share/gtk-doc/html/cairo/bindings-memory.html
+@sha crSzL6QvxYH/I65KPNaYejSfpbEs7tAE4FeWQg4MNCE=
+@size 6005
+share/gtk-doc/html/cairo/bindings-overloading.html
+@sha LNPG0ObIfpTVzo9zfduSHpZbnMXJjWL6tQtCRacMfQ0=
+@size 5432
+share/gtk-doc/html/cairo/bindings-path.html
+@sha BOedNVtWZQhrili9evTK+zeLNtj77fQ5gvAPxIMJEwE=
+@size 5238
+share/gtk-doc/html/cairo/bindings-patterns.html
+@sha IhvkuktvWJf6UkftAhiq8CnsGDGs/p3p5pgp5c7GMBw=
+@size 7861
+share/gtk-doc/html/cairo/bindings-return-values.html
+@sha nVcPtgTB9QheOHSJtlkbqNcnAF6BG2kAPaxOD9dSF+o=
+@size 4627
+share/gtk-doc/html/cairo/bindings-streams.html
+@sha B4dQMl5CnJWM080WLuD3KRf8DdZpGngncHLZ25kKimY=
+@size 4683
+share/gtk-doc/html/cairo/bindings-surfaces.html
+@sha m6NxpG/9wnRCXxhLMiEq/iZ4Gcj7V5lqlp9wAX8MlKE=
+@size 5081
+share/gtk-doc/html/cairo/cairo-Error-handling.html
+@sha SXg4cPOLoErI9JVu+wcZ+C/b2AVGPS9Z/z/tWFrBKlQ=
+@size 20360
+share/gtk-doc/html/cairo/cairo-FreeType-Fonts.html
+@sha 2MD2P5Gn6hUy5ch8msLtYlg2/JEhVcw8icvLpd6IUD8=
+@size 32156
+share/gtk-doc/html/cairo/cairo-Image-Surfaces.html
+@sha xv+urvDRTF8M6GJHd/MAIP86dBTvC1LcR7sobbY9XEU=
+@size 28075
+share/gtk-doc/html/cairo/cairo-PDF-Surfaces.html
+@sha kcYVm7U8CbyKDJCbT55R3Syzjgasr1D/0sBXBj1UnQA=
+@size 20468
+share/gtk-doc/html/cairo/cairo-PNG-Support.html
+@sha GTe1LpPVsExsKcj8dw/koIwOusAgzK/nEZNTIUhgjkM=
+@size 21283
+share/gtk-doc/html/cairo/cairo-Paths.html
+@sha PJR5DJYHbwoOxQC7L6Fnxu1Odaz6vTqHBCEwJI7biME=
+@size 83511
+share/gtk-doc/html/cairo/cairo-PostScript-Surfaces.html
+@sha iU7VfSQBR6T2ufsxkGuK2OMvx0zuJVt4yO5vLHw+knQ=
+@size 39808
+share/gtk-doc/html/cairo/cairo-Quartz-(CGFont)-Fonts.html
+@sha EKymFGSZ/BpdCAKu9cs8LtAe7ovsqftkyaM76XS2sfM=
+@size 7957
+share/gtk-doc/html/cairo/cairo-Quartz-Surfaces.html
+@sha +hA+OtNTSwiCjnAgW8TvsC3ri+wvXNshwu2f+5195fU=
+@size 11560
+share/gtk-doc/html/cairo/cairo-Raster-Sources.html
+@sha D1U5bQ/zCx5mz0CLBjhGwZVhQr/CIPBvcPUsTfxraps=
+@size 43815
+share/gtk-doc/html/cairo/cairo-Recording-Surfaces.html
+@sha B1PpyZlLFlsb7Axgq4IRSnuOBkUSNTc1zp4PcZShxbI=
+@size 14348
+share/gtk-doc/html/cairo/cairo-Regions.html
+@sha 11wux3e/AjaYyt1kXB+oMP50hALhcXeLzc9Bvs2pQYo=
+@size 60014
+share/gtk-doc/html/cairo/cairo-SVG-Surfaces.html
+@sha zeQNi17dGAoQJZkscdb1A2ZNXjRoLAJ2leGAG4UmqsI=
+@size 19574
+share/gtk-doc/html/cairo/cairo-Script-Surfaces.html
+@sha 87dwBoQRdtQma0UoqZSleHbfpoNw5iFEgYo8l7uAhAc=
+@size 23012
+share/gtk-doc/html/cairo/cairo-Transformations.html
+@sha sGWhhc9e/vmlP6B+HWJjZSn/hfWTL0e9gg63s1QaAt8=
+@size 24215
+share/gtk-doc/html/cairo/cairo-Types.html
+@sha dfVwnYIjF42kzJQwae6UgOOE1IlCq5aPOu0CLM5npgg=
+@size 7632
+share/gtk-doc/html/cairo/cairo-User-Fonts.html
+@sha OVZz6flvffpdomAZ8JcKw7D0Os3ifReiGGJgvqTD2Ik=
+@size 51676
+share/gtk-doc/html/cairo/cairo-Win32-Fonts.html
+@sha qaIf7Bp+l5HuXpRd3GZbdE41/ANbQm3Upnj7pgVvR3s=
+@size 24120
+share/gtk-doc/html/cairo/cairo-Win32-Surfaces.html
+@sha QAxxQGrVmAlq6J2RhoEzzW/v55qWlol6lxaXu2xRf14=
+@size 17507
+share/gtk-doc/html/cairo/cairo-XCB-Surfaces.html
+@sha LWHctlxH2yhmT0QBJr+TTMNRNDRKL5ozp1ngqyxFLpM=
+@size 33019
+share/gtk-doc/html/cairo/cairo-XLib-Surfaces.html
+@sha niVI+J8o55SnYo6UQI+8eAB06OcjyKT7n56n6eEnOAI=
+@size 31905
+share/gtk-doc/html/cairo/cairo-XLib-XRender-Backend.html
+@sha FRX8VUnqLHTOMt/csqW2S4EriIdQimHhynSl5Cu5VEI=
+@size 9967
+share/gtk-doc/html/cairo/cairo-cairo-device-t.html
+@sha BxnotOqhyzuUvyL4e6GADefft+0tWsu4SWQr8HSIYoY=
+@size 37195
+share/gtk-doc/html/cairo/cairo-cairo-font-face-t.html
+@sha IUy2Q/dKiCdre4TWmcDPNGKOI+/1La61FDd1Paa0eZQ=
+@size 25962
+share/gtk-doc/html/cairo/cairo-cairo-font-options-t.html
+@sha uUzotGY31moXWHulPFjsUzpvN+H1s1W48HffJY26Bps=
+@size 43843
+share/gtk-doc/html/cairo/cairo-cairo-matrix-t.html
+@sha PrKgNYL73ufMRUDIBjio1eCcrMo2kBuErOMIWSIYnO4=
+@size 36399
+share/gtk-doc/html/cairo/cairo-cairo-pattern-t.html
+@sha TmTIonObfFenD5jTfzvc0DBKU98eNt2qglknp3Uz3fA=
+@size 162000
+share/gtk-doc/html/cairo/cairo-cairo-scaled-font-t.html
+@sha KPO/NffcMw4EDV6dmXkxrl23m70ZKgGWpSmitD2+ohA=
+@size 75061
+share/gtk-doc/html/cairo/cairo-cairo-surface-t.html
+@sha 5ST4twQTTJ62b5lWSOYs9lKpXna6E0tSSftO/7DQRJc=
+@size 103927
+share/gtk-doc/html/cairo/cairo-cairo-t.html
+@sha JyalnK4gQPYvPx7sR5MTLJ9+xbyPfnCd40Ayv7y+1v8=
+@size 173896
+share/gtk-doc/html/cairo/cairo-drawing.html
+@sha b2MZ8zROryJ51vneCS6wWoGf5T78UpVCP4cIxtSuy3E=
+@size 2688
+share/gtk-doc/html/cairo/cairo-fonts.html
+@sha TxaNvQ5j9fhj/6TcI5VUZaAr00qXRyUppb1m+4bmCXQ=
+@size 2827
+share/gtk-doc/html/cairo/cairo-support.html
+@sha /ULz9enUH1bX1h3yBUKxGrzr3jejHxKg3oqjhyvkJX8=
+@size 2137
+share/gtk-doc/html/cairo/cairo-surfaces.html
+@sha KS8BodEP3XcN/T5gsrnEpwwfnWrO7d6xG/88E5bjnrA=
+@size 4001
+share/gtk-doc/html/cairo/cairo-text.html
+@sha Iw2Tomx1YWrGIvYgHRnflrGWYJlxRgHbWllpcFTvTSU=
+@size 77872
+share/gtk-doc/html/cairo/cairo.devhelp2
+@sha ct3YcuvymI/3Nj8ZZ8e1501joPqwLLuwi2jr09g7+AA=
+@size 91063
+share/gtk-doc/html/cairo/home.png
+@sha A0wjFRP+pyu8eIEJWW+bNdt7h+JwwZyLPdIpQPs15r4=
+@size 654
+share/gtk-doc/html/cairo/index-1.10.html
+@sha 04E76ISpnEXem2b7mjXblNm0P2kJG0BLgoSuHKJbnKM=
+@size 9890
+share/gtk-doc/html/cairo/index-1.12.html
+@sha Y8m98qxq61Uqtf2cFk5AT6FjMy2XW/hVpu6lJh/9xw4=
+@size 12912
+share/gtk-doc/html/cairo/index-1.2.html
+@sha oyXpKtJ5Sewok1x1kWod2+XTiyoU4p3y8Febx3nToOA=
+@size 10302
+share/gtk-doc/html/cairo/index-1.4.html
+@sha fNYxf0FDFX+T5ra3uuBpvijmaYFBDDgRB5EIOL5IwiY=
+@size 6534
+share/gtk-doc/html/cairo/index-1.6.html
+@sha pcTp9uyHEOirtw0CFRDvcikS6I3ViafjuktOac2LGOY=
+@size 5596
+share/gtk-doc/html/cairo/index-1.8.html
+@sha Q2a4gXVfbMScomoUWaBbw4pNYTAPyUvw40ZkGkhDTg4=
+@size 7022
+share/gtk-doc/html/cairo/index-all.html
+@sha 3UR2zYmpLC9lqR/iJDpxG3/XeFOy7FgbYIAf/Kgdr/s=
+@size 73039
+share/gtk-doc/html/cairo/index.html
+@sha ZVOtib9MhCJaMhQfLL+SwxqQPfBoqiiNnZYDiYhHSJw=
+@size 8355
+share/gtk-doc/html/cairo/index.sgml
+@sha djjmiumiKqO8BM8r19UDDScMQcIAm1IJzXofvAZtUDs=
+@size 85322
+share/gtk-doc/html/cairo/language-bindings.html
+@sha d3wuC3ZaLwcApqZwW7LVg8R10l4NSvUvPpjzL9fuKxo=
+@size 4015
+share/gtk-doc/html/cairo/left.png
+@sha muCR5SxmenLXfrbEHNmvx69gvIm/wwIySLHcO7fb9GE=
+@size 459
+share/gtk-doc/html/cairo/right.png
+@sha F9zAsXW6vFHQf3E4LPIIO81Omr/tCRpFlj9e6YKqe0g=
+@size 472
+share/gtk-doc/html/cairo/style.css
+@sha +EQoZ90XouDSJxvG1qkwGkXFgSYM9UsvPeyjpBIjNDE=
+@size 5184
+share/gtk-doc/html/cairo/up.png
+@sha KvlFxMbOKIrfrXFq4XR/NwVve/Z7hTbS5ea44M6EyHI=
+@size 406

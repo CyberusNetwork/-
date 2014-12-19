@@ -1,0 +1,47 @@
+@comment $OpenBSD: PLIST,v 1.6 2010/10/25 11:05:32 jasper Exp $
+@name p5-Error-0.17019
+@url http://ftp.fr.openbsd.org/pub/OpenBSD/5.6/packages/i386/p5-Error-0.17019.tgz
+@signer openbsd-56-pkg
+@digital-signature signify:2014-08-02T11:03:27Z:RWSPEf7Vpp2j0Mf4Ru4obIHRdHpfNK9zy8QQvAWt+zu7EsTQyUkla9dD3lw0zGpilDISHN7uU+zO7Rzr9jjdXnUsnTWvQLQRkQo=
+@comment pkgpath=devel/p5-Error cdrom=yes ftp=yes
+@arch *
++DESC
+@sha i2Bq6K7rgpiZYD9TznkNGj2bee5LKa15Ofs/6bOOZ7c=
+@size 506
+@cwd /usr/local
+libdata/perl5/site_perl/Error/
+libdata/perl5/site_perl/Error.pm
+@sha XKDpXyfXwlgilQkYf9ev2BSMWrH0qfgN04d7CwLMCqE=
+@size 24887
+libdata/perl5/site_perl/Error/Simple.pm
+@sha cM25dN1AM8CVbfGRChk8M1LgQCKNTG0iN8Proq2+T9Y=
+@size 1070
+@man man/man3p/Error.3p
+@sha PyW3gUCRtrRIKSBVPCJBL/7RyDu9BOuJ2AsRKq606I4=
+@size 18629
+@man man/man3p/Error::Simple.3p
+@sha z8Wiv7Umf3y7MRIvarsEB4U2sXUOUqJ+afcBvJu1Oxo=
+@size 5068
+share/examples/p5-Error/
+share/examples/p5-Error/example.pl
+@sha TFeu52ddVA8TZu2TtY9SnVyi8Y9SIfYgVIMjy80TuBA=
+@size 719
+share/examples/p5-Error/next-in-loop/
+share/examples/p5-Error/next-in-loop/Error.pm-eval.pl
+@sha F+dxMgCDYr9Rj6PPCGqY0yJ7FnBfYiwfN4Pdrcy461E=
+@size 487
+share/examples/p5-Error/next-in-loop/Error.pm-next-label.pl
+@sha OWlHE8EBBCD9KBdWAXXDi/qWTJ9WMXuHoFOdZVFEPqY=
+@size 442
+share/examples/p5-Error/next-in-loop/Error.pm-next-out-of-catch.pl
+@sha 3aHnB2vrMjxelkey7dU/HlxUfz8Rf75fws8qrg3YKKk=
+@size 512
+share/examples/p5-Error/next-in-loop/Error.pm-next.pl
+@sha atIPkaIcWMaTXLI9tj+UWD0RgnAYobJPlbhzUZzFZNE=
+@size 409
+share/examples/p5-Error/next-in-loop/README
+@sha NkoVLQpYoOwmQYqXOBeFZ9XjkKMGAMneuBrdm9rfht4=
+@size 164
+share/examples/p5-Error/warndie.pl
+@sha CL61B18MX5cCYu0rRXB2GcRuZxtBOC/vcalTsr7wn3w=
+@size 382

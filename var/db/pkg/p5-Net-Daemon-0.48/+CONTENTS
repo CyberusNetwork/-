@@ -1,0 +1,31 @@
+@comment $OpenBSD: PLIST,v 1.4 2004/09/15 18:17:43 espie Exp $
+@name p5-Net-Daemon-0.48
+@url http://ftp.fr.openbsd.org/pub/OpenBSD/5.6/packages/i386/p5-Net-Daemon-0.48.tgz
+@signer openbsd-56-pkg
+@digital-signature signify:2014-08-02T11:04:00Z:RWSPEf7Vpp2j0NHNfWIYLszr0zF2eD9PldQBCXS3Egn48JFFFNsvD0LWlo9DDTOSbgQXA0UA5pDSYl3fy7ecBY3q1pnUhLIKqwY=
+@comment pkgpath=net/p5-Net-Daemon cdrom=yes ftp=yes
+@arch *
++DESC
+@sha NB/b40EwtuuiNkLiyPZqbjwEPUca/63jIn/WII9mFvI=
+@size 547
+@cwd /usr/local
+libdata/perl5/site_perl/Net/
+libdata/perl5/site_perl/Net/Daemon/
+libdata/perl5/site_perl/Net/Daemon.pm
+@sha x6F24Sq7aNVbuDeWt9ncZnkBJS8xVkbWnlugMHWvOZw=
+@size 37779
+libdata/perl5/site_perl/Net/Daemon/Log.pm
+@sha qVFovTVTG6FWdwUuPGfqWXdLKMfzZVZVmwWe95Bt/Hk=
+@size 7074
+libdata/perl5/site_perl/Net/Daemon/Test.pm
+@sha ydD2iRWflMBYn1g6NGkY2FkjIiI9gWU1BRGEJwW/EsQ=
+@size 9582
+@man man/man3p/Net::Daemon.3p
+@sha TpmVmRFM6imk/H9o3HRkkf+ewR2aIwo557VtdRuZQMQ=
+@size 24846
+@man man/man3p/Net::Daemon::Log.3p
+@sha l/uVMq+eRAQ/2irxgl9Vik7pz3WJ1W9ZtH6n8wBaWfY=
+@size 8001
+@man man/man3p/Net::Daemon::Test.3p
+@sha AnXBLKpIsehPV9b5css/O7BN6cImlGbGw4dPz10IXKE=
+@size 8319

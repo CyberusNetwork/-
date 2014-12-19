@@ -1,0 +1,82 @@
+@comment $OpenBSD: PLIST,v 1.8 2014/03/27 07:57:44 jasper Exp $
+@name gdbm-1.11
+@url http://ftp.fr.openbsd.org/pub/OpenBSD/5.6/packages/i386/gdbm-1.11.tgz
+@signer openbsd-56-pkg
+@digital-signature signify:2014-08-02T10:57:47Z:RWSPEf7Vpp2j0EeTmu1DEww0zsPsrNwaCxqkAFjCqP9jhTajPXPIQEbZHYcd04kjR2NAipz4bX8BpfOMFozUGX6xq+olKaLwwQo=
+@comment pkgpath=databases/gdbm cdrom=yes ftp=yes
+@arch i386
++DESC
+@sha 28bm80MBtPRjVELlUsLo8p2P0DyRlOHWsCY27QdZxYg=
+@size 232
+@depend converters/libiconv:libiconv-*:libiconv-1.14p1
+@depend devel/gettext:gettext->=0.10.38:gettext-0.19.1p0
+@wantlib c.77.0
+@wantlib iconv.6.0
+@wantlib intl.6.0
+@cwd /usr/local
+@bin bin/gdbm_dump
+@sha gsB8Le8n4imOksfj8GSdP4egrrJoVM1Y3HR+SdzffPg=
+@size 19280
+@bin bin/gdbm_load
+@sha jyaTnLd9kA+H89IS/uQ35hGrSPnNHJ1Ps0pMhoeCp34=
+@size 19856
+@bin bin/gdbmtool
+@sha CkcauhYpdhuPzNUyCjlGZAE/xlHK+Lf6hP8b6sTPOgc=
+@size 83972
+include/gdbm.h
+@sha u7ykp7C6SdiFINi7EobXVE70oDvi1jbJ/LjP3RVlvPw=
+@size 6740
+@info info/gdbm.info
+@sha onpnLojx921dWWKKLDxjHhUAoRx/8l4CbiWyh3p+Zek=
+@size 122923
+lib/libgdbm.a
+@sha 7UyuQQ/2Vnqaj2eqciFerx1VNtyzCZI+0ZtPrs+3JdE=
+@size 73814
+lib/libgdbm.la
+@sha ubwCQptimWLiAlypAsKKyYGRQ9bLsadAUeqSrqy55os=
+@size 805
+@lib lib/libgdbm.so.4.1
+@sha O9vSMVyDuwegcSuHoMUqZ/RPKOpur2Zd74jh9/8QwHw=
+@size 56306
+@man man/cat1/gdbm_dump.0
+@sha IiOypLUwtuB4nZUnNRfNRJI1uoPchyAsQKLPrQLMI0U=
+@size 2603
+@man man/cat1/gdbm_load.0
+@sha 7q4LtPbi9J4sA7E2URn89CQllpLd3lagATzJuD/FJX0=
+@size 3132
+@man man/cat1/gdbmtool.0
+@sha RsxxbnB7FNHK4xCGQRda7+2eteIej64GuKCXuKkApEA=
+@size 15666
+@man man/cat3/gdbm.0
+@sha FouSmuQgxpHlxRerw/vy0k1TO5zizJI3AD9/GbYxjL8=
+@size 22513
+share/locale/de/LC_MESSAGES/gdbm.mo
+@sha PAAVjjuL3S/wDz7V3PkZ6A4qOJj3uCYNDGlwyW9/mSI=
+@size 6793
+share/locale/eo/LC_MESSAGES/gdbm.mo
+@sha wrlsL0V0rrColApsjhtVUJ9qVRcC8dvQwkIYCNcy1EU=
+@size 13268
+share/locale/fi/LC_MESSAGES/gdbm.mo
+@sha IzxTrHZRmFEWIolObEFj5P5HNPJybwicG4kMi6DyXpE=
+@size 13914
+share/locale/fr/LC_MESSAGES/gdbm.mo
+@sha NF31rx5B/zIV4l2HHmBBiceGaD+sdQvIqSzJypUslEo=
+@size 6812
+share/locale/ja/LC_MESSAGES/gdbm.mo
+@sha ll6vZjZYonY516jJ9sIrut512VG3ifhK1JqVSlxt8TY=
+@size 7404
+share/locale/pl/LC_MESSAGES/gdbm.mo
+@sha ND/V3uPxgSJDfvMvcJWVy53jyz4iHbZnrB86NOG82fk=
+@size 13814
+share/locale/pt_BR/LC_MESSAGES/gdbm.mo
+@sha wifNB5ALBEaVjFyk6DtoMiczeAZ2kVT/SgITy+OMePw=
+@size 13759
+share/locale/sr/LC_MESSAGES/gdbm.mo
+@sha +D0N8vKkICargwQyeIEOxW6F2IfZfaYEkg1ApU/LMB4=
+@size 17334
+share/locale/uk/LC_MESSAGES/gdbm.mo
+@sha OC19rH61SWeqVor19hf/VGmB6b374wcF3NrTGKU1KYM=
+@size 17919
+share/locale/vi/LC_MESSAGES/gdbm.mo
+@sha DWxHOhCueNb54cr5chT0y4AxOuNdku4R57O22MCWA1A=
+@size 15075

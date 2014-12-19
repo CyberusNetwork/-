@@ -1,0 +1,43 @@
+@comment $OpenBSD: PLIST,v 1.9 2012/11/18 09:17:12 ajacoutot Exp $
+@name desktop-file-utils-0.22
+@url http://ftp.fr.openbsd.org/pub/OpenBSD/5.6/packages/i386/desktop-file-utils-0.22.tgz
+@signer openbsd-56-pkg
+@digital-signature signify:2014-08-02T10:56:00Z:RWSPEf7Vpp2j0H8LosL749PY6BYH+fLNhbh6bRvyH/lUNLOcaHFu1XFXuEF1hcuIJ0YHgYqALsxDgv/nKaMb4UUxWR20dgwYcQA=
+@comment pkgpath=devel/desktop-file-utils cdrom=yes ftp=yes
+@arch i386
++DESC
+@sha 8pKfhTyqoiLeSvt4F0l4ZtwVm4keul64U8GsD+bP99Q=
+@size 193
+@depend converters/libiconv:libiconv-*:libiconv-1.14p1
+@depend devel/gettext:gettext->=0.10.38:gettext-0.19.1p0
+@depend devel/glib2:glib2-*:glib2-2.40.0p7
+@wantlib c.77.0
+@wantlib glib-2.0.4000.0
+@wantlib iconv.6.0
+@wantlib intl.6.0
+@cwd /usr/local
+@unexec-delete rm -f %D/share/applications/mimeinfo.cache
+bin/desktop-file-edit
+@symlink desktop-file-install
+@bin bin/desktop-file-install
+@sha AliQ0K+UjsJmMCOkUHxnmEHqZa3nIiQ1o9VMZWSZSU8=
+@size 71824
+@bin bin/desktop-file-validate
+@sha mycr67e0XD8cP39zb7acwM2/hC1tLtGbi8sEFpQlHOY=
+@size 60048
+@bin bin/update-desktop-database
+@sha XD4lxVVlg/PxRmdpcEjLW5xSHPQ7mdYPavx6R92dLxQ=
+@size 16464
+@sample /usr/local/share/applications/
+@man man/man1/desktop-file-edit.1
+@symlink desktop-file-install.1
+@man man/man1/desktop-file-install.1
+@sha JwgUEJS+6Ek8oZBHynullDiwcBUvuUKB5yZ7XB0x3Fo=
+@size 6743
+@man man/man1/desktop-file-validate.1
+@sha Hp2tmolBxz06J9BcATegXu1Bd02lXb4EXNG8ugcN6Sk=
+@size 1721
+@man man/man1/update-desktop-database.1
+@sha ZYyEDST95Bb6MkWGpvptH02JW5kNGLmlgCQhcWCMzYI=
+@size 2649
+@exec %D/bin/update-desktop-database

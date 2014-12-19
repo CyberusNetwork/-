@@ -1,0 +1,9 @@
+companion library to APR
+The APR-util provides a number of helpful abstractions on top of APR.
+
+Flavors:
+	ldap	- Enable LDAP support
+
+Maintainer: Stefan Sperling <stsp@openbsd.org>
+
+WWW: http://apr.apache.org/

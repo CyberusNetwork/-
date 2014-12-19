@@ -1,0 +1,67 @@
+# $OpenBSD: unbound.conf,v 1.4 2014/04/02 21:43:30 millert Exp $
+
+server:
+	interface: 127.0.0.1
+	interface: 10.8.100.2
+	#interface: 127.0.0.1@5353	# listen on alternative port
+	interface: ::1
+	#do-ip6: no
+	verbosity: 1
+	do-tcp: yes
+	do-udp: yes
+
+	access-control: 0.0.0.0/0 refuse
+	access-control: 127.0.0.0/8 allow
+	access-control: 10.8.100.2/32 allow
+	access-control: ::0/0 refuse
+	access-control: ::1 allow
+
+	hide-identity: yes
+	hide-version: yes
+
+    	cache-min-ttl: 3600
+    	cache-max-ttl: 86400
+
+	prefetch: yes
+
+	# Uncomment to enable DNSSEC validation.
+	#
+	#auto-trust-anchor-file: "/var/unbound/db/root.key"
+
+	# Serve zones authoritatively from Unbound to resolver clients.
+	# Not for external service.
+	#
+	#local-zone: "local." static
+	#local-data: "mycomputer.local. IN A 192.0.2.51"
+	#local-zone: "2.0.192.in-addr.arpa." static
+	#local-data-ptr: "192.0.2.51 mycomputer.local"
+
+	# UDP EDNS reassembly buffer advertised to peers. Default 4096.
+	# May need lowering on broken networks with fragmentation/MTU issues,
+	# particularly if validating DNSSEC.
+	#
+	#edns-buffer-size: 1480
+
+	# Use TCP for "forward-zone" requests. Useful if you are making
+	# DNS requests over an SSH port forwarding.
+	#
+	#tcp-upstream: yes
+
+# Upstream forwarder (recursive resolver) for specific zones.
+
+forward-zone:
+	name: "."				# use for ALL queries
+	forward-addr: 8.8.8.8			# google.com
+	forward-addr: 8.8.4.4			# google.com (2)
+	forward-addr: 208.67.222.222		# opendns.com
+	forward-addr: 208.67.220.220		# opendns.com (2)
+	forward-first: yes			# try direct if forwarder fails
+
+## DnsSpoof (split-horizon) of local sites
+
+local-zone: "192.168.in-addr.arpa." nodefault
+#local-zone: "cbnet.itinet.fr" redirect
+#local-data: "cbnet.itinet.fr A 10.8.100.2"
+
+#local-zone: "uniti.itinet.fr" redirect
+#local-data: "uniti.itinet.fr A 10.8.100.3"

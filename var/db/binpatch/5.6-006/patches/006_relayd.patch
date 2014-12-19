@@ -1,0 +1,48 @@
+
+OpenBSD 5.6 errata 6, Nov 17, 2014:  Fix for relayd crash
+
+Apply patch using:
+
+    signify -Vep /etc/signify/openbsd-56-base.pub -x 006_relayd.patch.sig -m - | \
+        (cd /usr/src && patch -p0)
+
+Then build and install relayd:
+
+    cd /usr/src/usr.sbin/relayd
+    make obj
+    make
+    make install
+
+Index: usr.sbin/relayd/relay_http.c
+===================================================================
+RCS file: /cvs/src/usr.sbin/relayd/relay_http.c,v
+retrieving revision 1.32
+diff -u -p -r1.32 relay_http.c
+--- usr.sbin/relayd/relay_http.c	17 Jul 2014 11:35:26 -0000	1.32
++++ usr.sbin/relayd/relay_http.c	4 Nov 2014 22:24:48 -0000
+@@ -291,18 +291,20 @@ relay_read_http(struct bufferevent *bev,
+ 				goto fail;
+ 			}
+ 			desc->http_version = strchr(desc->http_path, ' ');
+-			if (desc->http_version != NULL)
+-				*desc->http_version++ = '\0';
++			if (desc->http_version == NULL) {
++				free(line);
++				goto fail;
++			}
++			*desc->http_version++ = '\0';
+ 			desc->http_query = strchr(desc->http_path, '?');
+ 			if (desc->http_query != NULL)
+ 				*desc->http_query++ = '\0';
+ 
+ 			/*
+ 			 * Have to allocate the strings because they could
+-			 * be changed independetly by the filters later.
++			 * be changed independently by the filters later.
+ 			 */
+-			if (desc->http_version != NULL &&
+-			    (desc->http_version =
++			if ((desc->http_version =
+ 			    strdup(desc->http_version)) == NULL) {
+ 				free(line);
+ 				goto fail;

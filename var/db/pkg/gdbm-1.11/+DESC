@@ -1,0 +1,7 @@
+GNU dbm
+GNU dbm is a set of database routines that use extendible hashing and
+works similar to the standard UNIX dbm routines.
+
+Maintainer: The OpenBSD ports mailing-list <ports@openbsd.org>
+
+WWW: https://www.gnu.org/software/gdbm/

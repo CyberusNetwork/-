@@ -1,0 +1,731 @@
+@comment $OpenBSD: PLIST,v 1.16 2013/12/17 08:01:13 ajacoutot Exp $
+@comment $OpenBSD: PFRAG.shared,v 1.2 2013/02/02 09:24:08 ajacoutot Exp $
+@name gdk-pixbuf-2.30.8
+@url http://ftp.fr.openbsd.org/pub/OpenBSD/5.6/packages/i386/gdk-pixbuf-2.30.8.tgz
+@signer openbsd-56-pkg
+@digital-signature signify:2014-08-02T10:57:47Z:RWSPEf7Vpp2j0PoYqFsp0rouNi/fhVAn5aC9kB28fRSio+OuYKP3S2G/otkSOKHS8mT2cBWckzJQN53FsxQqjuOsx6R4BU7tkgg=
+@comment pkgpath=graphics/gdk-pixbuf2 cdrom=yes ftp=yes
+@arch i386
++DESC
+@sha 19wI8HA89GbWWAxbCFHWxNs1T782tYZMchkSoD6Pfa4=
+@size 278
+@conflict gtk+2-<2.22
+@conflict gtk+2-docs-<2.22
+@depend converters/libiconv:libiconv-*:libiconv-1.14p1
+@depend devel/gettext:gettext->=0.10.38:gettext-0.19.1p0
+@depend devel/glib2:glib2-*:glib2-2.40.0p7
+@depend graphics/jasper:jasper-*:jasper-1.900.1p2
+@depend graphics/png:png-*:png-1.6.12
+@depend graphics/tiff:tiff-*:tiff-4.0.3p2
+@depend misc/shared-mime-info:shared-mime-info-*:shared-mime-info-1.3
+@wantlib X11.16.0
+@wantlib c.77.0
+@wantlib ffi.1.0
+@wantlib gio-2.0.4000.0
+@wantlib glib-2.0.4000.0
+@wantlib gmodule-2.0.4000.0
+@wantlib gobject-2.0.4000.0
+@wantlib iconv.6.0
+@wantlib intl.6.0
+@wantlib jasper.2.1
+@wantlib jpeg.67.0
+@wantlib m.9.0
+@wantlib pcre.3.0
+@wantlib png.17.2
+@wantlib pthread.18.0
+@wantlib tiff.39.2
+@wantlib xcb.3.1
+@wantlib z.5.0
+@cwd /usr/local
+@unexec-delete rm -f %D/lib/gdk-pixbuf-2.0/2.10.0/loaders.cache
+lib/gdk-pixbuf-2.0/2.10.0/loaders/libpixbufloader-ani.so
+@sha r2pQMkpKlZ7FeAz36mDEWGjwAEH8NovHjxnhEHZWcNs=
+@size 18669
+lib/gdk-pixbuf-2.0/2.10.0/loaders/libpixbufloader-bmp.so
+@sha CTENRaKqNo00uqTRAoxHSo4f/lUuL80HbTGymiOxZZ4=
+@size 20972
+lib/gdk-pixbuf-2.0/2.10.0/loaders/libpixbufloader-gif.so
+@sha 73Upn/elPJwXmA/ewcIfm41la+OMsPSlnhitBqfPnWM=
+@size 32713
+lib/gdk-pixbuf-2.0/2.10.0/loaders/libpixbufloader-icns.so
+@sha IpA28sm1Kg+UtgAMR9gd/FDkVbuTqyWykMofgaxcvFI=
+@size 12195
+lib/gdk-pixbuf-2.0/2.10.0/loaders/libpixbufloader-ico.so
+@sha 1VDMdglL52pGhZBs9CooV3kKEAwvleV2v50FoyV1TdE=
+@size 17405
+lib/gdk-pixbuf-2.0/2.10.0/loaders/libpixbufloader-jasper.so
+@sha 7TFBs8N0rbHpgK3sKhQGM9FwG2s2xOwXVzWNx3cmI6s=
+@size 12338
+lib/gdk-pixbuf-2.0/2.10.0/loaders/libpixbufloader-jpeg.so
+@sha PvF5Vj2FiSjfLSyi3Yr0EdVJUtHqRul5hb0/11uDnEM=
+@size 23559
+lib/gdk-pixbuf-2.0/2.10.0/loaders/libpixbufloader-pcx.so
+@sha q1pSRWZJRo292Hso4dLOjzyV/lM1D7XcFoDWkVYnNUc=
+@size 12190
+lib/gdk-pixbuf-2.0/2.10.0/loaders/libpixbufloader-png.so
+@sha hDvdl4T1TROPWu1+NmpOzvkzwjnOO29Pka6AvoPNVaE=
+@size 24448
+lib/gdk-pixbuf-2.0/2.10.0/loaders/libpixbufloader-pnm.so
+@sha ZaZ0hNxoFXB7ec4AIFE+pgBonuuvsM5EA9gFtbwil14=
+@size 17415
+lib/gdk-pixbuf-2.0/2.10.0/loaders/libpixbufloader-qtif.so
+@sha DSgQoH0LyLRA923sq3DuCBWfjRJ0/CJTwWWMq9N7EK4=
+@size 13010
+lib/gdk-pixbuf-2.0/2.10.0/loaders/libpixbufloader-ras.so
+@sha SwYCCO9X+jMvr0ytvdqLMO+tTrKDEmcoNMqO9XsMhcg=
+@size 11871
+lib/gdk-pixbuf-2.0/2.10.0/loaders/libpixbufloader-tga.so
+@sha ji78KOsQH1zRiFcy+Kvx0nKlf59zqJzwzFLWIydUt4w=
+@size 16893
+lib/gdk-pixbuf-2.0/2.10.0/loaders/libpixbufloader-tiff.so
+@sha OsjRlhRlsh0qnssUSVzaJZgENIjWrHpQqjx6xBYly7o=
+@size 18300
+lib/gdk-pixbuf-2.0/2.10.0/loaders/libpixbufloader-wbmp.so
+@sha 5MZId/LPxN/X4HxFbxpK5vanIIo6d1Y3D6l7ZMy16sc=
+@size 11954
+lib/gdk-pixbuf-2.0/2.10.0/loaders/libpixbufloader-xbm.so
+@sha AilGms4rINSq8ELU/89XO9cAF1ATJC+Lsgpbcu3rRiE=
+@size 12933
+lib/gdk-pixbuf-2.0/2.10.0/loaders/libpixbufloader-xpm.so
+@sha bJ93Cc2jtxorbYcSeBn25OVF/xZVldj/drK6HP9PYDI=
+@size 28062
+@bin bin/gdk-pixbuf-csource
+@sha FD5XT5uNPewWrt4D/g8Mj56QP1rfu92dBtis7apBVCA=
+@size 11184
+@bin bin/gdk-pixbuf-pixdata
+@sha ZSFF8pb9pHkSWFa41WLDMOd/vcg/hv5ksUz0EJ37uLo=
+@size 10448
+@bin bin/gdk-pixbuf-query-loaders
+@sha 5s5ihZBtsLooTHmC91ukW8gSK6TJDkHkdjC9A638oCU=
+@size 10576
+include/gdk-pixbuf-2.0/
+include/gdk-pixbuf-2.0/gdk-pixbuf/
+include/gdk-pixbuf-2.0/gdk-pixbuf-xlib/
+include/gdk-pixbuf-2.0/gdk-pixbuf-xlib/gdk-pixbuf-xlib.h
+@sha 9YG0Ezf0/RVkjA2KIoq2eEdGUta6ubCRL0yf4ZjVkY4=
+@size 2405
+include/gdk-pixbuf-2.0/gdk-pixbuf-xlib/gdk-pixbuf-xlibrgb.h
+@sha cZ+gBC5ZFSWbATWDraW1E4HFyammiwj7RxX+EI3tRG8=
+@size 5561
+include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-animation.h
+@sha wjR6me85dMP7T6fjsnWSZxpzybiAVgdCfdF0lzXriTQ=
+@size 8955
+include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-core.h
+@sha 9bVE8dKo5w2mjahzfd8SrDfCdfGHtpdIobbe+359U7s=
+@size 17013
+include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-enum-types.h
+@sha mfRQ0ygNqope6OmkaOriSXYJ/gZA1u1bBLNNjYa8pD0=
+@size 1114
+include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-features.h
+@sha Dy+/iroICbxko0ZaH/dUYY8o4IVW1JPoDpxngY0Bj68=
+@size 3476
+include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-io.h
+@sha 6OjMF32bYkyyzBeqAZ8eCC2sAyEBW/gXhYjMrM2hSgg=
+@size 12288
+include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-loader.h
+@sha Sm20HRO9U1ILr+A2MeuB8WvzjA92Hx7op8d5CEIYQcI=
+@size 4395
+include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-marshal.h
+@sha vYAkdOjUK9rqWJrgA+gQm7cNZ5mh6dcQ0mWbzIO7wxU=
+@size 1640
+include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-simple-anim.h
+@sha A7AcNl7bw1MCG5zB5mkZ4pl4toXAiegR6E+i2CPFLVg=
+@size 3018
+include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-transform.h
+@sha OGci+wF3tAkXyttnih5Mv/J0sN9qCNwVs1Yih3BZWzE=
+@size 5918
+include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf.h
+@sha wDfUt63AjGY1KyFWheLk5f0EaSZ+aBozrt4if15zU7s=
+@size 1481
+include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixdata.h
+@sha auThvvcZAdvPSfyVi+5q+mnAqs6/5KVFCWTaWkKbCzA=
+@size 6533
+lib/gdk-pixbuf-2.0/
+lib/gdk-pixbuf-2.0/2.10.0/
+lib/gdk-pixbuf-2.0/2.10.0/loaders/
+lib/girepository-1.0/
+lib/girepository-1.0/GdkPixbuf-2.0.typelib
+@sha dSxMiiiOSG6jlyy12gHsM+wWT9TtKR5t7cLfsTqhzlc=
+@size 16464
+lib/libgdk_pixbuf-2.0.a
+@sha Sc6BWiDyg5hazqdTiVopHggSJLc8WQqcGzmp8Lx6Cd0=
+@size 180642
+lib/libgdk_pixbuf-2.0.la
+@sha zaJIiIZVAcOxt05XeaJuPF09ZZKmpX7LdChN+bzEVt8=
+@size 1093
+@lib lib/libgdk_pixbuf-2.0.so.3000.0
+@sha p6CIWsfqkR014e76myO0Gn2G0KuFWROR2cJhnAeOWgE=
+@size 143494
+lib/libgdk_pixbuf_xlib-2.0.a
+@sha 7tvNT/n8xsnsK1S0dtHoxwigLVJSt8hHfCbVBfMYXZ4=
+@size 70414
+lib/libgdk_pixbuf_xlib-2.0.la
+@sha 16gNGfhIO7Mp9gYY7zah5EknqCN2ita3Q6P649Gf/Ms=
+@size 1203
+@lib lib/libgdk_pixbuf_xlib-2.0.so.3000.0
+@sha X7soxPFiQBvYla6NL5LJQ756blPZXnzgjsyXCSrceTQ=
+@size 69153
+lib/pkgconfig/
+lib/pkgconfig/gdk-pixbuf-2.0.pc
+@sha V/ts6RyKwdQU39HhlPBJsTJLjwbEw3Lwln3LbZQqfk8=
+@size 543
+lib/pkgconfig/gdk-pixbuf-xlib-2.0.pc
+@sha KPgwGjtDQhCuno+78rlNzzyXIUlORiV66VQyQ4ffZUU=
+@size 298
+@man man/man1/gdk-pixbuf-csource.1
+@sha cfCTfP5br/yuxt8PrIwxkQnNSRw409/lenwBHZrpiPg=
+@size 3769
+@man man/man1/gdk-pixbuf-query-loaders.1
+@sha ZcMi2BjKO5GtFjJ0wf0ADZP34dytt/UMaeElvSax6Fo=
+@size 2468
+share/gir-1.0/
+share/gir-1.0/GdkPixbuf-2.0.gir
+@sha o8Q72lKFaCAaGmrlpxLstHMguur5Zvx/QoQCM25tqmM=
+@size 172231
+share/gtk-doc/
+share/gtk-doc/html/
+share/gtk-doc/html/gdk-pixbuf/
+share/gtk-doc/html/gdk-pixbuf/GdkPixbufLoader.html
+@sha JJY9SuP3B1PwqUzRPdtSOxOQZZ4UgC+J02RYRB/U5Kc=
+@size 49187
+share/gtk-doc/html/gdk-pixbuf/annotation-glossary.html
+@sha NaqoKF2YE8536CSe8ezyHxTfNWWmQfjbfPwG2idtukU=
+@size 4298
+share/gtk-doc/html/gdk-pixbuf/api-index-2-12.html
+@sha sKKXWc5V9ZuKPSX7QQE8gtpDz9Biz/0yGAks+LtAYEo=
+@size 2097
+share/gtk-doc/html/gdk-pixbuf/api-index-2-14.html
+@sha odczPg5typLWD4V6cS51mcTADig1N9ypFvoC9GK8npo=
+@size 2797
+share/gtk-doc/html/gdk-pixbuf/api-index-2-2.html
+@sha q/OPzFGNQYDFm+6vGklv4//aod+vdiphgvRh34mfpCQ=
+@size 7140
+share/gtk-doc/html/gdk-pixbuf/api-index-2-26.html
+@sha jFGH3ps+FufUr/f/ZIHWN2en2ouy7z4ZYAW2ID/KX1U=
+@size 3198
+share/gtk-doc/html/gdk-pixbuf/api-index-2-28.html
+@sha oBhtG43wYKcoUQs+sYf8zGz0uzjzy7WEZNF9R8hNBbs=
+@size 3031
+share/gtk-doc/html/gdk-pixbuf/api-index-2-30.html
+@sha XyzmoXUeXAfG4tcCCbSssHD31KeB2+FxtT0pYV1GCxo=
+@size 2057
+share/gtk-doc/html/gdk-pixbuf/api-index-2-4.html
+@sha kV6uNozF3wODLkDE6LRzNcXVIg+LPeh/BKkgmFpPkCo=
+@size 4433
+share/gtk-doc/html/gdk-pixbuf/api-index-2-6.html
+@sha Z2mKSoyoEFVQ0SUbjAWH1PBjy0osKAU51c10A3dC+wI=
+@size 4057
+share/gtk-doc/html/gdk-pixbuf/api-index-2-8.html
+@sha mrkBcnv3bCSmzP9o2XWW8AgVi4M+wwR4ATnjBgXHXUs=
+@size 2348
+share/gtk-doc/html/gdk-pixbuf/api-index-deprecated.html
+@sha XoDcWn9JS3QhfND//j/2OjNfBeNt2hVu+C+upHUIFEs=
+@size 3323
+share/gtk-doc/html/gdk-pixbuf/api-index-full.html
+@sha zlQK0q9crX1pnu9leTTRwZBx7ddjr03JXx3ULf33LfU=
+@size 53251
+share/gtk-doc/html/gdk-pixbuf/composite.png
+@sha NYQGz2V05QOSUQxL2sW/zstytlnEyrBZFVfOXXjCkAs=
+@size 106599
+share/gtk-doc/html/gdk-pixbuf/gdk-pixbuf-Animations.html
+@sha pVU/8pDqgmTiyWuzj37T/DmSeakrn+zfj33n9lPdQXc=
+@size 61266
+share/gtk-doc/html/gdk-pixbuf/gdk-pixbuf-File-Loading.html
+@sha qlOTMSN9SQ4CT0+NYD8QASs/HtKz6ziJGVitZE9Nm8c=
+@size 48568
+share/gtk-doc/html/gdk-pixbuf/gdk-pixbuf-File-saving.html
+@sha 8so+yXzQ20PHvyX+U5UdSgOAv9zNYYWgE0nBH7Cj604=
+@size 58592
+share/gtk-doc/html/gdk-pixbuf/gdk-pixbuf-Image-Data-in-Memory.html
+@sha I6RWtg7rKakbfPHR7iCKWCVQJm0ORHYABnGtqS5wXSs=
+@size 29216
+share/gtk-doc/html/gdk-pixbuf/gdk-pixbuf-Inline-data.html
+@sha x2rHCXrJFRZh0Ndz1EbA7w5QcQJOAMSlAP6fpcnBuC8=
+@size 35246
+share/gtk-doc/html/gdk-pixbuf/gdk-pixbuf-Module-Interface.html
+@sha XzkioLr0+7/SrFWazMt1/z+XFqz+1Bd2PK9TOr71bjs=
+@size 70926
+share/gtk-doc/html/gdk-pixbuf/gdk-pixbuf-Reference-Counting-and-Memory-Mangement.html
+@sha vBpStelNmQOGFkLd4gND8h+ohNAfJV+Y1RZbf4EGZYQ=
+@size 13305
+share/gtk-doc/html/gdk-pixbuf/gdk-pixbuf-Scaling.html
+@sha jqEOH4T/ZTwJLgD/AK1tHexOm8BpPSjF4beLZ4z+pTE=
+@size 53168
+share/gtk-doc/html/gdk-pixbuf/gdk-pixbuf-The-GdkPixbuf-Structure.html
+@sha 54pMpg91Vy6Ax0t1G7Id8ECu0UHBqkDN4CGGTB7PdP8=
+@size 48823
+share/gtk-doc/html/gdk-pixbuf/gdk-pixbuf-Utilities.html
+@sha WcTYXOzJzRVG0EgUVrbWKjgYC90d2GEUk3TbwTogs2c=
+@size 18703
+share/gtk-doc/html/gdk-pixbuf/gdk-pixbuf-Versioning.html
+@sha EPUi/EixXkoSlYZO1DZGhv7cxoOvy6tcqI2oUvz2Dg4=
+@size 8415
+share/gtk-doc/html/gdk-pixbuf/gdk-pixbuf-X-Drawables-to-Pixbufs.html
+@sha 7Wnl96rxfdc93ptTXYALn8nV0cW04bxHcdHcsQAGZbM=
+@size 10418
+share/gtk-doc/html/gdk-pixbuf/gdk-pixbuf-Xlib-Rendering.html
+@sha QGky3c5BUoOLod4XhoQG70OGU+gJCFNOUE9ggkV6wUw=
+@size 21987
+share/gtk-doc/html/gdk-pixbuf/gdk-pixbuf-XlibRGB.html
+@sha QI124sOwNiXO3foyHlX5x8rbCr6MGe0RGhWyVkcGt6g=
+@size 46844
+share/gtk-doc/html/gdk-pixbuf/gdk-pixbuf-csource.html
+@sha eZYjCRgRPc2g0SN8DAbePT0B4zriypYrSBuPR3rXxkA=
+@size 6222
+share/gtk-doc/html/gdk-pixbuf/gdk-pixbuf-gdk-pixbuf-Xlib-initialization.html
+@sha ZfGKbd829C7eehHPQSKUk/65MsQfMNGTlE17qfJMTq4=
+@size 7474
+share/gtk-doc/html/gdk-pixbuf/gdk-pixbuf-gdk-pixbuf-from-drawables.html
+@sha llDoUQpGs2Y/5S+2KCGKX97df8nubIWVVMQTLxpVpFE=
+@size 2220
+share/gtk-doc/html/gdk-pixbuf/gdk-pixbuf-gdk-pixbuf-rendering.html
+@sha ln9P0IkLgqnN4+C3uw24o2nBJR3G/AeMsTwJOkh8PJQ=
+@size 2136
+share/gtk-doc/html/gdk-pixbuf/gdk-pixbuf-query-loaders.html
+@sha +ZDBBakDqGIxQejuJb7dAUGk4xy3+IGp9cW3EHqQSDs=
+@size 4055
+share/gtk-doc/html/gdk-pixbuf/gdk-pixbuf.devhelp2
+@sha OM02oRhQeGQlTj7EyVzKS/ac5N0B3rsE9BpRZBdW8dE=
+@size 27305
+share/gtk-doc/html/gdk-pixbuf/home.png
+@sha eo0ksA9ftruwRGJJtgXv3TZZjooPZaw/qy4YQ4xzuR4=
+@size 256
+share/gtk-doc/html/gdk-pixbuf/index.html
+@sha Io31uPDK84u1egvu7HY4bUcm5eRpX25lX0FxgWQSwVE=
+@size 8249
+share/gtk-doc/html/gdk-pixbuf/index.sgml
+@sha kFkVbd0W5mgTMRk3w6t2Djb5ocIx8qXKOqNSX726+k8=
+@size 39170
+share/gtk-doc/html/gdk-pixbuf/left-insensitive.png
+@sha MDNV2TysU0EJl9x6P5vWDzzg2OuueQiXjIcx/puxOf8=
+@size 395
+share/gtk-doc/html/gdk-pixbuf/left.png
+@sha Drlv53VSTC1NTxZ9eQQbF8XMiukRJHhmUTLDGhQX+0o=
+@size 262
+share/gtk-doc/html/gdk-pixbuf/license.html
+@sha a0TAB8kIN4BLTl+8eTIcGtTTSyG4MWBEvDBB0UbsYxQ=
+@size 2882
+share/gtk-doc/html/gdk-pixbuf/right-insensitive.png
+@sha eUBQxkxJhCBZkWLys7aSgjLdC+eZHZQrHcCxZw64aV4=
+@size 373
+share/gtk-doc/html/gdk-pixbuf/right.png
+@sha BimtOCgBhL4blGAvIBVweigXAVEFj3FxrtpQH88JedM=
+@size 261
+share/gtk-doc/html/gdk-pixbuf/rn01.html
+@sha SdmyRv4eZxm4JupxeW/Uh/QaA4z0zIMHTx4RGe5ehJA=
+@size 5361
+share/gtk-doc/html/gdk-pixbuf/rn02.html
+@sha GbutUEtO7rdP1/bSsajNj07j186XsQxwtR84yVmM6fQ=
+@size 2230
+share/gtk-doc/html/gdk-pixbuf/style.css
+@sha eoRgyBbt8zdnFlk4Fy8+7cqUb8DyoNpFvq9oNIyc9tg=
+@size 8696
+share/gtk-doc/html/gdk-pixbuf/up-insensitive.png
+@sha BCDyBA7r9BgJioaj+y71qWWch9N7ge6FtpMWsEWpRTo=
+@size 374
+share/gtk-doc/html/gdk-pixbuf/up.png
+@sha xUt1lI9NJjV90BgVkHjzb5De6vKc47nSvQ6mZV7xvag=
+@size 260
+share/locale/af/
+share/locale/af/LC_MESSAGES/
+share/locale/af/LC_MESSAGES/gdk-pixbuf.mo
+@sha eBDtSs17JWnWVjh4UmgBabRhUvuEe1UJnROIYHJ9RCU=
+@size 18429
+share/locale/ang/
+share/locale/ang/LC_MESSAGES/
+share/locale/ang/LC_MESSAGES/gdk-pixbuf.mo
+@sha M7zW+IrSC/VOv7hqkG8q0y2S5ZMIU/crkLgRm+Ftvuk=
+@size 4144
+share/locale/ar/LC_MESSAGES/gdk-pixbuf.mo
+@sha WOwYieKG1BMhciQm1RA/yfhCSYcIBCtqKH9nA6/unCU=
+@size 22886
+share/locale/as/
+share/locale/as/LC_MESSAGES/
+share/locale/as/LC_MESSAGES/gdk-pixbuf.mo
+@sha KWFZ1NdFAIp7rDKlRsDebdcGv+rwvsTSw3ZrpvzlDOk=
+@size 30778
+share/locale/ast/
+share/locale/ast/LC_MESSAGES/
+share/locale/ast/LC_MESSAGES/gdk-pixbuf.mo
+@sha +Et3FRcklyLXbzyVTv33kSbatTlNMY41WHj0BSoYaqc=
+@size 21132
+share/locale/az/LC_MESSAGES/gdk-pixbuf.mo
+@sha kmEwFwdv3SFZehRmtab8qGRsrkXwkSJhhi5F0j/OZ0Q=
+@size 14781
+share/locale/be/LC_MESSAGES/gdk-pixbuf.mo
+@sha XsQgRjzC07H+l/fPUCsmiq+GoVxsUOWMaR+XQCB6Zck=
+@size 28777
+share/locale/be@latin/LC_MESSAGES/gdk-pixbuf.mo
+@sha VF0zj7I/SKnP95WxQj5eLu8IFafYS4+SdtRVfDdszZU=
+@size 20197
+share/locale/bg/LC_MESSAGES/gdk-pixbuf.mo
+@sha i1Zj0Z0QDL41b/TY0zXK+qKSJKE0+ajAhgYdUC12pTA=
+@size 32119
+share/locale/bn/
+share/locale/bn/LC_MESSAGES/
+share/locale/bn/LC_MESSAGES/gdk-pixbuf.mo
+@sha qgHSilqH3KLeO4TEOu6ujA5uHmpztzGKwrJX8SBsb1k=
+@size 29839
+share/locale/bn_IN/LC_MESSAGES/gdk-pixbuf.mo
+@sha f2Sb5Lc09PWsr3804+DAXsOD0Am7yT4dkjB8Effl0w8=
+@size 31634
+share/locale/br/
+share/locale/br/LC_MESSAGES/
+share/locale/br/LC_MESSAGES/gdk-pixbuf.mo
+@sha v43E8r/JEMxtZQoh6FqE6jtRD+yXMbTMK8u72+DT2/k=
+@size 4827
+share/locale/bs/
+share/locale/bs/LC_MESSAGES/
+share/locale/bs/LC_MESSAGES/gdk-pixbuf.mo
+@sha HbGD70qM5rurB89qRPXKvs3S0b4TjwkAvvPBNRjeLVw=
+@size 14372
+share/locale/ca/LC_MESSAGES/gdk-pixbuf.mo
+@sha AImV6uBljeZbnfarQjWCr2ciAnqoLjQddqYfwPbcd+U=
+@size 23346
+share/locale/ca@valencia/LC_MESSAGES/gdk-pixbuf.mo
+@sha A5Z4RFmRse4kjDkqrf0dyTcnNGvyySc8rdAdj0Nw6Vk=
+@size 23371
+share/locale/crh/
+share/locale/crh/LC_MESSAGES/
+share/locale/crh/LC_MESSAGES/gdk-pixbuf.mo
+@sha Hn/yaLDKkc5tHy9L5RYb+tHwH1prhPdoEJObzbFs4jg=
+@size 21845
+share/locale/cs/LC_MESSAGES/gdk-pixbuf.mo
+@sha BcOqCH4oO1as1rgwY02w6MXIw+GoZ7agyBZJxNo7QsE=
+@size 22335
+share/locale/csb/
+share/locale/csb/LC_MESSAGES/
+share/locale/csb/LC_MESSAGES/gdk-pixbuf.mo
+@sha a0Qff8pDNmexF85v2rQTlQE2wP4zksjitzvtNIiUYtc=
+@size 8021
+share/locale/cy/LC_MESSAGES/gdk-pixbuf.mo
+@sha E+d8au13LJpBP8QRQTHV92MaVd5dzakeBVTXcvcRLOc=
+@size 18298
+share/locale/da/LC_MESSAGES/gdk-pixbuf.mo
+@sha wQHk0FfgeUSTTLKFb6P4jMEP894YzIItCYqrlMLBCCw=
+@size 21792
+share/locale/de/LC_MESSAGES/gdk-pixbuf.mo
+@sha bXo+1MAGTQBjQTIySVyVBiblaBpPBNnBy0lwKnNMjMo=
+@size 23055
+share/locale/dz/
+share/locale/dz/LC_MESSAGES/
+share/locale/dz/LC_MESSAGES/gdk-pixbuf.mo
+@sha 2Jyuo2A25HprefPu/JAMrTRhebHwDhvgIZfJDdPVVnQ=
+@size 36913
+share/locale/el/LC_MESSAGES/gdk-pixbuf.mo
+@sha zqKcpAfiisUk+ADbMxG8E18ZNWo+W/fzAMnO9IarWFg=
+@size 31283
+share/locale/en@shaw/
+share/locale/en@shaw/LC_MESSAGES/
+share/locale/en@shaw/LC_MESSAGES/gdk-pixbuf.mo
+@sha tnd7/0UxmdkTstDm9m/169JSJN8ompF06r+Sht1wYto=
+@size 28024
+share/locale/en_CA/
+share/locale/en_CA/LC_MESSAGES/
+share/locale/en_CA/LC_MESSAGES/gdk-pixbuf.mo
+@sha TIqyl1ruUPegVOMJ6O9LtY77j3gfkiswA4mLqv+6Eu4=
+@size 17441
+share/locale/en_GB/LC_MESSAGES/gdk-pixbuf.mo
+@sha 9zFnPL4jYwbNEa7OCxbLT9dLJkc8+5J2U2GTjuv0FbM=
+@size 20560
+share/locale/eo/LC_MESSAGES/gdk-pixbuf.mo
+@sha nl/Q5/tANQVXiClSHfF1AtQXtJddLmpT+7l079kdcJk=
+@size 20186
+share/locale/es/LC_MESSAGES/gdk-pixbuf.mo
+@sha wMjoEEUW7QWvNKJ/IxSmyPN4wujxEeLOgT3y7rf/51E=
+@size 23398
+share/locale/et/LC_MESSAGES/gdk-pixbuf.mo
+@sha RdxeLTH81AuJO0kth8zlS0lItPkFVCOE0NooIgEWyCM=
+@size 21622
+share/locale/eu/LC_MESSAGES/gdk-pixbuf.mo
+@sha K+bZpVlyfULzRtXHr2o/jmPZ0LlpE5DYnVd72CR/Qh4=
+@size 22314
+share/locale/fa/LC_MESSAGES/gdk-pixbuf.mo
+@sha e9t3VxesOI1fOzjwMrB4SZmMxrSayDGRmPQzJ6juYmM=
+@size 19616
+share/locale/fi/LC_MESSAGES/gdk-pixbuf.mo
+@sha JP2tK7A9km+pdJLgWbRD3MJg6Vv5yBaIMBf3n4QYUU4=
+@size 20146
+share/locale/fr/LC_MESSAGES/gdk-pixbuf.mo
+@sha 9b8XCiIVfF59FSmNk4wj+rAnJt9T87luiBhpeWc3h/I=
+@size 23584
+share/locale/ga/LC_MESSAGES/gdk-pixbuf.mo
+@sha s7jqjmWpsW/eNzXcOFP8zrbVQeTwhjRdheasJamMrhs=
+@size 18277
+share/locale/gl/LC_MESSAGES/gdk-pixbuf.mo
+@sha lpQBCN1FGNpqdJmzIympK118grKXKVcE8jOPRUIurC0=
+@size 23368
+share/locale/gu/
+share/locale/gu/LC_MESSAGES/
+share/locale/gu/LC_MESSAGES/gdk-pixbuf.mo
+@sha drFJFmdRvBdPc3C7gJDCGyLIPBSSWrvhZSLjvAeDHhs=
+@size 28441
+share/locale/he/LC_MESSAGES/gdk-pixbuf.mo
+@sha AQWQjYfDGaxL03Gwshp3tSFFGjft/GfCQwsQM4wyJro=
+@size 24269
+share/locale/hi/LC_MESSAGES/gdk-pixbuf.mo
+@sha LsH7lUo7NfPzbaFZ3vE2G8dxGWx7Te8iLRSAsQSiE2s=
+@size 32433
+share/locale/hr/LC_MESSAGES/gdk-pixbuf.mo
+@sha YTjYq7IkVgAW2CPuEB4aXgJti2Nw2bvXAydFD51lrt8=
+@size 16865
+share/locale/hu/LC_MESSAGES/gdk-pixbuf.mo
+@sha Y+r8Chl0fgg9gcnOFX2HvIovsRGmaWtKlnTBnrgKWjw=
+@size 22552
+share/locale/hy/
+share/locale/hy/LC_MESSAGES/
+share/locale/hy/LC_MESSAGES/gdk-pixbuf.mo
+@sha +sD/1kS0TQ81rUbI7JEd62ZFF+K66Vcls6BZzx6C6Es=
+@size 26740
+share/locale/ia/LC_MESSAGES/gdk-pixbuf.mo
+@sha Lcgp6hmXJu+7vjfJ07ZGh0geOh0floJr1U06k0KkZWk=
+@size 1077
+share/locale/id/LC_MESSAGES/gdk-pixbuf.mo
+@sha 8F7RCC+E2Pn4CfYTvE0CnXpE6i8bGDgm0tbpB9pSCqE=
+@size 21819
+share/locale/io/
+share/locale/io/LC_MESSAGES/
+share/locale/io/LC_MESSAGES/gdk-pixbuf.mo
+@sha zuOAjjmYJrDyP3O2E3WPDYvq9YeEKq8qkkD8dhGZ/ig=
+@size 5163
+share/locale/is/
+share/locale/is/LC_MESSAGES/
+share/locale/is/LC_MESSAGES/gdk-pixbuf.mo
+@sha nhO0S8X84Dio2BCd+apfZQJp5yzq88PuMErAuSMxnJE=
+@size 12731
+share/locale/it/LC_MESSAGES/gdk-pixbuf.mo
+@sha 5ge4IE2d0psboV6N03NfyLqwXIeRtLWIkqgMaqTPZ5s=
+@size 22881
+share/locale/ja/LC_MESSAGES/gdk-pixbuf.mo
+@sha N0BMhRqSR1IYukPddX40MgSW+fZPTQ9G4YHzolJuBxU=
+@size 25176
+share/locale/ka/LC_MESSAGES/gdk-pixbuf.mo
+@sha WWdnShQG0SkMT3N8o9k+GPQgFgcmsLWxNyN4PMlhYaI=
+@size 32297
+share/locale/km/
+share/locale/km/LC_MESSAGES/
+share/locale/km/LC_MESSAGES/gdk-pixbuf.mo
+@sha FXLQElBErBCm//O9cUcPYYLxSXzhQkc3GdpYVqeRolo=
+@size 37095
+share/locale/kn/
+share/locale/kn/LC_MESSAGES/
+share/locale/kn/LC_MESSAGES/gdk-pixbuf.mo
+@sha Zlhp6iY2Dvohpe77V8gkad4AylXDLE3pbOaFTme4gls=
+@size 31850
+share/locale/ko/LC_MESSAGES/gdk-pixbuf.mo
+@sha LUpu+30BSgnEJ54bwRXASXicHBWHPQj2i4phcxNLSw4=
+@size 23787
+share/locale/ku/
+share/locale/ku/LC_MESSAGES/
+share/locale/ku/LC_MESSAGES/gdk-pixbuf.mo
+@sha NyfRCZqc2Fcq4vjGHdv5XyodB5umPzj/TgSoiLMcRos=
+@size 18674
+share/locale/li/
+share/locale/li/LC_MESSAGES/
+share/locale/li/LC_MESSAGES/gdk-pixbuf.mo
+@sha 9ZbMx0k4yT9/5hWJStSZVLc/auytEs0pVjjTdCvUPNU=
+@size 12529
+share/locale/lt/LC_MESSAGES/gdk-pixbuf.mo
+@sha 8dXqsSYbZws15OOSiVQLZlDbWew1zAl8ZwvDVlFHMoA=
+@size 22787
+share/locale/lv/LC_MESSAGES/gdk-pixbuf.mo
+@sha TPNOW2JNZItC4eAMKQDs1QQn5BV2I7t+0Aidkh1CJdw=
+@size 22085
+share/locale/mai/
+share/locale/mai/LC_MESSAGES/
+share/locale/mai/LC_MESSAGES/gdk-pixbuf.mo
+@sha r1x1VInZPqCc4DfgBrXoPuakIWkmBNk/FdTyhqY3nE0=
+@size 27816
+share/locale/mi/
+share/locale/mi/LC_MESSAGES/
+share/locale/mi/LC_MESSAGES/gdk-pixbuf.mo
+@sha c7CFSwijqdrusWBw3v9cNl6N89Di3eoupx9bwN0WKA4=
+@size 11655
+share/locale/mk/
+share/locale/mk/LC_MESSAGES/
+share/locale/mk/LC_MESSAGES/gdk-pixbuf.mo
+@sha YQvqIeUb9d6xfPK7CPZzX68+pAvLHWurNbXgmX1oIEo=
+@size 23570
+share/locale/ml/
+share/locale/ml/LC_MESSAGES/
+share/locale/ml/LC_MESSAGES/gdk-pixbuf.mo
+@sha 2QaLUwMyruDGlSm6Bw20K4o4j+SITqZm/N3rg12aD/E=
+@size 38240
+share/locale/mn/
+share/locale/mn/LC_MESSAGES/
+share/locale/mn/LC_MESSAGES/gdk-pixbuf.mo
+@sha Kcr0ZCMdLNu5lQWvXday00p0EI7rhb+qFrHCIp1zz4U=
+@size 18508
+share/locale/mr/
+share/locale/mr/LC_MESSAGES/
+share/locale/mr/LC_MESSAGES/gdk-pixbuf.mo
+@sha 3RL2bESzUNoyL1FndGb4uqqwT4qIKe+/BOs0WEVYM+o=
+@size 32635
+share/locale/ms/LC_MESSAGES/gdk-pixbuf.mo
+@sha 0U9n9h6Sz425lGH3FKkCyY/te3tv/bQymlm6NW81+7k=
+@size 13204
+share/locale/my/
+share/locale/my/LC_MESSAGES/
+share/locale/my/LC_MESSAGES/gdk-pixbuf.mo
+@sha 9Pe/UqiyLww+vlfHCRRvLG0iADWyXerdKZ0K3QvFKc0=
+@size 34055
+share/locale/nb/LC_MESSAGES/gdk-pixbuf.mo
+@sha FmgJssWbxOvj5xL2piNbqDKNbGyExJCZI9BEa8yMbD4=
+@size 21177
+share/locale/nds/
+share/locale/nds/LC_MESSAGES/
+share/locale/nds/LC_MESSAGES/gdk-pixbuf.mo
+@sha sNRN7mgUWIIZ9cvEy7IsBnfRqD2ku/34R/Dxv65+e7U=
+@size 4769
+share/locale/ne/
+share/locale/ne/LC_MESSAGES/
+share/locale/ne/LC_MESSAGES/gdk-pixbuf.mo
+@sha 4aXo1OI1VShr4GnXEAwPhOsAqskVc5CDuo+2X2aTE/A=
+@size 23824
+share/locale/nl/LC_MESSAGES/gdk-pixbuf.mo
+@sha kSUG4uHDIVITBJqvysNL1BNxNj346u/v8S38pASBrho=
+@size 21202
+share/locale/nn/LC_MESSAGES/gdk-pixbuf.mo
+@sha fz2WXlaRkFgtCifZJPG73fbhYe8pn7+OpK2iehSX5UY=
+@size 18875
+share/locale/nso/
+share/locale/nso/LC_MESSAGES/
+share/locale/nso/LC_MESSAGES/gdk-pixbuf.mo
+@sha l5JoVVBEdaDKGDGKvN70IFQrg78yeHWnK8Gc0/a60V8=
+@size 16215
+share/locale/oc/
+share/locale/oc/LC_MESSAGES/
+share/locale/oc/LC_MESSAGES/gdk-pixbuf.mo
+@sha TQzQAEKPzZ9AyHQEG6MtW+oKHG8xJggyqdhgSY+P8NA=
+@size 10100
+share/locale/or/
+share/locale/or/LC_MESSAGES/
+share/locale/or/LC_MESSAGES/gdk-pixbuf.mo
+@sha 680HgfywG/wYPsvQ3rsJxPOkMohEd6EMta82QJT+O8c=
+@size 32035
+share/locale/pa/LC_MESSAGES/gdk-pixbuf.mo
+@sha XyhZ07tiqDa0v1BIz1kMv2VA55mc9+piqmQ0yQu8Crs=
+@size 32160
+share/locale/pl/LC_MESSAGES/gdk-pixbuf.mo
+@sha e6coebLyYQT0CJsEoDWrGscl7JZnSD7J9OxIY20hUII=
+@size 23169
+share/locale/ps/
+share/locale/ps/LC_MESSAGES/
+share/locale/ps/LC_MESSAGES/gdk-pixbuf.mo
+@sha 0kpyejbucL7zDx4zaNIn40RmBft63SLmVdjth9VAUxo=
+@size 2795
+share/locale/pt/LC_MESSAGES/gdk-pixbuf.mo
+@sha 1puux/5dxEYHZeOJvXQVRlnHnWfRXpCRG1Hqmwtqrdc=
+@size 22175
+share/locale/pt_BR/LC_MESSAGES/gdk-pixbuf.mo
+@sha ITEGPnRoDfOE1K07yxEB565UsgyTxP9D1yHd2QIpX0I=
+@size 22923
+share/locale/ro/LC_MESSAGES/gdk-pixbuf.mo
+@sha Nt1H7C95aAJwQ8W2ul7+TvQtOKH8wyLNF+Hv235TowM=
+@size 21764
+share/locale/ru/LC_MESSAGES/gdk-pixbuf.mo
+@sha cMgAH4ZELS5qQ00EIHTjRXDQ5ua6fgGI/rM2HJwMXdM=
+@size 32516
+share/locale/si/
+share/locale/si/LC_MESSAGES/
+share/locale/si/LC_MESSAGES/gdk-pixbuf.mo
+@sha NID07BQPhd8Xy1G5eG+atpVWmHhtLk5soHejH7wq+Z4=
+@size 24786
+share/locale/sk/LC_MESSAGES/gdk-pixbuf.mo
+@sha xfjt8jUwwcyW01BWDpRgY3NIL0XEJEHsac66uwl8RGM=
+@size 22790
+share/locale/sl/LC_MESSAGES/gdk-pixbuf.mo
+@sha XYVrI6NDqTDkyWAYaHtiH7Bp+PLPw6faIgyOIE5mLnU=
+@size 22677
+share/locale/sq/LC_MESSAGES/gdk-pixbuf.mo
+@sha 9gJhe/3H0B4L0Ogdlgh5E56rIjaf4TlgBKoTx3oGV5A=
+@size 20091
+share/locale/sr/LC_MESSAGES/gdk-pixbuf.mo
+@sha IUnTDOldycqcGqlF8DV4f4t2PSo4TDsFepiIienAqCE=
+@size 29135
+share/locale/sr@ije/
+share/locale/sr@ije/LC_MESSAGES/
+share/locale/sr@ije/LC_MESSAGES/gdk-pixbuf.mo
+@sha tWbtxdodQN1lbFMDjLUyO9uTrUwR0HELxb7ID5e1GFw=
+@size 17991
+share/locale/sr@latin/LC_MESSAGES/gdk-pixbuf.mo
+@sha 3oU/+jEBMkMBgA1ZPwGVaKuIpgsGsdgG6tnQGDEpwQM=
+@size 22264
+share/locale/sv/LC_MESSAGES/gdk-pixbuf.mo
+@sha feNTArhRCykE6t4uaMLevI6ggOgwRUnboDI1y8JoQWE=
+@size 21169
+share/locale/ta/
+share/locale/ta/LC_MESSAGES/
+share/locale/ta/LC_MESSAGES/gdk-pixbuf.mo
+@sha ITSjRSppPItouNqr1A7VJNZBC+R3O0daGCD8r5Dk+EU=
+@size 33367
+share/locale/te/LC_MESSAGES/gdk-pixbuf.mo
+@sha 6RnKLE2+XJPxH1lYaDMdzek+8hVfE3p7ZOcuqGZC9To=
+@size 36278
+share/locale/tg/
+share/locale/tg/LC_MESSAGES/
+share/locale/tg/LC_MESSAGES/gdk-pixbuf.mo
+@sha OiJtItF2N7ahaEFTW7fKG1tE+eZSV/hfLpZkDJupO/Q=
+@size 744
+share/locale/th/
+share/locale/th/LC_MESSAGES/
+share/locale/th/LC_MESSAGES/gdk-pixbuf.mo
+@sha x0VZV9iQ3MWdK/BrpwJKr6Pw+V/n1gcZymR73tGljKo=
+@size 32933
+share/locale/tk/
+share/locale/tk/LC_MESSAGES/
+share/locale/tk/LC_MESSAGES/gdk-pixbuf.mo
+@sha aHILyQ8vV/ucPEEcqr+vSU9BDYltwuIm5+4cuyBdTdk=
+@size 2011
+share/locale/tr/LC_MESSAGES/gdk-pixbuf.mo
+@sha RADuIS3/xCJqQQCzwivyfD2mpZymIUtDQFoK9Fv+o6o=
+@size 21575
+share/locale/tt/
+share/locale/tt/LC_MESSAGES/
+share/locale/tt/LC_MESSAGES/gdk-pixbuf.mo
+@sha /r4poql7rVuMYL5ikRBOExc73D9vnHog5Ff5fIr39zs=
+@size 6534
+share/locale/ug/
+share/locale/ug/LC_MESSAGES/
+share/locale/ug/LC_MESSAGES/gdk-pixbuf.mo
+@sha kXy9EXyMfM5shbYid1HK1Uok2M3kYO+LgS2oLxeR3rM=
+@size 27469
+share/locale/uk/LC_MESSAGES/gdk-pixbuf.mo
+@sha Q3ZM8+BBEwv708qSTHWBGShg7qjN20NjSS2iMzZ0RZo=
+@size 31058
+share/locale/uz/
+share/locale/uz/LC_MESSAGES/
+share/locale/uz/LC_MESSAGES/gdk-pixbuf.mo
+@sha RrLtD02GDzKkVhUhjt1GVUFJK7VBfvQxHH9w8zZHXd8=
+@size 2940
+share/locale/uz@cyrillic/
+share/locale/uz@cyrillic/LC_MESSAGES/
+share/locale/uz@cyrillic/LC_MESSAGES/gdk-pixbuf.mo
+@sha BWyEJqKMxoHpV7728bFq4mNmR+64Kw7BhZRxWMLJBCU=
+@size 3582
+share/locale/vi/LC_MESSAGES/gdk-pixbuf.mo
+@sha wPtVMvThy2EbAmmseWUjm0ZlmgxSqSMZ1K/NezRXm3I=
+@size 23226
+share/locale/wa/LC_MESSAGES/gdk-pixbuf.mo
+@sha +W/zcoXi4lYpJlHFxQwK1sk7iELT0UCJPw5upTANsxw=
+@size 15933
+share/locale/xh/
+share/locale/xh/LC_MESSAGES/
+share/locale/xh/LC_MESSAGES/gdk-pixbuf.mo
+@sha HQlkNG2ZNfDa1JQae29Lrg5+4QFRBWBUgCAEami3QrE=
+@size 17029
+share/locale/yi/
+share/locale/yi/LC_MESSAGES/
+share/locale/yi/LC_MESSAGES/gdk-pixbuf.mo
+@sha z7kScFbLZyqvb17VyuhoahTZzJYOuyaDryIEa8Tou0A=
+@size 15759
+share/locale/zh_CN/LC_MESSAGES/gdk-pixbuf.mo
+@sha ii6D/FkXcdOqTWLMQtK6oS7/Nl+97wjtXRQJ3cs3HpQ=
+@size 19956
+share/locale/zh_HK/LC_MESSAGES/gdk-pixbuf.mo
+@sha xsGeaycmg/YCdKCpG09AzgCe2u/EeObCKKBYbs6vkbQ=
+@size 20433
+share/locale/zh_TW/LC_MESSAGES/gdk-pixbuf.mo
+@sha EZNirh/ztRD0JXKTNkm/nipA+GosErC/IzuTDc16tww=
+@size 20433
+@exec %D/bin/gdk-pixbuf-query-loaders --update-cache

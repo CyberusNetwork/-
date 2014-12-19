@@ -1,0 +1,6 @@
+text shaping library
+HarfBuzz is an OpenType text shaping engine.
+
+Maintainer: Antoine Jacoutot <ajacoutot@openbsd.org>
+
+WWW: http://www.freedesktop.org/wiki/Software/HarfBuzz

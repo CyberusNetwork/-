@@ -1,0 +1,8 @@
+generic CSS parsing library for GNOME project
+The Libcroco project is an effort to build a generic Cascading Style
+Sheet (CSS) parsing and manipulation toolkit that can be used by
+applications in need of CSS support.
+
+Maintainer: The OpenBSD ports mailing-list <ports@openbsd.org>
+
+WWW: http://www.freespiders.org/projects/libcroco/

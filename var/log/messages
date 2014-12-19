@@ -1,0 +1,90 @@
+Dec 18 03:00:01 cyberus newsyslog[10551]: logfile turned over
+Dec 18 03:00:02 cyberus syslogd: restart
+Dec 18 03:02:29 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.82.81: Connection refused
+Dec 18 03:02:29 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.83.51: Connection refused
+Dec 18 03:02:29 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.82.81: Connection refused
+Dec 18 03:02:29 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.83.51: Connection refused
+Dec 18 03:02:29 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.82.81: Connection refused
+Dec 18 03:02:29 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.83.51: Connection refused
+Dec 18 03:02:46 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.82.81: Connection refused
+Dec 18 03:02:46 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.83.51: Connection refused
+Dec 18 03:02:46 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.82.81: Connection refused
+Dec 18 03:02:47 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.83.51: Connection refused
+Dec 18 03:02:47 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.82.81: Connection refused
+Dec 18 03:02:47 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.83.51: Connection refused
+Dec 18 03:03:07 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.82.81: Connection refused
+Dec 18 03:03:07 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.83.51: Connection refused
+Dec 18 03:03:07 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.82.81: Connection refused
+Dec 18 03:03:07 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.83.51: Connection refused
+Dec 18 03:03:07 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.82.81: Connection refused
+Dec 18 03:03:07 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.83.51: Connection refused
+Dec 18 03:04:08 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.82.81: Connection refused
+Dec 18 03:04:08 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.83.51: Connection refused
+Dec 18 03:04:08 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.82.81: Connection refused
+Dec 18 03:04:08 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.83.51: Connection refused
+Dec 18 03:04:08 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.82.81: Connection refused
+Dec 18 03:04:08 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.83.51: Connection refused
+Dec 18 03:06:03 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.82.81: Connection refused
+Dec 18 03:06:03 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.83.51: Connection refused
+Dec 18 03:06:03 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.82.81: Connection refused
+Dec 18 03:06:03 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.83.51: Connection refused
+Dec 18 03:06:03 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.82.81: Connection refused
+Dec 18 03:06:03 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.83.51: Connection refused
+Dec 18 03:10:09 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.82.81: Connection refused
+Dec 18 03:10:09 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.83.51: Connection refused
+Dec 18 03:10:09 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.82.81: Connection refused
+Dec 18 03:10:09 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.83.51: Connection refused
+Dec 18 03:10:09 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.82.81: Connection refused
+Dec 18 03:10:09 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.83.51: Connection refused
+Dec 18 03:16:30 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.82.81: Connection refused
+Dec 18 03:16:31 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.83.51: Connection refused
+Dec 18 03:16:31 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.82.81: Connection refused
+Dec 18 03:16:31 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.83.51: Connection refused
+Dec 18 03:16:31 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.82.81: Connection refused
+Dec 18 03:16:31 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.83.51: Connection refused
+Dec 18 03:26:56 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.82.81: Connection refused
+Dec 18 03:26:56 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.83.51: Connection refused
+Dec 18 03:26:56 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.82.81: Connection refused
+Dec 18 03:26:56 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.83.51: Connection refused
+Dec 18 03:26:56 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.82.81: Connection refused
+Dec 18 03:26:56 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.83.51: Connection refused
+Dec 18 04:00:17 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.82.81: Connection refused
+Dec 18 04:00:17 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.83.51: Connection refused
+Dec 18 04:00:17 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.82.81: Connection refused
+Dec 18 04:00:17 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.83.51: Connection refused
+Dec 18 04:00:17 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.82.81: Connection refused
+Dec 18 04:00:17 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.83.51: Connection refused
+Dec 18 04:57:34 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.82.81: Connection refused
+Dec 18 04:57:34 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.83.51: Connection refused
+Dec 18 04:57:34 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.82.81: Connection refused
+Dec 18 04:57:34 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.83.51: Connection refused
+Dec 18 04:57:34 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.82.81: Connection refused
+Dec 18 04:57:34 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.83.51: Connection refused
+Dec 18 07:21:41 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.82.81: Connection refused
+Dec 18 07:21:41 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.83.51: Connection refused
+Dec 18 07:21:41 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.82.81: Connection refused
+Dec 18 07:21:41 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.83.51: Connection refused
+Dec 18 07:21:41 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.82.81: Connection refused
+Dec 18 07:21:41 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.83.51: Connection refused
+Dec 18 12:08:13 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.82.81: Connection refused
+Dec 18 12:08:13 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.83.51: Connection refused
+Dec 18 12:08:13 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.82.81: Connection refused
+Dec 18 12:08:13 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.83.51: Connection refused
+Dec 18 12:08:13 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.82.81: Connection refused
+Dec 18 12:08:13 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.83.51: Connection refused
+Dec 18 16:00:45 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.82.81: Connection refused
+Dec 18 16:00:45 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.83.51: Connection refused
+Dec 18 16:00:45 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.82.81: Connection refused
+Dec 18 16:00:45 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.83.51: Connection refused
+Dec 18 16:00:45 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.82.81: Connection refused
+Dec 18 16:00:45 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.83.51: Connection refused
+Dec 18 18:00:01 cyberus syslogd: restart
+Dec 18 18:20:19 cyberus unbound: [18470:0] notice: init module 0: validator
+Dec 18 18:20:19 cyberus unbound: [18470:0] notice: init module 1: iterator
+Dec 18 18:39:10 cyberus unbound: [18470:0] notice: Restart of unbound 1.4.22.
+Dec 18 18:39:10 cyberus unbound: [18470:0] warning: increased limit(open files) from 512 to 4164
+Dec 18 18:39:10 cyberus unbound: [18470:0] notice: init module 0: validator
+Dec 18 18:39:10 cyberus unbound: [18470:0] notice: init module 1: iterator
+Dec 18 21:00:02 cyberus syslogd: restart
+Dec 19 09:39:06 cyberus unbound: [18470:0] notice: Restart of unbound 1.4.22.
+Dec 19 12:00:01 cyberus syslogd: restart

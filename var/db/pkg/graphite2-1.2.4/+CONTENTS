@@ -1,0 +1,44 @@
+@comment $OpenBSD: PLIST,v 1.1.1.1 2013/03/10 09:05:48 ajacoutot Exp $
+@name graphite2-1.2.4
+@url http://ftp.fr.openbsd.org/pub/OpenBSD/5.6/packages/i386/graphite2-1.2.4.tgz
+@signer openbsd-56-pkg
+@digital-signature signify:2014-08-02T10:58:35Z:RWSPEf7Vpp2j0KfxsI+QIAeYkCbYSo/LC5TDs3QcxvRBCUUmjVQZ/IwrBIRfmVJSf1prVzWACK/TtloyghhwTkgXPcxpwIZPzA8=
+@comment pkgpath=graphics/graphite2 cdrom=yes ftp=yes
+@arch i386
++DESC
+@sha focS5+HX/8iw3rVSiXD8DvyIB56PDuxAP1yFh0ea/7Y=
+@size 662
+@wantlib c.77.0
+@wantlib m.9.0
+@wantlib stdc++.57.0
+@cwd /usr/local
+@bin bin/gr2fonttest
+@sha U5KH+YbfyUAf/sq38W6vZZbG1fwSbJWnMvrV6QQHEyA=
+@size 24148
+include/graphite2/
+include/graphite2/Font.h
+@sha dYzQKhME1DEcqC4NT1xKWBH70rwJbWzhGkcWq1If82c=
+@size 18528
+include/graphite2/Log.h
+@sha pfacE+ZNYLxdHaGBBtIeo2wwSNCvUYjVRJZSdNnvzak=
+@size 2967
+include/graphite2/Segment.h
+@sha ZmpSUlt2lHSH61Ta/8hERkCoPoEnvmtemytFH1UADk4=
+@size 19567
+include/graphite2/Types.h
+@sha zqNfmvaKC1SJ1NrV1Z4Vu1SiJ6HABaklpyjJVlAb1Kc=
+@size 2366
+@lib lib/libgraphite2.so.0.0
+@sha y1LPjzdK8v1AVk0fOAc1/UN6kZRLx+TMhXn3rq8Sv4k=
+@size 189126
+lib/pkgconfig/
+lib/pkgconfig/graphite2.pc
+@sha jyAn+SgLgrak2aDWnmDLheAYFtcd5vhMvlTfFspE2pw=
+@size 152
+share/graphite2/
+share/graphite2/graphite2-release.cmake
+@sha oDh8ZSBwyEiWD6n+6MizCV/mvHP32gFaqzobt+iWE20=
+@size 828
+share/graphite2/graphite2.cmake
+@sha ZuMEDaQkBlubejOVnsSWvpzkRJ1upwqrG8qT+LDm7j4=
+@size 2934

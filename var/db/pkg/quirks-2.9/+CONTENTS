@@ -1,0 +1,21 @@
+@comment $OpenBSD: PLIST,v 1.2 2011/07/14 09:53:58 espie Exp $
+@name quirks-2.9
+@url http://ftp.fr.openbsd.org/pub/OpenBSD/5.6/packages/i386/quirks-2.9.tgz
+@signer openbsd-56-pkg
+@digital-signature signify:2014-08-02T11:06:13Z:RWSPEf7Vpp2j0IS5xEpXB/4tcMwWGM6pzUl8ym1aMIc7y5dc+FnFyIXuc9xtJLuN0aqGr6yMAVprsJ83v4byySKogEgK8GJa5QA=
+@option manual-installation
+@option always-update
+@comment pkgpath=devel/quirks cdrom=yes ftp=yes
+@arch *
++DESC
+@sha ZcShuBxD9cPsWmJce9rnoKKlC4qYQve7PwElfX/uk8Q=
+@size 348
+@cwd /usr/local
+libdata/perl5/site_perl/OpenBSD/
+libdata/perl5/site_perl/OpenBSD/Quirks/
+libdata/perl5/site_perl/OpenBSD/Quirks.pm
+@sha uQiVbgoSxtKuYeEyv36BuTF6PlFfW2dQDBYMSvA+KWQ=
+@size 15690
+libdata/perl5/site_perl/OpenBSD/Quirks/texlive.pm
+@sha DkSEloucpIi86k0PdI8cMMvuLcoeFykDX6isTUQNMc4=
+@size 3589

@@ -1,0 +1,2129 @@
+ADDASTER	/usr/src/lib/libc/stdio/vfprintf.c	/^#define ADDASTER() \\$/
+ADDCMD	/usr/src/lib/libc/gen/setmode.c	/^#define	ADDCMD(a, b, c, d)						\\$/
+ADDINC128	/usr/src/lib/libc/hash/sha2.c	/^#define ADDINC128(w,n) do {						\\$/
+ADDSARG	/usr/src/lib/libc/stdio/vfprintf.c	/^#define	ADDSARG() \\$/
+ADDTYPE	/usr/src/lib/libc/stdio/vfprintf.c	/^#define ADDTYPE(type) \\$/
+ADDUARG	/usr/src/lib/libc/stdio/vfprintf.c	/^#define	ADDUARG() \\$/
+ADJUST	/usr/src/lib/libc/gen/fts.c	/^#define	ADJUST(p) {							\\$/
+AHEAD	/usr/src/lib/libc/regex/regcomp.c	/^#define	AHEAD(pos)		dofwd(p, pos, HERE()-(pos))$/
+APPEND_DIGIT	/usr/src/lib/libc/stdio/vfprintf.c	/^#define APPEND_DIGIT(val, dig) do { \\$/
+ASSIGN	/usr/src/lib/libc/regex/regexec.c	/^#define	ASSIGN(d, s)	((d) = (s))$/
+ASTERN	/usr/src/lib/libc/regex/regcomp.c	/^#define	ASTERN(sop, pos)	EMIT(sop, HERE()-pos)$/
+AS_NS_SA	/usr/src/lib/libc/asr/res_send_async.c	/^#define AS_NS_SA(p) ((p)->as_ctx->ac_ns[(p)->as.dn/
+AUTH_PRIVATE	/usr/src/lib/libc/rpc/auth_unix.c	/^#define	AUTH_PRIVATE(auth)	((struct audata *)auth-/
+BACK	/usr/src/lib/libc/regex/regexec.c	/^#define	BACK(dst, src, n)	((dst) |= ((unsigned lon/
+BE_32_TO_8	/usr/src/lib/libc/hash/sha2.c	/^#define BE_32_TO_8(cp, src) do {					\\$/
+BE_64_TO_8	/usr/src/lib/libc/hash/sha2.c	/^#define BE_64_TO_8(cp, src) do {					\\$/
+BE_8_TO_32	/usr/src/lib/libc/hash/sha2.c	/^#define BE_8_TO_32(dst, cp) do {					\\$/
+BE_8_TO_64	/usr/src/lib/libc/hash/sha2.c	/^#define BE_8_TO_64(dst, cp) do {					\\$/
+BIGGEST	/usr/src/lib/libc/time/localtime.c	/^#define BIGGEST(a, b)	(((a) > (b)) ? (a) : (b))$/
+BITCMD	/usr/src/lib/libc/gen/setmode.c	/^} BITCMD;$/
+BLFRND	/usr/src/lib/libc/crypt/blowfish.c	/^#define BLFRND(s,p,i,j,n) (i ^= F(s,j) ^ (p)[n])$/
+BUF_INSERT	/usr/src/lib/libc/db/hash/hash_buf.c	/^#define BUF_INSERT(B, P) { \\$/
+BUF_REMOVE	/usr/src/lib/libc/db/hash/hash_buf.c	/^#define BUF_REMOVE(B) { \\$/
+Blowfish_decipher	/usr/src/lib/libc/crypt/blowfish.c	/^Blowfish_decipher(blf_ctx *c, u_int32_t *xl, u_int/
+Blowfish_encipher	/usr/src/lib/libc/crypt/blowfish.c	/^Blowfish_encipher(blf_ctx *c, u_int32_t *xl, u_int/
+Blowfish_expand0state	/usr/src/lib/libc/crypt/blowfish.c	/^Blowfish_expand0state(blf_ctx *c, const u_int8_t */
+Blowfish_expandstate	/usr/src/lib/libc/crypt/blowfish.c	/^Blowfish_expandstate(blf_ctx *c, const u_int8_t *d/
+Blowfish_initstate	/usr/src/lib/libc/crypt/blowfish.c	/^Blowfish_initstate(blf_ctx *c)$/
+Blowfish_stream2word	/usr/src/lib/libc/crypt/blowfish.c	/^Blowfish_stream2word(const u_int8_t *data, u_int16/
+CACHE_LOC	/usr/src/lib/libc/rpc/svc_udp.c	/^#define CACHE_LOC(transp, xid)	\\$/
+CACHE_PERROR	/usr/src/lib/libc/rpc/svc_udp.c	/^#define CACHE_PERROR(msg)	\\$/
+CASE	/usr/src/lib/libc/asr/asr_debug.c	/^#define CASE(n) case n: return #n$/
+CCOPY_ELT	/usr/src/lib/libc/stdlib/merge.c	/^#define CCOPY_ELT(src, dst, i)			\\$/
+CCOPY_LIST	/usr/src/lib/libc/stdlib/merge.c	/^#define CCOPY_LIST(src, dst, last)		\\$/
+CHAR	/usr/src/lib/libc/gen/glob.c	/^#define	CHAR(c)		((Char)((c)&M_ASCII))$/
+CHAR64	/usr/src/lib/libc/crypt/bcrypt.c	/^#define CHAR64(c)  ( (c) > 127 ? 255 : index_64[(c/
+CHAR64LONG16	/usr/src/lib/libc/hash/sha1.c	/^} CHAR64LONG16;$/
+CLEAR	/usr/src/lib/libc/regex/regexec.c	/^#define	CLEAR(v)	((v) = 0)$/
+CLR	/usr/src/lib/libc/gen/fts.c	/^#define	CLR(opt)	(sp->fts_options &= ~(opt))$/
+COMBINE	/usr/src/lib/libc/quad/qdivrem.c	/^#define	COMBINE(a, b) (((u_int)(a) << HALF_BITS) |/
+CONVTCK	/usr/src/lib/libc/gen/clock.c	/^#define	CONVTCK(r)	(r.tv_sec * CLOCKS_PER_SEC + \\/
+COPY	/usr/src/lib/libc/stdio/fvwrite.c	/^#define	COPY(n)	  (void)memcpy((void *)fp->_p, (vo/
+CREATE	/usr/src/lib/libc/stdlib/heapsort.c	/^#define CREATE(initval, nmemb, par_i, child_i, par/
+Ch	/usr/src/lib/libc/hash/sha2.c	/^#define Ch(x,y,z)	(((x) & (y)) ^ ((~(x)) & (z)))$/
+Char	/usr/src/lib/libc/gen/glob.c	/^typedef u_short Char;$/
+DEC	/usr/src/lib/libc/gen/syslog_r.c	/^#define	DEC()	\\$/
+DIRSIZ	/usr/src/lib/libc/gen/scandir.c	/^#define DIRSIZ(dp)							\\$/
+DROP	/usr/src/lib/libc/regex/regcomp.c	/^#define	DROP(n)	(p->slen -= (n))$/
+EAT	/usr/src/lib/libc/regex/regcomp.c	/^#define	EAT(c)	((SEE(c)) ? (NEXT(), 1) : 0)$/
+EATTWO	/usr/src/lib/libc/regex/regcomp.c	/^#define	EATTWO(a, b)	((SEETWO(a, b)) ? (NEXT2(), 1/
+EMIT	/usr/src/lib/libc/regex/regcomp.c	/^#define	EMIT(op, sopnd)	doemit(p, (sop)(op), (size/
+EQ	/usr/src/lib/libc/regex/regexec.c	/^#define	EQ(a, b)	((a) == (b))$/
+EQADDR	/usr/src/lib/libc/rpc/svc_udp.c	/^#	define EQADDR(a1, a2)	(memcmp(&a1, &a2, sizeof(a/
+ERR	/usr/src/lib/libc/gmon/gmon.c	/^#define ERR(s) write(STDERR_FILENO, s, sizeof(s))$/
+EVAL	/usr/src/lib/libc/stdlib/merge.c	/^#define EVAL(p) (u_char **)						\\$/
+EXPAND	/usr/src/lib/libc/gen/getpwent.c	/^#define	EXPAND(e)	e = t; while ((*t++ = *p++));$/
+F	/usr/src/lib/libc/crypt/blowfish.c	/^#define F(s, x) ((((s)[        (((x)>>24)&0xFF)]  /
+F0	/usr/src/lib/libc/hash/rmd160.c	/^#define F0(x, y, z) ((x) ^ (y) ^ (z))$/
+F1	/usr/src/lib/libc/hash/md5.c	/^#define F1(x, y, z) (z ^ (x & (y ^ z)))$/
+F2	/usr/src/lib/libc/hash/md5.c	/^#define F2(x, y, z) F1(z, x, y)$/
+F3	/usr/src/lib/libc/hash/md5.c	/^#define F3(x, y, z) (x ^ y ^ z)$/
+F4	/usr/src/lib/libc/hash/md5.c	/^#define F4(x, y, z) (y ^ (x | ~z))$/
+FCHDIR	/usr/src/lib/libc/gen/fts.c	/^#define	FCHDIR(sp, fd)	(!ISSET(FTS_NOCHDIR) && fch/
+FLUSH	/usr/src/lib/libc/stdio/vfprintf.c	/^#define	FLUSH() do { \\$/
+FWD	/usr/src/lib/libc/regex/regexec.c	/^#define	FWD(dst, src, n)	((dst) |= ((unsigned long/
+GETARG	/usr/src/lib/libc/stdio/vfprintf.c	/^#define GETARG(type) \\$/
+GETASTER	/usr/src/lib/libc/stdio/vfprintf.c	/^#define GETASTER(val) \\$/
+GETIOV	/usr/src/lib/libc/stdio/fvwrite.c	/^#define GETIOV(extra_work) \\$/
+GETNEXT	/usr/src/lib/libc/regex/regcomp.c	/^#define	GETNEXT()	(*p->next++)$/
+GOODFLAGS	/usr/src/lib/libc/regex/regcomp.c	/^#	define	GOODFLAGS(f)	(f)$/
+HERE	/usr/src/lib/libc/regex/regcomp.c	/^#define	HERE()		(p->slen)$/
+ICOPY_ELT	/usr/src/lib/libc/stdlib/merge.c	/^#define ICOPY_ELT(src, dst, i)					\\$/
+ICOPY_LIST	/usr/src/lib/libc/stdlib/merge.c	/^#define ICOPY_LIST(src, dst, last)				\\$/
+INC	/usr/src/lib/libc/regex/regexec.c	/^#define	INC(o)		((o) <<= 1)$/
+INCCL	/usr/src/lib/libc/stdio/vfwscanf.c	/^#define	INCCL(_c)	\\$/
+INIT	/usr/src/lib/libc/regex/regexec.c	/^#define	INIT(o, n)	((o) = (unsigned long)1 << (n))/
+INSERT	/usr/src/lib/libc/regex/regcomp.c	/^#define	INSERT(op, pos)	doinsert(p, (sop)(op), HER/
+ISDOT	/usr/src/lib/libc/gen/fts.c	/^#define	ISDOT(a)	(a[0] == '.' && (!a[1] || (a[1] =/
+ISLAST	/usr/src/lib/libc/gen/nlist.c	/^#define	ISLAST(p)	(p->n_un.n_name == 0 || p->n_un./
+ISSET	/usr/src/lib/libc/gen/fts.c	/^#define	ISSET(opt)	(sp->fts_options & (opt))$/
+ISSETBACK	/usr/src/lib/libc/regex/regexec.c	/^#define	ISSETBACK(v, n)		(((v) & ((unsigned long)h/
+ISSTATEIN	/usr/src/lib/libc/regex/regexec.c	/^#define	ISSTATEIN(v, o)	(((v) & (o)) != 0)$/
+LOCK	/usr/src/lib/libc/stdlib/random.c	/^#define LOCK() _THREAD_PRIVATE_MUTEX_LOCK(random)$/
+LRU_INSERT	/usr/src/lib/libc/db/hash/hash_buf.c	/^#define LRU_INSERT(B)	BUF_INSERT((B), LRU)$/
+L_shift	/usr/src/lib/libc/gdtoa/hexnan.c	/^L_shift(x, x1, i) ULong *x; ULong *x1; int i;$/
+MAP	/usr/src/lib/libc/regex/regcomp.c	/^#	define	MAP(n)	(((n) <= 1) ? (n) : ((n) == INFINI/
+MASK	/usr/src/lib/libc/rpc/xdr_float.c	/^#define MASK(nbits)	((1 << nbits) - 1)$/
+MASK_POINTER	/usr/src/lib/libc/stdlib/malloc.c	/^#define MASK_POINTER(p)		((void *)(((uintptr_t)(p)/
+MATCH_FAMILY	/usr/src/lib/libc/asr/getaddrinfo_async.c	/^#define MATCH_FAMILY(a, b) ((a) == matches[(b)].fa/
+MATCH_PROTO	/usr/src/lib/libc/asr/getaddrinfo_async.c	/^#define MATCH_PROTO(a, b) ((a) == matches[(b)].pro/
+MATCH_SOCKTYPE	/usr/src/lib/libc/asr/getaddrinfo_async.c	/^#define MATCH_SOCKTYPE(a, b) ((a) == matches[(b)]./
+MAX	/usr/src/lib/libc/rpc/svc_udp.c	/^#define MAX(a, b)     ((a > b) ? a : b)$/
+MD5Data	md5hl.c	/^MD5Data(const u_char *data, size_t len, char *buf)/
+MD5End	md5hl.c	/^MD5End(MD5_CTX *ctx, char *buf)$/
+MD5File	md5hl.c	/^MD5File(const char *filename, char *buf)$/
+MD5FileChunk	md5hl.c	/^MD5FileChunk(const char *filename, char *buf, off_/
+MD5Final	/usr/src/lib/libc/hash/md5.c	/^MD5Final(unsigned char digest[MD5_DIGEST_LENGTH], /
+MD5Init	/usr/src/lib/libc/hash/md5.c	/^MD5Init(MD5_CTX *ctx)$/
+MD5Pad	/usr/src/lib/libc/hash/md5.c	/^MD5Pad(MD5_CTX *ctx)$/
+MD5STEP	/usr/src/lib/libc/hash/md5.c	/^#define MD5STEP(f, w, x, y, z, data, s) \\$/
+MD5Transform	/usr/src/lib/libc/hash/md5.c	/^MD5Transform(u_int32_t state[4], const u_int8_t bl/
+MD5Update	/usr/src/lib/libc/hash/md5.c	/^MD5Update(MD5_CTX *ctx, const unsigned char *input/
+META	/usr/src/lib/libc/gen/glob.c	/^#define	META(c)		((Char)((c)|M_QUOTE))$/
+MIN	/usr/src/lib/libc/stdio/fvwrite.c	/^#define	MIN(a, b) ((a) < (b) ? (a) : (b))$/
+MMAP	/usr/src/lib/libc/stdlib/malloc.c	/^#define MMAP(sz)	mmap(NULL, (size_t)(sz), PROT_REA/
+MMAPA	/usr/src/lib/libc/stdlib/malloc.c	/^#define MMAPA(a,sz)	mmap((a), (size_t)(sz), PROT_R/
+MOD	/usr/src/lib/libc/db/hash/hash.c	/^#define MOD(x, y)		((x) & ((y) - 1))$/
+MORE	/usr/src/lib/libc/regex/regcomp.c	/^#define	MORE()	(p->next < p->end)$/
+MORE2	/usr/src/lib/libc/regex/regcomp.c	/^#define	MORE2()	(p->next+1 < p->end)$/
+MQUERY	/usr/src/lib/libc/stdlib/malloc.c	/^#define MQUERY(a, sz)	mquery((a), (size_t)(sz), PR/
+MRU_INSERT	/usr/src/lib/libc/db/hash/hash_buf.c	/^#define MRU_INSERT(B)	BUF_INSERT((B), &hashp->bufh/
+MUSTEAT	/usr/src/lib/libc/regex/regcomp.c	/^#define	MUSTEAT(c, e)	(REQUIRE(MORE() && GETNEXT()/
+MUSTNOTSEE	/usr/src/lib/libc/regex/regcomp.c	/^#define	MUSTNOTSEE(c, e)	(REQUIRE(!MORE() || PEEK(/
+MUSTSEE	/usr/src/lib/libc/regex/regcomp.c	/^#define	MUSTSEE(c, e)	(REQUIRE(MORE() && PEEK() ==/
+Maj	/usr/src/lib/libc/hash/sha2.c	/^#define Maj(x,y,z)	(((x) & (y)) ^ ((x) & (z)) ^ ((/
+Mblowfish	/usr/src/lib/libc/crypt/blowfish.c	/^main(void)$/
+Mres_random	/usr/src/lib/libc/net/res_random.c	/^main(int argc, char **argv)$/
+NAPPEND	/usr/src/lib/libc/gen/fts.c	/^#define	NAPPEND(p)							\\$/
+NEXT	/usr/src/lib/libc/regex/regcomp.c	/^#define	NEXT()	(p->next++)$/
+NEXT2	/usr/src/lib/libc/regex/regcomp.c	/^#define	NEXT2()	(p->next += 2)$/
+NEXTn	/usr/src/lib/libc/regex/regcomp.c	/^#define	NEXTn(n)	(p->next += (n))$/
+PAD	/usr/src/lib/libc/stdio/vfprintf.c	/^#define	PAD(howmany, with) do { \\$/
+PAGEROUND	/usr/src/lib/libc/stdlib/malloc.c	/^#define PAGEROUND(x)  (((x) + (MALLOC_PAGEMASK)) &/
+PAGE_INIT	/usr/src/lib/libc/db/hash/hash_page.c	/^#define	PAGE_INIT(P) { \\$/
+PEEK	/usr/src/lib/libc/regex/regcomp.c	/^#define	PEEK()	(*p->next)$/
+PEEK2	/usr/src/lib/libc/regex/regcomp.c	/^#define	PEEK2()	(*(p->next+1))$/
+PRINT	/usr/src/lib/libc/stdio/vfprintf.c	/^#define	PRINT(ptr, len) do { \\$/
+PRINTANDPAD	/usr/src/lib/libc/stdio/vfprintf.c	/^#define	PRINTANDPAD(p, ep, len, with) do {	\\$/
+PRINTOPT	/usr/src/lib/libc/asr/asr_debug.c	/^#define PRINTOPT(flag, n) if (o & (flag)) { fprint/
+PUT_32BIT_LE	/usr/src/lib/libc/hash/md5.c	/^#define PUT_32BIT_LE(cp, value) do {					\\$/
+PUT_64BIT_LE	/usr/src/lib/libc/hash/md5.c	/^#define PUT_64BIT_LE(cp, value) do {					\\$/
+PW_COPY	/usr/src/lib/libc/gen/pw_dup.c	/^#define PW_COPY(name, size)				\\$/
+PW_SIZE	/usr/src/lib/libc/gen/pw_dup.c	/^#define PW_SIZE(name, size)				\\$/
+R	/usr/src/lib/libc/hash/rmd160.c	/^#define R(a, b, c, d, e, Fj, Kj, sj, rj)          /
+R0	/usr/src/lib/libc/hash/sha1.c	/^#define R0(v,w,x,y,z,i) z+=((w&(x^y))^y)+blk0(i)+0/
+R1	/usr/src/lib/libc/hash/sha1.c	/^#define R1(v,w,x,y,z,i) z+=((w&(x^y))^y)+blk(i)+0x/
+R2	/usr/src/lib/libc/hash/sha1.c	/^#define R2(v,w,x,y,z,i) z+=(w^x^y)+blk(i)+0x6ED9EB/
+R3	/usr/src/lib/libc/hash/sha1.c	/^#define R3(v,w,x,y,z,i) z+=(((w|x)&y)|(w&x))+blk(i/
+R4	/usr/src/lib/libc/hash/sha1.c	/^#define R4(v,w,x,y,z,i) z+=(w^x^y)+blk(i)+0xCA62C1/
+RB_HEAD	/usr/src/lib/libc/stdlib/malloc.c	/^static RB_HEAD(leaktree, leaknode) leakhead;$/
+REALSIZE	/usr/src/lib/libc/stdlib/malloc.c	/^#define REALSIZE(sz, r)						\\$/
+RECSTREAM	/usr/src/lib/libc/rpc/xdr_rec.c	/^} RECSTREAM;$/
+REP	/usr/src/lib/libc/regex/regcomp.c	/^#	define	REP(f, t)	((f)*8 + (t))$/
+REQUIRE	/usr/src/lib/libc/regex/regcomp.c	/^#define	REQUIRE(co, e)	((co) || SETERROR(e))$/
+RETURN_ERROR	/usr/src/lib/libc/db/hash/hash.c	/^#define RETURN_ERROR(ERR, LOC)	{ save_errno = ERR;/
+RMD160Data	rmd160hl.c	/^RMD160Data(const u_char *data, size_t len, char *b/
+RMD160End	rmd160hl.c	/^RMD160End(RMD160_CTX *ctx, char *buf)$/
+RMD160File	rmd160hl.c	/^RMD160File(const char *filename, char *buf)$/
+RMD160FileChunk	rmd160hl.c	/^RMD160FileChunk(const char *filename, char *buf, o/
+RMD160Final	/usr/src/lib/libc/hash/rmd160.c	/^RMD160Final(u_int8_t digest[RMD160_DIGEST_LENGTH],/
+RMD160Init	/usr/src/lib/libc/hash/rmd160.c	/^RMD160Init(RMD160_CTX *ctx)$/
+RMD160Pad	/usr/src/lib/libc/hash/rmd160.c	/^RMD160Pad(RMD160_CTX *ctx)$/
+RMD160Transform	/usr/src/lib/libc/hash/rmd160.c	/^RMD160Transform(u_int32_t state[5], const u_int8_t/
+RMD160Update	/usr/src/lib/libc/hash/rmd160.c	/^RMD160Update(RMD160_CTX *ctx, const u_int8_t *inpu/
+ROL	/usr/src/lib/libc/hash/rmd160.c	/^#define ROL(n, x) (((x) << (n)) | ((x) >> (32-(n))/
+ROUND256	/usr/src/lib/libc/hash/sha2.c	/^#define ROUND256(a,b,c,d,e,f,g,h) do {					    \\$/
+ROUND256_0_TO_15	/usr/src/lib/libc/hash/sha2.c	/^#define ROUND256_0_TO_15(a,b,c,d,e,f,g,h) do {				/
+ROUND512	/usr/src/lib/libc/hash/sha2.c	/^#define ROUND512(a,b,c,d,e,f,g,h) do {					    \\$/
+ROUND512_0_TO_15	/usr/src/lib/libc/hash/sha2.c	/^#define ROUND512_0_TO_15(a,b,c,d,e,f,g,h) do {				/
+S32	/usr/src/lib/libc/hash/sha2.c	/^#define S32(b,x)	(((x) >> (b)) | ((x) << (32 - (b)/
+S64	/usr/src/lib/libc/hash/sha2.c	/^#define S64(b,x)	(((x) >> (b)) | ((x) << (64 - (b)/
+SARG	/usr/src/lib/libc/stdio/vfprintf.c	/^#define	SARG() \\$/
+SA_RLEN	/usr/src/lib/libc/net/getifaddrs.c	/^#define	SA_RLEN(sa)	((sa)->sa_len ? (((sa)->sa_len/
+SEE	/usr/src/lib/libc/regex/regcomp.c	/^#define	SEE(c)	(MORE() && PEEK() == (c))$/
+SEETWO	/usr/src/lib/libc/regex/regcomp.c	/^#define	SEETWO(a, b)	(MORE() && MORE2() && PEEK() /
+SELECT	/usr/src/lib/libc/stdlib/heapsort.c	/^#define SELECT(par_i, child_i, nmemb, par, child, /
+SET	/usr/src/lib/libc/gen/fts.c	/^#define	SET(opt)	(sp->fts_options |= (opt))$/
+SET0	/usr/src/lib/libc/regex/regexec.c	/^#define	SET0(v, n)	((v) &= ~((unsigned long)1 << (/
+SET1	/usr/src/lib/libc/regex/regexec.c	/^#define	SET1(v, n)	((v) |= (unsigned long)1 << (n)/
+SETERROR	/usr/src/lib/libc/regex/regcomp.c	/^#define	SETERROR(e)	seterr(p, (e))$/
+SETUP	/usr/src/lib/libc/regex/regexec.c	/^#define	SETUP(v)	((v) = 0)$/
+SHA1Data	sha1hl.c	/^SHA1Data(const u_char *data, size_t len, char *buf/
+SHA1End	sha1hl.c	/^SHA1End(SHA1_CTX *ctx, char *buf)$/
+SHA1File	sha1hl.c	/^SHA1File(const char *filename, char *buf)$/
+SHA1FileChunk	sha1hl.c	/^SHA1FileChunk(const char *filename, char *buf, off/
+SHA1Final	/usr/src/lib/libc/hash/sha1.c	/^SHA1Final(u_int8_t digest[SHA1_DIGEST_LENGTH], SHA/
+SHA1Init	/usr/src/lib/libc/hash/sha1.c	/^SHA1Init(SHA1_CTX *context)$/
+SHA1Pad	/usr/src/lib/libc/hash/sha1.c	/^SHA1Pad(SHA1_CTX *context)$/
+SHA1Transform	/usr/src/lib/libc/hash/sha1.c	/^SHA1Transform(u_int32_t state[5], const u_int8_t b/
+SHA1Update	/usr/src/lib/libc/hash/sha1.c	/^SHA1Update(SHA1_CTX *context, const u_int8_t *data/
+SHA224Data	sha224hl.c	/^SHA224Data(const u_char *data, size_t len, char *b/
+SHA224End	sha224hl.c	/^SHA224End(SHA2_CTX *ctx, char *buf)$/
+SHA224File	sha224hl.c	/^SHA224File(const char *filename, char *buf)$/
+SHA224FileChunk	sha224hl.c	/^SHA224FileChunk(const char *filename, char *buf, o/
+SHA224Final	/usr/src/lib/libc/hash/sha2.c	/^SHA224Final(u_int8_t digest[SHA224_DIGEST_LENGTH],/
+SHA224Init	/usr/src/lib/libc/hash/sha2.c	/^SHA224Init(SHA2_CTX *context)$/
+SHA256Data	sha256hl.c	/^SHA256Data(const u_char *data, size_t len, char *b/
+SHA256End	sha256hl.c	/^SHA256End(SHA2_CTX *ctx, char *buf)$/
+SHA256File	sha256hl.c	/^SHA256File(const char *filename, char *buf)$/
+SHA256FileChunk	sha256hl.c	/^SHA256FileChunk(const char *filename, char *buf, o/
+SHA256Final	/usr/src/lib/libc/hash/sha2.c	/^SHA256Final(u_int8_t digest[SHA256_DIGEST_LENGTH],/
+SHA256Init	/usr/src/lib/libc/hash/sha2.c	/^SHA256Init(SHA2_CTX *context)$/
+SHA256Pad	/usr/src/lib/libc/hash/sha2.c	/^SHA256Pad(SHA2_CTX *context)$/
+SHA256Transform	/usr/src/lib/libc/hash/sha2.c	/^SHA256Transform(u_int32_t state[8], const u_int8_t/
+SHA256Update	/usr/src/lib/libc/hash/sha2.c	/^SHA256Update(SHA2_CTX *context, const u_int8_t *da/
+SHA384Data	sha384hl.c	/^SHA384Data(const u_char *data, size_t len, char *b/
+SHA384End	sha384hl.c	/^SHA384End(SHA2_CTX *ctx, char *buf)$/
+SHA384File	sha384hl.c	/^SHA384File(const char *filename, char *buf)$/
+SHA384FileChunk	sha384hl.c	/^SHA384FileChunk(const char *filename, char *buf, o/
+SHA384Final	/usr/src/lib/libc/hash/sha2.c	/^SHA384Final(u_int8_t digest[SHA384_DIGEST_LENGTH],/
+SHA384Init	/usr/src/lib/libc/hash/sha2.c	/^SHA384Init(SHA2_CTX *context)$/
+SHA512Data	sha512hl.c	/^SHA512Data(const u_char *data, size_t len, char *b/
+SHA512End	sha512hl.c	/^SHA512End(SHA2_CTX *ctx, char *buf)$/
+SHA512File	sha512hl.c	/^SHA512File(const char *filename, char *buf)$/
+SHA512FileChunk	sha512hl.c	/^SHA512FileChunk(const char *filename, char *buf, o/
+SHA512Final	/usr/src/lib/libc/hash/sha2.c	/^SHA512Final(u_int8_t digest[SHA512_DIGEST_LENGTH],/
+SHA512Init	/usr/src/lib/libc/hash/sha2.c	/^SHA512Init(SHA2_CTX *context)$/
+SHA512Pad	/usr/src/lib/libc/hash/sha2.c	/^SHA512Pad(SHA2_CTX *context)$/
+SHA512Transform	/usr/src/lib/libc/hash/sha2.c	/^SHA512Transform(u_int64_t state[8], const u_int8_t/
+SHA512Update	/usr/src/lib/libc/hash/sha2.c	/^SHA512Update(SHA2_CTX *context, const u_int8_t *da/
+STATESETUP	/usr/src/lib/libc/regex/regexec.c	/^#define	STATESETUP(m, n)	\/* nothing *\/$/
+STATETEARDOWN	/usr/src/lib/libc/regex/regexec.c	/^#define	STATETEARDOWN(m)	\/* nothing *\/$/
+STATS_ADD	/usr/src/lib/libc/stdlib/malloc.c	/^#define STATS_ADD(x,y)	((x) += (y))$/
+STATS_INC	/usr/src/lib/libc/stdlib/malloc.c	/^#define STATS_INC(x)	((x)++)$/
+STATS_SETF	/usr/src/lib/libc/stdlib/malloc.c	/^#define STATS_SETF(x,y)	((x)->f = (y))$/
+STATS_SUB	/usr/src/lib/libc/stdlib/malloc.c	/^#define STATS_SUB(x,y)	((x) -= (y))$/
+STATS_ZERO	/usr/src/lib/libc/stdlib/malloc.c	/^#define STATS_ZERO(x)	((x) = 0)$/
+SWAP	/usr/src/lib/libc/stdlib/heapsort.c	/^#define	SWAP(a, b, count, size, tmp) { \\$/
+SWAPINIT	/usr/src/lib/libc/stdlib/qsort.c	/^#define SWAPINIT(a, es) swaptype = ((char *)a - (c/
+Sigma0_256	/usr/src/lib/libc/hash/sha2.c	/^#define Sigma0_256(x)	(S32(2,  (x)) ^ S32(13, (x))/
+Sigma0_512	/usr/src/lib/libc/hash/sha2.c	/^#define Sigma0_512(x)	(S64(28, (x)) ^ S64(34, (x))/
+Sigma1_256	/usr/src/lib/libc/hash/sha2.c	/^#define Sigma1_256(x)	(S32(6,  (x)) ^ S32(11, (x))/
+Sigma1_512	/usr/src/lib/libc/hash/sha2.c	/^#define Sigma1_512(x)	(S64(14, (x)) ^ S64(18, (x))/
+THERE	/usr/src/lib/libc/regex/regcomp.c	/^#define	THERE()		(p->slen - 1)$/
+THERETHERE	/usr/src/lib/libc/regex/regcomp.c	/^#define	THERETHERE()	(p->slen - 2)$/
+UARG	/usr/src/lib/libc/stdio/vfprintf.c	/^#define	UARG() \\$/
+UC	/usr/src/lib/libc/net/inet_ntoa.c	/^#define	UC(b)	(((int)b)&0xff)$/
+ULtod	/usr/src/lib/libc/gdtoa/strtord.c	/^ULtod(L, bits, exp, k) ULong *L; ULong *bits; Long/
+ULtox	/usr/src/lib/libc/gdtoa/strtorx.c	/^ULtox(L, bits, exp, k) UShort *L; ULong *bits; Lon/
+UNLOCK	/usr/src/lib/libc/stdlib/random.c	/^#define UNLOCK() _THREAD_PRIVATE_MUTEX_UNLOCK(rand/
+X	/usr/src/lib/libc/db/btree/bt_debug.c	/^#define	X(flag, name) \\$/
+_DIAGASSERT	/usr/src/lib/libc/stdlib/hcreate.c	/^#define _DIAGASSERT(x)$/
+_Exit	/usr/src/lib/libc/stdlib/_Exit.c	/^_Exit(int status)$/
+_LEGAL_ALT	/usr/src/lib/libc/time/strptime.c	/^#define	_LEGAL_ALT(x)		{ if (alt_format & ~(x)) re/
+_MCOUNT_DECL	/usr/src/lib/libc/gmon/mcount.c	/^_MCOUNT_DECL(u_long frompc, u_long selfpc) __used;/
+_NG_EMPTY	/usr/src/lib/libc/gen/getnetgrent.c	/^#define _NG_EMPTY(s)	((s) == NULL ? "" : s)$/
+_NG_ISSPACE	/usr/src/lib/libc/gen/getnetgrent.c	/^#define _NG_ISSPACE(p)	(isspace((unsigned char) (p/
+_NG_STAR	/usr/src/lib/libc/gen/getnetgrent.c	/^#define _NG_STAR(s)	(((s) == NULL || *(s) == '\\0'/
+_NukeRune	/usr/src/lib/libc/locale/rune.c	/^_NukeRune(_RuneLocale *rl)$/
+_Read_RuneMagi	/usr/src/lib/libc/locale/rune.c	/^_Read_RuneMagi(FILE *fp)$/
+_THREAD_PRIVATE	/usr/src/lib/libc/asr/asr.c	/^#	define _THREAD_PRIVATE(a, b, c)  (c)$/
+___errno	/usr/src/lib/libc/gen/errno.c	/^___errno(void)$/
+___runetype_mb	/usr/src/lib/libc/locale/___runetype_mb.c	/^___runetype_mb(wint_t c)$/
+__add_ovflpage	/usr/src/lib/libc/db/hash/hash_page.c	/^__add_ovflpage(HTAB *hashp, BUFHEAD *bufp)$/
+__adddi3	/usr/src/lib/libc/quad/adddi3.c	/^__adddi3(quad_t a, quad_t b)$/
+__addel	/usr/src/lib/libc/db/hash/hash_page.c	/^__addel(HTAB *hashp, BUFHEAD *bufp, const DBT *key/
+__anddi3	/usr/src/lib/libc/quad/anddi3.c	/^__anddi3(quad_t a, quad_t b)$/
+__ashldi3	/usr/src/lib/libc/quad/ashldi3.c	/^__ashldi3(quad_t a, qshift_t shift)$/
+__ashrdi3	/usr/src/lib/libc/quad/ashrdi3.c	/^__ashrdi3(quad_t a, qshift_t shift)$/
+__assert	/usr/src/lib/libc/gen/assert.c	/^__assert(const char *file, int line, const char *f/
+__assert2	/usr/src/lib/libc/gen/assert.c	/^__assert2(const char *file, int line, const char */
+__atexit_register_cleanup	/usr/src/lib/libc/stdlib/atexit.c	/^__atexit_register_cleanup(void (*func)(void))$/
+__attribute__	/usr/src/lib/libc/string/explicit_bzero.c	/^__attribute__((weak)) void$/
+__big_delete	/usr/src/lib/libc/db/hash/hash_bigkey.c	/^__big_delete(HTAB *hashp, BUFHEAD *bufp)$/
+__big_insert	/usr/src/lib/libc/db/hash/hash_bigkey.c	/^__big_insert(HTAB *hashp, BUFHEAD *bufp, const DBT/
+__big_keydata	/usr/src/lib/libc/db/hash/hash_bigkey.c	/^__big_keydata(HTAB *hashp, BUFHEAD *bufp, DBT *key/
+__big_return	/usr/src/lib/libc/db/hash/hash_bigkey.c	/^__big_return(HTAB *hashp, BUFHEAD *bufp, int ndx, /
+__big_split	/usr/src/lib/libc/db/hash/hash_bigkey.c	/^__big_split(HTAB *hashp,$/
+__bt_bdelete	/usr/src/lib/libc/db/btree/bt_delete.c	/^__bt_bdelete(BTREE *t, const DBT *key)$/
+__bt_close	/usr/src/lib/libc/db/btree/bt_close.c	/^__bt_close(DB *dbp)$/
+__bt_cmp	/usr/src/lib/libc/db/btree/bt_utils.c	/^__bt_cmp(BTREE *t, const DBT *k1, EPG *e)$/
+__bt_curdel	/usr/src/lib/libc/db/btree/bt_delete.c	/^__bt_curdel(BTREE *t, const DBT *key, PAGE *h, u_i/
+__bt_defcmp	/usr/src/lib/libc/db/btree/bt_utils.c	/^__bt_defcmp(const DBT *a, const DBT *b)$/
+__bt_defpfx	/usr/src/lib/libc/db/btree/bt_utils.c	/^__bt_defpfx(a, b)$/
+__bt_delete	/usr/src/lib/libc/db/btree/bt_delete.c	/^__bt_delete(const DB *dbp, const DBT *key, u_int f/
+__bt_dleaf	/usr/src/lib/libc/db/btree/bt_delete.c	/^__bt_dleaf(BTREE *t, const DBT *key, PAGE *h, u_in/
+__bt_dmpage	/usr/src/lib/libc/db/btree/bt_debug.c	/^__bt_dmpage(PAGE *h)$/
+__bt_dnpage	/usr/src/lib/libc/db/btree/bt_debug.c	/^__bt_dnpage(DB *dbp, pgno_t pgno)$/
+__bt_dpage	/usr/src/lib/libc/db/btree/bt_debug.c	/^__bt_dpage(PAGE *h)$/
+__bt_dump	/usr/src/lib/libc/db/btree/bt_debug.c	/^__bt_dump(DB *dbp)$/
+__bt_fd	/usr/src/lib/libc/db/btree/bt_open.c	/^__bt_fd(const DB *dbp)$/
+__bt_first	/usr/src/lib/libc/db/btree/bt_seq.c	/^__bt_first(BTREE *t, const DBT *key, EPG *erval, i/
+__bt_free	/usr/src/lib/libc/db/btree/bt_page.c	/^__bt_free(BTREE *t, PAGE *h)$/
+__bt_get	/usr/src/lib/libc/db/btree/bt_get.c	/^__bt_get(const DB *dbp, const DBT *key, DBT *data,/
+__bt_new	/usr/src/lib/libc/db/btree/bt_page.c	/^__bt_new(BTREE *t, pgno_t *npg)$/
+__bt_open	/usr/src/lib/libc/db/btree/bt_open.c	/^__bt_open(const char *fname, int flags, int mode, /
+__bt_pdelete	/usr/src/lib/libc/db/btree/bt_delete.c	/^__bt_pdelete(BTREE *t, PAGE *h)$/
+__bt_pgin	/usr/src/lib/libc/db/btree/bt_conv.c	/^__bt_pgin(void *t, pgno_t pg, void *pp)$/
+__bt_pgout	/usr/src/lib/libc/db/btree/bt_conv.c	/^__bt_pgout(void *t, pgno_t pg, void *pp)$/
+__bt_put	/usr/src/lib/libc/db/btree/bt_put.c	/^__bt_put(const DB *dbp, DBT *key, const DBT *data,/
+__bt_relink	/usr/src/lib/libc/db/btree/bt_delete.c	/^__bt_relink(BTREE *t, PAGE *h)$/
+__bt_ret	/usr/src/lib/libc/db/btree/bt_utils.c	/^__bt_ret(BTREE *t, EPG *e, DBT *key, DBT *rkey, DB/
+__bt_search	/usr/src/lib/libc/db/btree/bt_search.c	/^__bt_search(BTREE *t, const DBT *key, int *exactp)/
+__bt_seq	/usr/src/lib/libc/db/btree/bt_seq.c	/^__bt_seq(const DB *dbp, DBT *key, DBT *data, u_int/
+__bt_seqadv	/usr/src/lib/libc/db/btree/bt_seq.c	/^__bt_seqadv(BTREE *t, EPG *ep, int flags)$/
+__bt_seqset	/usr/src/lib/libc/db/btree/bt_seq.c	/^__bt_seqset(BTREE *t, EPG *ep, DBT *key, int flags/
+__bt_setcur	/usr/src/lib/libc/db/btree/bt_seq.c	/^__bt_setcur(BTREE *t, pgno_t pgno, u_int idx)$/
+__bt_snext	/usr/src/lib/libc/db/btree/bt_search.c	/^__bt_snext(BTREE *t, PAGE *h, const DBT *key, int /
+__bt_split	/usr/src/lib/libc/db/btree/bt_split.c	/^__bt_split(BTREE *t, PAGE *sp, const DBT *key, con/
+__bt_sprev	/usr/src/lib/libc/db/btree/bt_search.c	/^__bt_sprev(BTREE *t, PAGE *h, const DBT *key, int /
+__bt_stat	/usr/src/lib/libc/db/btree/bt_debug.c	/^__bt_stat(DB *dbp)$/
+__bt_stkacq	/usr/src/lib/libc/db/btree/bt_delete.c	/^__bt_stkacq(BTREE *t, PAGE **hp, CURSOR *c)$/
+__bt_sync	/usr/src/lib/libc/db/btree/bt_close.c	/^__bt_sync(dbp, flags)$/
+__buf_free	/usr/src/lib/libc/db/hash/hash_buf.c	/^__buf_free(HTAB *hashp, int do_free, int to_disk)$/
+__buf_init	/usr/src/lib/libc/db/hash/hash_buf.c	/^__buf_init(HTAB *hashp, int nbytes)$/
+__call_hash	/usr/src/lib/libc/db/hash/hash.c	/^__call_hash(HTAB *hashp, char *k, int len)$/
+__cmpdi2	/usr/src/lib/libc/quad/cmpdi2.c	/^__cmpdi2(quad_t a, quad_t b)$/
+__cvt	/usr/src/lib/libc/stdlib/ecvt.c	/^__cvt(double value, int ndigit, int *decpt, int *s/
+__cxa_atexit	/usr/src/lib/libc/stdlib/atexit.c	/^__cxa_atexit(void (*func)(void *), void *arg, void/
+__cxa_finalize	/usr/src/lib/libc/stdlib/atexit.c	/^__cxa_finalize(void *dso)$/
+__dberr	/usr/src/lib/libc/db/db/db.c	/^__dberr(void)$/
+__dbpanic	/usr/src/lib/libc/db/db/db.c	/^__dbpanic(DB *dbp)$/
+__delpair	/usr/src/lib/libc/db/hash/hash_page.c	/^__delpair(HTAB *hashp, BUFHEAD *bufp, int ndx)$/
+__digits10	/usr/src/lib/libc/string/strerror_r.c	/^__digits10(unsigned int num)$/
+__divdi3	/usr/src/lib/libc/quad/divdi3.c	/^__divdi3(quad_t a, quad_t b)$/
+__divsi3	/usr/src/lib/libc/arch/i386/gen/divsi3.S	/^ENTRY(__divsi3)$/
+__dn_skipname	/usr/src/lib/libc/net/res_comp.c	/^__dn_skipname(const u_char *comp_dn, const u_char /
+__dorand48	/usr/src/lib/libc/stdlib/_rand48.c	/^__dorand48(unsigned short xseed[3])$/
+__dwrite	/usr/src/lib/libc/stdio/vdprintf.c	/^__dwrite(void *cookie, const char *buf, int n)$/
+__elf_is_okay__	/usr/src/lib/libc/gen/nlist.c	/^__elf_is_okay__(Elf_Ehdr *ehdr)$/
+__expand_table	/usr/src/lib/libc/db/hash/hash.c	/^__expand_table(HTAB *hashp)$/
+__fdnlist	/usr/src/lib/libc/gen/nlist.c	/^__fdnlist(int fd, struct nlist *list)$/
+__fdopendir	/usr/src/lib/libc/gen/opendir.c	/^__fdopendir(int fd)$/
+__fgetwc_unlock	/usr/src/lib/libc/stdio/fgetwc.c	/^__fgetwc_unlock(FILE *fp)$/
+__find_arguments	/usr/src/lib/libc/stdio/vfprintf.c	/^__find_arguments(const char *fmt0, va_list ap, uni/
+__find_bigpair	/usr/src/lib/libc/db/hash/hash_bigkey.c	/^__find_bigpair(HTAB *hashp, BUFHEAD *bufp, int ndx/
+__find_last_page	/usr/src/lib/libc/db/hash/hash_bigkey.c	/^__find_last_page(HTAB *hashp, BUFHEAD **bpp)$/
+__findenv	/usr/src/lib/libc/stdlib/getenv.c	/^__findenv(const char *name, int len, int *offset)$/
+__fixdfdi	/usr/src/lib/libc/quad/fixdfdi.c	/^__fixdfdi(double x)$/
+__fixdfsi	/usr/src/lib/libc/arch/i386/gen/fixdfsi.S	/^ENTRY(__fixdfsi)$/
+__fixsfdi	/usr/src/lib/libc/quad/fixsfdi.c	/^__fixsfdi(float x)$/
+__fixunsdfdi	/usr/src/lib/libc/quad/fixunsdfdi.c	/^__fixunsdfdi(double x)$/
+__fixunsdfsi	/usr/src/lib/libc/arch/i386/gen/fixunsdfsi.S	/^ENTRY(__fixunsdfsi)$/
+__fixunssfdi	/usr/src/lib/libc/quad/fixunssfdi.c	/^__fixunssfdi(float f)$/
+__floatdidf	/usr/src/lib/libc/quad/floatdidf.c	/^__floatdidf(quad_t x)$/
+__floatdisf	/usr/src/lib/libc/quad/floatdisf.c	/^__floatdisf(quad_t x)$/
+__floatunsdidf	/usr/src/lib/libc/quad/floatunsdidf.c	/^__floatunsdidf(u_quad_t x)$/
+__flt_rounds	/usr/src/lib/libc/arch/i386/gen/flt_rounds.S	/^ENTRY(__flt_rounds)$/
+__fpclassify	/usr/src/lib/libc/gen/fpclassify.c	/^__fpclassify(double d)$/
+__fpclassifyf	/usr/src/lib/libc/gen/fpclassify.c	/^__fpclassifyf(float f)$/
+__fpclassifyl	/usr/src/lib/libc/arch/i386/gen/fpclassifyl.c	/^__fpclassifyl(long double e)$/
+__fputwc_unlock	/usr/src/lib/libc/stdio/fputwc.c	/^__fputwc_unlock(wchar_t wc, FILE *fp)$/
+__free_ovflpage	/usr/src/lib/libc/db/hash/hash_page.c	/^__free_ovflpage(HTAB *hashp, BUFHEAD *obufp)$/
+__get_buf	/usr/src/lib/libc/db/hash/hash_buf.c	/^__get_buf(HTAB *hashp, u_int32_t addr,$/
+__get_locale_env	/usr/src/lib/libc/locale/setlocale.c	/^__get_locale_env(int category)$/
+__get_page	/usr/src/lib/libc/db/hash/hash_page.c	/^__get_page(HTAB *hashp, char *p, u_int32_t bucket,/
+__gethostloop	/usr/src/lib/libc/net/ruserok.c	/^__gethostloop(struct sockaddr *raddr, socklen_t sa/
+__grow_type_table	/usr/src/lib/libc/stdio/vfprintf.c	/^__grow_type_table(unsigned char **typetable, int */
+__has_ypmaster	/usr/src/lib/libc/gen/getpwent.c	/^__has_ypmaster(void)$/
+__has_yppw	/usr/src/lib/libc/gen/getpwent.c	/^__has_yppw(void)$/
+__hash_open	/usr/src/lib/libc/db/hash/hash.c	/^__hash_open(const char *file, int flags, int mode,/
+__hashpw	/usr/src/lib/libc/gen/getpwent.c	/^__hashpw(DBT *key, char *buf, size_t buflen, struc/
+__hdtoa	/usr/src/lib/libc/gdtoa/hdtoa.c	/^__hdtoa(double d, const char *xdigs, int ndigits, /
+__hldtoa	/usr/src/lib/libc/gdtoa/hdtoa.c	/^__hldtoa(long double e, const char *xdigs, int ndi/
+__ibitmap	/usr/src/lib/libc/db/hash/hash_page.c	/^__ibitmap(HTAB *hashp, int pnum, int nbits, int nd/
+__icheckhost	/usr/src/lib/libc/net/ruserok.c	/^__icheckhost(struct sockaddr *raddr, socklen_t sal/
+__initdb	/usr/src/lib/libc/gen/getpwent.c	/^__initdb(void)$/
+__install_currentrunelocale_ctype	/usr/src/lib/libc/locale/runeglue.c	/^__install_currentrunelocale_ctype()$/
+__iordi3	/usr/src/lib/libc/quad/iordi3.c	/^__iordi3(quad_t a, quad_t b)$/
+__isctype_w	/usr/src/lib/libc/locale/iswctype.c	/^__isctype_w(wint_t c, _RuneType f)$/
+__isfinite	/usr/src/lib/libc/gen/isfinite.c	/^__isfinite(double d)$/
+__isfinitef	/usr/src/lib/libc/gen/isfinite.c	/^__isfinitef(float f)$/
+__isfinitel	/usr/src/lib/libc/arch/i386/gen/isfinitel.c	/^__isfinitel(long double e)$/
+__isinf	/usr/src/lib/libc/gen/isinf.c	/^__isinf(double d)$/
+__isinff	/usr/src/lib/libc/gen/isinf.c	/^__isinff(float f)$/
+__isinfl	/usr/src/lib/libc/arch/i386/gen/isinfl.c	/^__isinfl(long double e)$/
+__isnan	/usr/src/lib/libc/gen/isnan.c	/^__isnan(double d)$/
+__isnanf	/usr/src/lib/libc/gen/isnan.c	/^__isnanf(float f)$/
+__isnanl	/usr/src/lib/libc/arch/i386/gen/isnanl.c	/^__isnanl(long double e)$/
+__isnormal	/usr/src/lib/libc/gen/isnormal.c	/^__isnormal(double d)$/
+__isnormalf	/usr/src/lib/libc/gen/isnormal.c	/^__isnormalf(float f)$/
+__isnormall	/usr/src/lib/libc/arch/i386/gen/isnormall.c	/^__isnormall(long double e)$/
+__itoa	/usr/src/lib/libc/string/strerror_r.c	/^__itoa(int num, int sign, char *buffer, size_t sta/
+__ivaliduser	/usr/src/lib/libc/net/ruserok.c	/^__ivaliduser(FILE *hostf, in_addr_t raddrl, const /
+__ivaliduser_sa	/usr/src/lib/libc/net/ruserok.c	/^__ivaliduser_sa(FILE *hostf, struct sockaddr *radd/
+__ldtoa	/usr/src/lib/libc/gdtoa/ldtoa.c	/^__ldtoa(long double *ld, int mode, int ndigits, in/
+__lmulq	/usr/src/lib/libc/quad/muldi3.c	/^__lmulq(u_int u, u_int v)$/
+__log2	/usr/src/lib/libc/db/hash/hash_log2.c	/^__log2(u_int32_t num)$/
+__lshldi3	/usr/src/lib/libc/quad/lshldi3.c	/^__lshldi3(quad_t a, qshift_t shift)$/
+__lshrdi3	/usr/src/lib/libc/quad/lshrdi3.c	/^__lshrdi3(quad_t a, qshift_t shift)$/
+__make_ctype_tabs	/usr/src/lib/libc/locale/runeglue.c	/^__make_ctype_tabs(_RuneLocale *rl)$/
+__mbsconv	/usr/src/lib/libc/stdio/vfwprintf.c	/^__mbsconv(char *mbsarg, int prec)$/
+__moddi3	/usr/src/lib/libc/quad/moddi3.c	/^__moddi3(quad_t a, quad_t b)$/
+__muldi3	/usr/src/lib/libc/quad/muldi3.c	/^__muldi3(a, b)$/
+__negdi2	/usr/src/lib/libc/quad/negdi2.c	/^__negdi2(quad_t a)$/
+__num2string	/usr/src/lib/libc/string/strerror_r.c	/^__num2string(int num, int sign, int setid, char *b/
+__one_cmpldi2	/usr/src/lib/libc/quad/notdi2.c	/^__one_cmpldi2(quad_t a)$/
+__ovfl_delete	/usr/src/lib/libc/db/btree/bt_overflow.c	/^__ovfl_delete(BTREE *t, void *p)$/
+__ovfl_get	/usr/src/lib/libc/db/btree/bt_overflow.c	/^__ovfl_get(BTREE *t, void *p, size_t *ssz, void **/
+__ovfl_put	/usr/src/lib/libc/db/btree/bt_overflow.c	/^__ovfl_put(BTREE *t, const DBT *dbt, pgno_t *pg)$/
+__p_class	/usr/src/lib/libc/net/res_debug_syms.c	/^__p_class(int class)$/
+__p_type	/usr/src/lib/libc/net/res_debug_syms.c	/^__p_type(int type)$/
+__posix_spawn_file_actions	/usr/src/lib/libc/gen/posix_spawn.c	/^struct __posix_spawn_file_actions {$/
+__posix_spawnattr	/usr/src/lib/libc/gen/posix_spawn.c	/^struct __posix_spawnattr {$/
+__put_page	/usr/src/lib/libc/db/hash/hash_page.c	/^__put_page(HTAB *hashp, char *p, u_int32_t bucket,/
+__putlong	/usr/src/lib/libc/net/res_comp.c	/^__putlong(u_int32_t l, u_char *msgp)$/
+__putshort	/usr/src/lib/libc/net/res_comp.c	/^__putshort(u_int16_t s, u_char *msgp)$/
+__qdivrem	/usr/src/lib/libc/quad/qdivrem.c	/^__qdivrem(u_quad_t uq, u_quad_t vq, u_quad_t *arq)/
+__rec_close	/usr/src/lib/libc/db/recno/rec_close.c	/^__rec_close(DB *dbp)$/
+__rec_delete	/usr/src/lib/libc/db/recno/rec_delete.c	/^__rec_delete(const DB *dbp, const DBT *key, u_int /
+__rec_dleaf	/usr/src/lib/libc/db/recno/rec_delete.c	/^__rec_dleaf(BTREE *t, PAGE *h, u_int32_t idx)$/
+__rec_fd	/usr/src/lib/libc/db/recno/rec_open.c	/^__rec_fd(const DB *dbp)$/
+__rec_fmap	/usr/src/lib/libc/db/recno/rec_get.c	/^__rec_fmap(BTREE *t, recno_t top)$/
+__rec_fpipe	/usr/src/lib/libc/db/recno/rec_get.c	/^__rec_fpipe(BTREE *t, recno_t top)$/
+__rec_get	/usr/src/lib/libc/db/recno/rec_get.c	/^__rec_get(const DB *dbp, const DBT *key, DBT *data/
+__rec_iput	/usr/src/lib/libc/db/recno/rec_put.c	/^__rec_iput(BTREE *t, recno_t nrec, const DBT *data/
+__rec_open	/usr/src/lib/libc/db/recno/rec_open.c	/^__rec_open(const char *fname, int flags, int mode,/
+__rec_put	/usr/src/lib/libc/db/recno/rec_put.c	/^__rec_put(const DB *dbp, DBT *key, const DBT *data/
+__rec_ret	/usr/src/lib/libc/db/recno/rec_utils.c	/^__rec_ret(BTREE *t, EPG *e, recno_t nrec, DBT *key/
+__rec_search	/usr/src/lib/libc/db/recno/rec_search.c	/^__rec_search(BTREE *t, recno_t recno, enum SRCHOP /
+__rec_seq	/usr/src/lib/libc/db/recno/rec_seq.c	/^__rec_seq(const DB *dbp, DBT *key, DBT *data, u_in/
+__rec_sync	/usr/src/lib/libc/db/recno/rec_close.c	/^__rec_sync(const DB *dbp, u_int flags)$/
+__rec_vmap	/usr/src/lib/libc/db/recno/rec_get.c	/^__rec_vmap(BTREE *t, recno_t top)$/
+__rec_vpipe	/usr/src/lib/libc/db/recno/rec_get.c	/^__rec_vpipe(BTREE *t, recno_t top)$/
+__reclaim_buf	/usr/src/lib/libc/db/hash/hash_buf.c	/^__reclaim_buf(HTAB *hashp, BUFHEAD *bp)$/
+__runetype_w	/usr/src/lib/libc/locale/iswctype.c	/^__runetype_w(wint_t c)$/
+__sbprintf	/usr/src/lib/libc/stdio/vfprintf.c	/^__sbprintf(FILE *fp, const char *fmt, va_list ap)$/
+__sccl	/usr/src/lib/libc/stdio/vfscanf.c	/^__sccl(char *tab, u_char *fmt)$/
+__sclose	/usr/src/lib/libc/stdio/stdio.c	/^__sclose(void *cookie)$/
+__sflags	/usr/src/lib/libc/stdio/flags.c	/^__sflags(const char *mode, int *optr)$/
+__sflush	/usr/src/lib/libc/stdio/fflush.c	/^__sflush(FILE *fp)$/
+__sflush_locked	/usr/src/lib/libc/stdio/fflush.c	/^__sflush_locked(FILE *fp)$/
+__sfp	/usr/src/lib/libc/stdio/findfp.c	/^__sfp(void)$/
+__sfvwrite	/usr/src/lib/libc/stdio/fvwrite.c	/^__sfvwrite(FILE *fp, struct __suio *uio)$/
+__signbit	/usr/src/lib/libc/gen/signbit.c	/^__signbit(double d)$/
+__signbitf	/usr/src/lib/libc/gen/signbit.c	/^__signbitf(float f)$/
+__signbitl	/usr/src/lib/libc/arch/i386/gen/signbitl.c	/^__signbitl(long double e)$/
+__sinit	/usr/src/lib/libc/stdio/findfp.c	/^__sinit(void)$/
+__slbexpand	/usr/src/lib/libc/stdio/fgetln.c	/^__slbexpand(FILE *fp, size_t newsize)$/
+__smakebuf	/usr/src/lib/libc/stdio/makebuf.c	/^__smakebuf(FILE *fp)$/
+__split_page	/usr/src/lib/libc/db/hash/hash_page.c	/^__split_page(HTAB *hashp, u_int32_t obucket, u_int/
+__sprint	/usr/src/lib/libc/stdio/vfprintf.c	/^__sprint(FILE *fp, struct __suio *uio)$/
+__sread	/usr/src/lib/libc/stdio/stdio.c	/^__sread(void *cookie, char *buf, int n)$/
+__srefill	/usr/src/lib/libc/stdio/refill.c	/^__srefill(FILE *fp)$/
+__srget	/usr/src/lib/libc/stdio/rget.c	/^__srget(FILE *fp)$/
+__sseek	/usr/src/lib/libc/stdio/stdio.c	/^__sseek(void *cookie, fpos_t offset, int whence)$/
+__stack_smash_handler	/usr/src/lib/libc/sys/stack_protector.c	/^__stack_smash_handler(char func[], int damaged)$/
+__strsignal	/usr/src/lib/libc/string/strerror_r.c	/^__strsignal(int num, char *buf)$/
+__subdi3	/usr/src/lib/libc/quad/subdi3.c	/^__subdi3(quad_t a, quad_t b)$/
+__submore	/usr/src/lib/libc/stdio/ungetc.c	/^__submore(FILE *fp)$/
+__svfscanf	/usr/src/lib/libc/stdio/vfscanf.c	/^__svfscanf(FILE *fp, const char *fmt0, __va_list a/
+__swbuf	/usr/src/lib/libc/stdio/wbuf.c	/^__swbuf(int c, FILE *fp)$/
+__swhatbuf	/usr/src/lib/libc/stdio/makebuf.c	/^__swhatbuf(FILE *fp, size_t *bufsize, int *couldbe/
+__swrite	/usr/src/lib/libc/stdio/stdio.c	/^__swrite(void *cookie, const char *buf, int n)$/
+__swsetup	/usr/src/lib/libc/stdio/wsetup.c	/^__swsetup(FILE *fp)$/
+__sym_ntos	/usr/src/lib/libc/net/res_debug_syms.c	/^__sym_ntos(const struct res_sym *syms, int number,/
+__tfork_thread	/usr/src/lib/libc/arch/i386/sys/tfork_thread.S	/^ENTRY(__tfork_thread)$/
+__tolower_w	/usr/src/lib/libc/locale/iswctype.c	/^__tolower_w(wint_t c)$/
+__toupper_w	/usr/src/lib/libc/locale/iswctype.c	/^__toupper_w(wint_t c)$/
+__ucmpdi2	/usr/src/lib/libc/quad/ucmpdi2.c	/^__ucmpdi2(u_quad_t a, u_quad_t b)$/
+__udivdi3	/usr/src/lib/libc/quad/udivdi3.c	/^__udivdi3(u_quad_t a, u_quad_t b)$/
+__udivsi3	/usr/src/lib/libc/arch/i386/gen/udivsi3.S	/^ENTRY(__udivsi3)$/
+__umoddi3	/usr/src/lib/libc/quad/umoddi3.c	/^__umoddi3(u_quad_t a, u_quad_t b)$/
+__ungetwc	/usr/src/lib/libc/stdio/ungetwc.c	/^__ungetwc(wint_t wc, FILE *fp)$/
+__vfprintf	/usr/src/lib/libc/stdio/vfprintf.c	/^__vfprintf(FILE *fp, const char *fmt0, __va_list a/
+__vfwprintf	/usr/src/lib/libc/stdio/vfwprintf.c	/^__vfwprintf(FILE * __restrict fp, const wchar_t * /
+__vfwscanf	/usr/src/lib/libc/stdio/vfwscanf.c	/^__vfwscanf(FILE * __restrict fp, const wchar_t * _/
+__vsyslog_r	/usr/src/lib/libc/gen/syslog_r.c	/^__vsyslog_r(int pri, struct syslog_data *data,$/
+__wcsconv	/usr/src/lib/libc/stdio/vfprintf.c	/^__wcsconv(wchar_t *wcsarg, int prec)$/
+__xdrrec_getrec	/usr/src/lib/libc/rpc/xdr_rec.c	/^__xdrrec_getrec(XDR *xdrs, enum xprt_stat *statp, /
+__xdrrec_setnonblock	/usr/src/lib/libc/rpc/xdr_rec.c	/^__xdrrec_setnonblock(XDR *xdrs, int maxrec)$/
+__xfputwc	/usr/src/lib/libc/stdio/vfwprintf.c	/^__xfputwc(wchar_t wc, FILE *fp)$/
+__xordi3	/usr/src/lib/libc/quad/xordi3.c	/^__xordi3(quad_t a, quad_t b)$/
+__xprt_register	/usr/src/lib/libc/rpc/svc.c	/^__xprt_register(SVCXPRT *xprt)$/
+__ypexclude_add	/usr/src/lib/libc/yp/ypexclude.c	/^__ypexclude_add(struct _ypexclude **headp, const c/
+__ypexclude_free	/usr/src/lib/libc/yp/ypexclude.c	/^__ypexclude_free(struct _ypexclude **headp)$/
+__ypexclude_is	/usr/src/lib/libc/yp/ypexclude.c	/^__ypexclude_is(struct _ypexclude **headp, const ch/
+__ypparse	/usr/src/lib/libc/gen/getpwent.c	/^__ypparse(struct passwd *pw, char *s, int yp_pw_fl/
+__ypproto_set	/usr/src/lib/libc/gen/getpwent.c	/^__ypproto_set(struct passwd *pw, long long *buf, i/
+__yppwlookup	/usr/src/lib/libc/gen/getpwent.c	/^__yppwlookup(int lookup, char *name, uid_t uid, st/
+_add	/usr/src/lib/libc/time/strftime.c	/^_add(str, pt, ptlim)$/
+_add_rmlist	/usr/src/lib/libc/gen/auth_subr.c	/^_add_rmlist(auth_session_t *as, char *file)$/
+_auth_checknologin	/usr/src/lib/libc/gen/authenticate.c	/^_auth_checknologin(login_cap_t *lc, int print)$/
+_auth_next_arg	/usr/src/lib/libc/gen/auth_subr.c	/^_auth_next_arg(auth_session_t *as)$/
+_auth_spool	/usr/src/lib/libc/gen/auth_subr.c	/^_auth_spool(auth_session_t *as, int fd)$/
+_authenticate	/usr/src/lib/libc/rpc/svc_auth.c	/^_authenticate(struct svc_req *rqst, struct rpc_msg/
+_catclose	/usr/src/lib/libc/nls/catclose.c	/^_catclose(nl_catd catd)$/
+_catgets	/usr/src/lib/libc/nls/catgets.c	/^_catgets(nl_catd catd, int set_id, int msg_id, con/
+_catopen	/usr/src/lib/libc/nls/catopen.c	/^_catopen(const char *name, int oflag)$/
+_citrus_ctype_open	/usr/src/lib/libc/citrus/citrus_ctype.c	/^_citrus_ctype_open(struct _citrus_ctype_rec **rcc,/
+_citrus_none_ctype_mbrtowc	/usr/src/lib/libc/citrus/citrus_none.c	/^_citrus_none_ctype_mbrtowc(wchar_t * __restrict pw/
+_citrus_none_ctype_mbsinit	/usr/src/lib/libc/citrus/citrus_none.c	/^_citrus_none_ctype_mbsinit(const void * __restrict/
+_citrus_none_ctype_mbsnrtowcs	/usr/src/lib/libc/citrus/citrus_none.c	/^_citrus_none_ctype_mbsnrtowcs(wchar_t * __restrict/
+_citrus_none_ctype_wcrtomb	/usr/src/lib/libc/citrus/citrus_none.c	/^_citrus_none_ctype_wcrtomb(char * __restrict s,$/
+_citrus_none_ctype_wcsnrtombs	/usr/src/lib/libc/citrus/citrus_none.c	/^_citrus_none_ctype_wcsnrtombs(char * __restrict ds/
+_citrus_utf8_ctype_mbrtowc	/usr/src/lib/libc/citrus/citrus_utf8.c	/^_citrus_utf8_ctype_mbrtowc(wchar_t * __restrict pw/
+_citrus_utf8_ctype_mbsinit	/usr/src/lib/libc/citrus/citrus_utf8.c	/^_citrus_utf8_ctype_mbsinit(const void * __restrict/
+_citrus_utf8_ctype_mbsnrtowcs	/usr/src/lib/libc/citrus/citrus_utf8.c	/^_citrus_utf8_ctype_mbsnrtowcs(wchar_t * __restrict/
+_citrus_utf8_ctype_wcrtomb	/usr/src/lib/libc/citrus/citrus_utf8.c	/^_citrus_utf8_ctype_wcrtomb(char * __restrict s,$/
+_citrus_utf8_ctype_wcsnrtombs	/usr/src/lib/libc/citrus/citrus_utf8.c	/^_citrus_utf8_ctype_wcsnrtombs(char * __restrict ds/
+_cleanup	/usr/src/lib/libc/stdio/findfp.c	/^_cleanup(void)$/
+_conv	/usr/src/lib/libc/time/strftime.c	/^_conv(n, format, pt, ptlim)$/
+_conv_num	/usr/src/lib/libc/time/strptime.c	/^_conv_num(const unsigned char **buf, int *dest, in/
+_ctloc	/usr/src/lib/libc/time/strptime.c	/^#define	_ctloc(x)		(_CurrentTimeLocale->x)$/
+_dbm_open	/usr/src/lib/libc/db/hash/ndbm.c	/^_dbm_open(file, suff, flags, mode)$/
+_des_do_des	/usr/src/lib/libc/crypt/crypt.c	/^_des_do_des(u_int32_t l_in, u_int32_t r_in, u_int3/
+_des_init	/usr/src/lib/libc/crypt/crypt.c	/^_des_init(void)$/
+_des_setup_salt	/usr/src/lib/libc/crypt/crypt.c	/^_des_setup_salt(int32_t salt)$/
+_err	/usr/src/lib/libc/gen/err.c	/^_err(int eval, const char *fmt, ...)$/
+_errc	/usr/src/lib/libc/gen/errc.c	/^_errc(int eval, int code, const char *fmt, ...)$/
+_errx	/usr/src/lib/libc/gen/errx.c	/^_errx(int eval, const char *fmt, ...)$/
+_ether_aton	/usr/src/lib/libc/net/ethers.c	/^_ether_aton(const char *s, struct ether_addr *e)$/
+_fillhostent	/usr/src/lib/libc/asr/gethostnamadr.c	/^_fillhostent(const struct hostent *h, struct hoste/
+_fillnetent	/usr/src/lib/libc/asr/getnetnamadr.c	/^_fillnetent(const struct netent *e, struct netent /
+_find_string	/usr/src/lib/libc/time/strptime.c	/^_find_string(const u_char *bp, int *tgt, const cha/
+_findrunelocale	/usr/src/lib/libc/locale/setrunelocale.c	/^_findrunelocale(const char *path)$/
+_fmt	/usr/src/lib/libc/time/strftime.c	/^_fmt(format, t, pt, ptlim, warnp)$/
+_freeentry	/usr/src/lib/libc/locale/rune.c	/^_freeentry(_RuneRange *rr)$/
+_fwalk	/usr/src/lib/libc/stdio/fwalk.c	/^_fwalk(int (*function)(FILE *))$/
+_getgrent_yp	/usr/src/lib/libc/gen/getgrent.c	/^_getgrent_yp(int *foundyp)$/
+_gethostbyname	/usr/src/lib/libc/asr/gethostnamadr.c	/^_gethostbyname(const char *name, int af, struct ho/
+_getlong	/usr/src/lib/libc/net/res_comp.c	/^_getlong(const u_char *msgp)$/
+_getnetbyaddr	/usr/src/lib/libc/net/getnetbyaddr.c	/^_getnetbyaddr(in_addr_t net, int type)$/
+_getnetbyname	/usr/src/lib/libc/net/getnetbyname.c	/^_getnetbyname(const char *name)$/
+_getshort	/usr/src/lib/libc/net/res_comp.c	/^_getshort(const u_char *msgp)$/
+_loc	/usr/src/lib/libc/time/strftime.c	/^_loc(void)$/
+_longjmp	/usr/src/lib/libc/arch/i386/gen/_setjmp.S	/^ENTRY(_longjmp)$/
+_mcleanup	/usr/src/lib/libc/gmon/gmon.c	/^_mcleanup(void)$/
+_mktemp	/usr/src/lib/libc/stdio/mktemp.c	/^_mktemp(char *path)$/
+_newrunelocale	/usr/src/lib/libc/locale/setrunelocale.c	/^_newrunelocale(const char *path)$/
+_ng_makekey	/usr/src/lib/libc/gen/getnetgrent.c	/^_ng_makekey(const char *s1, const char *s2, size_t/
+_ng_parse	/usr/src/lib/libc/gen/getnetgrent.c	/^_ng_parse(char **p, char **name, struct netgroup */
+_ng_print	/usr/src/lib/libc/gen/getnetgrent.c	/^_ng_print(char *buf, size_t len, const struct netg/
+_ng_sl_add	/usr/src/lib/libc/gen/getnetgrent.c	/^_ng_sl_add(struct stringlist *sl, char *name)$/
+_ng_sl_find	/usr/src/lib/libc/gen/getnetgrent.c	/^_ng_sl_find(struct stringlist *sl, char *name)$/
+_ng_sl_free	/usr/src/lib/libc/gen/getnetgrent.c	/^_ng_sl_free(struct stringlist *sl, int all)$/
+_ng_sl_init	/usr/src/lib/libc/gen/getnetgrent.c	/^_ng_sl_init(void)$/
+_numerichost	/usr/src/lib/libc/asr/getnameinfo_async.c	/^_numerichost(struct asr_query *as)$/
+_parse_netid	/usr/src/lib/libc/gen/getgrouplist.c	/^_parse_netid(char *netid, uid_t uid, gid_t *groups/
+_pwhashbyname	/usr/src/lib/libc/gen/getpwent.c	/^_pwhashbyname(const char *name, char *buf, size_t /
+_pwhashbyuid	/usr/src/lib/libc/gen/getpwent.c	/^_pwhashbyuid(uid_t uid, char *buf, size_t buflen, /
+_read_netid	/usr/src/lib/libc/gen/getgrouplist.c	/^_read_netid(const char *key, uid_t uid, gid_t *gro/
+_readdir_unlocked	/usr/src/lib/libc/gen/readdir.c	/^_readdir_unlocked(DIR *dirp, struct dirent **resul/
+_recv_fd	/usr/src/lib/libc/gen/auth_subr.c	/^_recv_fd(auth_session_t *as, int fd)$/
+_rpc_dtablesize	/usr/src/lib/libc/rpc/rpc_dtablesize.c	/^_rpc_dtablesize(void)$/
+_rpcdata	/usr/src/lib/libc/rpc/getrpcent.c	/^_rpcdata(void)$/
+_rs	/usr/src/lib/libc/crypt/arc4random.c	/^static struct _rs {$/
+_rs_init	/usr/src/lib/libc/crypt/arc4random.c	/^_rs_init(u_char *buf, size_t n)$/
+_rs_random_buf	/usr/src/lib/libc/crypt/arc4random.c	/^_rs_random_buf(void *_buf, size_t n)$/
+_rs_random_u32	/usr/src/lib/libc/crypt/arc4random.c	/^_rs_random_u32(uint32_t *val)$/
+_rs_rekey	/usr/src/lib/libc/crypt/arc4random.c	/^_rs_rekey(u_char *dat, size_t datlen)$/
+_rs_stir	/usr/src/lib/libc/crypt/arc4random.c	/^_rs_stir(void)$/
+_rs_stir_if_needed	/usr/src/lib/libc/crypt/arc4random.c	/^_rs_stir_if_needed(size_t len)$/
+_rsx	/usr/src/lib/libc/crypt/arc4random.c	/^static struct _rsx {$/
+_sadd	/usr/src/lib/libc/time/wcsftime.c	/^_sadd(const char *str, wchar_t *pt, const wchar_t /
+_servname	/usr/src/lib/libc/asr/getnameinfo_async.c	/^_servname(struct asr_query *as)$/
+_seterr_reply	/usr/src/lib/libc/rpc/rpc_prot.c	/^_seterr_reply(struct rpc_msg *msg, struct rpc_err /
+_setjmp	/usr/src/lib/libc/arch/i386/gen/_setjmp.S	/^ENTRY(_setjmp)$/
+_signal	/usr/src/lib/libc/gen/signal.c	/^_signal(int s, sig_t a)$/
+_strptime	/usr/src/lib/libc/time/strptime.c	/^_strptime(const char *buf, const char *fmt, struct/
+_svcauth_null	/usr/src/lib/libc/rpc/svc_auth.c	/^_svcauth_null(void)$/
+_svcauth_short	/usr/src/lib/libc/rpc/svc_auth_unix.c	/^enum auth_stat $/
+_svcauth_unix	/usr/src/lib/libc/rpc/svc_auth_unix.c	/^_svcauth_unix(struct svc_req *rqst, struct rpc_msg/
+_tolower	/usr/src/lib/libc/gen/isctype.c	/^_tolower(int c)$/
+_toupper	/usr/src/lib/libc/gen/isctype.c	/^_toupper(int c)$/
+_towctrans_ext	/usr/src/lib/libc/locale/_wctrans.c	/^_towctrans_ext(wint_t c, struct _WCTransEntry *te)/
+_tztab	/usr/src/lib/libc/gen/timezone.c	/^_tztab(int zone, int dst)$/
+_utf8_state	/usr/src/lib/libc/citrus/citrus_utf8.c	/^struct _utf8_state {$/
+_verr	/usr/src/lib/libc/gen/verr.c	/^_verr(int eval, const char *fmt, va_list ap)$/
+_verrc	/usr/src/lib/libc/gen/verrc.c	/^_verrc(int eval, int code, const char *fmt, va_lis/
+_verrx	/usr/src/lib/libc/gen/verrx.c	/^_verrx(int eval, const char *fmt, va_list ap)$/
+_vwarn	/usr/src/lib/libc/gen/vwarn.c	/^_vwarn(const char *fmt, va_list ap)$/
+_vwarnc	/usr/src/lib/libc/gen/vwarnc.c	/^_vwarnc(int code, const char *fmt, va_list ap)$/
+_vwarnx	/usr/src/lib/libc/gen/vwarnx.c	/^_vwarnx(const char *fmt, va_list ap)$/
+_warn	/usr/src/lib/libc/gen/warn.c	/^_warn(const char *fmt, ...)$/
+_warnc	/usr/src/lib/libc/gen/warnc.c	/^_warnc(int code, const char *fmt, ...)$/
+_warnx	/usr/src/lib/libc/gen/warnx.c	/^_warnx(const char *fmt, ...)$/
+_wctrans_init	/usr/src/lib/libc/locale/_wctrans.c	/^_wctrans_init(_RuneLocale *rl)$/
+_wctype_init	/usr/src/lib/libc/locale/rune.c	/^_wctype_init(_RuneLocale *rl)$/
+_xpg4_setrunelocale	/usr/src/lib/libc/locale/setrunelocale.c	/^_xpg4_setrunelocale(const char *locname)$/
+_yconv	/usr/src/lib/libc/time/strftime.c	/^_yconv(a, b, convert_top, convert_yy, pt, ptlim)$/
+_yp_check	/usr/src/lib/libc/yp/_yp_check.c	/^_yp_check(char **dom)$/
+_yp_dobind	/usr/src/lib/libc/yp/yp_bind.c	/^_yp_dobind(const char *dom, struct dom_binding **y/
+_yp_gethostnamadr	/usr/src/lib/libc/asr/gethostnamadr_async.c	/^_yp_gethostnamadr(int type, const void *data)$/
+_yp_unbind	/usr/src/lib/libc/yp/yp_bind.c	/^_yp_unbind(struct dom_binding *ypb)$/
+_ypmode	/usr/src/lib/libc/gen/getpwent.c	/^enum _ypmode { YPMODE_NONE, YPMODE_FULL, YPMODE_US/
+a64l	/usr/src/lib/libc/stdlib/a64l.c	/^a64l(const char *s)$/
+abort	/usr/src/lib/libc/stdlib/abort.c	/^abort(void)$/
+abs	/usr/src/lib/libc/arch/i386/stdlib/abs.S	/^ENTRY(abs)$/
+accepted	/usr/src/lib/libc/rpc/rpc_prot.c	/^accepted(enum accept_stat acpt_stat, struct rpc_er/
+addcmd	/usr/src/lib/libc/gen/setmode.c	/^addcmd(BITCMD *set, int op, int who, int oparg, u_/
+addgroup	/usr/src/lib/libc/gen/getnetgrent.c	/^addgroup(char *ypdom, struct stringlist *sl, char /
+addrinfo_add	/usr/src/lib/libc/asr/getaddrinfo_async.c	/^addrinfo_add(struct asr_query *as, const struct so/
+addrinfo_from_file	/usr/src/lib/libc/asr/getaddrinfo_async.c	/^addrinfo_from_file(struct asr_query *as, int famil/
+addrinfo_from_pkt	/usr/src/lib/libc/asr/getaddrinfo_async.c	/^addrinfo_from_pkt(struct asr_query *as, char *pkt,/
+addrinfo_from_yp	/usr/src/lib/libc/asr/getaddrinfo_async.c	/^addrinfo_from_yp(struct asr_query *as, int family,/
+alarm	/usr/src/lib/libc/gen/alarm.c	/^alarm(unsigned int secs)$/
+all_on	/usr/src/lib/libc/gdtoa/strtodg.c	/^all_on(b, n) Bigint *b; int n;$/
+alloc_chunk_info	/usr/src/lib/libc/stdlib/malloc.c	/^alloc_chunk_info(struct dir_info *d, int bits)$/
+alloc_segs	/usr/src/lib/libc/db/hash/hash.c	/^alloc_segs(HTAB *hashp, int nsegs)$/
+allocset	/usr/src/lib/libc/regex/regcomp.c	/^allocset(struct parse *p)$/
+alphachar	/usr/src/lib/libc/net/res_comp.c	/^#define alphachar(c) (((c) >= 0x41 && (c) <= 0x5a)/
+alphasort	/usr/src/lib/libc/gen/scandir.c	/^alphasort(const struct dirent **d1, const struct d/
+any_on	/usr/src/lib/libc/gdtoa/smisc.c	/^any_on(b, k) Bigint *b; int k;$/
+arc4random	/usr/src/lib/libc/crypt/arc4random.c	/^arc4random(void)$/
+arc4random_buf	/usr/src/lib/libc/crypt/arc4random.c	/^arc4random_buf(void *buf, size_t n)$/
+arc4random_uniform	/usr/src/lib/libc/crypt/arc4random_uniform.c	/^arc4random_uniform(uint32_t upper_bound)$/
+area	/usr/src/lib/libc/rpc/svc_auth_unix.c	/^	struct area {$/
+arg	/usr/src/lib/libc/stdio/vfprintf.c	/^union arg {$/
+ascii_to_bin	/usr/src/lib/libc/crypt/crypt.c	/^ascii_to_bin(char ch)$/
+asctime	/usr/src/lib/libc/time/asctime.c	/^asctime(timeptr)$/
+asctime3	/usr/src/lib/libc/time/asctime.c	/^asctime3(timeptr, buf, bufsize)$/
+asctime_r	/usr/src/lib/libc/time/asctime.c	/^asctime_r(timeptr, buf)$/
+asprintf	/usr/src/lib/libc/stdio/asprintf.c	/^asprintf(char **str, const char *fmt, ...)$/
+asr_abort	/usr/src/lib/libc/asr/asr.c	/^asr_abort(struct asr_query *as)$/
+asr_addr_as_fqdn	/usr/src/lib/libc/asr/asr_utils.c	/^asr_addr_as_fqdn(const char *addr, int family, cha/
+asr_async_free	/usr/src/lib/libc/asr/asr.c	/^asr_async_free(struct asr_query *as)$/
+asr_async_new	/usr/src/lib/libc/asr/asr.c	/^asr_async_new(struct asr_ctx *ac, int type)$/
+asr_check_reload	/usr/src/lib/libc/asr/asr.c	/^asr_check_reload(struct asr *asr)$/
+asr_ctx_add_searchdomain	/usr/src/lib/libc/asr/asr.c	/^asr_ctx_add_searchdomain(struct asr_ctx *ac, const/
+asr_ctx_create	/usr/src/lib/libc/asr/asr.c	/^asr_ctx_create(void)$/
+asr_ctx_envopts	/usr/src/lib/libc/asr/asr.c	/^asr_ctx_envopts(struct asr_ctx *ac)$/
+asr_ctx_free	/usr/src/lib/libc/asr/asr.c	/^asr_ctx_free(struct asr_ctx *ac)$/
+asr_ctx_from_file	/usr/src/lib/libc/asr/asr.c	/^asr_ctx_from_file(struct asr_ctx *ac, const char */
+asr_ctx_from_string	/usr/src/lib/libc/asr/asr.c	/^asr_ctx_from_string(struct asr_ctx *ac, const char/
+asr_ctx_parse	/usr/src/lib/libc/asr/asr.c	/^asr_ctx_parse(struct asr_ctx *ac, const char *str)/
+asr_ctx_ref	/usr/src/lib/libc/asr/asr.c	/^asr_ctx_ref(struct asr_ctx *ac)$/
+asr_ctx_unref	/usr/src/lib/libc/asr/asr.c	/^asr_ctx_unref(struct asr_ctx *ac)$/
+asr_dname_from_fqdn	/usr/src/lib/libc/asr/asr_utils.c	/^asr_dname_from_fqdn(const char *str, char *dst, si/
+asr_dump_config	/usr/src/lib/libc/asr/asr_debug.c	/^asr_dump_config(FILE *f, struct asr *a)$/
+asr_dump_packet	/usr/src/lib/libc/asr/asr_debug.c	/^asr_dump_packet(FILE *f, const void *data, size_t /
+asr_hostalias	/usr/src/lib/libc/asr/asr.c	/^asr_hostalias(struct asr_ctx *ac, const char *name/
+asr_iter_db	/usr/src/lib/libc/asr/asr.c	/^asr_iter_db(struct asr_query *as)$/
+asr_make_fqdn	/usr/src/lib/libc/asr/asr.c	/^asr_make_fqdn(const char *name, const char *domain/
+asr_ndots	/usr/src/lib/libc/asr/asr.c	/^asr_ndots(const char *s)$/
+asr_pack_header	/usr/src/lib/libc/asr/asr_utils.c	/^asr_pack_header(struct asr_pack *p, const struct a/
+asr_pack_init	/usr/src/lib/libc/asr/asr_utils.c	/^asr_pack_init(struct asr_pack *pack, char *buf, si/
+asr_pack_query	/usr/src/lib/libc/asr/asr_utils.c	/^asr_pack_query(struct asr_pack *p, uint16_t type, /
+asr_parse_namedb_line	/usr/src/lib/libc/asr/asr.c	/^asr_parse_namedb_line(FILE *file, char **tokens, i/
+asr_parse_nameserver	/usr/src/lib/libc/asr/asr.c	/^asr_parse_nameserver(struct sockaddr *sa, const ch/
+asr_querystr	/usr/src/lib/libc/asr/asr_debug.c	/^asr_querystr(int type)$/
+asr_resolver	/usr/src/lib/libc/asr/asr.c	/^asr_resolver(const char *conf)$/
+asr_resolver_done	/usr/src/lib/libc/asr/asr.c	/^asr_resolver_done(void *arg)$/
+asr_run	/usr/src/lib/libc/asr/asr.c	/^asr_run(struct asr_query *as, struct asr_result *a/
+asr_run_sync	/usr/src/lib/libc/asr/asr.c	/^asr_run_sync(struct asr_query *as, struct asr_resu/
+asr_sockaddr_from_str	/usr/src/lib/libc/asr/asr_utils.c	/^asr_sockaddr_from_str(struct sockaddr *sa, int fam/
+asr_statestr	/usr/src/lib/libc/asr/asr_debug.c	/^asr_statestr(int state)$/
+asr_strdname	/usr/src/lib/libc/asr/asr.c	/^asr_strdname(const char *_dname, char *buf, size_t/
+asr_transitionstr	/usr/src/lib/libc/asr/asr_debug.c	/^asr_transitionstr(int type)$/
+asr_unpack_header	/usr/src/lib/libc/asr/asr_utils.c	/^asr_unpack_header(struct asr_unpack *p, struct asr/
+asr_unpack_init	/usr/src/lib/libc/asr/asr_utils.c	/^asr_unpack_init(struct asr_unpack *unpack, const c/
+asr_unpack_query	/usr/src/lib/libc/asr/asr_utils.c	/^asr_unpack_query(struct asr_unpack *p, struct asr_/
+asr_unpack_rr	/usr/src/lib/libc/asr/asr_utils.c	/^asr_unpack_rr(struct asr_unpack *p, struct asr_dns/
+asr_use_resolver	/usr/src/lib/libc/asr/asr.c	/^asr_use_resolver(void *arg)$/
+asterchar	/usr/src/lib/libc/net/res_comp.c	/^#define asterchar(c) ((c) == 0x2a)$/
+atof	/usr/src/lib/libc/stdlib/atof.c	/^atof(const char *ascii)$/
+atoi	/usr/src/lib/libc/stdlib/atoi.c	/^atoi(const char *str)$/
+atol	/usr/src/lib/libc/stdlib/atol.c	/^atol(const char *str)$/
+atoll	/usr/src/lib/libc/stdlib/atoll.c	/^atoll(str)$/
+audata	/usr/src/lib/libc/rpc/auth_unix.c	/^struct audata {$/
+auth_approval	/usr/src/lib/libc/gen/authenticate.c	/^auth_approval(auth_session_t *as, login_cap_t *lc,/
+auth_call	/usr/src/lib/libc/gen/auth_subr.c	/^auth_call(auth_session_t *as, char *path, ...)$/
+auth_cat	/usr/src/lib/libc/gen/authenticate.c	/^auth_cat(char *file)$/
+auth_challenge	/usr/src/lib/libc/gen/auth_subr.c	/^auth_challenge(auth_session_t *as)$/
+auth_check_change	/usr/src/lib/libc/gen/auth_subr.c	/^auth_check_change(auth_session_t *as)$/
+auth_check_expire	/usr/src/lib/libc/gen/auth_subr.c	/^auth_check_expire(auth_session_t *as)$/
+auth_checknologin	/usr/src/lib/libc/gen/authenticate.c	/^auth_checknologin(login_cap_t *lc)$/
+auth_clean	/usr/src/lib/libc/gen/auth_subr.c	/^auth_clean(auth_session_t *as)$/
+auth_close	/usr/src/lib/libc/gen/auth_subr.c	/^auth_close(auth_session_t *as)$/
+auth_clrenv	/usr/src/lib/libc/gen/auth_subr.c	/^auth_clrenv(auth_session_t *as)$/
+auth_clroption	/usr/src/lib/libc/gen/auth_subr.c	/^auth_clroption(auth_session_t *as, char *option)$/
+auth_clroptions	/usr/src/lib/libc/gen/auth_subr.c	/^auth_clroptions(auth_session_t *as)$/
+auth_errmsg	/usr/src/lib/libc/rpc/clnt_perror.c	/^auth_errmsg(enum auth_stat stat)$/
+auth_getitem	/usr/src/lib/libc/gen/auth_subr.c	/^auth_getitem(auth_session_t *as, auth_item_t item)/
+auth_getpwd	/usr/src/lib/libc/gen/auth_subr.c	/^struct passwd *auth_getpwd(auth_session_t *as)	{ r/
+auth_getstate	/usr/src/lib/libc/gen/auth_subr.c	/^int	auth_getstate(auth_session_t *as)	{ return (as/
+auth_getvalue	/usr/src/lib/libc/gen/auth_subr.c	/^auth_getvalue(auth_session_t *as, char *what)$/
+auth_mkvalue	/usr/src/lib/libc/gen/authenticate.c	/^auth_mkvalue(char *value)$/
+auth_open	/usr/src/lib/libc/gen/auth_subr.c	/^auth_open(void)$/
+auth_session_t	/usr/src/lib/libc/gen/auth_subr.c	/^struct auth_session_t {$/
+auth_set_va_list	/usr/src/lib/libc/gen/auth_subr.c	/^void	auth_set_va_list(auth_session_t *as, va_list /
+auth_setdata	/usr/src/lib/libc/gen/auth_subr.c	/^auth_setdata(auth_session_t *as, void *ptr, size_t/
+auth_setenv	/usr/src/lib/libc/gen/auth_subr.c	/^auth_setenv(auth_session_t *as)$/
+auth_setitem	/usr/src/lib/libc/gen/auth_subr.c	/^auth_setitem(auth_session_t *as, auth_item_t item,/
+auth_setoption	/usr/src/lib/libc/gen/auth_subr.c	/^auth_setoption(auth_session_t *as, char *n, char */
+auth_setpwd	/usr/src/lib/libc/gen/auth_subr.c	/^auth_setpwd(auth_session_t *as, struct passwd *pwd/
+auth_setstate	/usr/src/lib/libc/gen/auth_subr.c	/^void	auth_setstate(auth_session_t *as, int s){ as-/
+auth_userchallenge	/usr/src/lib/libc/gen/authenticate.c	/^auth_userchallenge(char *name, char *style, char */
+auth_usercheck	/usr/src/lib/libc/gen/authenticate.c	/^auth_usercheck(char *name, char *style, char *type/
+auth_userokay	/usr/src/lib/libc/gen/authenticate.c	/^auth_userokay(char *name, char *style, char *type,/
+auth_userresponse	/usr/src/lib/libc/gen/authenticate.c	/^auth_userresponse(auth_session_t *as, char *respon/
+auth_verify	/usr/src/lib/libc/gen/authenticate.c	/^auth_verify(auth_session_t *as, char *style, char /
+authdata	/usr/src/lib/libc/gen/auth_subr.c	/^struct authdata {$/
+authnone_create	/usr/src/lib/libc/rpc/auth_none.c	/^authnone_create(void)$/
+authnone_destroy	/usr/src/lib/libc/rpc/auth_none.c	/^authnone_destroy(struct __rpc_auth *none)$/
+authnone_marshal	/usr/src/lib/libc/rpc/auth_none.c	/^authnone_marshal(AUTH *client, XDR *xdrs)$/
+authnone_private	/usr/src/lib/libc/rpc/auth_none.c	/^static struct authnone_private {$/
+authnone_refresh	/usr/src/lib/libc/rpc/auth_none.c	/^authnone_refresh(struct __rpc_auth *none)$/
+authnone_validate	/usr/src/lib/libc/rpc/auth_none.c	/^authnone_validate(struct __rpc_auth *none, struct /
+authnone_verf	/usr/src/lib/libc/rpc/auth_none.c	/^authnone_verf(struct __rpc_auth *none)$/
+authopts	/usr/src/lib/libc/gen/auth_subr.c	/^struct authopts {$/
+authunix_create	/usr/src/lib/libc/rpc/auth_unix.c	/^authunix_create(char *machname, int uid, int gid, /
+authunix_create_default	/usr/src/lib/libc/rpc/auth_unix.c	/^authunix_create_default(void)$/
+authunix_destroy	/usr/src/lib/libc/rpc/auth_unix.c	/^authunix_destroy(AUTH *auth)$/
+authunix_marshal	/usr/src/lib/libc/rpc/auth_unix.c	/^authunix_marshal(AUTH *auth, XDR *xdrs)$/
+authunix_nextverf	/usr/src/lib/libc/rpc/auth_unix.c	/^authunix_nextverf(AUTH *auth)$/
+authunix_refresh	/usr/src/lib/libc/rpc/auth_unix.c	/^authunix_refresh(AUTH *auth)$/
+authunix_validate	/usr/src/lib/libc/rpc/auth_unix.c	/^authunix_validate(AUTH *auth, struct opaque_auth */
+b64_ntop	/usr/src/lib/libc/net/base64.c	/^b64_ntop(src, srclength, target, targsize)$/
+b64_pton	/usr/src/lib/libc/net/base64.c	/^b64_pton(src, target, targsize)$/
+basename	/usr/src/lib/libc/gen/basename.c	/^basename(const char *path)$/
+bcmp	/usr/src/lib/libc/arch/i386/string/bcmp.S	/^ENTRY(bcmp)$/
+bcopy	/usr/src/lib/libc/arch/i386/string/bcopy.S	/^ENTRY(bcopy)$/
+bcrypt	/usr/src/lib/libc/crypt/bcrypt.c	/^bcrypt(const char *pass, const char *salt)$/
+bcrypt_checkpass	/usr/src/lib/libc/crypt/bcrypt.c	/^bcrypt_checkpass(const char *pass, const char *goo/
+bcrypt_gensalt	/usr/src/lib/libc/crypt/bcrypt.c	/^bcrypt_gensalt(u_int8_t log_rounds)$/
+bcrypt_hashpass	/usr/src/lib/libc/crypt/bcrypt.c	/^bcrypt_hashpass(const char *key, const char *salt,/
+bcrypt_initsalt	/usr/src/lib/libc/crypt/bcrypt.c	/^bcrypt_initsalt(int log_rounds, uint8_t *salt, siz/
+bcrypt_newhash	/usr/src/lib/libc/crypt/bcrypt.c	/^bcrypt_newhash(const char *pass, int log_rounds, c/
+bindresvport	/usr/src/lib/libc/rpc/bindresvport.c	/^bindresvport(int sd, struct sockaddr_in *sin)$/
+bindresvport_sa	/usr/src/lib/libc/rpc/bindresvport.c	/^bindresvport_sa(int sd, struct sockaddr *sa)$/
+bitstob	/usr/src/lib/libc/gdtoa/gdtoa.c	/^bitstob(bits, nbits, bbits) ULong *bits; int nbits/
+blf_cbc_decrypt	/usr/src/lib/libc/crypt/blowfish.c	/^blf_cbc_decrypt(blf_ctx *c, u_int8_t *iva, u_int8_/
+blf_cbc_encrypt	/usr/src/lib/libc/crypt/blowfish.c	/^blf_cbc_encrypt(blf_ctx *c, u_int8_t *iv, u_int8_t/
+blf_dec	/usr/src/lib/libc/crypt/blowfish.c	/^blf_dec(blf_ctx *c, u_int32_t *data, u_int16_t blo/
+blf_ecb_decrypt	/usr/src/lib/libc/crypt/blowfish.c	/^blf_ecb_decrypt(blf_ctx *c, u_int8_t *data, u_int3/
+blf_ecb_encrypt	/usr/src/lib/libc/crypt/blowfish.c	/^blf_ecb_encrypt(blf_ctx *c, u_int8_t *data, u_int3/
+blf_enc	/usr/src/lib/libc/crypt/blowfish.c	/^blf_enc(blf_ctx *c, u_int32_t *data, u_int16_t blo/
+blf_key	/usr/src/lib/libc/crypt/blowfish.c	/^blf_key(blf_ctx *c, const u_int8_t *k, u_int16_t l/
+blk	/usr/src/lib/libc/hash/sha1.c	/^#define blk(i) (block->l[i&15] = rol(block->l[(i+1/
+blk0	/usr/src/lib/libc/hash/sha1.c	/^# define blk0(i) (block->l[i] = (rol(block->l[i],2/
+borderchar	/usr/src/lib/libc/net/res_comp.c	/^#define borderchar(c) (alphachar(c) || digitchar(c/
+bothcases	/usr/src/lib/libc/regex/regcomp.c	/^bothcases(struct parse *p, int ch)$/
+brk	/usr/src/lib/libc/arch/i386/sys/brk.S	/^ENTRY(brk)$/
+bsearch	/usr/src/lib/libc/stdlib/bsearch.c	/^bsearch(const void *key, const void *base0, size_t/
+bslashchar	/usr/src/lib/libc/net/res_comp.c	/^#define bslashchar(c) ((c) == 0x5c)$/
+bt_broot	/usr/src/lib/libc/db/btree/bt_split.c	/^bt_broot(BTREE *t, PAGE *h, PAGE *l, PAGE *r)$/
+bt_fast	/usr/src/lib/libc/db/btree/bt_put.c	/^bt_fast(BTREE *t, const DBT *key, const DBT *data,/
+bt_meta	/usr/src/lib/libc/db/btree/bt_close.c	/^bt_meta(t)$/
+bt_page	/usr/src/lib/libc/db/btree/bt_split.c	/^bt_page(BTREE *t, PAGE *h, PAGE **lp, PAGE **rp, i/
+bt_preserve	/usr/src/lib/libc/db/btree/bt_split.c	/^bt_preserve(BTREE *t, pgno_t pg)$/
+bt_psplit	/usr/src/lib/libc/db/btree/bt_split.c	/^bt_psplit(BTREE *t, PAGE *h, PAGE *l, PAGE *r, ind/
+bt_root	/usr/src/lib/libc/db/btree/bt_split.c	/^bt_root(BTREE *t, PAGE *h, PAGE **lp, PAGE **rp, i/
+bt_rroot	/usr/src/lib/libc/db/btree/bt_split.c	/^bt_rroot(BTREE *t, PAGE *h, PAGE *l, PAGE *r)$/
+btowc	/usr/src/lib/libc/locale/btowc.c	/^btowc(int c)$/
+byteorder	/usr/src/lib/libc/db/btree/bt_open.c	/^byteorder(void)$/
+bzero	/usr/src/lib/libc/arch/i386/string/bzero.S	/^ENTRY(bzero)$/
+cache_get	/usr/src/lib/libc/rpc/svc_udp.c	/^cache_get(SVCXPRT *xprt, struct rpc_msg *msg, char/
+cache_node	/usr/src/lib/libc/rpc/svc_udp.c	/^struct cache_node {$/
+cache_ptr	/usr/src/lib/libc/rpc/svc_udp.c	/^typedef struct cache_node *cache_ptr;$/
+cache_set	/usr/src/lib/libc/rpc/svc_udp.c	/^cache_set(SVCXPRT *xprt, u_long replylen)$/
+calloc	/usr/src/lib/libc/stdlib/malloc.c	/^calloc(size_t nmemb, size_t size)$/
+callrpc	/usr/src/lib/libc/rpc/clnt_simple.c	/^callrpc(char *host, int prognum, int versnum, int /
+callrpc_private	/usr/src/lib/libc/rpc/clnt_simple.c	/^static struct callrpc_private {$/
+catclose	/usr/src/lib/libc/nls/_catclose.c	/^catclose(nl_catd catd)$/
+categorize	/usr/src/lib/libc/regex/regcomp.c	/^categorize(struct parse *p, struct re_guts *g)$/
+catgets	/usr/src/lib/libc/nls/_catgets.c	/^catgets(nl_catd catd, int set_id, int msg_id, cons/
+catopen	/usr/src/lib/libc/nls/_catopen.c	/^catopen(const char *name, int oflag)$/
+cdbget	/usr/src/lib/libc/gen/getcap.c	/^cdbget(DB *capdbp, char **bp, const char *name)$/
+cfgetispeed	/usr/src/lib/libc/termios/cfgetispeed.c	/^cfgetispeed(const struct termios *t)$/
+cfgetospeed	/usr/src/lib/libc/termios/cfgetospeed.c	/^cfgetospeed(const struct termios *t)$/
+cfmakeraw	/usr/src/lib/libc/termios/cfmakeraw.c	/^cfmakeraw(struct termios *t)$/
+cfree	/usr/src/lib/libc/stdlib/cfree.c	/^cfree(void *p)$/
+cfsetispeed	/usr/src/lib/libc/termios/cfsetispeed.c	/^cfsetispeed(struct termios *t, speed_t speed)$/
+cfsetospeed	/usr/src/lib/libc/termios/cfsetospeed.c	/^cfsetospeed(struct termios *t, speed_t speed)$/
+cfsetspeed	/usr/src/lib/libc/termios/cfsetspeed.c	/^cfsetspeed(struct termios *t, speed_t speed)$/
+cgetcap	/usr/src/lib/libc/gen/getcap.c	/^cgetcap(char *buf, const char *cap, int type)$/
+cgetclose	/usr/src/lib/libc/gen/getcap.c	/^cgetclose(void)$/
+cgetent	/usr/src/lib/libc/gen/getcap.c	/^cgetent(char **buf, char **db_array, const char *n/
+cgetfirst	/usr/src/lib/libc/gen/getcap.c	/^cgetfirst(char **buf, char **db_array)$/
+cgetmatch	/usr/src/lib/libc/gen/getcap.c	/^cgetmatch(char *buf, const char *name)$/
+cgetnext	/usr/src/lib/libc/gen/getcap.c	/^cgetnext(char **cap, char **db_array)$/
+cgetnum	/usr/src/lib/libc/gen/getcap.c	/^cgetnum(char *buf, const char *cap, long *num)$/
+cgetset	/usr/src/lib/libc/gen/getcap.c	/^cgetset(const char *ent)$/
+cgetstr	/usr/src/lib/libc/gen/getcap.c	/^cgetstr(char *buf, const char *cap, char **str)$/
+cgetusedb	/usr/src/lib/libc/gen/getcap.c	/^cgetusedb(int new_usedb)$/
+cgetustr	/usr/src/lib/libc/gen/getcap.c	/^cgetustr(char *buf, const char *cap, char **str)$/
+chunk_info	/usr/src/lib/libc/stdlib/malloc.c	/^struct chunk_info {$/
+classmatch	/usr/src/lib/libc/gen/fnmatch.c	/^classmatch(const char *pattern, char test, int fol/
+clearerr	/usr/src/lib/libc/stdio/clrerr.c	/^clearerr(FILE *fp)$/
+clnt_broadcast	/usr/src/lib/libc/rpc/pmap_rmt.c	/^enum clnt_stat $/
+clnt_create	/usr/src/lib/libc/rpc/clnt_generic.c	/^clnt_create(char *hostname, u_long prog, u_long ve/
+clnt_pcreateerror	/usr/src/lib/libc/rpc/clnt_perror.c	/^clnt_pcreateerror(char *s)$/
+clnt_perrno	/usr/src/lib/libc/rpc/clnt_perror.c	/^clnt_perrno(enum clnt_stat num)$/
+clnt_perror	/usr/src/lib/libc/rpc/clnt_perror.c	/^clnt_perror(CLIENT *rpch, char *s)$/
+clnt_spcreateerror	/usr/src/lib/libc/rpc/clnt_perror.c	/^clnt_spcreateerror(char *s)$/
+clnt_sperrno	/usr/src/lib/libc/rpc/clnt_perror.c	/^clnt_sperrno(enum clnt_stat stat)$/
+clnt_sperror	/usr/src/lib/libc/rpc/clnt_perror.c	/^clnt_sperror(CLIENT *rpch, char *s)$/
+clntraw_abort	/usr/src/lib/libc/rpc/clnt_raw.c	/^clntraw_abort(CLIENT *clnt)$/
+clntraw_call	/usr/src/lib/libc/rpc/clnt_raw.c	/^static enum clnt_stat $/
+clntraw_control	/usr/src/lib/libc/rpc/clnt_raw.c	/^clntraw_control(CLIENT *clnt, u_int i, void *v)$/
+clntraw_create	/usr/src/lib/libc/rpc/clnt_raw.c	/^clntraw_create(u_long prog, u_long vers)$/
+clntraw_destroy	/usr/src/lib/libc/rpc/clnt_raw.c	/^clntraw_destroy(CLIENT *clnt)$/
+clntraw_freeres	/usr/src/lib/libc/rpc/clnt_raw.c	/^clntraw_freeres(CLIENT *cl, xdrproc_t xdr_res, cad/
+clntraw_geterr	/usr/src/lib/libc/rpc/clnt_raw.c	/^clntraw_geterr(CLIENT *clnt, struct rpc_err *err)$/
+clntraw_private	/usr/src/lib/libc/rpc/clnt_raw.c	/^static struct clntraw_private {$/
+clnttcp_abort	/usr/src/lib/libc/rpc/clnt_tcp.c	/^clnttcp_abort(CLIENT *clnt)$/
+clnttcp_call	/usr/src/lib/libc/rpc/clnt_tcp.c	/^clnttcp_call(CLIENT *h, u_long proc, xdrproc_t xdr/
+clnttcp_control	/usr/src/lib/libc/rpc/clnt_tcp.c	/^clnttcp_control(CLIENT *cl, u_int request, void *i/
+clnttcp_create	/usr/src/lib/libc/rpc/clnt_tcp.c	/^clnttcp_create(struct sockaddr_in *raddr, u_long p/
+clnttcp_destroy	/usr/src/lib/libc/rpc/clnt_tcp.c	/^clnttcp_destroy(CLIENT *h)$/
+clnttcp_freeres	/usr/src/lib/libc/rpc/clnt_tcp.c	/^clnttcp_freeres(CLIENT *cl, xdrproc_t xdr_res, cad/
+clnttcp_geterr	/usr/src/lib/libc/rpc/clnt_tcp.c	/^clnttcp_geterr(CLIENT *h, struct rpc_err *errp)$/
+clntudp_abort	/usr/src/lib/libc/rpc/clnt_udp.c	/^clntudp_abort(CLIENT *clnt)$/
+clntudp_bufcreate	/usr/src/lib/libc/rpc/clnt_udp.c	/^clntudp_bufcreate(struct sockaddr_in *raddr, u_lon/
+clntudp_call	/usr/src/lib/libc/rpc/clnt_udp.c	/^static enum clnt_stat $/
+clntudp_control	/usr/src/lib/libc/rpc/clnt_udp.c	/^clntudp_control(CLIENT *cl, u_int request, void *i/
+clntudp_create	/usr/src/lib/libc/rpc/clnt_udp.c	/^clntudp_create(struct sockaddr_in *raddr, u_long p/
+clntudp_destroy	/usr/src/lib/libc/rpc/clnt_udp.c	/^clntudp_destroy(CLIENT *cl)$/
+clntudp_freeres	/usr/src/lib/libc/rpc/clnt_udp.c	/^clntudp_freeres(CLIENT *cl, xdrproc_t xdr_res, cad/
+clntudp_geterr	/usr/src/lib/libc/rpc/clnt_udp.c	/^clntudp_geterr(CLIENT *cl, struct rpc_err *errp)$/
+clock	/usr/src/lib/libc/gen/clock.c	/^clock(void)$/
+clock_getcpuclockid	/usr/src/lib/libc/gen/clock_getcpuclockid.c	/^clock_getcpuclockid(pid_t pid, clockid_t *clock_id/
+closedir	/usr/src/lib/libc/gen/closedir.c	/^closedir(DIR *dirp)$/
+closelog	/usr/src/lib/libc/gen/syslog.c	/^closelog(void)$/
+closelog_r	/usr/src/lib/libc/gen/syslog_r.c	/^closelog_r(struct syslog_data *data)$/
+cmp_fn_t	/usr/src/lib/libc/stdlib/lsearch.c	/^typedef int (*cmp_fn_t)(const void *, const void */
+collect_data	/usr/src/lib/libc/db/hash/hash_bigkey.c	/^collect_data(HTAB *hashp, BUFHEAD *bufp, int len, /
+collect_key	/usr/src/lib/libc/db/hash/hash_bigkey.c	/^collect_key(HTAB *hashp, BUFHEAD *bufp, int len, D/
+compare	/usr/src/lib/libc/gen/glob.c	/^compare(const void *p, const void *q)$/
+compare_gps	/usr/src/lib/libc/gen/glob.c	/^compare_gps(const void *_p, const void *_q)$/
+compress_mode	/usr/src/lib/libc/gen/setmode.c	/^compress_mode(BITCMD *set)$/
+confstr	/usr/src/lib/libc/gen/confstr.c	/^confstr(int name, char *buf, size_t len)$/
+copybits	/usr/src/lib/libc/gdtoa/smisc.c	/^copybits(c, n, b) ULong *c; int n; Bigint *b;$/
+count_dns_rr	/usr/src/lib/libc/asr/getrrsetbyname_async.c	/^count_dns_rr(struct dns_rr *p, u_int16_t class, u_/
+creat	/usr/src/lib/libc/compat-43/creat.c	/^creat(const char *path, mode_t mode)$/
+crypt	/usr/src/lib/libc/crypt/crypt.c	/^crypt(const char *key, const char *setting)$/
+crypt_checkpass	/usr/src/lib/libc/crypt/cryptutil.c	/^crypt_checkpass(const char *pass, const char *good/
+crypt_hashpass	/usr/src/lib/libc/crypt/crypt.c	/^crypt_hashpass(const char *key, const char *settin/
+ct_data	/usr/src/lib/libc/rpc/clnt_tcp.c	/^struct ct_data {$/
+ctermid	/usr/src/lib/libc/gen/ctermid.c	/^ctermid(char *s)$/
+ctime	/usr/src/lib/libc/time/localtime.c	/^ctime(timep)$/
+ctime_r	/usr/src/lib/libc/time/localtime.c	/^ctime_r(timep, buf)$/
+cu_data	/usr/src/lib/libc/rpc/clnt_udp.c	/^struct cu_data {$/
+currentlocale	/usr/src/lib/libc/locale/setlocale.c	/^currentlocale(void)$/
+cvt_statfs_to_statvfs	/usr/src/lib/libc/gen/statvfs.c	/^cvt_statfs_to_statvfs(const struct statfs *fsp, st/
+daemon	/usr/src/lib/libc/gen/daemon.c	/^daemon(int nochdir, int noclose)$/
+dbl_limits	/usr/src/lib/libc/rpc/xdr_float.c	/^static struct dbl_limits {$/
+dbm_clearerr	/usr/src/lib/libc/db/hash/ndbm.c	/^dbm_clearerr(db)$/
+dbm_close	/usr/src/lib/libc/db/hash/ndbm.c	/^dbm_close(db)$/
+dbm_delete	/usr/src/lib/libc/db/hash/ndbm.c	/^dbm_delete(db, key)$/
+dbm_dirfno	/usr/src/lib/libc/db/hash/ndbm.c	/^dbm_dirfno(db)$/
+dbm_error	/usr/src/lib/libc/db/hash/ndbm.c	/^dbm_error(db)$/
+dbm_fetch	/usr/src/lib/libc/db/hash/ndbm.c	/^dbm_fetch(db, key)$/
+dbm_firstkey	/usr/src/lib/libc/db/hash/ndbm.c	/^dbm_firstkey(db)$/
+dbm_nextkey	/usr/src/lib/libc/db/hash/ndbm.c	/^dbm_nextkey(db)$/
+dbm_open	/usr/src/lib/libc/db/hash/ndbm.c	/^dbm_open(file, flags, mode)$/
+dbm_rdonly	/usr/src/lib/libc/db/hash/ndbm.c	/^dbm_rdonly(dbp)$/
+dbm_store	/usr/src/lib/libc/db/hash/ndbm.c	/^dbm_store(db, key, data, flags)$/
+dbmclose	/usr/src/lib/libc/db/hash/ndbm.c	/^dbmclose()$/
+dbminit	/usr/src/lib/libc/db/hash/ndbm.c	/^dbminit(file)$/
+dbopen	/usr/src/lib/libc/db/db/db.c	/^dbopen(const char *fname, int flags, int mode, DBT/
+dcharhash	/usr/src/lib/libc/db/hash/hash_func.c	/^#define dcharhash(h, c)	((h) = 0x63c63cd9*(h) + 0x/
+decode_base64	/usr/src/lib/libc/crypt/bcrypt.c	/^decode_base64(u_int8_t *buffer, size_t len, const /
+decrement	/usr/src/lib/libc/gdtoa/strtodg.c	/^decrement(b) Bigint *b;$/
+delete	/usr/src/lib/libc/db/hash/ndbm.c	/^delete(key)$/
+des_cipher	/usr/src/lib/libc/crypt/crypt.c	/^des_cipher(const char *in, char *out, int32_t salt/
+des_setkey	/usr/src/lib/libc/crypt/crypt.c	/^des_setkey(const char *key)$/
+detzcode	/usr/src/lib/libc/time/localtime.c	/^detzcode(codep)$/
+detzcode64	/usr/src/lib/libc/time/localtime.c	/^detzcode64(codep)$/
+devname	/usr/src/lib/libc/gen/devname.c	/^devname(int dev, mode_t type)$/
+differ_by_repeat	/usr/src/lib/libc/time/localtime.c	/^differ_by_repeat(t1, t0)$/
+difftime	/usr/src/lib/libc/time/difftime.c	/^difftime(time1, time0)$/
+digit	/usr/src/lib/libc/quad/qdivrem.c	/^typedef unsigned short digit;$/
+digitchar	/usr/src/lib/libc/net/res_comp.c	/^#define digitchar(c) ((c) >= 0x30 && (c) <= 0x39)$/
+dir_info	/usr/src/lib/libc/stdlib/malloc.c	/^struct dir_info {$/
+dirfd	/usr/src/lib/libc/gen/dirfd.c	/^dirfd(DIR *dirp)$/
+dirname	/usr/src/lib/libc/gen/dirname.c	/^dirname(const char *path)$/
+div	/usr/src/lib/libc/arch/i386/stdlib/div.S	/^ENTRY(div)$/
+dl_iterate_phdr	/usr/src/lib/libc/dlfcn/dlfcn_stubs.c	/^dl_iterate_phdr(int (*callback)(struct dl_phdr_inf/
+dladdr	/usr/src/lib/libc/dlfcn/dlfcn_stubs.c	/^dladdr(const void *addr, struct dl_info *info)$/
+dlclose	/usr/src/lib/libc/dlfcn/dlfcn_stubs.c	/^dlclose(void *handle)$/
+dlctl	/usr/src/lib/libc/dlfcn/dlfcn_stubs.c	/^dlctl(void *handle, int command, void *data)$/
+dlerror	/usr/src/lib/libc/dlfcn/dlfcn_stubs.c	/^dlerror(void)$/
+dlopen	/usr/src/lib/libc/dlfcn/dlfcn_stubs.c	/^dlopen(const char *libname, int how)$/
+dlsym	/usr/src/lib/libc/dlfcn/dlfcn_stubs.c	/^dlsym(void *handle, const char *name)$/
+dn_comp	/usr/src/lib/libc/net/res_comp.c	/^dn_comp(const char *exp_dn, u_char *comp_dn, int l/
+dn_expand	/usr/src/lib/libc/net/res_comp.c	/^dn_expand(const u_char *msg, const u_char *eomorig/
+dn_find	/usr/src/lib/libc/net/res_comp.c	/^dn_find(u_char *exp_dn, u_char *msg, u_char **dnpt/
+dname_check_label	/usr/src/lib/libc/asr/asr_utils.c	/^dname_check_label(const char *s, size_t l)$/
+dname_expand	/usr/src/lib/libc/asr/asr_utils.c	/^dname_expand(const unsigned char *data, size_t len/
+dns_query	/usr/src/lib/libc/asr/getrrsetbyname_async.c	/^struct dns_query {$/
+dns_response	/usr/src/lib/libc/asr/getrrsetbyname_async.c	/^struct dns_response {$/
+dns_rr	/usr/src/lib/libc/asr/getrrsetbyname_async.c	/^struct dns_rr {$/
+do_posix_spawn	/usr/src/lib/libc/gen/posix_spawn.c	/^do_posix_spawn(pid_t *pid, const char *path,$/
+doemit	/usr/src/lib/libc/regex/regcomp.c	/^doemit(struct parse *p, sop op, size_t opnd)$/
+dofwd	/usr/src/lib/libc/regex/regcomp.c	/^dofwd(struct parse *p, sopno pos, sop value)$/
+doinsert	/usr/src/lib/libc/regex/regcomp.c	/^doinsert(struct parse *p, sop op, size_t opnd, sop/
+domainchar	/usr/src/lib/libc/net/res_comp.c	/^#define	domainchar(c) ((c) > 0x20 && (c) < 0x7f)$/
+domcat	/usr/src/lib/libc/asr/res_search_async.c	/^domcat(const char *name, const char *domain, char /
+dorounding	/usr/src/lib/libc/gdtoa/hdtoa.c	/^dorounding(char *s0, int ndigits, int sign, int *d/
+dprintf	/usr/src/lib/libc/stdio/dprintf.c	/^dprintf(int fd, const char * __restrict fmt, ...)$/
+drand48	/usr/src/lib/libc/stdlib/drand48.c	/^drand48(void)$/
+dump_chunk	/usr/src/lib/libc/stdlib/malloc.c	/^dump_chunk(int fd, struct chunk_info *p, void *f, /
+dump_free_chunk_info	/usr/src/lib/libc/stdlib/malloc.c	/^dump_free_chunk_info(int fd, struct dir_info *d)$/
+dump_free_page_info	/usr/src/lib/libc/stdlib/malloc.c	/^dump_free_page_info(int fd, struct dir_info *d)$/
+dump_leaks	/usr/src/lib/libc/stdlib/malloc.c	/^dump_leaks(int fd)$/
+dumpmode	/usr/src/lib/libc/gen/setmode.c	/^dumpmode(BITCMD *set)$/
+dupl	/usr/src/lib/libc/regex/regcomp.c	/^dupl(struct parse *p,$/
+ecvt	/usr/src/lib/libc/stdlib/ecvt.c	/^ecvt(double value, int ndigit, int *decpt, int *si/
+elf_hash	/usr/src/lib/libc/gen/elf_hash.c	/^elf_hash(const unsigned char *name)$/
+empty	/usr/src/lib/libc/stdlib/radixsort.c	/^#define empty(s)	(s >= sp)$/
+encode_base64	/usr/src/lib/libc/crypt/bcrypt.c	/^encode_base64(char *b64buffer, const u_int8_t *dat/
+encrypt	/usr/src/lib/libc/crypt/crypt2.c	/^encrypt(char *block, int flag)$/
+endfsent	/usr/src/lib/libc/gen/fstab.c	/^endfsent(void)$/
+endgrent	/usr/src/lib/libc/gen/getgrent.c	/^endgrent(void)$/
+endgrent_basic	/usr/src/lib/libc/gen/getgrent.c	/^endgrent_basic(void)$/
+endhostent	/usr/src/lib/libc/asr/sethostent.c	/^endhostent(void)$/
+endnetent	/usr/src/lib/libc/net/getnetent.c	/^endnetent(void)$/
+endnetgrent	/usr/src/lib/libc/gen/getnetgrent.c	/^endnetgrent(void)$/
+endprotoent	/usr/src/lib/libc/net/getprotoent.c	/^endprotoent(void)$/
+endprotoent_r	/usr/src/lib/libc/net/getprotoent.c	/^endprotoent_r(struct protoent_data *pd)$/
+endpwent	/usr/src/lib/libc/gen/getpwent.c	/^endpwent(void)$/
+endrpcent	/usr/src/lib/libc/rpc/getrpcent.c	/^endrpcent(void)$/
+endservent	/usr/src/lib/libc/net/getservent.c	/^endservent(void)$/
+endservent_r	/usr/src/lib/libc/net/getservent.c	/^endservent_r(struct servent_data *sd)$/
+endttyent	/usr/src/lib/libc/gen/getttyent.c	/^endttyent(void)$/
+endusershell	/usr/src/lib/libc/gen/getusershell.c	/^endusershell(void)$/
+enlarge	/usr/src/lib/libc/regex/regcomp.c	/^enlarge(struct parse *p, sopno size)$/
+ensure_ibuf	/usr/src/lib/libc/asr/res_send_async.c	/^ensure_ibuf(struct asr_query *as, size_t n)$/
+eofread	/usr/src/lib/libc/stdio/sscanf.c	/^eofread(void *cookie, char *buf, int len)$/
+erand48	/usr/src/lib/libc/stdlib/erand48.c	/^erand48(unsigned short xseed[3])$/
+errval	/usr/src/lib/libc/stdlib/strtonum.c	/^	struct errval {$/
+ether_aton	/usr/src/lib/libc/net/ethers.c	/^ether_aton(const char *s)$/
+ether_hostton	/usr/src/lib/libc/net/ethers.c	/^ether_hostton(const char *hostname, struct ether_a/
+ether_line	/usr/src/lib/libc/net/ethers.c	/^ether_line(const char *line, struct ether_addr *e,/
+ether_ntoa	/usr/src/lib/libc/net/ethers.c	/^ether_ntoa(struct ether_addr *e)$/
+ether_ntohost	/usr/src/lib/libc/net/ethers.c	/^ether_ntohost(char *hostname, struct ether_addr *e/
+execl	/usr/src/lib/libc/gen/exec.c	/^execl(const char *name, const char *arg, ...)$/
+execle	/usr/src/lib/libc/gen/exec.c	/^execle(const char *name, const char *arg, ...)$/
+execlp	/usr/src/lib/libc/gen/exec.c	/^execlp(const char *name, const char *arg, ...)$/
+exect	/usr/src/lib/libc/arch/i386/sys/exect.S	/^ENTRY(exect)$/
+execv	/usr/src/lib/libc/gen/exec.c	/^execv(const char *name, char *const *argv)$/
+execvp	/usr/src/lib/libc/gen/exec.c	/^execvp(const char *name, char *const *argv)$/
+execvpe	/usr/src/lib/libc/gen/exec.c	/^execvpe(const char *name, char *const *argv, char /
+exit	/usr/src/lib/libc/stdlib/exit.c	/^exit(int status)$/
+expandstr	/usr/src/lib/libc/gen/login_cap.c	/^expandstr(const char *ostr, const struct passwd *p/
+explicit_bzero	/usr/src/lib/libc/string/explicit_bzero.c	/^explicit_bzero(void *buf, size_t len)$/
+exponent	/usr/src/lib/libc/stdio/vfprintf.c	/^exponent(char *p0, int exp, int fmtch)$/
+fabs	/usr/src/lib/libc/arch/i386/gen/fabs.S	/^ENTRY(fabs)$/
+fclose	/usr/src/lib/libc/stdio/fclose.c	/^fclose(FILE *fp)$/
+fcvt	/usr/src/lib/libc/stdlib/ecvt.c	/^fcvt(double value, int ndigit, int *decpt, int *si/
+fdatasync	/usr/src/lib/libc/gen/fdatasync.c	/^fdatasync(int fd)$/
+fdopen	/usr/src/lib/libc/stdio/fdopen.c	/^fdopen(int fd, const char *mode)$/
+fdopendir	/usr/src/lib/libc/gen/opendir.c	/^fdopendir(int fd)$/
+feof	/usr/src/lib/libc/stdio/feof.c	/^feof(FILE *fp)$/
+ferror	/usr/src/lib/libc/stdio/ferror.c	/^ferror(FILE *fp)$/
+fetch	/usr/src/lib/libc/db/hash/ndbm.c	/^fetch(key)$/
+fetch_bitmap	/usr/src/lib/libc/db/hash/hash_page.c	/^fetch_bitmap(HTAB *hashp, int ndx)$/
+fflagstostr	/usr/src/lib/libc/gen/strtofflags.c	/^fflagstostr(u_int32_t flags)$/
+fflush	/usr/src/lib/libc/stdio/fflush.c	/^fflush(FILE *fp)$/
+ffs	/usr/src/lib/libc/arch/i386/string/ffs.S	/^ENTRY(ffs)$/
+fgetc	/usr/src/lib/libc/stdio/fgetc.c	/^fgetc(FILE *fp)$/
+fgetln	/usr/src/lib/libc/stdio/fgetln.c	/^fgetln(FILE *fp, size_t *lenp)$/
+fgetpos	/usr/src/lib/libc/stdio/fgetpos.c	/^fgetpos(FILE *fp, fpos_t *pos)$/
+fgets	/usr/src/lib/libc/stdio/fgets.c	/^fgets(char *buf, int n, FILE *fp)$/
+fgetwc	/usr/src/lib/libc/stdio/fgetwc.c	/^fgetwc(FILE *fp)$/
+fgetws	/usr/src/lib/libc/stdio/fgetws.c	/^fgetws(wchar_t * __restrict ws, int n, FILE * __re/
+fileno	/usr/src/lib/libc/stdio/fileno.c	/^fileno(FILE *fp)$/
+fill_input_buf	/usr/src/lib/libc/rpc/xdr_rec.c	/^fill_input_buf(RECSTREAM *rstrm)$/
+find	/usr/src/lib/libc/stdlib/malloc.c	/^find(struct dir_info *d, void *p)$/
+find_chunknum	/usr/src/lib/libc/stdlib/malloc.c	/^find_chunknum(struct dir_info *d, struct region_in/
+find_codeset	/usr/src/lib/libc/locale/rune.c	/^find_codeset(_RuneLocale *rl)$/
+findmust	/usr/src/lib/libc/regex/regcomp.c	/^findmust(struct parse *p, struct re_guts *g)$/
+first_free	/usr/src/lib/libc/db/hash/hash_page.c	/^first_free(u_int32_t map)$/
+firstch	/usr/src/lib/libc/regex/regcomp.c	/^firstch(struct parse *p, cset *cs)$/
+firstkey	/usr/src/lib/libc/db/hash/ndbm.c	/^firstkey()$/
+fix_buf_size	/usr/src/lib/libc/rpc/xdr_rec.c	/^fix_buf_size(u_int s)$/
+float_type	/usr/src/lib/libc/locale/wcstof.c	/^typedef float		float_type;$/
+flush_meta	/usr/src/lib/libc/db/hash/hash.c	/^flush_meta(HTAB *hashp)$/
+flush_out	/usr/src/lib/libc/rpc/xdr_rec.c	/^flush_out(RECSTREAM *rstrm, int32_t eor)$/
+fmemopen	/usr/src/lib/libc/stdio/fmemopen.c	/^fmemopen(void *buf, size_t size, const char *mode)/
+fmemopen_close	/usr/src/lib/libc/stdio/fmemopen.c	/^fmemopen_close(void *v)$/
+fmemopen_close_free	/usr/src/lib/libc/stdio/fmemopen.c	/^fmemopen_close_free(void *v)$/
+fmemopen_read	/usr/src/lib/libc/stdio/fmemopen.c	/^fmemopen_read(void *v, char *b, int l)$/
+fmemopen_seek	/usr/src/lib/libc/stdio/fmemopen.c	/^fmemopen_seek(void *v, fpos_t off, int whence)$/
+fmemopen_write	/usr/src/lib/libc/stdio/fmemopen.c	/^fmemopen_write(void *v, const char *b, int l)$/
+fnmatch	/usr/src/lib/libc/gen/fnmatch.c	/^int fnmatch(const char *pattern, const char *strin/
+fnmatch_ch	/usr/src/lib/libc/gen/fnmatch.c	/^static int fnmatch_ch(const char **pattern, const /
+fopen	/usr/src/lib/libc/stdio/fopen.c	/^fopen(const char *file, const char *mode)$/
+fork	/usr/src/lib/libc/arch/i386/sys/fork.S	/^SYSCALL(fork)$/
+fpgetmask	/usr/src/lib/libc/arch/i386/gen/fpgetmask.S	/^ENTRY(fpgetmask)$/
+fpgetround	/usr/src/lib/libc/arch/i386/gen/fpgetround.S	/^ENTRY(fpgetround)$/
+fpgetsticky	/usr/src/lib/libc/arch/i386/gen/fpgetsticky.S	/^ENTRY(fpgetsticky)$/
+fprintf	/usr/src/lib/libc/stdio/fprintf.c	/^fprintf(FILE *fp, const char *fmt, ...)$/
+fpsetmask	/usr/src/lib/libc/arch/i386/gen/fpsetmask.S	/^ENTRY(fpsetmask)$/
+fpsetround	/usr/src/lib/libc/arch/i386/gen/fpsetround.S	/^ENTRY(fpsetround)$/
+fpsetsticky	/usr/src/lib/libc/arch/i386/gen/fpsetsticky.S	/^ENTRY(fpsetsticky)$/
+fpurge	/usr/src/lib/libc/stdio/fpurge.c	/^fpurge(FILE *fp)$/
+fputc	/usr/src/lib/libc/stdio/fputc.c	/^fputc(int c, FILE *fp)$/
+fputs	/usr/src/lib/libc/stdio/fputs.c	/^fputs(const char *s, FILE *fp)$/
+fputwc	/usr/src/lib/libc/stdio/fputwc.c	/^fputwc(wchar_t wc, FILE *fp)$/
+fputws	/usr/src/lib/libc/stdio/fputws.c	/^fputws(ws, fp)$/
+fread	/usr/src/lib/libc/stdio/fread.c	/^fread(void *buf, size_t size, size_t count, FILE */
+free	/usr/src/lib/libc/stdlib/malloc.c	/^free(void *ptr)$/
+free_bytes	/usr/src/lib/libc/stdlib/malloc.c	/^free_bytes(struct dir_info *d, struct region_info /
+free_dns_query	/usr/src/lib/libc/asr/getrrsetbyname_async.c	/^free_dns_query(struct dns_query *p)$/
+free_dns_response	/usr/src/lib/libc/asr/getrrsetbyname_async.c	/^free_dns_response(struct dns_response *p)$/
+free_dns_rr	/usr/src/lib/libc/asr/getrrsetbyname_async.c	/^free_dns_rr(struct dns_rr *p)$/
+freeaddrinfo	/usr/src/lib/libc/net/freeaddrinfo.c	/^freeaddrinfo(struct addrinfo *ai)$/
+freedtoa	/usr/src/lib/libc/gdtoa/dmisc.c	/^freedtoa(s) char *s;$/
+freeifaddrs	/usr/src/lib/libc/net/getifaddrs.c	/^freeifaddrs(struct ifaddrs *ifp)$/
+freerrset	/usr/src/lib/libc/asr/getrrsetbyname.c	/^freerrset(struct rrsetinfo *rrset)$/
+freeset	/usr/src/lib/libc/regex/regcomp.c	/^freeset(struct parse *p, cset *cs)$/
+freezeset	/usr/src/lib/libc/regex/regcomp.c	/^freezeset(struct parse *p, cset *cs)$/
+freopen	/usr/src/lib/libc/stdio/freopen.c	/^freopen(const char *file, const char *mode, FILE */
+frexp	/usr/src/lib/libc/gen/frexp.c	/^frexp(double v, int *ex)$/
+fscanf	/usr/src/lib/libc/stdio/fscanf.c	/^fscanf(FILE *fp, const char *fmt, ...)$/
+fseek	/usr/src/lib/libc/stdio/fseek.c	/^fseek(FILE *fp, long offset, int whence)$/
+fseeko	/usr/src/lib/libc/stdio/fseek.c	/^fseeko(FILE *fp, off_t offset, int whence)$/
+fsetpos	/usr/src/lib/libc/stdio/fsetpos.c	/^fsetpos(FILE *iop, const fpos_t *pos)$/
+fstabscan	/usr/src/lib/libc/gen/fstab.c	/^fstabscan(void)$/
+fstatvfs	/usr/src/lib/libc/gen/statvfs.c	/^fstatvfs(int fd, struct statvfs *p)$/
+ftell	/usr/src/lib/libc/stdio/ftell.c	/^ftell(FILE *fp)$/
+ftello	/usr/src/lib/libc/stdio/ftell.c	/^ftello(FILE *fp)$/
+ftok	/usr/src/lib/libc/gen/ftok.c	/^ftok(const char *path, int id)$/
+fts_alloc	/usr/src/lib/libc/gen/fts.c	/^fts_alloc(FTS *sp, char *name, size_t namelen)$/
+fts_build	/usr/src/lib/libc/gen/fts.c	/^fts_build(FTS *sp, int type)$/
+fts_children	/usr/src/lib/libc/gen/fts.c	/^fts_children(FTS *sp, int instr)$/
+fts_close	/usr/src/lib/libc/gen/fts.c	/^fts_close(FTS *sp)$/
+fts_lfree	/usr/src/lib/libc/gen/fts.c	/^fts_lfree(FTSENT *head)$/
+fts_load	/usr/src/lib/libc/gen/fts.c	/^fts_load(FTS *sp, FTSENT *p)$/
+fts_maxarglen	/usr/src/lib/libc/gen/fts.c	/^fts_maxarglen(char * const *argv)$/
+fts_open	/usr/src/lib/libc/gen/fts.c	/^fts_open(char * const *argv, int options,$/
+fts_padjust	/usr/src/lib/libc/gen/fts.c	/^fts_padjust(FTS *sp, FTSENT *head)$/
+fts_palloc	/usr/src/lib/libc/gen/fts.c	/^fts_palloc(FTS *sp, size_t more)$/
+fts_read	/usr/src/lib/libc/gen/fts.c	/^fts_read(FTS *sp)$/
+fts_safe_changedir	/usr/src/lib/libc/gen/fts.c	/^fts_safe_changedir(FTS *sp, FTSENT *p, int fd, cha/
+fts_set	/usr/src/lib/libc/gen/fts.c	/^fts_set(FTS *sp, FTSENT *p, int instr)$/
+fts_sort	/usr/src/lib/libc/gen/fts.c	/^fts_sort(FTS *sp, FTSENT *head, int nitems)$/
+fts_stat	/usr/src/lib/libc/gen/fts.c	/^fts_stat(FTS *sp, FTSENT *p, int follow)$/
+ftw	/usr/src/lib/libc/gen/ftw.c	/^ftw(const char *path, int (*fn)(const char *, cons/
+funopen	/usr/src/lib/libc/stdio/funopen.c	/^funopen(const void *cookie, int (*readfn)(void *, /
+fwide	/usr/src/lib/libc/stdio/fwide.c	/^fwide(FILE *fp, int mode)$/
+fwprintf	/usr/src/lib/libc/stdio/fwprintf.c	/^fwprintf(FILE * __restrict fp, const wchar_t * __r/
+fwrite	/usr/src/lib/libc/stdio/fwrite.c	/^fwrite(const void *buf, size_t size, size_t count,/
+fwscanf	/usr/src/lib/libc/stdio/fwscanf.c	/^fwscanf(FILE * __restrict fp, const wchar_t * __re/
+g_Ctoc	/usr/src/lib/libc/gen/glob.c	/^g_Ctoc(const Char *str, char *buf, u_int len)$/
+g_charclass	/usr/src/lib/libc/gen/glob.c	/^g_charclass(const Char **patternp, Char **bufnextp/
+g_lstat	/usr/src/lib/libc/gen/glob.c	/^g_lstat(Char *fn, struct stat *sb, glob_t *pglob)$/
+g_opendir	/usr/src/lib/libc/gen/glob.c	/^g_opendir(Char *str, glob_t *pglob)$/
+g_stat	/usr/src/lib/libc/gen/glob.c	/^g_stat(Char *fn, struct stat *sb, glob_t *pglob)$/
+g_strchr	/usr/src/lib/libc/gen/glob.c	/^g_strchr(const Char *str, int ch)$/
+g_strncmp	/usr/src/lib/libc/gen/glob.c	/^g_strncmp(const Char *s1, const char *s2, size_t n/
+gai_strerror	/usr/src/lib/libc/net/gai_strerror.c	/^gai_strerror(int errnum)$/
+gcd	/usr/src/lib/libc/stdlib/getopt_long.c	/^gcd(int a, int b)$/
+gcvt	/usr/src/lib/libc/stdlib/gcvt.c	/^gcvt(double value, int ndigit, char *buf)$/
+get_input_bytes	/usr/src/lib/libc/rpc/xdr_rec.c	/^get_input_bytes(RECSTREAM *rstrm, caddr_t addr, in/
+get_myaddress	/usr/src/lib/libc/rpc/get_myaddress.c	/^get_myaddress(struct sockaddr_in *addr)$/
+get_port	/usr/src/lib/libc/asr/getaddrinfo_async.c	/^get_port(const char *servname, const char *proto, /
+get_response	/usr/src/lib/libc/asr/getrrsetbyname_async.c	/^get_response(struct asr_result *ar, const char *pk/
+getaddrinfo	/usr/src/lib/libc/asr/getaddrinfo.c	/^getaddrinfo(const char *hostname, const char *serv/
+getaddrinfo_async	/usr/src/lib/libc/asr/getaddrinfo_async.c	/^getaddrinfo_async(const char *hostname, const char/
+getaddrinfo_async_run	/usr/src/lib/libc/asr/getaddrinfo_async.c	/^getaddrinfo_async_run(struct asr_query *as, struct/
+getbsize	/usr/src/lib/libc/gen/getbsize.c	/^getbsize(int *headerlenp, long *blocksizep)$/
+getc	/usr/src/lib/libc/stdio/getc.c	/^getc(FILE *fp)$/
+getc_unlocked	/usr/src/lib/libc/stdio/getc.c	/^getc_unlocked(FILE *fp)$/
+getchar	/usr/src/lib/libc/stdio/getchar.c	/^getchar(void)$/
+getchar_unlocked	/usr/src/lib/libc/stdio/getchar.c	/^getchar_unlocked(void)$/
+getcwd	/usr/src/lib/libc/gen/getcwd.c	/^getcwd(char *buf, size_t size)$/
+getdelim	/usr/src/lib/libc/stdio/getdelim.c	/^getdelim(char **__restrict buf, size_t *__restrict/
+getdiskbyname	/usr/src/lib/libc/gen/disklabel.c	/^getdiskbyname(const char *name)$/
+getdomainname	/usr/src/lib/libc/gen/getdomainname.c	/^getdomainname(char *name, size_t namelen)$/
+getdtablesize	/usr/src/lib/libc/compat-43/getdtablesize.c	/^getdtablesize(void)$/
+getent	/usr/src/lib/libc/gen/getcap.c	/^getent(char **cap, u_int *len, char **db_array, FI/
+getenv	/usr/src/lib/libc/stdlib/getenv.c	/^getenv(const char *name)$/
+getfsent	/usr/src/lib/libc/gen/fstab.c	/^getfsent(void)$/
+getfsfile	/usr/src/lib/libc/gen/fstab.c	/^getfsfile(const char *name)$/
+getfsspec	/usr/src/lib/libc/gen/fstab.c	/^getfsspec(const char *name)$/
+getgrent	/usr/src/lib/libc/gen/getgrent.c	/^getgrent(void)$/
+getgrgid	/usr/src/lib/libc/gen/getgrent.c	/^getgrgid(gid_t gid)$/
+getgrgid_gs	/usr/src/lib/libc/gen/getgrent.c	/^getgrgid_gs(gid_t gid, struct group *p_gr, struct /
+getgrgid_r	/usr/src/lib/libc/gen/getgrent.c	/^getgrgid_r(gid_t gid, struct group *grp, char *buf/
+getgrnam	/usr/src/lib/libc/gen/getgrent.c	/^getgrnam(const char *name)$/
+getgrnam_gs	/usr/src/lib/libc/gen/getgrent.c	/^getgrnam_gs(const char *name, struct group *p_gr, /
+getgrnam_r	/usr/src/lib/libc/gen/getgrent.c	/^getgrnam_r(const char *name, struct group *grp, ch/
+getgrouplist	/usr/src/lib/libc/gen/getgrouplist.c	/^getgrouplist(const char *uname, gid_t agroup, gid_/
+gethex	/usr/src/lib/libc/gdtoa/gethex.c	/^gethex(sp, fpi, exp, bp, sign)$/
+gethostbyaddr	/usr/src/lib/libc/asr/gethostnamadr.c	/^gethostbyaddr(const void *addr, socklen_t len, int/
+gethostbyaddr_async	/usr/src/lib/libc/asr/gethostnamadr_async.c	/^gethostbyaddr_async(const void *addr, socklen_t le/
+gethostbyaddr_async_ctx	/usr/src/lib/libc/asr/gethostnamadr_async.c	/^gethostbyaddr_async_ctx(const void *addr, socklen_/
+gethostbyname	/usr/src/lib/libc/asr/gethostnamadr.c	/^gethostbyname(const char *name)$/
+gethostbyname2	/usr/src/lib/libc/asr/gethostnamadr.c	/^gethostbyname2(const char *name, int af)$/
+gethostbyname2_async	/usr/src/lib/libc/asr/gethostnamadr_async.c	/^gethostbyname2_async(const char *name, int af, voi/
+gethostbyname_async	/usr/src/lib/libc/asr/gethostnamadr_async.c	/^gethostbyname_async(const char *name, void *asr)$/
+gethostent	/usr/src/lib/libc/asr/sethostent.c	/^gethostent(void)$/
+gethostid	/usr/src/lib/libc/compat-43/gethostid.c	/^gethostid(void)$/
+gethostnamadr_async_run	/usr/src/lib/libc/asr/gethostnamadr_async.c	/^gethostnamadr_async_run(struct asr_query *as, stru/
+gethostname	/usr/src/lib/libc/gen/gethostname.c	/^gethostname(char *name, size_t namelen)$/
+getifaddrs	/usr/src/lib/libc/net/getifaddrs.c	/^getifaddrs(struct ifaddrs **pif)$/
+getline	/usr/src/lib/libc/stdio/getline.c	/^getline(char **__restrict buf, size_t *__restrict /
+getloadavg	/usr/src/lib/libc/gen/getloadavg.c	/^getloadavg(double loadavg[], int nelem)$/
+getlogin	/usr/src/lib/libc/gen/getlogin.c	/^getlogin(void)$/
+getlogin_r	/usr/src/lib/libc/gen/getlogin.c	/^getlogin_r(char *name, size_t namelen)$/
+getmntinfo	/usr/src/lib/libc/gen/getmntinfo.c	/^getmntinfo(struct statfs **mntbufp, int flags)$/
+getmode	/usr/src/lib/libc/gen/setmode.c	/^getmode(const void *bbox, mode_t omode)$/
+getnameinfo	/usr/src/lib/libc/asr/getnameinfo.c	/^getnameinfo(const struct sockaddr *sa, socklen_t s/
+getnameinfo_async	/usr/src/lib/libc/asr/getnameinfo_async.c	/^getnameinfo_async(const struct sockaddr *sa, sockl/
+getnameinfo_async_run	/usr/src/lib/libc/asr/getnameinfo_async.c	/^getnameinfo_async_run(struct asr_query *as, struct/
+getnetbyaddr	/usr/src/lib/libc/asr/getnetnamadr.c	/^getnetbyaddr(in_addr_t net, int type)$/
+getnetbyaddr_async	/usr/src/lib/libc/asr/getnetnamadr_async.c	/^getnetbyaddr_async(in_addr_t net, int family, void/
+getnetbyname	/usr/src/lib/libc/asr/getnetnamadr.c	/^getnetbyname(const char *name)$/
+getnetbyname_async	/usr/src/lib/libc/asr/getnetnamadr_async.c	/^getnetbyname_async(const char *name, void *asr)$/
+getnetent	/usr/src/lib/libc/net/getnetent.c	/^getnetent(void)$/
+getnetgrent	/usr/src/lib/libc/gen/getnetgrent.c	/^getnetgrent(const char **host, const char **user, /
+getnetgroup	/usr/src/lib/libc/gen/getnetgrent.c	/^getnetgroup(char **pp)$/
+getnetnamadr_async_run	/usr/src/lib/libc/asr/getnetnamadr_async.c	/^getnetnamadr_async_run(struct asr_query *as, struc/
+getnum	/usr/src/lib/libc/gen/disklabel.c	/^#define	getnum(field, dname) \\$/
+getnumdflt	/usr/src/lib/libc/gen/disklabel.c	/^#define getnumdflt(field, dname, dflt) \\$/
+getoffset	/usr/src/lib/libc/time/localtime.c	/^getoffset(strp, offsetp)$/
+getopt	/usr/src/lib/libc/stdlib/getopt_long.c	/^getopt(int nargc, char * const *nargv, const char /
+getopt_internal	/usr/src/lib/libc/stdlib/getopt_long.c	/^getopt_internal(int nargc, char * const *nargv, co/
+getopt_long	/usr/src/lib/libc/stdlib/getopt_long.c	/^getopt_long(int nargc, char * const *nargv, const /
+getopt_long_only	/usr/src/lib/libc/stdlib/getopt_long.c	/^getopt_long_only(int nargc, char * const *nargv, c/
+getpagesize	/usr/src/lib/libc/gen/getpagesize.c	/^getpagesize(void)$/
+getpass	/usr/src/lib/libc/gen/readpassphrase.c	/^getpass(const char *prompt)$/
+getpeereid	/usr/src/lib/libc/net/getpeereid.c	/^getpeereid(int s, uid_t *euid, gid_t *egid)$/
+getpool	/usr/src/lib/libc/stdlib/malloc.c	/^#define getpool() mopts.malloc_pool$/
+getprogname	/usr/src/lib/libc/gen/getprogname.c	/^getprogname(void)$/
+getprotobyname	/usr/src/lib/libc/net/getprotoname.c	/^getprotobyname(const char *name)$/
+getprotobyname_r	/usr/src/lib/libc/net/getprotoname.c	/^getprotobyname_r(const char *name, struct protoent/
+getprotobynumber	/usr/src/lib/libc/net/getproto.c	/^getprotobynumber(int num)$/
+getprotobynumber_r	/usr/src/lib/libc/net/getproto.c	/^getprotobynumber_r(int num, struct protoent *pe, s/
+getprotoent	/usr/src/lib/libc/net/getprotoent.c	/^getprotoent(void)$/
+getprotoent_r	/usr/src/lib/libc/net/getprotoent.c	/^getprotoent_r(struct protoent *pe, struct protoent/
+getpwent	/usr/src/lib/libc/gen/getpwent.c	/^getpwent(void)$/
+getpwnam	/usr/src/lib/libc/gen/getpwent.c	/^getpwnam(const char *name)$/
+getpwnam_r	/usr/src/lib/libc/gen/getpwent.c	/^getpwnam_r(const char *name, struct passwd *pw, ch/
+getpwuid	/usr/src/lib/libc/gen/getpwent.c	/^getpwuid(uid_t uid)$/
+getpwuid_r	/usr/src/lib/libc/gen/getpwent.c	/^getpwuid_r(uid_t uid, struct passwd *pw, char *buf/
+getqzname	/usr/src/lib/libc/time/localtime.c	/^getqzname(register const char *strp, const int del/
+getrbyte	/usr/src/lib/libc/stdlib/malloc.c	/^getrbyte(struct dir_info *d)$/
+getrpcbyname	/usr/src/lib/libc/rpc/getrpcent.c	/^getrpcbyname(char *name)$/
+getrpcbynumber	/usr/src/lib/libc/rpc/getrpcent.c	/^getrpcbynumber(int number)$/
+getrpcent	/usr/src/lib/libc/rpc/getrpcent.c	/^getrpcent(void)$/
+getrpcport	/usr/src/lib/libc/rpc/getrpcport.c	/^getrpcport(char *host, int prognum, int versnum, i/
+getrrsetbyname	/usr/src/lib/libc/asr/getrrsetbyname.c	/^getrrsetbyname(const char *name, unsigned int clas/
+getrrsetbyname_async	/usr/src/lib/libc/asr/getrrsetbyname_async.c	/^getrrsetbyname_async(const char *hostname, unsigne/
+getrrsetbyname_async_run	/usr/src/lib/libc/asr/getrrsetbyname_async.c	/^getrrsetbyname_async_run(struct asr_query *as, str/
+getrule	/usr/src/lib/libc/time/localtime.c	/^getrule(strp, rulep)$/
+getsecs	/usr/src/lib/libc/time/localtime.c	/^getsecs(strp, secsp)$/
+getservbyname	/usr/src/lib/libc/net/getservbyname.c	/^getservbyname(const char *name, const char *proto)/
+getservbyname_r	/usr/src/lib/libc/net/getservbyname.c	/^getservbyname_r(const char *name, const char *prot/
+getservbyport	/usr/src/lib/libc/net/getservbyport.c	/^getservbyport(int port, const char *proto)$/
+getservbyport_r	/usr/src/lib/libc/net/getservbyport.c	/^getservbyport_r(int port, const char *proto, struc/
+getservent	/usr/src/lib/libc/net/getservent.c	/^getservent(void)$/
+getservent_r	/usr/src/lib/libc/net/getservent.c	/^getservent_r(struct servent *se, struct servent_da/
+getstring	/usr/src/lib/libc/gen/getnetgrent.c	/^getstring(char **pp, int del, char **str)$/
+getsubopt	/usr/src/lib/libc/stdlib/getsubopt.c	/^getsubopt(char **optionp, char * const *tokens, ch/
+gettime	/usr/src/lib/libc/gen/syslog.c	/^gettime(char *buf, size_t maxsize)$/
+getttyent	/usr/src/lib/libc/gen/getttyent.c	/^getttyent(void)$/
+getttynam	/usr/src/lib/libc/gen/getttyent.c	/^getttynam(const char *tty)$/
+gettype	/usr/src/lib/libc/gen/disklabel.c	/^gettype(char *t, char **names)$/
+getusershell	/usr/src/lib/libc/gen/getusershell.c	/^getusershell(void)$/
+getw	/usr/src/lib/libc/stdio/getw.c	/^getw(FILE *fp)$/
+getwc	/usr/src/lib/libc/stdio/getwc.c	/^getwc(FILE *fp)$/
+getwchar	/usr/src/lib/libc/stdio/getwchar.c	/^getwchar()$/
+getwd	/usr/src/lib/libc/compat-43/getwd.c	/^getwd(char *buf)$/
+getzname	/usr/src/lib/libc/time/localtime.c	/^getzname(strp)$/
+glob	/usr/src/lib/libc/gen/glob.c	/^glob(const char *pattern, int flags, int (*errfunc/
+glob0	/usr/src/lib/libc/gen/glob.c	/^glob0(const Char *pattern, glob_t *pglob, struct g/
+glob1	/usr/src/lib/libc/gen/glob.c	/^glob1(Char *pattern, Char *pattern_last, glob_t *p/
+glob2	/usr/src/lib/libc/gen/glob.c	/^glob2(Char *pathbuf, Char *pathbuf_last, Char *pat/
+glob3	/usr/src/lib/libc/gen/glob.c	/^glob3(Char *pathbuf, Char *pathbuf_last, Char *pat/
+glob_lim	/usr/src/lib/libc/gen/glob.c	/^struct glob_lim {$/
+glob_path_stat	/usr/src/lib/libc/gen/glob.c	/^struct glob_path_stat {$/
+globexp1	/usr/src/lib/libc/gen/glob.c	/^globexp1(const Char *pattern, glob_t *pglob, struc/
+globexp2	/usr/src/lib/libc/gen/glob.c	/^globexp2(const Char *ptr, const Char *pattern, glo/
+globextend	/usr/src/lib/libc/gen/glob.c	/^globextend(const Char *path, glob_t *pglob, struct/
+globfree	/usr/src/lib/libc/gen/glob.c	/^globfree(glob_t *pglob)$/
+globtilde	/usr/src/lib/libc/gen/glob.c	/^globtilde(const Char *pattern, Char *patbuf, size_/
+gmtime	/usr/src/lib/libc/time/localtime.c	/^gmtime(timep)$/
+gmtime_r	/usr/src/lib/libc/time/localtime.c	/^gmtime_r(timep, p_tm)$/
+gmtload	/usr/src/lib/libc/time/localtime.c	/^gmtload(sp)$/
+gmtsub	/usr/src/lib/libc/time/localtime.c	/^gmtsub(timep, offset, tmp)$/
+grantpt	/usr/src/lib/libc/stdlib/posix_pty.c	/^grantpt(int mfd)$/
+group_from_gid	/usr/src/lib/libc/gen/pwcache.c	/^group_from_gid(gid_t gid, int nogroup)$/
+group_storage	/usr/src/lib/libc/gen/getgrent.c	/^static struct group_storage {$/
+grscan	/usr/src/lib/libc/gen/getgrent.c	/^grscan(int search, gid_t gid, const char *name, st/
+gsetrl	/usr/src/lib/libc/gen/login_cap.c	/^gsetrl(login_cap_t *lc, int what, char *name, int /
+gtime	/usr/src/lib/libc/time/localtime.c	/^gtime(tmp)$/
+handler	/usr/src/lib/libc/gen/readpassphrase.c	/^static void handler(int s)$/
+hash	/usr/src/lib/libc/stdlib/malloc.c	/^hash(void *p)$/
+hash1	/usr/src/lib/libc/db/hash/hash_func.c	/^hash1(const void *key, size_t len)$/
+hash2	/usr/src/lib/libc/db/hash/hash_func.c	/^hash2(const void *key, size_t len)$/
+hash3	/usr/src/lib/libc/db/hash/hash_func.c	/^hash3(const void *key, size_t len)$/
+hash4	/usr/src/lib/libc/db/hash/hash_func.c	/^hash4(const void *key, size_t len)$/
+hash_access	/usr/src/lib/libc/db/hash/hash.c	/^hash_access(HTAB *hashp, ACTION action, DBT *key, /
+hash_close	/usr/src/lib/libc/db/hash/hash.c	/^hash_close(DB *dbp)$/
+hash_delete	/usr/src/lib/libc/db/hash/hash.c	/^hash_delete(const DB *dbp, const DBT *key,$/
+hash_fd	/usr/src/lib/libc/db/hash/hash.c	/^hash_fd(const DB *dbp)$/
+hash_get	/usr/src/lib/libc/db/hash/hash.c	/^hash_get(const DB *dbp, const DBT *key, DBT *data,/
+hash_put	/usr/src/lib/libc/db/hash/hash.c	/^hash_put(const DB *dbp, DBT *key, const DBT *data,/
+hash_realloc	/usr/src/lib/libc/db/hash/hash.c	/^hash_realloc(SEGMENT **p_ptr, int oldsize, int new/
+hash_seq	/usr/src/lib/libc/db/hash/hash.c	/^hash_seq(const DB *dbp, DBT *key, DBT *data, u_int/
+hash_sync	/usr/src/lib/libc/db/hash/hash.c	/^hash_sync(const DB *dbp, u_int32_t flags)$/
+hcreate	/usr/src/lib/libc/stdlib/hcreate.c	/^hcreate(size_t nel)$/
+hdestroy	/usr/src/lib/libc/db/hash/hash.c	/^hdestroy(HTAB *hashp)$/
+heapsort	/usr/src/lib/libc/stdlib/heapsort.c	/^heapsort(void *vbase, size_t nmemb, size_t size,$/
+herror	/usr/src/lib/libc/net/herror.c	/^herror(const char *s)$/
+hertz	/usr/src/lib/libc/gmon/gmon.c	/^hertz(void)$/
+hexdig_init_D2A	/usr/src/lib/libc/gdtoa/hd_init.c	/^hexdig_init_D2A(Void)$/
+hexnan	/usr/src/lib/libc/gdtoa/hexnan.c	/^hexnan(sp, fpi, x0)$/
+hostent_add_addr	/usr/src/lib/libc/asr/gethostnamadr_async.c	/^hostent_add_addr(struct hostent_ext *h, const void/
+hostent_add_alias	/usr/src/lib/libc/asr/gethostnamadr_async.c	/^hostent_add_alias(struct hostent_ext *h, const cha/
+hostent_alloc	/usr/src/lib/libc/asr/gethostnamadr_async.c	/^hostent_alloc(int family)$/
+hostent_ext	/usr/src/lib/libc/asr/gethostnamadr_async.c	/^struct hostent_ext {$/
+hostent_file_match	/usr/src/lib/libc/asr/gethostnamadr_async.c	/^hostent_file_match(FILE *f, int reqtype, int famil/
+hostent_from_addr	/usr/src/lib/libc/asr/gethostnamadr_async.c	/^hostent_from_addr(int family, const char *name, co/
+hostent_from_packet	/usr/src/lib/libc/asr/gethostnamadr_async.c	/^hostent_from_packet(int reqtype, int family, char /
+hostent_from_yp	/usr/src/lib/libc/asr/gethostnamadr_async.c	/^hostent_from_yp(int family, char *line)$/
+hostent_set_cname	/usr/src/lib/libc/asr/gethostnamadr_async.c	/^hostent_set_cname(struct hostent_ext *h, const cha/
+hsearch	/usr/src/lib/libc/stdlib/hcreate.c	/^hsearch(ENTRY item, ACTION action)$/
+hstrerror	/usr/src/lib/libc/net/herror.c	/^hstrerror(int err)$/
+htinit	/usr/src/lib/libc/gdtoa/hd_init.c	/^htinit(h, s, inc) unsigned char *h; unsigned char /
+htonl	/usr/src/lib/libc/arch/i386/net/htonl.S	/^ENTRY(htonl)$/
+htons	/usr/src/lib/libc/arch/i386/net/htons.S	/^ENTRY(htons)$/
+hyphenchar	/usr/src/lib/libc/net/res_comp.c	/^#define	hyphenchar(c) ((c) == 0x2d)$/
+ieee_double	/usr/src/lib/libc/rpc/xdr_float.c	/^struct	ieee_double {$/
+ieee_single	/usr/src/lib/libc/rpc/xdr_float.c	/^struct	ieee_single {$/
+if_freenameindex	/usr/src/lib/libc/net/if_nameindex.c	/^if_freenameindex(struct if_nameindex *ptr)$/
+if_indextoname	/usr/src/lib/libc/net/if_indextoname.c	/^if_indextoname(unsigned int ifindex, char *ifname)/
+if_nameindex	/usr/src/lib/libc/net/if_nameindex.c	/^if_nameindex(void)$/
+if_nametoindex	/usr/src/lib/libc/net/if_nametoindex.c	/^if_nametoindex(const char *ifname)$/
+imaxabs	/usr/src/lib/libc/stdlib/imaxabs.c	/^imaxabs(intmax_t j)$/
+imaxdiv	/usr/src/lib/libc/stdlib/imaxdiv.c	/^imaxdiv(intmax_t num, intmax_t denom)$/
+in_check	/usr/src/lib/libc/gen/getnetgrent.c	/^in_check(const char *host, const char *user, const/
+in_find	/usr/src/lib/libc/gen/getnetgrent.c	/^in_find(char *ypdom, struct stringlist *sl, char */
+in_lookup	/usr/src/lib/libc/gen/getnetgrent.c	/^in_lookup(const char *ypdom, const char *group, co/
+in_lookup1	/usr/src/lib/libc/gen/getnetgrent.c	/^in_lookup1(const char *ypdom, const char *key, con/
+increment	/usr/src/lib/libc/gdtoa/strtodg.c	/^increment(b) Bigint *b;$/
+increment_overflow	/usr/src/lib/libc/time/localtime.c	/^increment_overflow(ip, j)$/
+index	/usr/src/lib/libc/arch/i386/string/index.S	/^ENTRY(index)$/
+inet6_opt_append	/usr/src/lib/libc/net/ip6opt.c	/^inet6_opt_append(void *extbuf, socklen_t extlen, i/
+inet6_opt_find	/usr/src/lib/libc/net/ip6opt.c	/^inet6_opt_find(void *extbuf, socklen_t extlen, int/
+inet6_opt_finish	/usr/src/lib/libc/net/ip6opt.c	/^inet6_opt_finish(void *extbuf, socklen_t extlen, i/
+inet6_opt_get_val	/usr/src/lib/libc/net/ip6opt.c	/^inet6_opt_get_val(void *databuf, int offset, void /
+inet6_opt_init	/usr/src/lib/libc/net/ip6opt.c	/^inet6_opt_init(void *extbuf, socklen_t extlen)$/
+inet6_opt_next	/usr/src/lib/libc/net/ip6opt.c	/^inet6_opt_next(void *extbuf, socklen_t extlen, int/
+inet6_opt_set_val	/usr/src/lib/libc/net/ip6opt.c	/^inet6_opt_set_val(void *databuf, int offset, void /
+inet6_rth_add	/usr/src/lib/libc/net/rthdr.c	/^inet6_rth_add(void *bp, const struct in6_addr *add/
+inet6_rth_getaddr	/usr/src/lib/libc/net/rthdr.c	/^inet6_rth_getaddr(const void *bp, int idx)$/
+inet6_rth_init	/usr/src/lib/libc/net/rthdr.c	/^inet6_rth_init(void *bp, socklen_t bp_len, int typ/
+inet6_rth_reverse	/usr/src/lib/libc/net/rthdr.c	/^inet6_rth_reverse(const void *in, void *out)$/
+inet6_rth_segments	/usr/src/lib/libc/net/rthdr.c	/^inet6_rth_segments(const void *bp)$/
+inet6_rth_space	/usr/src/lib/libc/net/rthdr.c	/^inet6_rth_space(int type, int segments)$/
+inet_addr	/usr/src/lib/libc/net/inet_addr.c	/^inet_addr(const char *cp)$/
+inet_aton	/usr/src/lib/libc/net/inet_addr.c	/^inet_aton(const char *cp, struct in_addr *addr)$/
+inet_lnaof	/usr/src/lib/libc/net/inet_lnaof.c	/^inet_lnaof(struct in_addr in)$/
+inet_makeaddr	/usr/src/lib/libc/net/inet_makeaddr.c	/^inet_makeaddr(in_addr_t net, in_addr_t host)$/
+inet_net_ntop	/usr/src/lib/libc/net/inet_net_ntop.c	/^inet_net_ntop(int af, const void *src, int bits, c/
+inet_net_ntop_ipv4	/usr/src/lib/libc/net/inet_net_ntop.c	/^inet_net_ntop_ipv4(const u_char *src, int bits, ch/
+inet_net_ntop_ipv6	/usr/src/lib/libc/net/inet_net_ntop.c	/^inet_net_ntop_ipv6(const u_char *src, int bits, ch/
+inet_net_pton	/usr/src/lib/libc/net/inet_net_pton.c	/^inet_net_pton(int af, const char *src, void *dst, /
+inet_net_pton_ipv4	/usr/src/lib/libc/net/inet_net_pton.c	/^inet_net_pton_ipv4(const char *src, u_char *dst, s/
+inet_net_pton_ipv6	/usr/src/lib/libc/net/inet_net_pton.c	/^inet_net_pton_ipv6(const char *src, u_char *dst, s/
+inet_neta	/usr/src/lib/libc/net/inet_neta.c	/^inet_neta(in_addr_t src, char *dst, size_t size)$/
+inet_netof	/usr/src/lib/libc/net/inet_netof.c	/^inet_netof(struct in_addr in)$/
+inet_network	/usr/src/lib/libc/net/inet_network.c	/^inet_network(const char *cp)$/
+inet_ntoa	/usr/src/lib/libc/net/inet_ntoa.c	/^inet_ntoa(struct in_addr in)$/
+inet_ntop	/usr/src/lib/libc/net/inet_ntop.c	/^inet_ntop(int af, const void *src, char *dst, sock/
+inet_ntop4	/usr/src/lib/libc/net/inet_ntop.c	/^inet_ntop4(const u_char *src, char *dst, size_t si/
+inet_ntop6	/usr/src/lib/libc/net/inet_ntop.c	/^inet_ntop6(const u_char *src, char *dst, size_t si/
+inet_pton	/usr/src/lib/libc/net/inet_pton.c	/^inet_pton(int af, const char *src, void *dst)$/
+inet_pton4	/usr/src/lib/libc/net/inet_pton.c	/^inet_pton4(const char *src, u_char *dst)$/
+inet_pton6	/usr/src/lib/libc/net/inet_pton.c	/^inet_pton6(const char *src, u_char *dst)$/
+init_hash	/usr/src/lib/libc/db/hash/hash.c	/^init_hash(HTAB *hashp, const char *file, const HAS/
+init_htab	/usr/src/lib/libc/db/hash/hash.c	/^init_htab(HTAB *hashp, int nelem)$/
+initgroups	/usr/src/lib/libc/gen/initgroups.c	/^initgroups(const char *uname, gid_t agroup)$/
+initshells	/usr/src/lib/libc/gen/getusershell.c	/^initshells(void)$/
+initstate	/usr/src/lib/libc/stdlib/random.c	/^initstate(u_int seed, char *arg_state, size_t n)$/
+innetgr	/usr/src/lib/libc/gen/getnetgrent.c	/^innetgr(const char *grp, const char *host, const c/
+insert	/usr/src/lib/libc/stdlib/malloc.c	/^insert(struct dir_info *d, void *p, size_t sz, voi/
+insertionsort	/usr/src/lib/libc/stdlib/merge.c	/^insertionsort(u_char *a, size_t n, size_t size,$/
+insque	/usr/src/lib/libc/stdlib/insque.c	/^insque(void *entry, void *pred)$/
+int_type	/usr/src/lib/libc/locale/wcstol.c	/^typedef long int_type;$/
+internal_entry	/usr/src/lib/libc/stdlib/hcreate.c	/^struct internal_entry {$/
+interpret	/usr/src/lib/libc/rpc/getrpcent.c	/^interpret(char *val, int len)$/
+ip6optlen	/usr/src/lib/libc/net/ip6opt.c	/^ip6optlen(u_int8_t *opt, u_int8_t *lim)$/
+iruserok	/usr/src/lib/libc/net/ruserok.c	/^iruserok(u_int32_t raddr, int superuser, const cha/
+iruserok_sa	/usr/src/lib/libc/net/ruserok.c	/^iruserok_sa(const void *raddr, int rlen, int super/
+is_digit	/usr/src/lib/libc/stdio/vfprintf.c	/^#define is_digit(c)	((unsigned)to_digit(c) <= 9)$/
+isalnum	/usr/src/lib/libc/gen/isctype.c	/^isalnum(int c)$/
+isalpha	/usr/src/lib/libc/gen/isctype.c	/^isalpha(int c)$/
+isascii	/usr/src/lib/libc/gen/isctype.c	/^isascii(int c)$/
+isatty	/usr/src/lib/libc/gen/isatty.c	/^isatty(int fd)$/
+isblank	/usr/src/lib/libc/gen/isctype.c	/^isblank(int c)$/
+iscntrl	/usr/src/lib/libc/gen/isctype.c	/^iscntrl(int c)$/
+isdigit	/usr/src/lib/libc/gen/isctype.c	/^isdigit(int c)$/
+isfdtype	/usr/src/lib/libc/gen/isfdtype.c	/^isfdtype(int fd, int fdtype)$/
+isgraph	/usr/src/lib/libc/gen/isctype.c	/^isgraph(int c)$/
+isinsets	/usr/src/lib/libc/regex/regcomp.c	/^isinsets(struct re_guts *g, int c)$/
+islower	/usr/src/lib/libc/gen/isctype.c	/^islower(int c)$/
+ismeta	/usr/src/lib/libc/gen/glob.c	/^#define	ismeta(c)	(((c)&M_QUOTE) != 0)$/
+isoctal	/usr/src/lib/libc/gen/unvis.c	/^#define	isoctal(c)	(((u_char)(c)) >= '0' && ((u_ch/
+isprint	/usr/src/lib/libc/gen/isctype.c	/^isprint(int c)$/
+ispunct	/usr/src/lib/libc/gen/isctype.c	/^ispunct(int c)$/
+isspace	/usr/src/lib/libc/gen/isctype.c	/^isspace(int c)$/
+isupper	/usr/src/lib/libc/gen/isctype.c	/^isupper(int c)$/
+isvisible	/usr/src/lib/libc/gen/vis.c	/^#define	isvisible(c,flag)						\\$/
+iswalnum	/usr/src/lib/libc/locale/iswctype.c	/^iswalnum(wint_t c)$/
+iswalpha	/usr/src/lib/libc/locale/iswctype.c	/^iswalpha(wint_t c)$/
+iswblank	/usr/src/lib/libc/locale/iswctype.c	/^iswblank(wint_t c)$/
+iswcntrl	/usr/src/lib/libc/locale/iswctype.c	/^iswcntrl(wint_t c)$/
+iswctype	/usr/src/lib/libc/locale/iswctype.c	/^iswctype(wint_t c, wctype_t charclass)$/
+iswdigit	/usr/src/lib/libc/locale/iswctype.c	/^iswdigit(wint_t c)$/
+iswgraph	/usr/src/lib/libc/locale/iswctype.c	/^iswgraph(wint_t c)$/
+iswlower	/usr/src/lib/libc/locale/iswctype.c	/^iswlower(wint_t c)$/
+iswprint	/usr/src/lib/libc/locale/iswctype.c	/^iswprint(wint_t c)$/
+iswpunct	/usr/src/lib/libc/locale/iswctype.c	/^iswpunct(wint_t c)$/
+iswspace	/usr/src/lib/libc/locale/iswctype.c	/^iswspace(wint_t c)$/
+iswupper	/usr/src/lib/libc/locale/iswctype.c	/^iswupper(wint_t c)$/
+iswxdigit	/usr/src/lib/libc/locale/iswctype.c	/^iswxdigit(wint_t c)$/
+isxdigit	/usr/src/lib/libc/gen/isctype.c	/^isxdigit(int c)$/
+iter_domain	/usr/src/lib/libc/asr/res_search_async.c	/^iter_domain(struct asr_query *as, const char *name/
+iter_family	/usr/src/lib/libc/asr/getaddrinfo_async.c	/^iter_family(struct asr_query *as, int first)$/
+iter_ns	/usr/src/lib/libc/asr/res_send_async.c	/^iter_ns(struct asr_query *as)$/
+jrand48	/usr/src/lib/libc/stdlib/jrand48.c	/^jrand48(unsigned short xseed[3])$/
+killpg	/usr/src/lib/libc/compat-43/killpg.c	/^killpg(pid_t pgid, int sig)$/
+l64a	/usr/src/lib/libc/stdlib/l64a.c	/^l64a(long value)$/
+labs	/usr/src/lib/libc/arch/i386/stdlib/labs.S	/^ENTRY(labs)$/
+lc_time_T	/usr/src/lib/libc/time/strftime.c	/^struct lc_time_T {$/
+lcong48	/usr/src/lib/libc/stdlib/lcong48.c	/^lcong48(unsigned short p[7])$/
+ldexp	/usr/src/lib/libc/arch/i386/gen/ldexp.c	/^ldexp(double value, int exp)$/
+ldiv	/usr/src/lib/libc/arch/i386/stdlib/ldiv.S	/^ENTRY(ldiv)$/
+leakcmp	/usr/src/lib/libc/stdlib/malloc.c	/^leakcmp(struct leaknode *e1, struct leaknode *e2)$/
+leaknode	/usr/src/lib/libc/stdlib/malloc.c	/^struct leaknode {$/
+leapcorr	/usr/src/lib/libc/time/localtime.c	/^leapcorr(timep)$/
+leaps_thru_end_of	/usr/src/lib/libc/time/localtime.c	/^leaps_thru_end_of(y)$/
+lfind	/usr/src/lib/libc/stdlib/lsearch.c	/^lfind(const void *key, const void *base, size_t *n/
+lflush	/usr/src/lib/libc/stdio/refill.c	/^lflush(FILE *fp)$/
+linear_base	/usr/src/lib/libc/stdlib/lsearch.c	/^linear_base(const void *key, const void *base, siz/
+link_addr	/usr/src/lib/libc/net/linkaddr.c	/^link_addr(const char *addr, struct sockaddr_dl *sd/
+link_ntoa	/usr/src/lib/libc/net/linkaddr.c	/^link_ntoa(const struct sockaddr_dl *sdl)$/
+llabs	/usr/src/lib/libc/stdlib/llabs.c	/^llabs(long long j)$/
+lldiv	/usr/src/lib/libc/stdlib/lldiv.c	/^lldiv(long long num, long long denom)$/
+load_locale_sub	/usr/src/lib/libc/locale/setlocale.c	/^load_locale_sub(int category, const char *locname,/
+load_msgcat	/usr/src/lib/libc/nls/catopen.c	/^load_msgcat(const char *path)$/
+loadlocale	/usr/src/lib/libc/locale/setlocale.c	/^loadlocale(int category)$/
+localeconv	/usr/src/lib/libc/locale/localeconv.c	/^localeconv(void)$/
+localetable	/usr/src/lib/libc/locale/setrunelocale.c	/^struct localetable {$/
+localsub	/usr/src/lib/libc/time/localtime.c	/^localsub(timep, offset, tmp)$/
+localtime	/usr/src/lib/libc/time/localtime.c	/^localtime(timep)$/
+localtime_r	/usr/src/lib/libc/time/localtime.c	/^localtime_r(timep, p_tm)$/
+lockf	/usr/src/lib/libc/gen/lockf.c	/^lockf(int filedes, int function, off_t size)$/
+login_close	/usr/src/lib/libc/gen/login_cap.c	/^login_close(login_cap_t *lc)$/
+login_getcapbool	/usr/src/lib/libc/gen/login_cap.c	/^login_getcapbool(login_cap_t *lc, char *cap, u_int/
+login_getcapnum	/usr/src/lib/libc/gen/login_cap.c	/^login_getcapnum(login_cap_t *lc, char *cap, quad_t/
+login_getcapsize	/usr/src/lib/libc/gen/login_cap.c	/^login_getcapsize(login_cap_t *lc, char *cap, quad_/
+login_getcapstr	/usr/src/lib/libc/gen/login_cap.c	/^login_getcapstr(login_cap_t *lc, char *cap, char */
+login_getcaptime	/usr/src/lib/libc/gen/login_cap.c	/^login_getcaptime(login_cap_t *lc, char *cap, quad_/
+login_getclass	/usr/src/lib/libc/gen/login_cap.c	/^login_getclass(char *class)$/
+login_getstyle	/usr/src/lib/libc/gen/login_cap.c	/^login_getstyle(login_cap_t *lc, char *style, char /
+login_setenv	/usr/src/lib/libc/gen/login_cap.c	/^login_setenv(char *name, char *ovalue, const struc/
+long_increment_overflow	/usr/src/lib/libc/time/localtime.c	/^long_increment_overflow(lp, m)$/
+long_normalize_overflow	/usr/src/lib/libc/time/localtime.c	/^long_normalize_overflow(tensptr, unitsptr, base)$/
+longjmp	/usr/src/lib/libc/arch/i386/gen/setjmp.S	/^ENTRY(longjmp)$/
+longjmperror	/usr/src/lib/libc/gen/setjmperr.c	/^longjmperror(void)$/
+lookup	/usr/src/lib/libc/gen/getnetgrent.c	/^lookup(const char *ypdom, char *name, char **line,/
+lrand48	/usr/src/lib/libc/stdlib/lrand48.c	/^lrand48(void)$/
+lsearch	/usr/src/lib/libc/stdlib/lsearch.c	/^lsearch(const void *key, void *base, size_t *nelp,/
+lsinfo	/usr/src/lib/libc/time/localtime.c	/^struct lsinfo {				\/* leap second information *\//
+makefd_xprt	/usr/src/lib/libc/rpc/svc_tcp.c	/^makefd_xprt(int fd, u_int sendsize, u_int recvsize/
+makeshmpath	/usr/src/lib/libc/gen/shm_open.c	/^makeshmpath(const char *origpath, char *shmpath, s/
+malloc	/usr/src/lib/libc/stdlib/malloc.c	/^malloc(size_t size)$/
+malloc_bytes	/usr/src/lib/libc/stdlib/malloc.c	/^malloc_bytes(struct dir_info *d, size_t size, void/
+malloc_dump	/usr/src/lib/libc/stdlib/malloc.c	/^malloc_dump(int fd)$/
+malloc_dump1	/usr/src/lib/libc/stdlib/malloc.c	/^malloc_dump1(int fd, struct dir_info *d)$/
+malloc_exit	/usr/src/lib/libc/stdlib/malloc.c	/^malloc_exit(void)$/
+malloc_init	/usr/src/lib/libc/stdlib/malloc.c	/^malloc_init(void)$/
+malloc_leak	/usr/src/lib/libc/stdlib/malloc.c	/^struct malloc_leak {$/
+malloc_readonly	/usr/src/lib/libc/stdlib/malloc.c	/^struct malloc_readonly {$/
+malloc_recurse	/usr/src/lib/libc/stdlib/malloc.c	/^malloc_recurse(void)$/
+mantbits	/usr/src/lib/libc/gdtoa/strtodg.c	/^mantbits(d) U *d;$/
+map	/usr/src/lib/libc/stdlib/malloc.c	/^map(struct dir_info *d, size_t sz, int zero_fill)$/
+mapalign	/usr/src/lib/libc/stdlib/malloc.c	/^mapalign(struct dir_info *d, size_t alignment, siz/
+marshal_new_auth	/usr/src/lib/libc/rpc/auth_unix.c	/^marshal_new_auth(AUTH *auth)$/
+match	/usr/src/lib/libc/gen/glob.c	/^match(Char *name, Char *pat, Char *patend, int rec/
+max	/usr/src/lib/libc/rpc/svc.c	/^#define max(a, b) (a > b ? a : b)$/
+mblen	/usr/src/lib/libc/locale/mblen.c	/^mblen(const char *s, size_t n)$/
+mbrlen	/usr/src/lib/libc/locale/mbrlen.c	/^mbrlen(const char * __restrict s, size_t n, mbstat/
+mbrtowc	/usr/src/lib/libc/locale/multibyte_citrus.c	/^mbrtowc(wchar_t *pwc, const char *s, size_t n, mbs/
+mbsinit	/usr/src/lib/libc/locale/multibyte_citrus.c	/^mbsinit(const mbstate_t *ps)$/
+mbsnrtowcs	/usr/src/lib/libc/locale/multibyte_citrus.c	/^mbsnrtowcs(wchar_t *dst, const char **src, size_t /
+mbsrtowcs	/usr/src/lib/libc/locale/multibyte_citrus.c	/^mbsrtowcs(wchar_t *dst, const char **src, size_t l/
+mbstowcs	/usr/src/lib/libc/locale/mbstowcs.c	/^mbstowcs(wchar_t * __restrict pwcs, const char * _/
+mbtowc	/usr/src/lib/libc/locale/mbtowc.c	/^mbtowc(wchar_t * __restrict pwc, const char * __re/
+mcadd	/usr/src/lib/libc/regex/regcomp.c	/^mcadd( struct parse *p, cset *cs, char *cp)$/
+mccase	/usr/src/lib/libc/regex/regcomp.c	/^mccase(struct parse *p, cset *cs)$/
+mcinvert	/usr/src/lib/libc/regex/regcomp.c	/^mcinvert(struct parse *p, cset *cs)$/
+med3	/usr/src/lib/libc/stdlib/qsort.c	/^med3(char *a, char *b, char *c, int (*cmp)(const v/
+memccpy	/usr/src/lib/libc/string/memccpy.c	/^memccpy(void *t, const void *f, int c, size_t n)$/
+memchr	/usr/src/lib/libc/arch/i386/string/memchr.S	/^ENTRY(memchr)$/
+memcmp	/usr/src/lib/libc/arch/i386/string/memcmp.S	/^ENTRY(memcmp)$/
+memcpy	/usr/src/lib/libc/arch/i386/string/bcopy.S	/^ENTRY(memcpy)$/
+memcpy_D2A	/usr/src/lib/libc/gdtoa/misc.c	/^memcpy_D2A(a, b, len) Char *a; Char *b; size_t len/
+memmem	/usr/src/lib/libc/string/memmem.c	/^memmem(const void *l, size_t l_len, const void *s,/
+memmove	/usr/src/lib/libc/arch/i386/string/bcopy.S	/^ENTRY(memmove)$/
+memrchr	/usr/src/lib/libc/string/memrchr.c	/^memrchr(const void *s, int c, size_t n)$/
+memset	/usr/src/lib/libc/arch/i386/string/memset.S	/^ENTRY(memset)$/
+memstream_close	/usr/src/lib/libc/stdio/open_memstream.c	/^memstream_close(void *v)$/
+memstream_seek	/usr/src/lib/libc/stdio/open_memstream.c	/^memstream_seek(void *v, fpos_t off, int whence)$/
+memstream_write	/usr/src/lib/libc/stdio/open_memstream.c	/^memstream_write(void *v, const char *b, int l)$/
+mergesort	/usr/src/lib/libc/stdlib/merge.c	/^mergesort(void *base, size_t nmemb, size_t size,$/
+middlechar	/usr/src/lib/libc/net/res_comp.c	/^#define middlechar(c) (borderchar(c) || hyphenchar/
+min	/usr/src/lib/libc/crypt/arc4random.c	/^#define min(a, b) ((a) < (b) ? (a) : (b))$/
+mkdtemp	/usr/src/lib/libc/stdio/mktemp.c	/^mkdtemp(char *path)$/
+mklower	/usr/src/lib/libc/net/res_comp.c	/^mklower(int ch)$/
+mkstemp	/usr/src/lib/libc/stdio/mktemp.c	/^mkstemp(char *path)$/
+mkstemps	/usr/src/lib/libc/stdio/mktemp.c	/^mkstemps(char *path, int slen)$/
+mktemp	/usr/src/lib/libc/stdio/mktemp.c	/^mktemp(char *path)$/
+mktemp_internal	/usr/src/lib/libc/stdio/mktemp.c	/^mktemp_internal(char *path, int slen, int mode)$/
+mktime	/usr/src/lib/libc/time/localtime.c	/^mktime(tmp)$/
+modf	/usr/src/lib/libc/arch/i386/gen/modf.S	/^ENTRY(modf)$/
+moncontrol	/usr/src/lib/libc/gmon/gmon.c	/^moncontrol(int mode)$/
+monstartup	/usr/src/lib/libc/gmon/gmon.c	/^monstartup(u_long lowpc, u_long highpc)$/
+moreglue	/usr/src/lib/libc/stdio/findfp.c	/^moreglue(int n)$/
+mpool_bkt	/usr/src/lib/libc/db/mpool/mpool.c	/^mpool_bkt(MPOOL *mp)$/
+mpool_close	/usr/src/lib/libc/db/mpool/mpool.c	/^mpool_close(MPOOL *mp)$/
+mpool_delete	/usr/src/lib/libc/db/mpool/mpool.c	/^mpool_delete(MPOOL *mp, void *page)$/
+mpool_filter	/usr/src/lib/libc/db/mpool/mpool.c	/^mpool_filter(MPOOL *mp, void (*pgin) (void *, pgno/
+mpool_get	/usr/src/lib/libc/db/mpool/mpool.c	/^mpool_get(MPOOL *mp, pgno_t pgno,$/
+mpool_look	/usr/src/lib/libc/db/mpool/mpool.c	/^mpool_look(MPOOL *mp, pgno_t pgno)$/
+mpool_new	/usr/src/lib/libc/db/mpool/mpool.c	/^mpool_new(MPOOL *mp, pgno_t *pgnoaddr, u_int flags/
+mpool_open	/usr/src/lib/libc/db/mpool/mpool.c	/^mpool_open(void *key, int fd, pgno_t pagesize, pgn/
+mpool_put	/usr/src/lib/libc/db/mpool/mpool.c	/^mpool_put(MPOOL *mp, void *page, u_int flags)$/
+mpool_stat	/usr/src/lib/libc/db/mpool/mpool.c	/^mpool_stat(MPOOL *mp)$/
+mpool_sync	/usr/src/lib/libc/db/mpool/mpool.c	/^mpool_sync(MPOOL *mp)$/
+mpool_write	/usr/src/lib/libc/db/mpool/mpool.c	/^mpool_write(MPOOL *mp, BKT *bp)$/
+mrand48	/usr/src/lib/libc/stdlib/mrand48.c	/^mrand48(void)$/
+mswap	/usr/src/lib/libc/db/btree/bt_conv.c	/^mswap(PAGE *pg)$/
+multiply	/usr/src/lib/libc/gen/login_cap.c	/^multiply(u_quad_t n1, u_quad_t n2)$/
+ncache	/usr/src/lib/libc/gen/pwcache.c	/^	static struct ncache {$/
+nch	/usr/src/lib/libc/regex/regcomp.c	/^nch(struct parse *p, cset *cs)$/
+netent_add_alias	/usr/src/lib/libc/asr/getnetnamadr_async.c	/^netent_add_alias(struct netent_ext *n, const char /
+netent_alloc	/usr/src/lib/libc/asr/getnetnamadr_async.c	/^netent_alloc(int family)$/
+netent_ext	/usr/src/lib/libc/asr/getnetnamadr_async.c	/^struct netent_ext {$/
+netent_file_match	/usr/src/lib/libc/asr/getnetnamadr_async.c	/^netent_file_match(FILE *f, int reqtype, const char/
+netent_from_packet	/usr/src/lib/libc/asr/getnetnamadr_async.c	/^netent_from_packet(int reqtype, char *pkt, size_t /
+netent_set_cname	/usr/src/lib/libc/asr/getnetnamadr_async.c	/^netent_set_cname(struct netent_ext *n, const char /
+newbuf	/usr/src/lib/libc/db/hash/hash_buf.c	/^newbuf(HTAB *hashp, u_int32_t addr, BUFHEAD *prev_/
+newgetbroadcastnets	/usr/src/lib/libc/rpc/pmap_rmt.c	/^newgetbroadcastnets(struct in_addr **addrsp)$/
+nextkey	/usr/src/lib/libc/db/hash/ndbm.c	/^nextkey(datum key)$/
+nfcmp	/usr/src/lib/libc/gen/getcap.c	/^nfcmp(const char *nf, char *rec)$/
+nftw	/usr/src/lib/libc/gen/nftw.c	/^nftw(const char *path, int (*fn)(const char *, con/
+nice	/usr/src/lib/libc/gen/nice.c	/^nice(int incr)$/
+nitems	/usr/src/lib/libc/stdio/mktemp.c	/^#define nitems(_a)	(sizeof((_a)) \/ sizeof((_a)[0]/
+nl_langinfo	/usr/src/lib/libc/locale/nl_langinfo.c	/^nl_langinfo(nl_item item)$/
+nlist	/usr/src/lib/libc/gen/nlist.c	/^nlist(const char *name, struct nlist *list)$/
+node	/usr/src/lib/libc/stdlib/tfind.c	/^} node;$/
+nonnewline	/usr/src/lib/libc/regex/regcomp.c	/^nonnewline(struct parse *p)$/
+normalize_overflow	/usr/src/lib/libc/time/localtime.c	/^normalize_overflow(tensptr, unitsptr, base)$/
+nrand48	/usr/src/lib/libc/stdlib/nrand48.c	/^nrand48(unsigned short xseed[3])$/
+nroot	/usr/src/lib/libc/db/btree/bt_open.c	/^nroot(BTREE *t)$/
+nrv_alloc	/usr/src/lib/libc/gdtoa/dmisc.c	/^nrv_alloc(s, rve, n) char *s, **rve; int n;$/
+ntohl	/usr/src/lib/libc/arch/i386/net/ntohl.S	/^ENTRY(ntohl)$/
+ntohs	/usr/src/lib/libc/arch/i386/net/ntohs.S	/^ENTRY(ntohs)$/
+offtime	/usr/src/lib/libc/time/localtime.c	/^offtime(timep, offset)$/
+ofree	/usr/src/lib/libc/stdlib/malloc.c	/^ofree(void *p)$/
+oldttyname	/usr/src/lib/libc/gen/ttyname.c	/^oldttyname(int fd, struct stat *sb, char *buf, siz/
+omalloc	/usr/src/lib/libc/stdlib/malloc.c	/^omalloc(size_t sz, int zero_fill, void *f)$/
+omalloc_grow	/usr/src/lib/libc/stdlib/malloc.c	/^omalloc_grow(struct dir_info *d)$/
+omalloc_init	/usr/src/lib/libc/stdlib/malloc.c	/^omalloc_init(struct dir_info **dp)$/
+omalloc_make_chunks	/usr/src/lib/libc/stdlib/malloc.c	/^omalloc_make_chunks(struct dir_info *d, int bits, /
+omemalign	/usr/src/lib/libc/stdlib/malloc.c	/^omemalign(size_t alignment, size_t sz, int zero_fi/
+open_memstream	/usr/src/lib/libc/stdio/open_memstream.c	/^open_memstream(char **pbuf, size_t *psize)$/
+open_temp	/usr/src/lib/libc/db/hash/hash_page.c	/^open_temp(HTAB *hashp)$/
+open_wmemstream	/usr/src/lib/libc/stdio/open_wmemstream.c	/^open_wmemstream(wchar_t **pbuf, size_t *psize)$/
+opendir	/usr/src/lib/libc/gen/opendir.c	/^opendir(const char *name)$/
+openlog	/usr/src/lib/libc/gen/syslog.c	/^openlog(const char *ident, int logstat, int logfac/
+openlog_r	/usr/src/lib/libc/gen/syslog_r.c	/^openlog_r(const char *ident, int logstat, int logf/
+ordinary	/usr/src/lib/libc/regex/regcomp.c	/^ordinary(struct parse *p, int ch)$/
+orealloc	/usr/src/lib/libc/stdlib/malloc.c	/^orealloc(void *p, size_t newsz, void *f)$/
+othercase	/usr/src/lib/libc/regex/regcomp.c	/^othercase(int ch)$/
+overflow_page	/usr/src/lib/libc/db/hash/hash_page.c	/^overflow_page(HTAB *hashp)$/
+p_b_cclass	/usr/src/lib/libc/regex/regcomp.c	/^p_b_cclass(struct parse *p, cset *cs)$/
+p_b_coll_elem	/usr/src/lib/libc/regex/regcomp.c	/^p_b_coll_elem(struct parse *p,$/
+p_b_eclass	/usr/src/lib/libc/regex/regcomp.c	/^p_b_eclass(struct parse *p, cset *cs)$/
+p_b_symbol	/usr/src/lib/libc/regex/regcomp.c	/^p_b_symbol(struct parse *p)$/
+p_b_term	/usr/src/lib/libc/regex/regcomp.c	/^p_b_term(struct parse *p, cset *cs)$/
+p_bracket	/usr/src/lib/libc/regex/regcomp.c	/^p_bracket(struct parse *p)$/
+p_bre	/usr/src/lib/libc/regex/regcomp.c	/^p_bre(struct parse *p,$/
+p_count	/usr/src/lib/libc/regex/regcomp.c	/^p_count(struct parse *p)$/
+p_ere	/usr/src/lib/libc/regex/regcomp.c	/^p_ere(struct parse *p, int stop)	\/* character thi/
+p_ere_exp	/usr/src/lib/libc/regex/regcomp.c	/^p_ere_exp(struct parse *p)$/
+p_simp_re	/usr/src/lib/libc/regex/regcomp.c	/^p_simp_re(struct parse *p,$/
+p_str	/usr/src/lib/libc/regex/regcomp.c	/^p_str(struct parse *p)$/
+pack_data	/usr/src/lib/libc/asr/asr_utils.c	/^pack_data(struct asr_pack *p, const void *data, si/
+pack_dname	/usr/src/lib/libc/asr/asr_utils.c	/^pack_dname(struct asr_pack *p, const char *dname)$/
+pack_u16	/usr/src/lib/libc/asr/asr_utils.c	/^pack_u16(struct asr_pack *p, uint16_t v)$/
+parse	/usr/src/lib/libc/regex/regcomp.c	/^struct parse {$/
+parse_dns_qsection	/usr/src/lib/libc/asr/getrrsetbyname_async.c	/^parse_dns_qsection(const u_char *answer, int size,/
+parse_dns_response	/usr/src/lib/libc/asr/getrrsetbyname_async.c	/^parse_dns_response(const u_char *answer, int size)/
+parse_dns_rrsection	/usr/src/lib/libc/asr/getrrsetbyname_async.c	/^parse_dns_rrsection(const u_char *answer, int size/
+parse_long_options	/usr/src/lib/libc/stdlib/getopt_long.c	/^parse_long_options(char * const *nargv, const char/
+pass0	/usr/src/lib/libc/asr/asr.c	/^pass0(char **tok, int n, struct asr_ctx *ac)$/
+pause	/usr/src/lib/libc/gen/pause.c	/^pause(void)$/
+pclose	/usr/src/lib/libc/gen/popen.c	/^pclose(FILE *iop)$/
+periodchar	/usr/src/lib/libc/net/res_comp.c	/^#define periodchar(c) ((c) == PERIOD)$/
+permute15	/usr/src/lib/libc/net/res_random.c	/^permute15(u_int in)$/
+permute_args	/usr/src/lib/libc/stdlib/getopt_long.c	/^permute_args(int panonopt_start, int panonopt_end,/
+perror	/usr/src/lib/libc/stdio/perror.c	/^perror(const char *s)$/
+pid	/usr/src/lib/libc/gen/popen.c	/^static struct pid {$/
+pluscount	/usr/src/lib/libc/regex/regcomp.c	/^pluscount(struct parse *p, struct re_guts *g)$/
+pmap_getmaps	/usr/src/lib/libc/rpc/pmap_getmaps.c	/^pmap_getmaps(struct sockaddr_in *address)$/
+pmap_getport	/usr/src/lib/libc/rpc/pmap_getport.c	/^pmap_getport(struct sockaddr_in *address, u_long p/
+pmap_rmtcall	/usr/src/lib/libc/rpc/pmap_rmt.c	/^pmap_rmtcall(struct sockaddr_in *addr, u_long prog/
+pmap_set	/usr/src/lib/libc/rpc/pmap_clnt.c	/^pmap_set(u_long program, u_long version, u_int pro/
+pmap_unset	/usr/src/lib/libc/rpc/pmap_clnt.c	/^pmap_unset(u_long program, u_long version)$/
+pmod	/usr/src/lib/libc/net/res_random.c	/^pmod(u_int16_t gen, u_int16_t exp, u_int16_t mod)$/
+pop	/usr/src/lib/libc/stdlib/radixsort.c	/^#define pop(a, n, i)	a = (--sp)->sa, n = sp->sn, i/
+popen	/usr/src/lib/libc/gen/popen.c	/^popen(const char *program, const char *type)$/
+posix2time	/usr/src/lib/libc/time/localtime.c	/^posix2time(t)$/
+posix_madvise	/usr/src/lib/libc/sys/posix_madvise.c	/^posix_madvise(void *addr, size_t len, int behav)$/
+posix_memalign	/usr/src/lib/libc/stdlib/malloc.c	/^posix_memalign(void **memptr, size_t alignment, si/
+posix_openpt	/usr/src/lib/libc/stdlib/posix_pty.c	/^posix_openpt(int oflag)$/
+posix_spawn	/usr/src/lib/libc/gen/posix_spawn.c	/^posix_spawn(pid_t *pid, const char *path,$/
+posix_spawn_file_actions_addclose	/usr/src/lib/libc/gen/posix_spawn.c	/^posix_spawn_file_actions_addclose(posix_spawn_file/
+posix_spawn_file_actions_adddup2	/usr/src/lib/libc/gen/posix_spawn.c	/^posix_spawn_file_actions_adddup2(posix_spawn_file_/
+posix_spawn_file_actions_addopen	/usr/src/lib/libc/gen/posix_spawn.c	/^posix_spawn_file_actions_addopen(posix_spawn_file_/
+posix_spawn_file_actions_destroy	/usr/src/lib/libc/gen/posix_spawn.c	/^posix_spawn_file_actions_destroy(posix_spawn_file_/
+posix_spawn_file_actions_entry_t	/usr/src/lib/libc/gen/posix_spawn.c	/^} posix_spawn_file_actions_entry_t;$/
+posix_spawn_file_actions_init	/usr/src/lib/libc/gen/posix_spawn.c	/^posix_spawn_file_actions_init(posix_spawn_file_act/
+posix_spawnattr_destroy	/usr/src/lib/libc/gen/posix_spawn.c	/^posix_spawnattr_destroy(posix_spawnattr_t *sa)$/
+posix_spawnattr_getflags	/usr/src/lib/libc/gen/posix_spawn.c	/^posix_spawnattr_getflags(const posix_spawnattr_t */
+posix_spawnattr_getpgroup	/usr/src/lib/libc/gen/posix_spawn.c	/^posix_spawnattr_getpgroup(const posix_spawnattr_t /
+posix_spawnattr_getschedparam	/usr/src/lib/libc/gen/posix_spawn.c	/^posix_spawnattr_getschedparam(const posix_spawnatt/
+posix_spawnattr_getschedpolicy	/usr/src/lib/libc/gen/posix_spawn.c	/^posix_spawnattr_getschedpolicy(const posix_spawnat/
+posix_spawnattr_getsigdefault	/usr/src/lib/libc/gen/posix_spawn.c	/^posix_spawnattr_getsigdefault(const posix_spawnatt/
+posix_spawnattr_getsigmask	/usr/src/lib/libc/gen/posix_spawn.c	/^posix_spawnattr_getsigmask(const posix_spawnattr_t/
+posix_spawnattr_init	/usr/src/lib/libc/gen/posix_spawn.c	/^posix_spawnattr_init(posix_spawnattr_t *ret)$/
+posix_spawnattr_setflags	/usr/src/lib/libc/gen/posix_spawn.c	/^posix_spawnattr_setflags(posix_spawnattr_t *sa, sh/
+posix_spawnattr_setpgroup	/usr/src/lib/libc/gen/posix_spawn.c	/^posix_spawnattr_setpgroup(posix_spawnattr_t *sa, p/
+posix_spawnattr_setschedparam	/usr/src/lib/libc/gen/posix_spawn.c	/^posix_spawnattr_setschedparam(posix_spawnattr_t *_/
+posix_spawnattr_setschedpolicy	/usr/src/lib/libc/gen/posix_spawn.c	/^posix_spawnattr_setschedpolicy(posix_spawnattr_t */
+posix_spawnattr_setsigdefault	/usr/src/lib/libc/gen/posix_spawn.c	/^posix_spawnattr_setsigdefault(posix_spawnattr_t *_/
+posix_spawnattr_setsigmask	/usr/src/lib/libc/gen/posix_spawn.c	/^posix_spawnattr_setsigmask(posix_spawnattr_t *__re/
+posix_spawnp	/usr/src/lib/libc/gen/posix_spawn.c	/^posix_spawnp(pid_t *pid, const char *path,$/
+powerof2	/usr/src/lib/libc/stdio/getdelim.c	/^#define powerof2(x) ((((x)-1)&(x))==0)$/
+prf_ctx	/usr/src/lib/libc/net/res_random.c	/^struct prf_ctx {$/
+print_chain	/usr/src/lib/libc/db/hash/hash_page.c	/^print_chain(int addr)$/
+print_dname	/usr/src/lib/libc/asr/asr_debug.c	/^print_dname(const char *_dname, char *buf, size_t /
+print_header	/usr/src/lib/libc/asr/asr_debug.c	/^print_header(const struct asr_dns_header *h, char /
+print_query	/usr/src/lib/libc/asr/asr_debug.c	/^print_query(const struct asr_dns_query *q, char *b/
+print_rr	/usr/src/lib/libc/asr/asr_debug.c	/^print_rr(const struct asr_dns_rr *rr, char *buf, s/
+print_sockaddr	/usr/src/lib/libc/asr/asr_debug.c	/^print_sockaddr(const struct sockaddr *sa, char *bu/
+printf	/usr/src/lib/libc/stdio/printf.c	/^printf(const char *fmt, ...)$/
+process_file_actions	/usr/src/lib/libc/gen/posix_spawn.c	/^process_file_actions(const posix_spawn_file_action/
+process_file_actions_entry	/usr/src/lib/libc/gen/posix_spawn.c	/^process_file_actions_entry(posix_spawn_file_action/
+process_spawnattr	/usr/src/lib/libc/gen/posix_spawn.c	/^process_spawnattr(const posix_spawnattr_t sa)$/
+proglst	/usr/src/lib/libc/rpc/svc_simple.c	/^static struct proglst {$/
+psignal	/usr/src/lib/libc/gen/psignal.c	/^psignal(unsigned int sig, const char *s)$/
+ptmname	/usr/src/lib/libc/stdlib/posix_pty.c	/^ptmname(int mfd)$/
+ptrace	/usr/src/lib/libc/sys/ptrace.c	/^ptrace(int request, pid_t pid, caddr_t addr, int d/
+ptsname	/usr/src/lib/libc/stdlib/posix_pty.c	/^ptsname(int mfd)$/
+push	/usr/src/lib/libc/stdlib/radixsort.c	/^#define push(a, n, i)	sp->sa = a, sp->sn = n, (sp+/
+putc	/usr/src/lib/libc/stdio/putc.c	/^putc(int c, FILE *fp)$/
+putc_unlocked	/usr/src/lib/libc/stdio/putc.c	/^putc_unlocked(int c, FILE *fp)$/
+putchar	/usr/src/lib/libc/stdio/putchar.c	/^putchar(int c)$/
+putchar_unlocked	/usr/src/lib/libc/stdio/putchar.c	/^putchar_unlocked(int c)$/
+putenv	/usr/src/lib/libc/stdlib/setenv.c	/^putenv(char *str)$/
+putpair	/usr/src/lib/libc/db/hash/hash_page.c	/^putpair(char *p, const DBT *key, const DBT *val)$/
+puts	/usr/src/lib/libc/stdio/puts.c	/^puts(const char *s)$/
+putw	/usr/src/lib/libc/stdio/putw.c	/^putw(int w, FILE *fp)$/
+putwc	/usr/src/lib/libc/stdio/putwc.c	/^putwc(wchar_t wc, FILE *fp)$/
+putwchar	/usr/src/lib/libc/stdio/putwchar.c	/^putwchar(wchar_t wc)$/
+pw_dup	/usr/src/lib/libc/gen/pw_dup.c	/^pw_dup(const struct passwd *pw)$/
+qabs	/usr/src/lib/libc/stdlib/qabs.c	/^qabs(quad_t j)$/
+qdiv	/usr/src/lib/libc/stdlib/qdiv.c	/^qdiv(quad_t num, quad_t denom)$/
+qelem	/usr/src/lib/libc/stdlib/insque.c	/^struct qelem {$/
+qprintf	/usr/src/lib/libc/gen/glob.c	/^qprintf(const char *str, Char *s)$/
+qsort	/usr/src/lib/libc/stdlib/qsort.c	/^qsort(void *aa, size_t n, size_t es, int (*cmp)(co/
+r_sort_a	/usr/src/lib/libc/stdlib/radixsort.c	/^r_sort_a(const u_char **a, int n, int i, const u_c/
+r_sort_b	/usr/src/lib/libc/stdlib/radixsort.c	/^r_sort_b(const u_char **a, const u_char **ta, int /
+radixsort	/usr/src/lib/libc/stdlib/radixsort.c	/^radixsort(const u_char **a, int n, const u_char *t/
+raise	/usr/src/lib/libc/gen/raise.c	/^raise(int s)$/
+rand	/usr/src/lib/libc/stdlib/rand.c	/^rand(void)$/
+rand_r	/usr/src/lib/libc/stdlib/rand.c	/^rand_r(u_int *seed)$/
+random	/usr/src/lib/libc/stdlib/random.c	/^random(void)$/
+random_l	/usr/src/lib/libc/stdlib/random.c	/^random_l(void)$/
+rbytes_init	/usr/src/lib/libc/stdlib/malloc.c	/^rbytes_init(struct dir_info *d)$/
+rcmd	/usr/src/lib/libc/net/rcmd.c	/^rcmd(char **ahost, int rport, const char *locuser,/
+rcmd_af	/usr/src/lib/libc/net/rcmd.c	/^rcmd_af(char **ahost, int porta, const char *locus/
+rcmdsh	/usr/src/lib/libc/net/rcmdsh.c	/^rcmdsh(char **ahost, int rport, const char *locuse/
+rcodetostr	/usr/src/lib/libc/asr/asr_debug.c	/^rcodetostr(uint16_t v)$/
+readdir	/usr/src/lib/libc/gen/readdir.c	/^readdir(DIR *dirp)$/
+readdir_r	/usr/src/lib/libc/gen/readdir_r.c	/^readdir_r(DIR *dirp, struct dirent *entry, struct /
+readentry	/usr/src/lib/libc/locale/rune.c	/^readentry(_RuneRange *rr, FILE *fp)$/
+readpassphrase	/usr/src/lib/libc/gen/readpassphrase.c	/^readpassphrase(const char *prompt, char *buf, size/
+readrange	/usr/src/lib/libc/locale/rune.c	/^readrange(_RuneLocale *rl, _RuneRange *rr, _FileRu/
+readtcp	/usr/src/lib/libc/rpc/clnt_tcp.c	/^readtcp(struct ct_data *ct, caddr_t buf, int len)$/
+realloc	/usr/src/lib/libc/stdlib/malloc.c	/^realloc(void *ptr, size_t size)$/
+realloc_stream	/usr/src/lib/libc/rpc/xdr_rec.c	/^realloc_stream(RECSTREAM *rstrm, int size)$/
+reallocarray	/usr/src/lib/libc/stdlib/reallocarray.c	/^reallocarray(void *optr, size_t nmemb, size_t size/
+realpath	/usr/src/lib/libc/stdlib/realpath.c	/^realpath(const char *path, char *resolved)$/
+rec_rdelete	/usr/src/lib/libc/db/recno/rec_delete.c	/^rec_rdelete(BTREE *t, recno_t nrec)$/
+rec_total	/usr/src/lib/libc/db/btree/bt_split.c	/^rec_total(PAGE *h)$/
+recv	/usr/src/lib/libc/net/recv.c	/^recv(int s, void *buf, size_t len, int flags)$/
+regatoi	/usr/src/lib/libc/regex/regerror.c	/^regatoi(const regex_t *preg, char *localbuf, int l/
+regcomp	/usr/src/lib/libc/regex/regcomp.c	/^regcomp(regex_t *preg, const char *pattern, int cf/
+regerror	/usr/src/lib/libc/regex/regerror.c	/^regerror(int errcode, const regex_t *preg, char *e/
+regexec	/usr/src/lib/libc/regex/regexec.c	/^regexec(const regex_t *preg, const char *string, s/
+regfree	/usr/src/lib/libc/regex/regfree.c	/^regfree(regex_t *preg)$/
+region_info	/usr/src/lib/libc/stdlib/malloc.c	/^struct region_info {$/
+registerrpc	/usr/src/lib/libc/rpc/svc_simple.c	/^registerrpc(int prognum, int versnum, int procnum,/
+rejected	/usr/src/lib/libc/rpc/rpc_prot.c	/^rejected(enum reject_stat rjct_stat, struct rpc_er/
+remove	/usr/src/lib/libc/stdio/remove.c	/^remove(const char *file)$/
+remque	/usr/src/lib/libc/stdlib/remque.c	/^remque(void *element)$/
+rendezvous_request	/usr/src/lib/libc/rpc/svc_tcp.c	/^rendezvous_request(SVCXPRT *xprt, struct rpc_msg */
+rendezvous_stat	/usr/src/lib/libc/rpc/svc_tcp.c	/^rendezvous_stat(SVCXPRT *xprt)$/
+repeat	/usr/src/lib/libc/regex/regcomp.c	/^repeat(struct parse *p,$/
+report	/usr/src/lib/libc/crypt/blowfish.c	/^report(u_int32_t data[], u_int16_t len)$/
+rerr	/usr/src/lib/libc/regex/regerror.c	/^static struct rerr {$/
+res_dnok	/usr/src/lib/libc/net/res_comp.c	/^res_dnok(const char *dn)$/
+res_getshort	/usr/src/lib/libc/net/res_comp.c	/^res_getshort(msgp)$/
+res_hnok	/usr/src/lib/libc/net/res_comp.c	/^res_hnok(const char *dn)$/
+res_init	/usr/src/lib/libc/asr/res_init.c	/^res_init(void)$/
+res_initid	/usr/src/lib/libc/net/res_random.c	/^res_initid(void)$/
+res_mailok	/usr/src/lib/libc/net/res_comp.c	/^res_mailok(const char *dn)$/
+res_mkquery	/usr/src/lib/libc/asr/res_mkquery.c	/^res_mkquery(int op, const char *dname, int class, /
+res_ownok	/usr/src/lib/libc/net/res_comp.c	/^res_ownok(const char *dn)$/
+res_query	/usr/src/lib/libc/asr/res_query.c	/^res_query(const char *name, int class, int type, u/
+res_query_async	/usr/src/lib/libc/asr/res_send_async.c	/^res_query_async(const char *name, int class, int t/
+res_query_async_ctx	/usr/src/lib/libc/asr/res_send_async.c	/^res_query_async_ctx(const char *name, int class, i/
+res_querydomain	/usr/src/lib/libc/asr/res_mkquery.c	/^res_querydomain(const char *name,$/
+res_randomid	/usr/src/lib/libc/net/res_random.c	/^res_randomid(void)$/
+res_search	/usr/src/lib/libc/asr/res_query.c	/^res_search(const char *name, int class, int type, /
+res_search_async	/usr/src/lib/libc/asr/res_search_async.c	/^res_search_async(const char *name, int class, int /
+res_search_async_ctx	/usr/src/lib/libc/asr/res_search_async.c	/^res_search_async_ctx(const char *name, int class, /
+res_search_async_run	/usr/src/lib/libc/asr/res_search_async.c	/^res_search_async_run(struct asr_query *as, struct /
+res_send	/usr/src/lib/libc/asr/res_send.c	/^res_send(const u_char *buf, int buflen, u_char *an/
+res_send_async	/usr/src/lib/libc/asr/res_send_async.c	/^res_send_async(const unsigned char *buf, int bufle/
+res_send_async_run	/usr/src/lib/libc/asr/res_send_async.c	/^res_send_async_run(struct asr_query *as, struct as/
+resultproc_t	/usr/src/lib/libc/rpc/pmap_rmt.c	/^typedef bool_t (*resultproc_t)(caddr_t, struct soc/
+reverse	/usr/src/lib/libc/stdlib/merge.c	/^#define reverse(bot, top) {				\\$/
+revert_to_default	/usr/src/lib/libc/locale/setlocale.c	/^revert_to_default(int category)$/
+rewind	/usr/src/lib/libc/stdio/rewind.c	/^rewind(FILE *fp)$/
+rewinddir	/usr/src/lib/libc/gen/rewinddir.c	/^rewinddir(DIR *dirp)$/
+rindex	/usr/src/lib/libc/arch/i386/string/rindex.S	/^ENTRY(rindex)$/
+rmfiles	/usr/src/lib/libc/gen/auth_subr.c	/^struct rmfiles {$/
+rol	/usr/src/lib/libc/hash/sha1.c	/^#define rol(value, bits) (((value) << (bits)) | ((/
+roundup	/usr/src/lib/libc/gdtoa/hdtoa.c	/^roundup(char *s0, int ndigits)$/
+rpc_buffer	/usr/src/lib/libc/rpc/svc_udp.c	/^#define rpc_buffer(xprt) ((xprt)->xp_p1)$/
+rpcdata	/usr/src/lib/libc/rpc/getrpcent.c	/^struct rpcdata {$/
+rresvport	/usr/src/lib/libc/net/rresvport.c	/^rresvport(int *alport)$/
+rresvport_af	/usr/src/lib/libc/net/rresvport.c	/^rresvport_af(int *alport, int af)$/
+rshift	/usr/src/lib/libc/gdtoa/gmisc.c	/^rshift(b, k) Bigint *b; int k;$/
+rule	/usr/src/lib/libc/time/localtime.c	/^struct rule {$/
+ruserok	/usr/src/lib/libc/net/ruserok.c	/^ruserok(const char *rhost, int superuser, const ch/
+rv_alloc	/usr/src/lib/libc/gdtoa/dmisc.c	/^rv_alloc(i) int i;$/
+samesets	/usr/src/lib/libc/regex/regcomp.c	/^samesets(struct re_guts *g, int c1, int c2)$/
+sbrk	/usr/src/lib/libc/arch/i386/sys/sbrk.S	/^ENTRY(sbrk)$/
+scandir	/usr/src/lib/libc/gen/scandir.c	/^scandir(const char *dirname, struct dirent ***name/
+scanf	/usr/src/lib/libc/stdio/scanf.c	/^scanf(const char *fmt, ...)$/
+scmp	/usr/src/lib/libc/gen/getttyent.c	/^#define	scmp(e)	!strncmp(p, e, sizeof(e) - 1) && /
+secure_path	/usr/src/lib/libc/gen/login_cap.c	/^secure_path(char *path)$/
+seed48	/usr/src/lib/libc/stdlib/seed48.c	/^seed48(unsigned short xseed[3])$/
+seekdir	/usr/src/lib/libc/gen/seekdir.c	/^seekdir(DIR *dirp, long loc)$/
+semctl	/usr/src/lib/libc/sys/semctl.c	/^int semctl(int semid, int semnum, int cmd, ...)$/
+send	/usr/src/lib/libc/net/send.c	/^send(int s, const void *msg, size_t len, int flags/
+set_input_fragment	/usr/src/lib/libc/rpc/xdr_rec.c	/^set_input_fragment(RECSTREAM *rstrm)$/
+set_lc_messages_locale	/usr/src/lib/libc/locale/setlocale.c	/^set_lc_messages_locale(const char *locname)$/
+set_ones	/usr/src/lib/libc/gdtoa/strtodg.c	/^set_ones(b, n) Bigint *b; int n;$/
+set_rpc_maxgrouplist	/usr/src/lib/libc/rpc/auth_unix.c	/^set_rpc_maxgrouplist(int num)$/
+setbuf	/usr/src/lib/libc/stdio/setbuf.c	/^setbuf(FILE *fp, char *buf)$/
+setbuffer	/usr/src/lib/libc/stdio/setbuffer.c	/^setbuffer(FILE *fp, char *buf, int size)$/
+setclasscontext	/usr/src/lib/libc/gen/login_cap.c	/^setclasscontext(char *class, u_int flags)$/
+setdomainname	/usr/src/lib/libc/gen/setdomainname.c	/^setdomainname(const char *name, size_t namelen)$/
+setenv	/usr/src/lib/libc/stdlib/setenv.c	/^setenv(const char *name, const char *value, int re/
+seterr	/usr/src/lib/libc/regex/regcomp.c	/^seterr(struct parse *p, int e)$/
+setfsent	/usr/src/lib/libc/gen/fstab.c	/^setfsent(void)$/
+setgrent	/usr/src/lib/libc/gen/getgrent.c	/^setgrent(void)$/
+setgroupent	/usr/src/lib/libc/gen/getgrent.c	/^setgroupent(int stayopen)$/
+sethostent	/usr/src/lib/libc/asr/sethostent.c	/^sethostent(int stayopen)$/
+sethostid	/usr/src/lib/libc/compat-43/sethostid.c	/^sethostid(long hostid)$/
+sethostname	/usr/src/lib/libc/gen/sethostname.c	/^sethostname(const char *name, size_t namelen)$/
+setjmp	/usr/src/lib/libc/arch/i386/gen/setjmp.S	/^ENTRY(setjmp)$/
+setkey	/usr/src/lib/libc/crypt/crypt2.c	/^setkey(const char *key)$/
+setlinebuf	/usr/src/lib/libc/stdio/setbuffer.c	/^setlinebuf(FILE *fp)$/
+setlocale	/usr/src/lib/libc/locale/setlocale.c	/^setlocale(int category, const char *locale)$/
+setlogin	/usr/src/lib/libc/gen/getlogin.c	/^setlogin(const char *name)$/
+setlogmask	/usr/src/lib/libc/gen/syslog.c	/^setlogmask(int pmask)$/
+setlogmask_r	/usr/src/lib/libc/gen/syslog.c	/^setlogmask_r(int pmask, struct syslog_data *data)$/
+setmode	/usr/src/lib/libc/gen/setmode.c	/^setmode(const char *p)$/
+setnetent	/usr/src/lib/libc/net/getnetent.c	/^setnetent(int f)$/
+setnetgrent	/usr/src/lib/libc/gen/getnetgrent.c	/^setnetgrent(const char *ng)$/
+setpassent	/usr/src/lib/libc/gen/getpwent.c	/^setpassent(int stayopen)$/
+setpgrp	/usr/src/lib/libc/compat-43/setpgrp.c	/^setpgrp(pid_t pid, pid_t pgid)$/
+setproctitle	/usr/src/lib/libc/gen/setproctitle.c	/^setproctitle(const char *fmt, ...)$/
+setprogname	/usr/src/lib/libc/gen/setprogname.c	/^setprogname(const char *progname)$/
+setprotoent	/usr/src/lib/libc/net/getprotoent.c	/^setprotoent(int f)$/
+setprotoent_r	/usr/src/lib/libc/net/getprotoent.c	/^setprotoent_r(int f, struct protoent_data *pd)$/
+setpwent	/usr/src/lib/libc/gen/getpwent.c	/^setpwent(void)$/
+setrpcent	/usr/src/lib/libc/rpc/getrpcent.c	/^setrpcent(int f)$/
+setservent	/usr/src/lib/libc/net/getservent.c	/^setservent(int f)$/
+setservent_r	/usr/src/lib/libc/net/getservent.c	/^setservent_r(int f, struct servent_data *sd)$/
+setstate	/usr/src/lib/libc/stdlib/random.c	/^setstate(char *arg_state)$/
+setttyent	/usr/src/lib/libc/gen/getttyent.c	/^setttyent(void)$/
+settzname	/usr/src/lib/libc/time/localtime.c	/^settzname(void)$/
+setup	/usr/src/lib/libc/stdlib/merge.c	/^setup(u_char *list1, u_char *list2, size_t n, size/
+setup_query	/usr/src/lib/libc/asr/res_send_async.c	/^setup_query(struct asr_query *as, const char *name/
+setusercontext	/usr/src/lib/libc/gen/login_cap.c	/^setusercontext(login_cap_t *lc, struct passwd *pwd/
+setuserenv	/usr/src/lib/libc/gen/login_cap.c	/^setuserenv(login_cap_t *lc, const struct passwd *p/
+setuserpath	/usr/src/lib/libc/gen/login_cap.c	/^setuserpath(login_cap_t *lc, const struct passwd */
+setusershell	/usr/src/lib/libc/gen/getusershell.c	/^setusershell(void)$/
+setvbuf	/usr/src/lib/libc/stdio/setvbuf.c	/^setvbuf(FILE *fp, char *buf, int mode, size_t size/
+sgl_limits	/usr/src/lib/libc/rpc/xdr_float.c	/^static struct sgl_limits {$/
+shl	/usr/src/lib/libc/quad/qdivrem.c	/^shl(digit *p, int len, int sh)$/
+shm_mkstemp	/usr/src/lib/libc/gen/shm_open.c	/^shm_mkstemp(char *template)$/
+shm_open	/usr/src/lib/libc/gen/shm_open.c	/^shm_open(const char *path, int flags, mode_t mode)/
+shm_unlink	/usr/src/lib/libc/gen/shm_open.c	/^shm_unlink(const char *path)$/
+sigaddset	/usr/src/lib/libc/gen/sigsetops.c	/^sigaddset(sigset_t *set, int signo)$/
+sigblock	/usr/src/lib/libc/compat-43/sigcompat.c	/^sigblock(int mask)$/
+sigdelset	/usr/src/lib/libc/gen/sigsetops.c	/^sigdelset(sigset_t *set, int signo)$/
+sigemptyset	/usr/src/lib/libc/gen/sigsetops.c	/^sigemptyset(sigset_t *set)$/
+sigfillset	/usr/src/lib/libc/gen/sigsetops.c	/^sigfillset(sigset_t *set)$/
+siginterrupt	/usr/src/lib/libc/gen/siginterrupt.c	/^siginterrupt(int sig, int flag)$/
+sigismember	/usr/src/lib/libc/gen/sigsetops.c	/^sigismember(const sigset_t *set, int signo)$/
+siglongjmp	/usr/src/lib/libc/arch/i386/gen/sigsetjmp.S	/^ENTRY(siglongjmp)$/
+sigma0_256	/usr/src/lib/libc/hash/sha2.c	/^#define sigma0_256(x)	(S32(7,  (x)) ^ S32(18, (x))/
+sigma0_512	/usr/src/lib/libc/hash/sha2.c	/^#define sigma0_512(x)	(S64( 1, (x)) ^ S64( 8, (x))/
+sigma1_256	/usr/src/lib/libc/hash/sha2.c	/^#define sigma1_256(x)	(S32(17, (x)) ^ S32(19, (x))/
+sigma1_512	/usr/src/lib/libc/hash/sha2.c	/^#define sigma1_512(x)	(S64(19, (x)) ^ S64(61, (x))/
+sigpause	/usr/src/lib/libc/compat-43/sigcompat.c	/^sigpause(int mask)$/
+sigpending	/usr/src/lib/libc/arch/i386/sys/sigpending.S	/^SYSCALL(sigpending)$/
+sigprocmask	/usr/src/lib/libc/arch/i386/sys/sigprocmask.S	/^SYSENTRY(sigprocmask)$/
+sigreturn	/usr/src/lib/libc/arch/i386/sys/sigreturn.S	/^SYSCALL(sigreturn)$/
+sigsetjmp	/usr/src/lib/libc/arch/i386/gen/sigsetjmp.S	/^ENTRY(sigsetjmp)$/
+sigsetmask	/usr/src/lib/libc/compat-43/sigcompat.c	/^sigsetmask(int mask)$/
+sigsuspend	/usr/src/lib/libc/arch/i386/sys/sigsuspend.S	/^SYSENTRY(sigsuspend)$/
+sigvec	/usr/src/lib/libc/compat-43/sigcompat.c	/^sigvec(int signo, struct sigvec *sv, struct sigvec/
+simplesort	/usr/src/lib/libc/stdlib/radixsort.c	/^simplesort(const u_char **a, int n, int b, const u/
+sizecheck	/usr/src/lib/libc/rpc/xdr.c	/^	enum sizecheck { SIZEVAL };	\/* used to find the /
+skip	/usr/src/lib/libc/gen/getttyent.c	/^skip(char *p)$/
+skip_input_bytes	/usr/src/lib/libc/rpc/xdr_rec.c	/^skip_input_bytes(RECSTREAM *rstrm, long int cnt)$/
+sleep	/usr/src/lib/libc/gen/sleep.c	/^sleep(unsigned int seconds)$/
+snprintf	/usr/src/lib/libc/stdio/snprintf.c	/^snprintf(char *str, size_t n, const char *fmt, .../
+sockaddr_connect	/usr/src/lib/libc/asr/res_send_async.c	/^sockaddr_connect(const struct sockaddr *sa, int so/
+sprintf	/usr/src/lib/libc/stdio/sprintf.c	/^sprintf(char *str, const char *fmt, ...)$/
+squeeze_key	/usr/src/lib/libc/db/hash/hash_page.c	/^squeeze_key(u_int16_t *sp, const DBT *key, const D/
+sradixsort	/usr/src/lib/libc/stdlib/radixsort.c	/^sradixsort(const u_char **a, int n, const u_char */
+srand	/usr/src/lib/libc/stdlib/rand.c	/^srand(u_int seed)$/
+srand48	/usr/src/lib/libc/stdlib/srand48.c	/^srand48(long seed)$/
+srandom	/usr/src/lib/libc/stdlib/random.c	/^srandom(unsigned int x)$/
+srandom_l	/usr/src/lib/libc/stdlib/random.c	/^srandom_l(unsigned int x)$/
+srandomdev	/usr/src/lib/libc/stdlib/random.c	/^srandomdev(void)$/
+sscanf	/usr/src/lib/libc/stdio/sscanf.c	/^sscanf(const char *str, const char *fmt, ...)$/
+stack	/usr/src/lib/libc/stdlib/radixsort.c	/^} stack;$/
+start_gr	/usr/src/lib/libc/gen/getgrent.c	/^start_gr(void)$/
+state	/usr/src/lib/libc/stdio/fmemopen.c	/^struct state {$/
+statvfs	/usr/src/lib/libc/gen/statvfs.c	/^statvfs(const char *path, struct statvfs *p)$/
+std	/usr/src/lib/libc/stdio/findfp.c	/^#define	std(flags, file) \\$/
+store	/usr/src/lib/libc/db/hash/ndbm.c	/^store(key, dat)$/
+stpcpy	/usr/src/lib/libc/string/stpcpy.c	/^stpcpy(char *to, const char *from)$/
+stpncpy	/usr/src/lib/libc/string/stpncpy.c	/^stpncpy(char *dst, const char *src, size_t n)$/
+strcasecmp	/usr/src/lib/libc/string/strcasecmp.c	/^strcasecmp(const char *s1, const char *s2)$/
+strcasestr	/usr/src/lib/libc/string/strcasestr.c	/^strcasestr(const char *s, const char *find)$/
+strcat	/usr/src/lib/libc/arch/i386/string/strcat.S	/^ENTRY(strcat)$/
+strchr	/usr/src/lib/libc/arch/i386/string/index.S	/^ENTRY(strchr)$/
+strcmp	/usr/src/lib/libc/arch/i386/string/strcmp.S	/^ENTRY(strcmp)$/
+strcoll	/usr/src/lib/libc/string/strcoll.c	/^strcoll(const char *s1, const char *s2)$/
+strcp_D2A	/usr/src/lib/libc/gdtoa/misc.c	/^strcp_D2A(a, b) char *a; char *b;$/
+strcpy	/usr/src/lib/libc/arch/i386/string/strcpy.S	/^ENTRY(strcpy)$/
+strcspn	/usr/src/lib/libc/string/strcspn.c	/^strcspn(const char *s1, const char *s2)$/
+strdup	/usr/src/lib/libc/string/strdup.c	/^strdup(const char *str)$/
+strerror	/usr/src/lib/libc/string/strerror.c	/^strerror(int num)$/
+strerror_r	/usr/src/lib/libc/string/strerror_r.c	/^strerror_r(int errnum, char *strerrbuf, size_t buf/
+strftime	/usr/src/lib/libc/time/strftime.c	/^strftime(s, maxsize, format, t)$/
+stringlist	/usr/src/lib/libc/gen/getnetgrent.c	/^struct stringlist {$/
+stripsnug	/usr/src/lib/libc/regex/regcomp.c	/^stripsnug(struct parse *p, struct re_guts *g)$/
+strlcat	/usr/src/lib/libc/string/strlcat.c	/^strlcat(char *dst, const char *src, size_t siz)$/
+strlcpy	/usr/src/lib/libc/string/strlcpy.c	/^strlcpy(char *dst, const char *src, size_t siz)$/
+strlen	/usr/src/lib/libc/string/strlen.c	/^strlen(const char *str)$/
+strmode	/usr/src/lib/libc/string/strmode.c	/^strmode(int mode, char *p)$/
+strncasecmp	/usr/src/lib/libc/string/strcasecmp.c	/^strncasecmp(const char *s1, const char *s2, size_t/
+strncat	/usr/src/lib/libc/string/strncat.c	/^strncat(char *dst, const char *src, size_t n)$/
+strncmp	/usr/src/lib/libc/arch/i386/string/strncmp.S	/^ENTRY(strncmp)$/
+strncpy	/usr/src/lib/libc/string/strncpy.c	/^strncpy(char *dst, const char *src, size_t n)$/
+strndup	/usr/src/lib/libc/string/strndup.c	/^strndup(const char *str, size_t maxlen)$/
+strnlen	/usr/src/lib/libc/string/strnlen.c	/^strnlen(const char *str, size_t maxlen)$/
+strnunvis	/usr/src/lib/libc/gen/unvis.c	/^strnunvis(char *dst, const char *src, size_t sz)$/
+strnvis	/usr/src/lib/libc/gen/vis.c	/^strnvis(char *dst, const char *src, size_t siz, in/
+strpbrk	/usr/src/lib/libc/string/strpbrk.c	/^strpbrk(const char *s1, const char *s2)$/
+strptime	/usr/src/lib/libc/time/strptime.c	/^strptime(const char *buf, const char *fmt, struct /
+strrchr	/usr/src/lib/libc/arch/i386/string/rindex.S	/^ENTRY(strrchr)$/
+strsep	/usr/src/lib/libc/string/strsep.c	/^strsep(char **stringp, const char *delim)$/
+strsignal	/usr/src/lib/libc/string/strsignal.c	/^strsignal(int sig)$/
+strsplit	/usr/src/lib/libc/asr/asr.c	/^strsplit(char *line, char **tokens, int ntokens)$/
+strspn	/usr/src/lib/libc/string/strspn.c	/^strspn(const char *s1, const char *s2)$/
+strstr	/usr/src/lib/libc/string/strstr.c	/^strstr(const char *s, const char *find)$/
+strtof	/usr/src/lib/libc/gdtoa/strtof.c	/^strtof(s, sp) CONST char *s; char **sp;$/
+strtofflags	/usr/src/lib/libc/gen/strtofflags.c	/^strtofflags(char **stringp, u_int32_t *setp, u_int/
+strtoimax	/usr/src/lib/libc/stdlib/strtoimax.c	/^strtoimax(const char *nptr, char **endptr, int bas/
+strtok	/usr/src/lib/libc/string/strtok.c	/^strtok(char *s, const char *delim)$/
+strtok_r	/usr/src/lib/libc/string/strtok.c	/^strtok_r(char *s, const char *delim, char **last)$/
+strtol	/usr/src/lib/libc/stdlib/strtol.c	/^strtol(const char *nptr, char **endptr, int base)$/
+strtold	/usr/src/lib/libc/arch/i386/gdtoa/strtold.c	/^strtold(const char * __restrict s, char ** __restr/
+strtolimit	/usr/src/lib/libc/gen/login_cap.c	/^strtolimit(char *str, char **endptr, int radix)$/
+strtoll	/usr/src/lib/libc/stdlib/strtoll.c	/^strtoll(const char *nptr, char **endptr, int base)/
+strtonum	/usr/src/lib/libc/stdlib/strtonum.c	/^strtonum(const char *numstr, long long minval, lon/
+strtord	/usr/src/lib/libc/gdtoa/strtord.c	/^strtord(s, sp, rounding, d) CONST char *s; char **/
+strtorx	/usr/src/lib/libc/gdtoa/strtorx.c	/^strtorx(s, sp, rounding, L) CONST char *s; char **/
+strtosize	/usr/src/lib/libc/gen/login_cap.c	/^strtosize(char *str, char **endptr, int radix)$/
+strtoul	/usr/src/lib/libc/stdlib/strtoul.c	/^strtoul(const char *nptr, char **endptr, int base)/
+strtoull	/usr/src/lib/libc/stdlib/strtoull.c	/^strtoull(const char *nptr, char **endptr, int base/
+strtoumax	/usr/src/lib/libc/stdlib/strtoumax.c	/^strtoumax(const char *nptr, char **endptr, int bas/
+strunvis	/usr/src/lib/libc/gen/unvis.c	/^strunvis(char *dst, const char *src)$/
+strvis	/usr/src/lib/libc/gen/vis.c	/^strvis(char *dst, const char *src, int flag)$/
+strvisx	/usr/src/lib/libc/gen/vis.c	/^strvisx(char *dst, const char *src, size_t len, in/
+strxfrm	/usr/src/lib/libc/string/strxfrm.c	/^strxfrm(char *dst, const char *src, size_t n)$/
+su_data	/usr/src/lib/libc/rpc/svc_udp.c	/^#define	su_data(xprt)	((struct svcudp_data *)(xprt/
+sum	/usr/src/lib/libc/gdtoa/sum.c	/^sum(a, b) Bigint *a; Bigint *b;$/
+svc_callout	/usr/src/lib/libc/rpc/svc.c	/^static struct svc_callout {$/
+svc_fd_insert	/usr/src/lib/libc/rpc/svc.c	/^svc_fd_insert(int sock)$/
+svc_fd_remove	/usr/src/lib/libc/rpc/svc.c	/^svc_fd_remove(int sock)$/
+svc_find	/usr/src/lib/libc/rpc/svc.c	/^svc_find(u_long prog, u_long vers, struct svc_call/
+svc_getreq	/usr/src/lib/libc/rpc/svc.c	/^svc_getreq(int rdfds)$/
+svc_getreq_common	/usr/src/lib/libc/rpc/svc.c	/^svc_getreq_common(int fd)$/
+svc_getreq_poll	/usr/src/lib/libc/rpc/svc.c	/^svc_getreq_poll(struct pollfd *pfd, const int nrea/
+svc_getreqset	/usr/src/lib/libc/rpc/svc.c	/^svc_getreqset(fd_set *readfds)$/
+svc_getreqset2	/usr/src/lib/libc/rpc/svc.c	/^svc_getreqset2(fd_set *readfds, int width)$/
+svc_register	/usr/src/lib/libc/rpc/svc.c	/^svc_register(SVCXPRT *xprt, u_long prog, u_long ve/
+svc_run	/usr/src/lib/libc/rpc/svc_run.c	/^svc_run(void)$/
+svc_sendreply	/usr/src/lib/libc/rpc/svc.c	/^svc_sendreply(SVCXPRT *xprt, xdrproc_t xdr_results/
+svc_unregister	/usr/src/lib/libc/rpc/svc.c	/^svc_unregister(u_long prog, u_long vers)$/
+svcerr_auth	/usr/src/lib/libc/rpc/svc.c	/^svcerr_auth(SVCXPRT *xprt, enum auth_stat why)$/
+svcerr_decode	/usr/src/lib/libc/rpc/svc.c	/^svcerr_decode(SVCXPRT *xprt)$/
+svcerr_noproc	/usr/src/lib/libc/rpc/svc.c	/^svcerr_noproc(SVCXPRT *xprt)$/
+svcerr_noprog	/usr/src/lib/libc/rpc/svc.c	/^svcerr_noprog(SVCXPRT *xprt)$/
+svcerr_progvers	/usr/src/lib/libc/rpc/svc.c	/^svcerr_progvers(SVCXPRT *xprt, u_long low_vers, u_/
+svcerr_systemerr	/usr/src/lib/libc/rpc/svc.c	/^svcerr_systemerr(SVCXPRT *xprt)$/
+svcerr_weakauth	/usr/src/lib/libc/rpc/svc.c	/^svcerr_weakauth(SVCXPRT *xprt)$/
+svcfd_create	/usr/src/lib/libc/rpc/svc_tcp.c	/^svcfd_create(int fd, u_int sendsize, u_int recvsiz/
+svcraw_create	/usr/src/lib/libc/rpc/svc_raw.c	/^svcraw_create(void)$/
+svcraw_destroy	/usr/src/lib/libc/rpc/svc_raw.c	/^svcraw_destroy(SVCXPRT *xprt)$/
+svcraw_freeargs	/usr/src/lib/libc/rpc/svc_raw.c	/^svcraw_freeargs(SVCXPRT *xprt, xdrproc_t xdr_args,/
+svcraw_getargs	/usr/src/lib/libc/rpc/svc_raw.c	/^svcraw_getargs(SVCXPRT *xprt, xdrproc_t xdr_args, /
+svcraw_private	/usr/src/lib/libc/rpc/svc_raw.c	/^static struct svcraw_private {$/
+svcraw_recv	/usr/src/lib/libc/rpc/svc_raw.c	/^svcraw_recv(SVCXPRT *xprt, struct rpc_msg *msg)$/
+svcraw_reply	/usr/src/lib/libc/rpc/svc_raw.c	/^svcraw_reply(SVCXPRT *xprt, struct rpc_msg *msg)$/
+svcraw_stat	/usr/src/lib/libc/rpc/svc_raw.c	/^svcraw_stat(SVCXPRT *xprt)$/
+svctcp_create	/usr/src/lib/libc/rpc/svc_tcp.c	/^svctcp_create(int sock, u_int sendsize, u_int recv/
+svctcp_destroy	/usr/src/lib/libc/rpc/svc_tcp.c	/^svctcp_destroy(SVCXPRT *xprt)$/
+svctcp_freeargs	/usr/src/lib/libc/rpc/svc_tcp.c	/^svctcp_freeargs(SVCXPRT *xprt, xdrproc_t xdr_args,/
+svctcp_getargs	/usr/src/lib/libc/rpc/svc_tcp.c	/^svctcp_getargs(SVCXPRT *xprt, xdrproc_t xdr_args, /
+svctcp_recv	/usr/src/lib/libc/rpc/svc_tcp.c	/^svctcp_recv(SVCXPRT *xprt, struct rpc_msg *msg)$/
+svctcp_reply	/usr/src/lib/libc/rpc/svc_tcp.c	/^svctcp_reply(SVCXPRT *xprt, struct rpc_msg *msg)$/
+svctcp_stat	/usr/src/lib/libc/rpc/svc_tcp.c	/^svctcp_stat(SVCXPRT *xprt)$/
+svcudp_bufcreate	/usr/src/lib/libc/rpc/svc_udp.c	/^svcudp_bufcreate(int sock, u_int sendsz, u_int rec/
+svcudp_create	/usr/src/lib/libc/rpc/svc_udp.c	/^svcudp_create(int sock)$/
+svcudp_data	/usr/src/lib/libc/rpc/svc_udp.c	/^struct svcudp_data {$/
+svcudp_destroy	/usr/src/lib/libc/rpc/svc_udp.c	/^svcudp_destroy(SVCXPRT *xprt)$/
+svcudp_enablecache	/usr/src/lib/libc/rpc/svc_udp.c	/^svcudp_enablecache(SVCXPRT *transp, u_long size)$/
+svcudp_freeargs	/usr/src/lib/libc/rpc/svc_udp.c	/^svcudp_freeargs(SVCXPRT *xprt, xdrproc_t xdr_args,/
+svcudp_getargs	/usr/src/lib/libc/rpc/svc_udp.c	/^svcudp_getargs(SVCXPRT *xprt, xdrproc_t xdr_args, /
+svcudp_recv	/usr/src/lib/libc/rpc/svc_udp.c	/^svcudp_recv(SVCXPRT *xprt, struct rpc_msg *msg)$/
+svcudp_reply	/usr/src/lib/libc/rpc/svc_udp.c	/^svcudp_reply(SVCXPRT *xprt, struct rpc_msg *msg)$/
+svcudp_stat	/usr/src/lib/libc/rpc/svc_udp.c	/^svcudp_stat(SVCXPRT *xprt)$/
+swab	/usr/src/lib/libc/arch/i386/string/swab.S	/^ENTRY(swab)$/
+swap	/usr/src/lib/libc/stdlib/merge.c	/^#define	swap(a, b) {					\\$/
+swap_header	/usr/src/lib/libc/db/hash/hash.c	/^swap_header(HTAB *hashp)$/
+swap_header_copy	/usr/src/lib/libc/db/hash/hash.c	/^swap_header_copy(HASHHDR *srcp, HASHHDR *destp)$/
+swapcode	/usr/src/lib/libc/stdlib/qsort.c	/^#define swapcode(TYPE, parmi, parmj, n) { 		\\$/
+swapfunc	/usr/src/lib/libc/stdlib/qsort.c	/^swapfunc(char *a, char *b, size_t n, int swaptype)/
+swprintf	/usr/src/lib/libc/stdio/swprintf.c	/^swprintf(wchar_t * __restrict s, size_t n, const w/
+swscanf	/usr/src/lib/libc/stdio/swscanf.c	/^swscanf(const wchar_t * __restrict str, const wcha/
+syscall	/usr/src/lib/libc/arch/i386/sys/syscall.S	/^SYSENTRY(syscall)$/
+sysconf	/usr/src/lib/libc/gen/sysconf.c	/^sysconf(int name)$/
+sysctl	/usr/src/lib/libc/gen/sysctl.c	/^sysctl(const int *name, u_int namelen, void *oldp,/
+syslog	/usr/src/lib/libc/gen/syslog.c	/^syslog(int pri, const char *fmt, ...)$/
+syslog_r	/usr/src/lib/libc/gen/syslog_r.c	/^syslog_r(int pri, struct syslog_data *data, const /
+system	/usr/src/lib/libc/stdlib/system.c	/^system(const char *command)$/
+tcdrain	/usr/src/lib/libc/termios/tcdrain.c	/^tcdrain(int fd)$/
+tcflow	/usr/src/lib/libc/termios/tcflow.c	/^tcflow(int fd, int action)$/
+tcflush	/usr/src/lib/libc/termios/tcflush.c	/^tcflush(int fd, int which)$/
+tcgetattr	/usr/src/lib/libc/termios/tcgetattr.c	/^tcgetattr(int fd, struct termios *t)$/
+tcgetpgrp	/usr/src/lib/libc/termios/tcgetpgrp.c	/^tcgetpgrp(int fd)$/
+tcgetsid	/usr/src/lib/libc/termios/tcgetsid.c	/^tcgetsid(int fd)$/
+tcp_conn	/usr/src/lib/libc/rpc/svc_tcp.c	/^struct tcp_conn {  \/* kept in xprt->xp_p1 *\/$/
+tcp_read	/usr/src/lib/libc/asr/res_send_async.c	/^tcp_read(struct asr_query *as)$/
+tcp_rendezvous	/usr/src/lib/libc/rpc/svc_tcp.c	/^struct tcp_rendezvous { \/* kept in xprt->xp_p1 */
+tcp_write	/usr/src/lib/libc/asr/res_send_async.c	/^tcp_write(struct asr_query *as)$/
+tcsendbreak	/usr/src/lib/libc/termios/tcsendbreak.c	/^tcsendbreak(int fd, int len)$/
+tcsetattr	/usr/src/lib/libc/termios/tcsetattr.c	/^tcsetattr(int fd, int opt, const struct termios *t/
+tcsetpgrp	/usr/src/lib/libc/termios/tcsetpgrp.c	/^tcsetpgrp(int fd, pid_t pgrp)$/
+tdelete	/usr/src/lib/libc/stdlib/tsearch.c	/^tdelete(const void *vkey, void **vrootp,$/
+telldir	/usr/src/lib/libc/gen/telldir.c	/^telldir(DIR *dirp)$/
+tempnam	/usr/src/lib/libc/stdio/tempnam.c	/^tempnam(const char *dir, const char *pfx)$/
+tfind	/usr/src/lib/libc/stdlib/tfind.c	/^tfind(const void *vkey, void * const *vrootp,$/
+tilde_valid	/usr/src/lib/libc/gen/login_cap.c	/^#define tilde_valid(s, b, u, l, ip) \\$/
+time	/usr/src/lib/libc/gen/time.c	/^time(time_t *t)$/
+time1	/usr/src/lib/libc/time/localtime.c	/^time1(tmp, funcp, offset)$/
+time2	/usr/src/lib/libc/time/localtime.c	/^time2(tmp, funcp, offset, okayp)$/
+time2posix	/usr/src/lib/libc/time/localtime.c	/^time2posix(t)$/
+time2sub	/usr/src/lib/libc/time/localtime.c	/^time2sub(tmp, funcp, offset, okayp, do_norm_secs)$/
+timegm	/usr/src/lib/libc/time/localtime.c	/^timegm(tmp)$/
+timelocal	/usr/src/lib/libc/time/localtime.c	/^timelocal(tmp)$/
+timeoff	/usr/src/lib/libc/time/localtime.c	/^timeoff(tmp, offset)$/
+timer_create	/usr/src/lib/libc/sys/timer_create.c	/^timer_create(clockid_t clock_id, struct sigevent */
+timer_delete	/usr/src/lib/libc/sys/timer_delete.c	/^timer_delete(timer_t timerid)$/
+timer_getoverrun	/usr/src/lib/libc/sys/timer_getoverrun.c	/^timer_getoverrun(timer_t timerid)$/
+timer_gettime	/usr/src/lib/libc/sys/timer_gettime.c	/^timer_gettime(timer_t timerid, struct itimerspec */
+timer_settime	/usr/src/lib/libc/sys/timer_settime.c	/^timer_settime(timer_t timerid, int flags, const st/
+times	/usr/src/lib/libc/gen/times.c	/^times(struct tms *tp)$/
+timesub	/usr/src/lib/libc/time/localtime.c	/^timesub(timep, offset, sp, tmp)$/
+timezone	/usr/src/lib/libc/gen/timezone.c	/^timezone(int zone, int dst)$/
+timingsafe_bcmp	/usr/src/lib/libc/string/timingsafe_bcmp.c	/^timingsafe_bcmp(const void *b1, const void *b2, si/
+timingsafe_memcmp	/usr/src/lib/libc/string/timingsafe_memcmp.c	/^timingsafe_memcmp(const void *b1, const void *b2, /
+tmcomp	/usr/src/lib/libc/time/localtime.c	/^tmcomp(atmp, btmp)$/
+tmp	/usr/src/lib/libc/db/btree/bt_open.c	/^tmp(void)$/
+tmpfile	/usr/src/lib/libc/stdio/tmpfile.c	/^tmpfile(void)$/
+tmpnam	/usr/src/lib/libc/stdio/tmpnam.c	/^tmpnam(char *s)$/
+to_char	/usr/src/lib/libc/stdio/vfprintf.c	/^#define	to_char(n)	((n) + '0')$/
+to_digit	/usr/src/lib/libc/stdio/vfprintf.c	/^#define	to_digit(c)	((c) - '0')$/
+toascii	/usr/src/lib/libc/gen/isctype.c	/^toascii(int c)$/
+tolower	/usr/src/lib/libc/gen/tolower_.c	/^tolower(int c)$/
+toupper	/usr/src/lib/libc/gen/toupper_.c	/^toupper(int c)$/
+towctrans	/usr/src/lib/libc/locale/iswctype.c	/^towctrans(wint_t c, wctrans_t desc)$/
+towlower	/usr/src/lib/libc/locale/iswctype.c	/^towlower(wint_t c)$/
+towupper	/usr/src/lib/libc/locale/iswctype.c	/^towupper(wint_t c)$/
+trailz	/usr/src/lib/libc/gdtoa/gmisc.c	/^trailz(b) Bigint *b;$/
+transtime	/usr/src/lib/libc/time/localtime.c	/^transtime(janfirst, year, rulep, offset)$/
+trecurse	/usr/src/lib/libc/stdlib/tsearch.c	/^trecurse(node *root, void (*action)(const void *, /
+tsearch	/usr/src/lib/libc/stdlib/tsearch.c	/^tsearch(const void *vkey, void **vrootp,$/
+ttinfo	/usr/src/lib/libc/time/localtime.c	/^struct ttinfo {				\/* time type information *\/$/
+ttyname	/usr/src/lib/libc/gen/ttyname.c	/^ttyname(int fd)$/
+ttyname_r	/usr/src/lib/libc/gen/ttyname.c	/^ttyname_r(int fd, char *buf, size_t len)$/
+ttyslot	/usr/src/lib/libc/gen/ttyslot.c	/^ttyslot(void)$/
+twalk	/usr/src/lib/libc/stdlib/tsearch.c	/^twalk(const void *vroot, void (*action)(const void/
+typesequiv	/usr/src/lib/libc/time/localtime.c	/^typesequiv(sp, a, b)$/
+tzload	/usr/src/lib/libc/time/localtime.c	/^tzload(name, sp, doextend)$/
+tzparse	/usr/src/lib/libc/time/localtime.c	/^tzparse(name, sp, lastditch)$/
+tzset	/usr/src/lib/libc/time/localtime.c	/^tzset(void)$/
+tzset_basic	/usr/src/lib/libc/time/localtime.c	/^tzset_basic(void)$/
+tzsetwall	/usr/src/lib/libc/time/localtime.c	/^tzsetwall(void)$/
+tzsetwall_basic	/usr/src/lib/libc/time/localtime.c	/^tzsetwall_basic(void)$/
+u_char	/usr/src/lib/libc/string/strcasecmp.c	/^typedef unsigned char u_char;$/
+u_t	/usr/src/lib/libc/time/localtime.c	/^	} u_t;$/
+ualarm	/usr/src/lib/libc/gen/ualarm.c	/^ualarm(useconds_t usecs, useconds_t reload)$/
+udp_cache	/usr/src/lib/libc/rpc/svc_udp.c	/^struct udp_cache {$/
+udp_recv	/usr/src/lib/libc/asr/res_send_async.c	/^udp_recv(struct asr_query *as)$/
+udp_send	/usr/src/lib/libc/asr/res_send_async.c	/^udp_send(struct asr_query *as)$/
+ugly_split	/usr/src/lib/libc/db/hash/hash_page.c	/^ugly_split(HTAB *hashp,$/
+uint_type	/usr/src/lib/libc/locale/wcstoul.c	/^typedef unsigned long uint_type;$/
+uname	/usr/src/lib/libc/gen/uname.c	/^uname(struct utsname *name)$/
+underscorechar	/usr/src/lib/libc/net/res_comp.c	/^#define underscorechar(c) ((c) == 0x5f)$/
+ungetc	/usr/src/lib/libc/stdio/ungetc.c	/^ungetc(int c, FILE *fp)$/
+ungetwc	/usr/src/lib/libc/stdio/ungetwc.c	/^ungetwc(wint_t wc, FILE *fp)$/
+universal	/usr/src/lib/libc/rpc/svc_simple.c	/^universal(struct svc_req *rqstp, SVCXPRT *transp)$/
+unlockpt	/usr/src/lib/libc/stdlib/posix_pty.c	/^unlockpt(int mfd)$/
+unmap	/usr/src/lib/libc/stdlib/malloc.c	/^unmap(struct dir_info *d, void *p, size_t sz)$/
+unpack_data	/usr/src/lib/libc/asr/asr_utils.c	/^unpack_data(struct asr_unpack *p, void *data, size/
+unpack_dname	/usr/src/lib/libc/asr/asr_utils.c	/^unpack_dname(struct asr_unpack *p, char *dst, size/
+unpack_in6addr	/usr/src/lib/libc/asr/asr_utils.c	/^unpack_in6addr(struct asr_unpack *p, struct in6_ad/
+unpack_inaddr	/usr/src/lib/libc/asr/asr_utils.c	/^unpack_inaddr(struct asr_unpack *p, struct in_addr/
+unpack_u16	/usr/src/lib/libc/asr/asr_utils.c	/^unpack_u16(struct asr_unpack *p, uint16_t *u16)$/
+unpack_u32	/usr/src/lib/libc/asr/asr_utils.c	/^unpack_u32(struct asr_unpack *p, uint32_t *u32)$/
+unsetenv	/usr/src/lib/libc/stdlib/setenv.c	/^unsetenv(const char *name)$/
+unvis	/usr/src/lib/libc/gen/unvis.c	/^unvis(char *cp, char c, int *astate, int flag)$/
+user_from_uid	/usr/src/lib/libc/gen/pwcache.c	/^user_from_uid(uid_t uid, int nouser)$/
+usleep	/usr/src/lib/libc/gen/usleep.c	/^usleep(useconds_t useconds)$/
+utime	/usr/src/lib/libc/gen/utime.c	/^utime(const char *path, const struct utimbuf *time/
+validate_packet	/usr/src/lib/libc/asr/res_send_async.c	/^validate_packet(struct asr_query *as)$/
+valloc	/usr/src/lib/libc/gen/valloc.c	/^valloc(size_t i)$/
+value	/usr/src/lib/libc/gen/getttyent.c	/^value(char *p)$/
+vasprintf	/usr/src/lib/libc/stdio/vasprintf.c	/^vasprintf(char **str, const char *fmt, __va_list a/
+vax_double	/usr/src/lib/libc/rpc/xdr_float.c	/^struct  vax_double {$/
+vax_single	/usr/src/lib/libc/rpc/xdr_float.c	/^struct	vax_single {$/
+vcmp	/usr/src/lib/libc/gen/getttyent.c	/^#define	vcmp(e)	!strncmp(p, e, sizeof(e) - 1) && p/
+vdprintf	/usr/src/lib/libc/stdio/vdprintf.c	/^vdprintf(int fd, const char * __restrict fmt, va_l/
+vecswap	/usr/src/lib/libc/stdlib/qsort.c	/^#define vecswap(a, b, n) 	if ((n) > 0) swapfunc(a,/
+vfork	/usr/src/lib/libc/arch/i386/sys/Ovfork.S	/^SYSENTRY(vfork)$/
+vfprintf	/usr/src/lib/libc/stdio/vfprintf.c	/^vfprintf(FILE *fp, const char *fmt0, __va_list ap)/
+vfscanf	/usr/src/lib/libc/stdio/vfscanf.c	/^vfscanf(FILE *fp, const char *fmt0, __va_list ap)$/
+vfwprintf	/usr/src/lib/libc/stdio/vfwprintf.c	/^vfwprintf(FILE * __restrict fp, const wchar_t * __/
+vfwscanf	/usr/src/lib/libc/stdio/vfwscanf.c	/^vfwscanf(FILE * __restrict fp, const wchar_t * __r/
+vis	/usr/src/lib/libc/gen/vis.c	/^vis(char *dst, int c, int flag, int nextc)$/
+vprintf	/usr/src/lib/libc/stdio/vprintf.c	/^vprintf(const char *fmt, __va_list ap)$/
+vscanf	/usr/src/lib/libc/stdio/vscanf.c	/^vscanf(const char *fmt, __va_list ap)$/
+vsnprintf	/usr/src/lib/libc/stdio/vsnprintf.c	/^vsnprintf(char *str, size_t n, const char *fmt, __/
+vsprintf	/usr/src/lib/libc/stdio/vsprintf.c	/^vsprintf(char *str, const char *fmt, __va_list ap)/
+vsscanf	/usr/src/lib/libc/stdio/vsscanf.c	/^vsscanf(const char *str, const char *fmt, __va_lis/
+vswprintf	/usr/src/lib/libc/stdio/vswprintf.c	/^vswprintf(wchar_t * __restrict s, size_t n, const /
+vswscanf	/usr/src/lib/libc/stdio/vswscanf.c	/^vswscanf(const wchar_t * __restrict str, const wch/
+vsyslog	/usr/src/lib/libc/gen/syslog.c	/^vsyslog(int pri, const char *fmt, va_list ap)$/
+vsyslog_r	/usr/src/lib/libc/gen/syslog_r.c	/^vsyslog_r(int pri, struct syslog_data *data, const/
+vwprintf	/usr/src/lib/libc/stdio/vwprintf.c	/^vwprintf(const wchar_t * __restrict fmt, __va_list/
+vwscanf	/usr/src/lib/libc/stdio/vwscanf.c	/^vwscanf(const wchar_t * __restrict fmt, __va_list /
+wait	/usr/src/lib/libc/gen/wait.c	/^wait(int *istat)$/
+wait3	/usr/src/lib/libc/gen/wait3.c	/^wait3(int *istat, int options, struct rusage *rup)/
+waitpid	/usr/src/lib/libc/gen/waitpid.c	/^waitpid(pid_t pid, int *istat, int options)$/
+wcrtomb	/usr/src/lib/libc/locale/multibyte_citrus.c	/^wcrtomb(char *s, wchar_t wc, mbstate_t *ps)$/
+wcscasecmp	/usr/src/lib/libc/string/wcscasecmp.c	/^wcscasecmp(const wchar_t *s1, const wchar_t *s2)$/
+wcscat	/usr/src/lib/libc/string/wcscat.c	/^wcscat(wchar_t *s1, const wchar_t *s2)$/
+wcschr	/usr/src/lib/libc/string/wcschr.c	/^wcschr(const wchar_t *s, wchar_t c)$/
+wcscmp	/usr/src/lib/libc/string/wcscmp.c	/^wcscmp(const wchar_t *s1, const wchar_t *s2)$/
+wcscoll	/usr/src/lib/libc/locale/wcscoll.c	/^wcscoll(const wchar_t *s1, const wchar_t *s2)$/
+wcscpy	/usr/src/lib/libc/string/wcscpy.c	/^wcscpy(wchar_t *s1, const wchar_t *s2)$/
+wcscspn	/usr/src/lib/libc/string/wcscspn.c	/^wcscspn(const wchar_t *s, const wchar_t *set)$/
+wcsdup	/usr/src/lib/libc/string/wcsdup.c	/^wcsdup(const wchar_t *str)$/
+wcsftime	/usr/src/lib/libc/time/wcsftime.c	/^wcsftime(wchar_t *__restrict s, size_t maxsize, $/
+wcslcat	/usr/src/lib/libc/string/wcslcat.c	/^wcslcat(wchar_t *dst, const wchar_t *src, size_t s/
+wcslcpy	/usr/src/lib/libc/string/wcslcpy.c	/^wcslcpy(wchar_t *dst, const wchar_t *src, size_t s/
+wcslen	/usr/src/lib/libc/string/wcslen.c	/^wcslen(const wchar_t *s)$/
+wcsncasecmp	/usr/src/lib/libc/string/wcscasecmp.c	/^wcsncasecmp(const wchar_t *s1, const wchar_t *s2, /
+wcsncat	/usr/src/lib/libc/string/wcsncat.c	/^wcsncat(wchar_t *s1, const wchar_t *s2, size_t n)$/
+wcsncmp	/usr/src/lib/libc/string/wcsncmp.c	/^wcsncmp(const wchar_t *s1, const wchar_t *s2, size/
+wcsncpy	/usr/src/lib/libc/string/wcsncpy.c	/^wcsncpy(wchar_t *s1, const wchar_t *s2, size_t n)$/
+wcsnrtombs	/usr/src/lib/libc/locale/multibyte_citrus.c	/^wcsnrtombs(char *dst, const wchar_t **src, size_t /
+wcspbrk	/usr/src/lib/libc/string/wcspbrk.c	/^wcspbrk(const wchar_t *s, const wchar_t *set)$/
+wcsrchr	/usr/src/lib/libc/string/wcsrchr.c	/^wcsrchr(const wchar_t *s, wchar_t c)$/
+wcsrtombs	/usr/src/lib/libc/locale/multibyte_citrus.c	/^wcsrtombs(char *dst, const wchar_t **src, size_t l/
+wcsspn	/usr/src/lib/libc/string/wcsspn.c	/^wcsspn(const wchar_t *s, const wchar_t *set)$/
+wcstok	/usr/src/lib/libc/string/wcstok.c	/^wcstok(wchar_t * __restrict s, const wchar_t * __r/
+wcstombs	/usr/src/lib/libc/locale/wcstombs.c	/^wcstombs(char * __restrict s, const wchar_t * __re/
+wcswidth	/usr/src/lib/libc/string/wcswidth.c	/^wcswidth(const wchar_t *s, size_t n)$/
+wcsxfrm	/usr/src/lib/libc/locale/wcsxfrm.c	/^wcsxfrm(wchar_t *dest, const wchar_t *src, size_t /
+wctob	/usr/src/lib/libc/locale/wctob.c	/^wctob(wint_t c)$/
+wctomb	/usr/src/lib/libc/locale/wctomb.c	/^wctomb(char *s, wchar_t wchar)$/
+wctrans	/usr/src/lib/libc/locale/iswctype.c	/^wctrans(const char *charclass)$/
+wctype	/usr/src/lib/libc/locale/iswctype.c	/^wctype(const char *property)$/
+wcwidth	/usr/src/lib/libc/locale/iswctype.c	/^wcwidth(wchar_t c)$/
+wmemchr	/usr/src/lib/libc/string/wmemchr.c	/^wmemchr(const wchar_t *s, wchar_t c, size_t n)$/
+wmemcmp	/usr/src/lib/libc/string/wmemcmp.c	/^wmemcmp(const wchar_t *s1, const wchar_t *s2, size/
+wmemcpy	/usr/src/lib/libc/string/wmemcpy.c	/^wmemcpy(wchar_t *d, const wchar_t *s, size_t n)$/
+wmemmove	/usr/src/lib/libc/string/wmemmove.c	/^wmemmove(wchar_t *d, const wchar_t *s, size_t n)$/
+wmemset	/usr/src/lib/libc/string/wmemset.c	/^wmemset(wchar_t *s, wchar_t c, size_t n)$/
+wmemstream_close	/usr/src/lib/libc/stdio/open_wmemstream.c	/^wmemstream_close(void *v)$/
+wmemstream_seek	/usr/src/lib/libc/stdio/open_wmemstream.c	/^wmemstream_seek(void *v, fpos_t off, int whence)$/
+wmemstream_write	/usr/src/lib/libc/stdio/open_wmemstream.c	/^wmemstream_write(void *v, const char *b, int l)$/
+wprintf	/usr/src/lib/libc/stdio/wprintf.c	/^wprintf(const wchar_t * __restrict fmt, ...)$/
+wrapv	/usr/src/lib/libc/citrus/citrus_none.c	/^wrapv(unsigned char ch)$/
+writetcp	/usr/src/lib/libc/rpc/clnt_tcp.c	/^writetcp(struct ct_data *ct, caddr_t buf, int len)/
+wrterror	/usr/src/lib/libc/stdlib/malloc.c	/^wrterror(char *msg, void *p)$/
+wscanf	/usr/src/lib/libc/stdio/wscanf.c	/^wscanf(const wchar_t * __restrict fmt, ...)$/
+xdr_accepted_reply	/usr/src/lib/libc/rpc/rpc_prot.c	/^xdr_accepted_reply(XDR *xdrs, struct accepted_repl/
+xdr_array	/usr/src/lib/libc/rpc/xdr_array.c	/^xdr_array(XDR *xdrs,$/
+xdr_authunix_parms	/usr/src/lib/libc/rpc/authunix_prot.c	/^xdr_authunix_parms(XDR *xdrs, struct authunix_parm/
+xdr_bool	/usr/src/lib/libc/rpc/xdr.c	/^xdr_bool(XDR *xdrs, int32_t *bp)$/
+xdr_bytes	/usr/src/lib/libc/rpc/xdr.c	/^xdr_bytes(XDR *xdrs, char **cpp, u_int *sizep, u_i/
+xdr_callhdr	/usr/src/lib/libc/rpc/rpc_prot.c	/^xdr_callhdr(XDR *xdrs, struct rpc_msg *cmsg)$/
+xdr_callmsg	/usr/src/lib/libc/rpc/rpc_callmsg.c	/^xdr_callmsg(XDR *xdrs, struct rpc_msg *cmsg)$/
+xdr_char	/usr/src/lib/libc/rpc/xdr.c	/^xdr_char(XDR *xdrs, char *cp)$/
+xdr_des_block	/usr/src/lib/libc/rpc/rpc_prot.c	/^xdr_des_block(XDR *xdrs, des_block *blkp)$/
+xdr_domainname	/usr/src/lib/libc/yp/xdr_domainname.c	/^xdr_domainname(XDR *xdrs, domainname *objp)$/
+xdr_double	/usr/src/lib/libc/rpc/xdr_float.c	/^xdr_double(XDR *xdrs, double *dp)$/
+xdr_enum	/usr/src/lib/libc/rpc/xdr.c	/^xdr_enum(XDR *xdrs, int32_t *ep)$/
+xdr_float	/usr/src/lib/libc/rpc/xdr_float.c	/^xdr_float(XDR *xdrs, float *fp)$/
+xdr_free	/usr/src/lib/libc/rpc/xdr.c	/^xdr_free(xdrproc_t proc, char *objp)$/
+xdr_int	/usr/src/lib/libc/rpc/xdr.c	/^xdr_int(XDR *xdrs, int *ip)$/
+xdr_int16_t	/usr/src/lib/libc/rpc/xdr.c	/^xdr_int16_t(XDR *xdrs, int16_t *int16_p)$/
+xdr_int32_t	/usr/src/lib/libc/rpc/xdr.c	/^xdr_int32_t(XDR *xdrs, int32_t *int32_p)$/
+xdr_int64_t	/usr/src/lib/libc/rpc/xdr.c	/^xdr_int64_t(XDR *xdrs, int64_t *llp)$/
+xdr_keydat	/usr/src/lib/libc/yp/xdr_keydat.c	/^xdr_keydat(XDR *xdrs, keydat *objp)$/
+xdr_long	/usr/src/lib/libc/rpc/xdr.c	/^xdr_long(XDR *xdrs, long int *lp)$/
+xdr_mapname	/usr/src/lib/libc/yp/xdr_mapname.c	/^xdr_mapname(XDR *xdrs, mapname *objp)$/
+xdr_netobj	/usr/src/lib/libc/rpc/xdr.c	/^xdr_netobj(XDR *xdrs, struct netobj *np)$/
+xdr_opaque	/usr/src/lib/libc/rpc/xdr.c	/^xdr_opaque(XDR *xdrs, caddr_t cp, u_int cnt)$/
+xdr_opaque_auth	/usr/src/lib/libc/rpc/rpc_prot.c	/^xdr_opaque_auth(XDR *xdrs, struct opaque_auth *ap)/
+xdr_peername	/usr/src/lib/libc/yp/xdr_peername.c	/^xdr_peername(XDR *xdrs, peername *objp)$/
+xdr_pmap	/usr/src/lib/libc/rpc/pmap_prot.c	/^xdr_pmap(XDR *xdrs, struct pmap *regs)$/
+xdr_pmaplist	/usr/src/lib/libc/rpc/pmap_prot2.c	/^xdr_pmaplist(XDR *xdrs, struct pmaplist **rp)$/
+xdr_pointer	/usr/src/lib/libc/rpc/xdr_reference.c	/^xdr_pointer(XDR *xdrs, char **objpp, u_int obj_siz/
+xdr_reference	/usr/src/lib/libc/rpc/xdr_reference.c	/^xdr_reference(XDR *xdrs,$/
+xdr_rejected_reply	/usr/src/lib/libc/rpc/rpc_prot.c	/^xdr_rejected_reply(XDR *xdrs, struct rejected_repl/
+xdr_replymsg	/usr/src/lib/libc/rpc/rpc_prot.c	/^xdr_replymsg(XDR *xdrs, struct rpc_msg *rmsg)$/
+xdr_rmtcall_args	/usr/src/lib/libc/rpc/pmap_rmt.c	/^xdr_rmtcall_args(XDR *xdrs, struct rmtcallargs *ca/
+xdr_rmtcallres	/usr/src/lib/libc/rpc/pmap_rmt.c	/^xdr_rmtcallres(XDR *xdrs, struct rmtcallres *crp)$/
+xdr_short	/usr/src/lib/libc/rpc/xdr.c	/^xdr_short(XDR *xdrs, short int *sp)$/
+xdr_string	/usr/src/lib/libc/rpc/xdr.c	/^xdr_string(XDR *xdrs, char **cpp, u_int maxsize)$/
+xdr_u_char	/usr/src/lib/libc/rpc/xdr.c	/^xdr_u_char(XDR *xdrs, u_char *cp)$/
+xdr_u_int	/usr/src/lib/libc/rpc/xdr.c	/^xdr_u_int(XDR *xdrs, u_int *up)$/
+xdr_u_int16_t	/usr/src/lib/libc/rpc/xdr.c	/^xdr_u_int16_t(XDR *xdrs, u_int16_t *u_int16_p)$/
+xdr_u_int32_t	/usr/src/lib/libc/rpc/xdr.c	/^xdr_u_int32_t(XDR *xdrs, u_int32_t *u_int32_p)$/
+xdr_u_int64_t	/usr/src/lib/libc/rpc/xdr.c	/^xdr_u_int64_t(XDR *xdrs, u_int64_t *ullp)$/
+xdr_u_long	/usr/src/lib/libc/rpc/xdr.c	/^xdr_u_long(XDR *xdrs, u_long *ulp)$/
+xdr_u_short	/usr/src/lib/libc/rpc/xdr.c	/^xdr_u_short(XDR *xdrs, u_short *usp)$/
+xdr_union	/usr/src/lib/libc/rpc/xdr.c	/^xdr_union(XDR *xdrs,$/
+xdr_valdat	/usr/src/lib/libc/yp/xdr_valdat.c	/^xdr_valdat(XDR *xdrs, valdat *objp)$/
+xdr_vector	/usr/src/lib/libc/rpc/xdr_array.c	/^xdr_vector(XDR *xdrs, char *basep, u_int nelem, u_/
+xdr_void	/usr/src/lib/libc/rpc/xdr.c	/^xdr_void(void)$/
+xdr_wrapstring	/usr/src/lib/libc/rpc/xdr.c	/^xdr_wrapstring(XDR *xdrs, char **cpp)$/
+xdr_ypbind_binding	/usr/src/lib/libc/yp/xdr_ypbind_binding.c	/^xdr_ypbind_binding(XDR *xdrs, struct ypbind_bindin/
+xdr_ypbind_resp	/usr/src/lib/libc/yp/xdr_ypbind_resp.c	/^xdr_ypbind_resp(XDR *xdrs, struct ypbind_resp *obj/
+xdr_ypbind_resptype	/usr/src/lib/libc/yp/xdr_ypbind_resptype.c	/^xdr_ypbind_resptype(XDR *xdrs, enum ypbind_resptyp/
+xdr_ypbind_setdom	/usr/src/lib/libc/yp/xdr_ypbind_setdom.c	/^xdr_ypbind_setdom(XDR *xdrs, struct ypbind_setdom /
+xdr_ypmaplist	/usr/src/lib/libc/yp/xdr_ypmaplist.c	/^xdr_ypmaplist(XDR *xdrs, struct ypmaplist *objp)$/
+xdr_ypreq_key	/usr/src/lib/libc/yp/xdr_ypreq_key.c	/^xdr_ypreq_key(XDR *xdrs, struct ypreq_key *objp)$/
+xdr_ypreq_nokey	/usr/src/lib/libc/yp/xdr_ypreq_nokey.c	/^xdr_ypreq_nokey(XDR *xdrs, struct ypreq_nokey *obj/
+xdr_ypresp_all	/usr/src/lib/libc/yp/xdr_ypresp_all.c	/^xdr_ypresp_all(XDR *xdrs, struct ypresp_all *objp)/
+xdr_ypresp_all_seq	/usr/src/lib/libc/yp/yp_all.c	/^xdr_ypresp_all_seq(XDR *xdrs, u_long *objp)$/
+xdr_ypresp_key_val	/usr/src/lib/libc/yp/xdr_ypresp_key_val.c	/^xdr_ypresp_key_val(XDR *xdrs, struct ypresp_key_va/
+xdr_ypresp_maplist	/usr/src/lib/libc/yp/xdr_ypresp_maplist.c	/^xdr_ypresp_maplist(XDR *xdrs, struct ypresp_maplis/
+xdr_ypresp_master	/usr/src/lib/libc/yp/xdr_ypresp_master.c	/^xdr_ypresp_master(XDR *xdrs, struct ypresp_master /
+xdr_ypresp_order	/usr/src/lib/libc/yp/xdr_ypresp_order.c	/^xdr_ypresp_order(XDR *xdrs, struct ypresp_order *o/
+xdr_ypresp_val	/usr/src/lib/libc/yp/xdr_ypresp_val.c	/^xdr_ypresp_val(XDR *xdrs, struct ypresp_val *objp)/
+xdr_ypstat	/usr/src/lib/libc/yp/xdr_ypstat.c	/^xdr_ypstat(XDR *xdrs, ypstat *objp)$/
+xdrmem_create	/usr/src/lib/libc/rpc/xdr_mem.c	/^xdrmem_create(XDR *xdrs, caddr_t addr, u_int size,/
+xdrmem_destroy	/usr/src/lib/libc/rpc/xdr_mem.c	/^xdrmem_destroy(XDR *xdrs)$/
+xdrmem_getbytes	/usr/src/lib/libc/rpc/xdr_mem.c	/^xdrmem_getbytes(XDR *xdrs, caddr_t addr, u_int len/
+xdrmem_getlong_aligned	/usr/src/lib/libc/rpc/xdr_mem.c	/^xdrmem_getlong_aligned(XDR *xdrs, long int *lp)$/
+xdrmem_getlong_unaligned	/usr/src/lib/libc/rpc/xdr_mem.c	/^xdrmem_getlong_unaligned(XDR *xdrs, long int *lp)$/
+xdrmem_getpos	/usr/src/lib/libc/rpc/xdr_mem.c	/^xdrmem_getpos(XDR *xdrs)$/
+xdrmem_inline_aligned	/usr/src/lib/libc/rpc/xdr_mem.c	/^xdrmem_inline_aligned(XDR *xdrs, u_int len)$/
+xdrmem_inline_unaligned	/usr/src/lib/libc/rpc/xdr_mem.c	/^xdrmem_inline_unaligned(XDR *xdrs, u_int len)$/
+xdrmem_putbytes	/usr/src/lib/libc/rpc/xdr_mem.c	/^xdrmem_putbytes(XDR *xdrs, caddr_t addr, u_int len/
+xdrmem_putlong_aligned	/usr/src/lib/libc/rpc/xdr_mem.c	/^xdrmem_putlong_aligned(XDR *xdrs, long int *lp)$/
+xdrmem_putlong_unaligned	/usr/src/lib/libc/rpc/xdr_mem.c	/^xdrmem_putlong_unaligned(XDR *xdrs, long int *lp)$/
+xdrmem_setpos	/usr/src/lib/libc/rpc/xdr_mem.c	/^xdrmem_setpos(XDR *xdrs, u_int pos)$/
+xdrrec_create	/usr/src/lib/libc/rpc/xdr_rec.c	/^xdrrec_create(XDR *xdrs, u_int sendsize, u_int rec/
+xdrrec_destroy	/usr/src/lib/libc/rpc/xdr_rec.c	/^xdrrec_destroy(XDR *xdrs)$/
+xdrrec_endofrecord	/usr/src/lib/libc/rpc/xdr_rec.c	/^xdrrec_endofrecord(XDR *xdrs, int32_t sendnow)$/
+xdrrec_eof	/usr/src/lib/libc/rpc/xdr_rec.c	/^xdrrec_eof(XDR *xdrs)$/
+xdrrec_getbytes	/usr/src/lib/libc/rpc/xdr_rec.c	/^xdrrec_getbytes(XDR *xdrs, caddr_t addr, u_int len/
+xdrrec_getlong	/usr/src/lib/libc/rpc/xdr_rec.c	/^xdrrec_getlong(XDR *xdrs, long int *lp)$/
+xdrrec_getpos	/usr/src/lib/libc/rpc/xdr_rec.c	/^xdrrec_getpos(XDR *xdrs)$/
+xdrrec_inline	/usr/src/lib/libc/rpc/xdr_rec.c	/^xdrrec_inline(XDR *xdrs, u_int len)$/
+xdrrec_putbytes	/usr/src/lib/libc/rpc/xdr_rec.c	/^xdrrec_putbytes(XDR *xdrs, caddr_t addr, u_int len/
+xdrrec_putlong	/usr/src/lib/libc/rpc/xdr_rec.c	/^xdrrec_putlong(XDR *xdrs, long int *lp)$/
+xdrrec_setpos	/usr/src/lib/libc/rpc/xdr_rec.c	/^xdrrec_setpos(XDR *xdrs, u_int pos)$/
+xdrrec_skiprecord	/usr/src/lib/libc/rpc/xdr_rec.c	/^xdrrec_skiprecord(XDR *xdrs)$/
+xdrstdio_create	/usr/src/lib/libc/rpc/xdr_stdio.c	/^xdrstdio_create(XDR *xdrs, FILE *file, enum xdr_op/
+xdrstdio_destroy	/usr/src/lib/libc/rpc/xdr_stdio.c	/^xdrstdio_destroy(XDR *xdrs)$/
+xdrstdio_getbytes	/usr/src/lib/libc/rpc/xdr_stdio.c	/^xdrstdio_getbytes(XDR *xdrs, caddr_t addr, u_int l/
+xdrstdio_getlong	/usr/src/lib/libc/rpc/xdr_stdio.c	/^xdrstdio_getlong(XDR *xdrs, long int *lp)$/
+xdrstdio_getpos	/usr/src/lib/libc/rpc/xdr_stdio.c	/^xdrstdio_getpos(XDR *xdrs)$/
+xdrstdio_inline	/usr/src/lib/libc/rpc/xdr_stdio.c	/^xdrstdio_inline(XDR *xdrs, u_int len)$/
+xdrstdio_putbytes	/usr/src/lib/libc/rpc/xdr_stdio.c	/^xdrstdio_putbytes(XDR *xdrs, caddr_t addr, u_int l/
+xdrstdio_putlong	/usr/src/lib/libc/rpc/xdr_stdio.c	/^xdrstdio_putlong(XDR *xdrs, long int *lp)$/
+xdrstdio_setpos	/usr/src/lib/libc/rpc/xdr_stdio.c	/^xdrstdio_setpos(XDR *xdrs, u_int pos)$/
+xprt_register	/usr/src/lib/libc/rpc/svc.c	/^xprt_register(SVCXPRT *xprt)$/
+xprt_unregister	/usr/src/lib/libc/rpc/svc.c	/^xprt_unregister(SVCXPRT *xprt)$/
+yp_all	/usr/src/lib/libc/yp/yp_all.c	/^yp_all(const char *indomain, const char *inmap, st/
+yp_bind	/usr/src/lib/libc/yp/yp_bind.c	/^yp_bind(const char *dom)$/
+yp_first	/usr/src/lib/libc/yp/yp_first.c	/^yp_first(const char *indomain, const char *inmap, /
+yp_get_default_domain	/usr/src/lib/libc/yp/yp_get_default_domain.c	/^yp_get_default_domain(char **domp)$/
+yp_maplist	/usr/src/lib/libc/yp/yp_maplist.c	/^yp_maplist(const char *indomain, struct ypmaplist /
+yp_master	/usr/src/lib/libc/yp/yp_master.c	/^yp_master(const char *indomain, const char *inmap,/
+yp_match	/usr/src/lib/libc/yp/ypmatch_cache.c	/^yp_match(const char *indomain, const char *inmap, /
+yp_next	/usr/src/lib/libc/yp/ypmatch_cache.c	/^yp_next(const char *indomain, const char *inmap, c/
+yp_order	/usr/src/lib/libc/yp/yp_order.c	/^yp_order(const char *indomain, const char *inmap, /
+yp_unbind	/usr/src/lib/libc/yp/yp_bind.c	/^yp_unbind(const char *dom)$/
+yperr_string	/usr/src/lib/libc/yp/yperr_string.c	/^yperr_string(int incode)$/
+ypmatch_add	/usr/src/lib/libc/yp/ypmatch_cache.c	/^ypmatch_add(const char *map, const char *key, u_in/
+ypmatch_ent	/usr/src/lib/libc/yp/ypmatch_cache.c	/^static struct ypmatch_ent {$/
+ypmatch_find	/usr/src/lib/libc/yp/ypmatch_cache.c	/^ypmatch_find(const char *map, const char *key, u_i/
+ypprot_err	/usr/src/lib/libc/yp/ypprot_err.c	/^ypprot_err(unsigned int incode)$/
+zapcacheregion	/usr/src/lib/libc/stdlib/malloc.c	/^zapcacheregion(struct dir_info *d, void *p, size_t/
+zone	/usr/src/lib/libc/gen/timezone.c	/^static struct zone {$/

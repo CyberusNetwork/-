@@ -1,0 +1,774 @@
+@comment $OpenBSD: PLIST,v 1.20 2012/09/24 19:51:04 naddy Exp $
+@name tiff-4.0.3p2
+@url http://ftp.fr.openbsd.org/pub/OpenBSD/5.6/packages/i386/tiff-4.0.3p2.tgz
+@signer openbsd-56-pkg
+@digital-signature signify:2014-08-02T11:09:17Z:RWSPEf7Vpp2j0Biuol9eSW611ZBe59pjqp8e7B574R0Q6QeTCUtRhnbAv71XQfpHIu35xTGwx1hwXfKj3ofHNVr2HvGv+ZS2QwA=
+@comment pkgpath=graphics/tiff cdrom=yes ftp=yes
+@arch i386
++DESC
+@sha Kb0LzpNpq/OP+FwTiLEXE9Y7oOEXN/s4Nt49RbdDp+w=
+@size 810
+@depend graphics/jpeg:jpeg-*:jpeg-9a
+@wantlib c.77.0
+@wantlib jpeg.67.0
+@wantlib m.9.0
+@wantlib stdc++.57.0
+@wantlib z.5.0
+@cwd /usr/local
+@bin bin/bmp2tiff
+@sha A5Uc8ljR4UhG3DOzmN3w0EJIh4Vjfp837Auk36pX880=
+@size 15504
+@bin bin/fax2ps
+@sha KL6o9oZe2AdOqjCo39kqnGCRiOaDcYn/XgMUxjVyfOo=
+@size 16912
+@bin bin/fax2tiff
+@sha A1fdYLQHb9Ugqnp8wuzNXJVMBUp+Vj1Nwv65R0clJug=
+@size 15888
+@bin bin/gif2tiff
+@sha Bv86qCHgyVmWSVnR48JIjPdxV+GirRKSsqmbgN0K99k=
+@size 18192
+@bin bin/pal2rgb
+@sha mmKC/SW1HwrOblAwoC37PJbcZX+BRe8LaXIgahNYpXc=
+@size 11248
+@bin bin/ppm2tiff
+@sha E6vXCq+06WQuV2JIKyyUZHGlTjOTqZZkZs+QjUT9LT0=
+@size 10928
+@bin bin/ras2tiff
+@sha /aOf9EzWVGCHufGpcanGVvKzdwV14H4MnWVVS8Ld0iY=
+@size 10928
+@bin bin/raw2tiff
+@sha yvfkMkloUVXlrsS6U6ifmUO869zNX/C+W2Q+vYPqvzY=
+@size 16996
+@bin bin/rgb2ycbcr
+@sha LiFyvupW1casqxPv9XJpDd8O5xXj8PjqYt6iIwwU+Bg=
+@size 14640
+@bin bin/thumbnail
+@sha YXTXa9ZbE2Lj5syNo16qAeAl+cY4tVxQtlXzlqg5PM8=
+@size 15312
+@bin bin/tiff2bw
+@sha uDiLdTK349zzoEcuGCSk3cP3p/mtu6ecuN88AYL8A2Y=
+@size 15280
+@bin bin/tiff2pdf
+@sha ScxYxlVBEoE641N7L47bzoPr2byjAI0FO0Ec3L2zS3A=
+@size 67760
+@bin bin/tiff2ps
+@sha 06DPuSMjAtkH3quXpzihl1PuSS1LchhNn7wKXIBChe4=
+@size 64688
+@bin bin/tiff2rgba
+@sha P2MIYiK++GIdKQ8ODcCrqtxfkXhNibZiq65705wYiYs=
+@size 14768
+@bin bin/tiffcmp
+@sha NeUn7yvppMifH2uaK7QHsggK6SAdn+/Kfekoiu26alY=
+@size 15408
+@bin bin/tiffcp
+@sha 53cMjsxbGgzmxdihQLPJklQbiyDpRRpXjmWFGQ1EPiE=
+@size 31120
+@bin bin/tiffcrop
+@sha sHlxajcs94vENL0tURI+YpjfREkKp+b7EsLQaCji328=
+@size 102960
+@bin bin/tiffdither
+@sha 0peQejcM0+WxLbcGg/6wEfXCV555YehxnwDybIuqlA8=
+@size 10960
+@bin bin/tiffdump
+@sha wsRrZSf5HxyrwcbrMKny5Ht5EGIWvmW1DcXum01KkfM=
+@size 17200
+@bin bin/tiffinfo
+@sha aUAqRY9E+VGrgXQuBe/9Vc0UXJM8CVb++PZ1aUSaNGY=
+@size 15056
+@bin bin/tiffmedian
+@sha xPboaFtpZEXdOrICIc8sQ2e1qhzUe49jY5kBQ1Wbk24=
+@size 18896
+@bin bin/tiffset
+@sha 9fCVEwN7UzkFe2Bf4h2cDgdbD87As2dI5mXVe2aT6Wk=
+@size 10448
+@bin bin/tiffsplit
+@sha EFfZtftFp1H1QZcx0T21JzYh0VRFqRNEuCV92zFFCQ4=
+@size 14064
+include/tiff.h
+@sha 1fb50WLr6J7W9ElTXVCKqX8cw9nlLbddNszmW2lcHIM=
+@size 35784
+include/tiffconf.h
+@sha mNRHbWD/g43VFY8+dlbuXAOd6T+mkiWZzDda93FWPdo=
+@size 3442
+include/tiffio.h
+@sha j7cDQjabnJIu3+8MoA4w8bY6I1QduxVRnH/UksWhXlU=
+@size 23003
+include/tiffio.hxx
+@sha Gsdaxr2XYn2S292dm4ErklmM+xr3XKwgJXzUrgjLmC4=
+@size 1702
+include/tiffvers.h
+@sha 2Nictm/aca9A2cVe2j9G9w/Fb2/VOM26t+ozLCjga88=
+@size 410
+lib/libtiff.a
+@sha l2eowHKdcOndeOUMH9kNPyoVy/xQvrXSubjVSejx2HE=
+@size 579744
+lib/libtiff.la
+@sha u8yQPyppPbP7SSuLkAmbfQB4uj6Xg+UXf4el0ORG8l8=
+@size 768
+@lib lib/libtiff.so.39.2
+@sha 1Ieao1TLGQzAJL5KiRsk0cbW74jJsNr71UT8MnRi99A=
+@size 476071
+lib/libtiffxx.a
+@sha Z62uI0DDl7EDMdcNAV82kQNY183COrpnmFewQjCVEWY=
+@size 8284
+lib/libtiffxx.la
+@sha OEalLhy49FDqfaISVM8Jyu95S0PCcQSPAQMz9PCZJow=
+@size 804
+@lib lib/libtiffxx.so.40.1
+@sha humbu4GXX+a0TO4aVi1/daPUatxhf/eZVvOap3D79lA=
+@size 13016
+lib/pkgconfig/
+lib/pkgconfig/libtiff-4.pc
+@sha jTXxqVWDSPHckfksi/GvI6iKvFJ5eANav31iW4MD+zw=
+@size 256
+@man man/man1/bmp2tiff.1
+@sha w8TRIBvYCHIwP8ztPRlbycBZ+XOOgzrS3B9ATr67Amc=
+@size 2765
+@man man/man1/fax2ps.1
+@sha x/aNe0zwI+S5A0tK13OhfEwmnAOuHEoreo9kQ3o7bYA=
+@size 4731
+@man man/man1/fax2tiff.1
+@sha mHI1ih4QDcETAwwkxGT+oGQHKTpv3WTX/dK7wUoWKKM=
+@size 7963
+@man man/man1/gif2tiff.1
+@sha cIIIbE0MveLmBYcVCgqrAEEyE/dXRfPj16MQFozGVmU=
+@size 2609
+@man man/man1/pal2rgb.1
+@sha BF9eefX4XIHr/EGkZu+V3jwCLWTGNfvxQxJ/Xgp+vf4=
+@size 3311
+@man man/man1/ppm2tiff.1
+@sha FruvgGYPTWoC4YN+zNwS4B2h8WjsiNpPumCDe1PCgIQ=
+@size 2970
+@man man/man1/ras2tiff.1
+@sha TFs37PdjPwGrTC1OF2q8eQQpd1iV1h2OdHT9GnwwocA=
+@size 3009
+@man man/man1/raw2tiff.1
+@sha Sj899Cfi/2/gD43JjlzMHkKoZoFwELv+jK9CA9eWeck=
+@size 5446
+@man man/man1/rgb2ycbcr.1
+@sha dB07RXi4UvnPg3zxSi+W8gNHALgmyEGrojVJxSq5Xjs=
+@size 3148
+@man man/man1/sgi2tiff.1
+@sha Xmj8kZmN1JQI6Q+8vJAG6OTlOHyGFLFFQfa/N7FCdEI=
+@size 2839
+@man man/man1/thumbnail.1
+@sha w8sPd4jo9JIWjq3mQG7eJO5JrSVQQYqk/5eavTyaWqo=
+@size 2904
+@man man/man1/tiff2bw.1
+@sha r6VKSdJ/Yl6QW32hDwXVsBAm5j+Q7ceJb0LinVb7RRE=
+@size 2810
+@man man/man1/tiff2pdf.1
+@sha mXB0bq3y3t9yE1ZyIyByS7OPfzpiJlEfphRpHqW+gEQ=
+@size 7092
+@man man/man1/tiff2ps.1
+@sha YUO4PsZdn1S5KOZupjBqXLWDgSJkhvFwzmkDMcoonuc=
+@size 7255
+@man man/man1/tiff2rgba.1
+@sha vMpgLcgNteAyygok3pbe3KlxFrpgDKDeek+9EUQU8G8=
+@size 3498
+@man man/man1/tiffcmp.1
+@sha 67y07x9iPpyCDBNdU9w1H98obpEXQhWOqfYuXJIQB6g=
+@size 2843
+@man man/man1/tiffcp.1
+@sha GDZv7h55nThSEVvxmeB01Td6S4kOl0/YlLUGCy56LJk=
+@size 8765
+@man man/man1/tiffcrop.1
+@sha MWvdQT3rVoD8eqaU4HYBdWEoU+AyR07gatWwZgdtkRk=
+@size 22683
+@man man/man1/tiffdither.1
+@sha b0+By3tjauZ9vq1VPPEaDDijaseMb8KqwTe22B9lmk4=
+@size 3835
+@man man/man1/tiffdump.1
+@sha sA9SkxpjQ3TaKXUJU/oepF0H7IAVbTfMDXH+qNUuqTU=
+@size 2855
+@man man/man1/tiffgt.1
+@sha kDLm11uhSNl3+yoJLMPQA1NDQ0FDG0XDViCuKY/s+0g=
+@size 6686
+@man man/man1/tiffinfo.1
+@sha d+5Os4AE8ZMJ2YhJgf8ybyvTHimXGOU/CNk5P/qglUc=
+@size 2723
+@man man/man1/tiffmedian.1
+@sha uabX7t8AbBnZOv0SRRHfID+1VPOGHuUW2ryJeZIpgFg=
+@size 3386
+@man man/man1/tiffset.1
+@sha LADzRk92ZYw/XVApT6wHX9M1q7Jv+FtPB6O7h2Oihd8=
+@size 2737
+@man man/man1/tiffsplit.1
+@sha UO+lL8x71ydMg0t/NATwdwUsP8CgsstPpSPQKRFY+2M=
+@size 2170
+@man man/man1/tiffsv.1
+@sha MRHMn0Q9mR0O0uXWjBNCoK2iX7OHIfuRcfp0wCNrRv0=
+@size 4143
+@man man/man3/TIFFClose.3
+@sha SmMNPwgdplKd0mfZHjBmmVXfWNKAsgIz35fmXS8013I=
+@size 2037
+@man man/man3/TIFFDataWidth.3
+@sha vBZ2b5Lwt6e62b8PUt1F1e6p4HomYW54/NMY2Fgm0NI=
+@size 2105
+@man man/man3/TIFFError.3
+@sha KK1X8ZPUXarqzbt9y6jQHXtlQnEXqwNdQj4s+m+VvCA=
+@size 2632
+@man man/man3/TIFFFieldDataType.3
+@sha i5NQfjf/B0t9Pa84At2+5JbU6J6yU8SzfysqQ7ogZ+I=
+@size 1945
+@man man/man3/TIFFFieldName.3
+@sha eIote8wPYEgnlDsc0Xg/galFJZhMSC9JoFCV0/1Fx/0=
+@size 1894
+@man man/man3/TIFFFieldPassCount.3
+@sha rRla1PbPw5KFubmKzlC66iPuH6vcJqVwGD/634GIKbg=
+@size 2304
+@man man/man3/TIFFFieldReadCount.3
+@sha +QVhEgIJrICbftJy7y3IIefj2fL9rdMJFcez4xTEdus=
+@size 2544
+@man man/man3/TIFFFieldTag.3
+@sha s7gKMHWPpPExZvdDhvdXRlKaEFPUdaKmkgH1kKWUUvg=
+@size 2011
+@man man/man3/TIFFFieldWriteCount.3
+@sha SMunRHf16H6dK98wzqhxbwOGCTeqU5wpDEzeXzdvrrs=
+@size 2810
+@man man/man3/TIFFFlush.3
+@sha /RiZgH5p0ZrLLo4HKDM9FEiYncfgulHfvOSWA/dmeU4=
+@size 2532
+@man man/man3/TIFFGetField.3
+@sha w641hl1LAMkQuWZZQEl8tRsBuXR6rkBeTB9+OZ+VT5Y=
+@size 7897
+@man man/man3/TIFFOpen.3
+@sha OXJEctchvIkuySvNOCbk/BqdZ3fXcX+nYKk1XQBl8jA=
+@size 9625
+@man man/man3/TIFFPrintDirectory.3
+@sha InXkmgItVrsxe0bpeNu8HfeoFOkQDqh9JsbRdiglZ2I=
+@size 2560
+@man man/man3/TIFFRGBAImage.3
+@sha PBFpBBwj8fUg0NkwaI9bwA5L6lGKmaimX7UH/0fC7TI=
+@size 9301
+@man man/man3/TIFFReadDirectory.3
+@sha cR1TydNBcvRfh0uuTxYlWxy0VMnDMoM5YWyAHnAlel4=
+@size 6181
+@man man/man3/TIFFReadEncodedStrip.3
+@sha Uk/Ax3PGzmuMTCDnuLvIATuYCQe2/CLrRRGz5yggR1w=
+@size 3051
+@man man/man3/TIFFReadEncodedTile.3
+@sha wxadqq3XyVWkm+e+WBavJPbCKcoZvy2nCLGPT9sNaHU=
+@size 2992
+@man man/man3/TIFFReadRGBAImage.3
+@sha 4LsYfxeCSCbq7tCFkd+O7q6n9gm4DHn0SP16DSJ68YQ=
+@size 6705
+@man man/man3/TIFFReadRGBAStrip.3
+@sha aWAt+uoBe2VYPIN+L1scMVKDcWj77aNhh+Z1eLERcJI=
+@size 5801
+@man man/man3/TIFFReadRGBATile.3
+@sha qHPYC+S/qANqg4Tw+3J8kfppcvcFQ5O86Qn4mg8RKwk=
+@size 5834
+@man man/man3/TIFFReadRawStrip.3
+@sha pMuPuFxdSrqprKvgR6r7ERwKWEpa74Yss6owZkooRJo=
+@size 2505
+@man man/man3/TIFFReadRawTile.3
+@sha jGeL6ECN5qpxpg+rqebl1NyTdg9H/zPvdO+kc1kweD8=
+@size 2586
+@man man/man3/TIFFReadScanline.3
+@sha a/Pc5tKariypkQqv/NfGI/anS6r5T5f7+sqkzQL0t6U=
+@size 3837
+@man man/man3/TIFFReadTile.3
+@sha S5uG5guC7LdydoLCQtGBeuX9wUPZdNse/EZPr3NWTCs=
+@size 3148
+@man man/man3/TIFFSetDirectory.3
+@sha CXmcEeqVkOHxSJA4rfsGAf3NklgeMCZ5Hl3JpAiealQ=
+@size 2888
+@man man/man3/TIFFSetField.3
+@sha Ji6LveW7Wl1mhTklvXu8MtkHOviFnJQE0Xti0+iwo5o=
+@size 7163
+@man man/man3/TIFFWarning.3
+@sha t91rJ0cEBQsc0y5rF4qZmQkvdFZWywk1+AxVPeQkURw=
+@size 2704
+@man man/man3/TIFFWriteDirectory.3
+@sha CIhGKQAAQrXQqfctdccyd9lhGcILTsuByH0F0BWvUFQ=
+@size 5369
+@man man/man3/TIFFWriteEncodedStrip.3
+@sha VaDLfkLwT9MMGHpqBv3fb+24JXTDtKoT72DDf/b8vLc=
+@size 3609
+@man man/man3/TIFFWriteEncodedTile.3
+@sha /k5BPvCsu0U9C8/ZhzSmdn0PD9GpE+fA2G2Zwy3NMn4=
+@size 3454
+@man man/man3/TIFFWriteRawStrip.3
+@sha esXC3h8JcIny86Vye1oSlofRYCWg/eT7U0XMeoBZqFs=
+@size 3226
+@man man/man3/TIFFWriteRawTile.3
+@sha 6i77C35utp5w51OD0mku0pJWZFro+1tmdv95sYZ1HWU=
+@size 2981
+@man man/man3/TIFFWriteScanline.3
+@sha qLBT46M2bZEz0k/77u4IhjP3ovQpw0zmLdOd9WtbOLo=
+@size 5656
+@man man/man3/TIFFWriteTile.3
+@sha JBG1g6oVAspOhfeGSR/VwJsqdMhWS5UWL5q0nQ7uttk=
+@size 2781
+@man man/man3/TIFFbuffer.3
+@sha /O3Oh/BM560ONfAZJuDHhHc7g0cc7TJJxVRF8nK9grk=
+@size 3260
+@man man/man3/TIFFcodec.3
+@sha /h/gLqVftfZy89CIyKn5343zAYf+1eLOc3WQMM1N2Gg=
+@size 3092
+@man man/man3/TIFFcolor.3
+@sha M/09VP23Rw3SN3Mw8HYvXXi51sIekRitzHPdj0TmqQc=
+@size 7893
+@man man/man3/TIFFmemory.3
+@sha a5JnsWsipy5WkThir5V3laYqTLbPvSxElMd1ATr4/jw=
+@size 2944
+@man man/man3/TIFFquery.3
+@sha 0INU5Lz2zvX+bvpiwb61sAginUENN3w6GFzO8kCBHRw=
+@size 4343
+@man man/man3/TIFFsize.3
+@sha uYoUkjNmImS969oEg2+CAPFNxKGRUgPUd2ywBIiWt1M=
+@size 2241
+@man man/man3/TIFFstrip.3
+@sha KjQcVPmj7mdbuhrjF39pXBhMOpqDCoTZ2i9i5mGrn9A=
+@size 3655
+@man man/man3/TIFFswab.3
+@sha LsgN5NOQyFVgHjP9kUuh3xMZv2IvlpD4U/dzsvRLjO4=
+@size 2917
+@man man/man3/TIFFtile.3
+@sha wVBsy5EzGo651QEyYPX65r8aN+t6quY+kU02jzVMYW4=
+@size 4171
+@man man/man3/libtiff.3
+@sha UIK9P4gJuLyuSQS1x9nIhzZyzNcL90g8KbBzSitf6zY=
+@size 18862
+share/doc/tiff/
+share/doc/tiff/COPYRIGHT
+@sha +9b+15OFQdLICcCCYiX8heVR/b+ocysQ8Mh+CEesr9c=
+@size 1146
+share/doc/tiff/ChangeLog
+@sha whHeUZoLdYqxVq9AB7RkAkUER9Md/5pPUL6BaYSNDOk=
+@size 203446
+share/doc/tiff/README
+@sha W5qs75FdytCoFY8fJlFCrOypK3sbc1SXrv8bkvV2s3k=
+@size 2368
+share/doc/tiff/README.vms
+@sha H0rrfBsiegvkWibiCONlYEf1Y7aDYjtJWIqVJyPxVHs=
+@size 415
+share/doc/tiff/RELEASE-DATE
+@sha dSlhozAcFVm/pylEXlmZBMn5tyK5Y54QgLFqSWH9U8k=
+@size 9
+share/doc/tiff/TIFFTechNote2.html
+@sha l0Lqx7wcl1FwRWgS2AHXxOmv1HQmm9YpElkai3b/bVo=
+@size 35698
+share/doc/tiff/TODO
+@sha 3oC/ej6Nw38rGGc2O9bsT6LhwbeCY7lVlfkxrZVl53I=
+@size 416
+share/doc/tiff/VERSION
+@sha BWIk9RIB6pL/BVDFI7k2UF3yhFHt1NCwlpGbVxPsk/s=
+@size 6
+share/doc/tiff/addingtags.html
+@sha mQqWPjPHA25vQ8qJ8hJDXjqX4KYPxHEhnaZv0WHIRRs=
+@size 11806
+share/doc/tiff/bugs.html
+@sha MIg8gnnqpsLk0QbYSX8FGqn9bZdFGb9jy5NRuf9CEXA=
+@size 2646
+share/doc/tiff/build.html
+@sha j6kFznQC0t3BCHMl0UEzHJrF8hsGPcyEfnznVJlc2uA=
+@size 23650
+share/doc/tiff/contrib.html
+@sha LGEjnX4own3TVghFHjCgmysM+ckjJOr5dWD1eG6kaAY=
+@size 3739
+share/doc/tiff/document.html
+@sha 1I7tFSfH703QyrlvrMIlWl3EyS6Zg/iT5arjn2xvnMk=
+@size 1604
+share/doc/tiff/images/
+share/doc/tiff/images.html
+@sha Yoyau51xatQVYgEjV4r/NYNrN06FxL6VE0J9jkM1KuI=
+@size 1088
+share/doc/tiff/images/back.gif
+@sha IYPe+Xwj+9xS2UgPZECuSki6LvUIIMsDkdIawGMidwM=
+@size 1000
+share/doc/tiff/images/bali.jpg
+@sha V/vOJBZl3ygiQ19EMiY3IAqs/hp/YUi5gMKizKWMa70=
+@size 26152
+share/doc/tiff/images/cat.gif
+@sha 7SgU7u9+khwxR9MxoeMbrO9exZAJeEPn8DFkEu4gyVM=
+@size 12477
+share/doc/tiff/images/cover.jpg
+@sha 39cNZesz3qMG2howf7n3JjCiElC/cotBUpdisS0Clec=
+@size 20189
+share/doc/tiff/images/cramps.gif
+@sha m7ITOK44Y9z8m94awkxJeoeR2TkvkNgu+3RbrLf342I=
+@size 13137
+share/doc/tiff/images/dave.gif
+@sha KghATqjl9QUkyIMOp19wVdNpUwie0+T2KxZWB4sw9G0=
+@size 8220
+share/doc/tiff/images/info.gif
+@sha uNccIEEywHwO32WHuL2VwBhhi6EqUQto9CsDl0XmNuE=
+@size 131
+share/doc/tiff/images/jello.jpg
+@sha LEGtopSLAGZ+D3NHunqevoU0BJgI+SHGg3qIMv6GkwY=
+@size 13744
+share/doc/tiff/images/jim.gif
+@sha 0mADJFVGa66FS50nIbs7k33W/uG9+4ZOYUhp++3eqwM=
+@size 14493
+share/doc/tiff/images/note.gif
+@sha Jak/o/tOtALEoItouNPznJxEotqc19gc0edtluEC4lY=
+@size 264
+share/doc/tiff/images/oxford.gif
+@sha zzDAvpBwJyh6G5/XbWDaGL3mzCMZKFENQIUig9xmblE=
+@size 6069
+share/doc/tiff/images/quad.jpg
+@sha NqiGYIyg3eNQG99G/N+hDkBzmh14yhesvWDgjBYQ2CQ=
+@size 23904
+share/doc/tiff/images/ring.gif
+@sha d49pLQQpuLYZ6twZ9h7iFDfMZ/2B/qdXbp03jvF7GD8=
+@size 4275
+share/doc/tiff/images/smallliz.jpg
+@sha fimsXfqreD6isUTuZ4M8egfoPmAJj/SYjMcac8ml+vk=
+@size 16463
+share/doc/tiff/images/strike.gif
+@sha /ZvV0S7xm3cWLR81GaeXElFNwDyZeLcQSCtuZsLBxo8=
+@size 5610
+share/doc/tiff/images/warning.gif
+@sha 3NVBX7QUdtJhdSlpphDIKHy42cUL0aj/HIoa++4i99k=
+@size 287
+share/doc/tiff/index.html
+@sha 0pur/J200iGcFi9Po/gkGQJurw0iy7AZa6w2r113yt4=
+@size 5061
+share/doc/tiff/internals.html
+@sha vanu66N7e0k5nlWUKPa4ltzq3BO+dmO39G8ikIoabdA=
+@size 19236
+share/doc/tiff/intro.html
+@sha RmHbksorPvLig3vHRzzsT3YJbSikI8wMA/cbWdywCK0=
+@size 2394
+share/doc/tiff/libtiff.html
+@sha Qpp8W7Z9YiyxwLHT0RmVoahLdQZDJH9YC+qZi3wO2I8=
+@size 37433
+share/doc/tiff/man/
+share/doc/tiff/man/TIFFClose.3tiff.html
+@sha Vva3E1Dy5thKS9Ab+w0d69Rbf5kco8zEr9UEJWO0SQA=
+@size 2479
+share/doc/tiff/man/TIFFDataWidth.3tiff.html
+@sha hcPKXEGD6BttazkzJK7qS78fg9moA2nbKhUXxcVOY0I=
+@size 2556
+share/doc/tiff/man/TIFFError.3tiff.html
+@sha VJoo1fxVEeIZ8MMft/NZ3MlW+6NUrYFHShWuJIgNtUc=
+@size 3247
+share/doc/tiff/man/TIFFFieldDataType.3tiff.html
+@sha QvsRKLJFtvtDpRkydY7DRFts6UGBuGzedqQ6KgsBdVo=
+@size 2182
+share/doc/tiff/man/TIFFFieldName.3tiff.html
+@sha oMkbm3K1mQffUfXmRqdynsDaDsDdIC1gqXdtwks96WU=
+@size 2127
+share/doc/tiff/man/TIFFFieldPassCount.3tiff.html
+@sha TFHw/rSdUBrHNDwlCGBYcVen1hM+Gc22vIzvJUNbp68=
+@size 2612
+share/doc/tiff/man/TIFFFieldReadCount.3tiff.html
+@sha Lzbum9e+ojLFsA3wjZ2h2R6oiguGxfKn7vt1xHoYO+Y=
+@size 2820
+share/doc/tiff/man/TIFFFieldTag.3tiff.html
+@sha d5iQ+szBlj4w1fikw5BNOsf+T1J4MLOGwycXDTSBkPQ=
+@size 2249
+share/doc/tiff/man/TIFFFieldWriteCount.3tiff.html
+@sha IBgfy6nOQfawFTNNq8WyS0IXWcjbj/AZTovUec7bFCE=
+@size 3144
+share/doc/tiff/man/TIFFFlush.3tiff.html
+@sha sf+7vZW7gQcZlEl59xqN0Z0zit829AzDIDennAeChVc=
+@size 3345
+share/doc/tiff/man/TIFFGetField.3tiff.html
+@sha V4ZrgRa7BSrlREkAxJOzZ7GDetA7O07upoO8G98RR/8=
+@size 33458
+share/doc/tiff/man/TIFFOpen.3tiff.html
+@sha JpXUse4Vk+9tbRalcHUnpoZ847OAZ8TK1IJyrcJHLAE=
+@size 13700
+share/doc/tiff/man/TIFFPrintDirectory.3tiff.html
+@sha UF22n2ZKJuffHMVDRTUwE2AD73wBWpRS6PB85D7+78A=
+@size 4733
+share/doc/tiff/man/TIFFRGBAImage.3tiff.html
+@sha kmBR1EA3PNeJMPqPmBvVcpNxWg2H93+NBGD3KO9Dpf0=
+@size 12310
+share/doc/tiff/man/TIFFReadDirectory.3tiff.html
+@sha FNjsp7S32K21QVOSw8QJsjG7xdMoPDxhjMcU1CmHOIQ=
+@size 8102
+share/doc/tiff/man/TIFFReadEncodedStrip.3tiff.html
+@sha 4qFZMxAFY6CYsTHg4deSPgO9sVk0eA25PIar3idHpoU=
+@size 4299
+share/doc/tiff/man/TIFFReadEncodedTile.3tiff.html
+@sha uaERL/psdw8zNLP5/2G0Wl+zTiuWt8WD2Tl6zdmoLrg=
+@size 4133
+share/doc/tiff/man/TIFFReadRGBAImage.3tiff.html
+@sha GIMutT7s5QxnrvWGSnDzOWEsDYA2tt1WHzdk/g1g/XM=
+@size 10482
+share/doc/tiff/man/TIFFReadRGBAStrip.3tiff.html
+@sha EefYckO1p2vpF9SJTcS/YO4boBETdMKebJPwBPEZcC8=
+@size 7481
+share/doc/tiff/man/TIFFReadRGBATile.3tiff.html
+@sha 4SKw9Ja1d/dXQGQZXjv22rg213XPjGAG37zSlqUE6D8=
+@size 8477
+share/doc/tiff/man/TIFFReadRawStrip.3tiff.html
+@sha OAZoweQJ4nBrViL1qdDpdhviQ7cvy9dgJrdbclwj63w=
+@size 3340
+share/doc/tiff/man/TIFFReadRawTile.3tiff.html
+@sha LVgA8ZJJezHuEoQ1lwipeWKArGnv7irJj8khQ32b3qQ=
+@size 3425
+share/doc/tiff/man/TIFFReadScanline.3tiff.html
+@sha 8LKtQd5BbVk3TPjoYCzHVffIlNrw6Dl/Wiqp5h4DqZg=
+@size 5257
+share/doc/tiff/man/TIFFReadTile.3tiff.html
+@sha YX+P/Kz+mKmoCdHgS/+9eFDdowXtMfSbwiiH5h7kGyE=
+@size 4278
+share/doc/tiff/man/TIFFSetDirectory.3tiff.html
+@sha s7LbYomFaUclAw8qm8aHxKcaNIHIWq4fiRgUjco/SWY=
+@size 3828
+share/doc/tiff/man/TIFFSetField.3tiff.html
+@sha ohI9b0bl4qF3Emp6i9ln2SJR6lQeBJMqcG8rzE9HXLk=
+@size 31093
+share/doc/tiff/man/TIFFWarning.3tiff.html
+@sha pnrSt1B3ZyKK9ghQyNU7iiNwN5+6nobsr6ZSeReYt2I=
+@size 3353
+share/doc/tiff/man/TIFFWriteDirectory.3tiff.html
+@sha efy+MJVtZlEq9v9atNA/KIFa+NnwaiuRpEV8PEIUjpM=
+@size 6486
+share/doc/tiff/man/TIFFWriteEncodedStrip.3tiff.html
+@sha Njh52joosM3K2BvSmp62/19PpetmwuK1ofOpKJRbv5o=
+@size 5093
+share/doc/tiff/man/TIFFWriteEncodedTile.3tiff.html
+@sha VAvrWPFqy7ULOsfacmyG8HRriD/ftla3w84BtmDvuCk=
+@size 4894
+share/doc/tiff/man/TIFFWriteRawStrip.3tiff.html
+@sha wyanEZWTcIXYhP4AzPzuIZS4uQh/SVbM1aw7Vps6h+Y=
+@size 4511
+share/doc/tiff/man/TIFFWriteRawTile.3tiff.html
+@sha /zXDVerxW0RnLZYD3kf01edCAIQokPHphyVzjTygoQE=
+@size 3978
+share/doc/tiff/man/TIFFWriteScanline.3tiff.html
+@sha QPSxiKPwepvFatEPKa5WDBWS5f5gmiQ2vkbw9uK1TSw=
+@size 7387
+share/doc/tiff/man/TIFFWriteTile.3tiff.html
+@sha ZbWY3YXg/HLZq75EPA5K5iVdfroKi3ADV7u7qzEuauE=
+@size 3638
+share/doc/tiff/man/TIFFbuffer.3tiff.html
+@sha tT6y9yW/cRMalVFVgB/cp8G/402pqORVsR7w6yIXC6A=
+@size 3880
+share/doc/tiff/man/TIFFcodec.3tiff.html
+@sha iz3omPeRMmjG6XzWStqIs8glONZwz4i0x/dsbHkCJPU=
+@size 3700
+share/doc/tiff/man/TIFFcolor.3tiff.html
+@sha DMKlCute7CvVrpvxnA1lbVtz8ei80XrfybV19qe+zo8=
+@size 22763
+share/doc/tiff/man/TIFFmemory.3tiff.html
+@sha JuewaMTGdYJQYGdCqADiis1qH84ul3APcu0EHUkcK2U=
+@size 3569
+share/doc/tiff/man/TIFFquery.3tiff.html
+@sha dReqhxot+gukC9UQjWlYalkqfWXOccF1oj7vs348egQ=
+@size 5166
+share/doc/tiff/man/TIFFsize.3tiff.html
+@sha PMkj7tllofP8AhjdUjWKGA9PYvtEHSbsEczD/vBmGLM=
+@size 2748
+share/doc/tiff/man/TIFFstrip.3tiff.html
+@sha q5AWr4qwb6KfKA/tXSAAk6mwYDC4rmv9/Cb2PJvbknA=
+@size 4356
+share/doc/tiff/man/TIFFswab.3tiff.html
+@sha QK6IOFXENFdmhfYr8I0F/P7l55RegatzZDCO1192FE0=
+@size 3492
+share/doc/tiff/man/TIFFtile.3tiff.html
+@sha n9d0MCOGjNRV8e4GIhywP/g97QWAS7AZSzhuAWzQEas=
+@size 5014
+share/doc/tiff/man/bmp2tiff.1.html
+@sha gdQ4fY2NLyt15Ts8rQGewV4IuJhgoBlCST6C98mFVpY=
+@size 3570
+share/doc/tiff/man/fax2ps.1.html
+@sha z7QTgo2WAx9IDcY6O3dFxIoZWjmj8ur8jrR9PK0aX3U=
+@size 7741
+share/doc/tiff/man/fax2tiff.1.html
+@sha xC8cyGT5N/DV0uBdVGMu+4JRC61n1x9ve0+64zCtmww=
+@size 14713
+share/doc/tiff/man/gif2tiff.1.html
+@sha CGXLbpBoPdtZng4TiarahytWYiHM5YIubdspgZ1tHT0=
+@size 3893
+share/doc/tiff/man/index.html
+@sha 3Fbkf42lDpI1LxF/VY5Fp7vqcw2WyAP4euzsA9zlljw=
+@size 3790
+share/doc/tiff/man/libtiff.3tiff.html
+@sha AH5Q1ppZagIsocy/8pPba9c2IMfBkqP4wrFVy+CzB6k=
+@size 24576
+share/doc/tiff/man/pal2rgb.1.html
+@sha nc8a9WWEpd8eWgHkn9svM/Qbj4tiCyRA2BAfTpxw+Zk=
+@size 5244
+share/doc/tiff/man/ppm2tiff.1.html
+@sha y+y6H/rFfAIqtGEJ9fLn/IdnC+h6xOCHIq3yQ1wQtCA=
+@size 3979
+share/doc/tiff/man/ras2tiff.1.html
+@sha 4D1ob3TtPbJ067hZzfYKnpN/qc77/i52ioJYkyg3Z04=
+@size 4056
+share/doc/tiff/man/raw2tiff.1.html
+@sha rL0Zl2MlbGaPW7Ev8UTFiJF6LC9LnjD7iS2dNVacu2s=
+@size 12746
+share/doc/tiff/man/rgb2ycbcr.1.html
+@sha pm9z8pUc0qQaRbtsGPAQnD3hWJTHr7nNUy3l8wvYYwE=
+@size 4242
+share/doc/tiff/man/sgi2tiff.1.html
+@sha ZpLW1gQVe6wMVqBC2p9RTKA1/kuM0M9sjUJpRiSPOQU=
+@size 4036
+share/doc/tiff/man/thumbnail.1.html
+@sha z0ra3x8pRHlDYUY25GvSDYK5g9XLXo5CzQ2EcNoyhTA=
+@size 4068
+share/doc/tiff/man/tiff2bw.1.html
+@sha DOwopWZ+YcUhTdNTRlKMACUTmxsz338ES44I8J6dw+Q=
+@size 4057
+share/doc/tiff/man/tiff2pdf.1.html
+@sha xJ1nk6Dsk1WGZDTsKrOYIHwo7zC3Zddsg81rtnXF5+I=
+@size 17942
+share/doc/tiff/man/tiff2ps.1.html
+@sha hkP2oNjz6x5qvZeGGbIg/wGG0f5oYRu2ooEb7AacwWI=
+@size 13074
+share/doc/tiff/man/tiff2rgba.1.html
+@sha Cr0OB7Qf48n9Og6IrOv6zpAygRYDo2e235ECgGSo4cQ=
+@size 4588
+share/doc/tiff/man/tiffcmp.1.html
+@sha hAIe3+3AQ/+tPzQBPkNaPmmt8EQel3qGPz/g335Sj7Y=
+@size 4401
+share/doc/tiff/man/tiffcp.1.html
+@sha fJr5LXOg5XdlQ0I5yOf+PvYrtkfQ/2Deefr7WOhWFNk=
+@size 15340
+share/doc/tiff/man/tiffcrop.1.html
+@sha icOLIVYZ5x3Qs6JnrZML91uqmyRobKnu1IzQq9/ItBA=
+@size 20402
+share/doc/tiff/man/tiffdither.1.html
+@sha Jh6S9urEQaCAYQ8OTNjiDUA/Is0RGcq8UsiR3nmSk5w=
+@size 5556
+share/doc/tiff/man/tiffdump.1.html
+@sha Xsy8FRkK7M2yFYrHPuRR3Ka5+Woki+fVMWnPNLwFPSI=
+@size 4416
+share/doc/tiff/man/tiffgt.1.html
+@sha Ie+kHZUl4QQbCVr2eOeoy8bXiZXF1m59XnEtKiytgCg=
+@size 12753
+share/doc/tiff/man/tiffinfo.1.html
+@sha x2StO0MMK59fhB6iZMfWxTggUblfLr4VcxQDmhuQJUI=
+@size 4454
+share/doc/tiff/man/tiffmedian.1.html
+@sha AKYuh55yaoh74S1u0dUOgTXQmaj1H9JyO1ADUNlJsRg=
+@size 5154
+share/doc/tiff/man/tiffset.1.html
+@sha BIKS2wTdHzthkeuhEPBMsdKsFzydlTb1/Zo7+jEcuEU=
+@size 4920
+share/doc/tiff/man/tiffsplit.1.html
+@sha 1YynKe37hn7ojV2wayeU6oT+acaJcMMnoS4iS1Vay9g=
+@size 2927
+share/doc/tiff/man/tiffsv.1.html
+@sha k/NJRVGLwntmASG/kNdw/KAHNCIctv1pmwa2em05tD4=
+@size 6184
+share/doc/tiff/misc.html
+@sha DxWgdV9KSlDm9jLhjQaub/M5ssuahv0hvVj8/4M7w5g=
+@size 3830
+share/doc/tiff/support.html
+@sha w+Kj4Wr2gUVUR+qSUnUXEayN+IbY/BoSuGIUYOd3IxM=
+@size 17694
+share/doc/tiff/tools.html
+@sha +HWuuz9ne9I7rdv0j5YKIcXmTJs1gl9S0dRW55JBgas=
+@size 6753
+share/doc/tiff/v3.4beta007.html
+@sha 16yPPE7F33M0G8w8DfP+TIY4xFlvBDLWeXgsnyyQ07U=
+@size 3895
+share/doc/tiff/v3.4beta016.html
+@sha N4pHiUux6Jh5LswCzwlUNzzy5SzYpjwlerxkAxBQQaA=
+@size 4023
+share/doc/tiff/v3.4beta018.html
+@sha Qe1cBwfOcm2mdb2l4PTBFnEqJkBYH7jofFpW/BpVD9c=
+@size 2647
+share/doc/tiff/v3.4beta024.html
+@sha uIvyIw8W6GeisdlZSCos/TtBk4zVTJYGJynhergEpmM=
+@size 5338
+share/doc/tiff/v3.4beta028.html
+@sha dkmYimz9J3LuhLR+ri0aas8un/gtUbkhQJYYIl9cOmU=
+@size 5982
+share/doc/tiff/v3.4beta029.html
+@sha 8eOTEMdJFWHcgRZ6H4R0ydD6uMxPG7fhlc3dTu7Sgns=
+@size 2769
+share/doc/tiff/v3.4beta031.html
+@sha JCLoFAtjhnVPqzTXj6KWQ2963y2RaLdZ9VFEmatCs5g=
+@size 3325
+share/doc/tiff/v3.4beta032.html
+@sha Kcn+kVYKBYY5/k3R6Isxke34xkVOcl2jYjokwqz71I0=
+@size 2694
+share/doc/tiff/v3.4beta033.html
+@sha VdcI/bCQOHBqZC1/3qd4pVRIAmqhaYhP7MtEffAL1AM=
+@size 2288
+share/doc/tiff/v3.4beta034.html
+@sha 5rf26lw+nyCPYUzCHGEC4zAx6T0+NavXQc0CamYR2qs=
+@size 2161
+share/doc/tiff/v3.4beta035.html
+@sha ZUmjgMgOaymzawzI/eHT3jNyyYdvomfRQSm6f2W+WGI=
+@size 1792
+share/doc/tiff/v3.4beta036.html
+@sha eljJvX4YYJFJrZPoOBq5vAG53541MuSvGsEz+crgg1g=
+@size 4567
+share/doc/tiff/v3.5.1.html
+@sha 7mV5NkJHZvEVvo3d0Fr4rFbvuHJNOPjORV4VnA2BX7c=
+@size 2171
+share/doc/tiff/v3.5.2.html
+@sha rcqZoObAjavf/XYvEjNxdq4WLceo/A/kSXpW1AoDnCk=
+@size 3273
+share/doc/tiff/v3.5.3.html
+@sha jbiN06YRDwh5az4ERiEKP3cmNcJZPRJfAQ+e0H612Mk=
+@size 4259
+share/doc/tiff/v3.5.4.html
+@sha kw0rHT3UWurqvREx14X3QC34lKg6c5LNLXB5CsdZI2c=
+@size 2376
+share/doc/tiff/v3.5.5.html
+@sha vvEGHrpD5Tq19NlRii6SvxR4qU8Cqe+Uxw74lYDJpNg=
+@size 4999
+share/doc/tiff/v3.5.6-beta.html
+@sha BvHt0Z/IXhI/wvRE08oRp/pkz9IcTDtdg2fiLkqW048=
+@size 6106
+share/doc/tiff/v3.5.7.html
+@sha ccWW7KKHtjC0sdFgwGI3I8W2jSKnjhVEByQac8KaIPQ=
+@size 10028
+share/doc/tiff/v3.6.0.html
+@sha 8L0Zqs8gDoB1FrME92fP72oSwr3XYrbgIaijDi6+joo=
+@size 16785
+share/doc/tiff/v3.6.1.html
+@sha zEZfYWO1Ez4WWRjRT6AIa9WBr++Cn169DmvVPDaw+Zg=
+@size 6825
+share/doc/tiff/v3.7.0.html
+@sha tsgrudOYwk0uWfnQWI+RevKFqvXvf+Spo0/Eyqcg1jY=
+@size 4160
+share/doc/tiff/v3.7.0alpha.html
+@sha PpIhXlKHcVR9RHlqfz7hCMq3Z7iYay4E/Gkzqp2jzK0=
+@size 9100
+share/doc/tiff/v3.7.0beta.html
+@sha Js/0gdgoEFHgNoyfQ/v8WTNbb98jrfV1ZphFS410/kI=
+@size 4962
+share/doc/tiff/v3.7.0beta2.html
+@sha aTQCbg6AyC0bxXGBb2PGlY4nS74pm4A0iAyTRYxpKT8=
+@size 3621
+share/doc/tiff/v3.7.1.html
+@sha huUG/wq4JidyrGJMM5JcCXe32/fpkInajOTwlDe/gHo=
+@size 8197
+share/doc/tiff/v3.7.2.html
+@sha F5pURLcaSWEf/iQnXu7eF0BNTLXopJhGZpVNoC+sT00=
+@size 8026
+share/doc/tiff/v3.7.3.html
+@sha WwoXasucjgrf4mN3TgQxc34mtg0lILKzhJ+9RF4EnFY=
+@size 8255
+share/doc/tiff/v3.7.4.html
+@sha 9KUEalQZ5JjWtGEFNorQ5hZbHfci3DOST4+VIhMgnpc=
+@size 4265
+share/doc/tiff/v3.8.0.html
+@sha 54O0GjPTiEYzStTLzhp92jvkBHzoy9JK0B1SQ77ghX0=
+@size 6832
+share/doc/tiff/v3.8.1.html
+@sha DBROHGWZGsqW8uTa6CVDpjE38+KXwnQYyTnHs6EDi9k=
+@size 8059
+share/doc/tiff/v3.8.2.html
+@sha TVaz6YTv7TpjgSsrfjlc2YzmNKNmXD7Qv3S19y/RCtM=
+@size 4290
+share/doc/tiff/v3.9.0beta.html
+@sha iss4kLssB9iSyb+Lx5IHwju7nf1hwddX8136hTA00oY=
+@size 11721
+share/doc/tiff/v3.9.1.html
+@sha tGCE1jCTJNpn45SOlzn0r98DuuVBL5m8OUO28jZIDI4=
+@size 3195
+share/doc/tiff/v3.9.2.html
+@sha VZi/8nw0TW37y/0HcQrao9DO3lwDg46KD1iR6hhlXqc=
+@size 3398
+share/doc/tiff/v4.0.0.html
+@sha M6tmk9brV9cYClgD6NdLrXd1gmf8+qTnX5VTWwWENSw=
+@size 10758
+share/doc/tiff/v4.0.1.html
+@sha k1Ic2EnCPlZZr708nDmzC6C8OvMM/vfBV5345iZbawk=
+@size 3044
+share/doc/tiff/v4.0.2.html
+@sha t+2Mnc3e9J3sLlnq+y8KTeehaCIeigkjVrX0wdBwLiw=
+@size 3018

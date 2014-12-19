@@ -1,0 +1,5 @@
+@comment patch for 006_relayd.patch
+@option always-update
+./usr/
+./usr/sbin/
+./usr/sbin/relayd

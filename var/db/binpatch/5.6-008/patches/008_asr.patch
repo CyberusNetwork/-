@@ -1,0 +1,78 @@
+
+OpenBSD 5.6 errata 8, Nov 17, 2014:  Querying an invalid hostname with
+gethostbyname(3) could cause a NULL deref.
+
+Apply patch using:
+
+    signify -Vep /etc/signify/openbsd-56-base.pub -x 008_asr.patch.sig \
+        -m - | (cd /usr/src && patch -p0)
+
+Then build and install libc
+
+    cd /usr/src/lib/libc
+    make obj
+    make depend
+    make
+    make install
+
+Also recompile any statically-linked binaries:
+
+    cd /usr/src/bin
+    make obj
+    make depend
+    make
+    make install
+
+    cd /usr/src/sbin
+    make obj
+    make depend
+    make
+    make install
+
+Index: lib/libc/asr/gethostnamadr_async.c
+===================================================================
+RCS file: /cvs/src/lib/libc/asr/gethostnamadr_async.c,v
+retrieving revision 1.30
+diff -u -p -r1.30 gethostnamadr_async.c
+--- lib/libc/asr/gethostnamadr_async.c	23 Jul 2014 21:26:25 -0000	1.30
++++ lib/libc/asr/gethostnamadr_async.c	6 Nov 2014 13:00:40 -0000
+@@ -357,13 +357,12 @@ gethostnamadr_async_run(struct asr_query
+ 		}
+ 
+ 		/*
+-		 * No address found in the dns packet. The blocking version
+-		 * reports this as an error.
++		 * No valid hostname or address found in the dns packet.
++		 * Ignore it.
+ 		 */
+ 		if ((as->as_type == ASR_GETHOSTBYNAME &&
+ 		     h->h.h_addr_list[0] == NULL) ||
+-		    (as->as_type == ASR_GETHOSTBYADDR &&
+-		     h->h.h_name == NULL)) {
++		    h->h.h_name == NULL) {
+ 			free(h);
+ 			async_set_state(as, ASR_STATE_NEXT_DB);
+ 			break;
+Index: lib/libc/asr/getnetnamadr_async.c
+===================================================================
+RCS file: /cvs/src/lib/libc/asr/getnetnamadr_async.c,v
+retrieving revision 1.16
+diff -u -p -r1.16 getnetnamadr_async.c
+--- lib/libc/asr/getnetnamadr_async.c	23 Jul 2014 21:26:25 -0000	1.16
++++ lib/libc/asr/getnetnamadr_async.c	6 Nov 2014 13:00:40 -0000
+@@ -239,11 +239,11 @@ getnetnamadr_async_run(struct asr_query 
+ 			n->n.n_net = as->as.netnamadr.addr;
+ 
+ 		/*
+-		 * No address found in the dns packet. The blocking version
+-		 * reports this as an error.
++		 * No valid hostname or address found in the dns packet.
++		 * Ignore it.
+ 		 */
+-		if (as->as_type == ASR_GETNETBYNAME && n->n.n_net == 0) {
+-			 /* XXX wrong */
++		if ((as->as_type == ASR_GETNETBYNAME && n->n.n_net == 0) ||
++		    n->n.n_name == NULL) {
+ 			free(n);
+ 			async_set_state(as, ASR_STATE_NEXT_DB);
+ 			break;

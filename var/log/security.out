@@ -1,0 +1,112 @@
+
+Running security(8):
+
+Checking special files and directories.
+Output format is:
+	filename:
+		criteria (shouldbe, reallyis)
+etc/pf.conf: 
+	permissions (0600, 0644)
+usr/local: 
+	permissions (0755, 02755)
+usr/local/bin: 
+	permissions (0755, 02755)
+mtree special: exit code 2
+
+======
+/etc/rc.conf.local diffs (-OLD  +NEW)
+======
+diff: exit code 1
+--- /var/backups/etc_rc.conf.local.current	Wed Dec 17 01:34:52 2014
++++ /etc/rc.conf.local	Thu Dec 18 18:40:53 2014
+@@ -11,3 +11,5 @@
+ mysqld_flags=""
+ httpd_flags=""
+ pkg_scripts="mysqld"
++# Servers DNS
++unbound_flags="-c /var/unbound/etc/unbound.conf"
+
+
+======
+/var/nsd/etc/nsd.conf diffs (-OLD  +NEW)
+======
+diff: exit code 1
+--- /var/backups/var_nsd_etc_nsd.conf.current	Thu Dec 18 01:32:49 2014
++++ /var/nsd/etc/nsd.conf	Thu Dec 18 03:54:44 2014
+@@ -3,11 +3,15 @@
+ server:
+ 	hide-version: yes
+ 
+-## bind to a specific address/port
+-	ip-address: 10.8.100.2@53530
+-#	ip-address: 192.0.2.53@5678
+-#	ip-address: 2001:db8::53
++identity: "Cyberus Network authoritative DNS"
+ 
++logfile: "/var/nsd/logs/nsd.log"
++verbosity: 1
++
++## bind to a specific address/port
++	ip-address: 10.8.100.2
++	ip-address: 127.0.0.1
++	port: 53530
+ remote-control:
+ 	control-enable: yes
+ 
+@@ -23,9 +27,9 @@
+ 	zonefile: "/var/nsd/zones/cbnet.itinet.fr.zone"
+ 	request-xfr: 195.154.82.81 NOKEY
+ 	request-xfr: 195.154.83.51 NOKEY
+-#zone:
+-#	name: "2.100.8.10.in-addr.arpa"
+-#	zonefiles: "/var/nsd/zones/cbnet.itinet.fr.zone.inv"
++zone:
++	name: "168.192.in-addr.arpa"
++	zonefile: "/var/nsd/zones/cbnet.itinet.fr.zone.inv"
+ 	
+ 
+ 
+
+
+======
+/var/unbound/etc/unbound.conf diffs (-OLD  +NEW)
+======
+diff: exit code 1
+--- /var/backups/var_unbound_etc_unbound.conf.current	Thu Dec 18 01:32:50 2014
++++ /var/unbound/etc/unbound.conf	Thu Dec 18 18:38:50 2014
+@@ -1,5 +1,6 @@
+ # $OpenBSD: unbound.conf,v 1.4 2014/04/02 21:43:30 millert Exp $
+ 
++
+ server:
+ 	interface: 127.0.0.1
+ 	interface: 10.8.100.2
+@@ -33,9 +34,12 @@
+ 	#
+ 	#local-zone: "local." static
+ 	#local-data: "mycomputer.local. IN A 192.0.2.51"
+-	#local-zone: "2.0.192.in-addr.arpa." static
++	
++	#local-zone: "168.192.in-addr.arpa." static
+ 	#local-data-ptr: "192.0.2.51 mycomputer.local"
+ 
++	local-data: "cbnet.itinet.fr. IN A 10.8.100.2"
++
+ 	# UDP EDNS reassembly buffer advertised to peers. Default 4096.
+ 	# May need lowering on broken networks with fragmentation/MTU issues,
+ 	# particularly if validating DNSSEC.
+@@ -57,10 +61,7 @@
+ 	forward-addr: 208.67.220.220		# opendns.com (2)
+ 	forward-first: yes			# try direct if forwarder fails
+ 
+-## DnsSpoof (split-horizon) of local sites
+ 
+-#local-zone: "cbnet.itinet.fr" redirect
+-#local-data: "cbnet.itinet.fr A 10.8.100.2"
+-
+-#local-zone: "uniti.itinet.fr" redirect
+-#local-data: "uniti.itinet.fr A 10.8.100.3"
++# enable remote-control
++remote-control:
++        control-enable: yes
+

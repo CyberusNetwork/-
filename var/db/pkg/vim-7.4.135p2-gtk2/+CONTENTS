@@ -1,0 +1,4024 @@
+@comment $OpenBSD: PLIST-main,v 1.9 2013/10/04 08:44:03 sthen Exp $
+@comment $OpenBSD: PFRAG.gtk2-main,v 1.1 2006/11/21 11:25:03 espie Exp $
+@comment $OpenBSD: PFRAG.no-no_x11-main,v 1.5 2013/12/16 10:19:34 edd Exp $
+@name vim-7.4.135p2-gtk2
+@url http://ftp.fr.openbsd.org/pub/OpenBSD/5.6/packages/i386/vim-7.4.135p2-gtk2.tgz
+@signer openbsd-56-pkg
+@digital-signature signify:2014-08-02T11:10:18Z:RWSPEf7Vpp2j0OFFgTaaEsxv0R7dQRLWItSTXksZR/uvY1Dih8zNMjfCdb8m/MI+CKQqmgx5L+2wdxvofF7YARWuOYXg/J19qA0=
+@option manual-installation
+@comment pkgpath=editors/vim,-main,gtk2 cdrom=yes ftp=yes
+@arch i386
++DESC
+@sha Zc/hAw/3PasLMWc6P40iiHekf1lgrqN4AjXTKGCB1+w=
+@size 1333
+@pkgpath editors/vim,gtk2
+@pkgpath editors/vim,gtk
+@depend converters/libiconv:libiconv-*:libiconv-1.14p1
+@depend devel/desktop-file-utils:desktop-file-utils-*:desktop-file-utils-0.22
+@depend devel/gettext:gettext->=0.10.38:gettext-0.19.1p0
+@depend x11/gtk+2,-main:gtk+2-*:gtk+2-2.24.24
+@wantlib ICE.10.0
+@wantlib SM.9.0
+@wantlib X11.16.0
+@wantlib Xcomposite.4.0
+@wantlib Xcursor.5.0
+@wantlib Xdamage.4.0
+@wantlib Xdmcp.11.0
+@wantlib Xext.13.0
+@wantlib Xfixes.6.0
+@wantlib Xi.12.1
+@wantlib Xinerama.6.0
+@wantlib Xpm.9.0
+@wantlib Xrandr.7.0
+@wantlib Xrender.6.0
+@wantlib Xt.11.0
+@wantlib atk-1.0.21209.1
+@wantlib c.77.0
+@wantlib cairo.12.2
+@wantlib curses.14.0
+@wantlib fontconfig.9.1
+@wantlib freetype.22.0
+@wantlib gdk-x11-2.0.2400.0
+@wantlib gdk_pixbuf-2.0.3000.0
+@wantlib gio-2.0.4000.0
+@wantlib glib-2.0.4000.0
+@wantlib gobject-2.0.4000.0
+@wantlib gtk-x11-2.0.2400.0
+@wantlib iconv.6.0
+@wantlib intl.6.0
+@wantlib m.9.0
+@wantlib pango-1.0.3600.0
+@wantlib pangocairo-1.0.3600.0
+@wantlib pangoft2-1.0.3600.0
+@wantlib pthread.18.0
+@wantlib z.5.0
+@cwd /usr/local
+bin/ex
+@symlink vim
+bin/rview
+@symlink vim
+bin/rvim
+@symlink vim
+bin/view
+@symlink vim
+@bin bin/vim
+@sha U9ZNUYgGhU+GGlsnGxhJJZ2lTeIz3pmuGqHmwJBXuwg=
+@size 2394096
+bin/vimdiff
+@symlink vim
+bin/vimtutor
+@sha Cq9TpXxuL13lV2RDGDBvcvee0AriiYt3b7s+XXc9yNA=
+@size 2084
+@bin bin/xxd
+@sha qn5xAbwjFv9+XXRMQ1u/8OQyZmUL33NtirnH9YKqQ/s=
+@size 19664
+@man man/cat1/vim.0
+@sha m66/1Zd9urJCSgG6F0I4aCtLKk1UIsWlcX3+Riqb73A=
+@size 19559
+@man man/cat1/vimdiff.0
+@sha OH0gxHq7ASAERbrW7MXGobDD2nM/KOZ2p5XQRiC7Jjg=
+@size 1664
+@man man/cat1/vimtutor.0
+@sha QJvb7JHqr2zHyWebahhKWLm5M0BWcmNusO4ecqvuaaI=
+@size 1887
+@man man/cat1/xxd.0
+@sha oOlBpyIKlosDPNGetD5I1lasVivMC1004491kXNEtVc=
+@size 12579
+share/vim/
+share/vim/vim74/
+share/vim/vim74/autoload/
+share/vim/vim74/autoload/README.txt
+@sha N6tUxsXExTCoVWR88qwFw7TAO/FrIe7JE7XqG5XOWfU=
+@size 773
+share/vim/vim74/autoload/ada.vim
+@sha ObszbtiAhMGVZFYtG0f+zcU+nV//xIqzRIkiiONjI/o=
+@size 22509
+share/vim/vim74/autoload/adacomplete.vim
+@sha 0elM5yFdAInvGtHRzAJQ6R165bAyrN3KA+BMwb/7iuk=
+@size 3669
+share/vim/vim74/autoload/ccomplete.vim
+@sha GO1xnp6hezYSis3+0x7kVyYKGhPfJTudYhmcQ4jEEOk=
+@size 17028
+share/vim/vim74/autoload/clojurecomplete.vim
+@sha x+bkWvp9FRbORhL3jaI7os5G7j1llWGwQYblPwUOBEM=
+@size 7568
+share/vim/vim74/autoload/csscomplete.vim
+@sha cSqbf6twzAIglzR9RUh7vt8xqWmVgVtC3pVArgJSrYQ=
+@size 15922
+share/vim/vim74/autoload/decada.vim
+@sha YJgyBZnhS6Skh8aeSHvO7R+UdvUKpGZoiih88HyOC5k=
+@size 2998
+share/vim/vim74/autoload/getscript.vim
+@sha RCiwi1/OyuqisXvN+RUvLmRVWPx5oLHPKeYug6LrgYw=
+@size 24858
+share/vim/vim74/autoload/gnat.vim
+@sha 21j1pj6AnMdPANbURSGYVYTTxvWQoKswYkZ9B/vTwTk=
+@size 5331
+share/vim/vim74/autoload/gzip.vim
+@sha vYuJeE4U2L7Eo1OtUIOXV87Xb5Gfkzk64F2tCgS306E=
+@size 6093
+share/vim/vim74/autoload/htmlcomplete.vim
+@sha qn+h3WKcN8Gw2zy28ZyMzq1uUT2vExPzDHZ972A1EZs=
+@size 24280
+share/vim/vim74/autoload/javascriptcomplete.vim
+@sha tLAopTgCgzVWl/mzHLi8A/+bKLTf9/iItAUrRnaygaU=
+@size 27028
+share/vim/vim74/autoload/netrw.vim
+@sha ZaB+O/+AJRM4tE1T8n0X6n2fgBjzgXg5bvINIZ5rsr0=
+@size 407778
+share/vim/vim74/autoload/netrwFileHandlers.vim
+@sha nsIwBbDBEBclN6vxLlseyt+y5gNj0IHxqCPkd82qkOc=
+@size 10143
+share/vim/vim74/autoload/netrwSettings.vim
+@sha ZGp9Gt5EELWeEEMa7ygnCF7aZZsvtrUPuiIUvhPwH4I=
+@size 10024
+share/vim/vim74/autoload/paste.vim
+@sha KdPWji7F9iOu3j4y+sDPSWzDo3Y3GTzO268jO/KK2bE=
+@size 1232
+share/vim/vim74/autoload/phpcomplete.vim
+@sha 7Z0NkChlI/MWSBoyITmGaZ4TCyQ7TfEpdhyCPxZH7iI=
+@size 293810
+share/vim/vim74/autoload/python3complete.vim
+@sha pFaOFMySnW/wnwnPIlHdSfE7JjrcPmj75+Y+eMzAOV0=
+@size 21507
+share/vim/vim74/autoload/pythoncomplete.vim
+@sha rc1DipZ59dESEVpObxHaH/WgJtL5Ztt+8+90uravYms=
+@size 22019
+share/vim/vim74/autoload/rubycomplete.vim
+@sha r6KauFYrFHz6RDbCUxlRI/UvyxU9t17NJowfK4LUCaM=
+@size 23554
+share/vim/vim74/autoload/spellfile.vim
+@sha ZrJYhG2NMTCnJtZD7acZCmanQbjFGS8g9iJp7eEXLho=
+@size 6217
+share/vim/vim74/autoload/sqlcomplete.vim
+@sha vIlrc9acYAdT5zC62nggR1oVRnJIMN8RD6x0ws3TW7o=
+@size 38292
+share/vim/vim74/autoload/syntaxcomplete.vim
+@sha p/K73N5wuKZRvfuzouqOLNotuPURMtuCUaY/xxTIR9k=
+@size 31270
+share/vim/vim74/autoload/tar.vim
+@sha 34jzZqZTUHwmSb1QEo3twHjdaPKsX3aRlfuIWtPZuPo=
+@size 22090
+share/vim/vim74/autoload/tohtml.vim
+@sha 0IQlRLtlmrEhIblyMh3qrvBirpIG8tINhsRPIFNpE/Q=
+@size 32079
+share/vim/vim74/autoload/vimball.vim
+@sha 1KmCnaJc+uwx3JVHD/UGPFXarcm87o6HbVoSTWMQU5E=
+@size 24333
+share/vim/vim74/autoload/xml/
+share/vim/vim74/autoload/xml/html32.vim
+@sha DRZnN5XeU0LOIJheEb2jN+I0yXIJov4byR8gWc0qEPU=
+@size 18330
+share/vim/vim74/autoload/xml/html401f.vim
+@sha y4jA/MKRTirqQWG3sGc6CFk6NTqQQeLqBKIzMj075IA=
+@size 54122
+share/vim/vim74/autoload/xml/html401s.vim
+@sha wV3Bz8WozQcLgv3hW+qMAJ+agAPqOEeViYHPoduYC7I=
+@size 41538
+share/vim/vim74/autoload/xml/html401t.vim
+@sha tfFeK/WY6omum5usVnEIQw9ldYYviZG4Pgf+48b6pmM=
+@size 53691
+share/vim/vim74/autoload/xml/html40f.vim
+@sha jT9YXyhiFVX9+fTfkxcJlNmFYKCxW7QqCs+2SsBYwlU=
+@size 54029
+share/vim/vim74/autoload/xml/html40s.vim
+@sha ErOSwp7mcdWZoudL0eDNyEvp6wridMzrzcvr57K159Q=
+@size 41445
+share/vim/vim74/autoload/xml/html40t.vim
+@sha RW9aUoDuM3SRB0p0bbpkDGmlU7K0dMqZEJyR2MvQ9o0=
+@size 53597
+share/vim/vim74/autoload/xml/xhtml10f.vim
+@sha 7aM6KOvUR0MgNL8gK5viiJCQAuD0QK6DzHXoKw0qBMk=
+@size 56052
+share/vim/vim74/autoload/xml/xhtml10s.vim
+@sha Zg37/j9KT92PTMPwaBDtwQdG7emDKxGeg45Iuu9gXPw=
+@size 43963
+share/vim/vim74/autoload/xml/xhtml10t.vim
+@sha kbvkDlCfAD0gNe75KNYg7sM76h3+DP+qbMGcmuWskCU=
+@size 56328
+share/vim/vim74/autoload/xml/xhtml11.vim
+@sha Lo74ab12AhTKDZItXjc2FzBs2SnsV45zG+hYfMWgADU=
+@size 48149
+share/vim/vim74/autoload/xml/xsd.vim
+@sha 7pqe4zQ0LFzKU9rpwvrtTC0d1V3YIZGSB+XpR4bGVm0=
+@size 5111
+share/vim/vim74/autoload/xml/xsl.vim
+@sha wIDPv7Ll5E0EZUFkHI6k/+wRjMYZN3KSdPGPAj4CDY4=
+@size 4679
+share/vim/vim74/autoload/xmlcomplete.vim
+@sha gznRLSvgxsYL+pPPRXOM2H7XzcVBj3o0GpkT4KhI3Yo=
+@size 14939
+share/vim/vim74/autoload/zip.vim
+@sha khsWehUUKJF/4iyBYDkKqcZXPvF6UFiAkhu/vA1ICx8=
+@size 12780
+share/vim/vim74/bugreport.vim
+@sha YvkbLODW+fEj032YumZIEA4KTAwAoog+HbQGeFUt6Ik=
+@size 1955
+share/vim/vim74/colors/
+share/vim/vim74/colors/README.txt
+@sha alV2fSlvgaMVF9kDdoaCn3kE/+D/VlilFGpyitR0jZc=
+@size 2640
+share/vim/vim74/colors/blue.vim
+@sha AblCfaKZXdhqo2QFzZiGekXgHHnK4nrSxDyCaqZmua4=
+@size 2476
+share/vim/vim74/colors/darkblue.vim
+@sha JpxseNEwZnfuePMNPzBMT6M8gjMBhMWqnS9tfDGOfAY=
+@size 2990
+share/vim/vim74/colors/default.vim
+@sha EGer5U6v3JHiGMaVZ8t/ZhnK6Trs+EEyUFv3s1YkqJs=
+@size 548
+share/vim/vim74/colors/delek.vim
+@sha 49usweWGbCiRTDe3EG5tBlu3YDXiOexViIVJQX6qrO0=
+@size 2399
+share/vim/vim74/colors/desert.vim
+@sha Kryg0fufN0Kml//Bzf9r21iwXD1RmTbdOmOWaNZnFn4=
+@size 2812
+share/vim/vim74/colors/elflord.vim
+@sha wmMfZwCJkytEc/AR8c5Fozm6mNrpAnU/nD+S4+AW3z0=
+@size 1666
+share/vim/vim74/colors/evening.vim
+@sha f9d/gEwAQxzgx/63hX9gwoGV1V8XsCgOLMUUcKb+Smc=
+@size 2476
+share/vim/vim74/colors/koehler.vim
+@sha CKquTTWTFw/mng9z90MGY7/j4JmNVuZWMErQyiqn97w=
+@size 3476
+share/vim/vim74/colors/morning.vim
+@sha MqppTY2WEOp3HqXDcvuKngqyNrFQdpIiZzlW084GM2o=
+@size 2460
+share/vim/vim74/colors/murphy.vim
+@sha HOgkm+Vg+mdTRi3Uqvcd9DHBFHuJKJExNuAZjcZEFBY=
+@size 2006
+share/vim/vim74/colors/pablo.vim
+@sha YvL+yQST+2nzk3X5j6o32MWTdkp+gJgVys5RbocTzj0=
+@size 1037
+share/vim/vim74/colors/peachpuff.vim
+@sha KmMcUQbNm0H188VumOepsrWzB+rQgnel863gEHE5GuI=
+@size 2673
+share/vim/vim74/colors/ron.vim
+@sha YqRHoig/mxrqdl3jrC7/FAy6MoSxDBAevESqKCzurnE=
+@size 1393
+share/vim/vim74/colors/shine.vim
+@sha NphwclgjU663+6E+ivrvOH/cXcL8TVS+hJ99vWAvcTo=
+@size 2720
+share/vim/vim74/colors/slate.vim
+@sha 8eq2qLmMLtY4HoleydcAqAqriq70h/u0ckXEPEgmMqU=
+@size 2445
+share/vim/vim74/colors/torte.vim
+@sha vUvTqrRxvQsZZSWcydWAjgtaCqM/PMpGdrt7AwQkFFU=
+@size 1629
+share/vim/vim74/colors/zellner.vim
+@sha B6sjG2Mjwg89TWyVCMN/az6+vifD0iUgror7uONO374=
+@size 1840
+share/vim/vim74/compiler/
+share/vim/vim74/compiler/README.txt
+@sha UdWYB4QwTlxUfL3iB6Jq4x3elVuZp4VY+q6iXD2Ve48=
+@size 437
+share/vim/vim74/compiler/ant.vim
+@sha KWMdZhWzK1Oo5Ge6Jxm5Q2wTwjhrHaYmn+8qhUm2tEY=
+@size 941
+share/vim/vim74/compiler/bcc.vim
+@sha hGPfu/V3jNr0TGc1MiqHhauSWu6fs051UJelctCV0o0=
+@size 449
+share/vim/vim74/compiler/bdf.vim
+@sha LNT/I+gT+52Tx+ncPgoLSRRPHJOUurYgsM1jJEajYLg=
+@size 461
+share/vim/vim74/compiler/checkstyle.vim
+@sha Hh2iL38ddnucQKaZG13aY4H5f0QlGSVBZqsLd2yR4MU=
+@size 588
+share/vim/vim74/compiler/cs.vim
+@sha Rjl/vXIsVo+ElHnyAwSMFTmuzejrW7lD3pHoQyQpyU8=
+@size 626
+share/vim/vim74/compiler/cucumber.vim
+@sha ZWG7V6TQ+5/Kkx/N7NR8zqlp6UIU8T1u7RJ80h7stn8=
+@size 559
+share/vim/vim74/compiler/decada.vim
+@sha 7mVEK1i/LgPjmeKD7qZ37ooF9uB3akFBp1RE2NHLbZI=
+@size 1946
+share/vim/vim74/compiler/dot.vim
+@sha JXHuNDjtQDFdl7EPu6l/Z0xkQvx12BbCXIUe0i4lf0g=
+@size 372
+share/vim/vim74/compiler/erlang.vim
+@sha GVqzILQBgeAr1D9AB9w7HdcGjhMhYx0K6qBM//5crR0=
+@size 273
+share/vim/vim74/compiler/eruby.vim
+@sha WD9EWJ5P2WLNx5PcthuUqcAIvYd0YkjQ26utvM4+1ls=
+@size 859
+share/vim/vim74/compiler/fortran_F.vim
+@sha VE/w5iWGi7sepJBfIngqtXlokJNwVQbrWJRsHpYgQY0=
+@size 702
+share/vim/vim74/compiler/fortran_cv.vim
+@sha QyeJpmaxXmAfUEg34BcSLRZl5V86ma4I9IkqELwABJk=
+@size 747
+share/vim/vim74/compiler/fortran_elf90.vim
+@sha rOnjexngIaY1lhrobQB8C+tME/z0hgdnALXVUpX4v8k=
+@size 802
+share/vim/vim74/compiler/fortran_g77.vim
+@sha NmkQITWCGdeLcIbBBKJmTTTwhfFGOGyOGKxd8B8QAUQ=
+@size 1149
+share/vim/vim74/compiler/fortran_lf95.vim
+@sha xhxkyr3yuCGyYd+wVFCVTlqWVSABZdjBy8HUlkSRjCY=
+@size 683
+share/vim/vim74/compiler/fpc.vim
+@sha r5o3LxjGY8hkck7z6cImbB0L2o5SYbaT6BkV+gjOo5c=
+@size 453
+share/vim/vim74/compiler/g95.vim
+@sha 5lFz2JAVs1db2lwLA4f99tQhCPsR0eLdnFa95bN+8DY=
+@size 677
+share/vim/vim74/compiler/gcc.vim
+@sha F47yEp86wS2xEmTan5uhcejdEWLcseKup1ZE9WBQJ/4=
+@size 1125
+share/vim/vim74/compiler/gfortran.vim
+@sha G1B7NF45J1siOybMi4bvofP/QF2xJ0eRouWWyQkGqag=
+@size 671
+share/vim/vim74/compiler/gnat.vim
+@sha EARGQlWaaRI9MVJ9mx3kZgmhhURhSWTiM7S8b//enfY=
+@size 2418
+share/vim/vim74/compiler/haml.vim
+@sha QLDe+kUrXWoZyZWOSGS5F1I/OnbemQIF5PZIS/CFYh0=
+@size 555
+share/vim/vim74/compiler/hp_acc.vim
+@sha KQC5hM9Vb3E84CZQwhRcYPm4EnvVmwNiivOo6dqPJtQ=
+@size 1052
+share/vim/vim74/compiler/icc.vim
+@sha UaYtcmN6rK3JfHOIkdSi0BhNGT+D1VokG1rLPsVWCKw=
+@size 585
+share/vim/vim74/compiler/ifort.vim
+@sha HQXHpRr3K740RnEZXCe2OgrYH3XpLRasqfj7YBIUFgc=
+@size 690
+share/vim/vim74/compiler/intel.vim
+@sha NJWRCSKg9E9XJdWyZsd1dZVd/xYPDgRJkFlAFp3Anoo=
+@size 595
+share/vim/vim74/compiler/irix5_c.vim
+@sha YXFbBCqJcH4Zhtwy5sScqR5RdhNBM9Du7zcfZ/VbL7Y=
+@size 662
+share/vim/vim74/compiler/irix5_cpp.vim
+@sha CDIy6kWJGVpLmHEICJVA9Pf10uldE9gj9hFribBjwZw=
+@size 671
+share/vim/vim74/compiler/javac.vim
+@sha m0R9j1V909yHUNYsvRdmfPdAv4xiR9OYT4Z/YX6MpT4=
+@size 399
+share/vim/vim74/compiler/jikes.vim
+@sha tkoPgwY8+oXav0qlE3urbbUBiDMVhg+ywNOPKXnDeAc=
+@size 520
+share/vim/vim74/compiler/mcs.vim
+@sha FAyFHYdh1PKmOpfzy6igkpiYPWpMUPRSHPSAx6BY41Q=
+@size 864
+share/vim/vim74/compiler/mips_c.vim
+@sha J6CMVVkFRvUnNukLtD7uVz0sQCTFtB0sgzhBWZx7XUI=
+@size 691
+share/vim/vim74/compiler/mipspro_c89.vim
+@sha PRISjkhq+iGWmzaMo8biG2RWEY7imvurYfamqbAw2CE=
+@size 721
+share/vim/vim74/compiler/mipspro_cpp.vim
+@sha GEywSQ7+dBxyEFjlSnRtoYtOMnCes/8zJKkyx+25Zks=
+@size 701
+share/vim/vim74/compiler/modelsim_vcom.vim
+@sha wSFVtssjczBIImZEToyracglBqsF0SF52OYs8K9BFkg=
+@size 799
+share/vim/vim74/compiler/msbuild.vim
+@sha QwazEuLngqBSdsUBurYTQ80bQHpNGRBYjSDPJlYqywM=
+@size 529
+share/vim/vim74/compiler/msvc.vim
+@sha 7yszwN0JIojG7sTDzEiD7EyQT3PoYcrxM4SanKK9uQY=
+@size 294
+share/vim/vim74/compiler/neato.vim
+@sha 1Grz5AwwzQv85tAe79EPa8Nwdjh6VqRr/gztxKVmf4g=
+@size 378
+share/vim/vim74/compiler/ocaml.vim
+@sha 9Zo6MTpG56Ql7bF4yuWDq7H7XV9Gc9kwYyZzbxmoJGE=
+@size 1328
+share/vim/vim74/compiler/onsgmls.vim
+@sha +RATXpTJgloMo7q96tCPs1gQYKNy60v+0IwgXH4kKOY=
+@size 503
+share/vim/vim74/compiler/pbx.vim
+@sha XFuIVZZpBW1iyBuYM9bF0cnVZElOQuKu41mCUrTtT1s=
+@size 469
+share/vim/vim74/compiler/perl.vim
+@sha dMI5nAr/VpyqJQd0t0fi6abPy0sFoxAMLes7bAim9S0=
+@size 1209
+share/vim/vim74/compiler/php.vim
+@sha djctdrmQSMMsUZsWRzFrbmnsptpBTzy57a5Nx3+LWLg=
+@size 707
+share/vim/vim74/compiler/pyunit.vim
+@sha HL1PsC33OpDjzjvV3tLeDG5iJIw1U94McnCxjHxzuKc=
+@size 407
+share/vim/vim74/compiler/rake.vim
+@sha yfkgIKmH/VUCmN/qiiYTFfZUmNAnN+RnxrB0xUimSZY=
+@size 762
+share/vim/vim74/compiler/rspec.vim
+@sha Vvd4SQjlpQqiLY44igqybo8SsrPW9d63yNG6PQTviTE=
+@size 734
+share/vim/vim74/compiler/rst.vim
+@sha q2ybSacBpOuUhrurXK1mafEwxjvWCyJFTSkKrkSqN0E=
+@size 622
+share/vim/vim74/compiler/ruby.vim
+@sha ubpZa6weP2SA3FWKsc7sg6Wv8L4fnXu4zOflo0ZMSzs=
+@size 1055
+share/vim/vim74/compiler/rubyunit.vim
+@sha L1eurpBiGX5XleIZPgSkJiHtKG8zPcrqWC3M2qrLYGg=
+@size 739
+share/vim/vim74/compiler/sass.vim
+@sha Upx2MlRHPYF6USL+xL0QNgcnYXDXE2K9JduX5gEWmm8=
+@size 594
+share/vim/vim74/compiler/se.vim
+@sha JNkbN5kY7WAbg0T+3pNNvz/42P8+J0gV7JG3OiN/ONg=
+@size 742
+share/vim/vim74/compiler/splint.vim
+@sha 2NCecKyZhr8zrAm/ALz3a1rN+Nb6ByVOG/MmgF7S69w=
+@size 2269
+share/vim/vim74/compiler/tcl.vim
+@sha 6neBKvuUXWleIR/g+FyoLzaXNK0CCue1MO2Y2TaG3k0=
+@size 414
+share/vim/vim74/compiler/tex.vim
+@sha BpacTuOWRXl27vaTFCP5D1E3SQRR1rinNK7wytJYTT4=
+@size 1756
+share/vim/vim74/compiler/tidy.vim
+@sha WjKZJhFUoDldrkhX+CK21gB7Mcu0ygKSpP5aA/zZ79E=
+@size 595
+share/vim/vim74/compiler/xbuild.vim
+@sha mcEbx6PzWwglZA6qwrxbd3E5qd1zhrMYFAY7bwMGudU=
+@size 509
+share/vim/vim74/compiler/xmllint.vim
+@sha K0TImMs7Bylet+JNHStNd/vxmDiII6kFBn97cCSy0Mg=
+@size 561
+share/vim/vim74/compiler/xmlwf.vim
+@sha 3O2pf0aHOCTzHWyE7jhpT/b30Om+RCEM/oAz6so0uvQ=
+@size 454
+share/vim/vim74/delmenu.vim
+@sha 1bHUC6MYg4i5xAMsybBnmVefPI8cdkKECHXVU9lI8zg=
+@size 645
+share/vim/vim74/doc/
+share/vim/vim74/doc/arabic.txt
+@sha 5VTlUul/q7I02x3ZqS5qZGLl2g3K9WTpmMAR+b9Oh4U=
+@size 11936
+share/vim/vim74/doc/autocmd.txt
+@sha 0pR6E6CR9hFm06RQwszS4xeQZDYoQYSjdAVlzX+DneM=
+@size 57471
+share/vim/vim74/doc/change.txt
+@sha dlPMHgocVUgo8g9Vh2sLZbBYN32u+oX756b8xtSkV+c=
+@size 71103
+share/vim/vim74/doc/cmdline.txt
+@sha WHE8eXjrEypEi/AWKaU3Hcscf8dfxjvnIXn6wcDgL2g=
+@size 45376
+share/vim/vim74/doc/debug.txt
+@sha SSs+C5r2EkVDVz8B3KfdDn+R2fflCsX2lkGXNNr6WL8=
+@size 7182
+share/vim/vim74/doc/debugger.txt
+@sha hTh7INqvmoFqA04R9QjJsw7ROTJToP2ozw0HxubslYs=
+@size 5643
+share/vim/vim74/doc/develop.txt
+@sha 450YIKS4OJvHWN2HxaQJ/goohtm48GjT/MZHgxUnpko=
+@size 20240
+share/vim/vim74/doc/diff.txt
+@sha kH6beQjl/ZNyVOilau0mRauYMnzkOtQZkslNw8T1fH8=
+@size 15746
+share/vim/vim74/doc/digraph.txt
+@sha sWQxn6xu1xm8TleDZLPSs3BwjRHyQ+vWu/iYXfUPZQw=
+@size 61902
+share/vim/vim74/doc/editing.txt
+@sha CBqwls2j7XrCP8eCa85EXKVS9yMKMeeFNZBJ1SfbiSI=
+@size 69584
+share/vim/vim74/doc/eval.txt
+@sha usfyh8QnRwv2zda3DhNsdHG24XE3WJT2Y2AF1DQYYf4=
+@size 332989
+share/vim/vim74/doc/farsi.txt
+@sha j0ro/j/d2fgrku6XfDCx/wM545gqMcfHbVeIa59HL+E=
+@size 9704
+share/vim/vim74/doc/filetype.txt
+@sha 5a0IYveCKxlX8ey+ksi3vLFQ6o2wy4PYnagRJ3pdVU8=
+@size 23810
+share/vim/vim74/doc/fold.txt
+@sha x1bhWZM6taR9yGmy6rhCqwJAcpuhutb5hoyjQR9OrY4=
+@size 23186
+share/vim/vim74/doc/ft_ada.txt
+@sha L+EVOsoQHko3fT8FGLqUvWjE5Ukj1JLwR4T2uyMabkY=
+@size 18247
+share/vim/vim74/doc/ft_sql.txt
+@sha qAYb5ePeAqhnM4Ry8R/GrkW9sIMqJVmD3YNVrL3UbJo=
+@size 30694
+share/vim/vim74/doc/gui.txt
+@sha pQ242ZzxRn8fo1adx/yKBGPnuYba0ipqaijJH/RDxGg=
+@size 42912
+share/vim/vim74/doc/gui_w16.txt
+@sha AqnpWGfaLQ48D/6tBSBI+ETOjhPraoDulEUVtU8xMg4=
+@size 7253
+share/vim/vim74/doc/gui_w32.txt
+@sha SXFrAbgvGvJ0z/HMx5BNyuyzJtbqe95+jR1cfpiYyBA=
+@size 21315
+share/vim/vim74/doc/gui_x11.txt
+@sha YF67dEBqXgCVU+ktrWmDvD30PvyjI3L9dAsSiDedEPE=
+@size 25868
+share/vim/vim74/doc/hangulin.txt
+@sha mDCXAa6bs6J6YdN0m3k1ZkTRDoB/fd8+4QXjfqkQJzE=
+@size 3215
+share/vim/vim74/doc/hebrew.txt
+@sha 3RdxCL3DPv4IVZQyPNzKtkGP7kHWxHO5hsX33KjdotI=
+@size 5714
+share/vim/vim74/doc/help.txt
+@sha qQJcCCFDzrspWGPi4B4TzxAU+7aMXwpvtCU0TDHLyOM=
+@size 8249
+share/vim/vim74/doc/helphelp.txt
+@sha 668er1OUIyN3sSOIdJ8LLmr4Mu+K+BHqtxWSDx1XiFw=
+@size 13687
+share/vim/vim74/doc/howto.txt
+@sha N8vwaGwRRc5VprNULI4t9+4oXNLWrvw8Fww5uWVWoGI=
+@size 2911
+share/vim/vim74/doc/if_cscop.txt
+@sha kfIUz2zUDkqcu+tV/66MLBYgz3STZLxVDNlVag9LZgU=
+@size 19904
+share/vim/vim74/doc/if_lua.txt
+@sha nlobRDivLs5bQADenATiJn1AhR2YBywp87aNYzcHSBU=
+@size 13533
+share/vim/vim74/doc/if_mzsch.txt
+@sha jvYNIi0CIoy2b9LFf3ZZb+/sne7yDG0FQhEtQRAQNls=
+@size 10573
+share/vim/vim74/doc/if_ole.txt
+@sha z2tNaabRuK/QdEhMAIawFuspaD8bvB7HmsRL7fDShg4=
+@size 7404
+share/vim/vim74/doc/if_perl.txt
+@sha st/5uUoQ+Ifk4lOZR/mUHvBBp1m+3SKZwJrSJ26j8Vw=
+@size 10787
+share/vim/vim74/doc/if_pyth.txt
+@sha GNq28gSRye5pPLx7RnpDi/9cvvmu1iv0YCLkGlO6k04=
+@size 31646
+share/vim/vim74/doc/if_ruby.txt
+@sha 66AjKiOL7BmsJtLGAb0vOO5TPnCbs1ZarVH2FzZRExM=
+@size 7396
+share/vim/vim74/doc/if_sniff.txt
+@sha fJ5d8EfJhKcjY+bk7UL4E/lQYJC7Je8z/43OIXtrvow=
+@size 3679
+share/vim/vim74/doc/if_tcl.txt
+@sha 2veMw9cbJY8atkL8w+4c6MnDoAEm0FF21bhYSsCeZRc=
+@size 22629
+share/vim/vim74/doc/indent.txt
+@sha c6dckRLTosZIXp6qn5JwwAEy060H9AHrQiBTuVMav/I=
+@size 38615
+share/vim/vim74/doc/index.txt
+@sha wwKPhxiogxdTn9wnaMnUP94usrngyTxnAA+rv5PO+h8=
+@size 74182
+share/vim/vim74/doc/insert.txt
+@sha 60/kiTjeJkdrP41WQvQ4n03T9OfgD+KycX6g4ECa+Fg=
+@size 81820
+share/vim/vim74/doc/intro.txt
+@sha HACzOjAjZWTQg0fJfB35sZgxBtxHvBpyyq0gIQObPHQ=
+@size 38143
+share/vim/vim74/doc/map.txt
+@sha sHkIR3vWuecSUpmD3SocAV928stOqn8cg7jgrUnZqek=
+@size 61589
+share/vim/vim74/doc/mbyte.txt
+@sha nJued/g/+GnsnFTvqZfv5qu9g9zynYChOrTkTqZwQZY=
+@size 58261
+share/vim/vim74/doc/message.txt
+@sha 0Q6AvmKZByFYPGu1Mz9BbSzLVtL0oP0/caNi/5m1Etk=
+@size 30524
+share/vim/vim74/doc/mlang.txt
+@sha BM3fK1yT5cSLfHwDoyYe/120v9ih+lkLYOhGiKdMzU0=
+@size 7733
+share/vim/vim74/doc/motion.txt
+@sha MGttVaozeZQwXrmr8n1LtWKoOF4814U2IAgk6zWwXak=
+@size 51023
+share/vim/vim74/doc/netbeans.txt
+@sha Dt12xvFaF7/Mq9+2prxjo03fw7PC3mdrJD21D7mDeno=
+@size 36594
+share/vim/vim74/doc/options.txt
+@sha RjqwMi21pG92i1mOggHjxhjpWovIYU0ly964gizVa8Q=
+@size 353048
+share/vim/vim74/doc/os_390.txt
+@sha LqJcA/JP0OFYCo5lavQSfJHxdqzDvuYx/b0OgRm4/FM=
+@size 4787
+share/vim/vim74/doc/os_amiga.txt
+@sha sYBuxsMYn7Zpep9kKpqig9NoevtzNhxVAWDez9tkDiw=
+@size 5461
+share/vim/vim74/doc/os_beos.txt
+@sha 4hXMsR/zLLgAYz6x+OTLNLutAyKZGbvQEwGFf5zNJjE=
+@size 10937
+share/vim/vim74/doc/os_dos.txt
+@sha dABppP6GZwhEj5yQmDWpL+b6kdQ0gsl1tQk0/G4b2Y4=
+@size 11962
+share/vim/vim74/doc/os_mac.txt
+@sha nlDQfwPjR5/8kF5/ycLhXmrS8czfoGnDEE0MPTxN/3c=
+@size 4040
+share/vim/vim74/doc/os_mint.txt
+@sha MfWUWw1vKsV89/aPgsN7KdYb9NG1kdW0io0oQTPpgD8=
+@size 1402
+share/vim/vim74/doc/os_msdos.txt
+@sha c3BTKKw8KQay1HGv/JqiJS1dlsQ6TUWo20RI6HkB60k=
+@size 13256
+share/vim/vim74/doc/os_os2.txt
+@sha 7lOkkdW9Xdy1jMrCeQ+S2YnRYdlV4uoTaqhY7yJ5pMQ=
+@size 8656
+share/vim/vim74/doc/os_qnx.txt
+@sha bmtFQescxBfeiqFny5BpqLSJJg9mPVGq0Ls+++RkZ9A=
+@size 4071
+share/vim/vim74/doc/os_risc.txt
+@sha 2CM5CiA8FBGdge11R/a1KcX5UN/KzeakE37NPPl6Hb8=
+@size 323
+share/vim/vim74/doc/os_unix.txt
+@sha bXPzV3D7Yq9KGVOEK/cHxCHw6LzbNGOSckSjzyhgcig=
+@size 2595
+share/vim/vim74/doc/os_vms.txt
+@sha OAv2mgUv506Dc6pqKgjWprSJtcb0MIkvr64dbNxTjXc=
+@size 31384
+share/vim/vim74/doc/os_win32.txt
+@sha wpkk8k2LnJpAhs/GxXqgeyITdSiasVcvoBy2d6XWuXc=
+@size 18041
+share/vim/vim74/doc/pattern.txt
+@sha r4m/y0A0AaJJRNPQJ4VvnyIUZsvlERRAvLtA2dAenrk=
+@size 56770
+share/vim/vim74/doc/pi_getscript.txt
+@sha TQGv7vrbukFS3sirVgseUdF/vgrCPaALkU2HaaRfhnk=
+@size 20881
+share/vim/vim74/doc/pi_gzip.txt
+@sha bUpfg0W087hKDUMG+3Mq08pnqIAGZEmF8IPGIld3iIQ=
+@size 1296
+share/vim/vim74/doc/pi_netrw.txt
+@sha mV9iwRuyU5mN1hg72QsR6JKZJnjCSCTWrcIrXR5baJA=
+@size 131872
+share/vim/vim74/doc/pi_paren.txt
+@sha 1lMWVoRnhnBSHYMmuIrPTg/La+YE6Ok/x20YhP7D2I8=
+@size 2269
+share/vim/vim74/doc/pi_spec.txt
+@sha fwyM/xWRC9RL1/rN2Ck2+aJzSgYZuDMWX8O+Ghx8NMI=
+@size 4122
+share/vim/vim74/doc/pi_tar.txt
+@sha Q7RFooJyKtd65Iqwy/TrA21lcq7OxioHZsXSWE8JoX8=
+@size 6657
+share/vim/vim74/doc/pi_vimball.txt
+@sha bj1PQDWGjTm3WMfieqhL+M6tqRJzKK9BUAIjnp4OyVQ=
+@size 11645
+share/vim/vim74/doc/pi_zip.txt
+@sha IgP8xWUC1Rd0N3yzGfy+VH5VL1+IScmToY2HKOT4E3c=
+@size 5832
+share/vim/vim74/doc/print.txt
+@sha CB2X1I47IbN7U1fK2KLlCEaumTuURYjnPR0Pb5+O4S0=
+@size 31160
+share/vim/vim74/doc/quickfix.txt
+@sha UGjSyzYAIGJSTtXQg59z+5eNAHwN1naMEXmZROsV05M=
+@size 60652
+share/vim/vim74/doc/quickref.txt
+@sha bxWTIh9gLsRepgvvztKQO2rwCEquZ5fsSfbzzQy7ivo=
+@size 68974
+share/vim/vim74/doc/quotes.txt
+@sha 3UvqUIyCQSaQ2ZicFDTOqtvRq3hLixth7WwRbCDdAkA=
+@size 12744
+share/vim/vim74/doc/recover.txt
+@sha qa7FIplDuW4a463I70bC7kc73+MVYmgoMkryGqFPs0M=
+@size 10310
+share/vim/vim74/doc/remote.txt
+@sha vxHS3OZte+AXLmYMx+d/KEwxEemwzKsqC3Gx7JdqZao=
+@size 8285
+share/vim/vim74/doc/repeat.txt
+@sha KBZ81BqDbW10blT1lnJIJb/gi/p+WmEYP055CJGaQww=
+@size 27264
+share/vim/vim74/doc/rileft.txt
+@sha fW6GNIzuAm3LpiQkBeBXZ1PNoXKe3RX1kV32o2CLGS0=
+@size 4976
+share/vim/vim74/doc/russian.txt
+@sha EAYl4d3LnFHlprfePSHbhcuyeIrA82zDGA2Thf25wrI=
+@size 3090
+share/vim/vim74/doc/scroll.txt
+@sha 7e9V9TX7G0+5HDs8gtaxzc12ThzK4aTkSpb6eb5e1zE=
+@size 13977
+share/vim/vim74/doc/sign.txt
+@sha EM0ADa1BNBgqb1+ElGk8upzIU8VQt0r6AULpUrtfG5g=
+@size 6755
+share/vim/vim74/doc/spell.txt
+@sha nHvvugspxnINDgOPZRgOi6pIMCCwRj0Gc6URb1SlOU8=
+@size 61907
+share/vim/vim74/doc/sponsor.txt
+@sha uiJH9+kIPlkm+2ENDjY6ku0cvXBgO7JdHXHCno5vWCw=
+@size 7198
+share/vim/vim74/doc/starting.txt
+@sha uU2Sw18dPUTjIJ39UWeKD8XQEEPl0bb46AHeYMAf17s=
+@size 67641
+share/vim/vim74/doc/syntax.txt
+@sha zkXvPIlsoeiavZTwyhxvuiAfKFXHce2fcOFtH6ZK+BI=
+@size 208086
+share/vim/vim74/doc/tabpage.txt
+@sha sy0ZFEXhCWa06dryr1+MHeVeYSzmWEMcASO4x9HNLWI=
+@size 13568
+share/vim/vim74/doc/tags
+@sha rJUNMd5uDdMkeASdCCqdHKucpcYfI+mBYp0B9VKPopg=
+@size 295883
+share/vim/vim74/doc/tagsrch.txt
+@sha VlnxhvyBPrd/o639xkA9VFSku4aOlXOPpxGLS+JzN1E=
+@size 35929
+share/vim/vim74/doc/term.txt
+@sha FjJrZar2yLwJuE45iMPl61qR4JY76OgST7FPyAS33EI=
+@size 41137
+share/vim/vim74/doc/tips.txt
+@sha z9JZz1TeMh1xoGBT2wWWeBWBp8Xw6GmbrRpnzt7VZQo=
+@size 20556
+share/vim/vim74/doc/todo.txt
+@sha z2it3nQjEHVYwDyX8sDBMYC3CqWBA36dwAIx4snTDfg=
+@size 272143
+share/vim/vim74/doc/uganda.txt
+@sha YnQ+fUNU2U7wlX3YqkOYO5JE6zzYIAdbGPELnTfTHC0=
+@size 14025
+share/vim/vim74/doc/undo.txt
+@sha JNSyB3ocH0TXpJtaUHxs149sIOGCl77tf675DqYhkK4=
+@size 16532
+share/vim/vim74/doc/usr_01.txt
+@sha bH81mqYmEQpZneqnqoOKNvb308IBHDMqkOWVkJ073zg=
+@size 7098
+share/vim/vim74/doc/usr_02.txt
+@sha PBCAoN6jzlGgjRJpl+R33FMGA5V9UGQOBGaoTlHHC7k=
+@size 18528
+share/vim/vim74/doc/usr_03.txt
+@sha l7nqiH4rEoluUnONnNJqnWuQdB0nNMZ/9HeqGS/WcYQ=
+@size 23487
+share/vim/vim74/doc/usr_04.txt
+@sha lihiHnKkRJ+wKcWz02al6ui/Np0ebc+nBCIX9re5OI4=
+@size 19082
+share/vim/vim74/doc/usr_05.txt
+@sha 3JqYL+Y0I+HwQBVOAMYx7KwHPFs62r1n/TdFPnKa6Mk=
+@size 22249
+share/vim/vim74/doc/usr_06.txt
+@sha 2kwBABOf3lMB7pU0bjZOE0ZE3ufxWkuSafdFYHiPaZw=
+@size 9587
+share/vim/vim74/doc/usr_07.txt
+@sha /MHNbaX81829oQwR2Rl5BeqrKMJkJ4ZFhV51d5ht/LM=
+@size 15970
+share/vim/vim74/doc/usr_08.txt
+@sha E1/isEcAdiJg1S2TC/7VvK5VyjI+kUxfBAUGr2zH3XM=
+@size 19374
+share/vim/vim74/doc/usr_09.txt
+@sha khFRhr0UV8T4+voc0k/Lu+jt8hb902FcnvMGy0Hd3AI=
+@size 11449
+share/vim/vim74/doc/usr_10.txt
+@sha 2f2hfRaDoyZiegiaMkR9nMDywFwpCFVizmTCj8f7Kg4=
+@size 29180
+share/vim/vim74/doc/usr_11.txt
+@sha BYHMAHf0lqjY0gh/91eIKHVkuJDSd+NCl6lLmGbih3M=
+@size 12612
+share/vim/vim74/doc/usr_12.txt
+@sha Cs5sM7spXIBXHKasksKLbGCTqsS4i3Gd8d6SWx/IL1c=
+@size 13419
+share/vim/vim74/doc/usr_20.txt
+@sha gwZx8810JIgICbO9IlohjiMzV2Y+v7kUWkNFE83tFjk=
+@size 13703
+share/vim/vim74/doc/usr_21.txt
+@sha B1sT2IbBJImbyrxWeaoZEbCXB+4JyGqOBwcGb34Z6nY=
+@size 18373
+share/vim/vim74/doc/usr_22.txt
+@sha PUfpd3YIU8naCM0M97TgfVOYBB/UQrQ8WIpYyyoZyP4=
+@size 14296
+share/vim/vim74/doc/usr_23.txt
+@sha jo20jwHe9B2yePCH41rt1Nudn29mWw4/le5Q1PM+4Sc=
+@size 12588
+share/vim/vim74/doc/usr_24.txt
+@sha z0gioQuYyh5YHG6AoeIgptGmww1Cd9mWAQs8759L/0I=
+@size 20845
+share/vim/vim74/doc/usr_25.txt
+@sha w5YBtwQuchFy1ywbLkGL8ChWFPSqKktW87j9VSN5mEc=
+@size 19023
+share/vim/vim74/doc/usr_26.txt
+@sha 822iQaGcVtXMixHgOBTI+T4CXJl5+Y/XeSP6wLzfSu4=
+@size 8254
+share/vim/vim74/doc/usr_27.txt
+@sha uq3Pp09xxV+oLjWvUDzuQt697cq5KJafRYXop/4JMjw=
+@size 17722
+share/vim/vim74/doc/usr_28.txt
+@sha e4P5pVExt506nP8dBKNZvm9BsT+3h3fSuf2dFwzOXw4=
+@size 16015
+share/vim/vim74/doc/usr_29.txt
+@sha SiIkDVVqxhMo3msZpyQPHChd9X6Jo1YdqhdbWudD73s=
+@size 20158
+share/vim/vim74/doc/usr_30.txt
+@sha 7WbDrDqXTdHMtrgXl0d4urHF7H+/tTICHlZ2x2Gu638=
+@size 22652
+share/vim/vim74/doc/usr_31.txt
+@sha UST2aMV+n3B0PhIvsYWI3TFkdYc3Lgx0prQGOBWt9MU=
+@size 10394
+share/vim/vim74/doc/usr_32.txt
+@sha NVYLTdFRD4x96GpgFhFHfTHeLQuYedFKO2ZYnLzI1J8=
+@size 5373
+share/vim/vim74/doc/usr_40.txt
+@sha wgIqCSdJHVOF8sLu0kLoaXbWqC70WZelBnoxZb9XV3s=
+@size 23182
+share/vim/vim74/doc/usr_41.txt
+@sha ihEgbhotTybJX1YUPHa+kC2uYjR+a6wKc1OE9ME/xIo=
+@size 82888
+share/vim/vim74/doc/usr_42.txt
+@sha MLoX1OP+LwyYQ384Ha5Csz6M6w3q2m6/KnVOIWtKla4=
+@size 13794
+share/vim/vim74/doc/usr_43.txt
+@sha efo+2ao0NPYRVDIlpKz0JO3kYex0+8mReTABI+RDQH0=
+@size 7050
+share/vim/vim74/doc/usr_44.txt
+@sha c9Lh8k6pfS4L4BSyvygCUacuVuPpkzVUVsiL+8qDd58=
+@size 29176
+share/vim/vim74/doc/usr_45.txt
+@sha GNCrXXn8+xmQGexnwq0m0FHlln+ROQUc2zCaLP/IFqg=
+@size 17912
+share/vim/vim74/doc/usr_90.txt
+@sha kQrJOC4ADLzuB7CG+zYXY9mBgs6cAs6CjIXGD1VyO5c=
+@size 17661
+share/vim/vim74/doc/usr_toc.txt
+@sha FpKlKSPuRT32XpYIPnHUBEu2j0C9bFWoBNnSTQw6wpw=
+@size 9192
+share/vim/vim74/doc/various.txt
+@sha o5AZ+G5OIb9Q7Aoch7Z0mxZiAJfzzaP/k2+pEkHRnvg=
+@size 26203
+share/vim/vim74/doc/version4.txt
+@sha X6qIDViqxdl7J+eOVujLpw+hWkOCMTXAovct6TvvchQ=
+@size 13906
+share/vim/vim74/doc/version5.txt
+@sha dnacDHR06ITnk7pcMPWoMc5/nBYk2RxDKMTs0+CJBVc=
+@size 308561
+share/vim/vim74/doc/version6.txt
+@sha xxcHYciB/+getfVEVBplTArxt473L6rufJgu63XQVFw=
+@size 577046
+share/vim/vim74/doc/version7.txt
+@sha CgVqtQnpFNBPllKxIVQXyceAbqC5EsewQuctkZzOlzk=
+@size 674749
+share/vim/vim74/doc/vi_diff.txt
+@sha 0kEVzWk8ZFzVaVZZGtWe8iOzpFBI/BspvPP6+8A9qBg=
+@size 42167
+share/vim/vim74/doc/vim2html.pl
+@sha lq/JquvpYYf/H2ogKaF+4TLnJxsoY3Kes6erFwCimzI=
+@size 4517
+share/vim/vim74/doc/visual.txt
+@sha 2jslsT/7kNRdXbg+OBRIV0qSGUK2lxykTefIH52G+/Y=
+@size 21737
+share/vim/vim74/doc/windows.txt
+@sha qDcfqNGIjX1xnNZDnWiAi0xMIJBebWfYXaSBiDeW+rY=
+@size 49248
+share/vim/vim74/doc/workshop.txt
+@sha oyJoJutCO3enbkIS83AjZd5d3fgmuP/2t523aIr6KaI=
+@size 4631
+share/vim/vim74/evim.vim
+@sha Q6Hyrkxk1EE6+OC4zobaH1cFSlfPIO7mz4CPRwdPoCI=
+@size 1965
+share/vim/vim74/filetype.vim
+@sha uhoJ9D/n4irdCoXdWW4jKgB+150nki2H8wjXVe6gjHM=
+@size 68678
+share/vim/vim74/ftoff.vim
+@sha +jJ/rOO0KqZn9h9JhDpVbITMwlwzH+iAYWiLRYnha5M=
+@size 280
+share/vim/vim74/ftplugin/
+share/vim/vim74/ftplugin.vim
+@sha aZbtweAE09ZoQ8aiJsmnao8qyhp9EqklZdE7pRh1nBo=
+@size 971
+share/vim/vim74/ftplugin/README.txt
+@sha 3GxriiO8pObzp6M6kZMU/MTNsgd1PcHoRM5MQvKaZ4U=
+@size 869
+share/vim/vim74/ftplugin/a2ps.vim
+@sha m15hJpjBvitVxTo3Pymr0QLiBgjG2CCLyR9zlvL+DCc=
+@size 458
+share/vim/vim74/ftplugin/aap.vim
+@sha 48TU+SBg+1Pft9fOFpbnW/5ThG0vgCWaE0zM3NowclE=
+@size 716
+share/vim/vim74/ftplugin/abap.vim
+@sha ke3/QAbxeZo5YQLbmu+QkpmOBjlIz3B07hwaXP7QGjM=
+@size 800
+share/vim/vim74/ftplugin/abaqus.vim
+@sha bKrRP3rGlh1pWozpjHVCiuRw89f0qTnHze0Jmi7vuLs=
+@size 3391
+share/vim/vim74/ftplugin/ada.vim
+@sha NsAiupClmVT3MyCK9RIpSaRBxY847zdv5XMQ7Xcaudc=
+@size 6408
+share/vim/vim74/ftplugin/alsaconf.vim
+@sha Uk++WIyv1nofBiZ1e7gqWNuzjwVvUsKY9YKZtXI2g0w=
+@size 426
+share/vim/vim74/ftplugin/ant.vim
+@sha h2M03UDtRFVFlTkLDOAHMJ64+7gHvA3XhmOyGea3b9U=
+@size 1341
+share/vim/vim74/ftplugin/arch.vim
+@sha SgX/Yrw805KSacDDjivlOjMN7R4T3Ynn2IO/MftwuBQ=
+@size 419
+share/vim/vim74/ftplugin/art.vim
+@sha tfm+fDHdfy/20GQMbPm590pAJzgWHNpn6WeE2BoX01U=
+@size 410
+share/vim/vim74/ftplugin/aspvbs.vim
+@sha eO+F4c1jHcUI2JqnSfr0fhgfVYdvzeTCpmeyelgCQ6s=
+@size 1916
+share/vim/vim74/ftplugin/automake.vim
+@sha Olp5VxJFdZcoPuR5b+wAwNo+anVFRU1BRoq9IS5BN0s=
+@size 325
+share/vim/vim74/ftplugin/bdf.vim
+@sha qjWh7IucU29ktZJr/+0FuRVEaOXhpu6gmxmuj3jfryc=
+@size 437
+share/vim/vim74/ftplugin/bst.vim
+@sha yfPN65CbaYj6BYnp8fA7LQzOnqEj65gAqMEDehKoQ8E=
+@size 333
+share/vim/vim74/ftplugin/btm.vim
+@sha WMS/wcuLNJ4j0zhz5Zp4qKmslHStaz+qvoFQ0dFUHfY=
+@size 316
+share/vim/vim74/ftplugin/c.vim
+@sha gQldGaW0BDEF/sMZxzgVschvgDs8TuMAgT6kcIdauMQ=
+@size 1964
+share/vim/vim74/ftplugin/calendar.vim
+@sha Bym7u5/n/+Y//uzu5ytE08tpwNkLcOSEHsPuFn3pREc=
+@size 450
+share/vim/vim74/ftplugin/cdrdaoconf.vim
+@sha XFKy1NAjjFolRAtYmsuyr60p+VdgoINTaFIliSmM1oQ=
+@size 375
+share/vim/vim74/ftplugin/ch.vim
+@sha ZVmZjNrUaNkRY0y3uySmLYhSo8GdAyg5kCpImiOh1Eg=
+@size 472
+share/vim/vim74/ftplugin/changelog.vim
+@sha FZ8DwFmVtNgtV3HGd146W1WrUog6iBV+2xoAv3c+aAY=
+@size 8733
+share/vim/vim74/ftplugin/clojure.vim
+@sha brvlHqa1XGVmddmpWC/5wGTGvjJG7aArExe5tJwF6Gk=
+@size 2709
+share/vim/vim74/ftplugin/cobol.vim
+@sha k7fLEH7aLmIIcqb1l4WVgLaYuEbRxCmUBnVAXXb0yy0=
+@size 9392
+share/vim/vim74/ftplugin/conf.vim
+@sha XYiW7Yg3E2Zjebg/9VBCeM0eQ+oXx5lKbdnAyr3U3zM=
+@size 422
+share/vim/vim74/ftplugin/config.vim
+@sha b9IfjiAHkgi3PbS8iev2+aAKXieSXbwsYquRyt8x+PY=
+@size 1274
+share/vim/vim74/ftplugin/context.vim
+@sha hdgspmaGXmAUi590otlV1Io+X60U/1SOJqZmRijZ2K4=
+@size 955
+share/vim/vim74/ftplugin/cpp.vim
+@sha YciBjUPmgNbAWbkFo+EeOFqTVBFR1m+wzGqkNQDxAEI=
+@size 288
+share/vim/vim74/ftplugin/crm.vim
+@sha NSHdiAIEyYaz+qD8/72aUiRJBCyzkMgwMLFACme020s=
+@size 402
+share/vim/vim74/ftplugin/cs.vim
+@sha BzLPbLVu2gZZCn8P25FZa+jX9gLrHFrUojqXsO89JnI=
+@size 802
+share/vim/vim74/ftplugin/csc.vim
+@sha CuVAv8tDS3bOfPC8n3SVKnobwoihHnMAeq8ENwe/54c=
+@size 734
+share/vim/vim74/ftplugin/csh.vim
+@sha PCPRMTDmi85wbEYSkmLWlVDj8rDFXTnztaMgDOTie7k=
+@size 1633
+share/vim/vim74/ftplugin/css.vim
+@sha Va9X7O4WesdceKxdd9vou9Zt6vGi5lA1XbxnSICGUjc=
+@size 516
+share/vim/vim74/ftplugin/cucumber.vim
+@sha f4UD2MyDSTtJUMtQ5gz939ReXcCA/LPnh9KYtwf6gQ0=
+@size 5325
+share/vim/vim74/ftplugin/cvsrc.vim
+@sha a+qPbbQaWQdWgFZjAB1adFueEM4ykm3GWCi+dA4hBl4=
+@size 387
+share/vim/vim74/ftplugin/debchangelog.vim
+@sha 5KJnH8wj6zHp61QKoPl6obagzBLYvsxmG7xuh60WA/A=
+@size 11532
+share/vim/vim74/ftplugin/debcontrol.vim
+@sha V8Wxo1tbGklLitKS50ZMAKveNn3BrJcj1s4298Gha+g=
+@size 1886
+share/vim/vim74/ftplugin/denyhosts.vim
+@sha XFKy1NAjjFolRAtYmsuyr60p+VdgoINTaFIliSmM1oQ=
+@size 375
+share/vim/vim74/ftplugin/dictconf.vim
+@sha dpOiXyYvF7aYDBOvSkLr16TqpOJmIk+mkf9yuoTMBNw=
+@size 422
+share/vim/vim74/ftplugin/dictdconf.vim
+@sha jHpmI5QYd/HifciqX3bolsueISuhfH9O4L9pYy3qcLk=
+@size 423
+share/vim/vim74/ftplugin/diff.vim
+@sha cXn1VNSgYx2Y8lwUfuxV5b9ozZ4nA0GNS5Phu1hs7e4=
+@size 355
+share/vim/vim74/ftplugin/dircolors.vim
+@sha Ax8SPje83kT6w+g6j1dWpnQJDIglys3wC7C9skxUO9U=
+@size 419
+share/vim/vim74/ftplugin/docbk.vim
+@sha PSvliAxpJE7w0xNeGb40/w/49lUUzi0x4gTf/CUB0h0=
+@size 530
+share/vim/vim74/ftplugin/dosbatch.vim
+@sha iKlhiSycmPUD3Tr2iqknzPtCvSgvaovjU5bcQSgxJBQ=
+@size 777
+share/vim/vim74/ftplugin/dosini.vim
+@sha JJYN0a1TJz1ipH/zowK9K9wiwHsQQzjUohRGDr0kKrI=
+@size 446
+share/vim/vim74/ftplugin/dtd.vim
+@sha 7krHFH7qW9RHg1VXjdY9O5+hpKxhyveZ6gJJ8CpHYy8=
+@size 1123
+share/vim/vim74/ftplugin/dtrace.vim
+@sha oUOmjZQDWbQRsh3SaWcowtSaoK2+eim2O+kSr1ou2bE=
+@size 1151
+share/vim/vim74/ftplugin/elinks.vim
+@sha to3cey46S2+EZAiovkul4bRZuhclXtoJimm9JAmQG8s=
+@size 424
+share/vim/vim74/ftplugin/erlang.vim
+@sha sT+EJuJmeupwsMDpn0k73PFGe58+yW6pQyOCFB9lMno=
+@size 1811
+share/vim/vim74/ftplugin/eruby.vim
+@sha YZswt7+KnqHsHpv3ExzY6atek40ztXh+iKoCXzZ2Pd4=
+@size 3150
+share/vim/vim74/ftplugin/eterm.vim
+@sha ratRn8ebwYriNu8uSbl04XzV+XvG9dVLMarR9sP71vM=
+@size 458
+share/vim/vim74/ftplugin/falcon.vim
+@sha RLS5sCPrmYmJ5PQ7cztKj5/FlqsZilxKiXWBFaDPXr8=
+@size 1344
+share/vim/vim74/ftplugin/fetchmail.vim
+@sha 63CShhL8SMt3wp+eifL5FRmWWjX87ZFSlCaxyLRjBck=
+@size 416
+share/vim/vim74/ftplugin/flexwiki.vim
+@sha 72sQLvfoOsUJ63lomLoSKDL4DU8yeCS3xRW9e8tZVjY=
+@size 1876
+share/vim/vim74/ftplugin/fortran.vim
+@sha 8MMy9Dl1zeWZztUVNJZxVgbr8yAHUPr89HaeHBa4Zko=
+@size 4209
+share/vim/vim74/ftplugin/framescript.vim
+@sha eyqXKhoP0Sq5OrP7z5xAJyGjSt/+BRQehV2bDomU+eo=
+@size 768
+share/vim/vim74/ftplugin/fvwm.vim
+@sha nswW6mpSJmMyiOIzv3bJE/PcxqBLYm6G2xtmWTkiOMI=
+@size 390
+share/vim/vim74/ftplugin/git.vim
+@sha iwFjjysAyTmOqdJDx5VuJpFtDFHuOku8viOHAu7w0lU=
+@size 1218
+share/vim/vim74/ftplugin/gitcommit.vim
+@sha Fv0sJur3XbeDc0uzMJeBaYUKxM63TchEqsFgaIw+vMQ=
+@size 2213
+share/vim/vim74/ftplugin/gitconfig.vim
+@sha YAOW5aytNVK5cb7bJ8E0Wggi1FXcU97jasIkgSMZd2k=
+@size 376
+share/vim/vim74/ftplugin/gitrebase.vim
+@sha CUCgoUtcvF1QkoZmIc1WQJDEoasO8Ohrv7QgRHrDcl0=
+@size 1434
+share/vim/vim74/ftplugin/gitsendemail.vim
+@sha zun6nB4QeTBTW/RRvSRtupmgUxPFDihE7bECB6o/aR0=
+@size 157
+share/vim/vim74/ftplugin/gpg.vim
+@sha BBCW/5yFnN96lHul01azGC3R+2nM/oFDE+Z3FRX5XcE=
+@size 421
+share/vim/vim74/ftplugin/gprof.vim
+@sha vbHTRRi2vFN3nIp0kjbEt33Gcuq4igbk5Qz5x2c7bAU=
+@size 939
+share/vim/vim74/ftplugin/group.vim
+@sha n/QetW4VQluVZFTbuRh7YvIJKebTNCGg8zzk/R4SLbI=
+@size 413
+share/vim/vim74/ftplugin/grub.vim
+@sha JhTta3szuEWoqrh8cDFQIDIyuNJPx6EILtyvn/ZuyaI=
+@size 422
+share/vim/vim74/ftplugin/haml.vim
+@sha KRmiink5suo8WCh1EIKCOs9W/txsWSnTKekwkdHdi7Y=
+@size 1887
+share/vim/vim74/ftplugin/hamster.vim
+@sha knDDgmaFEnzl5vOwNs9uQBpr62E8tvOOF4edok26HVQ=
+@size 1923
+share/vim/vim74/ftplugin/haskell.vim
+@sha g+5Si+RZj565ndunjEeNpwd+HAz+Nz4lolIIgIZ1pss=
+@size 433
+share/vim/vim74/ftplugin/help.vim
+@sha un+hTKy926qn1Hd+54wg+plBwrayFohW+PrkaGJDWpY=
+@size 430
+share/vim/vim74/ftplugin/hostconf.vim
+@sha XFKy1NAjjFolRAtYmsuyr60p+VdgoINTaFIliSmM1oQ=
+@size 375
+share/vim/vim74/ftplugin/hostsaccess.vim
+@sha 85ZnDtu9YR1HI76TqhUTvm+I9ZaLH6HefTlTXIlq4Ng=
+@size 424
+share/vim/vim74/ftplugin/html.vim
+@sha Mg8BCOQr3DbBUs3UV5eenW4XyIH1Xsy6xmIU+FCpHLg=
+@size 2935
+share/vim/vim74/ftplugin/htmldjango.vim
+@sha x08MFYa2RvQpucG/gkSAy/6QwH+N2OTN9244gMZf7bY=
+@size 331
+share/vim/vim74/ftplugin/indent.vim
+@sha q76whWRmNWTVJ/OsAPzhMlAK9WTmHZPc6lNzhM6pTR0=
+@size 442
+share/vim/vim74/ftplugin/initex.vim
+@sha XCbstqrmdx9mGptUT6LexFLqkQ7c1Tam98lEhkvkwm8=
+@size 1005
+share/vim/vim74/ftplugin/ishd.vim
+@sha aB5H0ZiK1mW1mwbtgESvCM8KDL/KKoghgC+Pw2eB/C0=
+@size 1264
+share/vim/vim74/ftplugin/java.vim
+@sha bqEusT/h4RCXF49ga3p72NIuaNZRLyX5DQMQUVMHndo=
+@size 1686
+share/vim/vim74/ftplugin/javascript.vim
+@sha v9RXG8in37PCyUIBsrThI06SBLLnqjZ6hylhaOzay/M=
+@size 1047
+share/vim/vim74/ftplugin/jsp.vim
+@sha wYNs91TNRuMx/Y1jedW1j9cLtXnTW8Xfx1w3IS0j/4I=
+@size 2011
+share/vim/vim74/ftplugin/kconfig.vim
+@sha UUxuwX0xeztv5MAB1hJq9Lr24HC1zAHH4BodJbwo6fQ=
+@size 375
+share/vim/vim74/ftplugin/kwt.vim
+@sha RsyyFcYt8dWEazo4u/oRtditz1LFj+aBV+2I/PNxSiw=
+@size 851
+share/vim/vim74/ftplugin/ld.vim
+@sha YR0TPRnob/+MuYGdBE4x7fPhv6HTfu491xsk8tKQDhA=
+@size 458
+share/vim/vim74/ftplugin/lftp.vim
+@sha hUQi0HSOSL/y/6NI47n6finp1uOKF3ydi+scSueMwew=
+@size 422
+share/vim/vim74/ftplugin/libao.vim
+@sha AlEab52TlWFEGSfW4G/P4JGzSiyoT2xljWYaKZ8vlZg=
+@size 428
+share/vim/vim74/ftplugin/limits.vim
+@sha vU60fVLwuqAfpmkEbJipSoPWj4F3kWug691iE3a7/8U=
+@size 424
+share/vim/vim74/ftplugin/liquid.vim
+@sha Var72c/R4MtbwhV5rWE/gAo6mvW8duvjEMj9+vmP/5Y=
+@size 1897
+share/vim/vim74/ftplugin/lisp.vim
+@sha 9a1Eqgncjzuo4M3zXFEfJ+ftZYO+sgLOcvflg6BsLD0=
+@size 769
+share/vim/vim74/ftplugin/logcheck.vim
+@sha tKWKVWCAs3hQmOYnEIGN1GvAWak8qa+JuWeaFhW9Lkc=
+@size 500
+share/vim/vim74/ftplugin/loginaccess.vim
+@sha Ip82588vCjg57Z1XH6fonuDKMJyzdJxAK88RiOuNMQs=
+@size 430
+share/vim/vim74/ftplugin/logindefs.vim
+@sha N6izqQGPK1Pgm48LLRZO5m1Pj7vF6ZnI1lJ/k4XHAfg=
+@size 428
+share/vim/vim74/ftplugin/logtalk.dict
+@sha gO/O2PsDq5CrIDy3cMZDi5PkERkU8zCGLRwz/COsmWw=
+@size 1790
+share/vim/vim74/ftplugin/logtalk.vim
+@sha FI4+qorguKn6cnW8UL2SMCm1fjek4FcAt1/WxxO1yoQ=
+@size 401
+share/vim/vim74/ftplugin/lprolog.vim
+@sha icHieafkOBVnSEHD8774XWhFdmwI/vy2vqMS9e66F6Y=
+@size 1279
+share/vim/vim74/ftplugin/lua.vim
+@sha HVWyKQaynpx1rs7f9JrqAycn39mXpRtymi82nYx/m0A=
+@size 973
+share/vim/vim74/ftplugin/m4.vim
+@sha YLhKNrVmQMyfp9rs85Ev1DzLF9Mlx1+JhoD3tjp2nyA=
+@size 414
+share/vim/vim74/ftplugin/mail.vim
+@sha TF3EpFGUJjDNinGWN6NiKXoIOv1Q5BrrSBo4858+iHw=
+@size 1107
+share/vim/vim74/ftplugin/mailaliases.vim
+@sha UUxuwX0xeztv5MAB1hJq9Lr24HC1zAHH4BodJbwo6fQ=
+@size 375
+share/vim/vim74/ftplugin/mailcap.vim
+@sha CZFhYh3qhXep6dWRFLRu99FnrR/SlV7bUEfO1W6RbEo=
+@size 422
+share/vim/vim74/ftplugin/make.vim
+@sha uLmv/g3RlSRq9Q8Rf/v39iziYcStfzl2521vhWxNKbo=
+@size 935
+share/vim/vim74/ftplugin/man.vim
+@sha drVDdE3NkRleNlFmnrDiqdOdvg2ActAsZu4ZCTMuWLs=
+@size 4707
+share/vim/vim74/ftplugin/manconf.vim
+@sha EjTlnQeCPCzaT3HPt7IN854ttpHk1LL7MKL0HbPA2c4=
+@size 432
+share/vim/vim74/ftplugin/markdown.vim
+@sha yIaxNdPhhBm5mK0p42inz1mJ5hBlNX/Vh2HLMq7yxC8=
+@size 572
+share/vim/vim74/ftplugin/matlab.vim
+@sha ij/YGvvgUOKUoRtrZO3bxWEtOf8zakFbGKJwKrMHH8c=
+@size 649
+share/vim/vim74/ftplugin/mf.vim
+@sha NxQkS6/tsMW5IdyIexCErwBWAsxrEudbCpnlkGvBYxw=
+@size 404
+share/vim/vim74/ftplugin/modconf.vim
+@sha qd1NIiCe1X0u0k2JA+duHhr+kK9FKxFhVugsF5h0zgw=
+@size 465
+share/vim/vim74/ftplugin/mp.vim
+@sha j5SFaD9iUw4KM1S0KL3+hUE4G7qQHp3SO+IxTKfVeUQ=
+@size 621
+share/vim/vim74/ftplugin/mplayerconf.vim
+@sha eWx1vWOGWhkWyQffFcK8ug0LSq+cUCSwX/EuMkXIhJw=
+@size 460
+share/vim/vim74/ftplugin/mrxvtrc.vim
+@sha cYtBObVKooKYY+4USEnbi/tA9ywtf+KbmCO8J1X7m3c=
+@size 798
+share/vim/vim74/ftplugin/msmessages.vim
+@sha jPE5Hzo0SzVnu1PkO+2QKInunHlOCcjKZFj4BrPIfMA=
+@size 1141
+share/vim/vim74/ftplugin/muttrc.vim
+@sha 24ydbrxIGDBqUsXUJ2GgwaDl+SIYdSHKj10Pu6Se3zU=
+@size 455
+share/vim/vim74/ftplugin/nanorc.vim
+@sha 078+VaX0M+A83DyYJIOMnEdlcR6nOsuXRTZCMG8G0Ho=
+@size 435
+share/vim/vim74/ftplugin/netrc.vim
+@sha 2OmgXcjtANYT49+jsxtrs9Ydl5fFoEkX7aOeRxn6oaw=
+@size 416
+share/vim/vim74/ftplugin/nsis.vim
+@sha qfb8wVO23mCeNmwXBChTUsUpdxkBC1356gdPepdhfoQ=
+@size 553
+share/vim/vim74/ftplugin/objc.vim
+@sha iIbnQrxACMaeBz7pKUDL87mQYgGZUq3qZ8ZulAhFbHA=
+@size 296
+share/vim/vim74/ftplugin/ocaml.vim
+@sha LJ0HXx0zr511E3dMFr0ZY7zRNkVJqhPIZ/0T1lAp8+0=
+@size 23041
+share/vim/vim74/ftplugin/occam.vim
+@sha 9e/68xZb6SIHM4kPe2tI31glcKlalP3QoZAn/33HTt8=
+@size 1297
+share/vim/vim74/ftplugin/pamconf.vim
+@sha 8E2HyrJ5itebdA3kIffnRT3S4p0sStwm5quuck1Wedo=
+@size 421
+share/vim/vim74/ftplugin/pascal.vim
+@sha si6w8kb+h25/ijjcgBPVVidgUhjwUeRv2KHkNEdByjI=
+@size 667
+share/vim/vim74/ftplugin/passwd.vim
+@sha zJ16PGyx483s8Vs1XYOf4TiRX33eMEbyw/khlWO1IrE=
+@size 412
+share/vim/vim74/ftplugin/pdf.vim
+@sha s+rpNp1tPvkS2wnCCrJ1ZDu4nWV8mJu0YS41B+t+4sw=
+@size 2613
+share/vim/vim74/ftplugin/perl.vim
+@sha svpsX81DAVSWcLuyw8QfqfhdwcNVOBczZNsEr93P3dI=
+@size 2832
+share/vim/vim74/ftplugin/perl6.vim
+@sha G1wWFw9W3Vx7t4jmsr5l5rfKW9/ZtKS7J4c2FFkeI74=
+@size 2529
+share/vim/vim74/ftplugin/php.vim
+@sha 4GMsmxJjqajvmYNYERcCzsFRp5YXLc9Rx31uVxiYKDM=
+@size 2813
+share/vim/vim74/ftplugin/pinfo.vim
+@sha ELiWD0lQxCwEUmWXtVD/mzznSag8RKi7n84+EoKZ/pE=
+@size 423
+share/vim/vim74/ftplugin/plaintex.vim
+@sha dBsbUinmhhri+s82JKwmRx0lI5x1+vgTpdg5RM/cQFg=
+@size 1150
+share/vim/vim74/ftplugin/postscr.vim
+@sha CcYyOrHJi3F5qep4ZuMSbk3WFXmIKtNwYbHFwgYTkCw=
+@size 1006
+share/vim/vim74/ftplugin/procmail.vim
+@sha nWFniu4iSMUvrxRJRQsWHgzk7RVkDOmfPAF+2DhB+Ck=
+@size 467
+share/vim/vim74/ftplugin/prolog.vim
+@sha kLd1DwHSpgYD9Kh/IE2BTJO0QcwNzAVC/nGJppqr3w4=
+@size 428
+share/vim/vim74/ftplugin/protocols.vim
+@sha GllhqUqAZob6rtAUEyQFqZEMeLsv5llLnRwnQ4ppcUg=
+@size 445
+share/vim/vim74/ftplugin/pyrex.vim
+@sha N4meeZzBLoOSEj2hPs4iYm+vG/rLrS8L+OMVTDKHokA=
+@size 766
+share/vim/vim74/ftplugin/python.vim
+@sha 4OrIq++WUodYOTdLcowUmlKbGmbGNrYYn+uRgKTVdUM=
+@size 1795
+share/vim/vim74/ftplugin/qf.vim
+@sha 32vUiJTi97u8tNmEc98MPsb/POt835BrakPyOe/6bpY=
+@size 459
+share/vim/vim74/ftplugin/quake.vim
+@sha pSrqd6NZtxk/oDx/MjxbD1ozdteuy4RhHqE81MQa0Rk=
+@size 427
+share/vim/vim74/ftplugin/racc.vim
+@sha r5gG4hHr/oJ9/ldy8aPjZHgaTMcp8iOtwSeAIdPT6SU=
+@size 437
+share/vim/vim74/ftplugin/readline.vim
+@sha 136qCzG4kGS5H12GChyJAaDjZe0njV7fy2Pq8EOdjno=
+@size 426
+share/vim/vim74/ftplugin/reva.vim
+@sha KVed0PLnpfdKPWpMdnE3Y7fWu1LGPh1Sex0US7B81+M=
+@size 709
+share/vim/vim74/ftplugin/rnc.vim
+@sha MdncAWiOf90Q6Myj/Rn73kkGIeIiF9lIMWj07pzDrRQ=
+@size 419
+share/vim/vim74/ftplugin/rpl.vim
+@sha O82HMY/pD9/HbWhbqiwl+pDmPBBFF5rzcoAfHZLll6s=
+@size 620
+share/vim/vim74/ftplugin/rst.vim
+@sha 3He5WKJKRRyqYfDQW2U64ChQOyga4EgcRwHB/zx0X8o=
+@size 444
+share/vim/vim74/ftplugin/ruby.vim
+@sha 42AkmMi8IBQoaDJswJwMjuYbqToVdHWYWuel1LjSoWQ=
+@size 15852
+share/vim/vim74/ftplugin/sass.vim
+@sha Bm9yNWOI6bfOIHrVpgeCCDR+IDQDIDjydsuUBsRGIq8=
+@size 580
+share/vim/vim74/ftplugin/scheme.vim
+@sha SgYjfEmnn7fi+i9Lkq3aUaY+y3FCxgx7LWdUiiTKYeY=
+@size 1610
+share/vim/vim74/ftplugin/screen.vim
+@sha wv6z7MzaB3sRE+QyDEpOQMmqAUaNvf+7bahnLF3jZvw=
+@size 424
+share/vim/vim74/ftplugin/scss.vim
+@sha 937yY49QLKfUVsMPSZfs6fWhs6q3f2OR2zcpciT6L8I=
+@size 200
+share/vim/vim74/ftplugin/sensors.vim
+@sha 2gTEAVCvPbeu1zP6FciF69ATsRn5SJZM+DSy/uDRPBE=
+@size 443
+share/vim/vim74/ftplugin/services.vim
+@sha BCHIelr+/dC8V9GKi2MXRWw88h+NWyPNOaBURUPmKaM=
+@size 440
+share/vim/vim74/ftplugin/setserial.vim
+@sha 12s+Jsgodx9jA08qSjuru6pz05LbVyUu3CHSjOh/ivM=
+@size 427
+share/vim/vim74/ftplugin/sgml.vim
+@sha OVlSHgQX0opFQJZGC5ATtWOlmiuDW+nYGTWZCnOlD14=
+@size 1210
+share/vim/vim74/ftplugin/sh.vim
+@sha x5vH6+Mg97fuGGnCHeM0sIUbh+dhpGbhXmCyvNOMhEQ=
+@size 1202
+share/vim/vim74/ftplugin/sieve.vim
+@sha JulCoQkFCldWUAlopQok8C3dGt8Wp60QFNM7dytTD9c=
+@size 457
+share/vim/vim74/ftplugin/slpconf.vim
+@sha mmxo7DLCfaMEE7uSdQ6W8KobFCVOlQDvd3P4iYuGAxU=
+@size 465
+share/vim/vim74/ftplugin/slpreg.vim
+@sha cuXtnK05v8WCQtqSXFaUuvojpPXXe31+BSQZRJhjm6c=
+@size 464
+share/vim/vim74/ftplugin/slpspi.vim
+@sha AahKPMxx9x4GMeBlOpjTumOpqhWPJGkeQuUhPcFR8SU=
+@size 455
+share/vim/vim74/ftplugin/spec.vim
+@sha X1C1L20qH11oeR48s4T9iAjCrW/m8vNxVh/bws5EWGk=
+@size 4985
+share/vim/vim74/ftplugin/sql.vim
+@sha oR2oKeJG/tVlbDEsdSfmnfafNOyviRjhQ9Lk4wToJkk=
+@size 20562
+share/vim/vim74/ftplugin/sshconfig.vim
+@sha mB+d2UPfo7tSqDXkzHtxABMaFnwKkX3vQiko3WBxgAw=
+@size 429
+share/vim/vim74/ftplugin/sudoers.vim
+@sha Xf87J0xiLiDd/+xWj76kzmS77T8N0CY+kEF13gjTyl4=
+@size 426
+share/vim/vim74/ftplugin/svg.vim
+@sha cjAIs/eKisCaD/kRfEEXG50oPlXFzVgGBJYk2VLQnl8=
+@size 1200
+share/vim/vim74/ftplugin/sysctl.vim
+@sha gndmb9BsbcaAJSPzdFj89IOqkrRfGJyVmrnmrgCAleU=
+@size 441
+share/vim/vim74/ftplugin/tcl.vim
+@sha IdLGArLLDfDu8pupDqUW5L2zZkWKVmeVjyaxZLGoXJk=
+@size 1002
+share/vim/vim74/ftplugin/tcsh.vim
+@sha 2zLrXzY15Bd4VcfVMH3Kx5A86CgACj8s041yDE9yTpw=
+@size 1207
+share/vim/vim74/ftplugin/terminfo.vim
+@sha mlaXetSLhJvOzqvBkHEBe+SFTWzO4yW1RhCbuIhj1K4=
+@size 418
+share/vim/vim74/ftplugin/tex.vim
+@sha VJSx7/SGBBVfwXvPXD+D08gjwvoInhL/xwaEsu+bKSo=
+@size 1641
+share/vim/vim74/ftplugin/treetop.vim
+@sha z9OIKvLEtbFcAcl+QD8Z+qXMPv1Z0Od/hvjgyRK2u7E=
+@size 404
+share/vim/vim74/ftplugin/tt2html.vim
+@sha JwmKSZvlY+sQ/pCuaECb6C7y9g6wUiTlzBb/tBftJrM=
+@size 434
+share/vim/vim74/ftplugin/udevconf.vim
+@sha C2jbF009TGdK6PXObDK0MSG+f5qdyNGoyBW6hTj4qhg=
+@size 422
+share/vim/vim74/ftplugin/udevperm.vim
+@sha fxYpp8tShzdy2M5YoWK/7LISJp0IuHSUPYlLO2gHzhE=
+@size 420
+share/vim/vim74/ftplugin/udevrules.vim
+@sha 4NuQAOMF7fMcnxTjzjya2JASacVPCuyGz01LNiH5HvE=
+@size 414
+share/vim/vim74/ftplugin/updatedb.vim
+@sha iL6NtCYZJe7XpiwjrNDLFUw+ma8/ifun28+JcocOkEU=
+@size 431
+share/vim/vim74/ftplugin/vb.vim
+@sha CNTqM36kMPFTjnRxSzSUc0X9uG0rhpbGQcJY3ZcQqPg=
+@size 1907
+share/vim/vim74/ftplugin/verilog.vim
+@sha asWoKTUAWeLBbIYJcy3s2xU76RK67xxLF2xuy3Ea9Rw=
+@size 1681
+share/vim/vim74/ftplugin/vhdl.vim
+@sha l290gvHdxtJuddezl5EaHxXd8RH2Bmp3zBIbJLpd8D0=
+@size 3497
+share/vim/vim74/ftplugin/vim.vim
+@sha ztHdiOlkyK7wM2X+O+K+vGFCl01l8az6Ojc7Yh3FZEs=
+@size 2951
+share/vim/vim74/ftplugin/xdefaults.vim
+@sha FFM4CjyXAdruFvin3xTPgwVZQ/2c7/bb9EJe5aVGhIo=
+@size 469
+share/vim/vim74/ftplugin/xf86conf.vim
+@sha YtVc/2BJMSUro/YU8sbwgSKfwzsX0uyVj0cu5JZHNJ0=
+@size 422
+share/vim/vim74/ftplugin/xhtml.vim
+@sha CpmTAI5dRxF5kmbfaEjuO9lYx98gTfvN3PQyunFF/f0=
+@size 2036
+share/vim/vim74/ftplugin/xinetd.vim
+@sha TmmBEf276BJloXwlBMZaa3iIu3RqhWlniaPfvw6Hkyc=
+@size 464
+share/vim/vim74/ftplugin/xml.vim
+@sha iOUlbVR5X/5wD67Tx2pxugXNmD/KXZvkh+xmyhX9FiM=
+@size 1911
+share/vim/vim74/ftplugin/xmodmap.vim
+@sha 7hACULfUHJS0tR9xadUA6ztg1GEZdRzH6IpbxE3cx8Y=
+@size 422
+share/vim/vim74/ftplugin/xs.vim
+@sha 90S6yOrq0Omq9XRpetdZYemBUQVFPCGpc31dOqU/2Yk=
+@size 465
+share/vim/vim74/ftplugin/xsd.vim
+@sha XWOgMUuaJQB4Xa6TZ/OB71mdl7AREkE0sv+pib+xG10=
+@size 1171
+share/vim/vim74/ftplugin/xslt.vim
+@sha x+1yBpgQpEWilKcsDONxeAFs5SWudKRV8p+07hJJers=
+@size 539
+share/vim/vim74/ftplugin/yaml.vim
+@sha PxuAWFyrn0TIJW3MvOwU6mRPTNXLn69WodwvegkXW+c=
+@size 452
+share/vim/vim74/ftplugin/zimbu.vim
+@sha MP3Img/tBvEidph22Uoa+HUEXOMigZlQ4n/ZTnWRw2g=
+@size 5322
+share/vim/vim74/ftplugin/zsh.vim
+@sha CAgmdmAZgcmpb/gMGG254qja+kVwW3fGe9YLtYO90Xo=
+@size 674
+share/vim/vim74/ftplugof.vim
+@sha ssTDyvzhfKyDlZmy93yxF2LFwT2UWYKMt/S5Id0T7mA=
+@size 337
+share/vim/vim74/gvimrc_example.vim
+@sha fYWvstjeG1yPF80waDUW/MzdRQ7Sk/RJjeLroljimHA=
+@size 1698
+share/vim/vim74/indent/
+share/vim/vim74/indent.vim
+@sha WlZMQZC2hmIe1AZ0bmg8gZzEW2PgEopphMYWFFyfrTs=
+@size 767
+share/vim/vim74/indent/README.txt
+@sha Agt9anwfWC/feYgkSqiz3sJi6L6JGi04zAqAbJtBLFs=
+@size 1639
+share/vim/vim74/indent/aap.vim
+@sha MKKlmJGoceVV+A7VMsxCSWKzyjcXz544BjzQ50QEeCo=
+@size 265
+share/vim/vim74/indent/ada.vim
+@sha mmsKR3B5EDOcduioZNNowEhu18ZIW+bck3rrk1C6CPk=
+@size 11147
+share/vim/vim74/indent/ant.vim
+@sha jReJukanXFb1LqqXQb1YxunPCJsmNyHq+xYBI9VL4RU=
+@size 290
+share/vim/vim74/indent/automake.vim
+@sha z1umWG18NoN/ulas8+FDTiCRbSSUH2F99r1jLmzC118=
+@size 231
+share/vim/vim74/indent/awk.vim
+@sha fqWD0+TwlOmD+Q2Oz+dTNBL+kl3K6+5p3aW48niS47k=
+@size 7748
+share/vim/vim74/indent/bib.vim
+@sha folHXNrnicJ80gy3mqiXWBOk8cgjn1Qcf08klBRdW6w=
+@size 346
+share/vim/vim74/indent/bst.vim
+@sha JB5jQze9v3qxqV126wKOltCeW3k2Fn5kbhUHhvt7TRQ=
+@size 1919
+share/vim/vim74/indent/c.vim
+@sha +bGKjzNwz3vafAqhhr6mVWofsH4cEYbU+jjBStRMoY4=
+@size 325
+share/vim/vim74/indent/cdl.vim
+@sha rTR3vJdNwWpYnDAYhEeG6sw8akPyw0lqVCoODy4u1sY=
+@size 4172
+share/vim/vim74/indent/ch.vim
+@sha WCXMdm1jtSZ0bMm1Rj5ZEjx80vSEM9JdUPqraSLDw9c=
+@size 470
+share/vim/vim74/indent/chaiscript.vim
+@sha 6r+DeCmNxjD7+K0bng/GHo6HkikFoNPgKBUtn5iYrAo=
+@size 1135
+share/vim/vim74/indent/changelog.vim
+@sha MQYA3743MPR+8SP9m9N6AOYFZk4UEk87KFFVgiDuizc=
+@size 264
+share/vim/vim74/indent/clojure.vim
+@sha QIC+Im5uj0pZGMlzt/PsaLvHUYINoRWfeR9GR6AAUCc=
+@size 10650
+share/vim/vim74/indent/cmake.vim
+@sha xhYvw6D8sl0iEMYWL1sL40t2zsFprz7X+eUMDvEQI88=
+@size 2754
+share/vim/vim74/indent/cobol.vim
+@sha KEgdt8ct/b7D2DlHybzPmJ+0R8P3iRmSUUSXcLZGNgM=
+@size 8197
+share/vim/vim74/indent/config.vim
+@sha d9ykPbrlqu3V8pp1ZmBIf6g7zJnQVZRpYYbvjkPTAQw=
+@size 2166
+share/vim/vim74/indent/cpp.vim
+@sha /my1B+UjpoQ7gQ/NXPveM7IHdOoOC4ll4a4M1Mtg1uw=
+@size 329
+share/vim/vim74/indent/cs.vim
+@sha Z9lT5mtw0wls17JRQEjRQJXf+sLwwmEXuujETehvhPs=
+@size 327
+share/vim/vim74/indent/css.vim
+@sha MdmbqVEILG/OgkJ2+FMh7xmJL1tCtgc6yfrpg6zIk9w=
+@size 1719
+share/vim/vim74/indent/cucumber.vim
+@sha fA8by4O5z6r3Juq+uLzlVOZiBHUOpMor4TdnmnAXOsk=
+@size 2624
+share/vim/vim74/indent/cuda.vim
+@sha ruPhsBLp52tDFmdd+0mzISO7h3/Ostl2csI4NL86B90=
+@size 305
+share/vim/vim74/indent/d.vim
+@sha LCwx240fUNjVzZcg2wvCy3pFh9WuhhS30ORqjr4cbh8=
+@size 510
+share/vim/vim74/indent/dictconf.vim
+@sha cREdC+hBKx+ckngjhjT3cokkcc+r5tfLwcwU5/HIx6s=
+@size 325
+share/vim/vim74/indent/dictdconf.vim
+@sha NNdUjE7jov+i9rWCDYoConfOVvG+ipu01dKmmfbPJ3c=
+@size 326
+share/vim/vim74/indent/docbk.vim
+@sha DIBvy0cQGTQmo0Xw73szB7vQrVAGGELcVWzavfRnocQ=
+@size 324
+share/vim/vim74/indent/dtd.vim
+@sha KEF9lpQ76hqEB1iFtb/dJfnMYIJ0XQlqeNAJ6oEVIZU=
+@size 11668
+share/vim/vim74/indent/dtrace.vim
+@sha CtpvRvpEhytlx5fjRt++fTvGg2WgCmRZoelOyybHHeI=
+@size 451
+share/vim/vim74/indent/dylan.vim
+@sha E7m5n08ju/V0mY3zO4pdzuCzmZjx0cYEMqn/+0Wp4Gk=
+@size 2662
+share/vim/vim74/indent/eiffel.vim
+@sha 276Mt18GocVDcR559pIuvM0/DdwV3keQYsS0Q+SeTMs=
+@size 3208
+share/vim/vim74/indent/erlang.vim
+@sha ra8AmNIhw0vAs5az88yOd8sVVcocqehufL34oIIeJZk=
+@size 46235
+share/vim/vim74/indent/eruby.vim
+@sha UZYtePCsnpoP2ALu8oqkJ/79mrj+OzStaQWnxfWRhyc=
+@size 2161
+share/vim/vim74/indent/eterm.vim
+@sha RmpROKZ4tuTvVtd3u5Qs1JaNe7yTR8gJ9+zLJR/yd4Q=
+@size 638
+share/vim/vim74/indent/falcon.vim
+@sha 97V9FTox/F416NinZcIXvdfV5rAVTfPFMZ4UzAs659w=
+@size 13982
+share/vim/vim74/indent/fortran.vim
+@sha +URD/vjekptcG5Arbity501fzE3IaPatTR6iwuHKX8U=
+@size 6559
+share/vim/vim74/indent/framescript.vim
+@sha G1SRymhlIxO5enCOFkfnym4hSjSC+6Ori9xDdXTYPWY=
+@size 786
+share/vim/vim74/indent/gitconfig.vim
+@sha VgeEgg7vsS2HOlYuH352tQQ3Dk57Nx7OmVWv0+jT3rA=
+@size 817
+share/vim/vim74/indent/gitolite.vim
+@sha jjEh6ByVucLabdR+Z3+7YfYsQO7Ho4Wlyc9ui+rWu2E=
+@size 996
+share/vim/vim74/indent/haml.vim
+@sha bJZ276AUAdUXGPB+RkP6AWR18bHf4YcYIqGzh8PPik8=
+@size 2189
+share/vim/vim74/indent/hamster.vim
+@sha p8YFUjGavl50dxdPxueoZT1RyfxaozZsxSbYcKKFLXw=
+@size 1407
+share/vim/vim74/indent/html.vim
+@sha T9KRV3x+9nRzm7yLE8vRzUZf/Ir5MNy8pjrVsy0Ssss=
+@size 14812
+share/vim/vim74/indent/htmldjango.vim
+@sha rD0hEguzgo+mQIaWP2u4SVyFUGPqPvCGff5Er8dRBxQ=
+@size 273
+share/vim/vim74/indent/idlang.vim
+@sha cP1Ljer61uv/7WzuMLewY9aNnIOe2LKDFN/l8vW+eiE=
+@size 1566
+share/vim/vim74/indent/ishd.vim
+@sha 4L8niLmfC4CyhWw8Jzcy1TLJAZjiOX6vddlvmqSum4A=
+@size 1841
+share/vim/vim74/indent/java.vim
+@sha 6xgPW7Gv5xoQ3H8wW/fy8/O0h2L2zKAQNEL8kU/2zMk=
+@size 4115
+share/vim/vim74/indent/javascript.vim
+@sha oQ2Ck6ou358/aKXpj6zjgc4TEMgttGRXZMcB935TCks=
+@size 336
+share/vim/vim74/indent/jsp.vim
+@sha mRsMkV8+R2480aRWmS/RKfht4wCY3HI3vAI9ZV9KfRI=
+@size 462
+share/vim/vim74/indent/ld.vim
+@sha VXJd5Igt5qaQtqFOzyneSOf+fvq6NwranxlQrj1K3Ng=
+@size 1753
+share/vim/vim74/indent/lifelines.vim
+@sha F1Ppp7Yk0GV6NgXVNiffHVDxC73cVLgpL8fyoiunpJA=
+@size 637
+share/vim/vim74/indent/liquid.vim
+@sha sU8x6O7IWW9OJ/Kv4+NFLOyeCR4jGkxCAQmXJJ1BVSM=
+@size 1879
+share/vim/vim74/indent/lisp.vim
+@sha 3FLbUNnkEi8xi2JkkajxPK+lZpPms75EwQmDSh6ANBA=
+@size 353
+share/vim/vim74/indent/logtalk.vim
+@sha c6WpXpPX9BYQwcJPHehMxUUz5leXQTTtNqov9NUTroM=
+@size 1690
+share/vim/vim74/indent/lua.vim
+@sha XOGx9zl2o2ciC7WyztNB//8IJe/y+09lccBj4VaRfY8=
+@size 1914
+share/vim/vim74/indent/mail.vim
+@sha /dOvSWxDDG7DMoQppp9gaTVHodEotErf3wrH4Fz1QXM=
+@size 308
+share/vim/vim74/indent/make.vim
+@sha +kv+UT8bUHMVDRSp54N1g2BFO5zoU9v7uJrFvQo1n5c=
+@size 3431
+share/vim/vim74/indent/matlab.vim
+@sha bbiMskuwxa88940d9umZXEaRXZUZaPYF7sKWTDu7PXU=
+@size 1928
+share/vim/vim74/indent/mma.vim
+@sha Hz1xDJsQWpfSrnJS+LrGmLKlYfSJQNzLtoJPPk0YWc8=
+@size 2227
+share/vim/vim74/indent/mp.vim
+@sha na3ZI4oN0ENurvq2WuugknyuUvK3jrKw0SHxAQ4UNUg=
+@size 6527
+share/vim/vim74/indent/objc.vim
+@sha gwmTDtMVnh9K4vRfPfc6cxS1lYozKWpWiA7+GklBRHU=
+@size 1645
+share/vim/vim74/indent/ocaml.vim
+@sha FYrqhYEGNeI0+eEs6vlp4Hbq1Ir4wK54fU/WlUkfYzE=
+@size 9110
+share/vim/vim74/indent/occam.vim
+@sha MgElEKXW83tps3mUP713GX46vugwkee6bce9jBWVmGc=
+@size 4634
+share/vim/vim74/indent/pascal.vim
+@sha sTSC62gw+WHjmObI9gQjBCldr772tAK289Nwhu+K578=
+@size 5653
+share/vim/vim74/indent/perl.vim
+@sha cI12GVrZIuK9cXrr5REXj5U0k03rd+u/YybXq8TzhfY=
+@size 5811
+share/vim/vim74/indent/perl6.vim
+@sha /HzbP+LvvlOTRDKQu7YHiHRgGNqlaUxd8z7hl6sKqSo=
+@size 3503
+share/vim/vim74/indent/php.vim
+@sha dM0YTL+d+jKDL1q907Mab2j8JgsHv34wyzAh4E1f6os=
+@size 19423
+share/vim/vim74/indent/postscr.vim
+@sha XtfF5DFUtfh9xU0J8I63iPsnX4qH3mAuSk9CbUcn2jU=
+@size 1622
+share/vim/vim74/indent/pov.vim
+@sha vhyULMaK63bmnHFCa1+5sC1Hbsl//z1CQprPUWOHLrs=
+@size 2643
+share/vim/vim74/indent/prolog.vim
+@sha kwjoPnLfzyH6MxOYYKG6pqE/Yh3q8FJGslFDiGxz6z4=
+@size 1454
+share/vim/vim74/indent/pyrex.vim
+@sha BKh59owXkQcwY5M81wV2xv0XwfKB9q+3f7bru6n3ySs=
+@size 326
+share/vim/vim74/indent/python.vim
+@sha wyGQNQVtstI2SQMpt9W64SzVZugJv5nwY4AM+tXXhfU=
+@size 5744
+share/vim/vim74/indent/r.vim
+@sha 5Kx2YVc/oStYSyUERgsLWyawMzyczeMhBRNJyXNPMGQ=
+@size 14786
+share/vim/vim74/indent/readline.vim
+@sha hGQ5KaLR2Vv7AWPg1Ua/oSizn+uLhFsTsLt36fReDy8=
+@size 681
+share/vim/vim74/indent/rpl.vim
+@sha OwGoilgjJg82OFn7nBCNAQ2yEvwbPUdlr/Givy+vtc8=
+@size 1835
+share/vim/vim74/indent/rst.vim
+@sha ig8VqJXGptekhQxd5+mZ2RIF7XxDfxEsDc2ZL1e/+vM=
+@size 1387
+share/vim/vim74/indent/ruby.vim
+@sha xsU2NkLK8tRgGQgXcFk97nMCxgl34hbIIJYq3PJpwtE=
+@size 17546
+share/vim/vim74/indent/sass.vim
+@sha a9QyfgAUFouad8yG9YTyebnK7DWMluJxjPZ67FqjLb4=
+@size 1018
+share/vim/vim74/indent/scheme.vim
+@sha M8O+Z70J3FekxpdimuVIoAYVE86Xcp8S7ixbI4KrnBo=
+@size 241
+share/vim/vim74/indent/scss.vim
+@sha V7M7t+AawlS2zC/CVBjyBxWdXfI+WVc1FnylDcg+9UY=
+@size 191
+share/vim/vim74/indent/sdl.vim
+@sha GDB4wrj5yOMXbSkmP1ylCz+HCTkAu/kuDKLYeH2lQg4=
+@size 2767
+share/vim/vim74/indent/sh.vim
+@sha wgZGCdzzeOlMOpODcNFys39Ja1xEJ6XltG5CnLocnz8=
+@size 4396
+share/vim/vim74/indent/sml.vim
+@sha P+azRMkyUm0+b24gTau45JaOWULGOTYbfD1uNWf2r6U=
+@size 6418
+share/vim/vim74/indent/sql.vim
+@sha uOYVMDimvbsSlF720wPbPJ0FJgevW6CEMc3RGX/Qt+4=
+@size 1204
+share/vim/vim74/indent/sqlanywhere.vim
+@sha 8KBsT45NElGyQhN18OB0cqgVSGFgBlVkLIiH6Qd6Yes=
+@size 13075
+share/vim/vim74/indent/tcl.vim
+@sha os8pF8V1ZKm131KO2sejwWKX30AHrPWwpyNS19OZynI=
+@size 1602
+share/vim/vim74/indent/tcsh.vim
+@sha h5H4JGLb8yH6/B19s18YYqCcqjqWuDoYvDBzSUVqIn8=
+@size 1243
+share/vim/vim74/indent/tex.vim
+@sha gT+8dKwMeBIBsycXeG6ye9d3E/s0wjGt2w/dj3pn0Og=
+@size 9695
+share/vim/vim74/indent/tf.vim
+@sha ONs7hlW6J42kcGjHbH2ggv/lqEWGneUjsUncB/E8Yr4=
+@size 1499
+share/vim/vim74/indent/tilde.vim
+@sha oFrBbeCDhMpbzYQTRYkYsWTcS5cmqQU623MOkY5j7jU=
+@size 994
+share/vim/vim74/indent/treetop.vim
+@sha u/HXO3C+K0vZD0WYFCXR237Vv8n3pn/RJgO/Q8HabqE=
+@size 677
+share/vim/vim74/indent/vb.vim
+@sha hsrLm81ImAL0JYkweLenzJl1uhMfBZGhpma9lPoVl0I=
+@size 2044
+share/vim/vim74/indent/verilog.vim
+@sha 8buw/jPW5ejLHFZ0qhO1vqLNoUrmcL6DGrMpcktsR8Q=
+@size 7620
+share/vim/vim74/indent/vhdl.vim
+@sha QUuGHPlg0TNcYoIRNvqgc7ZTfrzD9xGbb3V5UNfFhcs=
+@size 13801
+share/vim/vim74/indent/vim.vim
+@sha VHi+8ncX1flDurV1Y17UlgY8kqnvPzIqmAfcU/4pqAs=
+@size 2830
+share/vim/vim74/indent/xf86conf.vim
+@sha m4DFaKRIuiN6fdGAt/fTAefVF6h/uvvAB1cNKEFeJTI=
+@size 679
+share/vim/vim74/indent/xhtml.vim
+@sha iSrCiXFiBYp03o3SWDZwnqepbk6grD4kw9S42rptxMY=
+@size 269
+share/vim/vim74/indent/xinetd.vim
+@sha YAPidBx9rWdrOVGeUx2ZUVWwoqAOaXc4nJyuCAYrufM=
+@size 1201
+share/vim/vim74/indent/xml.vim
+@sha BPTGntyeMPuwjntxKFfXLDKPVGeb8SSec/C0VovPRFE=
+@size 2840
+share/vim/vim74/indent/xsd.vim
+@sha l2yRX2SWGBLfzzHsmV+n6qpV9Up/iGqo69OWWF9Pajs=
+@size 253
+share/vim/vim74/indent/xslt.vim
+@sha t0NuwaHAkjcPhB3gcJhaf+6bvVTdNqxA+BDbws8LXc0=
+@size 297
+share/vim/vim74/indent/yacc.vim
+@sha 1jSGBxl/Gig+E18w8txhD4qMDgv4GcFGTRXbzbflTlI=
+@size 769
+share/vim/vim74/indent/yaml.vim
+@sha dwO5p8eVlY6w9THYO+qotSWsr0MC5JCd70164CymY30=
+@size 4117
+share/vim/vim74/indent/zimbu.vim
+@sha SiW+OGSgEqsGHyYekianFhKlUZ23DWO2opQNa02z0zs=
+@size 3891
+share/vim/vim74/indent/zsh.vim
+@sha zicWIvmpNeF6UbZ5lQh6lKWA+H7l6+kiPi/5TCAGH8w=
+@size 231
+share/vim/vim74/indoff.vim
+@sha InJWP8q2NCs/gErbe7ORCsssSJoYP1hcX+hhRf3n6wo=
+@size 282
+share/vim/vim74/keymap/
+share/vim/vim74/keymap/README.txt
+@sha KNZdhOlnnrSAj77gCEARAjKsb+Nklqa3TZKOsE861OQ=
+@size 955
+share/vim/vim74/keymap/accents.vim
+@sha AIvaoikIOs4IOWo6T0mE7UnOV/72NxpmSeG9JUqTpXY=
+@size 649
+share/vim/vim74/keymap/arabic.vim
+@sha cPSA9nECrbgw4ayTFESNxzxqI5rMwdky3TI0D/riEBE=
+@size 109
+share/vim/vim74/keymap/arabic_utf-8.vim
+@sha hL3be6+tR78DHAjjqXEEFEtHbplzvT7GGBAk03/vl+s=
+@size 3387
+share/vim/vim74/keymap/belarusian-jcuken.vim
+@sha uwusPXZgD5jp0wXwffnbm4VwPzVDlk8hZqPtucvJQrQ=
+@size 2518
+share/vim/vim74/keymap/bulgarian-bds.vim
+@sha hCU9l0/pOXrhwQBN+Cr2SD1buAgKnwClDPK1L7nuC3E=
+@size 6501
+share/vim/vim74/keymap/bulgarian-phonetic.vim
+@sha Tq03A9Z6tEnmFiVtkzysN68S9fjLHISZklwshRS8ZhY=
+@size 5806
+share/vim/vim74/keymap/canfr-win.vim
+@sha FL3oW62Dh5km0zmd5oX5qvate6H8zGvlEuIN5sHka2k=
+@size 1166
+share/vim/vim74/keymap/croatian.vim
+@sha OCfnc6nqmkucxTr0dKnNjQttMlwUYGd+J0pXuSZpoyI=
+@size 340
+share/vim/vim74/keymap/croatian_cp1250.vim
+@sha a8b1U+eJy9IB0Bkrh74b5ZzrCs3bBAoT6jQgFNI3a4I=
+@size 552
+share/vim/vim74/keymap/croatian_iso-8859-2.vim
+@sha BMRv+h7cVj5XWZepvlbMp7CcZjVZqKbQwZKw+kns/Qs=
+@size 705
+share/vim/vim74/keymap/croatian_utf-8.vim
+@sha W+WhhG9F0lQzCSvScQ2sLrdv0G6W8M+7LrxuliirZtk=
+@size 610
+share/vim/vim74/keymap/czech.vim
+@sha wMjQ9h6lkBGex7r6kwlSxa/Q0qDa/++I3v7lCi6T2bI=
+@size 35
+share/vim/vim74/keymap/czech_utf-8.vim
+@sha Tufb/Qn7rGVaNCv/RwjuGza6jWd8bmxiCX0vzaALGSw=
+@size 564
+share/vim/vim74/keymap/dvorak.vim
+@sha 0u26ITIrlFg94sGlZX87+R/X6zfxmenJopoQuffvPhU=
+@size 507
+share/vim/vim74/keymap/esperanto.vim
+@sha Ot9Y9yJGEq610d2i0YK5kn5ev/xy37I36IBVhtcwesY=
+@size 39
+share/vim/vim74/keymap/esperanto_utf-8.vim
+@sha +GrWcSYftrgJQiLImLIX0DnP/Cq5L8X+JEeGEIgXJK8=
+@size 2399
+share/vim/vim74/keymap/greek.vim
+@sha oox4Il4EF6MEIz1VR3S/aXW0YMv9G08hqnrTFtNuGYc=
+@size 234
+share/vim/vim74/keymap/greek_cp1253.vim
+@sha m9PK/x+UusLQ0vgCdYJpBB0HdSf7V8Kk5wr6oZGWmsY=
+@size 2204
+share/vim/vim74/keymap/greek_cp737.vim
+@sha mFIQxWbQsIsI+BRiZ55LPZxnEXJF6wfkDsN/L5v0JXA=
+@size 1955
+share/vim/vim74/keymap/greek_iso-8859-7.vim
+@sha P1J9XZ1YBT0xQV2zrUkcKY1+8k0FplTZLdyD+FUOhRw=
+@size 2132
+share/vim/vim74/keymap/greek_utf-8.vim
+@sha vIJOo7qLmRpj6Aazt4E3eIRbdS7ZJ9rWEA6JQZLuIU4=
+@size 26297
+share/vim/vim74/keymap/hebrew.vim
+@sha eZGGg+8IglWcrANQnpcKUuZcLrGC5w6+A0XztOFWv6g=
+@size 322
+share/vim/vim74/keymap/hebrew_cp1255.vim
+@sha b6anNy258COSSnHjBnLY59ngipRfEsjbaFa8OEjnC+M=
+@size 1741
+share/vim/vim74/keymap/hebrew_iso-8859-8.vim
+@sha HQf0+oh5Soy9eaAuzL8IJBh9Zovp6dy3TgBcKxWz6U4=
+@size 1006
+share/vim/vim74/keymap/hebrew_utf-8.vim
+@sha /FMuR1/APIMDfH3UhsuTHEqgOABKZdLkqBFN++AjIN0=
+@size 3816
+share/vim/vim74/keymap/hebrewp.vim
+@sha Ie95WiJedSOGYumAULgvECcfv7vmIkP1Yt07uCA93Bw=
+@size 325
+share/vim/vim74/keymap/hebrewp_cp1255.vim
+@sha nBcM4jTPiXsqOEZsZxUkMVmeDNVxyA6QH4vksmGNMZU=
+@size 1571
+share/vim/vim74/keymap/hebrewp_iso-8859-8.vim
+@sha MK66nNK4Zx54LUKrKfq5zcqnDh9OysRivHkC7SKlib4=
+@size 797
+share/vim/vim74/keymap/hebrewp_utf-8.vim
+@sha dBj+Tnx9OI3WFSY1qZdKJT5BGgiMRvTGLi47Dw3Arbk=
+@size 3635
+share/vim/vim74/keymap/kana.vim
+@sha nbSdeLrk3XZeqj9taW5znyB9LZD8FeYVLY7nhwBgiq4=
+@size 9015
+share/vim/vim74/keymap/lithuanian-baltic.vim
+@sha bGXC4oLzK/QlrZiONrL4QiINpYjhe2RckMh8k4eGf00=
+@size 963
+share/vim/vim74/keymap/magyar_utf-8.vim
+@sha CrP4NDS5/kZ0my0mTbOEbzW0GrXtGSCKtP5A7gOW83U=
+@size 326
+share/vim/vim74/keymap/mongolian_utf-8.vim
+@sha LdGYQJOuGoWQPPKz+VKHeNIlrv96CxwoAl8vLajPtLM=
+@size 2562
+share/vim/vim74/keymap/persian-iranian_utf-8.vim
+@sha 9LyI+Y9nhCR0+Ks2/ZkN50MIaUQlAhD/OKFVdyeeU/k=
+@size 752
+share/vim/vim74/keymap/persian.vim
+@sha OdFhDgwzCCo7xtiK4HcMmV3WRibHOlG6yUd/I2HTTIM=
+@size 144
+share/vim/vim74/keymap/pinyin.vim
+@sha Kg3ZeN8/PcmaZwcZ/vu65ozIF7ltlo0vXWKY5WBYBcg=
+@size 536
+share/vim/vim74/keymap/polish-slash.vim
+@sha L5BlrlQLdWel2JeZc+A7H3T58ZpYEu6NthND16Uvh0s=
+@size 709
+share/vim/vim74/keymap/polish-slash_cp1250.vim
+@sha 8FGAQqhJzr1BmbxGq1AErh46aI+sMrHf2wTxN4+RL9U=
+@size 1372
+share/vim/vim74/keymap/polish-slash_cp852.vim
+@sha iLtDL8DcIDpxhHkD3zuPI6+6kDFUD2p6cZOIQr6GfPA=
+@size 1371
+share/vim/vim74/keymap/polish-slash_iso-8859-2.vim
+@sha GwsZ7XNqtFwy+0gj3qN8TyKDCiFElHHqzQ8wc8XSLZY=
+@size 1372
+share/vim/vim74/keymap/polish-slash_utf-8.vim
+@sha 0FG9rnR9DHMrKoKjGFUgWgj+25ZIMAB/DTACIzOHLzk=
+@size 1425
+share/vim/vim74/keymap/russian-dvorak.vim
+@sha sm11ut2f8y+o9p7bEK3D2El6i+gVdmIFnI1koTxZNw0=
+@size 2594
+share/vim/vim74/keymap/russian-jcuken.vim
+@sha dc8QaDZLyAT4S33Nwp9ved6pAaeD6M27keLd0faGaJM=
+@size 2535
+share/vim/vim74/keymap/russian-jcukenwin.vim
+@sha kenW30cK167ayvHtJUeNKkXi8TSbUiZ1xXfMmDfoDGo=
+@size 2588
+share/vim/vim74/keymap/russian-yawerty.vim
+@sha jEZ9umyw67roRsf3JX60cgv87CH+S2xfV0v3MbsXRXw=
+@size 2463
+share/vim/vim74/keymap/serbian-latin.vim
+@sha LpD70QCzO2D+M/j93GOVuclxBJS96BjgvzAuRywhTT0=
+@size 43
+share/vim/vim74/keymap/serbian-latin_utf-8.vim
+@sha LzdJ2PQTLPCypBpC/7G44LdeGekl6PhkYo50/g5tsBM=
+@size 556
+share/vim/vim74/keymap/serbian.vim
+@sha vaeFLzBDF115lTCruvbpOrsAO4aLYQwGGhat03OaDGc=
+@size 467
+share/vim/vim74/keymap/serbian_cp1250.vim
+@sha d+K3Y9Ob/aJjck3xYS0in0VbFZxipYyzZWehyNWJ0lU=
+@size 451
+share/vim/vim74/keymap/serbian_cp1251.vim
+@sha yJzFxTf3MJ3i7ZblosU9VsoTDK9V8SpZuw1dBOfl6Ls=
+@size 654
+share/vim/vim74/keymap/serbian_iso-8859-2.vim
+@sha TxWljfGReIhtDc8OjM0pRVWRfU4LLVHCVBBOtGl2F1o=
+@size 473
+share/vim/vim74/keymap/serbian_iso-8859-5.vim
+@sha 6Wxuu7HcLnKhEC1tlCxqivtOZA5qmbbNjKuinV6qVEo=
+@size 660
+share/vim/vim74/keymap/serbian_utf-8.vim
+@sha ylgN033UaJ/YufrwVy5I9VMy9LQHhnBHZ4gZNp9fzv0=
+@size 793
+share/vim/vim74/keymap/sinhala-phonetic_utf-8.vim
+@sha 4a8y1D4AnqviuZlcbmWaeg0Phtna5eVO/WXe11uX9wQ=
+@size 4673
+share/vim/vim74/keymap/sinhala.vim
+@sha +21ntauNAl0WxrKEmZy8CSisoUYKMcHRHv6q4wPJx1M=
+@size 90
+share/vim/vim74/keymap/slovak.vim
+@sha f8t2K6+/iAwx/GH/IwlfuJy6nRZWb+wXSvoXWvtyJcg=
+@size 322
+share/vim/vim74/keymap/slovak_cp1250.vim
+@sha HRXHxx3rbV6dV2FpIx2tnG1vem/BN+A5ouxDM/Nv4yQ=
+@size 760
+share/vim/vim74/keymap/slovak_iso-8859-2.vim
+@sha NiLabtjZ7fwnnXkubhB1DAFkfSl2jT6Sf1lePh35vFs=
+@size 760
+share/vim/vim74/keymap/slovak_utf-8.vim
+@sha 4fczFaUIg86WPlFu55gm3HO0fJgHBKFjBfqJ+VLag5s=
+@size 812
+share/vim/vim74/keymap/tamil_tscii.vim
+@sha 7wE09CxkATr8IyRZxG6Aba65V2ES1gryMzR9it0ggRI=
+@size 14811
+share/vim/vim74/keymap/thaana-phonetic_utf-8.vim
+@sha D+T0zyacgpAHXtl9/HCBqutbpnqWfAdsYU9OkLRXIJs=
+@size 2822
+share/vim/vim74/keymap/thaana.vim
+@sha IqXEitW+GnPlYI5vwlWh1/9jxRQc8rB9uvza9xxI+V8=
+@size 71
+share/vim/vim74/keymap/ukrainian-dvorak.vim
+@sha 6iregaLBBF3v7Yd7F5hJe0XdeNrtolaEuPoyx7NXZtY=
+@size 2740
+share/vim/vim74/keymap/ukrainian-jcuken.vim
+@sha oXq34mAZRNUGSf/vdBFimeU6sA6bNq4m3V+FbDLdUM0=
+@size 2738
+share/vim/vim74/keymap/vietnamese-viqr_utf-8.vim
+@sha ZkWqrgwvN82cCBV53kASriVjIzs6eo05UP47zXT1utw=
+@size 1247
+share/vim/vim74/lang/
+share/vim/vim74/macros/
+share/vim/vim74/macros/README.txt
+@sha llBZozjLXcmDSrQAWWXuxT22XNLM59WXRfiQKdE2MBw=
+@size 1100
+share/vim/vim74/macros/dvorak
+@sha NCWrUp6mfqaV/pjt+P9ZrrvT5Jvq+W1gb+wgsSp/5t0=
+@size 2443
+share/vim/vim74/macros/editexisting.vim
+@sha sVblnushsog+J3MDZZDAwI/CqkI+zlVvZ7zkJ5f4RL4=
+@size 3705
+share/vim/vim74/macros/hanoi/
+share/vim/vim74/macros/hanoi/click.me
+@sha 8iVKTUy4t9jbCQNzS6y7vz22eYqYbgDc+w81WOCSGp4=
+@size 255
+share/vim/vim74/macros/hanoi/hanoi.vim
+@sha quuwJSm/9pIRcRTYgg/Y1SbW95p3XmAXNkGSTp2SfZ8=
+@size 1097
+share/vim/vim74/macros/hanoi/poster
+@sha iQW0EsYLM3jdN1Xinq/aZXozBxubUNr2+vDDze+8FvY=
+@size 1259
+share/vim/vim74/macros/justify.vim
+@sha 4Ac2W/si+9DnuKt6oLcEXGS9fy88iTaW0ngdPkzDMF4=
+@size 9160
+share/vim/vim74/macros/less.bat
+@sha Jz/cIfD+5OtEP89mBsx3KdN8vVsC53ZoxtxtYLqSdOQ=
+@size 288
+share/vim/vim74/macros/less.sh
+@sha qiMkRAB5Z6CtXG+OkPywqKldiw6qN7UZypR/dNaOjGU=
+@size 588
+share/vim/vim74/macros/less.vim
+@sha PwLnfo9CO9cup1BKdBrsdo3Nm8WiN+anaqaEMcDSAv0=
+@size 4776
+share/vim/vim74/macros/life/
+share/vim/vim74/macros/life/click.me
+@sha 8kIUT4MeNgpiz/nlNCWFR3faeDw0EjnpAnm3hkLobXo=
+@size 230
+share/vim/vim74/macros/life/life.vim
+@sha 5UC/aAf4UFPtZ/+UDoY+0cICAfsbvA0D3MefVUjaPAg=
+@size 7550
+share/vim/vim74/macros/matchit.txt
+@sha C5xJf3St5KiKk51HJmFnmQNxPup0slX+Y1oDM45qyag=
+@size 19303
+share/vim/vim74/macros/matchit.vim
+@sha l0U2VIcYsmMqkqElbmtyNljVuhmgxuwKml1AAQhUW/w=
+@size 30756
+share/vim/vim74/macros/maze/
+share/vim/vim74/macros/maze/Makefile
+@sha dPH8CpcgWJT/GG4OTzlX5Oe5qNBku9KT436M807lyRM=
+@size 111
+share/vim/vim74/macros/maze/README.txt
+@sha ahzUMbrzEhwO3ivnHeexmRr4dKorTkaRBjHqv1jI30I=
+@size 1862
+share/vim/vim74/macros/maze/main.aap
+@sha uAPoKUASoJlO1zYcriWt9zEMZ51XVfDfFtm5it9K2T8=
+@size 100
+share/vim/vim74/macros/maze/maze.c
+@sha ykXxtTeMeJnQd7yEMwUIvsZIoYL2dB8LbNYXU4zUxgs=
+@size 441
+share/vim/vim74/macros/maze/maze_5.78
+@sha ViZtgtp67l2qCIw8BHgPcsQGX4PSAeyIv0pWAuzuBnw=
+@size 626
+share/vim/vim74/macros/maze/maze_mac
+@sha UUfSSbH6LmWuLY5u6U39xR0fu5L43ST4z1qCwxlPCeM=
+@size 12149
+share/vim/vim74/macros/maze/mazeansi.c
+@sha 1TL+IEllweELubQP8agHHRp5jbQ1GEQIo5Cq7wBwsCw=
+@size 441
+share/vim/vim74/macros/maze/mazeclean.c
+@sha sHk7jnKvmMQdlQNg9EJBPX/8d8rUctcueCThvPm3Fd0=
+@size 594
+share/vim/vim74/macros/maze/poster
+@sha 1yrN65cZ6K1xjvwUsM0EqKG+g2q/CMT1fNI5xsUBa1I=
+@size 1562
+share/vim/vim74/macros/shellmenu.vim
+@sha DgtCFSD+sTxlQ3kS7O1mmcus5IdXnLSOzhEkr695lBU=
+@size 3922
+share/vim/vim74/macros/swapmous.vim
+@sha xxWyMeut9T1dzhZpta7rDPR0XS7BvO4N6ZK1rNpIujM=
+@size 856
+share/vim/vim74/macros/urm/
+share/vim/vim74/macros/urm/README.txt
+@sha J3YsFIwDiAQLaAKPv6/ImhbggjP1wxD/mMS8SrSBLXQ=
+@size 1580
+share/vim/vim74/macros/urm/examples
+@sha JsPMoQ6/7yqNlVJeRDr946eUfG2aAwCoxo5XEd6etO4=
+@size 1092
+share/vim/vim74/macros/urm/urm
+@sha 78kCtMGmSXfZwykdJW0zO2nBMet4EW9qgf5l3oWRq7s=
+@size 630
+share/vim/vim74/macros/urm/urm.vim
+@sha Jc1o88efejDHMtvd/Ow7ergX10sGUSW95pHrW5Hxu4A=
+@size 96
+share/vim/vim74/menu.vim
+@sha 3oZyro0klzMc106rwKVlToz44uzfwJZ1KIQe+TUsObw=
+@size 38494
+share/vim/vim74/mswin.vim
+@sha i0tJQ1FojjT39wgcq0PqjvhZeythZZrEHtuKX+CF88k=
+@size 2650
+share/vim/vim74/optwin.vim
+@sha ZOFi3oDtSdXaXPsptt/5kBgtU273/ba4RZB55Qw4LeY=
+@size 55439
+share/vim/vim74/plugin/
+share/vim/vim74/plugin/README.txt
+@sha bgDesBPWGxW+yAN9oeo2B42tw2mkh2TMdtidJ3tK6FQ=
+@size 889
+share/vim/vim74/plugin/getscriptPlugin.vim
+@sha saoIrscPih5B1ptvpzKWA3WxthqWMcChdOMK2rwCuoM=
+@size 1379
+share/vim/vim74/plugin/gzip.vim
+@sha +3mMi2OkiHTDxwTiYJMQkzChnXLM7ApN8wV11Uzrav8=
+@size 1969
+share/vim/vim74/plugin/matchparen.vim
+@sha 84F9ytZ79AiqgjPzg6KkM94ayz1t1CQGEvSAqif3h84=
+@size 5425
+share/vim/vim74/plugin/netrwPlugin.vim
+@sha RKohad+Qpvi8IPYYTFbx747iyeGb+M2HseiGe6aBBFo=
+@size 8195
+share/vim/vim74/plugin/rrhelper.vim
+@sha 2aF80Luq6cOfS2et2AwzddTQ0RTnmDxeojru0Fe3nzQ=
+@size 1414
+share/vim/vim74/plugin/spellfile.vim
+@sha pKt6zRo1kUjdnXDEntlmFXj2Ls88vAka+CJhmv1p/YY=
+@size 499
+share/vim/vim74/plugin/tarPlugin.vim
+@sha LDvdX1uLH5pIAWTTXpN4Bbmr/iEVAYfZD/EUAuQkVQY=
+@size 2209
+share/vim/vim74/plugin/tohtml.vim
+@sha YcukWqd5WsFvRgYkyOuaVWZE1nXyOQuyDeSSRh9GHg0=
+@size 9688
+share/vim/vim74/plugin/vimballPlugin.vim
+@sha aJM76UT9zxYJmBNagwK7HfUbDJnc0YjudqOCB+3xsgo=
+@size 2760
+share/vim/vim74/plugin/zipPlugin.vim
+@sha LPY9PaMemS7s+DPKe17BLt/Syb0fDhTE9RRyjMyHrNQ=
+@size 2498
+share/vim/vim74/print/
+share/vim/vim74/print/ascii.ps
+@sha lAPDfCsIY7MXOs6cl9/2jUneqalzZkJafGhbFEPytQ0=
+@size 720
+share/vim/vim74/print/cidfont.ps
+@sha Aq/FJRxnsbM7TQ8LIA4u+LlXXY/p2nZZDj14DSe3Qxc=
+@size 1085
+share/vim/vim74/print/cns_roman.ps
+@sha BcVEZJwGK0POBPU4FIchRzitHghysYSecBneC5OT+zE=
+@size 765
+share/vim/vim74/print/cp1250.ps
+@sha q+nKLdjjRiEJzrVwWg+uffXruWq1rwNZS83ShtDl/k0=
+@size 2215
+share/vim/vim74/print/cp1251.ps
+@sha HxNmeAaHtHJZhZ/6UZHIDbEVDDMZJqyn4B2RdtnCwss=
+@size 2382
+share/vim/vim74/print/cp1252.ps
+@sha MiSusT8w/xUvIsqu7p4IeljIOfTk79oqnUvWRMhDFeM=
+@size 2223
+share/vim/vim74/print/cp1253.ps
+@sha 4Zt4uBl/zt/V1E+GXOD7OFygKhTDTrDmC6IR7x3lX0c=
+@size 2169
+share/vim/vim74/print/cp1254.ps
+@sha cj/bRK++4pTGyCcowxyqDRbiIaI/nMkiqBWIQLue1ww=
+@size 2241
+share/vim/vim74/print/cp1255.ps
+@sha eIaXsmhmpsgszhM9DF46MUpB7GyHk/l0jfAkc1ui/q8=
+@size 2137
+share/vim/vim74/print/cp1257.ps
+@sha ujcIf6fP3xCJ/feCA7qRUUXx6sGx88KoaXCg80OpI+A=
+@size 2200
+share/vim/vim74/print/dec-mcs.ps
+@sha yXQD07AzwftHno+xzSK34yQaf1EoGx1xlqUckZUJOmM=
+@size 2191
+share/vim/vim74/print/ebcdic-uk.ps
+@sha QfKh8xNHqH3RW+gw7UdpWG49tp/19hxk+sf59ypc63I=
+@size 2125
+share/vim/vim74/print/gb_roman.ps
+@sha UrdcR6zJpIpILKrjWVQcS/TSOyjl7PXq31/7NL9GP+4=
+@size 769
+share/vim/vim74/print/hp-roman8.ps
+@sha ZHS2UBxuMeDiNW1EmL3ZliMuCIyAUofhHykOzV2lsMs=
+@size 2171
+share/vim/vim74/print/iso-8859-10.ps
+@sha PCqf8PNizSROSemu+IR+jM8R48GODqsn/jH5JNlEzZM=
+@size 2128
+share/vim/vim74/print/iso-8859-11.ps
+@sha 1939tOk7CKIFzRqqSDqWBdP37k+6eHOqyga/ijbC8/U=
+@size 2130
+share/vim/vim74/print/iso-8859-13.ps
+@sha p9ZsIlgWT4TeI1lO4DmmcYiTShFxrFyyb1LSPatQwuA=
+@size 2186
+share/vim/vim74/print/iso-8859-14.ps
+@sha UQEs3B/HfZMPHhoNjQkvMB0ps7BO4jkc/qvWv5beU/k=
+@size 2189
+share/vim/vim74/print/iso-8859-15.ps
+@sha gpRbUt72b6bGoRQRx994Te2hi1OG8QUqXU8rfNaLp/o=
+@size 2176
+share/vim/vim74/print/iso-8859-2.ps
+@sha qe9Dvug4Ap24oSBUuEOLywuqn2d63fQ5bExjgKf9xfs=
+@size 2156
+share/vim/vim74/print/iso-8859-3.ps
+@sha D8+fN+7GtDLAYtOIMUuJJr3HzJ19ndCMlsiKWYapERI=
+@size 2231
+share/vim/vim74/print/iso-8859-4.ps
+@sha ySbKEIGqrle4iaiyJ6thqNmCAGFeKzQ6lN3cs+evS0c=
+@size 2132
+share/vim/vim74/print/iso-8859-5.ps
+@sha UVeYGmH14i4cbL15/KbC0YyoKU3oqtD61RDXF74R6TE=
+@size 2315
+share/vim/vim74/print/iso-8859-7.ps
+@sha I+IXkqZEILYXiNCnVhbRAHMg5wVXZyuYpu1fLuKQoFA=
+@size 2141
+share/vim/vim74/print/iso-8859-8.ps
+@sha HKR73u6fdRWLsJ6gnfmpvPGW/o7yGZkAn0c7Olu7Qr0=
+@size 2111
+share/vim/vim74/print/iso-8859-9.ps
+@sha nISYM/b86dYIG//nkMf/0BPKRWZTEJP50WsMQ36Booo=
+@size 2218
+share/vim/vim74/print/jis_roman.ps
+@sha f1kt4rYN1LcyXKS82eUKIzpr+rV4QNItdc7xx7Ro2aQ=
+@size 767
+share/vim/vim74/print/koi8-r.ps
+@sha vA2KayhIMeY89xlMqBFWJcU9JafI3tk81mXZrSK+BIo=
+@size 2318
+share/vim/vim74/print/koi8-u.ps
+@sha JousPVrm2mkA12p73dz9eBhrFG6AEBxwXFJuO5Dw0LM=
+@size 2326
+share/vim/vim74/print/ks_roman.ps
+@sha /8R3Bg2f5n1f1Fmjd9Kq7m7OimJOa9R/fSiTUkPVYZ4=
+@size 765
+share/vim/vim74/print/latin1.ps
+@sha 72dmpM3HQDtEjtmJRlT7NKvMUCD2Ti+gN1CCGGJTLU8=
+@size 2192
+share/vim/vim74/print/mac-roman.ps
+@sha pwWeEGPvXdD7OztWPSqRIk5nx9j2yKCfxUJZokq8IUI=
+@size 2220
+share/vim/vim74/print/prolog.ps
+@sha LbMZ9YArKBSe3iBbQ5q9Erpc0IahkIihOHlBLdn1Pkg=
+@size 1976
+share/vim/vim74/scripts.vim
+@sha ncUxHjD57hmt7MBAUOWAkNnqW5zJOIKEIrv4g/gwwEE=
+@size 10393
+share/vim/vim74/spell/
+share/vim/vim74/spell/check_locales.vim
+@sha mQTMbQ49CZpDT97oaWQHFBQEpqkETaXBhLo4DlmcwLU=
+@size 463
+share/vim/vim74/spell/cleanadd.vim
+@sha USb4+/5Dra92Yy9aipEpeNKat3L7nD69BVrw2ftDkVc=
+@size 934
+share/vim/vim74/spell/en.ascii.spl
+@sha VyJw3/Gyxst2SqCDM+yX9oDCl1RynMGDcRzS66g0NnA=
+@size 568018
+share/vim/vim74/spell/en.ascii.sug
+@sha I9mG182BNG7ZEaMATIA7pfpMN8LsmgZQbROxRxxJ4UI=
+@size 555651
+share/vim/vim74/spell/en.latin1.spl
+@sha AhhJzk2Nq42YoL++5xlNgSQqAF60A0H7WTgBTe7Jvkw=
+@size 570117
+share/vim/vim74/spell/en.latin1.sug
+@sha 8qvySINR02QtKJNOTe4KiutUreCsa8GKJP2Ynq1KOPo=
+@size 556476
+share/vim/vim74/spell/en.utf-8.spl
+@sha /YVJhPwtF+8SogOnclnIVc4L1NCT8+M585OQN5AlNuY=
+@size 570548
+share/vim/vim74/spell/en.utf-8.sug
+@sha F+zwT4NRAYUPcv8xKXJd4DGC5Z0GlF93+hv6N322tek=
+@size 556476
+share/vim/vim74/spell/fixdup.vim
+@sha tyA7ghtkhiQ5JM8CMI1O+vZj2WfIErZKdkytpuM+2sM=
+@size 629
+share/vim/vim74/spell/he.vim
+@sha 3ARC3xnOT+6kX4fE8ALnrA3pWbtfGPQVbjbzPobS2t0=
+@size 240
+share/vim/vim74/spell/spell.vim
+@sha v38j9n65LdJeUA2DlFXsRl30DWrfsAHCmQlYp89DOBg=
+@size 118
+share/vim/vim74/spell/yi.vim
+@sha 5WGwA3FHJytWSZRFo16Kn2r2jbQS+3UzyWOwBhS/1yA=
+@size 241
+share/vim/vim74/synmenu.vim
+@sha rnbayIhrPTPVjBLmiALbx7u/WnlN5A/eQlcEiJ73gP8=
+@size 36816
+share/vim/vim74/syntax/
+share/vim/vim74/syntax/2html.vim
+@sha b+P570+M3Q0nCWHOl/yahg/LcrHxavIAgXMZ1rgtz9c=
+@size 69056
+share/vim/vim74/syntax/README.txt
+@sha b4xHupRv6++C2V0RMuMaf0+JIZhreibVG327h3prCNQ=
+@size 1403
+share/vim/vim74/syntax/a2ps.vim
+@sha CRwvaeaWBhUy7rT2d7jzcLBzt3fg6CXShFBuEUvgxKM=
+@size 2414
+share/vim/vim74/syntax/a65.vim
+@sha KqqsNHT526v/dfE1kwUCoBEaunybszUBLPGm4ns6cMw=
+@size 6777
+share/vim/vim74/syntax/aap.vim
+@sha jWG7PGNHt+T8LysQKuiYQM11gZuQndgP+GFW8hFyfHY=
+@size 5697
+share/vim/vim74/syntax/abap.vim
+@sha a8Ot535WQhI470VpoMhJg0SV/N7/IZazzhNF6ivwK6M=
+@size 9462
+share/vim/vim74/syntax/abaqus.vim
+@sha YnJXzDdC6xIvSeJ5u4H+RX5orlL+LvPlRjgzoO2hNUM=
+@size 1481
+share/vim/vim74/syntax/abc.vim
+@sha y0o32/Jvnrxf8CxtSPzbcQb0S6hXaS7ZeUT8jOp9W8w=
+@size 2225
+share/vim/vim74/syntax/abel.vim
+@sha TCDiF1aAwZNccod6fP3UGw45vxda9C5p/Nc3+ICenv8=
+@size 5444
+share/vim/vim74/syntax/acedb.vim
+@sha tAkLJhWvndSwrZr2SqYKIzO2aLFco3xAYoKFropn3J8=
+@size 5237
+share/vim/vim74/syntax/ada.vim
+@sha kD8LUbKMA9FpKgqVEaJf/avWa+7OmmKas3sQzRsa25A=
+@size 13050
+share/vim/vim74/syntax/aflex.vim
+@sha Oefc8w7tZwTo4Hdb7Wi2eWZxNyKBkafk3Kk9SbbYBcE=
+@size 4823
+share/vim/vim74/syntax/ahdl.vim
+@sha /2uZCeVHcPxCyD3L4KzM76Sx4xfzjm4IRU/t0F9L1QI=
+@size 3158
+share/vim/vim74/syntax/alsaconf.vim
+@sha XXk9vH8hGh8LYvPyt1d7vg6/+vUGwNtLtEvOdi3FOpE=
+@size 1534
+share/vim/vim74/syntax/amiga.vim
+@sha dGEnk41nyRKU4xM1YKABjPKEeRatW84p7EOQMTvCYEo=
+@size 3354
+share/vim/vim74/syntax/aml.vim
+@sha gHMK4rEd03FGmS0HXBQMG4Us3KrJiDu3HbSlfMNbKvs=
+@size 24502
+share/vim/vim74/syntax/ampl.vim
+@sha j5i9pc7gr86PjRooAQy9yMR6MD4qObmybN0WrF8uiCE=
+@size 4293
+share/vim/vim74/syntax/ant.vim
+@sha ZdHeuJxlYLBc5u9PGszrAKyA1UOX3k3fc6RZtoSMQLA=
+@size 5816
+share/vim/vim74/syntax/antlr.vim
+@sha XMs5lrqcRD7CDlklvbCEURT1DwDroWTvi/JUu2zHTJU=
+@size 2195
+share/vim/vim74/syntax/apache.vim
+@sha FdCn/vIJXoaNmcmQ5j1TB8IfjVm6/Fysz6wZx2bdryQ=
+@size 15111
+share/vim/vim74/syntax/apachestyle.vim
+@sha XCBt8pbzUrJ+W+67HtAikXxfNlISoJAUi6jBMxptI9Y=
+@size 1738
+share/vim/vim74/syntax/aptconf.vim
+@sha hZhKhY9Eot4K68XITXE3Rnph5/kWXY/iqBleQeD6+Uk=
+@size 19587
+share/vim/vim74/syntax/arch.vim
+@sha 7qsz4b/6CjQ1L8IAIhJW2rWY5JAUJfptkJyYt0aL4fM=
+@size 1137
+share/vim/vim74/syntax/art.vim
+@sha fhoKeGAfSJ8cRTlYDw5F3FssYBxGea1plYK8Fpw8sBw=
+@size 1297
+share/vim/vim74/syntax/asciidoc.vim
+@sha 0a2lAzLAJaAXn/pq/P6AUNt7wsCtdex+JReJoYa0zL4=
+@size 10858
+share/vim/vim74/syntax/asm.vim
+@sha RWpdg9ZZzJAzNzwKZqwYgPwLwR1WuAEbxrktyU+wWW0=
+@size 4426
+share/vim/vim74/syntax/asm68k.vim
+@sha dU2NVh4E8lzGZaz2G7z31280S7hHJWAmnY1I042InJ8=
+@size 14642
+share/vim/vim74/syntax/asmh8300.vim
+@sha t97i7x1Q/e0gl87z7l3t0CdcJvY1y3mNjE/Ynp0Zgu4=
+@size 2477
+share/vim/vim74/syntax/asn.vim
+@sha OgE2JQ+NAiKAhAf6SiAqOA5d/vTmt7zdMP8pNTbsP7c=
+@size 2937
+share/vim/vim74/syntax/aspperl.vim
+@sha 56CDRKOytyzqPLpCUMKnZUqMiAxIPApSoHrkns6hjnA=
+@size 1016
+share/vim/vim74/syntax/aspvbs.vim
+@sha eUpoIzq+J0dh2bMdsJwgDMEB72PeNjX2jxGVMYrGhYs=
+@size 9477
+share/vim/vim74/syntax/asterisk.vim
+@sha PcV2S+4adRl6fjacEoQjmQ5uEovUwLqnbNS5REfJymA=
+@size 5585
+share/vim/vim74/syntax/asteriskvm.vim
+@sha 3C+fdm2Dt3YzuFASZci+ZYiFRMXR1aPi21sNnprXq/o=
+@size 2620
+share/vim/vim74/syntax/atlas.vim
+@sha AcIYx/MYL78MXdbt/Bo99+b44Y3G44+xiv2CWXoSkMk=
+@size 2968
+share/vim/vim74/syntax/autohotkey.vim
+@sha OvtodjY+GOeQziFjBe2tPWdxus2kx6fG3Xdf70xquWk=
+@size 9988
+share/vim/vim74/syntax/autoit.vim
+@sha IulNiOw9SnLlKG1STmlocOjCMk0sY9nWO8Bj/HZGPkw=
+@size 48014
+share/vim/vim74/syntax/automake.vim
+@sha OEC6ZVL93lSqN0YAyBB9ztJGgO84TTDQpzIyVF1CXbQ=
+@size 4354
+share/vim/vim74/syntax/ave.vim
+@sha o/JeWyq41420JryuyCqAYoQdXYlfB2Y6KcSvu2HIx+s=
+@size 2267
+share/vim/vim74/syntax/awk.vim
+@sha 3sEro2dW+vfSBo268fo6s6NC4pE8ydazRFqKwsZxdxQ=
+@size 7721
+share/vim/vim74/syntax/ayacc.vim
+@sha Zh7KC12qrwBmOCPa0dPp0WuYwkMXMoe4got3tfWZqq4=
+@size 2954
+share/vim/vim74/syntax/b.vim
+@sha iJxQEUxufHMZWnooDQWflhFHyvJdHylY1W6aae610CA=
+@size 5215
+share/vim/vim74/syntax/baan.vim
+@sha n0ean/a5bLFK/1mw0D7gV84TDFMAjLxTmCGdq3UI5wg=
+@size 73998
+share/vim/vim74/syntax/basic.vim
+@sha nkcz28wVyxGybUn2Y9Z0GifA8a31zwBwSFxliaDXJO4=
+@size 8508
+share/vim/vim74/syntax/bc.vim
+@sha ta7wSr0HTd2uJGW5KEpxhlpv24ixOdz/5Y6MUAuiJHg=
+@size 2181
+share/vim/vim74/syntax/bdf.vim
+@sha Fz3trHBmkBDTh9mc4VMk3ObmsOXXK77kjk/8b/6pB38=
+@size 3829
+share/vim/vim74/syntax/bib.vim
+@sha /yHA0LyVOUWh9+eiZQP972s3bbAXKUSxHhwnzrTUvFU=
+@size 3851
+share/vim/vim74/syntax/bindzone.vim
+@sha 5w5LAerN741LmYBbqcdQUX6bumRQLi79DSxWELn6vBA=
+@size 5210
+share/vim/vim74/syntax/blank.vim
+@sha Hecn9mg27VTNbc70UdZnsFw37SlERQo2jPsqzfQ392Q=
+@size 1205
+share/vim/vim74/syntax/bst.vim
+@sha 6f+8Z7BGWcq8pBY47LKANM7RgPwLbTSUt65IXheFaxs=
+@size 3385
+share/vim/vim74/syntax/btm.vim
+@sha 9GZ+VQvKPFTLQ8ji++ViQ6MvUxzZzR5VDkG3g1hLnyQ=
+@size 9631
+share/vim/vim74/syntax/bzr.vim
+@sha C94UHPfaMR6FXINQLPEMUDpTeJ5hRgxTauB8phIvOJc=
+@size 1955
+share/vim/vim74/syntax/c.vim
+@sha bHN69SQVjyAu4HZW/ZQWlMmHcGjx/BmTW0GR+GjoMBU=
+@size 24891
+share/vim/vim74/syntax/cabal.vim
+@sha zfet7v4o6Wii2GwZnrlbwAe/AHpViUiZh/MG2NdHZ4U=
+@size 4697
+share/vim/vim74/syntax/calendar.vim
+@sha JIJDx7JvUyfd3sgx6gaxGizC/eQFXMvRpJTTdDHnZCM=
+@size 5030
+share/vim/vim74/syntax/catalog.vim
+@sha Qv9xL0t42oJhYyQ6lV5dz1bCkOPrh5iFLcghfHQ7Po0=
+@size 921
+share/vim/vim74/syntax/cdl.vim
+@sha RMIidthD7Rlfo2i1/x/MesS9WuhtVh8AzC0wwJfOzCo=
+@size 3345
+share/vim/vim74/syntax/cdrdaoconf.vim
+@sha H5eaYZ40xUaHJFGXlKnAUcpeJZav/1f0rkxe1c5uhj8=
+@size 3635
+share/vim/vim74/syntax/cdrtoc.vim
+@sha 86uajSNjwMdM2S+/JFfBcJxRdIuMoGpGatUozRqF3j4=
+@size 22744
+share/vim/vim74/syntax/cf.vim
+@sha tnQf8WoXuD9zIFgTVsB9GFI1UQTmDSnWviorXQYn/fU=
+@size 29595
+share/vim/vim74/syntax/cfg.vim
+@sha /7bhrrZKv+gWPirC1Hoaag7grA/G378KQcK60RR/KKs=
+@size 1753
+share/vim/vim74/syntax/ch.vim
+@sha fJLDhgu4zOxAhC5ejy2xaA4/BmfDa7owDRY22oqjITo=
+@size 1290
+share/vim/vim74/syntax/chaiscript.vim
+@sha OsZROXFv+zv0cJRRffqYUGP1SCIzHPOgoRjcGGso8b8=
+@size 2887
+share/vim/vim74/syntax/change.vim
+@sha YQIx4mdVhgTqJPLzGShBERvHQsQ79g92vR29mg+cJqg=
+@size 1314
+share/vim/vim74/syntax/changelog.vim
+@sha 5OcRwEo6N3l7NyoKLl7yHnA/gCdSQwEaqAscnYcF5iQ=
+@size 2860
+share/vim/vim74/syntax/chaskell.vim
+@sha mvActvkxGEn0Vio1OCGXNCU/Ls2XrBg7ViYmN5yeDTM=
+@size 396
+share/vim/vim74/syntax/cheetah.vim
+@sha bO/xYGbYjkVxvxhpC6bdY1A6M43ReaP75yFIhsVQmWw=
+@size 2135
+share/vim/vim74/syntax/chill.vim
+@sha /j24UZNjloiO0/j3v6wfOSGhZIeZmVZCP28sIvMc6ck=
+@size 8277
+share/vim/vim74/syntax/chordpro.vim
+@sha 0JyTJqZX0YiidWVaig3pHngjO+0CMx+3ywX29P2vph0=
+@size 2521
+share/vim/vim74/syntax/cl.vim
+@sha wuo/nr5PQLbm4hde9quHy9AFlhIYpB6SqPAGWqCUHB8=
+@size 4281
+share/vim/vim74/syntax/clean.vim
+@sha DPKPDGEkOhssN9x0jCH7RuB5/AaqBmxtM1PXNTn/+RE=
+@size 3524
+share/vim/vim74/syntax/clipper.vim
+@sha ujy2BdqhJFcF5NUU/qsZSVwQX+4v8OGr6jodJmVLWu0=
+@size 5961
+share/vim/vim74/syntax/clojure.vim
+@sha Vxu8r1SvUDPSrtXnBwE1Gc85Agj3UZMcC6djekZvqEk=
+@size 35569
+share/vim/vim74/syntax/cmake.vim
+@sha KpjPBoPbQn0x4a56yFlUbdghSP5qFOyoK+4WD8jKVeA=
+@size 4457
+share/vim/vim74/syntax/cmusrc.vim
+@sha bPu0XXjyS3u8oVW/DKIKEjof6wv0uzT6TmwuuUUiAe8=
+@size 12913
+share/vim/vim74/syntax/cobol.vim
+@sha +GdLI4Becb7IX0NAHgJko0IIlZJOceWKLdRCiZWkEgw=
+@size 10310
+share/vim/vim74/syntax/coco.vim
+@sha NrSeHKTr8v//8EctIOusc1RTJVS4mbnrxyBGirgZSe8=
+@size 1290
+share/vim/vim74/syntax/colortest.vim
+@sha 2KXY7TlEo3YDx0sCq/5L310dqjbjIYskvAJwzAQSRao=
+@size 3201
+share/vim/vim74/syntax/conaryrecipe.vim
+@sha 08Ov7KalZlcLpUOZTLFaKcFpqG+w7ZfIs/tEevG/kWQ=
+@size 8036
+share/vim/vim74/syntax/conf.vim
+@sha 0CDWoNwbg6OnMUFjYOjCgsUr8TCLai8YKsSsvST7aUI=
+@size 799
+share/vim/vim74/syntax/config.vim
+@sha MKSXQGsmXoTsBjD399m5gUGA+mkHAyXIbT8sPp8v5ws=
+@size 1847
+share/vim/vim74/syntax/context.vim
+@sha EP5L1hxdesRgWG+hZqSmGWBbozIJPr7YZDMW4nX8Pgk=
+@size 4183
+share/vim/vim74/syntax/cpp.vim
+@sha toR9KicyZfx8vX7pxhBXCg41D6WjD5M4xNfNtNH+aZ8=
+@size 2046
+share/vim/vim74/syntax/crm.vim
+@sha U08rZ5zyDiy8+3FbohNodrIwpXXKN7BN9gBU6R3WfLw=
+@size 1185
+share/vim/vim74/syntax/crontab.vim
+@sha G3aP3usV+zLaLFC9CKVM9CQzd9kBR3BXp5OoU8Cc1sk=
+@size 2566
+share/vim/vim74/syntax/cs.vim
+@sha Qs1Kbe9RSlZdggwEiO+W4wReAQYjc+6L2jrAd2WM3+A=
+@size 6090
+share/vim/vim74/syntax/csc.vim
+@sha BuSJwRe1nsKzuTqTmjhxBpVdsvYeEGYYpbgKkyh8JG0=
+@size 8789
+share/vim/vim74/syntax/csdl.vim
+@sha OKJ7vQlwxsqI+O3kCMAO+4x7HMc6FPZK12njip9V2GM=
+@size 23755
+share/vim/vim74/syntax/csh.vim
+@sha /hxd+ZgPqKl6S4oRim9k4SU1LFOyx/qEnelp2hafc3w=
+@size 7001
+share/vim/vim74/syntax/csp.vim
+@sha 8QnqqHzuhU1+PPLbgp61HjEKcW4xltlNWLM2SUAeAbM=
+@size 7501
+share/vim/vim74/syntax/css.vim
+@sha 3kaAND66C6EDVZ2cKdawsZw8ms1Phi5HjfDc1VCVv/c=
+@size 32463
+share/vim/vim74/syntax/cterm.vim
+@sha qbAWgiodmkBG5rmXIBUdHluCYl+GpKfdC0JP0OfpFlA=
+@size 6740
+share/vim/vim74/syntax/ctrlh.vim
+@sha hToIKXLesD8uXrzq1u3D1ItImKe8eL8KVmNsvLc+eFY=
+@size 688
+share/vim/vim74/syntax/cucumber.vim
+@sha luOo27+q7NJAJKgO+nFjDvts8tAmqnGO78BgB3KNRtY=
+@size 31887
+share/vim/vim74/syntax/cuda.vim
+@sha T3zJweeV7sqO1Lah6FgMAloMKZKY5QkiYAOV+hAuWKo=
+@size 2839
+share/vim/vim74/syntax/cupl.vim
+@sha bj1FCWwwJHSUz8IrOiqRd9ZDdMSmpSh89FL2k5SAbTQ=
+@size 4230
+share/vim/vim74/syntax/cuplsim.vim
+@sha ET0uYvMtoonWr1yj+whyXE4f2RN+Gw/L6mwcEjqUNGg=
+@size 2379
+share/vim/vim74/syntax/cvs.vim
+@sha twInfUNDt20q+/k/Bs3dCaQZw/Q/2lZGGEjnv+5QAhg=
+@size 1304
+share/vim/vim74/syntax/cvsrc.vim
+@sha D6RAtFVCRwyiypP9VvbbLnB0chn+FHcsz9tYl0BRDh8=
+@size 1242
+share/vim/vim74/syntax/cweb.vim
+@sha JTRxGoGo5basMe0Ua1ofOetnOq5k+XbqxHcSqAiox2M=
+@size 3368
+share/vim/vim74/syntax/cynlib.vim
+@sha ISxWJdd7kxk0EH55RO3Q+ea5opcqYwMMK51kvUkdSqM=
+@size 3014
+share/vim/vim74/syntax/cynpp.vim
+@sha 0gQ1ql6N/Ll3nir13CrjKqUU2oaaYfSv1fztXd+BMWk=
+@size 1784
+share/vim/vim74/syntax/d.vim
+@sha guTpmHWvxBOUzjLLVQGsqMN4u1MvbzKCMsy4ItFjbO0=
+@size 28089
+share/vim/vim74/syntax/datascript.vim
+@sha gC3GNkwzkneazNoXU6+4aR2ABZ/f68wpsYMRn+sYNn0=
+@size 3474
+share/vim/vim74/syntax/dcd.vim
+@sha XEl4/SHZJuAnO3MsnT2QW5a0UE+RbmM0ZFmMxOcGRfE=
+@size 2198
+share/vim/vim74/syntax/dcl.vim
+@sha e92rUdWqV1UAUtCWOkgWJWZMbLBuLQ2d1Q9DExH/YUU=
+@size 6625
+share/vim/vim74/syntax/debchangelog.vim
+@sha He5R2hrWI89s87hEdll+tS/dCgYdWd3Es9U4+IZMPjE=
+@size 2530
+share/vim/vim74/syntax/debcontrol.vim
+@sha rvWuyBEtZlcztzgyja+l5pRahowJJzW6FS2a1gRFdlU=
+@size 7242
+share/vim/vim74/syntax/debsources.vim
+@sha ybadC59pIspLVz3+KVe7c2oy2tFe+Q15rZt17otWzhg=
+@size 1348
+share/vim/vim74/syntax/def.vim
+@sha 4rIvMH9h7wqWx+ZIVSWo2pzvLLdMXzUpDPclNYcjklM=
+@size 1495
+share/vim/vim74/syntax/denyhosts.vim
+@sha xDmfLsflsmrcJLdEqZl1axNxcnNmCIGuvuS240Kqyo4=
+@size 7353
+share/vim/vim74/syntax/desc.vim
+@sha OkF5MUk6yqGpeka/WvEMd+nIuDsn7Y8CEOVCdTEr/yo=
+@size 3494
+share/vim/vim74/syntax/desktop.vim
+@sha 6pV9p7y7YMdrT1b2ge8WLIklooZ0Nmqtxs8Kk7m9HIU=
+@size 4446
+share/vim/vim74/syntax/dictconf.vim
+@sha 7CwcRDx6Q2soohiYwsQjfq6wbCqeiGrrQRmE9VCYpLw=
+@size 3106
+share/vim/vim74/syntax/dictdconf.vim
+@sha c+jXUz8156nWVd6YM1OGs4CWERXnKMKC5k2dLZ+qxhY=
+@size 6453
+share/vim/vim74/syntax/diff.vim
+@sha f55EqGqi/m87Hz1aNd9YN09rgYu36lz3RYchiQWvwlE=
+@size 16893
+share/vim/vim74/syntax/dircolors.vim
+@sha oPopvS3QG5BjxRberCOWbBuJWdy4KtcDHjpb/fL2Now=
+@size 6538
+share/vim/vim74/syntax/dirpager.vim
+@sha MB2O9AqLqLKQDq5nkvd6S3Xy+lDT8KNT6k1rkTjjLpY=
+@size 1787
+share/vim/vim74/syntax/diva.vim
+@sha 7/QNtzxNCFDEigOvIPHM9D6TejmrbW+p9febOHS7+nM=
+@size 5071
+share/vim/vim74/syntax/django.vim
+@sha 9qsxiR8fxNDdL0YPUdRwb9Yr9oWXY/zKGeW+ElPQ8NY=
+@size 4305
+share/vim/vim74/syntax/dns.vim
+@sha ucLqoeBkMgLOC7MatjA9ZyfIp1w9dowcqRYr/vlXbg4=
+@size 132
+share/vim/vim74/syntax/dnsmasq.vim
+@sha Eo6oIWXfhc67JVs2VmB28TAj4jWOXfm0CObOoqt6hek=
+@size 9548
+share/vim/vim74/syntax/docbk.vim
+@sha eW13MlihxxUFsOX5S/SorFv9N+TDWFHwmVWiEzCrDlQ=
+@size 10771
+share/vim/vim74/syntax/docbksgml.vim
+@sha TNGnaMkqR3UelnuV75BVT3rjzR/pw5CaYEzsUbb10rk=
+@size 193
+share/vim/vim74/syntax/docbkxml.vim
+@sha Stm9ZHfmTrQ3YFrdcZfEqX4ATWr8d693+QLL3Nggqr0=
+@size 191
+share/vim/vim74/syntax/dosbatch.vim
+@sha j1qkZYllThncDUMQEi2vs/j48Xp6XXrp/+sR3zZ8XDU=
+@size 6617
+share/vim/vim74/syntax/dosini.vim
+@sha 7rpwpb/iOCDl/8HG/qVeHeYdBLSRqwxWzwBARZ5n+fk=
+@size 1548
+share/vim/vim74/syntax/dot.vim
+@sha ERFCN2KPvBMF+Sej6L3yycid9sB9ZcDgr2Op1bXsOJU=
+@size 3395
+share/vim/vim74/syntax/doxygen.vim
+@sha 7EVwAjrCB38JUQ4tnXwMOBrypCdxZOEWq7cMvI24/cc=
+@size 36046
+share/vim/vim74/syntax/dracula.vim
+@sha RSkV9BDhQcqkborp9Rkmc+5nqFWKmxrYmWx3khtGpDE=
+@size 3071
+share/vim/vim74/syntax/dsl.vim
+@sha sAXRAnaklaM7BdGWPkw7Z6nUuUokrKeTTtb3n34PE4M=
+@size 1312
+share/vim/vim74/syntax/dtd.vim
+@sha apu0nWXTaU5bsqcNW8jywl+jsrMYsX96UjVyJssAsq4=
+@size 5233
+share/vim/vim74/syntax/dtml.vim
+@sha WnjT+zEiQdP+ILhs73z1XMoB6U9Ld/MEHdHV8/dLtWU=
+@size 17073
+share/vim/vim74/syntax/dtrace.vim
+@sha kpjITsjQRCPs6BxYmwvVWRdh5A/H6lH7sX6evzqjEjo=
+@size 6488
+share/vim/vim74/syntax/dts.vim
+@sha qe6ZKqHlrr+qXFKFwmRMAkvAcf9LamKRrBKF/lrmmH0=
+@size 1210
+share/vim/vim74/syntax/dylan.vim
+@sha q9tMeHKmBbnXV8g+PWdqJ05WBBQb/Cp8HW/YgSuJ8ds=
+@size 3806
+share/vim/vim74/syntax/dylanintr.vim
+@sha h1KjoqR2bPoQMfKh8WW+zAykt9fI2HKTmytRA4Zuv/U=
+@size 1487
+share/vim/vim74/syntax/dylanlid.vim
+@sha iXBWG9iql/O5kpiFsGdg9SdvWg19TUxwO0SME8AqhMI=
+@size 1086
+share/vim/vim74/syntax/ecd.vim
+@sha yzgqxwEfSfM6FS4zFi4wxYc1qJM7e5g7mCh4QPewHls=
+@size 1559
+share/vim/vim74/syntax/edif.vim
+@sha y9xZHWpeOAYm5AjNaUxAbkijcLbW0hzNjD2P8incLSE=
+@size 1648
+share/vim/vim74/syntax/eiffel.vim
+@sha geaaqtrTa3OURh4tRKEWz/7SbCYZ5/700oxTyGin7JQ=
+@size 7234
+share/vim/vim74/syntax/elf.vim
+@sha CtNiZznkxBV01a6vDugEQ6sRfksaYrJYyV/VpyszayU=
+@size 2716
+share/vim/vim74/syntax/elinks.vim
+@sha B7Zbe4IqkIbL3tgSPhdsikuCTVkjFG8CR/bsjPalZug=
+@size 10482
+share/vim/vim74/syntax/elmfilt.vim
+@sha K5W1MpnLpT1qzZwDgMbDosv2cskhkY0urHKIQOI2fwI=
+@size 3264
+share/vim/vim74/syntax/erlang.vim
+@sha T88tvHYVurFj9/7z6h/a+7RtiGRKxr1HAoQL77vVzos=
+@size 10887
+share/vim/vim74/syntax/eruby.vim
+@sha HlaqEGUWPePzi6JjGY7w9Kib47IJxN4mK/zdfkRb6Hw=
+@size 2893
+share/vim/vim74/syntax/esmtprc.vim
+@sha m1ZOSpAje9umdWIObdSmLJQGWUd3X92ykpjIEqLVYIM=
+@size 1033
+share/vim/vim74/syntax/esqlc.vim
+@sha SL041g+ypy59NP2QKUgNJnJDZyvYqZp+6MDdPdSpnc0=
+@size 2558
+share/vim/vim74/syntax/esterel.vim
+@sha hMnb9wPCcuo0pXRizQJxLQq0KYLMz0VMvBRyL3ziIGQ=
+@size 3352
+share/vim/vim74/syntax/eterm.vim
+@sha nSUVErXP+cXN2w4LKqqo6IgGcl9Hozafbq/OBDvXoOc=
+@size 19160
+share/vim/vim74/syntax/eviews.vim
+@sha AzQumFaXw48CDF+9J/zEesqqbaWG0H4xVcYdO1w8p1c=
+@size 5415
+share/vim/vim74/syntax/exim.vim
+@sha R31R0wy0QVb79S3YcUDHWGntUA22JUjxV8XCmHZN69Y=
+@size 18270
+share/vim/vim74/syntax/expect.vim
+@sha ItcGrjwOSrKrQ277EvtPrbuI+A/VPDs3tExToNi680M=
+@size 4114
+share/vim/vim74/syntax/exports.vim
+@sha N9TphsOfet7UAMB0oBcxOP846HZ9CmtAyvG79RjPwTA=
+@size 2134
+share/vim/vim74/syntax/falcon.vim
+@sha lAf5VRLWTg37H0pnf/mmvcFEenYywawhrkA28pF1EqM=
+@size 11957
+share/vim/vim74/syntax/fan.vim
+@sha Tfs+pgAcNrVyyFWXlzTwQHx35OZJfYR3jewxlvInCUs=
+@size 5445
+share/vim/vim74/syntax/fasm.vim
+@sha EpxuOaFSIQoO7f9UKG2gNq5mM9Jwte/+AVtzf3XYU+Y=
+@size 8748
+share/vim/vim74/syntax/fdcc.vim
+@sha 7Qxsdnexq4lKAQ07caEA5js60lAWZQuysyc8d508mOU=
+@size 5961
+share/vim/vim74/syntax/fetchmail.vim
+@sha 47FYdGKh4rZhre9/RojkO+5s1u0a2aovD7dxfE88tXU=
+@size 3296
+share/vim/vim74/syntax/fgl.vim
+@sha Rq5gJlCAivd6x3gb97bCAAz0D3JQpxcJMARJYilHZS4=
+@size 7663
+share/vim/vim74/syntax/flexwiki.vim
+@sha yqD2ImAWT/NIwqtyUINJmR/2F2kUCndWpP0CNkqoAmI=
+@size 5468
+share/vim/vim74/syntax/focexec.vim
+@sha f1/2lseLWCgnMuqFfdUCYDHiPXur4dwjwxWJxLd2z6w=
+@size 3910
+share/vim/vim74/syntax/form.vim
+@sha 0fbkga9dV/vGSUGIelHnMtuWk/cxOePNwNP9dQaneag=
+@size 6813
+share/vim/vim74/syntax/forth.vim
+@sha CqyUPG4i+hpHAUSPZVxnYMhRw2F+t7ipVe0sgKTP8Fo=
+@size 13518
+share/vim/vim74/syntax/fortran.vim
+@sha 10g9QU38dDx1wJIAXK3YZ9yJSPtdRiHaD+FF1Q9mONk=
+@size 26545
+share/vim/vim74/syntax/foxpro.vim
+@sha E2W+Lm1fIAnOyhP4lF6UOOqmzoLV+cUtLePUpForU4Q=
+@size 33150
+share/vim/vim74/syntax/framescript.vim
+@sha 8qYarHkDQ4Bi6h1TgbjibNjrS+rcPw/l15x4gha/5Hc=
+@size 11667
+share/vim/vim74/syntax/freebasic.vim
+@sha HPEBe9CraiwOrqisU9LjFtDKBdw9a6lmKuL6phmlOBo=
+@size 10512
+share/vim/vim74/syntax/fstab.vim
+@sha Dko2Rux+xjpU9LPful12DGPkwp3wkGkSC5kl7e28D+E=
+@size 15525
+share/vim/vim74/syntax/fvwm.vim
+@sha YS9svZgpCBao11MAttySw5c9fHqT8BTIXP6BmDKUivA=
+@size 25026
+share/vim/vim74/syntax/fvwm2m4.vim
+@sha ANHTUtwE5fDAiMU2Mum6BPiSpTlaUlE+LDX350sCSzc=
+@size 828
+share/vim/vim74/syntax/gdb.vim
+@sha rV2gsih9Uy2tZ09H8/m5BJx0Smo1uQH7r+SoTZUUFh8=
+@size 4746
+share/vim/vim74/syntax/gdmo.vim
+@sha RKy4B9YeG9mBCicJ9lIuXUoNBrcd0c0BLnQ4Mmvb8N4=
+@size 3678
+share/vim/vim74/syntax/gedcom.vim
+@sha 1r7P3fD+jS+0JLVuxDvRSAUdtrBhqJ01FNNZO96afQc=
+@size 2673
+share/vim/vim74/syntax/git.vim
+@sha NhI9zoeojG3Gr7VZ+WCADaif6b1rvxGDpnC1+is3p/I=
+@size 4156
+share/vim/vim74/syntax/gitcommit.vim
+@sha oQ2SOLdeEipV35p/hqY0raXxEtBD5JT3ueA4Hjwhbho=
+@size 4836
+share/vim/vim74/syntax/gitconfig.vim
+@sha uRxCWGBTMa1p/u1bZyVoSZWgSTPNzowOGxEZls1g8bE=
+@size 1616
+share/vim/vim74/syntax/gitolite.vim
+@sha X6Y96z/0YrWbj+kv77Lv7REgLeOFU7HWotH1ICmyEzM=
+@size 3586
+share/vim/vim74/syntax/gitrebase.vim
+@sha S4cKPoMIKymno4zkd2UWatxxMRcLMuAmO1V17NT3Xx0=
+@size 1727
+share/vim/vim74/syntax/gitsendemail.vim
+@sha +hCxvLfbxfbqHD/6YrjGjxuK0DAbVFc8n77CFULgO0Q=
+@size 437
+share/vim/vim74/syntax/gkrellmrc.vim
+@sha dxOlu/ikkJ7sS3EGbyzie/7N+pFOc/1/ZwE6NmbRZvs=
+@size 4342
+share/vim/vim74/syntax/gnash.vim
+@sha Rl5LulejD76TNSMkrQeLhn+9cF3kEEvcnSNpqKUnCTw=
+@size 3559
+share/vim/vim74/syntax/gnuplot.vim
+@sha IqlZlQlwPZPdZm/PMfGmhG18W+/XpV3k2/bkWUcm670=
+@size 9636
+share/vim/vim74/syntax/gp.vim
+@sha flxji/7ZrlgIDiC5rhmijW23ZpH0eQu4jo00ZkH7uGI=
+@size 3138
+share/vim/vim74/syntax/gpg.vim
+@sha 78pAQnIPrDFKxRGnscB1cUfXjB6tLqUbkM55A1aCjGY=
+@size 5579
+share/vim/vim74/syntax/gprof.vim
+@sha rZg9AIjMz21MLS9K1t30Dt8+r5vQbRQLL/Jm7ZGoV74=
+@size 2117
+share/vim/vim74/syntax/grads.vim
+@sha YjVf+EsZ3wYH+rS6yK12dK1dCdfIE2k1ct+k4udQCXI=
+@size 2108
+share/vim/vim74/syntax/gretl.vim
+@sha ueLi8IYm+Zoi13S2FktX52EgjhxtsqHKjCkQMiSM3Fk=
+@size 4144
+share/vim/vim74/syntax/groff.vim
+@sha m/KXFGbN9pa/dXzznXNk75wRZHgUmvfQ4FlVZxqZGkc=
+@size 292
+share/vim/vim74/syntax/groovy.vim
+@sha AexWP6GLvVDz+cclrOq4skx9/l2O3+g/JIxx0tN15qs=
+@size 22880
+share/vim/vim74/syntax/group.vim
+@sha YLK3Xg3BWvL4azrQ6exYV100ySHic+h1xtLhK4ehMUo=
+@size 1707
+share/vim/vim74/syntax/grub.vim
+@sha HUf23U9RVJnc5rdYZwv99xRC+d5b+1xbxvagwBHtriA=
+@size 3870
+share/vim/vim74/syntax/gsp.vim
+@sha BeqjOYV06O+g93YQX4DEeJwyCVRjWNtKekRLb3OVerk=
+@size 2260
+share/vim/vim74/syntax/gtkrc.vim
+@sha KTpv/2xLx0nrb8ynqYAybPehneYGvmx9ZHNDfv7hOSs=
+@size 9476
+share/vim/vim74/syntax/haml.vim
+@sha JNn5tVet70/mmTrGopGX5iu7Aj2dQw0daOn7VuAPZ2Q=
+@size 7024
+share/vim/vim74/syntax/hamster.vim
+@sha lw3tPG8Gb7m53JNCdoI8SZ9q8UZEWCTcHbGAegZXKVc=
+@size 14233
+share/vim/vim74/syntax/haskell.vim
+@sha ZeJ1onr/6jMYaZuI0ZjzztiYQxScA+YZXoUfPc1w6TI=
+@size 8733
+share/vim/vim74/syntax/haste.vim
+@sha U05rrnHp0SAuj+LMSoVfvVhZphnjcpmbbu9KI6HqUR0=
+@size 5089
+share/vim/vim74/syntax/hastepreproc.vim
+@sha qOGltQtdZC/IaKe1QViH1sTkgQsYv6XJUEw7Cs7dbWY=
+@size 1633
+share/vim/vim74/syntax/hb.vim
+@sha 0ROY8S43AJNQbzUx0qY7XNV6qG6ouUDYk8RvC7IL17I=
+@size 3549
+share/vim/vim74/syntax/help.vim
+@sha TputJf9uGc5wTHgiBTAX/nNijFDc+1YnrpqRpFxem+E=
+@size 7919
+share/vim/vim74/syntax/hercules.vim
+@sha IRe8PZUMBwEYemDCovZl77UksP9ss+J2TDcmliafxt4=
+@size 6150
+share/vim/vim74/syntax/hex.vim
+@sha WwxD4gGg2+hCWNRnD2Q/ueHF+/dmv9mzWsesDevnDFM=
+@size 1692
+share/vim/vim74/syntax/hgcommit.vim
+@sha e4/qQjbFpK9llP5F67JNS8Fg29qlNwaAgC52Oc8zX/k=
+@size 1114
+share/vim/vim74/syntax/hitest.vim
+@sha 1Z1Go51ANxB9hzXpuKa4evO8t9aFJ+8oUi07bf9cT0I=
+@size 3685
+share/vim/vim74/syntax/hog.vim
+@sha 3hVPqHtzVYnEVIvr4ttZxiQv2IPex+CBqM11rkjLsOc=
+@size 18161
+share/vim/vim74/syntax/hostconf.vim
+@sha cbXRgL63gVB9eNBZcpk679JbQ4ijzFgjyXV2nWWmZU8=
+@size 3858
+share/vim/vim74/syntax/hostsaccess.vim
+@sha c3oRgYX4dCvM23gDHXom8afq1IdOhzxNEUTqFunyQaI=
+@size 607
+share/vim/vim74/syntax/html.vim
+@sha GZ/nvV7nXCzrDAm7gUGquLN7YZ/IUv7SEnXP0xvpdFU=
+@size 15839
+share/vim/vim74/syntax/htmlcheetah.vim
+@sha Xx9++i0raUrfv+KDjo6FdDd1fCZTxHBqUsm8rffG8aI=
+@size 672
+share/vim/vim74/syntax/htmldjango.vim
+@sha ukzqPjYyxHyR+IjAh2GqxC1Sz1ffYVPgfQC5eAk+5o0=
+@size 1182
+share/vim/vim74/syntax/htmlm4.vim
+@sha 4W1RdJG1EYzVB/CFyqpa6rzunWt1510DUgoam+EyXBM=
+@size 874
+share/vim/vim74/syntax/htmlos.vim
+@sha t0wZRnmp0ua1UWvA8byigKRAEnGuHPDfDuuHQjwBxto=
+@size 8743
+share/vim/vim74/syntax/ia64.vim
+@sha rNCSYzUq6oZF3KrLc0Iptm+rj5c7HL64rcZYNCEfwxw=
+@size 10938
+share/vim/vim74/syntax/ibasic.vim
+@sha b3mlC0Bwbgc0J3PRTsrBINcNuGWvkxEoIV2g75tfOlY=
+@size 7036
+share/vim/vim74/syntax/icemenu.vim
+@sha KQICmSncFyYtnbXkr65OgLz5rG8izUYEQUkokRucGCY=
+@size 838
+share/vim/vim74/syntax/icon.vim
+@sha LcMfJoppMMZ4xMub++oJ4I/enVbcivWRmjSFA449FHI=
+@size 7294
+share/vim/vim74/syntax/idl.vim
+@sha obpMsI3rXVfGEGtXU3X+ZOVHi33FJsP9Zm6MFWPTVk8=
+@size 19586
+share/vim/vim74/syntax/idlang.vim
+@sha cZpeiJ2R0VJ7jrU/PfiNVsR4Hzyn6OGtax5AG24U6Ps=
+@size 13826
+share/vim/vim74/syntax/indent.vim
+@sha 4kuYLheSCa+ZtEnN9ehNidZYSmQt3cAUyrRP/Rne2zE=
+@size 7151
+share/vim/vim74/syntax/inform.vim
+@sha sjMNqtP65z6u41ILLVltB1NTG/dfy1R/1eihnrxIaJI=
+@size 19766
+share/vim/vim74/syntax/initex.vim
+@sha LcoVAS1xmS+iQ1UO0e6xpKqNGJXsw6o91ELRWNd06wk=
+@size 19211
+share/vim/vim74/syntax/initng.vim
+@sha no6COhgF3UpOMsG2moo7FZdgiDkkZbzI1vQT5rk7Blc=
+@size 3398
+share/vim/vim74/syntax/inittab.vim
+@sha 5Kzp/7l4fLWc56+4ldhqVhBnyTW0WiwrQgLC24X97vs=
+@size 2829
+share/vim/vim74/syntax/ipfilter.vim
+@sha D55k+1dVRshbe0wJZRsihHuJdfnHC7n8hg7wCdxyHlo=
+@size 1717
+share/vim/vim74/syntax/ishd.vim
+@sha qsr0pP3XPBsDxogyJGz3OnjTbNQFv4s6uhBo23a7Koc=
+@size 27423
+share/vim/vim74/syntax/iss.vim
+@sha FZSuT1M5Fr2uHVBQwz5X5U1OiIpDTFDOr+F0wsy6psI=
+@size 5361
+share/vim/vim74/syntax/ist.vim
+@sha wLVsYt/cb4eQNUQDF5LK1j3BNE99MW6mqdtTFoXzwrA=
+@size 2446
+share/vim/vim74/syntax/jal.vim
+@sha mxHal89djw+H0jxXFAys6grr78hTKznASE/s+ftFFIo=
+@size 9202
+share/vim/vim74/syntax/jam.vim
+@sha FoGZ9CDRXasjJ3OYAb9naJnif9koxUw3FFt9+IJ411g=
+@size 27113
+share/vim/vim74/syntax/jargon.vim
+@sha BoWaA3OiHIN8Ya7H8MPK6vfRG67hLhxjQL1h1hoyVcU=
+@size 1006
+share/vim/vim74/syntax/java.vim
+@sha CpqHPiQeqU1/jnaP8qHjl8rpLxI+iWe31USB4Oa0ol4=
+@size 17520
+share/vim/vim74/syntax/javacc.vim
+@sha 6bp7DNqsTbgHdJwRbyc3YDa/vCiXfyBR3OZIXR1D9Bc=
+@size 2711
+share/vim/vim74/syntax/javascript.vim
+@sha U0JBYWzI3kI+wOTGWHR81kW1b0fOGGWAvquwT6dLnug=
+@size 5470
+share/vim/vim74/syntax/jess.vim
+@sha Bpj23uuuvA0vbgp9GNQcgqVOzKb47MNEpCP7LzPZU8s=
+@size 6682
+share/vim/vim74/syntax/jgraph.vim
+@sha kzelYb6N3iXiOoOYJFC4Yn5SPP/naeJfTwgE63geiYM=
+@size 1616
+share/vim/vim74/syntax/jovial.vim
+@sha mHGd53nNB6aCRbLU9R0cXY+AV1as8nfh+57Te+HKSAM=
+@size 4107
+share/vim/vim74/syntax/jproperties.vim
+@sha 6mfnfhI3JJURnnQ69mrtSz+GWxY10JYOLk044cuo5rg=
+@size 5892
+share/vim/vim74/syntax/jsp.vim
+@sha aX1rC0M7Nk/Wf4SgVte/DwcJu2tByRblvye0t8wiO2Q=
+@size 3122
+share/vim/vim74/syntax/kconfig.vim
+@sha QGWaE2iyYGihnG+h70KLQlDNYmkX5nVbrl2FNwoKUS4=
+@size 36137
+share/vim/vim74/syntax/kix.vim
+@sha BSWaQGhNHirddfEsCXS4QJJLw1WPe56dD9iNogXPNo8=
+@size 6579
+share/vim/vim74/syntax/kscript.vim
+@sha uzoaDxMZj7bdxBA2WwTJW01/z9GbkqF5tBScPzKxlZ0=
+@size 2367
+share/vim/vim74/syntax/kwt.vim
+@sha j98xL+1QaZL7ErSgpwxdWE0fhtvi4Zxi/Ks3begc2bE=
+@size 2918
+share/vim/vim74/syntax/lace.vim
+@sha mm+inPfABXnt4qCxj0PevCLy20USVxmhep98KzkR6X8=
+@size 4418
+share/vim/vim74/syntax/latte.vim
+@sha M9IdV9WY4t5KG1ogPz9Q6CE/nE0h6xmqZOVX4OxuhBM=
+@size 3989
+share/vim/vim74/syntax/ld.vim
+@sha jD8xmx4dg3VYoMK5F6oQWmIoHcvSRcu7XKEq5LfK+rw=
+@size 2890
+share/vim/vim74/syntax/ldapconf.vim
+@sha dbX2BizyqhKKkS9bewKHsjWiqUzKCyLYD94mAuwJKyQ=
+@size 13290
+share/vim/vim74/syntax/ldif.vim
+@sha kcvyTmu1e41SnjD0Oqiq+OESuhQ+KJ0qCMbZi3ftFYs=
+@size 1216
+share/vim/vim74/syntax/lex.vim
+@sha I69lyF1kPSS/ilY87ELTmdjfFdF6GLVDRX8aglNbcDM=
+@size 6770
+share/vim/vim74/syntax/lftp.vim
+@sha MSj6MnFuM5jA5U5UK89BFUQP863/zlkTxjBOj1lgSnw=
+@size 7459
+share/vim/vim74/syntax/lhaskell.vim
+@sha L+MW6eHc8o4l5IxEUEEBAxNhZGl52YCTLW8UalMxlKo=
+@size 4997
+share/vim/vim74/syntax/libao.vim
+@sha 0A7WxOilz0xNb1BbXR/A5ylQkXtDS/RK0UoTUaoAsmk=
+@size 624
+share/vim/vim74/syntax/lifelines.vim
+@sha 0Pmj3lsMqHQp+u8yPErnxv384WL6Qn5d7XFZhbCBVwY=
+@size 6911
+share/vim/vim74/syntax/lilo.vim
+@sha gRB9JeXhDiJuzY/B5GVpwXPQO7PLLA0K0kiwDuTJOG0=
+@size 10672
+share/vim/vim74/syntax/limits.vim
+@sha SvYkH6M7h+V9vAppRmZUaDqYqWWjZufAEyhn8Zzmeq0=
+@size 1305
+share/vim/vim74/syntax/liquid.vim
+@sha 7mVCF2uuVr/AFQqEi2/944wjIyYAMU97npl74zQUHSc=
+@size 6184
+share/vim/vim74/syntax/lisp.vim
+@sha w08kHSKWTAqs/cIn6zemoP+mrdel9A1X7WfV4br6gF8=
+@size 36416
+share/vim/vim74/syntax/lite.vim
+@sha 2PbAlMD+BadxMC4e6SRMBnlHLeAn7Lt/QSWbYeuV0CE=
+@size 5197
+share/vim/vim74/syntax/litestep.vim
+@sha baxRXpzw9CjBLimIW68jpRUpesWr0SPg6Vf2itqPjT8=
+@size 6664
+share/vim/vim74/syntax/loginaccess.vim
+@sha 2Pvboms1woihW718fhsWV2CHUWeEzGrHN8lY5FAwNOw=
+@size 4185
+share/vim/vim74/syntax/logindefs.vim
+@sha NkgORO1ZERpVsT52Dd8n68R/NmosfQNdl7Jh6KHYwaI=
+@size 7525
+share/vim/vim74/syntax/logtalk.vim
+@sha /SrtCkX5TB4Dp2Gih6h12RMko1iIqxa+buONVFApVjw=
+@size 16291
+share/vim/vim74/syntax/lotos.vim
+@sha XMqra1zgwYBY8+IeczKac1iecu7dZWA90uVM/JpsgAs=
+@size 2760
+share/vim/vim74/syntax/lout.vim
+@sha E9fAFsUCc0v/AFp6WWqgJqs9QP24THWSqVyGkVg5P6s=
+@size 4797
+share/vim/vim74/syntax/lpc.vim
+@sha gl1YDMQw6getqh3Kc65Wul+Yax5rchYal/nbRw96kww=
+@size 23387
+share/vim/vim74/syntax/lprolog.vim
+@sha VUqSa+LI8C1uhJ5a/VOsZdfzMz6TPOcc74orupkiU6E=
+@size 4352
+share/vim/vim74/syntax/lscript.vim
+@sha NoxElLSsIKqybhtkYDX1DEWo2MjVsNy0GwQPefYmQSQ=
+@size 12486
+share/vim/vim74/syntax/lsl.vim
+@sha LRfEHJv2/awoXtJskmfV2eaodDMHNe0YLv7Z3bJXioI=
+@size 15800
+share/vim/vim74/syntax/lss.vim
+@sha R4PX0dzm4XkTdl7khcyF/4irnSQ8RQ3oRSHuXp3bxRE=
+@size 5262
+share/vim/vim74/syntax/lua.vim
+@sha 1U+YGkt7CZhgd11/aKi9DWraHXqZ/8HGJHPacJ+EVhI=
+@size 14405
+share/vim/vim74/syntax/lynx.vim
+@sha ZDee/jmUEGF040XW4xi/ZJetn4tCdA4nF0EedJrkl5A=
+@size 6579
+share/vim/vim74/syntax/m4.vim
+@sha ZRipH1D2mCdyjbm2QbELfRidbAlkZiw3w7K1mqEvcAY=
+@size 3063
+share/vim/vim74/syntax/mail.vim
+@sha pFkiJwBXq7GLyZezIHQY8TudsDD5OEaw8qBtNDIJM1A=
+@size 6069
+share/vim/vim74/syntax/mailaliases.vim
+@sha y/S0Q8ayPK6MC6Z8ArlyVn7c6OLXQFT1KVnDtTef4oY=
+@size 2755
+share/vim/vim74/syntax/mailcap.vim
+@sha 14TYILdnaRQS9J6Ke7KZ3HfBbcMAv3AAIdw5LWSCoaY=
+@size 1135
+share/vim/vim74/syntax/make.vim
+@sha iDjR5uJWFow9zCgV31Py/3gZ/XGbRgzRSeGdEvxHFz8=
+@size 7046
+share/vim/vim74/syntax/mallard.vim
+@sha Hd/XJ8nJcRCpZsKKDOwCUpATmUqJVjOpbTexLfOhzKk=
+@size 1726
+share/vim/vim74/syntax/man.vim
+@sha zcJ5lWPKix0gtjZfEiNZmQp0conHanw04Sb8IN/HT1Y=
+@size 2039
+share/vim/vim74/syntax/manconf.vim
+@sha v9GnhDub8qjU2urruadkiD1eaDRhyzfDOd1WoJFt9QY=
+@size 4332
+share/vim/vim74/syntax/manual.vim
+@sha JwlCg2pZSdjY9ma3IDcxx6UxVpl6CzBlTa2bsqidD0w=
+@size 803
+share/vim/vim74/syntax/maple.vim
+@sha wrbchpao9qlr7dwoJrva3/w0agelYIdlGCw4+HTZ3iQ=
+@size 28625
+share/vim/vim74/syntax/markdown.vim
+@sha tqHBcFoku8MGcoP9LaFXn6DYvkRFYmh2jalk8h8kCkw=
+@size 7280
+share/vim/vim74/syntax/masm.vim
+@sha Eqj7w5VKy2eS3qIuHEpq2vKf0mn2VEmfk5POUaMn8uY=
+@size 17225
+share/vim/vim74/syntax/mason.vim
+@sha eGvLdHVjSRQelD6Zk1Banl0zkijYhB8cD1x3g8JlLoY=
+@size 3470
+share/vim/vim74/syntax/master.vim
+@sha f+gw9qSE69iYgh2apqH18g7ww17mmQqZhw+lUzKFZPI=
+@size 1435
+share/vim/vim74/syntax/matlab.vim
+@sha FDFg6mtMANTQOAdns1on6y3cZ+55MHoPJq25Mccis9Y=
+@size 4329
+share/vim/vim74/syntax/maxima.vim
+@sha yWj8mN63N02/WpUoQ+7gMIA+xz3p4r1iuGgEqXVBzl0=
+@size 19163
+share/vim/vim74/syntax/mel.vim
+@sha SarFDbey6QX9PVxkdo1++OniQVGGCJk50D7TrNLhaKg=
+@size 3741
+share/vim/vim74/syntax/messages.vim
+@sha f74Mm4KiOC4QxMmvFvy4kvS48rY/Utgh5mjYTYS2Rx8=
+@size 2549
+share/vim/vim74/syntax/mf.vim
+@sha jQmkjSPaaQb74ObUG0OkA0QYEH99BqwIwVlMq6VVFTk=
+@size 8244
+share/vim/vim74/syntax/mgl.vim
+@sha 5NLJEFEnw+GRywqf68VP4liFsVUFCiK7RyckVYQ92dQ=
+@size 3958
+share/vim/vim74/syntax/mgp.vim
+@sha RgPHptYmrsjYLS7M9taHipI53LPJpSYHh5QJ9Ioe8wY=
+@size 2399
+share/vim/vim74/syntax/mib.vim
+@sha 8IH3iQTtrXxp21nG0z8J6OEvnmYaH1aoG0LTEum2o3U=
+@size 2696
+share/vim/vim74/syntax/mma.vim
+@sha plOXKGeNdffkc8+dUauT5h0Z21BE0hEQDcn9gkAkcDw=
+@size 11967
+share/vim/vim74/syntax/mmix.vim
+@sha I0klPv2uHbek18xuxuinfAGzoZungkouR+zgzGTv4Bw=
+@size 5247
+share/vim/vim74/syntax/mmp.vim
+@sha H0jHmjd897NptcrQb6uVQz1FVfSZ/QnX/dkI/EHSpZk=
+@size 1666
+share/vim/vim74/syntax/modconf.vim
+@sha lLAb0R9nDFcd4bNYBqWNFsFPUzcexwyIe0ij4ZQstmI=
+@size 1407
+share/vim/vim74/syntax/model.vim
+@sha pwHkULqq23h8a7J/oNkIuDn9Fqa8EsDNbX+C34qG0+w=
+@size 1469
+share/vim/vim74/syntax/modsim3.vim
+@sha wEPlAc6ZltZuKHjQ3Wj6RYKBkf0+ka4mV3E2pjSUvIM=
+@size 3956
+share/vim/vim74/syntax/modula2.vim
+@sha 7kdYJcqgt7YU7eyUqzR0+TxH5LiYGG07OoCAjeStVAA=
+@size 3620
+share/vim/vim74/syntax/modula3.vim
+@sha AlhfkdbsUzHfkNziSfxAfeBVb3y4PSbjHqszFdF+Nw8=
+@size 2426
+share/vim/vim74/syntax/monk.vim
+@sha esuHDnBnr7wjXpJrmDhmI7H531sE83jIoekvlJn9+R4=
+@size 10693
+share/vim/vim74/syntax/moo.vim
+@sha s5JHJejVPh+yQ/IfT6sDp6ulfssvkSX2ED+yYdyo3Vw=
+@size 9251
+share/vim/vim74/syntax/mp.vim
+@sha s5ZayZcwx5VaBjipTtw1UkzxmjM2JfjwsQOhHWBgIsM=
+@size 5757
+share/vim/vim74/syntax/mplayerconf.vim
+@sha oKHy26VgOFT8D/RLQ0lc/4LVCBRUeamibLwb1hdDKbM=
+@size 4391
+share/vim/vim74/syntax/mrxvtrc.vim
+@sha EUWR6TL5X2iY202IaVqx5yTmK7dbwF51JtNMmKKS8Zg=
+@size 9603
+share/vim/vim74/syntax/msidl.vim
+@sha 60tcktBzrp/HkO9rGk9WOBCjNh3PfImHVJhWH0yiN5k=
+@size 3830
+share/vim/vim74/syntax/msmessages.vim
+@sha DcD2M6DEMgV1nCle1pDl1Clbkdjiwh5cpwxozpmUtLA=
+@size 6413
+share/vim/vim74/syntax/msql.vim
+@sha RDqX/qREHU+UA6rVfzgGuyM3gmkInUJl7/zxE2rTItc=
+@size 2800
+share/vim/vim74/syntax/mupad.vim
+@sha ro2+AavQv0ZYpteZhDOHCQV/31h0oSS/M/Ex6o2IKHY=
+@size 15775
+share/vim/vim74/syntax/mush.vim
+@sha lkhK7DiTblCqd4hOZ9TgJSjHV68nI8yHc3MObFk9zi4=
+@size 13466
+share/vim/vim74/syntax/muttrc.vim
+@sha inoLVz/bW6A9vnY1+jvFkdRSmKtjGwQjh26kR7OgsSc=
+@size 81075
+share/vim/vim74/syntax/mysql.vim
+@sha RXeycw65qHmyB07qd548yW0gY+fgxB0wlqm66Js0Szs=
+@size 17874
+share/vim/vim74/syntax/named.vim
+@sha C/GtR4XmfQkC6dan8fGOlkErRlZXZ90hoZg2OzxCsdU=
+@size 10417
+share/vim/vim74/syntax/nanorc.vim
+@sha ZBRDUbO+BNnlboTz9HaLDb02jDR1YAqabT8V2I6Rfcs=
+@size 10608
+share/vim/vim74/syntax/nasm.vim
+@sha 2ft9Wjok47/gvq5hIl//vXD7ntz8niZ9Q0Jw9qBGC+A=
+@size 25582
+share/vim/vim74/syntax/nastran.vim
+@sha qq3DLXZLYnkD3oJztpQL102LWr6hAQdjDoUUAl/VoWY=
+@size 8733
+share/vim/vim74/syntax/natural.vim
+@sha ercMcSxDSigwoZMZB2O5Q2sMK0v8A950nqQ+0jGbz58=
+@size 7283
+share/vim/vim74/syntax/ncf.vim
+@sha 2zKGgdKDmNdfHCvU0JjGyonGhW0bdRist/N/EahHo3E=
+@size 13666
+share/vim/vim74/syntax/netrc.vim
+@sha szpuVqjWAovPvrg1gxTOnU03IVAxgM+R28LXcavLbcU=
+@size 1922
+share/vim/vim74/syntax/netrw.vim
+@sha ex/aAiEM466zWnPrv1nCxQ2VW5bw3Ki6PYJdHIb4Pyc=
+@size 5845
+share/vim/vim74/syntax/ninja.vim
+@sha CfrtJQcxFt5X5hynDAD+90EyOHRushSBzAVGXctQg9c=
+@size 2555
+share/vim/vim74/syntax/nosyntax.vim
+@sha WZEbVKzCZUwvPjRKdGqzFuuG2oTjzxqlwKP6wyWISEg=
+@size 755
+share/vim/vim74/syntax/nqc.vim
+@sha xpYiT+aRhH3CNCPWHjiRjQuv/eORvpIi75oD1g0i0AM=
+@size 14384
+share/vim/vim74/syntax/nroff.vim
+@sha Qz23u5urYCFJg7iSZayn0ru80dHG/yff5Z5B6Z9ujiQ=
+@size 8040
+share/vim/vim74/syntax/nsis.vim
+@sha EB+SMg9nMZHlCX/fgmH200TYgZtHwU3atf/yvx9Gnt4=
+@size 9876
+share/vim/vim74/syntax/obj.vim
+@sha sOXINYItRJqYUchaVM+KV69N6PQywl7nvec89EmzwMY=
+@size 3161
+share/vim/vim74/syntax/objc.vim
+@sha xxDK8q89gYx76cd5Mfnu/IrBgP+p3ZBfxrk+3VLawsI=
+@size 30435
+share/vim/vim74/syntax/objcpp.vim
+@sha AwyQ0HpsYHOq+u56YeHF1B88joDSp0vgDNWWdo3jaQE=
+@size 786
+share/vim/vim74/syntax/ocaml.vim
+@sha /86tPd/LuisyN8Iz+jIaA8fCU1leX6G14YYRV9ARlmY=
+@size 13826
+share/vim/vim74/syntax/occam.vim
+@sha 7igDrFxbA68RjCuWJYdPue0gKEt4slEWPSg/7UvKhK8=
+@size 4472
+share/vim/vim74/syntax/omnimark.vim
+@sha veONhQtJ/PeehRyxebPmfWHfNYTtADj9/pTR0rTtbO8=
+@size 6854
+share/vim/vim74/syntax/openbsd.vim
+@sha s11bRFVQQoJKjMjbfPZEeZ8oVqbraZhhStHfnjYTgB0=
+@size 2669
+share/vim/vim74/syntax/openroad.vim
+@sha hRRKCP3rNnSR2/Kfz7NAi3tFxl0stwa2YZn9F0/CEI4=
+@size 14344
+share/vim/vim74/syntax/opl.vim
+@sha aHoeajr7XuIUZWc8/DdOW1rOUfNZp458e/7SYSii6AM=
+@size 4524
+share/vim/vim74/syntax/ora.vim
+@sha USZM8Km0BIAGHRweBHb6UjDDwLuupCoG6l7MaB//Ysg=
+@size 27463
+share/vim/vim74/syntax/pamconf.vim
+@sha MF8xuOTnguH4mdY1q+IW+baOFf2Ewe3M2CQhG7YAf8M=
+@size 5534
+share/vim/vim74/syntax/papp.vim
+@sha c2rIjj9kuNzG5MUnglp/LkNBiw+rkVabi5a3z+4yRRs=
+@size 4126
+share/vim/vim74/syntax/pascal.vim
+@sha uLChWEIJVvrGE7VIY5dK11g49w8WzgNMTBOxCE+OPt4=
+@size 15325
+share/vim/vim74/syntax/passwd.vim
+@sha qbjC21Mc5CbylJl147q8M/G4j22+0+q4n53bZ8RJ/J8=
+@size 2431
+share/vim/vim74/syntax/pcap.vim
+@sha FMkt+4I5qZcIJU90ERCVRT4QqmXbzkXjFYU+yeIICEw=
+@size 1969
+share/vim/vim74/syntax/pccts.vim
+@sha lcbjNDk6DTf76Ypb/nrFYGX4udQqVrVcMBzfuBbqoVU=
+@size 4545
+share/vim/vim74/syntax/pdf.vim
+@sha 2sxAzxjLMSx/pv56BhceatK/cvJepE5iOjgh6zJtwdc=
+@size 3539
+share/vim/vim74/syntax/perl.vim
+@sha CDjpjildCDJTiLb9c5njsi7bVBoK7vSth6CiObwIkUg=
+@size 36570
+share/vim/vim74/syntax/perl6.vim
+@sha FW/h/iGt0gMHzLomxbVm3lt9VEvv3ysihEykumnS82M=
+@size 74415
+share/vim/vim74/syntax/pf.vim
+@sha jdEVeaxbW+XQKr+kh/fuL8ra8GljQfvFzk2PGoBZEkw=
+@size 3016
+share/vim/vim74/syntax/pfmain.vim
+@sha +/qElhLjZ9lbEV/0qGYWhluvcJy4y6QaQL7xLu2j5tg=
+@size 82833
+share/vim/vim74/syntax/php.vim
+@sha eZrchBWHGsLUz8ViRm25r6mcR7ftLCEFRdd+F6sgrEI=
+@size 81269
+share/vim/vim74/syntax/phtml.vim
+@sha zpESbMw7yUSAY/QLzhmKtFKCKa2v04AoXaV8qejSELA=
+@size 151
+share/vim/vim74/syntax/pic.vim
+@sha 5pk5qb4AE9NX0qA68IeT4B12ZkN/9ypUQZA6pqDncRs=
+@size 3714
+share/vim/vim74/syntax/pike.vim
+@sha Nu9he7txmoRL4kdphdia/sGfqvNWMYgIQtSVhxjz2Sw=
+@size 6703
+share/vim/vim74/syntax/pilrc.vim
+@sha OILSi93Is1utgIQ9K3J3rck3EZKWHTzKiRTdr72AMIk=
+@size 5505
+share/vim/vim74/syntax/pine.vim
+@sha XKUSzqI0XAI3OJmy5UzZK0r5FKUaEUBJGMYUHwik4mw=
+@size 15889
+share/vim/vim74/syntax/pinfo.vim
+@sha 7OBRJqaGTuEZbto/5uR30tp5x/K92ho4hzJ6vhxSmWs=
+@size 5284
+share/vim/vim74/syntax/plaintex.vim
+@sha QqXQK394WgON+J6KAAwRdAEL1sDq8QWlkER6GGdw+XA=
+@size 10289
+share/vim/vim74/syntax/pli.vim
+@sha W/XXQVY20ZJl2e03/OmRpqc48MyOviSkDl0dwW0OQwo=
+@size 13515
+share/vim/vim74/syntax/plm.vim
+@sha Y+5zwCm8UCrrLKnGC0y/i0MIualO+ag2qxucIecMp+c=
+@size 5703
+share/vim/vim74/syntax/plp.vim
+@sha pt3uMJJaeSthxR/8ODUhhdnG16XpMjgDxIGlWcgmAEE=
+@size 1466
+share/vim/vim74/syntax/plsql.vim
+@sha nMpqvF4BmGQFAuLIu+dLVeEwysnTHBKLkWonD8Cwl4k=
+@size 13230
+share/vim/vim74/syntax/po.vim
+@sha hpzdvTuIETckhxkNtRUAnuDkwvRsldBSSRyoiYcrQUE=
+@size 6363
+share/vim/vim74/syntax/pod.vim
+@sha pNziSjQ62djw3eFXmu0VH7AS6KdLziZ982bPIILJyds=
+@size 7674
+share/vim/vim74/syntax/postscr.vim
+@sha Yp6jwbYtS0AVBvzka/MI6TfeZzupXdrmHx29XJRkmSg=
+@size 46541
+share/vim/vim74/syntax/pov.vim
+@sha //ePcwT7HUXiJMBZKbnP/hUre7PbxwdS4I9Nnkaa7/o=
+@size 9352
+share/vim/vim74/syntax/povini.vim
+@sha l9/0FlQcAy6Pdhq8oDvwAVIStPl4ifEZBjeIbKB0zko=
+@size 3782
+share/vim/vim74/syntax/ppd.vim
+@sha iye7UEPUFMeYMeBP89z3wP1Ao9mC7C7kKgXFEC9OTBI=
+@size 1259
+share/vim/vim74/syntax/ppwiz.vim
+@sha nUEurq2l5/mfII06PK4KniDhMShmI/PYUHZ3G6jbPQs=
+@size 3179
+share/vim/vim74/syntax/prescribe.vim
+@sha DCUHguIONlSqRedtkzFHAjWLloXkpZJ6Xy3UIDIkC/g=
+@size 2787
+share/vim/vim74/syntax/privoxy.vim
+@sha fm9eULgfWpjCPRMLC47hbgqTLF2ju1wAtELW2VTF470=
+@size 3579
+share/vim/vim74/syntax/procmail.vim
+@sha p4eiTGgI2xrk46JZ+2u5NVFzuKJvUVydl5NOG91nGgc=
+@size 2409
+share/vim/vim74/syntax/progress.vim
+@sha SsQePfU1I3R8PiQJCoAmvxhrjN+mgAeCqsDXGzmRP+M=
+@size 32134
+share/vim/vim74/syntax/prolog.vim
+@sha 4gyWSMVvZP/k7MR1V3m8OouKmgUddEuAnFzEHaWIfMg=
+@size 4554
+share/vim/vim74/syntax/promela.vim
+@sha TTz8e8GQ0GZOR09ugV+GS35lutmnNkkSBZXhwiDOkcE=
+@size 1823
+share/vim/vim74/syntax/proto.vim
+@sha FF2Wo2nvSjzmp49c6rCMY0dJYVS7cesP5zHRj5hPTHs=
+@size 2924
+share/vim/vim74/syntax/protocols.vim
+@sha A0PsnZxcM9+6Ad1kKvSkwsX96uHcQ45hD637WmUeRg8=
+@size 1417
+share/vim/vim74/syntax/psf.vim
+@sha uhZ592Dyuf7AaW4eQZQoq8SIkRwWtgIb820ZpP0+F40=
+@size 4625
+share/vim/vim74/syntax/ptcap.vim
+@sha hTYQRIw9IWx28SeasnhavpLoMvHnTe/+TMQ1LsraY0I=
+@size 4459
+share/vim/vim74/syntax/purifylog.vim
+@sha EtaaPUqyB8tUHrzkAlePt6gFl2fBRRNTDT8rFh04B+M=
+@size 3628
+share/vim/vim74/syntax/pyrex.vim
+@sha ZZFJGidVnlDqPtQH+xhoEaQCRofBdloMtLIQgSeTcBc=
+@size 2045
+share/vim/vim74/syntax/python.vim
+@sha oDt9vYETynOofHrvDOQVdDNy34eKhKav5c2XxB9q3Bs=
+@size 11886
+share/vim/vim74/syntax/qf.vim
+@sha kzAtrXxRBzV97MHmvyqaR2AUjY61K6lRilx9k/boKpQ=
+@size 596
+share/vim/vim74/syntax/quake.vim
+@sha YD2MEmAwBN1JlcfWFQkhKJe4/NW2cakSV9QTmCQ+yF8=
+@size 8538
+share/vim/vim74/syntax/r.vim
+@sha JdSzg7GID3pM2BADaXPF1oqbshZDZolrhPd5eBeIQbs=
+@size 7628
+share/vim/vim74/syntax/racc.vim
+@sha qCnZ4cn1gqu02bZy7X9xckN8TPe2MqaqHSvCuJH+W4g=
+@size 5607
+share/vim/vim74/syntax/radiance.vim
+@sha wzTu9Tt/KLVWO2BJ/GXFa+60yfsRzPw9bVvvQbuQmY8=
+@size 7593
+share/vim/vim74/syntax/ratpoison.vim
+@sha pI8rUB0b1Ix394wWauo59vrv2bsNjkduKKZobXzowxY=
+@size 17601
+share/vim/vim74/syntax/rc.vim
+@sha POUzfm30bROB0C1XGeUglIAf51N3hiPxq+I3TgIk4rQ=
+@size 10435
+share/vim/vim74/syntax/rcs.vim
+@sha P56tXm1EiUCuYzTcam+KtMMz7RVWGQcgfJd3tw2BEQk=
+@size 2525
+share/vim/vim74/syntax/rcslog.vim
+@sha ruT5Oy0hjNT/xaobEyEibiuFOByTMfrwTij/c/GrnZg=
+@size 970
+share/vim/vim74/syntax/readline.vim
+@sha xMl/ayZNjB2LeEVdtdzYTf9LmMk3NABv8LE9GyzhB2A=
+@size 16630
+share/vim/vim74/syntax/rebol.vim
+@sha J0eVbJUJSNO2bFidJAIsOR7pHwlX0j6h4LmeCdSSAyg=
+@size 7549
+share/vim/vim74/syntax/redif.vim
+@sha 9BFxm0Aie5UjGLwC+zFfNY5m1io6YEyBJVT66puI7f8=
+@size 87970
+share/vim/vim74/syntax/registry.vim
+@sha OE8iXfAZgGRbokmallQFKZP48xMR+kXPZS3ZIQuf8fY=
+@size 3565
+share/vim/vim74/syntax/remind.vim
+@sha SzQ5KZadeNszbHA6KW/m38uEVHxc6InQTMHiBl1tmsg=
+@size 2777
+share/vim/vim74/syntax/resolv.vim
+@sha zlFZDrpLWLhkgugNQ0//Nk7ppmLXrDm0depmp8GE/os=
+@size 3171
+share/vim/vim74/syntax/reva.vim
+@sha m1CO/qzgzFH8AfwCIC1nfkke0qTbiB65Tf7YUJTJkdU=
+@size 7764
+share/vim/vim74/syntax/rexx.vim
+@sha cXb0boB1g4j4ebg+T/iwJ8lWK5qHeEw2uSscQnG+xCY=
+@size 15598
+share/vim/vim74/syntax/rhelp.vim
+@sha V9W0Yh5yIFZUpL0oF/XZindBOesKf+xtuyyn4hDpBrw=
+@size 10077
+share/vim/vim74/syntax/rib.vim
+@sha fPrMP2g7APs9GeO9i7QzXb1jduq7vXqRZhd2k+a06HI=
+@size 2438
+share/vim/vim74/syntax/rnc.vim
+@sha hsKyx3o2OjeFvyS9qLNKZxHn+axlypbGsBlgwDIWVUQ=
+@size 2251
+share/vim/vim74/syntax/rng.vim
+@sha tKHjTbQaUX42Z70FDpu5PncQZAl0ZYl8VODbc0IJISc=
+@size 817
+share/vim/vim74/syntax/rnoweb.vim
+@sha BtW+rfkXRudyLhtZiD72OmjYAGn4yctBeICHVqbJnPk=
+@size 2058
+share/vim/vim74/syntax/robots.vim
+@sha 8PlQI2hhvx/yhOL1RtrK8mt6fSei/QWVGnQExaKQIsY=
+@size 1840
+share/vim/vim74/syntax/rpcgen.vim
+@sha 4PyrdizhhielIfrl54wG5e2XoD1O1A55RR1O/Q8Shkk=
+@size 2159
+share/vim/vim74/syntax/rpl.vim
+@sha IX2oBgamr4P9ylbylQWY8YMSem5mpwiadTXQ2Jq5LgI=
+@size 25985
+share/vim/vim74/syntax/rst.vim
+@sha 6wJZvDcapLguAOr+pIWP9D8zBvKoThOsoVhQY/cpduw=
+@size 8266
+share/vim/vim74/syntax/rtf.vim
+@sha 3YlYQHN48wpeUfeXPQPNg5MphNKgD8uhPWfAEpC7kGs=
+@size 2740
+share/vim/vim74/syntax/ruby.vim
+@sha cAOMZF2tK9d9gyyM1IXVihYd07Fx9/cW8b81Myo5/Pc=
+@size 28422
+share/vim/vim74/syntax/samba.vim
+@sha trAknsska4GrTNLR+YuXPe/LgpVAmREioLZHPQAd2vI=
+@size 6524
+share/vim/vim74/syntax/sas.vim
+@sha 3Z3k+Wn6wm7UzgDVN8F3dcib288Dr2J7UBUe4J6GDfc=
+@size 12019
+share/vim/vim74/syntax/sass.vim
+@sha U0URauxXk2tPghSbpEhmDUZzYgsjge8TAFxKOPQq1Zg=
+@size 5735
+share/vim/vim74/syntax/sather.vim
+@sha zg8gHJXng/0/2zKEZyzDj/T4WpF6Tz8Fz8kXHOXJYNE=
+@size 3828
+share/vim/vim74/syntax/scheme.vim
+@sha PYRuYbvLmM2gtPNLleGq08e2Qmcp8PWIn++xBXE+0UY=
+@size 17667
+share/vim/vim74/syntax/scilab.vim
+@sha w1jFeIyQIcweUQmaCG2AZuRtyaZpnX4thsVtz8nMqWs=
+@size 3522
+share/vim/vim74/syntax/screen.vim
+@sha /POTQdorBhwKgsG4g5VH8ltYhlBbVQelgoZLgjFwOTk=
+@size 8521
+share/vim/vim74/syntax/scss.vim
+@sha c3FZVwMWr07XaT3KYUpSlTX47pW+2o7hIVGHEtykJ7k=
+@size 409
+share/vim/vim74/syntax/sd.vim
+@sha 0jlC4h0MDb79XhUi/b3ZwUtdM1EQndsUmsis044b0wQ=
+@size 2552
+share/vim/vim74/syntax/sdc.vim
+@sha y0CaQmrSYCd58a/RWHdulTSPWc0LBPugXs8KZqeR2vI=
+@size 1391
+share/vim/vim74/syntax/sdl.vim
+@sha WWy6tfyW0UiiKNonWRxKd1o4NBTslS82kIoyXdCmf2M=
+@size 7030
+share/vim/vim74/syntax/sed.vim
+@sha tnXALIsvHlWIrlgkfa8CAurPQVTNZ5f0fdBNwAW3hVs=
+@size 5352
+share/vim/vim74/syntax/sendpr.vim
+@sha T6il2/ZPmH7lxCLBdsavWJiNFvTfJ4DKSCLbVF4+9SI=
+@size 1000
+share/vim/vim74/syntax/sensors.vim
+@sha cHmf/g0srj3TydICHROYCDr+Td65vd9zEj0jn14qLkg=
+@size 1501
+share/vim/vim74/syntax/services.vim
+@sha b1QWQJsMjadzPLwaAFZ0ADSzYJ01qBNzgj1kmAzGobs=
+@size 1811
+share/vim/vim74/syntax/setserial.vim
+@sha dQzgfDCAxUrrN9uJiy4SqxLogBFIocilIKuyb2EcEQ4=
+@size 5217
+share/vim/vim74/syntax/sgml.vim
+@sha /f+z8ILtXMMLAaIzxP4uh7R8yHxbjzmxI23E90g7t2w=
+@size 8961
+share/vim/vim74/syntax/sgmldecl.vim
+@sha p5ZKwVUkNYgbGRYugigvRZbkqtX3oiWbNjpX68hHhfk=
+@size 2473
+share/vim/vim74/syntax/sgmllnx.vim
+@sha 2unHXOhCeTfLfDGTXwiIzocyYztcEk2dBHrMJG49V9c=
+@size 2233
+share/vim/vim74/syntax/sh.vim
+@sha 4CAoUKVdBChtpR+6veXs3gocEx9r+j3YwCu/hTDLD0I=
+@size 39061
+share/vim/vim74/syntax/sicad.vim
+@sha QIbmoJIk0YXfjqPLtTJbNWpgRnrSIzH2R453xmkE7Kc=
+@size 18941
+share/vim/vim74/syntax/sieve.vim
+@sha 8FAlYsrt217XlM8dSTLON8fpmG8fEHRz6+zWohRJxLQ=
+@size 1659
+share/vim/vim74/syntax/simula.vim
+@sha vfbCfigTf1BXiVYcW0OylorOPyQW+W2rHyv/m77qOzI=
+@size 3681
+share/vim/vim74/syntax/sinda.vim
+@sha eIErty0T6/pm+nMdUKtGQKRJA4CimznogYwiT2/HtGE=
+@size 4101
+share/vim/vim74/syntax/sindacmp.vim
+@sha IMjuBoj7HHLekycF06e/yIu6+aPiVmV/TtJWgw58VtQ=
+@size 1682
+share/vim/vim74/syntax/sindaout.vim
+@sha wrqkAcCIQpxfz7K15S+R2nxcCp5/9rbqvUhgFvtKdWk=
+@size 2420
+share/vim/vim74/syntax/sisu.vim
+@sha UdRPWc0UxEOH0/zHF0T/buQJzSV61PxXNmzk9p6NF0M=
+@size 20388
+share/vim/vim74/syntax/skill.vim
+@sha LHsfhiCaDYDwGYWOT20gtJVTfh4TBhDHSCQhQtyAu0k=
+@size 26116
+share/vim/vim74/syntax/sl.vim
+@sha WW4jsFJt/B6UQPp9LhjLgD5z9hxdV5sKBx00rEKxhJ0=
+@size 4420
+share/vim/vim74/syntax/slang.vim
+@sha 7NQyw+L79jD3PUcf2dVTwu2I+UowfFLSr52NW6e41Fg=
+@size 3638
+share/vim/vim74/syntax/slice.vim
+@sha 3cDkn2ssdSGbmptcpwNEqnRrjjiywd/k5IJXj/8q+Po=
+@size 3300
+share/vim/vim74/syntax/slpconf.vim
+@sha tv8Y3LaYzsIblZQdkpkePlU9A3xPw4z/jSufpHs2ucQ=
+@size 11779
+share/vim/vim74/syntax/slpreg.vim
+@sha Q248OrafjRvGel1lhepzRbXVEUGxgpLHrV1Sz6JAdzQ=
+@size 5334
+share/vim/vim74/syntax/slpspi.vim
+@sha so7VljHlwJyShodBkzoerMxyUvLOwfWv6Oj0Yvdc9dg=
+@size 1169
+share/vim/vim74/syntax/slrnrc.vim
+@sha Ji2EPnn852YxYbpAiFIzZ791lbc3JUvPKLOPyUKYUIM=
+@size 13158
+share/vim/vim74/syntax/slrnsc.vim
+@sha /10Guh+7aUEq6DLlHihfLVmjfla+h+pWU6pJtcXwby4=
+@size 3531
+share/vim/vim74/syntax/sm.vim
+@sha QpEn6mXm0nxWcS2H5V4En6gq4LLpvwOdiuAShIpwk6c=
+@size 3285
+share/vim/vim74/syntax/smarty.vim
+@sha 6FZZQ3hL2I3aeBu9aBfu2vVIxPzeQIOxNprT6NtLHFg=
+@size 3091
+share/vim/vim74/syntax/smcl.vim
+@sha jNH9n6X15a4mXEmNVdenjx1W0srNNIoNGQcxWQSYnes=
+@size 12033
+share/vim/vim74/syntax/smil.vim
+@sha egS6tdhzb3UdFIJpD+FLChbmDCSmzupIq2pRPc/kGy4=
+@size 5980
+share/vim/vim74/syntax/smith.vim
+@sha nNS/drVbQoENYN6IYgXbjVYoRCf+Bfoe6Zo5aHkSPsk=
+@size 1195
+share/vim/vim74/syntax/sml.vim
+@sha J3uqxbgUvabBOnGbIWDsH5oCPKMU9DCedJkbMeztOcU=
+@size 9639
+share/vim/vim74/syntax/snnsnet.vim
+@sha WN3XLq7/p1cvACKP8kOu1CV4N48nJNbe/qi7UTUCP7E=
+@size 2693
+share/vim/vim74/syntax/snnspat.vim
+@sha Y160EbUqEc8EhsLygqB2qj3ZeNYyH/nl4x1e8BY8yME=
+@size 2430
+share/vim/vim74/syntax/snnsres.vim
+@sha yB6iRlSgYl2ovGDG4vZXmMrT+1VEbAbblT2rKWrPHYg=
+@size 2144
+share/vim/vim74/syntax/snobol4.vim
+@sha xCqC5vrWa/vf5SaMRJtSgZqMvS/5Cn4SZ3uC9AEFzNs=
+@size 5609
+share/vim/vim74/syntax/spec.vim
+@sha dh4SUKYILyz4I7hPJjRsSB0b896AP78+hX7I3wrsgHE=
+@size 12613
+share/vim/vim74/syntax/specman.vim
+@sha YuC7VzjIHNgAlUj4ziouQlZl+CxA8vdP3uocCn/7QPA=
+@size 7648
+share/vim/vim74/syntax/spice.vim
+@sha qktLtZrTQD0lCvnowtDtXXPYZMVU4QiQCRMkFLMd6sc=
+@size 2636
+share/vim/vim74/syntax/splint.vim
+@sha DlM0Vxz0hCpAqWAQudveFoT0FD7exY1lPWuuI88xrjY=
+@size 16135
+share/vim/vim74/syntax/spup.vim
+@sha Bi1Cine7Wbh28XNuMG3R2OTqULOBFPNqeiywGp4Bu5A=
+@size 14286
+share/vim/vim74/syntax/spyce.vim
+@sha WEDNdPWuaS6hlNmqhlFZo55w+qkeFCNBlwKuWx52asE=
+@size 4610
+share/vim/vim74/syntax/sql.vim
+@sha UWyR3Fut2yWrFBLFRZ58EwA1zkup/2Sai2Y0XhqcYuY=
+@size 1217
+share/vim/vim74/syntax/sqlanywhere.vim
+@sha VC4SGunI+3GsYKo4Q9GbkBqEtmh3dpg6+sIgDzaEbps=
+@size 42026
+share/vim/vim74/syntax/sqlforms.vim
+@sha 1Nqti/LSwyj6RQJ5NhGt1SfyH8uNC2Iyi8NVPqTZKpQ=
+@size 7136
+share/vim/vim74/syntax/sqlhana.vim
+@sha hI9ke20P64gcCw3QYYS9xds8xAuVtk68uC8WH+uAhrY=
+@size 11124
+share/vim/vim74/syntax/sqlinformix.vim
+@sha 8Vh2WcTOnD/nBZSph2jTcjElKmuETRKfxPwJ0u+fGQ0=
+@size 6284
+share/vim/vim74/syntax/sqlj.vim
+@sha gXkBATFcvDvQGjXHlrswpkLserx+UlhowE/Ld5xPNhM=
+@size 3216
+share/vim/vim74/syntax/sqloracle.vim
+@sha 34AVGmxV0Sv3FmKLlVBuVwwlzKZkT+lA5aM9Hxt/gfs=
+@size 2970
+share/vim/vim74/syntax/sqr.vim
+@sha S5gdUojE4qSxkXMVMpVmEZstK0i/xgvO8Axh0cBLzes=
+@size 14193
+share/vim/vim74/syntax/squid.vim
+@sha vzPBUS/NbLjf5ge5rJ/zdozWI+tH/ShAzDfcBr63Dpo=
+@size 7318
+share/vim/vim74/syntax/sshconfig.vim
+@sha +M6QQByq5CHHHRHckG/IM1iWP8c5iMUJdl5w2Wmgtxc=
+@size 8505
+share/vim/vim74/syntax/sshdconfig.vim
+@sha 3EvX0MrDWz2uZiMsiHqyDcstYxpBekIPgOvht8hcIIw=
+@size 7974
+share/vim/vim74/syntax/st.vim
+@sha y2g7F4/+BFX7zpqU0qmcX+EvHYW6v1oJ9fBOKaaeF+w=
+@size 3133
+share/vim/vim74/syntax/stata.vim
+@sha se1AB8vpCyqndsp8mtrjvGSp8NYaMDDNqnK1hHE6MBI=
+@size 27046
+share/vim/vim74/syntax/stp.vim
+@sha IbFv7pWh8HpndDFdf2ZvUNuO1NUiKYa3yg5ISczWb7Y=
+@size 5789
+share/vim/vim74/syntax/strace.vim
+@sha wDHRWXGAihjHk8U/Xf2goqbY+J1aSscgayMK4mq18LM=
+@size 2199
+share/vim/vim74/syntax/sudoers.vim
+@sha 2e5Ysclnga1EDsXp130NuaJkA2Swyuqc0bYpdF7lS/w=
+@size 22041
+share/vim/vim74/syntax/svg.vim
+@sha XgaWmi744vawxNohRXA1odsP+TVRGq+06Dp6ZEhQeGg=
+@size 436
+share/vim/vim74/syntax/svn.vim
+@sha gBS8UGD9Cfo3X2TnUdcg941dzz7Q/hgdjNcmHxblJbQ=
+@size 2238
+share/vim/vim74/syntax/syncolor.vim
+@sha 0KXuUdlyd4bMyYZlNhbtLEqdYRaHao5Tdhsxdb/GwqA=
+@size 4093
+share/vim/vim74/syntax/synload.vim
+@sha fAD9LrwhhQsL4kBAWmQhHlMc8aTGWBkEJxmhfFGJsyI=
+@size 1901
+share/vim/vim74/syntax/syntax.vim
+@sha 5IVjXumEsJccGjfyJyyY+tQDI5QnmldO9VpCIVWyi+s=
+@size 1228
+share/vim/vim74/syntax/sysctl.vim
+@sha Iynqqriyeqi9HLz9z6E5yNYPAEUQ4AVWfz++7LtArig=
+@size 1141
+share/vim/vim74/syntax/tads.vim
+@sha D4rhld2CVkV3jrwWPtrAFO5Ylr6/BBCHQVIvMLSGTys=
+@size 7180
+share/vim/vim74/syntax/tags.vim
+@sha cBzOUzvbwkdIjtenKyYprW7Pu0Bw6XuTJQJKia/5zQE=
+@size 1575
+share/vim/vim74/syntax/tak.vim
+@sha 6puddoLULs/+mlSWthXctnr2s+dhWQSdbf7pXG3FnUc=
+@size 3348
+share/vim/vim74/syntax/takcmp.vim
+@sha U7OHwLpkFIQBo8dye/ZsO6Su5DJ1bfelLMzKRZJIkLE=
+@size 1991
+share/vim/vim74/syntax/takout.vim
+@sha LBTAX+W56emhJHRW3mb6LeUbqyKWsCA+7StdGL3liFc=
+@size 2451
+share/vim/vim74/syntax/tar.vim
+@sha jin3d+dKlKjdnl3bn3nthOYUxjTvmE40eeE6/qBaF7Q=
+@size 373
+share/vim/vim74/syntax/taskdata.vim
+@sha 7B8z4pvFon/Av0Sd/d+KybD/7CqvIgjREhUDcQPm2l8=
+@size 1303
+share/vim/vim74/syntax/taskedit.vim
+@sha nqPGGLs0ZEpHfmxUrx1rEwybEMe1HQ6yZCQBuGNFVM8=
+@size 1226
+share/vim/vim74/syntax/tasm.vim
+@sha JMTHlxR3QdlBxMLWk7FmZM3iPxlkyq9dK7LLKN4UJvE=
+@size 6051
+share/vim/vim74/syntax/tcl.vim
+@sha CN+NELvBclpWefqlGq0enRyfB6GskNbF/Q0cqVqQ2UE=
+@size 17414
+share/vim/vim74/syntax/tcsh.vim
+@sha Cn5dAVNFTaU782OoNVfjJcT694WdgjMRahDFehzxfII=
+@size 13269
+share/vim/vim74/syntax/terminfo.vim
+@sha JAIsPkNOfNv2sn2wUGsVs9bs6XwqTyLgSBObLxPkn20=
+@size 4791
+share/vim/vim74/syntax/tex.vim
+@sha GrMy48vhezl2deWgb0/WrkvaQ7LSQ+yAQwLHPUtVPXc=
+@size 62762
+share/vim/vim74/syntax/texinfo.vim
+@sha pvfrxg2sPzq5HnX3dtAz2tGdS9C+mlWA2PoVPg6PIDE=
+@size 25856
+share/vim/vim74/syntax/texmf.vim
+@sha hbRgJkzheEuxxBZTwUakZGxDS5zHC8IWw5Cf7OhkdHU=
+@size 2469
+share/vim/vim74/syntax/tf.vim
+@sha TdGUs96nWLumVf3cdIucYQ64xQ/ZuukQ0lAMaoaGsFg=
+@size 7237
+share/vim/vim74/syntax/tidy.vim
+@sha KSvfhLVMKutWU3lw7FVtciHWTtJefAHikMpjgEjFdZ4=
+@size 6530
+share/vim/vim74/syntax/tilde.vim
+@sha /dLVqjC9ViJDtv3gimwFJSC/iuapHWeuxJGwF6PvJyg=
+@size 1538
+share/vim/vim74/syntax/tli.vim
+@sha 92H82e8y8LRkjAhkTzSuTQgYeL8+aQwIedc1Cyp94hw=
+@size 2050
+share/vim/vim74/syntax/tpp.vim
+@sha wovBay3RmwTdM8udxxxPUy+jxOlCFl45GekkNbtvp4A=
+@size 3925
+share/vim/vim74/syntax/trasys.vim
+@sha eR+SZ4XCr0SNmp/BQFB8kd7/0AHznZ9RBhUPeTrU6/E=
+@size 5464
+share/vim/vim74/syntax/treetop.vim
+@sha zF96PeKmbsOEFklU6Wne9dQUuOrQm4dGnLtfsQ8JmNM=
+@size 3656
+share/vim/vim74/syntax/trustees.vim
+@sha l/csQuojgyEVIi0wauBmiEjUrzIUdH1UyEsWmmsVAgU=
+@size 1537
+share/vim/vim74/syntax/tsalt.vim
+@sha aBT1H6Hu8DTNxxfr7FIlZwPH4D6QThRqz8pYqe/mVFM=
+@size 8637
+share/vim/vim74/syntax/tsscl.vim
+@sha 3jrfM23R0Oi5DF1HYyf+07FKdERgbQUmUW33T8YcYhM=
+@size 5492
+share/vim/vim74/syntax/tssgm.vim
+@sha JewcOAZ1DK6SUIy9POvlGB6W3Z7tw2AIJc5s2A8OgLI=
+@size 3165
+share/vim/vim74/syntax/tssop.vim
+@sha zmY49vd3qyTYvLOtF4TaRr2iW9A6x542nT2HUXWC54Y=
+@size 2178
+share/vim/vim74/syntax/tt2.vim
+@sha /Z6zW0Cacc+M8T0XuqiH1AcLdyVwtdDtQiEUY/RiaGc=
+@size 7920
+share/vim/vim74/syntax/tt2html.vim
+@sha szYDLt+HT9jSGMIa6c1OSIfRPULNh8WaNJrGcX7awlg=
+@size 516
+share/vim/vim74/syntax/tt2js.vim
+@sha wOoz/93nmAQVkuGvsfL+HqmKzTIfGdUF39pE8kKtdD8=
+@size 522
+share/vim/vim74/syntax/uc.vim
+@sha aoF3wa9tXgLpv+XdYpZKQkuOC2Ah59ZUab11KqFK4Mo=
+@size 6925
+share/vim/vim74/syntax/udevconf.vim
+@sha bCy7Ofa7P0jluJwoAIsG1H7wio0p0lNK3pUvakXJSYY=
+@size 1215
+share/vim/vim74/syntax/udevperm.vim
+@sha Idm4gitjSvJ+gi3YA72WPDnmh0Z7za/rFL6AMK9JAUk=
+@size 2397
+share/vim/vim74/syntax/udevrules.vim
+@sha YlsUJT2HMvfT7O6W49onaarpVK74h0desxI74fVAi1c=
+@size 6948
+share/vim/vim74/syntax/uil.vim
+@sha DscGONIG8XU7MjQGg0lhr1noFW3SfYA7TBR/oC3NOvI=
+@size 2999
+share/vim/vim74/syntax/updatedb.vim
+@sha KXXkBBWoyM55SD/XJ5EphD05jHQuEnJl4RWfNVp0B8w=
+@size 1208
+share/vim/vim74/syntax/upstart.vim
+@sha ITm360NqrNu2Jxi8XA6nr0dUtkuLo5KmTT9tFOxRYBU=
+@size 3141
+share/vim/vim74/syntax/upstreamdat.vim
+@sha 2XXEW7wI/7scXjqseBC1EoA+o3zfN2sMl/GbAn7xDS4=
+@size 13828
+share/vim/vim74/syntax/upstreaminstalllog.vim
+@sha kEz67knobjVMRSahErtm++LOZhBDlv7mnPyqwsmEOlc=
+@size 971
+share/vim/vim74/syntax/upstreamlog.vim
+@sha MVawz0ftiFbjG8p8563Nv3ChkV3HpsE5HBlebJsx+vc=
+@size 2620
+share/vim/vim74/syntax/usserverlog.vim
+@sha 3nGWPptMnJK9Xz51fVJ8nA4Dm5ye8wDkE0ET/0N50ig=
+@size 3118
+share/vim/vim74/syntax/usw2kagtlog.vim
+@sha 2npzW0gLLFu4vEAqESUpx+qJZFyHSIl3wudOKAHLx0w=
+@size 2272
+share/vim/vim74/syntax/valgrind.vim
+@sha iuPjaiyrRUsWR+KSbNzWKfSnJIoNxZmKdt+lsWnZ5jM=
+@size 3059
+share/vim/vim74/syntax/vb.vim
+@sha wzq5B3FF5TPDh1vyQp8NI8q7RY454euTJEjfdbWGMFg=
+@size 20622
+share/vim/vim74/syntax/vera.vim
+@sha dlBe0fiaRLc1eVCyu5SZiPysbR4Gwrczpr/Aam1HAjI=
+@size 19802
+share/vim/vim74/syntax/verilog.vim
+@sha HO5jode1REEi46ErGM71woCubljD0u3hPO7+EreKlGg=
+@size 5529
+share/vim/vim74/syntax/verilogams.vim
+@sha d8RFLFBm0HjXAXWD7PidQfZ2hXkdWesnNQCE+H/v4ZU=
+@size 6556
+share/vim/vim74/syntax/vgrindefs.vim
+@sha hnbSWF75qqMBhg9HO+TRxKOUT8rBjPdHd0TarUzpFIE=
+@size 1214
+share/vim/vim74/syntax/vhdl.vim
+@sha GAP94I9OXvdnSZxkJDDjotszoUOfNUL+PDMBGc8V7u8=
+@size 7544
+share/vim/vim74/syntax/vim.vim
+@sha ZCqLnJ+3e3f7Jdwi++2Tv2L2Z8TychjOaGdxKLj9BTI=
+@size 64062
+share/vim/vim74/syntax/viminfo.vim
+@sha hcFLDS7QiCyTBFOAVgBzMY9bCKKAXiWGh8pz/vT/mDI=
+@size 1124
+share/vim/vim74/syntax/virata.vim
+@sha 2pWVvjAN4+FoNKxd/5igdIhXspe9NQ2uJ2zj7qE1NDA=
+@size 11874
+share/vim/vim74/syntax/vmasm.vim
+@sha O8JYdsnsl9TWheeQLx0tThcbgS+wwaA0oyq8mP5oc4M=
+@size 8891
+share/vim/vim74/syntax/voscm.vim
+@sha oNiPVtPth+S2ENMm9xk0/GdnrRS+3WlOlVq+/HmP79U=
+@size 6975
+share/vim/vim74/syntax/vrml.vim
+@sha PH6DKYefixKUVzZUlyrpztmn5P7cKJVOLHSWzHG2Z4Q=
+@size 13217
+share/vim/vim74/syntax/vsejcl.vim
+@sha pMESg3yzjSYOgE5xKGvwDdAcH6fecv9M9Qy9NPLrBUM=
+@size 1393
+share/vim/vim74/syntax/wdiff.vim
+@sha Xj/9DGrfK87Mi77gHgjCa7NvPJvNFiDQPK01NsSdl40=
+@size 1151
+share/vim/vim74/syntax/web.vim
+@sha 8g6wI95ophj8b3Ib4QqES2XAHEXQ7YDZhef6TiSnVMU=
+@size 1271
+share/vim/vim74/syntax/webmacro.vim
+@sha ub72uBS45veqJAeSYwSkS4jb2yenuDwW1A83XEoy3cw=
+@size 3471
+share/vim/vim74/syntax/wget.vim
+@sha ei4olOczWkAhab0ywqnl+8HmsTXSFysAKbH/7nVrPWQ=
+@size 3961
+share/vim/vim74/syntax/whitespace.vim
+@sha XPFw0N3GenLT6WzHMxPDPPLDU/hrTk7eXYuaceF9xac=
+@size 357
+share/vim/vim74/syntax/winbatch.vim
+@sha 2ADc3hQWrvCrjJdxY/ct142lNyrkecmHLTc86x3t9BM=
+@size 12548
+share/vim/vim74/syntax/wml.vim
+@sha vwiPX0OYJ3zCSKJoZ9NzzWMKQUR+vzS1NC25/84tuE8=
+@size 6266
+share/vim/vim74/syntax/wsh.vim
+@sha AeyarHZjQB7GpeyLlFUmbn5iB2W2egpVd4vNrpbAVJE=
+@size 1242
+share/vim/vim74/syntax/wsml.vim
+@sha 6280Rmt95zW4A6pPMJr3EXnWQXi1Z11jck+16zQro14=
+@size 5725
+share/vim/vim74/syntax/wvdial.vim
+@sha hQssGefaEa8EcXam6w5VK432lSHgmJl4bGlV7RwApLk=
+@size 1093
+share/vim/vim74/syntax/xbl.vim
+@sha 0y4qlHHJ9pBZyOT2evfkmY+f6M+Ldn5I/V5EYRs4Y5c=
+@size 568
+share/vim/vim74/syntax/xdefaults.vim
+@sha A5PiJkfu8DHx7099Q9OBWke7OSShXGF3nWKWqeeglaA=
+@size 6261
+share/vim/vim74/syntax/xf86conf.vim
+@sha F/nEnGxsTQXnLs5/A5QxSQhIUSxNZzeWnUOFduWTsto=
+@size 14925
+share/vim/vim74/syntax/xhtml.vim
+@sha 25YtsDgcB9nvHC+hizcbpVkXT91FNF8LMBLIHCsiXSo=
+@size 186
+share/vim/vim74/syntax/xinetd.vim
+@sha 6yvlYu5Knd4WaJsVArNeVV/UQGXhPCoxZWYSRv0dDog=
+@size 14196
+share/vim/vim74/syntax/xkb.vim
+@sha oM80PF1b659x3p7Z/be/cqC4hOUkt37A9SQwbIuUmhU=
+@size 3463
+share/vim/vim74/syntax/xmath.vim
+@sha 2M9W6Z01vnW0vnvVSXPJXjnhrWAgQrDpja4f7lvcmPE=
+@size 11107
+share/vim/vim74/syntax/xml.vim
+@sha CEeFRDxOiFc4fNL4H2N9AjFXt59BJMtpMDplXSpSw9c=
+@size 8609
+share/vim/vim74/syntax/xmodmap.vim
+@sha LokyH+G2i2hNMkEQEMJ9leFa62fUI0p5P0S3mVX5Id8=
+@size 46499
+share/vim/vim74/syntax/xpm.vim
+@sha RyzLs2ydJrclDx/jmR1MNutDrLSvT23kcXE8proC4+Y=
+@size 4655
+share/vim/vim74/syntax/xpm2.vim
+@sha XyVBGmyuaeDfcu8iSOGH7XG83wRqc7n8iTVPIsuIWZU=
+@size 4987
+share/vim/vim74/syntax/xquery.vim
+@sha Xgmbmcgi9VOboFbaO4hq6G4B3PbvIpjaO+srUdHyHmI=
+@size 7191
+share/vim/vim74/syntax/xs.vim
+@sha R9ThDYQbfQlK90fjXsDohF2UAPm7TxNJ0FzxPt1A6NI=
+@size 219747
+share/vim/vim74/syntax/xsd.vim
+@sha F9412OPfUoXxRMM1kPVSDMOr0m7W8NLHtsT/twsoCAA=
+@size 2125
+share/vim/vim74/syntax/xslt.vim
+@sha Ac2TjywTtX3qp/NhONsr/dQVGGSWpgAgsW23kiTRdQI=
+@size 2166
+share/vim/vim74/syntax/xxd.vim
+@sha B9gh02yPb9w0O3Vseocm7f1RW/HhUIRB9PaDEeP5QcQ=
+@size 1191
+share/vim/vim74/syntax/yacc.vim
+@sha 5hOifcGtrsy6uH3g97fyoUDa9AxebJ5+VTv/olyZyzQ=
+@size 5539
+share/vim/vim74/syntax/yaml.vim
+@sha 5Vv6bQc5UXBdjJYi1ME2KdLy1ohbZomV2elifoqdOAs=
+@size 9053
+share/vim/vim74/syntax/z8a.vim
+@sha cEC3B/pX5PsG8CaMmP/X2H+XUjBXOYc5fYFa1NtARPw=
+@size 3277
+share/vim/vim74/syntax/zimbu.vim
+@sha n8JPCjwcRGWh3ZESBmf/WFva3NfKNYY5ntyWne0LH1o=
+@size 4801
+share/vim/vim74/syntax/zsh.vim
+@sha R2+wvkhexJe7jJFzb4a4j+VpmvcGhCc+xLPtuBYKTow=
+@size 8923
+share/vim/vim74/tools/
+share/vim/vim74/tools/README.txt
+@sha LnuJc2go8EbeHtf1pWlI1Rwvx5ec/tHa0BJUwLct6Rg=
+@size 1160
+share/vim/vim74/tools/blink.c
+@sha LPnYb1xfgdCm/xcuijLRV266wbLTokLVAj+cIH5teqE=
+@size 464
+share/vim/vim74/tools/ccfilter.1
+@sha ZjRjMkJzTBacSSch2muFTWBTA2VFEtKn1mIpCIfxfOw=
+@size 2228
+share/vim/vim74/tools/ccfilter.c
+@sha FRUVpJyjDCkhb2qADhvSs4mzXD8JYEkKKBh/NgwrFvY=
+@size 8608
+share/vim/vim74/tools/ccfilter_README.txt
+@sha xzAjcmO1nN00LgX/ghBJI3cjLoJvILRAl2c7+/2NEsQ=
+@size 2974
+share/vim/vim74/tools/efm_filter.pl
+@sha 7s9Bc7ogqC2p3lEuXRANeSm9+HBCivxSTaIjRHTivJs=
+@size 978
+share/vim/vim74/tools/efm_filter.txt
+@sha GsV95+MtzQ4et+9Ndn0LkXn8kwnILc2qybJeSg/sNrM=
+@size 1116
+share/vim/vim74/tools/efm_perl.pl
+@sha tThBUjItp5RpQ/QxW8539ILq8c68dee3Y8e8eng+NuY=
+@size 3737
+share/vim/vim74/tools/mve.awk
+@sha JUYcMrc2ITJdOzpLnbGao+OIOYsaBPXvv/7DpfTPuLI=
+@size 483
+share/vim/vim74/tools/mve.txt
+@sha K32iGgS31gFf3RHNy9cOE7LOl4FBFRD/jQugguE+5TI=
+@size 579
+share/vim/vim74/tools/pltags.pl
+@sha jTadcUnNYVJJvKE187Fs5WZ2EvOOI+n1q68bmeDGf9s=
+@size 8425
+share/vim/vim74/tools/ref
+@sha vjsDJRFsZ/KFD27lxhWfKt9XXba/bsp9RIze9nQ1tAA=
+@size 137
+share/vim/vim74/tools/shtags.1
+@sha bMZs8j2vOYx4gjiiLPUkuYH7XYpHQrO1hgWDz/2FPYo=
+@size 2036
+share/vim/vim74/tools/shtags.pl
+@sha lcj0TKaYy/SdOR4CS7YhnY8fYj/CB0+3MAL8ISB4acA=
+@size 3343
+share/vim/vim74/tools/unicode.vim
+@sha VGQ6VVRaerk4uIEJTsNYI/9/vYVLYncFJ5vs4XO+/Yc=
+@size 7349
+share/vim/vim74/tools/vim132
+@sha 2DMiZm8e+f849qISCuiOcf+YzI1PfHMSCPsrPSLqmIs=
+@size 315
+share/vim/vim74/tools/vim_vs_net.cmd
+@sha qDGxLhmT3ZW2y9bDY+QCrcZjqelzUVFHShuJdTl6Cdg=
+@size 798
+share/vim/vim74/tools/vimm
+@sha 4NfacCHpAx/KuXLqVTl18f3IytgErX9WwjRQbEIiiSM=
+@size 188
+share/vim/vim74/tools/vimspell.sh
+@sha fxvC9eeyVquPCC4rFVkY7RwF6iwxMAE69AuSC1voaPA=
+@size 1462
+share/vim/vim74/tools/vimspell.txt
+@sha DPKuZPXNYeUnmUCpp6xKubEraVg5haz95qA+wc+S4nE=
+@size 819
+share/vim/vim74/tools/xcmdsrv_client.c
+@sha eNYJls5b1VKGAMZaYe5H+93TZQQVP8JQpSca7kuZd2Y=
+@size 13933
+share/vim/vim74/tutor/
+share/vim/vim74/tutor/README.txt
+@sha CzhtYf2i0jOgK38uMCQ1bBxZmpMvFmpTrhL1fsxGzG4=
+@size 862
+share/vim/vim74/tutor/tutor
+@sha S2w6ffpWJv9US70YRafdt4iy5vpSjFTcxXgM30OY97g=
+@size 33248
+share/vim/vim74/tutor/tutor.utf-8
+@sha FcKXOEAvV7Evbk8IjK3dRyHNXNLmF17JPPnUpN3zFeM=
+@size 33257
+share/vim/vim74/tutor/tutor.vim
+@sha cpedfoa6f6oRKx8frRmyKx6tGw96DuWh0PnNM80PT4o=
+@size 4892
+share/vim/vim74/vimrc_example.vim
+@sha 7dGOB1ZAbue2WeRVLkRMUMOgwen7T84t3XcMkz6mx/U=
+@size 2945
+bin/eview
+@symlink vim
+bin/evim
+@symlink vim
+bin/gview
+@symlink vim
+bin/gvim
+@symlink vim
+bin/gvimdiff
+@symlink vim
+bin/gvimtutor
+@sha 0Ufe8mwNNNzJAfIAmtEOKBEyUppz4ujImM9URc0VQeY=
+@size 143
+bin/rgview
+@symlink vim
+bin/rgvim
+@symlink vim
+@man man/cat1/evim.0
+@sha x3cgNfmUCArVi+Y6hEJQNPwm+Cn96nmnLV5kXVfGRuM=
+@size 1771
+share/applications/gvim.desktop
+@sha 3CQ77l9PfskR3z3QHGejedLHoXLdqXKoUmoNgPFg9O4=
+@size 3432
+share/pixmaps/vim.png
+@sha 8Zg63AeexWlXExoZ8L/PYnIx/4rb5R+xEgF/pTGZ/3M=
+@size 474
+@exec %D/bin/update-desktop-database
+@unexec-delete %D/bin/update-desktop-database

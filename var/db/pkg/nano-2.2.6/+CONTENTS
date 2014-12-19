@@ -1,0 +1,245 @@
+@comment $OpenBSD: PLIST,v 1.23 2010/12/03 16:45:07 naddy Exp $
+@name nano-2.2.6
+@url http://ftp.fr.openbsd.org/pub/OpenBSD/5.6/packages/i386/nano-2.2.6.tgz
+@signer openbsd-56-pkg
+@digital-signature signify:2014-08-02T11:02:00Z:RWSPEf7Vpp2j0BQTvLdDTgrwlKYIz4dkwYRhKs/nw6XafQVrhdutxRit/Tu+bulKjVZoDCk6Gpq5wVH8Qhid1Ki2d9nRaBu0/Aw=
+@option manual-installation
+@comment pkgpath=editors/nano cdrom=yes ftp=yes
+@arch i386
++DESC
+@sha wlYMp7uzeY1cWhUpUIi7AdCEui+TWhs6l202Pc7ltgQ=
+@size 429
+@pkgpath editors/nano,slang
+@depend converters/libiconv:libiconv-*:libiconv-1.14p1
+@depend devel/gettext:gettext->=0.10.38:gettext-0.19.1p0
+@wantlib c.77.0
+@wantlib iconv.6.0
+@wantlib intl.6.0
+@wantlib ncursesw.14.0
+@cwd /usr/local
+@bin bin/nano
+@sha S2Gj4IFeaq0phmPsNYqtWtP6DqrmVjAbSu18nUhfQSA=
+@size 188400
+bin/rnano
+@symlink nano
+@info info/nano.info
+@sha e15sGJxp5CwW02los4GQX26YVIpa2QNnO4KTswRV240=
+@size 30770
+@comment man/fr/
+@comment man/fr/man1/
+@comment @man man/fr/man1/nano.1
+@comment @man man/fr/man1/rnano.1
+@comment man/fr/man5/
+@comment @man man/fr/man5/nanorc.5
+@man man/man1/nano.1
+@sha YsIMwJqWbybYvvnbtRndSCa4Y+u/tqlfRb2NmCKO1f8=
+@size 9297
+@man man/man1/rnano.1
+@sha A/srb3A/IOGXaq9Mt615t9Ba2S7/frYbxlA9N48eT2c=
+@size 3348
+@man man/man5/nanorc.5
+@sha +o2YrjBuGP3Sc/RJvnYu9sWp8zbWXCYf7yHZHZjzui8=
+@size 17543
+share/doc/nano/
+share/doc/nano/fr/
+share/doc/nano/fr/nano.1.html
+@sha 6MomUPY/wwN2f9e8TeHo6dRyYgsuUusA50+hGgyCHh8=
+@size 18908
+share/doc/nano/fr/nanorc.5.html
+@sha MJ4eAsofyXYFCHMQVBj8+uU049Rc44mOcuRwbCT9iS4=
+@size 21751
+share/doc/nano/fr/rnano.1.html
+@sha +98yRlD40GIKYXz2viUEBGSvtd2phWeaCGZAFF3TAuY=
+@size 7761
+share/doc/nano/nano.1.html
+@sha qO00K80OWM3mvrNLKJKjlIOJS9bbsCavoMkwaMG3rcg=
+@size 14117
+share/doc/nano/nanorc.5.html
+@sha pzJgThGEthve+F+XIz4Ts2On9VDD2S1dAHTMEH4xw+I=
+@size 28390
+share/doc/nano/rnano.1.html
+@sha tx0CYgHbgSlaWgr0IU4kREuGKjXmhEVR9pjnBc54eo4=
+@size 5237
+share/examples/nano/
+share/examples/nano/nanorc.sample
+@sha 2ALYZlR+TPd8LV3QnD+7Ef+maKymqWZEJpj3jNQNR+M=
+@size 8884
+share/locale/bg/LC_MESSAGES/nano.mo
+@sha 779wFw2UQlxOwMthEN2pR85sessH96kmhK3nA0btk2g=
+@size 44632
+share/locale/ca/LC_MESSAGES/nano.mo
+@sha jaSebIgFn0QxDUTVn/EkEV++fuPqmtBPlwYvpyTWvdM=
+@size 42795
+share/locale/cs/LC_MESSAGES/nano.mo
+@sha /RQYeCGGLZeSj26qSvo03/PbOvaS7Zli5A3lgsDULy4=
+@size 45169
+share/locale/da/LC_MESSAGES/nano.mo
+@sha D8UNcLpfqJ4h7SUITWxXsBd/XdTFhZzvL1TAJ+9wRaE=
+@size 40869
+share/locale/de/LC_MESSAGES/nano.mo
+@sha oTWyLR/tFS54fdhcXrU7whkTKTvoxsVQsMD4zUXRJGw=
+@size 43502
+share/locale/es/LC_MESSAGES/nano.mo
+@sha gC+k0+ncfBYepneWFhY8hTUrJ53lRgeEugZr+RolEeA=
+@size 34857
+share/locale/eu/LC_MESSAGES/nano.mo
+@sha w7Tf6YTkfDZWoe2QmfOzhgni+VLoW/dT1Wh4rWGQly4=
+@size 30378
+share/locale/fi/LC_MESSAGES/nano.mo
+@sha Y3vWpQboxvll0GinbP58D6kcPKFQXGIyncgjz8AGPDg=
+@size 42295
+share/locale/fr/LC_MESSAGES/nano.mo
+@sha KXHC+pGP01jxMQBZGvcGtay1QlnykTeRwJ4Srqcz0Qc=
+@size 44120
+share/locale/ga/LC_MESSAGES/nano.mo
+@sha YLedJcTRJaVCMLwAh+8TOX4x2Aog6gb7LsPW/QcARXw=
+@size 40900
+share/locale/gl/LC_MESSAGES/nano.mo
+@sha TKC9xicFpW7sRXJirUSVKsUWoxhl1bGQtGCOKEtQVC4=
+@size 39445
+share/locale/hu/LC_MESSAGES/nano.mo
+@sha LNHnarjD49qr57Cc1UK6nwZBvSBA4oxQgUyly0PJO2Y=
+@size 43398
+share/locale/id/LC_MESSAGES/nano.mo
+@sha y5BO3bl2LjZKsl7k6z0IC2VncjX74kCnj1U9mrM/uuU=
+@size 11978
+share/locale/it/LC_MESSAGES/nano.mo
+@sha plb6gbXG5VGWf6ca103vOoTpvgDbVBxuS/FHn9/su2Y=
+@size 41599
+share/locale/ms/
+share/locale/ms/LC_MESSAGES/
+share/locale/ms/LC_MESSAGES/nano.mo
+@sha cT/U5ozLB/nRhx58JxAWzJq+0nIX+h6Vhc3m5PTcA+8=
+@size 38121
+share/locale/nb/LC_MESSAGES/nano.mo
+@sha oeRgcxny0mX1fazPm1lHcJbWRK1DE3TIDZzH/r2Xg+g=
+@size 33080
+share/locale/nl/LC_MESSAGES/nano.mo
+@sha tDtxKxY7VV7LQjEOCSWOQqEa/E5f4FZVXV2mGJtyenI=
+@size 41816
+share/locale/nn/LC_MESSAGES/nano.mo
+@sha QGRJQ3JxO3vZ3IldtWnFyfq3OQ24TnQfwd4h2rm5yb0=
+@size 6374
+share/locale/pl/LC_MESSAGES/nano.mo
+@sha dmL+sz/a/TZYpHyv0+/+z3WiOdT8p9Fu811XReL3Hkg=
+@size 42406
+share/locale/pt_BR/LC_MESSAGES/nano.mo
+@sha Rktke7WzndF22UW4DTy0jq2HtBGp4g2NMA78BxkzKLE=
+@size 42621
+share/locale/ro/LC_MESSAGES/nano.mo
+@sha SwY8Dj7+aj/Ogrn8atS8PCclD+arfORykoXKl8zRMXU=
+@size 21194
+share/locale/ru/LC_MESSAGES/nano.mo
+@sha af/ABaFP+a0KxmQdmDBzc5SuIfZpoRrGHx4tX7T0HJ4=
+@size 55436
+share/locale/rw/
+share/locale/rw/LC_MESSAGES/
+share/locale/rw/LC_MESSAGES/nano.mo
+@sha dFr+t2EgODHjUSkBQDrBC8IroguFajYDiXDzKVGCgwc=
+@size 1445
+share/locale/sr/LC_MESSAGES/nano.mo
+@sha pCQsGgL6Yk6l8Z5pdxqxX34FWbZCdUmt9+hRwMDdbl4=
+@size 15315
+share/locale/sv/LC_MESSAGES/nano.mo
+@sha d2qzUPAEo5AaJD09Tu7gih9MaJSiHkRMvyxwsZrbEyE=
+@size 33794
+share/locale/tr/LC_MESSAGES/nano.mo
+@sha A/ZSNYNrledBnrcPKCj6gtze+ztPR5DBtLWjIudjkFE=
+@size 12504
+share/locale/uk/LC_MESSAGES/nano.mo
+@sha 5PrIUvSCTNWZ2rNU2bAx+uwYK/CQ0xHtfbI3Me1tyv0=
+@size 12307
+share/locale/vi/LC_MESSAGES/nano.mo
+@sha /PIJmaqIc/h6lDY6nATY9XQ8Dk8WmmGhP8mGxTjBi3Q=
+@size 45491
+share/locale/zh_CN/LC_MESSAGES/nano.mo
+@sha JBFJb0IPZJUylWFav0zWWM+BEIfuuOxK9LMJUyoeELw=
+@size 38488
+share/locale/zh_TW/LC_MESSAGES/nano.mo
+@sha nIxc+yze4adTCfB4Zdjgd4OCelrHmzMRwyol/wCBnj8=
+@size 22504
+share/nano/
+share/nano/asm.nanorc
+@sha Qn5ztL0KiaBaoFDmtHbs+fy9W+IbLFQ0fJ3EqDidYzU=
+@size 793
+share/nano/awk.nanorc
+@sha +dowG1JUq9eEbDAZ0oVwKACbsbosbwzn0wilaK+owvM=
+@size 1644
+share/nano/c.nanorc
+@sha bN+cxlPx6CDSiH/hphVQjHKuV2Vnckg5K3ljBIwzUnI=
+@size 1584
+share/nano/cmake.nanorc
+@sha e1TmKj5M7zAIbtee6cm6Bo3fegIcn67qwdb6l6tr+2I=
+@size 878
+share/nano/css.nanorc
+@sha xO4NFsZG0GNOBhJIlXso5drl/uz9gycx7YHYZQWGsQw=
+@size 331
+share/nano/debian.nanorc
+@sha 3wNqvTQJuxvUBUxvyIYzCr50ltTZJlCifg3GsqTjmyE=
+@size 680
+share/nano/fortran.nanorc
+@sha yF7oWddx05oj6H8MQwItitULzSm7+//ZI0TEqv0VLUc=
+@size 2287
+share/nano/gentoo.nanorc
+@sha gryIr0HQZpOExhtMMu+NiZmUHKK1QDbFAhOAIpTFE0U=
+@size 3449
+share/nano/groff.nanorc
+@sha kglURS0Y/IHV2I8JZ8jD10sel+VLaKHe49ucTcSwAcg=
+@size 723
+share/nano/html.nanorc
+@sha 8FwbxGpDghuQIqO/9dwn9NFdjcO8vW/lWrsN5T0etFQ=
+@size 124
+share/nano/java.nanorc
+@sha v6yk0S5jB/RUXj6aLYUK4sXXeBv3B3iGU1TcLv8Mw2c=
+@size 650
+share/nano/makefile.nanorc
+@sha yeBgRvP2M2N+fPJI9NdJ5Em79cgjTgx3mhlj6TJxZRE=
+@size 258
+share/nano/man.nanorc
+@sha DXWX23EmbtnaIj17Aow2X2CIlH1dIPw2rVaMT2aDDy4=
+@size 264
+share/nano/mgp.nanorc
+@sha ckn2omwsCf+g2gHIkviRDKTzp9+Vhwrm/vLRcRY4xK8=
+@size 219
+share/nano/mutt.nanorc
+@sha J3rsgPjlZGR6+vgwdwnB9OrZXcBGoU0PzZNqHwJkmGo=
+@size 95
+share/nano/nanorc.nanorc
+@sha JuLvsjT6KHCloSr5jPnWas4OztpAIB1jX9AxJYT55CQ=
+@size 1140
+share/nano/objc.nanorc
+@sha cwpdcRhcWSWrHkwpg64A32p6tV+aYiByeiEasMNy7zY=
+@size 1776
+share/nano/ocaml.nanorc
+@sha Y2LO1VfFHD50kqmpEDePOrsqLoVRS3/FkUXBCdzG0LE=
+@size 891
+share/nano/patch.nanorc
+@sha 5jEClnoHitIr0OXY1iZe5qJBJtf2DRrK0o6wNf/jpR0=
+@size 242
+share/nano/perl.nanorc
+@sha NEablt1FZeNyDrLxmk1XdQ+KnfTpxdzz6YNOCpbPyr0=
+@size 1498
+share/nano/php.nanorc
+@sha /Ree6idkdVPDO+iEY3OXZanfhd5dPz2vTejmfpCNcF0=
+@size 722
+share/nano/pov.nanorc
+@sha 8lowh4f3DDtEhcs1S776zJAR2U7LWUkbiNydUwMcBy0=
+@size 752
+share/nano/python.nanorc
+@sha g5ARmuWwZvoISdOl6zH0X62P5YaUdlBHKkw4UnQkqrA=
+@size 537
+share/nano/ruby.nanorc
+@sha ueQ1cnQqMNGfH8H0xfRfFXXzlAe1EFFLuxFLUhVLsVg=
+@size 1505
+share/nano/sh.nanorc
+@sha mxQ+XLNvJOsFexbuYLfOwuMBNT7mmkit2Is+YvafLcg=
+@size 721
+share/nano/tcl.nanorc
+@sha ZnbmNyk16umnjZ4wFXHy+1uirg6v4MFlkjmJkTKBWUM=
+@size 2150
+share/nano/tex.nanorc
+@sha NOlQo6kOj4ykMqLRzcMxjNpCSQh7tA4ROqvPH+Y9l8s=
+@size 141
+share/nano/xml.nanorc
+@sha 2N5Z8pk9khgB44EnBDoFsHJ3NzsycU50idCUezQVpAY=
+@size 260

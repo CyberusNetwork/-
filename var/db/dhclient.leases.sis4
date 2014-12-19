@@ -1,0 +1,16 @@
+lease {
+  interface "sis4";
+  fixed-address 10.8.109.189;
+  next-server 0.0.0.0;
+  option subnet-mask 255.255.240.0;
+  option routers 10.8.97.1;
+  option domain-name-servers 8.8.8.8;
+  option domain-name "itinet.fr";
+  option dhcp-lease-time 86400;
+  option dhcp-message-type 5;
+  option dhcp-server-identifier 10.8.97.1;
+  option dhcp-client-identifier 1:0:0:24:c4:a1:5d;
+  renew 4 2014/12/04 04:12:19 UTC;
+  rebind 4 2014/12/04 13:12:19 UTC;
+  expire 4 2014/12/04 16:12:19 UTC;
+}

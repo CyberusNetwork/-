@@ -1,0 +1,8 @@
+@comment patch for 012_unbound.patch
+@option always-update
+./usr/
+./usr/sbin/
+./usr/sbin/unbound
+./usr/sbin/unbound-anchor
+./usr/sbin/unbound-checkconf
+./usr/sbin/unbound-host

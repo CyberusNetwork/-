@@ -1,0 +1,25 @@
+@comment patch for 008_asr.patch
+@option always-update
+./usr/
+./usr/lib/
+./usr/lib/libc.so.77.0
+./usr/lib/libc.a
+./usr/lib/libc_p.a
+./bin/
+./bin/systrace
+./sbin/
+./sbin/ifconfig
+./sbin/iked
+./sbin/ipsecctl
+./sbin/isakmpd
+./sbin/mount_nfs
+./sbin/mountd
+./sbin/pfctl
+@mode 4555
+./sbin/ping
+@mode
+@mode 4555
+./sbin/ping6
+@mode
+./sbin/route
+./sbin/umount

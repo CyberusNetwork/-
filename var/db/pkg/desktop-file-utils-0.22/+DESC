@@ -1,0 +1,6 @@
+utilities for dot.desktop entries
+Utilities for manipulating .desktop files.
+
+Maintainer: Antoine Jacoutot <ajacoutot@openbsd.org>
+
+WWW: http://freedesktop.org/wiki/Software/desktop-file-utils

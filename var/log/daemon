@@ -1,0 +1,124 @@
+Dec 18 03:00:01 cyberus newsyslog[10551]: logfile turned over
+Dec 18 03:02:29 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.82.81: Connection refused
+Dec 18 03:02:29 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.83.51: Connection refused
+Dec 18 03:02:29 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.82.81: Connection refused
+Dec 18 03:02:29 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.83.51: Connection refused
+Dec 18 03:02:29 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.82.81: Connection refused
+Dec 18 03:02:29 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.83.51: Connection refused
+Dec 18 03:02:46 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.82.81: Connection refused
+Dec 18 03:02:46 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.83.51: Connection refused
+Dec 18 03:02:46 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.82.81: Connection refused
+Dec 18 03:02:47 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.83.51: Connection refused
+Dec 18 03:02:47 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.82.81: Connection refused
+Dec 18 03:02:47 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.83.51: Connection refused
+Dec 18 03:03:07 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.82.81: Connection refused
+Dec 18 03:03:07 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.83.51: Connection refused
+Dec 18 03:03:07 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.82.81: Connection refused
+Dec 18 03:03:07 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.83.51: Connection refused
+Dec 18 03:03:07 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.82.81: Connection refused
+Dec 18 03:03:07 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.83.51: Connection refused
+Dec 18 03:04:08 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.82.81: Connection refused
+Dec 18 03:04:08 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.83.51: Connection refused
+Dec 18 03:04:08 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.82.81: Connection refused
+Dec 18 03:04:08 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.83.51: Connection refused
+Dec 18 03:04:08 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.82.81: Connection refused
+Dec 18 03:04:08 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.83.51: Connection refused
+Dec 18 03:06:03 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.82.81: Connection refused
+Dec 18 03:06:03 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.83.51: Connection refused
+Dec 18 03:06:03 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.82.81: Connection refused
+Dec 18 03:06:03 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.83.51: Connection refused
+Dec 18 03:06:03 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.82.81: Connection refused
+Dec 18 03:06:03 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.83.51: Connection refused
+Dec 18 03:10:09 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.82.81: Connection refused
+Dec 18 03:10:09 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.83.51: Connection refused
+Dec 18 03:10:09 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.82.81: Connection refused
+Dec 18 03:10:09 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.83.51: Connection refused
+Dec 18 03:10:09 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.82.81: Connection refused
+Dec 18 03:10:09 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.83.51: Connection refused
+Dec 18 03:16:30 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.82.81: Connection refused
+Dec 18 03:16:31 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.83.51: Connection refused
+Dec 18 03:16:31 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.82.81: Connection refused
+Dec 18 03:16:31 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.83.51: Connection refused
+Dec 18 03:16:31 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.82.81: Connection refused
+Dec 18 03:16:31 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.83.51: Connection refused
+Dec 18 03:26:56 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.82.81: Connection refused
+Dec 18 03:26:56 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.83.51: Connection refused
+Dec 18 03:26:56 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.82.81: Connection refused
+Dec 18 03:26:56 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.83.51: Connection refused
+Dec 18 03:26:56 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.82.81: Connection refused
+Dec 18 03:26:56 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.83.51: Connection refused
+Dec 18 03:50:25 cyberus ntpd[10269]: adjusting clock frequency by 0.106194 to -0.984231ppm
+Dec 18 04:00:17 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.82.81: Connection refused
+Dec 18 04:00:17 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.83.51: Connection refused
+Dec 18 04:00:17 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.82.81: Connection refused
+Dec 18 04:00:17 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.83.51: Connection refused
+Dec 18 04:00:17 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.82.81: Connection refused
+Dec 18 04:00:17 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.83.51: Connection refused
+Dec 18 04:52:22 cyberus dhcpd[30311]: DHCPREQUEST for 192.168.3.11 from 00:0e:6a:04:c3:80 via sis0
+Dec 18 04:52:22 cyberus dhcpd[30311]: DHCPACK on 192.168.3.11 to 00:0e:6a:04:c3:80 via sis0
+Dec 18 04:57:34 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.82.81: Connection refused
+Dec 18 04:57:34 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.83.51: Connection refused
+Dec 18 04:57:34 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.82.81: Connection refused
+Dec 18 04:57:34 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.83.51: Connection refused
+Dec 18 04:57:34 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.82.81: Connection refused
+Dec 18 04:57:34 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.83.51: Connection refused
+Dec 18 07:21:41 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.82.81: Connection refused
+Dec 18 07:21:41 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.83.51: Connection refused
+Dec 18 07:21:41 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.82.81: Connection refused
+Dec 18 07:21:41 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.83.51: Connection refused
+Dec 18 07:21:41 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.82.81: Connection refused
+Dec 18 07:21:41 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.83.51: Connection refused
+Dec 18 10:52:22 cyberus dhcpd[30311]: DHCPREQUEST for 192.168.3.11 from 00:0e:6a:04:c3:80 via sis0
+Dec 18 10:52:22 cyberus dhcpd[30311]: DHCPACK on 192.168.3.11 to 00:0e:6a:04:c3:80 via sis0
+Dec 18 12:08:13 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.82.81: Connection refused
+Dec 18 12:08:13 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.83.51: Connection refused
+Dec 18 12:08:13 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.82.81: Connection refused
+Dec 18 12:08:13 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.83.51: Connection refused
+Dec 18 12:08:13 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.82.81: Connection refused
+Dec 18 12:08:13 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.83.51: Connection refused
+Dec 18 16:00:45 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.82.81: Connection refused
+Dec 18 16:00:45 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.83.51: Connection refused
+Dec 18 16:00:45 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.82.81: Connection refused
+Dec 18 16:00:45 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.83.51: Connection refused
+Dec 18 16:00:45 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.82.81: Connection refused
+Dec 18 16:00:45 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.83.51: Connection refused
+Dec 18 16:52:22 cyberus dhcpd[30311]: DHCPREQUEST for 192.168.3.11 from 00:0e:6a:04:c3:80 via sis0
+Dec 18 16:52:22 cyberus dhcpd[30311]: DHCPACK on 192.168.3.11 to 00:0e:6a:04:c3:80 via sis0
+Dec 18 17:49:27 cyberus ntpd[10269]: adjusting clock frequency by -0.195341 to -1.179572ppm
+Dec 18 18:20:08 cyberus unbound: [9913:0] info: service stopped (unbound 1.4.22).
+Dec 18 18:20:08 cyberus unbound: [9913:0] info: server stats for thread 0: 33 queries, 25 answers from cache, 8 recursions, 0 prefetch
+Dec 18 18:20:08 cyberus unbound: [9913:0] info: server stats for thread 0: requestlist max 0 avg 0 exceeded 0 jostled 0
+Dec 18 18:20:08 cyberus unbound: [9913:0] info: average recursion processing time 0.061232 sec
+Dec 18 18:20:08 cyberus unbound: [9913:0] info: histogram of recursion processing times
+Dec 18 18:20:08 cyberus unbound: [9913:0] info: [25%]=0.0436907 median[50%]=0.0546133 [75%]=0.065536
+Dec 18 18:20:08 cyberus unbound: [9913:0] info: lower(secs) upper(secs) recursions
+Dec 18 18:20:08 cyberus unbound: [9913:0] info:    0.032768    0.065536 6
+Dec 18 18:20:08 cyberus unbound: [9913:0] info:    0.065536    0.131072 2
+Dec 18 18:20:19 cyberus unbound: [18470:0] notice: init module 0: validator
+Dec 18 18:20:19 cyberus unbound: [18470:0] notice: init module 1: iterator
+Dec 18 18:20:19 cyberus unbound: [18470:0] info: start of service (unbound 1.4.22).
+Dec 18 18:39:09 cyberus unbound: [18470:0] info: service stopped (unbound 1.4.22).
+Dec 18 18:39:09 cyberus unbound: [18470:0] info: server stats for thread 0: 0 queries, 0 answers from cache, 0 recursions, 0 prefetch
+Dec 18 18:39:09 cyberus unbound: [18470:0] info: server stats for thread 0: requestlist max 0 avg 0 exceeded 0 jostled 0
+Dec 18 18:39:10 cyberus unbound: [18470:0] notice: Restart of unbound 1.4.22.
+Dec 18 18:39:10 cyberus unbound: [18470:0] warning: increased limit(open files) from 512 to 4164
+Dec 18 18:39:10 cyberus unbound: [18470:0] notice: init module 0: validator
+Dec 18 18:39:10 cyberus unbound: [18470:0] notice: init module 1: iterator
+Dec 18 18:39:10 cyberus unbound: [18470:0] info: start of service (unbound 1.4.22).
+Dec 18 22:52:22 cyberus dhcpd[30311]: DHCPREQUEST for 192.168.3.11 from 00:0e:6a:04:c3:80 via sis0
+Dec 18 22:52:22 cyberus dhcpd[30311]: DHCPACK on 192.168.3.11 to 00:0e:6a:04:c3:80 via sis0
+Dec 19 04:52:22 cyberus dhcpd[30311]: DHCPREQUEST for 192.168.3.11 from 00:0e:6a:04:c3:80 via sis0
+Dec 19 04:52:22 cyberus dhcpd[30311]: DHCPACK on 192.168.3.11 to 00:0e:6a:04:c3:80 via sis0
+Dec 19 07:29:58 cyberus ntpd[10269]: adjusting clock frequency by 0.144709 to -1.034863ppm
+Dec 19 09:39:05 cyberus unbound: [18470:0] info: service stopped (unbound 1.4.22).
+Dec 19 09:39:05 cyberus unbound: [18470:0] info: server stats for thread 0: 33 queries, 27 answers from cache, 6 recursions, 0 prefetch
+Dec 19 09:39:05 cyberus unbound: [18470:0] info: server stats for thread 0: requestlist max 0 avg 0 exceeded 0 jostled 0
+Dec 19 09:39:05 cyberus unbound: [18470:0] info: average recursion processing time 0.061441 sec
+Dec 19 09:39:05 cyberus unbound: [18470:0] info: histogram of recursion processing times
+Dec 19 09:39:05 cyberus unbound: [18470:0] info: [25%]=0.049152 median[50%]=0.065536 [75%]=0.098304
+Dec 19 09:39:05 cyberus unbound: [18470:0] info: lower(secs) upper(secs) recursions
+Dec 19 09:39:05 cyberus unbound: [18470:0] info:    0.032768    0.065536 3
+Dec 19 09:39:05 cyberus unbound: [18470:0] info:    0.065536    0.131072 3
+Dec 19 09:39:06 cyberus unbound: [18470:0] notice: Restart of unbound 1.4.22.
+Dec 19 10:52:22 cyberus dhcpd[30311]: DHCPREQUEST for 192.168.3.11 from 00:0e:6a:04:c3:80 via sis0
+Dec 19 10:52:22 cyberus dhcpd[30311]: DHCPACK on 192.168.3.11 to 00:0e:6a:04:c3:80 via sis0

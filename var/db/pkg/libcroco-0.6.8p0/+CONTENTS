@@ -1,0 +1,241 @@
+@comment $OpenBSD: PLIST,v 1.4 2012/02/16 22:10:35 ajacoutot Exp $
+@comment $OpenBSD: PFRAG.shared,v 1.1.1.1 2006/11/16 22:47:27 alek Exp $
+@name libcroco-0.6.8p0
+@url http://ftp.fr.openbsd.org/pub/OpenBSD/5.6/packages/i386/libcroco-0.6.8p0.tgz
+@signer openbsd-56-pkg
+@digital-signature signify:2014-08-02T11:00:27Z:RWSPEf7Vpp2j0BdLPeONizTdmLWU1WLlCWS85xY/sxQl6zKWBZXVJLDlOMATYjHgXmOpYgOdxBXSVp5KFLxdyUFAkPQjFdMadQg=
+@comment pkgpath=www/libcroco cdrom=yes ftp=yes
+@arch i386
++DESC
+@sha eavqFBZ3UkvquHkMcaEiL9Quvmvbq4Hn1BNCLQOvbfE=
+@size 333
+@depend converters/libiconv:libiconv-*:libiconv-1.14p1
+@depend devel/gettext:gettext->=0.10.38:gettext-0.19.1p0
+@depend devel/glib2:glib2-*:glib2-2.40.0p7
+@depend textproc/libxml,-main:libxml-*:libxml-2.9.1p1
+@wantlib c.77.0
+@wantlib glib-2.0.4000.0
+@wantlib iconv.6.0
+@wantlib intl.6.0
+@wantlib m.9.0
+@wantlib pcre.3.0
+@wantlib pthread.18.0
+@wantlib xml2.15.1
+@wantlib z.5.0
+@cwd /usr/local
+@lib lib/libcroco-0.6.so.4.0
+@sha Pe1SooRnxK0/6r7VP496Ay++xw5aWHV3HnN+VgsXC4s=
+@size 263186
+bin/croco-0.6-config
+@sha 0bUwK6iVU/ZxMG9GvHccyFCSx5DrIOgZ54fUNfNV3nM=
+@size 1395
+@bin bin/csslint-0.6
+@sha nQhdbWSWrhNEMV52h5beq8kDsDPVBSAAdkpqxrPdL1Y=
+@size 20924
+include/libcroco-0.6/
+include/libcroco-0.6/libcroco/
+include/libcroco-0.6/libcroco/cr-additional-sel.h
+@sha IuLQOlOg+OgRbFy8OSVbbD0wMF0BB+0esgXV3xlbt8I=
+@size 2941
+include/libcroco-0.6/libcroco/cr-attr-sel.h
+@sha uzlr7kPll06Mt4NeqK9IhPcHt2qOGA5/bL1R/bhd8BI=
+@size 1991
+include/libcroco-0.6/libcroco/cr-cascade.h
+@sha d7ijmVlKYaMdOtjqRsoDSIHPx6ybuhsWd1bDekF+NwI=
+@size 1836
+include/libcroco-0.6/libcroco/cr-declaration.h
+@sha bWyCf34GJTzjYVi1RIwCqZZrsy8GE1zuFTTuv9T+z9o=
+@size 3674
+include/libcroco-0.6/libcroco/cr-doc-handler.h
+@sha lEdamQ9MTw/drFV7jzsNfQ0kb/DphaJXA+BYfrE3YOY=
+@size 9159
+include/libcroco-0.6/libcroco/cr-enc-handler.h
+@sha c9vbTrXBJfk7623ZEFr8zMvQNW5vrk6UxCOis81Ggos=
+@size 2696
+include/libcroco-0.6/libcroco/cr-fonts.h
+@sha Mmm3E2FNgmLKK9BOxs/DNK82SZGVKeaV2UvVYzl3vhw=
+@size 8521
+include/libcroco-0.6/libcroco/cr-input.h
+@sha hWwi7p/7fEEuLTygGI6rrclA6VZ6O6pvSc6HQ5d701M=
+@size 4408
+include/libcroco-0.6/libcroco/cr-num.h
+@sha sq1VDtpRdtHNENG2yfqNVpiP46BOCpyYqgzB7bpmVNY=
+@size 2554
+include/libcroco-0.6/libcroco/cr-om-parser.h
+@sha rnLfXsZJqgbFpyVj8ahL3RRu03auptdpruD8ljSzK3g=
+@size 3559
+include/libcroco-0.6/libcroco/cr-parser.h
+@sha TsD4yQeWK09FuodujGQKplvTmcV8F0d6h++piuEqpkM=
+@size 4270
+include/libcroco-0.6/libcroco/cr-parsing-location.h
+@sha TUexyrc+cutMR3yYDz7vhrcIvblt/MbbyYkmnJ5w8M0=
+@size 2005
+include/libcroco-0.6/libcroco/cr-prop-list.h
+@sha MDNitoHbkkPdnml12cVhrE/5Od4Qp49KnyNGn3VoZBg=
+@size 2272
+include/libcroco-0.6/libcroco/cr-pseudo.h
+@sha YXO+TZ78VTiHq7oH8nI6ENCYMS5lzZxL4dbX8j+PX9A=
+@size 1591
+include/libcroco-0.6/libcroco/cr-rgb.h
+@sha ykROJX2OELCT37QyNhRT4tWWV6FF/6NPXw6fN1V1U5o=
+@size 2801
+include/libcroco-0.6/libcroco/cr-sel-eng.h
+@sha 8yjYB04Or3vyWlmbbxw8uXTyiArwjQ1vxIh9QenkOWI=
+@size 4281
+include/libcroco-0.6/libcroco/cr-selector.h
+@sha LKgjxdysk7zQgVOuuGU6Htqcud8lvzU6GNjTFzjl/9E=
+@size 2632
+include/libcroco-0.6/libcroco/cr-simple-sel.h
+@sha zrJFVRK3hOP5o1YXtGQ+6qe4nfBx3ycYd5ghlBdKYvw=
+@size 3699
+include/libcroco-0.6/libcroco/cr-statement.h
+@sha ulPCRJdP+prUcALFEx2G92QR22evJUnvRveQKW2VQuY=
+@size 11099
+include/libcroco-0.6/libcroco/cr-string.h
+@sha pajL5Sh3ZqCXH4ZWEpzrzIbd+j6OwKHiBarOtBYaENs=
+@size 2387
+include/libcroco-0.6/libcroco/cr-style.h
+@sha armzp8WNkM44w1f0Ua4im7oKJMeEh0eY+3hM8uGHl8g=
+@size 8688
+include/libcroco-0.6/libcroco/cr-stylesheet.h
+@sha cvygpsPJ9JHs4R8XWFabrsoyZcZual5dj1RJr4s8jfE=
+@size 2533
+include/libcroco-0.6/libcroco/cr-term.h
+@sha wE932zrdJNgDllSlxOasxLRGM9/V0BswI49J1jh880Y=
+@size 4724
+include/libcroco-0.6/libcroco/cr-tknzr.h
+@sha IEmtF+CR+IKoKdW6s4ZZOXkBrR4ZkSPyUuvni8dsQ+I=
+@size 3599
+include/libcroco-0.6/libcroco/cr-token.h
+@sha 3Du2vbnXfMqahRL5v1Pqyc2yljicCi81ykAjvQo6+Gw=
+@size 5689
+include/libcroco-0.6/libcroco/cr-utils.h
+@sha +U/0WlBBF+vxdGhgo83uqPzon3yMmHCxCkHAS3c7vUk=
+@size 6540
+include/libcroco-0.6/libcroco/libcroco-config.h
+@sha 6oqjWSdwaIZ4gBS/8LeDRFz54Q7FCd9BbQZkGYzlyfM=
+@size 280
+include/libcroco-0.6/libcroco/libcroco.h
+@sha hiuCiUTI22fWT9yVjjbzz0oHyxCG5UrXpUHH9a4gwS4=
+@size 1309
+lib/libcroco-0.6.a
+@sha mhE7hQOqsOvjY8dGFezGTPSBjpJkoW6w4dHhU5WchI4=
+@size 349210
+lib/libcroco-0.6.la
+@sha FNGaZH5Z+AtflSXnvTXOJTOJ4R6F8howUjsEc2cp9vw=
+@size 929
+lib/pkgconfig/
+lib/pkgconfig/libcroco-0.6.pc
+@sha VTGIqdKn+hMVBSNiclL3dRnumPezz+q4BsOQ9F5pb4Y=
+@size 282
+share/gtk-doc/
+share/gtk-doc/html/
+share/gtk-doc/html/libcroco/
+share/gtk-doc/html/libcroco/ch01.html
+@sha 0kEgAYlEBKsr9gwt8/PTpWRcHPZRpbgq4J0TwpVsTPo=
+@size 5105
+share/gtk-doc/html/libcroco/home.png
+@sha A0wjFRP+pyu8eIEJWW+bNdt7h+JwwZyLPdIpQPs15r4=
+@size 654
+share/gtk-doc/html/libcroco/index.html
+@sha goGuV7FC+YQsO4iFYlKAJ9NxDylk306PN3z9t3fzN84=
+@size 4578
+share/gtk-doc/html/libcroco/index.sgml
+@sha vUs7csO72usvYhiWFnOffXB3s1V9T4JCXQAZvm6sd8A=
+@size 59621
+share/gtk-doc/html/libcroco/left.png
+@sha muCR5SxmenLXfrbEHNmvx69gvIm/wwIySLHcO7fb9GE=
+@size 459
+share/gtk-doc/html/libcroco/libcroco-cr-additional-sel.html
+@sha nXqtJZwbt4nGjAkvPFrEr/ckhcBCWAVAdaj1hYAYRyU=
+@size 24719
+share/gtk-doc/html/libcroco/libcroco-cr-attr-sel.html
+@sha hCCqLe3hSBObDiZVUUYLb92C/qGJfc5cmfIYxQ7PHE0=
+@size 12746
+share/gtk-doc/html/libcroco/libcroco-cr-cascade.html
+@sha C7JndWX1DBKNzFcECN8I6gHAY78cV6gr+AayURWNrAI=
+@size 15402
+share/gtk-doc/html/libcroco/libcroco-cr-declaration.html
+@sha SrlipZvuuxIjs4lTnKCEFmIV+mRRpmPYdsb5psBYUnM=
+@size 44037
+share/gtk-doc/html/libcroco/libcroco-cr-doc-handler.html
+@sha 4wsiw+z3wf6O1msEQ4T3yNJb598MnCk6vOyyO6mN/fo=
+@size 26993
+share/gtk-doc/html/libcroco/libcroco-cr-enc-handler.html
+@sha 3lR3rLo7tubdiCtLDESbO0/05MlnBcu3xJVvviDx8ug=
+@size 9965
+share/gtk-doc/html/libcroco/libcroco-cr-fonts.html
+@sha 0Yz47xxrbzmB9a3Xh5EALqR3eZorvtxGtIRvDxbKqwU=
+@size 46592
+share/gtk-doc/html/libcroco/libcroco-cr-input.html
+@sha VlgRHcijXdVz8ZDfIfNj6zHaLawIS2TVCgcZ4VSaa14=
+@size 74306
+share/gtk-doc/html/libcroco/libcroco-cr-num.html
+@sha jkBzc8WSFxdJZV425Sy1HhaQKvnwVdRlU59OBc8HML8=
+@size 16796
+share/gtk-doc/html/libcroco/libcroco-cr-om-parser.html
+@sha 58nJm9f8pS9sstn1QNctSQOTq8al8EKP50B+zfZ2fZc=
+@size 26347
+share/gtk-doc/html/libcroco/libcroco-cr-parser.html
+@sha x0POiLTcWkQMM9qXcM6S0uu3fKN7ySRTGdMsV6uf3bA=
+@size 60573
+share/gtk-doc/html/libcroco/libcroco-cr-parsing-location.html
+@sha uDmUFWFRffaJSFJDS2Ux+talhyY4kZ5arULeh7oeO9A=
+@size 13880
+share/gtk-doc/html/libcroco/libcroco-cr-prop-list.html
+@sha RoE+I5w/ppfngECwyt6mUaciaBPmnkbFi2cXiXZsGGU=
+@size 29035
+share/gtk-doc/html/libcroco/libcroco-cr-pseudo.html
+@sha qZuWpJX9Mif3CccacVZ1OL3tyhW9IU70TSb06/5wMW4=
+@size 7837
+share/gtk-doc/html/libcroco/libcroco-cr-rgb.html
+@sha 4Q8AfKGVY5zDYMn5BVICM+tEKtN0eKDbxmelHRRRrxM=
+@size 33637
+share/gtk-doc/html/libcroco/libcroco-cr-sel-eng.html
+@sha C8bz5uPb7i6pcFm2SVbanAPgYD2D9Tf3mtZUUHZs+YM=
+@size 28661
+share/gtk-doc/html/libcroco/libcroco-cr-selector.html
+@sha sBoxjgzU5Wb/TgStxG4EMzDh5SaW11hA3H5LpQ0FmeY=
+@size 19427
+share/gtk-doc/html/libcroco/libcroco-cr-simple-sel.html
+@sha 7ixbCARZ5x7HnY8baIKPf/04i/QABUG14cBOCDFpMxI=
+@size 16512
+share/gtk-doc/html/libcroco/libcroco-cr-statement.html
+@sha 2l7Njq5QBXRkrIcWwwUYGmE1B4ofPMpHVTDIMbRGwZ0=
+@size 113707
+share/gtk-doc/html/libcroco/libcroco-cr-string.html
+@sha Vg52jxtnf3GAl/iDG5PJFPChyzL5bobVYymLKnnkVOI=
+@size 10009
+share/gtk-doc/html/libcroco/libcroco-cr-style.html
+@sha S03Y5L+yuehsIrqlP/j3Oo4qwIvZW4/D7jw5CDp8v80=
+@size 29349
+share/gtk-doc/html/libcroco/libcroco-cr-stylesheet.html
+@sha wy4xGu/GoXzyfCo19DEfhAMekMFDo0gIz6UxoSWgAgM=
+@size 11135
+share/gtk-doc/html/libcroco/libcroco-cr-term.html
+@sha MCzxCnMf/CQ5lPBA0+9pGnlxVa4sk8cj6PE9yxHffLc=
+@size 24651
+share/gtk-doc/html/libcroco/libcroco-cr-tknzr.html
+@sha ZeEh1LepYME+IZHImp2/1tcBnm5hxnHC1sDpLYnnmNI=
+@size 32986
+share/gtk-doc/html/libcroco/libcroco-cr-token.html
+@sha afpLWEiQlxIzCpWmzGyuQ0Xbu5FgDdRrxDbcxufAh6U=
+@size 41038
+share/gtk-doc/html/libcroco/libcroco-cr-utils.html
+@sha +Ktyi7w+xMW6WFfFKWk/czcvk9sVrvLhEIJdx/D5+qk=
+@size 39397
+share/gtk-doc/html/libcroco/libcroco-libcroco-config.html
+@sha Voh/wxu1xeZdAqEmgrY0Ulmg/mGOLGrvV+qnGhHHlmM=
+@size 3190
+share/gtk-doc/html/libcroco/libcroco.devhelp2
+@sha eTAqcUTk/K7S3vdf4/WESz588WAH1xlbDnj6fOCvimU=
+@size 58697
+share/gtk-doc/html/libcroco/right.png
+@sha F9zAsXW6vFHQf3E4LPIIO81Omr/tCRpFlj9e6YKqe0g=
+@size 472
+share/gtk-doc/html/libcroco/style.css
+@sha +EQoZ90XouDSJxvG1qkwGkXFgSYM9UsvPeyjpBIjNDE=
+@size 5184
+share/gtk-doc/html/libcroco/up.png
+@sha KvlFxMbOKIrfrXFq4XR/NwVve/Z7hTbS5ea44M6EyHI=
+@size 406

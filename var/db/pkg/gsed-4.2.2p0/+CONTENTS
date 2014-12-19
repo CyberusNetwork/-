@@ -1,0 +1,144 @@
+@comment $OpenBSD: PLIST,v 1.3 2012/12/25 01:29:54 brad Exp $
+@name gsed-4.2.2p0
+@url http://ftp.fr.openbsd.org/pub/OpenBSD/5.6/packages/i386/gsed-4.2.2p0.tgz
+@signer openbsd-56-pkg
+@digital-signature signify:2014-08-02T10:58:38Z:RWSPEf7Vpp2j0EOYsjh98bh2x/2qdedCZLtzKyuF9f1k7l50lNNws14/v49LaVWMKFXEIAO2J85YYARaCJPh0sPnqVl8cFRwNQY=
+@option manual-installation
+@comment pkgpath=textproc/gsed cdrom=yes ftp=yes
+@arch i386
++DESC
+@sha Y0TLF53ZHjjKCF4j9BnT9HfgyNoI2fZ8c0mPL22mjWo=
+@size 648
+@depend converters/libiconv:libiconv-*:libiconv-1.14p1
+@depend devel/gettext:gettext->=0.10.38:gettext-0.19.1p0
+@wantlib c.77.0
+@wantlib iconv.6.0
+@wantlib intl.6.0
+@cwd /usr/local
+@bin bin/gsed
+@sha 1VSNmjEc0DLSLSUZ0Wfr0kWW9kKW7qNe7E6d1jUxLwM=
+@size 133712
+@info info/sed.info
+@sha coZDm83cYg/hVqcdJBJINVvJzMQkKa09Q3P3vxfGlcI=
+@size 100995
+@man man/man1/gsed.1
+@sha wctIrBCVD+FDvkAzBECtfAl/ZE2y2AEdq2/rFmcASDw=
+@size 9881
+share/locale/af/
+share/locale/af/LC_MESSAGES/
+share/locale/af/LC_MESSAGES/sed.mo
+@sha ydgk4lByclQMhXwKw0NsLIqGcFMYZEMAgjg1O5cznEs=
+@size 3125
+share/locale/ast/
+share/locale/ast/LC_MESSAGES/
+share/locale/ast/LC_MESSAGES/sed.mo
+@sha AQ7WuVuVW28819+Ocgkr3FHb4HejkQWYSqe7UfvYwDE=
+@size 9247
+share/locale/ca/LC_MESSAGES/sed.mo
+@sha Wj96XXM3l7XNXgOKkpo33DVwTh4T7awPrcRbc95yws8=
+@size 10203
+share/locale/cs/LC_MESSAGES/sed.mo
+@sha 0zfH2JSM422WH4QxCl2JnOHk4LDVqICyRqmci9Xl9wo=
+@size 10479
+share/locale/da/LC_MESSAGES/sed.mo
+@sha Lfhe/kSbPRA4a+b4z4DDLxlq1dlH4ywO/EROcAOp5cw=
+@size 9770
+share/locale/de/LC_MESSAGES/sed.mo
+@sha Yf39GDgQ7q5gs1q6j/6Bt/HQ89pbGu3VRRXbh6MzooQ=
+@size 9655
+share/locale/el/LC_MESSAGES/sed.mo
+@sha hR5EK1Bw7fB5MZuCQSazTdy6Yl/PCR4q2+JA+6y3erc=
+@size 13318
+share/locale/eo/LC_MESSAGES/sed.mo
+@sha k0XHjzd3JY+8kwDmNkVJ0giQC/ZV16HkGi+/WFKhn/U=
+@size 8931
+share/locale/es/LC_MESSAGES/sed.mo
+@sha F2gcQ6DG12v+9uTC7CCw7hb8MQFlk87JGmja4XgiFjM=
+@size 10440
+share/locale/et/LC_MESSAGES/sed.mo
+@sha EBMJJyWKABRGoBK4lYTET7bS2Ej1sgzkzY8ug17/oBQ=
+@size 9429
+share/locale/eu/LC_MESSAGES/sed.mo
+@sha Szo/OmJOI6/5ZCtL2uVCD4kpZ1LrUQB3iB+7RLZWTV4=
+@size 1686
+share/locale/fi/LC_MESSAGES/sed.mo
+@sha InV2VXx/7/H/pvMjzwIiHxmF8Ag6FIXHEk74cHkQQ3I=
+@size 10492
+share/locale/fr/LC_MESSAGES/sed.mo
+@sha QI6VcQMxDflAbpNSh3bkoo+5OX53TI6o+WYJuQvsNZc=
+@size 10475
+share/locale/ga/LC_MESSAGES/sed.mo
+@sha VfFjA5uAYePVH5pIV6XOhVLbZUREutTAiX/dPZSh80U=
+@size 9534
+share/locale/gl/LC_MESSAGES/sed.mo
+@sha oKRNx/sInwQhp4zEiD18lavdVcMj7Pn7l6zdslMQMUg=
+@size 10434
+share/locale/he/LC_MESSAGES/sed.mo
+@sha e8m/t7e0F0ZHt7ata0KmY01eBx9Zwcqt1tahwjBdumA=
+@size 1269
+share/locale/hr/LC_MESSAGES/sed.mo
+@sha gG8xMzUP04UWg9qZ8/ZXYi1I+1fbnYyOZ670Z1UXWt8=
+@size 10091
+share/locale/hu/LC_MESSAGES/sed.mo
+@sha B6IVbyjVi8eI5jbYoO7d5S3bdJ3orfXRiEwvxgYqaWY=
+@size 7946
+share/locale/id/LC_MESSAGES/sed.mo
+@sha mDpAgMVS9JZ/KNKcJkcjaF0pZ4LcPEb/oeQ5msm0Q3E=
+@size 9214
+share/locale/it/LC_MESSAGES/sed.mo
+@sha eB/nA02BuTPz9znS+oU/tWokPnS8v7w6y523xyA/ijM=
+@size 9297
+share/locale/ja/LC_MESSAGES/sed.mo
+@sha uMNMh3C+1swh5MMWY1KEe1x5VM+SOFZYN6CVOoI0gK8=
+@size 11228
+share/locale/ko/LC_MESSAGES/sed.mo
+@sha 4tT6+vlIsLjQ4pqmx6Xrm/p2nzUzL9D5NvBI/tH/sCY=
+@size 1318
+share/locale/nb/LC_MESSAGES/sed.mo
+@sha biKo+Pkjun2x0ZQ05QzzyYJHyCvvoA+vphotGykLgcw=
+@size 9758
+share/locale/nl/LC_MESSAGES/sed.mo
+@sha Q6LSb8FM/xzldcY5w96FkuRuthoFwg0+b/UNqgqC7W0=
+@size 9987
+share/locale/pl/LC_MESSAGES/sed.mo
+@sha phWoNol4hLCtUFQR66n1O+bDQraoNYJ8sDwBmLbh8sM=
+@size 10591
+share/locale/pt/LC_MESSAGES/sed.mo
+@sha zIez1b8PRuQDCMHezAk/wsTW650+3gPMdsGLuL2sEtA=
+@size 9494
+share/locale/pt_BR/LC_MESSAGES/sed.mo
+@sha YXzoAlv4uRAYruOlfv+KD8BzHSwfdJMRVLvm8IqpxNY=
+@size 10316
+share/locale/ro/LC_MESSAGES/sed.mo
+@sha W/kwyY8KkQkpc4s/eWLpYN0sOJZ1WJTOZ8D1fC3JHkA=
+@size 8589
+share/locale/ru/LC_MESSAGES/sed.mo
+@sha 7YkNiosym9pT61IE3GXEuwhcvbbuPNQHGdLs73WlE0g=
+@size 11937
+share/locale/sk/LC_MESSAGES/sed.mo
+@sha q2S4UGRZDbHd8SsLr7F39Sn0sJLdt20ahzvLpvcP+vs=
+@size 10463
+share/locale/sl/LC_MESSAGES/sed.mo
+@sha vwfk2lwj4F9eJL0jHhgBIazFfmM4M3F91tbwu1YpN3s=
+@size 10048
+share/locale/sr/LC_MESSAGES/sed.mo
+@sha +203ftz2gCzTmv/ApH753XiNQx76PvyI9PbQNcHvFps=
+@size 12388
+share/locale/sv/LC_MESSAGES/sed.mo
+@sha rFRp3rXlIHCURTwsZ51vf4LC4k+Wx2DUHhQE7/r27G0=
+@size 9029
+share/locale/tr/LC_MESSAGES/sed.mo
+@sha mSQvIYe6dNFp3BwAV4mHxdA6LYX8r6HOXjbVR3iKj8o=
+@size 8197
+share/locale/uk/LC_MESSAGES/sed.mo
+@sha f7V+bpLr5dItjMpd1qXUT+YilADKgnoxjkE3aFKa6E4=
+@size 13187
+share/locale/vi/LC_MESSAGES/sed.mo
+@sha pWGnpyrfdAOWva/PmN8BrGWAQp+o5HfvTfYmz1ftuss=
+@size 11244
+share/locale/zh_CN/LC_MESSAGES/sed.mo
+@sha Pb+ZsVPlv497ZN0mG8YHtBmVHO7sWPSMHHFQahwbfcc=
+@size 8616
+share/locale/zh_TW/LC_MESSAGES/sed.mo
+@sha asWn385+fPEqqN9ZoPpVgfM69lrs13QE34pkJwqgUCk=
+@size 8114

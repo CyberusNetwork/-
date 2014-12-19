@@ -1,0 +1,39 @@
+@comment $OpenBSD: PLIST,v 1.7 2009/05/29 19:53:16 benoit Exp $
+@comment $OpenBSD: PFRAG.shared,v 1.9 2005/12/24 22:32:53 sturm Exp $
+@name libmcrypt-2.5.8p1
+@url http://ftp.fr.openbsd.org/pub/OpenBSD/5.6/packages/i386/libmcrypt-2.5.8p1.tgz
+@signer openbsd-56-pkg
+@digital-signature signify:2014-08-02T11:00:38Z:RWSPEf7Vpp2j0GQlOxIs/t4HkKIOGcIlLFNqqk4Dyd6iZEAuOVaV6IZxMEI5UoXZ5MYJfybmJ+zIjNfybvm2xows7jK+T3xvGA8=
+@comment pkgpath=security/libmcrypt cdrom=yes ftp=yes
+@arch i386
++DESC
+@sha T0RwAjbNvlMqaS/TSTWJuEzYNGMPiEzB4PCArDKrsvQ=
+@size 1161
+@cwd /usr/local
+bin/libmcrypt-config
+@sha ZURKtjR2MnCeCoZLCkQJ54/I3pBwhoRY1YerNYE1G+Y=
+@size 1461
+include/mcrypt.h
+@sha hur1VSZjgvFCb/lW/lSt/SaoviXOlDkrK9x8AXRXAg4=
+@size 82
+include/mutils/
+include/mutils/mcrypt.h
+@sha nbPz2NnYM7VEdRSEQN53h/4ZSWzwohM3zQBwQPuD50Y=
+@size 5260
+lib/libmcrypt/
+lib/libmcrypt.a
+@sha EcCujLMHUYpsIECjwAjlGvq58/E5yu21O8P4CYzj8Ag=
+@size 264654
+lib/libmcrypt.la
+@sha EDoZwjKdBpP3nqvFYmoIakkqwH2BHpavzEwKGP4XUCI=
+@size 725
+@man man/cat3/mcrypt.0
+@sha LzKRJzz5QG8b1RNPk730eXxHSBoiuvgQUaj/ykgl4h0=
+@size 31908
+share/aclocal/
+share/aclocal/libmcrypt.m4
+@sha PqZ4kS9ztZujs9DOucNHCf+H3lpaL4/CpIz6P+39akI=
+@size 8626
+@lib lib/libmcrypt.so.8.7
+@sha eBCPVlUCyqtO41f6NT0AMYajTFARH8YmjlSrTMTav1g=
+@size 183540

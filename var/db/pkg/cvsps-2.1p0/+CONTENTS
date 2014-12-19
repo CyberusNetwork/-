@@ -1,0 +1,19 @@
+@comment $OpenBSD: PLIST,v 1.1.1.1 2005/09/22 13:21:05 avsm Exp $
+@name cvsps-2.1p0
+@url http://ftp.fr.openbsd.org/pub/OpenBSD/5.6/packages/i386/cvsps-2.1p0.tgz
+@signer openbsd-56-pkg
+@digital-signature signify:2014-08-02T10:55:52Z:RWSPEf7Vpp2j0LZCZUssC0r40U/yk6ixKd+lZ95g1eyem/YlMgm/LfTQv4PdTu8qjdjHTLYvvbO45uelnHsD470Bam8+mSg9BAc=
+@comment pkgpath=devel/cvsps cdrom=yes ftp=yes
+@arch i386
++DESC
+@sha VQ8OJkCsLA1VY5UzWgAMG0yxuSEMg9R6vD7imqwtGZ4=
+@size 598
+@wantlib c.77.0
+@wantlib z.5.0
+@cwd /usr/local
+bin/cvsps
+@sha A7/vdxR2aPFTxz6jiwXqmNWGkHakaJ+gztVoZngkbBw=
+@size 75664
+@man man/man1/cvsps.1
+@sha QJv5jOFOO0+wh94Yfy6VD9/uzZi9xHtR652p8xvQKkQ=
+@size 9267

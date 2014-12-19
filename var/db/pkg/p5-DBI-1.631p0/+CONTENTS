@@ -1,0 +1,390 @@
+@comment $OpenBSD: PLIST,v 1.33 2014/06/14 23:24:53 sthen Exp $
+@name p5-DBI-1.631p0
+@url http://ftp.fr.openbsd.org/pub/OpenBSD/5.6/packages/i386/p5-DBI-1.631p0.tgz
+@signer openbsd-56-pkg
+@digital-signature signify:2014-08-02T11:03:15Z:RWSPEf7Vpp2j0PbWfSqC+hMFwcZwT0qFeKCUdtHbpDwNibbQ2RXHr9mWFRaA1jirSxY19P2YO8+eX28TOm7KTLxeXg7HZfXVywM=
+@comment pkgpath=databases/p5-DBI cdrom=yes ftp=yes
+@arch i386
++DESC
+@sha g5GwNyzBV2dbowvtSjgEkZrGeRAMQU0gOHrgMY7Z7lM=
+@size 727
+@depend databases/p5-SQL-Statement:p5-SQL-Statement->=1.400:p5-SQL-Statement-1.405
+@depend devel/p5-MLDBM:p5-MLDBM-*:p5-MLDBM-2.05
+@depend net/p5-PlRPC:p5-PlRPC->=0.2017:p5-PlRPC-0.2018p1
+@wantlib c.77.0
+@wantlib perl.15.0
+@cwd /usr/local
+bin/dbilogstrip
+@sha eaB6PT+8t2/tkY696zGpSmqyFrer5IPBe2j5bpDjvOY=
+@size 1465
+bin/dbiprof
+@sha 0FVkVXNf4uYblzk562pnyWpV/FGm7rTUNSxrZWEMV6U=
+@size 6291
+bin/dbiproxy
+@sha aEwQcHR0gr736w9C6cLBPJ6YTQGV8UsveGktKsNmYww=
+@size 5475
+libdata/perl5/site_perl/i386-openbsd/Bundle/
+libdata/perl5/site_perl/i386-openbsd/Bundle/DBI.pm
+@sha +Y7Oc7d1/RhGnqJ8YwQO9Jgro7Ci82wwhSQznmcdHig=
+@size 1166
+libdata/perl5/site_perl/i386-openbsd/DBD/
+libdata/perl5/site_perl/i386-openbsd/DBD/DBM.pm
+@sha 9yWPsQJ4W3Ghy7Iy7ncL0Idkv0CPkRAz+arTRNJTI/k=
+@size 52096
+libdata/perl5/site_perl/i386-openbsd/DBD/ExampleP.pm
+@sha lh1IojKE3KFBRHGWhKLeyqDQF1u44mNWM+G+fUCxDhE=
+@size 12293
+libdata/perl5/site_perl/i386-openbsd/DBD/File/
+libdata/perl5/site_perl/i386-openbsd/DBD/File.pm
+@sha RZw102BJMi4Fi6uFyk8zOSrzuTDAElaXfzcPDJG1cMY=
+@size 38713
+libdata/perl5/site_perl/i386-openbsd/DBD/File/Developers.pod
+@sha Ezs/svZaqaXi0b4wOUs0PzihTrgjI7z+2mHET6Ebsks=
+@size 20598
+libdata/perl5/site_perl/i386-openbsd/DBD/File/HowTo.pod
+@sha 01/Emt0xMJwkjNCo+hVUyNH8rRndmK1pokKKwhuixUg=
+@size 5012
+libdata/perl5/site_perl/i386-openbsd/DBD/File/Roadmap.pod
+@sha tTqMwbcZJux3vQhqRmjWN21yvG7R3fl6rKmCASxV6C4=
+@size 5947
+libdata/perl5/site_perl/i386-openbsd/DBD/Gofer/
+libdata/perl5/site_perl/i386-openbsd/DBD/Gofer.pm
+@sha omRcP4ihuy75QUQ+5UiEXPIDzFeqK0jPCjf9A0dpevY=
+@size 49031
+libdata/perl5/site_perl/i386-openbsd/DBD/Gofer/Policy/
+libdata/perl5/site_perl/i386-openbsd/DBD/Gofer/Policy/Base.pm
+@sha WZdAfpSJHKzDoD7Lf8o1olL4KErQHQxgu2v54udVfnw=
+@size 5089
+libdata/perl5/site_perl/i386-openbsd/DBD/Gofer/Policy/classic.pm
+@sha hGLZusxmULN7iL9nAFa6lPvKyX2eYL3p1EuLhS9cRLs=
+@size 2106
+libdata/perl5/site_perl/i386-openbsd/DBD/Gofer/Policy/pedantic.pm
+@sha Hnnyiea5bBYhn0wvFdyHMbuOGR4tdxqsaGfw+U9RIZY=
+@size 1435
+libdata/perl5/site_perl/i386-openbsd/DBD/Gofer/Policy/rush.pm
+@sha 9k9cbZBpjkLATXkqONGabGr4OVp7FKAWhMj20wYxSLw=
+@size 2597
+libdata/perl5/site_perl/i386-openbsd/DBD/Gofer/Transport/
+libdata/perl5/site_perl/i386-openbsd/DBD/Gofer/Transport/Base.pm
+@sha +c2PPfhiLE6Ni8gCzskBa3rq0JQpozHcq8noBNkMRZM=
+@size 12755
+libdata/perl5/site_perl/i386-openbsd/DBD/Gofer/Transport/corostream.pm
+@sha VIKHypOFmPIorqdlWBxjqa0T2XskE0oH/Yhei8HImgM=
+@size 3356
+libdata/perl5/site_perl/i386-openbsd/DBD/Gofer/Transport/null.pm
+@sha Ob+nqOLck8FVO3mTYkjhsxYL4yLNw2vocfUUj2cSkjs=
+@size 2770
+libdata/perl5/site_perl/i386-openbsd/DBD/Gofer/Transport/pipeone.pm
+@sha Tz/IHTKaHqMKdoPzkaNoXZPfa/S5D7g4KdyWX9Qo964=
+@size 7299
+libdata/perl5/site_perl/i386-openbsd/DBD/Gofer/Transport/stream.pm
+@sha QkOlQhhBFsnzbmmUtB7NXstu/AZ6pGSq12+wQJSjtvs=
+@size 9248
+libdata/perl5/site_perl/i386-openbsd/DBD/NullP.pm
+@sha CplBykKIQwbUPSGL1M4LcS3Ytpdz9fim5MCyZyFmFB0=
+@size 4461
+libdata/perl5/site_perl/i386-openbsd/DBD/Proxy.pm
+@sha EsiADRFIsFAIxCjm7rpcmAqo3QVp2HZJCCFWgyXXGoM=
+@size 29089
+libdata/perl5/site_perl/i386-openbsd/DBD/Sponge.pm
+@sha BXdyNlMjmVEdSINfhPxYbgWRQA0jSWJZ8CEwFbt0kd4=
+@size 7938
+libdata/perl5/site_perl/i386-openbsd/DBI/
+libdata/perl5/site_perl/i386-openbsd/DBI.pm
+@sha zsjqRMSGW+VPD18SSMfLuSFWGds4euOdJ1A9EjeY8Lc=
+@size 313719
+libdata/perl5/site_perl/i386-openbsd/DBI/Changes.pm
+@sha iiVnks+Xx3Dv/GXCkVWGQC4P/ak/uzklipQRzoBbOfY=
+@size 116464
+libdata/perl5/site_perl/i386-openbsd/DBI/Const/
+libdata/perl5/site_perl/i386-openbsd/DBI/Const/GetInfo/
+libdata/perl5/site_perl/i386-openbsd/DBI/Const/GetInfo/ANSI.pm
+@sha diOdn8pNdsv7VCSIKkHAFwjeS87HjwcF1yBzRjrOQY8=
+@size 9541
+libdata/perl5/site_perl/i386-openbsd/DBI/Const/GetInfo/ODBC.pm
+@sha iLHM2x3ySUlRF0quaPjuBPkMdcF6/u+7UzFLJiVL/Ec=
+@size 66064
+libdata/perl5/site_perl/i386-openbsd/DBI/Const/GetInfoReturn.pm
+@sha +FbVR6Oe3TbnGon07iy1rJxy5F2IOg5Joxni40JlSnA=
+@size 2475
+libdata/perl5/site_perl/i386-openbsd/DBI/Const/GetInfoType.pm
+@sha QRk6GELYBgnaI4eNNJtIbHQPgktRckA+FJMeOJDmDCU=
+@size 1195
+libdata/perl5/site_perl/i386-openbsd/DBI/DBD/
+libdata/perl5/site_perl/i386-openbsd/DBI/DBD.pm
+@sha XDS4sjN48J4rrjLL4lqe4dJFCpVP3WCWfPmpZhpwjCI=
+@size 125786
+libdata/perl5/site_perl/i386-openbsd/DBI/DBD/Metadata.pm
+@sha 9oe+JP3oPTXCRp1owlXAtslySbLDHbrOxoBrkXTfEXc=
+@size 15073
+libdata/perl5/site_perl/i386-openbsd/DBI/DBD/SqlEngine/
+libdata/perl5/site_perl/i386-openbsd/DBI/DBD/SqlEngine.pm
+@sha ABTl0O+GzI7/LZyOp5M1kiC4EZGe917U7NQCe+6Q338=
+@size 63595
+libdata/perl5/site_perl/i386-openbsd/DBI/DBD/SqlEngine/Developers.pod
+@sha OQYj+cF+Fb+RnUrsN/dtcAIZV7CghdC5ou558UhudEk=
+@size 27334
+libdata/perl5/site_perl/i386-openbsd/DBI/DBD/SqlEngine/HowTo.pod
+@sha 0aFfCeLfisHKKf3WChhU9looTwgi4YH9ltTQWhAQb4I=
+@size 10460
+libdata/perl5/site_perl/i386-openbsd/DBI/FAQ.pm
+@sha eEXF1lj7H9hlvVS6UUhNSa4MhnugO3rHg1gFFP4pA14=
+@size 35131
+libdata/perl5/site_perl/i386-openbsd/DBI/Gofer/
+libdata/perl5/site_perl/i386-openbsd/DBI/Gofer/Execute.pm
+@sha XNCVkX5I5YdIncw8kem8bkr5E7gyfKM2X5Ikw6wMrwg=
+@size 31132
+libdata/perl5/site_perl/i386-openbsd/DBI/Gofer/Request.pm
+@sha Uu99wYQVBC+CRLzlPqMml+2D3dk0Fu6VJc4UMeqFmtk=
+@size 5236
+libdata/perl5/site_perl/i386-openbsd/DBI/Gofer/Response.pm
+@sha q5LjPcNBLZZIt4BY6LtawBxhHhYOJ5R1H1zBfqKtNxM=
+@size 6227
+libdata/perl5/site_perl/i386-openbsd/DBI/Gofer/Serializer/
+libdata/perl5/site_perl/i386-openbsd/DBI/Gofer/Serializer/Base.pm
+@sha pGKpvfANlmFy83qewu6WQHh56ne6tNcyxuHxBD2lxxo=
+@size 1501
+libdata/perl5/site_perl/i386-openbsd/DBI/Gofer/Serializer/DataDumper.pm
+@sha b8Hcd+tvudTCAB6f7eUtkwPkSI5sWShb2I0cbpOllV4=
+@size 1311
+libdata/perl5/site_perl/i386-openbsd/DBI/Gofer/Serializer/Storable.pm
+@sha 5Dffh8MgQrsNUuC+DFDh2B/TXi+E+axNKtwgxCnijwM=
+@size 1441
+libdata/perl5/site_perl/i386-openbsd/DBI/Gofer/Transport/
+libdata/perl5/site_perl/i386-openbsd/DBI/Gofer/Transport/Base.pm
+@sha RgKFaL83GVZNDhYYaS2sNw286xi9pOByuYp0+RgLVtw=
+@size 5044
+libdata/perl5/site_perl/i386-openbsd/DBI/Gofer/Transport/pipeone.pm
+@sha D83k/YnN0rldlCe4Yacv2K2cTR59b7nfp0VlLtsJ5ZI=
+@size 1334
+libdata/perl5/site_perl/i386-openbsd/DBI/Gofer/Transport/stream.pm
+@sha 1mDxtmfgk2Z0d9PENVnUrWC3UryFXPv2y8QaLnljJc4=
+@size 2030
+libdata/perl5/site_perl/i386-openbsd/DBI/Profile.pm
+@sha 1RTI4sm7WPxGbkbuyPQglNizcxIG5kOMEHk2jhCEgcU=
+@size 32428
+libdata/perl5/site_perl/i386-openbsd/DBI/ProfileData.pm
+@sha lXkdVW18trG4vFWLSC+sT+JXyGEbtDKkDTUXjHx0hhE=
+@size 19984
+libdata/perl5/site_perl/i386-openbsd/DBI/ProfileDumper/
+libdata/perl5/site_perl/i386-openbsd/DBI/ProfileDumper.pm
+@sha /KRvJlrLjxtlzhUDa7kIcXzFQPlOc0BeSNcO+1L22Ew=
+@size 10386
+libdata/perl5/site_perl/i386-openbsd/DBI/ProfileDumper/Apache.pm
+@sha LynfdVwv+acVmZgPU8kXQ9liFaEJLnBvLPUc5r5srow=
+@size 6553
+libdata/perl5/site_perl/i386-openbsd/DBI/ProfileSubs.pm
+@sha mecYuABTgd63z37WsBHGfLNAaa9JQ/QZwJqfgx4Cx8Q=
+@size 1168
+libdata/perl5/site_perl/i386-openbsd/DBI/ProxyServer.pm
+@sha VdnDBQwoyppG1/C3sRCN43kvZ9zIV+MCD/t4yEvRdEE=
+@size 26270
+libdata/perl5/site_perl/i386-openbsd/DBI/PurePerl.pm
+@sha QDcoUVdMqXyYEKc4PPy6zynekxmvvI1t8bmejlerVdY=
+@size 38131
+libdata/perl5/site_perl/i386-openbsd/DBI/SQL/
+libdata/perl5/site_perl/i386-openbsd/DBI/SQL/Nano.pm
+@sha 9KGv+Wl0h/NSF4ymQ6bpdxkHI0sbqt8Pxn2GvhKowgM=
+@size 30195
+libdata/perl5/site_perl/i386-openbsd/DBI/Util/
+libdata/perl5/site_perl/i386-openbsd/DBI/Util/CacheMemory.pm
+@sha 78X8DvC0KZRHLAHHljXGBkKq5b3ey0xa5GNs9cHVGYs=
+@size 2325
+libdata/perl5/site_perl/i386-openbsd/DBI/Util/_accessor.pm
+@sha FRiE/I2dxCQXPnUhXOi7ggImtzkqAsfN8D/mZgLsmm8=
+@size 1666
+libdata/perl5/site_perl/i386-openbsd/DBI/W32ODBC.pm
+@sha BKZ/gRStGWDRtYMVPI7VSERwoRIK8CzjTpx+nTS1rLg=
+@size 4608
+libdata/perl5/site_perl/i386-openbsd/Win32/
+libdata/perl5/site_perl/i386-openbsd/Win32/DBIODBC.pm
+@sha h6z+7hYAi6679PqybunyXhDUckq1LRuufMCUZR0Gqh4=
+@size 4533
+libdata/perl5/site_perl/i386-openbsd/auto/DBI/
+@comment libdata/perl5/site_perl/i386-openbsd/auto/DBI/DBI.bs
+libdata/perl5/site_perl/i386-openbsd/auto/DBI/DBI.so
+@sha BQ423pBlkrcnx3w2BDtDswo45cZt8YnmUgaoX1Cw5Y0=
+@size 126429
+libdata/perl5/site_perl/i386-openbsd/auto/DBI/DBIXS.h
+@sha VpggIxfKDFTKSOxcKWAwFg/e6cY/V8drtVzQZb66meY=
+@size 25998
+libdata/perl5/site_perl/i386-openbsd/auto/DBI/Driver.xst
+@sha WS+Trtm3gBCdCMgCAki82u74AuvL+3JeVMSxMWea/+Q=
+@size 22281
+libdata/perl5/site_perl/i386-openbsd/auto/DBI/Driver_xst.h
+@sha PIHoxAazGOdP7P52vIjCvs0dGhsAi5/xRAiuHY+iIXk=
+@size 3952
+libdata/perl5/site_perl/i386-openbsd/auto/DBI/dbd_xsh.h
+@sha 93s2vXIaDHzSdJD98yC3eidmbDFvd2+dtzXFzPxYQhU=
+@size 3092
+libdata/perl5/site_perl/i386-openbsd/auto/DBI/dbi_sql.h
+@sha KpzCQbukAz1bVxEcUm6NCnqLuUqfuDwonW+oJpBUP3c=
+@size 3703
+libdata/perl5/site_perl/i386-openbsd/auto/DBI/dbipport.h
+@sha 383mHRPuT8LpHriLkP6MGdM3gbS+OceOo2N/CRikQyU=
+@size 180260
+libdata/perl5/site_perl/i386-openbsd/auto/DBI/dbivport.h
+@sha nlP39Bqq8bVA4nhHVu9vFvYbY98NmVZIOt7TxJtuD0g=
+@size 2016
+libdata/perl5/site_perl/i386-openbsd/auto/DBI/dbixs_rev.h
+@sha JtgOmGKwrUBC1V/72e7HzEaLN6vz8aQmycbZk/KrWlU=
+@size 108
+libdata/perl5/site_perl/i386-openbsd/dbixs_rev.pl
+@sha H1GvDYyOPfv0LUcsFdmKm9a8l/adOULTOqbiivg8k/E=
+@size 1533
+@man man/man1/dbilogstrip.1
+@sha 65ZdcfmOSeehzt88zfxb0xges19DtCfhdpv8QBs0oCM=
+@size 5379
+@man man/man1/dbiprof.1
+@sha zhxfQ0wKsIYtfRZyzMhJhp4EFkngos8OXLV936c2ek0=
+@size 8326
+@man man/man1/dbiproxy.1
+@sha /AWo4G00BhzsUmBDZWtsGkLU2Fyd51AioqwqoL+hu4Y=
+@size 9661
+@man man/man3p/Bundle::DBI.3p
+@sha 8nzL4QFDJ6DhxSBD9PTZl+PpV1MN6f6dvV0fPw3FwHQ=
+@size 5259
+@man man/man3p/DBD::DBM.3p
+@sha QAIwaiVYxBGN0GVLtJ8xbtfPmnjKy8GcvhUNU+J9jME=
+@size 42968
+@man man/man3p/DBD::File.3p
+@sha vsnm6vlybDbxSPJ7red0Nzvn4r6jdg9Q2Ig5D6mAyTQ=
+@size 20697
+@man man/man3p/DBD::File::Developers.3p
+@sha t122QS0cj5qGi6YBdrEYfd7yuE2A+XkMp9igPT/dUFc=
+@size 28576
+@man man/man3p/DBD::File::HowTo.3p
+@sha 3aRPCPx0QTNrPV9lCYQV5d/+bujUuM+BbzYJpTMU3MI=
+@size 9912
+@man man/man3p/DBD::File::Roadmap.3p
+@sha mCqVYhn1P6g15Yw9iddetjD6ofRo+RomaT0xu5QO6To=
+@size 10858
+@man man/man3p/DBD::Gofer.3p
+@sha aK0BPjPY9Kfnm55Tx2cYcs5rMpxTLJixuYdRvlx7xck=
+@size 25880
+@man man/man3p/DBD::Gofer::Policy::Base.3p
+@sha v4nxIkMdClwqWMF4WZ26gj6DrPcGAioM4VGgOnsb6gc=
+@size 7077
+@man man/man3p/DBD::Gofer::Policy::classic.3p
+@sha REJNtqIENRjEG3+5TfP8enkZFyyArDZZue/tgjijjQQ=
+@size 4914
+@man man/man3p/DBD::Gofer::Policy::pedantic.3p
+@sha 59tZ+PBl3yttGY/kMIYAqLsLE8sog0jj00W9cPrt3Is=
+@size 5175
+@man man/man3p/DBD::Gofer::Policy::rush.3p
+@sha jFE1iTXbFjoLxeWoVhq7Svofi5Z1QRUh08Us57FEWnc=
+@size 4952
+@man man/man3p/DBD::Gofer::Transport::Base.3p
+@sha MChYi//SpE5PXZmOzW80e8ly2e5ev/pDRaE5yTcPzxQ=
+@size 8482
+@man man/man3p/DBD::Gofer::Transport::corostream.3p
+@sha pyeCEI+fTg/qpUQnjxBi/s3z2/Kww1my5Nk8w/IqBpU=
+@size 7363
+@man man/man3p/DBD::Gofer::Transport::null.3p
+@sha KfTfwTyjq+/FhxaesWUwZx7Sva07GUdoyInO/9GjTUw=
+@size 5629
+@man man/man3p/DBD::Gofer::Transport::pipeone.3p
+@sha hZiKgRvpuD7VC0kqquYKJBKhkbjW/c+21TOkjqT4Js0=
+@size 5225
+@man man/man3p/DBD::Gofer::Transport::stream.3p
+@sha 7kBugjmzjxF5l0iVGvb9NRQVo2a5+EQwFNRET/obD8I=
+@size 6880
+@man man/man3p/DBD::Proxy.3p
+@sha AbelmKJRDQLtsIPQrCZhzDJSalSSqIN5QGQ6nn/WMdg=
+@size 13615
+@man man/man3p/DBD::Sponge.3p
+@sha 7Y4WkuGM8wME0X3CTaUiuk1La6kbLM9xQvReixTpkbA=
+@size 6411
+@man man/man3p/DBI.3p
+@sha DXzOAQbO6gkV8YdFwBlTVPA7klwqXUo4qJip9yNNX/M=
+@size 295571
+@man man/man3p/DBI::Const::GetInfo::ANSI.3p
+@sha pFLumGlMudAGtYxyYJ5Bt5Ltg8FnxLGbQjl03GTy4ik=
+@size 5175
+@man man/man3p/DBI::Const::GetInfo::ODBC.3p
+@sha CxSPGwfu6s+LE+S2Bew+ALBdEsIpqyYt+Z+6AfpHz8c=
+@size 5025
+@man man/man3p/DBI::Const::GetInfoReturn.3p
+@sha uvonulDaNOXXWXc+XjF8bAJ12S48KMUTWhzp/7ndc5g=
+@size 4324
+@man man/man3p/DBI::Const::GetInfoType.3p
+@sha 4jCeXsKZjkNBDrw14rSLQopAF2a4+T66mjngs2YeMdc=
+@size 4539
+@man man/man3p/DBI::DBD.3p
+@sha PTyyD5V2L6CStqnWGuyMk3ZbOxy7zPn1eyYTl35gTHg=
+@size 143781
+@man man/man3p/DBI::DBD::Metadata.3p
+@sha LLxPW/CqDwxGi0xE5arNR1yuHwYjQSnwfIEmwASyvT0=
+@size 9311
+@man man/man3p/DBI::DBD::SqlEngine.3p
+@sha NKEZlxHyUbqunSkJzKOA8jnx3uVlWmP5VbkAppBB2Eg=
+@size 22968
+@man man/man3p/DBI::DBD::SqlEngine::Developers.3p
+@sha pQQGCtlmuxtdoDYyaS+QRgntweuBfdx6XQqXdb0fzrE=
+@size 37174
+@man man/man3p/DBI::DBD::SqlEngine::HowTo.3p
+@sha PyGNQJ/JFzndlCpp3JxyagP+dFuZOCJvEe7G4vjacGQ=
+@size 16701
+@man man/man3p/DBI::FAQ.3p
+@sha AlGhWamUaVOOVut0DXnRNCFRffCvVraaYjiidtncnfo=
+@size 44875
+@man man/man3p/DBI::Gofer::Execute.3p
+@sha OkucEh1pTDl1P5Dr9J41/jpP08cbFEpo1djV0HaUn9U=
+@size 11526
+@man man/man3p/DBI::Gofer::Request.3p
+@sha gl2nSq1Fj+d8iKoyrLsOYQ6e/y+Sd1btnULYzXPEBfw=
+@size 4516
+@man man/man3p/DBI::Gofer::Response.3p
+@sha t1ljOgXZHo9MXuAhYw//altZnxp4YsZnkwEmu1jurwM=
+@size 4520
+@man man/man3p/DBI::Gofer::Serializer::Base.3p
+@sha 4+nJpgvbs3wzJ38x/uUv40NhXPZBRzzrRZS9z+7Bask=
+@size 4710
+@man man/man3p/DBI::Gofer::Serializer::DataDumper.3p
+@sha Vb5+cV4mW7eFr/H4Js5rtJT1wnueMlV79OM6+bPIkIc=
+@size 4517
+@man man/man3p/DBI::Gofer::Serializer::Storable.3p
+@sha 40kMEjquHdBx5/FnC/eEwBmk5znGyBkehaHxEqRXwTs=
+@size 4772
+@man man/man3p/DBI::Gofer::Transport::Base.3p
+@sha vezuYhVkKU3vNP8cbnuTq9AmwGw8F51MQ3xmh/iAI20=
+@size 4661
+@man man/man3p/DBI::Gofer::Transport::pipeone.3p
+@sha K5v1u6GK9rXA3qKIzYPVLBh4StRT5xQeFT0ZY/ETZEU=
+@size 4537
+@man man/man3p/DBI::Gofer::Transport::stream.3p
+@sha 9//YhhwOz4Q7QHQO3fNK+tA6mWjvM2dXsOiRQhQGLH8=
+@size 4532
+@man man/man3p/DBI::Profile.3p
+@sha Nvh8SLeKmbzUH8VqOV6nDynOohht5eeLmNJc3pIhlPQ=
+@size 31435
+@man man/man3p/DBI::ProfileData.3p
+@sha 73wL2H1QKDKPfLsQkaxXK5RWH910zdN1T8wQBa9PE9w=
+@size 15118
+@man man/man3p/DBI::ProfileDumper.3p
+@sha FF6NSIt8skowmzI3KcTHfPzERKv4pGMr7Lw+2++c/pg=
+@size 10353
+@man man/man3p/DBI::ProfileDumper::Apache.3p
+@sha US4qH9PgxESyn3PYTSXVrj9Sj8Btn4IsepY1RoNyzz4=
+@size 10015
+@man man/man3p/DBI::ProfileSubs.3p
+@sha xUA0iNXXjPqAa6U6gUbUdq2HREgTQvgVhmoekP237LU=
+@size 4304
+@man man/man3p/DBI::ProxyServer.3p
+@sha amNblUhdQ4nQ2x1teFDiB0ZNgnn2S4IXgQGSeQ/X8vA=
+@size 25156
+@man man/man3p/DBI::PurePerl.3p
+@sha uhJJQlb3rIKVPI/nOi/mVmeUEbQAs0H5SncBrS1mIik=
+@size 9926
+@man man/man3p/DBI::SQL::Nano.3p
+@sha KwGbVnqCOCtLtpQcuMsHHDG3yNdonFlMOcgLwOcSee4=
+@size 12067
+@man man/man3p/DBI::Util::CacheMemory.3p
+@sha NqiVpEZc8vucDpXfXnXY99dC8gR8Cms313TMUubQ1jI=
+@size 5247
+@man man/man3p/DBI::W32ODBC.3p
+@sha G3Tnbxql0ndTH42QhO1euDJxEyo8GCF24hJBPa4JtlQ=
+@size 4840
+@man man/man3p/Win32::DBIODBC.3p
+@sha KBGIu9UH/HQzTNRlRIiuRHsiZa65x0nGq4si2kMf/fE=
+@size 4753

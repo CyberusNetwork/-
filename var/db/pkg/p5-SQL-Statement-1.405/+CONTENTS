@@ -1,0 +1,136 @@
+@comment $OpenBSD: PLIST,v 1.10 2011/06/13 16:34:49 jasper Exp $
+@name p5-SQL-Statement-1.405
+@url http://ftp.fr.openbsd.org/pub/OpenBSD/5.6/packages/i386/p5-SQL-Statement-1.405.tgz
+@signer openbsd-56-pkg
+@digital-signature signify:2014-08-02T11:04:17Z:RWSPEf7Vpp2j0OO9RdvCxCBCxHgZzY+ZJ4oN0MbrAcqfe2hdeQdv8YVM1kGQg7A2Ab5dB/Evm2rVsVkxmmXdvFGTQJyEOdWLuwQ=
+@comment pkgpath=databases/p5-SQL-Statement cdrom=yes ftp=yes
+@arch *
++DESC
+@sha dm7VmgX+EJa0g+8+IEmEh6Nfdbm62W9GV2aXQsIxTVk=
+@size 453
+@depend devel/p5-Clone:p5-Clone->=0.30:p5-Clone-0.36p0
+@depend devel/p5-Params-Util:p5-Params-Util->=1.00:p5-Params-Util-1.07p0
+@cwd /usr/local
+libdata/perl5/site_perl/SQL/
+libdata/perl5/site_perl/SQL/Dialects/
+libdata/perl5/site_perl/SQL/Dialects/ANSI.pm
+@sha 2U+FWGJeHLLqpm51wiLBbGQZC/y++J59hZYgM+zwLyg=
+@size 2842
+libdata/perl5/site_perl/SQL/Dialects/AnyData.pm
+@sha UE0LwyosT3KyqpSY42GEYVeY2962Ek674ihGSQTjjVA=
+@size 1211
+libdata/perl5/site_perl/SQL/Dialects/CSV.pm
+@sha oq8Mu3VH+vlwVV+C2aJSW5jUZzlJ0HsHRPLIOytrKyk=
+@size 1081
+libdata/perl5/site_perl/SQL/Dialects/Role.pm
+@sha hDxNbK/D2qqgyiz28MaoycJjWviIjf+g8rTWZAOt8o8=
+@size 1705
+libdata/perl5/site_perl/SQL/Eval.pm
+@sha aThIWdHVaUmg30py94qijyOOYPqgYc1VN6k5g2nWcEc=
+@size 16859
+libdata/perl5/site_perl/SQL/Parser.pm
+@sha OFbAPNeBMukjCOGTo963Zypn/ps2BtQ1Dj40cufaNGg=
+@size 104269
+libdata/perl5/site_perl/SQL/Statement/
+libdata/perl5/site_perl/SQL/Statement.pm
+@sha EK0X90M3MxmGC2qpo59nFON+hQvOg0jSZ6FqUGlI7I8=
+@size 81743
+libdata/perl5/site_perl/SQL/Statement/Embed.pod
+@sha Rninwo++VZGcaMKXHPIVe35uD15OgS7pK7ySdN4FyG4=
+@size 11891
+libdata/perl5/site_perl/SQL/Statement/Function.pm
+@sha w+B2sdlwXh1WaX5N3LJvM5FBK7+KY0I6mNCJsMsdkZs=
+@size 10400
+libdata/perl5/site_perl/SQL/Statement/Functions.pm
+@sha GVGShCtjPtRxGazDN4GlrbpF60megAPHPmuMO5uX+8g=
+@size 39483
+libdata/perl5/site_perl/SQL/Statement/GetInfo.pm
+@sha g1pS44qfOV1VNqi17h6P+AwQJT5GxoqjhUOJLtfj0BM=
+@size 26774
+libdata/perl5/site_perl/SQL/Statement/Operation.pm
+@sha z9oymJPJT7mMsQVS0hpxUKcXRHwA78jBPneWzX7C35E=
+@size 23598
+libdata/perl5/site_perl/SQL/Statement/Placeholder.pm
+@sha HhthT05EEUwWouJp9bDMOuiVV55WaSVNJvUMY97/FoA=
+@size 1864
+libdata/perl5/site_perl/SQL/Statement/RAM.pm
+@sha S0Emx6dC2Uaydvv04t6wbsaBVN177LCBBFrPGYyf/B0=
+@size 5717
+libdata/perl5/site_perl/SQL/Statement/Roadmap.pod
+@sha HW+dHfijK+FDdqpJW1Y2pitUCjVAnjcFnH3dqGlYeG4=
+@size 8703
+libdata/perl5/site_perl/SQL/Statement/Structure.pod
+@sha XJdeBuxEyZJy7/j/tl1YdAx0AvQbLy5abAZSosldNYU=
+@size 13000
+libdata/perl5/site_perl/SQL/Statement/Syntax.pod
+@sha onNnZ4yEP8h1em+6KolR68RUhSxg95EKpK+m/zzH8dI=
+@size 19782
+libdata/perl5/site_perl/SQL/Statement/Term.pm
+@sha /vcc6ler+Q2O0fz8R2ZB8vFb27rV7ivNMEVxpNObsQ8=
+@size 5239
+libdata/perl5/site_perl/SQL/Statement/TermFactory.pm
+@sha mDm9keU35ARaRWqDjASe8PRiSTmJHdbockuverjuRyo=
+@size 6886
+libdata/perl5/site_perl/SQL/Statement/Util.pm
+@sha 7O15e2qzd/MWPqJUAQwenlrTHI0u6TLplCvOQn4YUkg=
+@size 3602
+@man man/man3p/SQL::Dialects::ANSI.3p
+@sha BCQCRRJLond8WI2yw76k8LM/BWeyym9DG8VUc45Tv1g=
+@size 4679
+@man man/man3p/SQL::Dialects::AnyData.3p
+@sha oW2FpevGWPiLhCDnEIefRHQgyX/LY4N50gBydAIWRQ8=
+@size 4677
+@man man/man3p/SQL::Dialects::CSV.3p
+@sha xBCx2NRllleyfegfNKYhn60m1xqdAieLzEtMDYdilZI=
+@size 4649
+@man man/man3p/SQL::Dialects::Role.3p
+@sha 7K4b/hmY54ECH+Aj/LMMRI+YACk3uQ+ZZcJPb7VvlHU=
+@size 5414
+@man man/man3p/SQL::Eval.3p
+@sha vTWDSOrCk5v2FIjHnmoS0PFqFqsKVrllpKMPq1wWEXs=
+@size 18460
+@man man/man3p/SQL::Parser.3p
+@sha sQkUTRy8kHNwMGmEOIuLyuj6jls2R5jL1/TF47iEmE8=
+@size 20469
+@man man/man3p/SQL::Statement.3p
+@sha IhyX1pL6u0J8WJrwoc9/BXvI/Ge8lFhn0hHMwLmfUkE=
+@size 18433
+@man man/man3p/SQL::Statement::Embed.3p
+@sha fVxsPYqcGjLN9fSfPBxoFDKRr6qD/x0fV8/U1AlaBc8=
+@size 17329
+@man man/man3p/SQL::Statement::Function.3p
+@sha 9+k6gk52U+3Nk2mDgVGtsN9H8co72Ov7iUj1SkqYLYQ=
+@size 11624
+@man man/man3p/SQL::Statement::Functions.3p
+@sha wSPXUF831dS4i0gnSu0oYujip9neF58t1S7pKmYmMTk=
+@size 29710
+@man man/man3p/SQL::Statement::GetInfo.3p
+@sha DYs7ST/5ZOKmabSBDuhlHYSN3XyY1toZDJ0Yl7F0i7o=
+@size 4333
+@man man/man3p/SQL::Statement::Operation.3p
+@sha o4CM2V7yasscDKgnR3L+h3NoN9M6nUQPPULdlISpRqU=
+@size 23609
+@man man/man3p/SQL::Statement::Placeholder.3p
+@sha tbaxFa2/WyVAJRVJE6BOVbzKaM9EmdyjF4GL8sGDTZA=
+@size 5270
+@man man/man3p/SQL::Statement::RAM.3p
+@sha TRbKNjxjderuB9jDNuxfTerr5k419YYf9tjeeXvwvdo=
+@size 7046
+@man man/man3p/SQL::Statement::Roadmap.3p
+@sha b2QDDyfueFwr4Li7jLkK9nkcxVNiJC4LCbitCasqmGU=
+@size 14026
+@man man/man3p/SQL::Statement::Structure.3p
+@sha IsS3XzZyxgY5NodckLsyyP5FCluCXgQ7xHiycAqZYvE=
+@size 19706
+@man man/man3p/SQL::Statement::Syntax.3p
+@sha 58x5ms2eyTiVn8RTUzhrZtV0yX3A8q2/mtb0hPGRJlE=
+@size 27041
+@man man/man3p/SQL::Statement::Term.3p
+@sha 54tvzFYJ2NeFI9tPg2Qfe5LXPjdkMn28aiCGZCHiyBg=
+@size 6923
+@man man/man3p/SQL::Statement::TermFactory.3p
+@sha 5EibbtvDQtFzgwWrkaTjxF/FuLmrxw8ugQh0aJXerZ4=
+@size 5505
+@man man/man3p/SQL::Statement::Util.3p
+@sha 1x4s6j2wL3kyb8MXQwRc72wEjgOJdJIlz7ktK4fz0BY=
+@size 4756
