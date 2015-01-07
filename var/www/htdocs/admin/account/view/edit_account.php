@@ -1,10 +1,8 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <title>Votre compte utilisateur - Administration - dev.fairsys.fr</title>
-    <!-- Bootstrap core CSS -->
-    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
-    <meta charset="utf-8" />
+    <title>Votre compte utilisateur - Administration</title>
+    <?php include_once __DIR__ . "/../../css/header.php"; ?>
 </head>
 
 <body>
@@ -16,7 +14,7 @@
     </div>
 
     <!-- Contents -->
-    <p class="lead">GÃ©rer votre compte utilisateur.</p>
+    <p class="lead">Gérer votre compte utilisateur.</p>
     <p>Voici votre "fiche" de renseignement. C'est presque aussi bien que Facebook, mais en un peu plus personnel :-)</p>
 
     <!-- USER info Table-->
@@ -33,7 +31,7 @@
             <input type="text" class="form-control" name="Lastname" value="<?php echo $account->getDatas()["lastname"]; ?>">
         </div>
         <div class="form-group">
-            <label for="firstname">PrÃ©nom</label>
+            <label for="firstname">Prénom</label>
             <input type="text" class="form-control" name="Firstname" value="<?php echo $account->getDatas()["firstname"]; ?>">
         </div>
         <div class="form-group">

@@ -9,10 +9,9 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <title>Ã‰dition de votre compte utilisateur - Administration - dev.fairsys.fr</title>
+    <title>Édition de votre compte utilisateur - Administration</title>
     <!-- Bootstrap core CSS -->
-    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
-    <meta charset="utf-8" />
+    <?php include_once __DIR__ . "/../../css/header.php"; ?>
 </head>
 
 <body>
@@ -20,12 +19,12 @@
 
     <!-- Header -->
     <div class="page-header">
-        <h1>Ã‰dition de votre compte utilisateur <small><i>On confirme et on ferme !</i></small></h1>
+        <h1>Édition de votre compte utilisateur <small><i>On confirme et on ferme !</i></small></h1>
     </div>
 
     <!-- Contents -->
     <p class="lead">Confirmation de la modification votre compte utilisateur.</p>
-    <p>Les modification de votre compte utilisateur est bien enregistrÃ©. C'est presque dans le marbre.</p>
+    <p>Les modification de votre compte utilisateur est bien enregistré. C'est presque dans le marbre.</p>
 
     <!-- USER info -->
     <dl class="dl-horizontal">
@@ -33,7 +32,7 @@
         <dd><?php echo $username; ?></dd>
         <dt>Nom</dt>
         <dd><?php echo $lastname; ?></dd>
-        <dt>PrÃ©non</dt>
+        <dt>Prénon</dt>
         <dd><?php echo $firstname ?></dd>
         <dt>Adresse mail</dt>
         <dd><?php echo $email ?></dd>

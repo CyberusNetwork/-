@@ -255,3 +255,210 @@ LLA             : init_queue:132
 LUA             : init_queue:142
 WOC             : NO
 Next activation : never
+141222 15:59:01 [Note] /usr/local/libexec/mysqld: Normal shutdown
+
+141222 15:59:01 [Note] Event Scheduler: Purging the queue. 0 events
+141222 15:59:01  InnoDB: Starting shutdown...
+141222 15:59:13  InnoDB: Shutdown completed; log sequence number 0 98349
+141222 15:59:13 [Note] /usr/local/libexec/mysqld: Shutdown complete
+
+141222 15:59:13 mysqld_safe mysqld from pid file /var/mysql/cyberus.itinet.fr.pid ended
+141222 16:01:09 mysqld_safe Starting mysqld daemon with databases from /var/mysql
+141222 16:01:10 [Warning] '--skip-locking' is deprecated and will be removed in a future release. Please use '--skip-external-locking' instead.
+141222 16:01:10 [Note] Plugin 'FEDERATED' is disabled.
+141222 16:01:13  InnoDB: Initializing buffer pool, size = 8.0M
+141222 16:01:13  InnoDB: Completed initialization of buffer pool
+141222 16:01:14  InnoDB: Started; log sequence number 0 98349
+141222 16:01:14 [Note] Event Scheduler: Loaded 0 events
+141222 16:01:14 [Note] /usr/local/libexec/mysqld: ready for connections.
+Version: '5.1.73-log'  socket: '/var/run/mysql/mysql.sock'  port: 3306  OpenBSD port: mysql-server-5.1.73p0v0
+
+Status information:
+
+Current dir: /var/mysql/
+Running threads: 0  Stack size: 196608
+Current locks:
+lock: 0x778dca64:
+
+lock: 0x76bc8264:
+
+lock: 0x778d9a64:
+
+lock: 0x81b55a64:
+
+lock: 0x778d8264:
+
+lock: 0x82c26a64:
+
+lock: 0x82c22964:
+
+lock: 0x82c2b264:
+
+
+Key caches:
+default
+Buffer_size:      16777216
+Block_size:           1024
+Division_limit:        100
+Age_limit:             300
+blocks used:             0
+not flushed:             0
+w_requests:              0
+writes:                  0
+r_requests:              0
+reads:                   0
+
+
+handler status:
+read_key:            0
+read_next:           0
+read_rnd             0
+read_first:          3
+write:               0
+delete               0
+update:              0
+
+Table status:
+Opened tables:         15
+Open tables:            8
+Open files:            18
+Open streams:           0
+
+Alarm status:
+Active alarms:   0
+Max used alarms: 0
+Next alarm time: 0
+
+Begin safemalloc memory dump:
+
+End safemalloc memory dump.
+
+
+
+Events status:
+LLA = Last Locked At  LUA = Last Unlocked At
+WOC = Waiting On Condition  DL = Data Locked
+
+Event scheduler status:
+State      : INITIALIZED
+Thread id  : 0
+LLA        : n/a:0
+LUA        : n/a:0
+WOC        : NO
+Workers    : 0
+Executed   : 0
+Data locked: NO
+
+Event queue status:
+Element count   : 0
+Data locked     : NO
+Attempting lock : NO
+LLA             : init_queue:132
+LUA             : init_queue:142
+WOC             : NO
+Next activation : never
+150105 08:57:34 mysqld_safe Starting mysqld daemon with databases from /var/mysql
+150105  8:57:35 [Warning] '--skip-locking' is deprecated and will be removed in a future release. Please use '--skip-external-locking' instead.
+150105  8:57:35 [Note] Plugin 'FEDERATED' is disabled.
+150105  8:57:38  InnoDB: Initializing buffer pool, size = 8.0M
+150105  8:57:38  InnoDB: Completed initialization of buffer pool
+InnoDB: The log sequence number in ibdata files does not match
+InnoDB: the log sequence number in the ib_logfiles!
+150105  8:57:38  InnoDB: Database was not shut down normally!
+InnoDB: Starting crash recovery.
+InnoDB: Reading tablespace information from the .ibd files...
+InnoDB: Restoring possible half-written data pages from the doublewrite
+InnoDB: buffer...
+InnoDB: Last MySQL binlog file position 0 23715, file name ./mysql-bin.000009
+150105  8:57:39  InnoDB: Started; log sequence number 0 98395
+150105  8:57:39 [Note] Recovering after a crash using mysql-bin
+150105  8:57:39 [Note] Starting crash recovery...
+150105  8:57:39 [Note] Crash recovery finished.
+150105  8:57:40 [Note] Event Scheduler: Loaded 0 events
+150105  8:57:40 [Note] /usr/local/libexec/mysqld: ready for connections.
+Version: '5.1.73-log'  socket: '/var/run/mysql/mysql.sock'  port: 3306  OpenBSD port: mysql-server-5.1.73p0v0
+
+Status information:
+
+Current dir: /var/mysql/
+Running threads: 0  Stack size: 196608
+Current locks:
+lock: 0x81031264:
+
+lock: 0x7f76a264:
+
+lock: 0x8076da64:
+
+lock: 0x8076ea64:
+
+lock: 0x7f768264:
+
+lock: 0x8077aa64:
+
+lock: 0x80779964:
+
+lock: 0x838ff264:
+
+
+Key caches:
+default
+Buffer_size:      16777216
+Block_size:           1024
+Division_limit:        100
+Age_limit:             300
+blocks used:             0
+not flushed:             0
+w_requests:              0
+writes:                  0
+r_requests:              0
+reads:                   0
+
+
+handler status:
+read_key:            0
+read_next:           0
+read_rnd             0
+read_first:          3
+write:               0
+delete               0
+update:              0
+
+Table status:
+Opened tables:         15
+Open tables:            8
+Open files:            18
+Open streams:           0
+
+Alarm status:
+Active alarms:   0
+Max used alarms: 0
+Next alarm time: 0
+
+Begin safemalloc memory dump:
+
+End safemalloc memory dump.
+
+
+
+Events status:
+LLA = Last Locked At  LUA = Last Unlocked At
+WOC = Waiting On Condition  DL = Data Locked
+
+Event scheduler status:
+State      : INITIALIZED
+Thread id  : 0
+LLA        : n/a:0
+LUA        : n/a:0
+WOC        : NO
+Workers    : 0
+Executed   : 0
+Data locked: NO
+
+Event queue status:
+Element count   : 0
+Data locked     : NO
+Attempting lock : NO
+LLA             : init_queue:132
+LUA             : init_queue:142
+WOC             : NO
+Next activation : never

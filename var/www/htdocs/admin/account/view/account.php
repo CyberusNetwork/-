@@ -11,10 +11,8 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <title>Votre compte utilisateur - Administration - dev.fairsys.fr</title>
-    <!-- Bootstrap core CSS -->
-    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
-    <meta charset="utf-8" />
+    <title>Votre compte utilisateur - Administration - Cyberus Network</title>
+    <?php include_once __DIR__ . "/../../css/header.php"; ?>
 </head>
 
 <body>
@@ -32,7 +30,7 @@
     ?>
 
     <!-- Contents -->
-    <p class="lead">GÃ©rer votre compte utilisateur.</p>
+    <p class="lead">Gérer votre compte utilisateur.</p>
     <p>Voici votre "fiche" de renseignement. C'est presque aussi bien que Facebook, mais en un peu plus personnel :-)</p>
 
     <!-- USER info -->
@@ -41,16 +39,15 @@
             <dd><?php echo $account->getDatas()["username"]; ?></dd>
         <dt>Nom</dt>
             <dd><?php echo $account->getDatas()["lastname"]; ?></dd>
-        <dt>PrÃ©non</dt>
+        <dt>Prénom</dt>
             <dd><?php echo $account->getDatas()["firstname"]; ?></dd>
-        <dt>Adresse mail</dt>
-            <dd><?php echo $account->getDatas()["mail"]; ?></dd>
-        <dt>DerniÃ¨re modification</dt>
+        <dt>Dernière modification</dt>
             <dd><?php echo $account->getDatas()["edited"]; ?></dd>
 
     </dl>
     <!-- Change info button -->
-    <a href="/account/index.php?page=edit_account"><button type="button" class="btn btn-warning" id="change_account"><i class="glyphicon glyphicon-edit"></i> Ã‰diter</button></a>
+    <a href="/account/index.php?page=new_account"><button type="button" class="btn btn-success" id="change_account"><i class="glyphicon glyphicon-plus"></i> Nouveau compte</button></a>
+    <a href="/account/index.php?page=edit_account"><button type="button" class="btn btn-warning" id="change_account"><i class="glyphicon glyphicon-edit"></i> Éditer</button></a>
     <a href="/account/index.php?page=delete_account"><button type="button" class="btn btn-danger" id="delete_account"><i class="glyphicon glyphicon-remove"></i> Supprimer</button></a>
     <!-- footer -->
     <?php

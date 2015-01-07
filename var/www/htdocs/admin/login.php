@@ -10,10 +10,11 @@
 <html lang="fr">
   <head>
     <meta charset="utf-8">
-    <title>Authentification - Administration - dev.fairsys.fr</title>
+    <title>Authentification - Administration</title>
 
-    <!-- Bootstrap core CSS -->
-      <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
+      <?php // CSS -- Bootstrap
+      include_once(__DIR__ . "/css/header.php");
+      ?>
       <!-- Custom styles for this template -->
       <link href="css/login.css" rel="stylesheet">
   </head>
@@ -28,7 +29,6 @@
         <input type="password" class="form-control" name="password" placeholder="Mot de passe" required>
 
         <button class="btn btn-lg btn-primary btn-block" type="submit"><i class="glyphicon glyphicon-link"></i> Connection</button>
-        <a href="new_account.php?page=new" <button class="btn btn-lg btn-success btn-block" type="button"><i class="glyphicon glyphicon-plus"></i> Nouveau Compte</button></a>
       </form>
 
     </div> <!-- /container -->

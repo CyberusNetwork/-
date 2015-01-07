@@ -1,4 +1,4 @@
-wheel:*:0:root
+wheel:*:0:root,costet,alain,adrien,adjevi
 daemon:*:1:daemon
 kmem:*:2:root
 sys:*:3:root

@@ -15,7 +15,6 @@ switch($_GET["page"]){
     case "new_dns":
         include_once "controller/new_dns_process.php";
         break;
-
     default:
         include_once "controller/dns.php";
 }

@@ -9,10 +9,8 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <!-- Bootstrap core CSS -->
-    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
-    <meta charset="utf-8" />
-    <title>Votre compte utilisateur - Administration - dev.fairsys.fr</title>
+    <?php include_once __DIR__ . "/../../css/header.php"; ?>
+    <title>Votre compte utilisateur - Administration</title>
 </head>
 
 <body>
@@ -20,11 +18,11 @@
 
     <!-- Header -->
     <div class="page-header">
-        <h1>Suppression de votre compte utilisateur <small><i>Vous en Ãªtes sÃ»r ?</i></small></h1>
+        <h1>Suppression de votre compte utilisateur <small><i>Vous en êtes sûr ?</i></small></h1>
     </div>
-    <p class="lead">GÃ©rer votre compte utilisateur.</p>
+    <p class="lead">Gérer votre compte utilisateur.</p>
     <p>Merci de bien vouloir confirmer la suppression de votre compte ci-dessous :</p>
-    <p class="text-danger"><b>ATTENTION : Cette action est irrÃ©versible. Vous Ãªtes prÃ©venus !</b></p>
+    <p class="text-danger"><b>ATTENTION : Cette action est irréversible. Vous êtes prévenus !</b></p>
 
     <!-- USER info -->
     <dl class="dl-horizontal">
@@ -32,11 +30,11 @@
         <dd><?php echo $account->getDatas()["username"]; ?></dd>
         <dt>Nom</dt>
         <dd><?php echo $account->getDatas()["lastname"]; ?></dd>
-        <dt>PrÃ©non</dt>
+        <dt>Prénon</dt>
         <dd><?php echo $account->getDatas()["firstname"]; ?></dd>
         <dt>Adresse mail</dt>
         <dd><?php echo $account->getDatas()["mail"]; ?></dd>
-        <dt>DerniÃ¨re modification</dt>
+        <dt>Dernière modification</dt>
         <dd><?php echo $account->getDatas()["edited"]; ?></dd>
 
     </dl>

@@ -1,0 +1,36 @@
+@comment $OpenBSD: PLIST-mysqli,v 1.3 2013/08/08 19:11:57 robert Exp $
+@name php-mysqli-5.4.30
+@url http://ftp.fr.openbsd.org/pub/OpenBSD/5.6/packages/i386/php-mysqli-5.4.30.tgz
+@signer openbsd-56-pkg
+@digital-signature signify:2014-08-02T11:05:06Z:RWSPEf7Vpp2j0KqgWt0dceBBFsIfnT0Z6pBkVPX5UBg1KvLcu6OxEl/AnE9RULtn345bgLfB+igEL+n97kjZXwnnQVzZTDd78AI=
+@option no-default-conflict
+@comment pkgpath=lang/php/5.4,-mysqli cdrom=yes ftp=yes
+@arch i386
++DESC
+@sha pEQhKP5gSID2Tmk7cueXEwfxU1+4eGofuOOYQibPdq8=
+@size 440
++DISPLAY
+@sha mc4mn26/fG4epMDyPIUp3HMPiQ2aE3eN1KYbmxir74k=
+@size 195
++UNDISPLAY
+@sha 0Q4XGBW4LgEcGYo4fuDH3B3Up1wkh5mbJK1FeWYScz8=
+@size 127
+@conflict php-mysqli->=5.4,<5.5
+@conflict php5-mysqli->=5.2
+@pkgpath lang/php/5.2,-mysqli
+@depend databases/mysql,-main:mysql-client-*:mysql-client-5.1.73v0
+@depend lang/php/5.4,-main:php-5.4.30:php-5.4.30p0
+@wantlib crypto.30.0
+@wantlib lib/mysql/mysqlclient.23.0
+@wantlib m.9.0
+@wantlib pthread.18.0
+@wantlib ssl.27.0
+@wantlib z.5.0
+@cwd /usr/local
+lib/php-5.4/modules/mysqli.so
+@sha AnRuqKchzkrRRyJM7XjUivNyYnFvW3wNpddoTtfZXzI=
+@size 138417
+share/examples/php-5.4/mysqli.ini
+@sha ab5uryejSh5D4uIxM6cTqaWd2PTU2EFUcCmV5Gjdi+I=
+@size 20
+@sample /etc/php-5.4.sample/mysqli.ini

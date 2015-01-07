@@ -1,0 +1,6 @@
+[Mon Dec 22 14:35:57 2014] [error] [client 10.8.98.37] File does not exist: /var/www/htdocs/favicon.ico
+[Mon Dec 22 14:36:03 2014] [error] [client 10.8.98.37] PHP Notice:  Undefined index: app in /var/www/htdocs/admin/index.php on line 11
+[Mon Dec 22 14:36:04 2014] [error] [client 10.8.98.37] PHP Notice:  Undefined index: userid in /var/www/htdocs/admin/global/controller/index.php on line 23
+[Mon Dec 22 14:36:04 2014] [error] [client 10.8.98.37] PHP Fatal error:  Uncaught exception 'PDOException' with message 'could not find driver' in /var/www/htdocs/admin/account/model/AccountModel.php:25\nStack trace:\n#0 /var/www/htdocs/admin/account/model/AccountModel.php(25): PDO->__construct('mysql:host=loca...', 'admin', 'c4EDKnXADZdBLhp...')\n#1 /var/www/htdocs/admin/global/controller/index.php(27): AccountModel->__construct(NULL)\n#2 /var/www/htdocs/admin/index.php(25): include_once('/var/www/htdocs...')\n#3 {main}\n  thrown in /var/www/htdocs/admin/account/model/AccountModel.php on line 25
+[Tue Jan 06 14:46:52 2015] [error] [client 10.8.111.128] PHP Parse error:  syntax error, unexpected 'WORLD' (T_STRING), expecting ',' or ';' in /var/www/htdocs/index.php on line 1
+[Tue Jan 06 14:46:52 2015] [error] [client 10.8.111.128] File does not exist: /var/www/htdocs/favicon.ico

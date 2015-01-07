@@ -1,0 +1,37 @@
+@comment $OpenBSD: PLIST-pdo_mysql,v 1.3 2013/08/08 19:11:57 robert Exp $
+@name php-pdo_mysql-5.4.30
+@url http://ftp.fr.openbsd.org/pub/OpenBSD/5.6/packages/i386/php-pdo_mysql-5.4.30.tgz
+@signer openbsd-56-pkg
+@digital-signature signify:2014-08-02T11:05:07Z:RWSPEf7Vpp2j0I9+b+paMad+XQHG4d6qE2gJmGuOhP5B7VYNLI4noloOOQBtWAwuQhT082Js3k4RMqmbfZDmAQ09t2ZiytJBFQ4=
+@option no-default-conflict
+@option manual-installation
+@comment pkgpath=lang/php/5.4,-pdo_mysql cdrom=yes ftp=yes
+@arch i386
++DESC
+@sha 3apvnJ5psN9iJvPqsAixRogVnb+zM6/Te4StP3xz+TQ=
+@size 495
++DISPLAY
+@sha bazKWZ8N9XhUcxd9mdSl75w1EPQkE4HpPo21m1+Tn68=
+@size 207
++UNDISPLAY
+@sha D2yPcFl4wzkvfoYUoPtqHOx6wqmqSeR3wuOC7jq5u4s=
+@size 133
+@conflict php-pdo_mysql->=5.4,<5.5
+@conflict php5-pdo_mysql->=5.2
+@pkgpath lang/php/5.2,-pdo_mysql
+@depend databases/mysql,-main:mysql-client-*:mysql-client-5.1.73v0
+@depend lang/php/5.4,-main:php-5.4.30:php-5.4.30p0
+@wantlib crypto.30.0
+@wantlib lib/mysql/mysqlclient.23.0
+@wantlib m.9.0
+@wantlib pthread.18.0
+@wantlib ssl.27.0
+@wantlib z.5.0
+@cwd /usr/local
+lib/php-5.4/modules/pdo_mysql.so
+@sha M14nO9JDo80y5o+mqR9wxCBWlBM65cUMkNElO/U5rVc=
+@size 34850
+share/examples/php-5.4/pdo_mysql.ini
+@sha XlFjwgxeBK9r21M/cKjjxt6D7x8QGYY301RErpzLWD4=
+@size 23
+@sample /etc/php-5.4.sample/pdo_mysql.ini

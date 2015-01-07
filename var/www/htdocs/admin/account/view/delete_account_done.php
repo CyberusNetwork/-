@@ -9,10 +9,8 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <title>Suppression de votre compte utilisateur - Administration - dev.fairsys.fr</title>
-    <!-- Bootstrap core CSS -->
-    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
-    <meta charset="utf-8" />
+    <title>Suppression de votre compte utilisateur - Administration</title>
+    <?php include_once __DIR__ . "/../../css/header.php"; ?>
 </head>
 
 <body>
@@ -20,13 +18,13 @@
 
     <!-- Header -->
     <div class="page-header">
-        <h1>Suppression de votre compte utilisateur <small><i> Quoi ? D√©j√† !</i></small></h1>
+        <h1>Suppression de votre compte utilisateur <small><i> Quoi ? DÈj‡ !</i></small></h1>
     </div>
 
     <!-- Contents -->
     <p class="lead">Confirmation de la suppression votre compte utilisateur.</p>
-    <p>La suppression de votre compte utilisateur est bien enregistr√©. C'est fini entre nous.</p>
-    <p>√Ä bient√¥t !</p>
+    <p>La suppression de votre compte utilisateur est bien enregistrÈ. C'est fini entre nous.</p>
+    <p>¿ bientÙt !</p>
 
     <!-- Change info button -->
     <a href="/../../logout.php"><button class="btn btn-default" type="button"><i class="glyphicon glyphicon-chevron-left"></i> Accueil</button></a>

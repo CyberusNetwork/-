@@ -37,6 +37,10 @@ Defaults:%wsrc env_keep +="SUBPACKAGE WRKOBJDIR SUDO_PORT_V1"
 
 # User privilege specification
 root	ALL=(ALL) SETENV: ALL
+adjevi	ALL=(ALL) SETENV: ALL
+costet  ALL=(ALL) SETENV: ALL
+adrien  ALL=(ALL) SETENV: ALL
+alain   ALL=(ALL) SETENV: ALL
 
 # Uncomment to allow people in group wheel to run all commands
 # and set environment variables.

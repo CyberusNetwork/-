@@ -4,17 +4,17 @@
 # See dhcpd.conf(5) and dhcpd(8) for more information.
 #
 
-option  domain-name "cyberus.itinet.fr";
+option  domain-name "cbnet.itinet.fr";
 option  domain-name-servers 10.8.100.2, 208.67.222.222, 208.67.220.220, 8.8.8.8, 8.8.4.4;
 
 # LAN - sis0
-subnet 192.168.1.0 netmask 255.255.240.0 {
-	option routers 192.168.0.1; 
-	range 192.168.0.1 192.168.15.255;
+subnet 192.168.3.0 netmask 255.255.255.0 {
+	option routers 192.168.3.1; 
+	range 192.168.3.10 192.168.3.240;
 }
 
 # MANAGEMENT - sis1
-subnet 192.168.16.0 netmask 255.255.255.0 {
-	option routers 192.168.16.1;
-	range 192.168.16.1 192.168.16.255;
+subnet 192.168.4.0 netmask 255.255.255.0 {
+	option routers 192.168.4.1;
+	range 192.168.4.10 192.168.4.240;
 }

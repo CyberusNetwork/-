@@ -6,11 +6,13 @@ avahi-0.6.31p13     framework for Multicast DNS Service Discovery
 bash-4.3.27         GNU Bourne Again Shell
 binpatch56-i386-asr-1.0 Binary Patch for 008_asr.patch
 binpatch56-i386-httpd-1.0 Binary Patch for 009_httpd.patch
-binpatch56-i386-kernel-5.0 Binary Patch for 011_pppoe.patch
+binpatch56-i386-kernel-6.0 Binary Patch for 013_virtio.patch
 binpatch56-i386-nginx-1.0 Binary Patch for 003_nginx.patch
 binpatch56-i386-nosslv3-1.0 Binary Patch for 005_nosslv3.patch
 binpatch56-i386-pfctl-1.0 Binary Patch for 007_pfctl.patch
 binpatch56-i386-relayd-1.0 Binary Patch for 006_relayd.patch
+binpatch56-i386-unbound-1.0 Binary Patch for 012_unbound.patch
+binpatch56-i386-xserver-1.0 Binary Patch for 014_xserver
 bzip2-1.0.6p1       block-sorting file compressor, unencumbered
 cairo-1.12.16       vector graphics library
 cups-libs-1.7.4     CUPS libraries and headers
@@ -67,10 +69,10 @@ p5-PlRPC-0.2018p1   module for writing rpc servers and clients
 p5-SQL-Statement-1.405 sql parsing and processing
 pango-1.36.5        library for layout and rendering of text
 pcre-8.35           perl-compatible regular expression library
-php-5.4.30p0-ap2    server-side HTML-embedded scripting language
-php-gd-5.4.30       image manipulation extensions for php5
-php-mcrypt-5.4.30   mcrypt encryption/decryption extensions for php5
-php-mysqli-5.4.30   mysql database access extensions for php5
+php-5.4.35-ap2      server-side HTML-embedded scripting language
+php-gd-5.4.35       image manipulation extensions for php5
+php-mcrypt-5.4.35   mcrypt encryption/decryption extensions for php5
+php-mysqli-5.4.35   mysql database access extensions for php5
 phpMyAdmin-4.2.2p1  tool to handle the administration of MySQL over the web
 png-1.6.12          library for manipulating PNG images
 python-2.7.8        interpreted object-oriented programming language

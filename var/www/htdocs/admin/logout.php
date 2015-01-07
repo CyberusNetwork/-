@@ -6,7 +6,7 @@
  * Time: 21:17
  */
 
-// Page de déconnection
+// logout page
 
 session_start();
 

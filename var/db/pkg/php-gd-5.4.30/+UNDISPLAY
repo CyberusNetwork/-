@@ -1,0 +1,4 @@
+You can disable this module by removing the
+/etc/php-5.4/gd.ini symbolic link. As root:
+
+    rm -f /etc/php-5.4/gd.ini

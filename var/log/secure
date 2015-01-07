@@ -1,1 +1,986 @@
-Dec 19 12:00:01 cyberus newsyslog[11579]: logfile turned over
+Jan  5 09:00:02 cyberus newsyslog[22494]: logfile turned over
+Jan  5 09:52:02 cyberus sudo:   costet : TTY=ttyp1 ; PWD=/home/costet ; USER=root ; COMMAND=/usr/local/bin/bash fixe.sh test mactest iptest
+Jan  5 09:53:10 cyberus sudo:   costet : TTY=ttyp1 ; PWD=/home/costet ; USER=root ; COMMAND=/usr/local/bin/nano /etc/dhcpd.conf
+Jan  5 10:08:20 cyberus sudo:   costet : TTY=ttyp2 ; PWD=/home/costet ; USER=root ; COMMAND=/usr/local/bin/bash fixe.sh test 10:10:10:10 1.2.3.4
+Jan  5 10:15:13 cyberus sudo:   costet : TTY=ttyp2 ; PWD=/etc ; USER=root ; COMMAND=/bin/cp dhcpd.conf dhcpd.conf.save
+Jan  5 10:16:35 cyberus sudo:   costet : TTY=ttyp1 ; PWD=/home/costet ; USER=root ; COMMAND=/usr/local/bin/bash suppFixe.sh test 10:10:10:10 1.2.3.4
+Jan  5 10:23:51 cyberus sudo:   costet : TTY=ttyp2 ; PWD=/etc ; USER=root ; COMMAND=/bin/cp dhcpd.conf.save dhcpd.conf
+Jan  5 10:26:45 cyberus sudo:   costet : TTY=ttyp1 ; PWD=/home/costet ; USER=root ; COMMAND=/usr/local/bin/bash suppFixe.sh test 10.10.10.10 1.2.3.4
+Jan  5 10:34:00 cyberus sudo:   costet : TTY=ttyp1 ; PWD=/home/costet ; USER=root ; COMMAND=/usr/local/bin/bash suppFixe.sh test 10:10:10:10 1.2.3.4
+Jan  5 10:37:46 cyberus sudo:   costet : TTY=ttyp1 ; PWD=/home/costet ; USER=root ; COMMAND=/usr/local/bin/bash rang.sh 12 13
+Jan  5 10:40:00 cyberus sudo:   costet : TTY=ttyp2 ; PWD=/home/costet ; USER=root ; COMMAND=/bin/cp /etc/dhcpd.conf.save /etc/dhcpd.conf
+Jan  5 10:47:04 cyberus sudo:   costet : TTY=ttyp1 ; PWD=/home/costet ; USER=root ; COMMAND=/usr/local/bin/bash suppFixe.sh test 10:10:10:10 1.2.3.4
+Jan  5 11:00:23 cyberus sudo:   costet : TTY=ttyp2 ; PWD=/home/costet ; USER=root ; COMMAND=/bin/cp /etc/dhcpd.conf dhcpd.conf
+Jan  5 11:02:43 cyberus sudo:   costet : TTY=ttyp2 ; PWD=/home/costet ; USER=root ; COMMAND=/bin/ksh
+Jan  5 11:23:18 cyberus sudo:   costet : parse error in /etc/sudoers near line 43 ; TTY=ttyp4 ; PWD=/home/costet ; COMMAND=shell
+Jan  5 11:23:18 cyberus sudo:   costet : no valid sudoers sources found, quitting ; TTY=ttyp4 ; PWD=/home/costet ; COMMAND=shell
+Jan  5 11:23:33 cyberus sudo:   costet : parse error in /etc/sudoers near line 43 ; TTY=ttyp4 ; PWD=/home/costet ; COMMAND=shell
+Jan  5 11:23:33 cyberus sudo:   costet : no valid sudoers sources found, quitting ; TTY=ttyp4 ; PWD=/home/costet ; COMMAND=shell
+Jan  5 11:24:12 cyberus sudo:    alain : parse error in /etc/sudoers near line 43 ; TTY=ttyp3 ; PWD=/var/www/htdocs/admin/scripts/vpn ; COMMAND=shell
+Jan  5 11:24:12 cyberus sudo:    alain : no valid sudoers sources found, quitting ; TTY=ttyp3 ; PWD=/var/www/htdocs/admin/scripts/vpn ; COMMAND=shell
+Jan  5 11:24:25 cyberus sudo:    alain : parse error in /etc/sudoers near line 43 ; TTY=ttyp3 ; PWD=/var/www/htdocs/admin/scripts/vpn ; COMMAND=shell
+Jan  5 11:24:25 cyberus sudo:    alain : no valid sudoers sources found, quitting ; TTY=ttyp3 ; PWD=/var/www/htdocs/admin/scripts/vpn ; COMMAND=shell
+Jan  5 11:25:49 cyberus sudo:    alain : 3 incorrect password attempts ; TTY=ttyp3 ; PWD=/var/www/htdocs/admin/scripts/vpn ; USER=root ; COMMAND=/bin/ksh
+Jan  5 11:26:49 cyberus sudo:    alain : 3 incorrect password attempts ; TTY=ttyp3 ; PWD=/var/www/htdocs/admin/scripts/vpn ; USER=root ; COMMAND=/bin/ksh
+Jan  5 11:27:00 cyberus sudo:    alain : 1 incorrect password attempt ; TTY=ttyp3 ; PWD=/var/www/htdocs/admin/scripts/vpn ; USER=root ; COMMAND=/bin/ksh
+Jan  5 11:42:43 cyberus sudo:    alain : user NOT in sudoers ; TTY=ttyp3 ; PWD=/root ; USER=root ; COMMAND=/bin/ls
+Jan  5 11:43:00 cyberus sudo:    alain : TTY=ttyp3 ; PWD=/root ; USER=root ; COMMAND=/bin/ls
+Jan  5 11:43:53 cyberus last message repeated 2 times
+Jan  5 11:44:35 cyberus last message repeated 3 times
+Jan  5 11:44:44 cyberus sudo:    alain : parse error in /etc/sudoers near line 43 ; TTY=ttyp3 ; PWD=/root ; COMMAND=ls
+Jan  5 11:44:44 cyberus sudo:    alain : no valid sudoers sources found, quitting ; TTY=ttyp3 ; PWD=/root ; COMMAND=ls
+Jan  5 11:51:41 cyberus sudo:    alain : parse error in /etc/sudoers near line 43 ; TTY=ttyp3 ; PWD=/root ; COMMAND=ls
+Jan  5 11:51:41 cyberus sudo:    alain : no valid sudoers sources found, quitting ; TTY=ttyp3 ; PWD=/root ; COMMAND=ls
+Jan  5 11:51:56 cyberus sudo:    alain : TTY=ttyp3 ; PWD=/root ; USER=root ; COMMAND=/bin/ls
+Jan  5 13:39:18 cyberus sudo:    alain : TTY=ttyp3 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/chmod 605 /etc/openvpn/easyrsa3/pki/crl.pem
+Jan  5 13:39:18 cyberus sudo:    alain : TTY=ttyp3 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/rm /etc/openvpn/keys/crl.pem
+Jan  5 13:39:18 cyberus sudo:    alain : TTY=ttyp3 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/mv /etc/openvpn/easyrsa3/pki/crl.pem /etc/openvpn/keys
+Jan  5 13:39:18 cyberus sudo:    alain : TTY=ttyp3 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/rm -r /etc/openvpn/server/192.168.13.0_x509/clients/nobind/
+Jan  5 13:39:19 cyberus sudo:    alain : TTY=ttyp3 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/rm /etc/openvpn/easyrsa3/pki/issued/nobind_x509_client.crt
+Jan  5 13:39:19 cyberus sudo:    alain : TTY=ttyp3 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/rm /etc/openvpn/easyrsa3/pki/private/nobind_x509_client.key
+Jan  5 13:39:19 cyberus sudo:    alain : TTY=ttyp3 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/rm /etc/openvpn/easyrsa3/pki/reqs/nobind_x509_client.req
+Jan  5 13:40:19 cyberus sudo:    alain : TTY=ttyp3 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/mkdir /etc/openvpn/server/192.168.13.1_x509/clients/255.255.255.0
+Jan  5 13:40:19 cyberus sudo:    alain : TTY=ttyp3 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/mkdir /etc/openvpn/server/192.168.13.1_x509/clients/255.255.255.0/ovpn
+Jan  5 13:40:19 cyberus sudo:    alain : TTY=ttyp3 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/cp /etc/openvpn/easyrsa3/pki/ca.crt /etc/openvpn/keys/ta.key /etc/openvpn/easyrsa3/pki/issued/255.255.255.0_x509_client.crt /etc/openvpn/easyrsa3/pki/private/255.255.255.0_x509_client.key /etc/openvpn/server/192.168.13.1_x509/clients/255.255.255.0/
+Jan  5 13:40:20 cyberus sudo:    alain : TTY=ttyp3 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/cp /etc/openvpn/server/192.168.13.1_x509/clients/255.255.255.0/ca.crt /etc/openvpn/server/192.168.13.1_x509/clients/255.255.255.0/ta.key /etc/openvpn/server/192.168.13.1_x509/clients/255.255.255.0/255.255.255.0_x509_client.key /etc/openvpn/server/192.168.13.1_x509/clients/255.255.255.0/255.255.255.0_x509_client.crt /etc/openvpn/server/192.168.13.1_x509/clients/255.255.255.0/ovpn
+Jan  5 13:40:20 cyberus sudo:    alain : TTY=ttyp3 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/tar cvzf 255.255.255.0.tar.gz ovpn/
+Jan  5 13:46:46 cyberus sudo:    alain : command not allowed ; TTY=ttyp3 ; PWD=/etc ; USER=root ; COMMAND=/bin/ksh
+Jan  5 13:46:58 cyberus sudo:    alain : command not allowed ; TTY=ttyp3 ; PWD=/etc ; USER=root ; COMMAND=/bin/ksh
+Jan  5 13:49:32 cyberus sudo:    alain : TTY=ttyp3 ; PWD=/var/www/htdocs/admin/scripts/vpn ; USER=root ; COMMAND=/bin/ls -la /etc/openvpn/server/192.168.13.0_x509/clients/
+Jan  5 13:49:46 cyberus sudo:    alain : TTY=ttyp3 ; PWD=/var/www/htdocs/admin/scripts/vpn ; USER=root ; COMMAND=/bin/ls -la /etc/openvpn/server/192.168.13.0_x509/clients/
+Jan  5 13:50:19 cyberus sudo:    alain : TTY=ttyp3 ; PWD=/var/www/htdocs/admin/scripts/vpn ; USER=root ; COMMAND=/bin/ls -la /etc/openvpn/server/192.168.13.0_x509/clients/
+Jan  5 13:50:21 cyberus sudo:    alain : TTY=ttyp3 ; PWD=/var/www/htdocs/admin/scripts/vpn ; USER=root ; COMMAND=/bin/ls -la /etc/openvpn/server/192.168.13.0_x509/clients/
+Jan  5 13:50:22 cyberus sudo:    alain : TTY=ttyp3 ; PWD=/var/www/htdocs/admin/scripts/vpn ; USER=root ; COMMAND=/bin/ls -la /etc/openvpn/server/192.168.13.0_x509/clients/
+Jan  5 13:51:28 cyberus sudo:    alain : command not allowed ; TTY=ttyp3 ; PWD=/var/www/htdocs/admin/scripts/vpn ; USER=root ; COMMAND=/usr/sbin/chown 665 add_dynamic_client_x509_crl.sh
+Jan  5 13:51:49 cyberus sudo:    alain : command not allowed ; TTY=ttyp3 ; PWD=/var/www/htdocs/admin/scripts/vpn ; USER=root ; COMMAND=/usr/sbin/chown 665 add_dynamic_client_x509_crl.sh
+Jan  5 13:52:14 cyberus sudo:    alain : 3 incorrect password attempts ; TTY=ttyp3 ; PWD=/var/www/htdocs/admin/scripts/vpn ; USER=root ; COMMAND=/usr/sbin/chown 665 add_dynamic_client_x509_crl.sh
+Jan  5 13:54:48 cyberus sudo:    alain : 3 incorrect password attempts ; TTY=ttyp3 ; PWD=/var/www/htdocs/admin/scripts/vpn ; USER=root ; COMMAND=/usr/sbin/chown 665 add_dynamic_client_x509_crl.sh
+Jan  5 13:54:59 cyberus sudo:    alain : 3 incorrect password attempts ; TTY=ttyp3 ; PWD=/var/www/htdocs/admin/scripts/vpn ; USER=root ; COMMAND=/usr/sbin/chown 665 add_dynamic_client_x509_crl.sh
+Jan  5 13:55:10 cyberus sudo:    alain : command not allowed ; TTY=ttyp3 ; PWD=/var/www/htdocs/admin/scripts/vpn ; USER=root ; COMMAND=/usr/sbin/chown 665 add_dynamic_client_x509_crl.sh
+Jan  5 13:57:13 cyberus sudo:    alain : command not allowed ; TTY=ttyp3 ; PWD=/var/www/htdocs/admin/scripts/vpn ; USER=root ; COMMAND=/bin/ksh
+Jan  5 14:03:54 cyberus sudo:     root : TTY=ttyp3 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/mkdir /etc/openvpn/server/192.168.0.13_x509/clients/coucou
+Jan  5 14:03:54 cyberus sudo:     root : TTY=ttyp3 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/mkdir /etc/openvpn/server/192.168.0.13_x509/clients/coucou/ovpn
+Jan  5 14:03:54 cyberus sudo:     root : TTY=ttyp3 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/cp /etc/openvpn/easyrsa3/pki/ca.crt /etc/openvpn/keys/ta.key /etc/openvpn/easyrsa3/pki/issued/coucou_x509_client.crt /etc/openvpn/easyrsa3/pki/private/coucou_x509_client.key /etc/openvpn/server/192.168.0.13_x509/clients/coucou/
+Jan  5 14:03:54 cyberus sudo:     root : TTY=ttyp3 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/cp /etc/openvpn/server/192.168.0.13_x509/clients/coucou/ca.crt /etc/openvpn/server/192.168.0.13_x509/clients/coucou/ta.key /etc/openvpn/server/192.168.0.13_x509/clients/coucou/coucou_x509_client.key /etc/openvpn/server/192.168.0.13_x509/clients/coucou/coucou_x509_client.crt /etc/openvpn/server/192.168.0.13_x509/clients/coucou/ovpn
+Jan  5 14:03:54 cyberus sudo:     root : TTY=ttyp3 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/cat
+Jan  5 14:03:55 cyberus sudo:     root : TTY=ttyp3 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/tar cvzf coucou.tar.gz ovpn/
+Jan  5 14:04:42 cyberus sudo:     root : TTY=ttyp3 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/cp /etc/openvpn/easyrsa3/pki/ca.crt /etc/openvpn/keys/ta.key /etc/openvpn/easyrsa3/pki/issued/coucou1_x509_client.crt /etc/openvpn/easyrsa3/pki/private/coucou1_x509_client.key /etc/openvpn/server/192.168.0.13_x509/clients/coucou1/
+Jan  5 14:04:42 cyberus sudo:     root : TTY=ttyp3 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/cp /etc/openvpn/server/192.168.0.13_x509/clients/coucou1/ca.crt /etc/openvpn/server/192.168.0.13_x509/clients/coucou1/ta.key /etc/openvpn/server/192.168.0.13_x509/clients/coucou1/coucou1_x509_client.key /etc/openvpn/server/192.168.0.13_x509/clients/coucou1/coucou1_x509_client.crt /etc/openvpn/server/192.168.0.13_x509/clients/coucou1/ovpn
+Jan  5 14:04:42 cyberus sudo:     root : TTY=ttyp3 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/cat
+Jan  5 14:04:42 cyberus sudo:     root : TTY=ttyp3 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/tar cvzf coucou1.tar.gz ovpn/
+Jan  5 14:07:32 cyberus sudo:     root : TTY=ttyp3 ; PWD=/var/www/htdocs/admin/scripts/vpn ; USER=root ; COMMAND=/bin/rm -r /etc/openvpn/easyrsa3/pki_old
+Jan  5 14:07:32 cyberus sudo:     root : TTY=ttyp3 ; PWD=/var/www/htdocs/admin/scripts/vpn ; USER=root ; COMMAND=/bin/mv /etc/openvpn/easyrsa3/pki /etc/openvpn/easyrsa3/pki_old
+Jan  5 14:07:32 cyberus sudo:     root : TTY=ttyp3 ; PWD=/var/www/htdocs/admin/scripts/vpn ; USER=root ; COMMAND=/bin/cp -r /etc/openvpn/easyrsa3/pki_recovery /etc/openvpn/easyrsa3/pki
+Jan  5 14:07:37 cyberus sudo:     root : TTY=ttyp3 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/chmod 605 /etc/openvpn/easyrsa3/pki/crl.pem
+Jan  5 14:07:37 cyberus sudo:     root : TTY=ttyp3 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/rm /etc/openvpn/keys/crl.pem
+Jan  5 14:07:37 cyberus sudo:     root : TTY=ttyp3 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/mv /etc/openvpn/easyrsa3/pki/crl.pem /etc/openvpn/keys
+Jan  5 14:08:32 cyberus sudo:     root : TTY=ttyp3 ; PWD=/var/www/htdocs/admin/scripts/vpn ; USER=root ; COMMAND=/bin/mkdir /etc/openvpn/server/192.168.13.0_x509
+Jan  5 14:08:32 cyberus sudo:     root : TTY=ttyp3 ; PWD=/var/www/htdocs/admin/scripts/vpn ; USER=root ; COMMAND=/bin/mkdir /var/log/openvpn/server-log/192.168.13.0_x509
+Jan  5 14:08:32 cyberus sudo:     root : TTY=ttyp3 ; PWD=/var/www/htdocs/admin/scripts/vpn ; USER=root ; COMMAND=/bin/mkdir /etc/openvpn/server/192.168.13.0_x509/clients
+Jan  5 14:08:37 cyberus sudo:     root : TTY=ttyp3 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/cp /etc/openvpn/easyrsa3/pki/issued/192.168.13.0_x509_server.crt /etc/openvpn/easyrsa3/pki/private/192.168.13.0_x509_server.key /etc/openvpn/server/192.168.13.0_x509/
+Jan  5 14:08:37 cyberus sudo:     root : TTY=ttyp3 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/cp /etc/openvpn/easyrsa3/pki/ca.crt /etc/openvpn/server/192.168.13.0_x509/
+Jan  5 14:08:37 cyberus sudo:     root : TTY=ttyp3 ; PWD=/etc/openvpn/server/192.168.13.0_x509 ; USER=root ; COMMAND=/bin/cat
+Jan  5 14:08:37 cyberus sudo:     root : TTY=ttyp3 ; PWD=/etc/openvpn/server/192.168.13.0_x509 ; USER=root ; COMMAND=/bin/kill -9 20064
+Jan  5 14:08:38 cyberus sudo:     root : TTY=ttyp3 ; PWD=/etc/openvpn/server/192.168.13.0_x509 ; USER=root ; COMMAND=/bin/ps -ax
+Jan  5 14:08:39 cyberus sudo:     root : TTY=ttyp3 ; PWD=/etc/openvpn/server/192.168.13.0_x509 ; USER=root ; COMMAND=/bin/ls -la /etc/openvpn/server
+Jan  5 14:09:23 cyberus sudo:    alain : TTY=ttyp3 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/mkdir /etc/openvpn/server/192.168.13.0_x509/clients/coucou
+Jan  5 14:09:23 cyberus sudo:    alain : TTY=ttyp3 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/mkdir /etc/openvpn/server/192.168.13.0_x509/clients/coucou/ovpn
+Jan  5 14:09:23 cyberus sudo:    alain : TTY=ttyp3 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/cp /etc/openvpn/easyrsa3/pki/ca.crt /etc/openvpn/keys/ta.key /etc/openvpn/easyrsa3/pki/issued/coucou_x509_client.crt /etc/openvpn/easyrsa3/pki/private/coucou_x509_client.key /etc/openvpn/server/192.168.13.0_x509/clients/coucou/
+Jan  5 14:09:23 cyberus sudo:    alain : TTY=ttyp3 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/cp /etc/openvpn/server/192.168.13.0_x509/clients/coucou/ca.crt /etc/openvpn/server/192.168.13.0_x509/clients/coucou/ta.key /etc/openvpn/server/192.168.13.0_x509/clients/coucou/coucou_x509_client.key /etc/openvpn/server/192.168.13.0_x509/clients/coucou/coucou_x509_client.crt /etc/openvpn/server/192.168.13.0_x509/clients/coucou/ovpn
+Jan  5 14:09:23 cyberus sudo:    alain : TTY=ttyp3 ; PWD=/etc/openvpn/server/192.168.13.0_x509/clients/coucou ; USER=root ; COMMAND=/bin/tar cvzf coucou.tar.gz ovpn/
+Jan  5 14:11:52 cyberus sudo:    alain : command not allowed ; TTY=ttyp3 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/usr/local/bin/bash
+Jan  5 14:16:28 cyberus sudo:    alain : TTY=ttyp3 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/mkdir /etc/openvpn/server/192.168.13.0_x509/clients/coucou1
+Jan  5 14:16:28 cyberus sudo:    alain : TTY=ttyp3 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/mkdir /etc/openvpn/server/192.168.13.0_x509/clients/coucou1/ovpn
+Jan  5 14:16:28 cyberus sudo:    alain : TTY=ttyp3 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/cp /etc/openvpn/easyrsa3/pki/ca.crt /etc/openvpn/keys/ta.key /etc/openvpn/easyrsa3/pki/issued/coucou1_x509_client.crt /etc/openvpn/easyrsa3/pki/private/coucou1_x509_client.key /etc/openvpn/server/192.168.13.0_x509/clients/coucou1/
+Jan  5 14:16:28 cyberus sudo:    alain : TTY=ttyp3 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/cp /etc/openvpn/server/192.168.13.0_x509/clients/coucou1/ca.crt /etc/openvpn/server/192.168.13.0_x509/clients/coucou1/ta.key /etc/openvpn/server/192.168.13.0_x509/clients/coucou1/coucou1_x509_client.key /etc/openvpn/server/192.168.13.0_x509/clients/coucou1/coucou1_x509_client.crt /etc/openvpn/server/192.168.13.0_x509/clients/coucou1/ovpn
+Jan  5 14:16:28 cyberus sudo:    alain : TTY=ttyp3 ; PWD=/etc/openvpn/server/192.168.13.0_x509/clients/coucou1 ; USER=root ; COMMAND=/bin/tar cvzf coucou1.tar.gz ovpn/
+Jan  5 14:18:00 cyberus sudo:    alain : TTY=ttyp3 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/mkdir /etc/openvpn/server/192.168.13.0_x509/clients/coucou11
+Jan  5 14:18:00 cyberus sudo:    alain : TTY=ttyp3 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/mkdir /etc/openvpn/server/192.168.13.0_x509/clients/coucou11/ovpn
+Jan  5 14:18:00 cyberus sudo:    alain : TTY=ttyp3 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/cp /etc/openvpn/easyrsa3/pki/ca.crt /etc/openvpn/keys/ta.key /etc/openvpn/easyrsa3/pki/issued/coucou11_x509_client.crt /etc/openvpn/easyrsa3/pki/private/coucou11_x509_client.key /etc/openvpn/server/192.168.13.0_x509/clients/coucou11/
+Jan  5 14:18:00 cyberus sudo:    alain : TTY=ttyp3 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/cp /etc/openvpn/server/192.168.13.0_x509/clients/coucou11/ca.crt /etc/openvpn/server/192.168.13.0_x509/clients/coucou11/ta.key /etc/openvpn/server/192.168.13.0_x509/clients/coucou11/coucou11_x509_client.key /etc/openvpn/server/192.168.13.0_x509/clients/coucou11/coucou11_x509_client.crt /etc/openvpn/server/192.168.13.0_x509/clients/coucou11/ovpn
+Jan  5 14:18:01 cyberus sudo:    alain : TTY=ttyp3 ; PWD=/etc/openvpn/server/192.168.13.0_x509/clients/coucou11 ; USER=root ; COMMAND=/bin/tar cvzf coucou11.tar.gz ovpn/
+Jan  5 14:20:00 cyberus sudo:    alain : TTY=ttyp3 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/mkdir /etc/openvpn/server/192.168.13.0_x509/clients/coucou2
+Jan  5 14:20:00 cyberus sudo:    alain : TTY=ttyp3 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/mkdir /etc/openvpn/server/192.168.13.0_x509/clients/coucou2/ovpn
+Jan  5 14:20:00 cyberus sudo:    alain : TTY=ttyp3 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/cp /etc/openvpn/easyrsa3/pki/ca.crt /etc/openvpn/keys/ta.key /etc/openvpn/easyrsa3/pki/issued/coucou2_x509_client.crt /etc/openvpn/easyrsa3/pki/private/coucou2_x509_client.key /etc/openvpn/server/192.168.13.0_x509/clients/coucou2/
+Jan  5 14:20:00 cyberus sudo:    alain : TTY=ttyp3 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/cp /etc/openvpn/server/192.168.13.0_x509/clients/coucou2/ca.crt /etc/openvpn/server/192.168.13.0_x509/clients/coucou2/ta.key /etc/openvpn/server/192.168.13.0_x509/clients/coucou2/coucou2_x509_client.key /etc/openvpn/server/192.168.13.0_x509/clients/coucou2/coucou2_x509_client.crt /etc/openvpn/server/192.168.13.0_x509/clients/coucou2/ovpn
+Jan  5 14:20:00 cyberus sudo:    alain : TTY=ttyp3 ; PWD=/etc/openvpn/server/192.168.13.0_x509/clients/coucou2 ; USER=root ; COMMAND=/bin/tar cvzf coucou2.tar.gz ovpn/
+Jan  5 15:02:49 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/mkdir /etc/openvpn/server/192.168.13.0_x509/clients/coucou15
+Jan  5 15:02:50 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/mkdir /etc/openvpn/server/192.168.13.0_x509/clients/coucou15/ovpn
+Jan  5 15:02:50 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/cp /etc/openvpn/easyrsa3/pki/ca.crt /etc/openvpn/keys/ta.key /etc/openvpn/easyrsa3/pki/issued/coucou15_x509_client.crt /etc/openvpn/easyrsa3/pki/private/coucou15_x509_client.key /etc/openvpn/server/192.168.13.0_x509/clients/coucou15/
+Jan  5 15:02:50 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/cp /etc/openvpn/server/192.168.13.0_x509/clients/coucou15/ca.crt /etc/openvpn/server/192.168.13.0_x509/clients/coucou15/ta.key /etc/openvpn/server/192.168.13.0_x509/clients/coucou15/coucou15_x509_client.key /etc/openvpn/server/192.168.13.0_x509/clients/coucou15/coucou15_x509_client.crt /etc/openvpn/server/192.168.13.0_x509/clients/coucou15/ovpn
+Jan  5 15:02:50 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/etc/openvpn/server/192.168.13.0_x509/clients/coucou15 ; USER=root ; COMMAND=/bin/tar cvzf coucou15.tar.gz ovpn/
+Jan  5 15:04:23 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/var/www/htdocs/admin/scripts/vpn ; USER=root ; COMMAND=/bin/cat
+Jan  5 15:04:52 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/var/www/htdocs/admin/scripts/vpn ; USER=root ; COMMAND=/bin/cat
+Jan  5 15:07:06 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/mkdir /etc/openvpn/server/192.168.13.0_x509/clients/coucou16
+Jan  5 15:07:06 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/mkdir /etc/openvpn/server/192.168.13.0_x509/clients/coucou16/ovpn
+Jan  5 15:07:06 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/cp /etc/openvpn/easyrsa3/pki/ca.crt /etc/openvpn/keys/ta.key /etc/openvpn/easyrsa3/pki/issued/coucou16_x509_client.crt /etc/openvpn/easyrsa3/pki/private/coucou16_x509_client.key /etc/openvpn/server/192.168.13.0_x509/clients/coucou16/
+Jan  5 15:07:06 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/cp /etc/openvpn/server/192.168.13.0_x509/clients/coucou16/ca.crt /etc/openvpn/server/192.168.13.0_x509/clients/coucou16/ta.key /etc/openvpn/server/192.168.13.0_x509/clients/coucou16/coucou16_x509_client.key /etc/openvpn/server/192.168.13.0_x509/clients/coucou16/coucou16_x509_client.crt /etc/openvpn/server/192.168.13.0_x509/clients/coucou16/ovpn
+Jan  5 15:07:16 cyberus sudo:    alain : command not allowed ; TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/sbin/chown alain /etc/openvpn/server/192.168.13.0_x509/clients/coucou16/ovpn
+Jan  5 15:07:16 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/etc/openvpn/server/192.168.13.0_x509/clients/coucou16 ; USER=root ; COMMAND=/bin/tar cvzf coucou16.tar.gz ovpn/
+Jan  5 15:07:58 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/mkdir /etc/openvpn/server/192.168.13.0_x509/clients/coucou17
+Jan  5 15:07:59 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/mkdir /etc/openvpn/server/192.168.13.0_x509/clients/coucou17/ovpn
+Jan  5 15:07:59 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/cp /etc/openvpn/easyrsa3/pki/ca.crt /etc/openvpn/keys/ta.key /etc/openvpn/easyrsa3/pki/issued/coucou17_x509_client.crt /etc/openvpn/easyrsa3/pki/private/coucou17_x509_client.key /etc/openvpn/server/192.168.13.0_x509/clients/coucou17/
+Jan  5 15:07:59 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/cp /etc/openvpn/server/192.168.13.0_x509/clients/coucou17/ca.crt /etc/openvpn/server/192.168.13.0_x509/clients/coucou17/ta.key /etc/openvpn/server/192.168.13.0_x509/clients/coucou17/coucou17_x509_client.key /etc/openvpn/server/192.168.13.0_x509/clients/coucou17/coucou17_x509_client.crt /etc/openvpn/server/192.168.13.0_x509/clients/coucou17/ovpn
+Jan  5 15:07:59 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/sbin/chown alain /etc/openvpn/server/192.168.13.0_x509/clients/coucou17/ovpn
+Jan  5 15:07:59 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/etc/openvpn/server/192.168.13.0_x509/clients/coucou17/ovpn ; USER=root ; COMMAND=/bin/cat
+Jan  5 15:07:59 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/etc/openvpn/server/192.168.13.0_x509/clients/coucou17 ; USER=root ; COMMAND=/bin/tar cvzf coucou17.tar.gz ovpn/
+Jan  5 15:10:52 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/var/www/htdocs/admin/scripts/vpn ; USER=root ; COMMAND=/bin/rm -r /etc/openvpn/easyrsa3/pki_old
+Jan  5 15:10:52 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/var/www/htdocs/admin/scripts/vpn ; USER=root ; COMMAND=/bin/mv /etc/openvpn/easyrsa3/pki /etc/openvpn/easyrsa3/pki_old
+Jan  5 15:10:53 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/var/www/htdocs/admin/scripts/vpn ; USER=root ; COMMAND=/bin/cp -r /etc/openvpn/easyrsa3/pki_recovery /etc/openvpn/easyrsa3/pki
+Jan  5 15:10:54 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/chmod 605 /etc/openvpn/easyrsa3/pki/crl.pem
+Jan  5 15:10:54 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/rm /etc/openvpn/keys/crl.pem
+Jan  5 15:10:55 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/mv /etc/openvpn/easyrsa3/pki/crl.pem /etc/openvpn/keys
+Jan  5 15:11:39 cyberus sudo:    alain : command not allowed ; TTY=ttyp2 ; PWD=/var/www/htdocs/admin/scripts/vpn ; USER=root ; COMMAND=/bin/sh purge_pki.sh yes
+Jan  5 15:11:59 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/var/www/htdocs/admin/scripts/vpn ; USER=root ; COMMAND=/bin/sh purge_pki.sh yes
+Jan  5 15:11:59 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/var/www/htdocs/admin/scripts/vpn ; USER=root ; COMMAND=/bin/rm -r /etc/openvpn/easyrsa3/pki_old
+Jan  5 15:11:59 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/var/www/htdocs/admin/scripts/vpn ; USER=root ; COMMAND=/bin/mv /etc/openvpn/easyrsa3/pki /etc/openvpn/easyrsa3/pki_old
+Jan  5 15:11:59 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/var/www/htdocs/admin/scripts/vpn ; USER=root ; COMMAND=/bin/cp -r /etc/openvpn/easyrsa3/pki_recovery /etc/openvpn/easyrsa3/pki
+Jan  5 15:12:03 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/chmod 605 /etc/openvpn/easyrsa3/pki/crl.pem
+Jan  5 15:12:03 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/rm /etc/openvpn/keys/crl.pem
+Jan  5 15:12:03 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/mv /etc/openvpn/easyrsa3/pki/crl.pem /etc/openvpn/keys
+Jan  5 15:13:09 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/var/www/htdocs/admin/scripts/vpn ; USER=root ; COMMAND=/sbin/chown -R root /etc/openvpn/
+Jan  5 15:13:50 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/var/www/htdocs/admin/scripts ; USER=root ; COMMAND=/sbin/chown -R root vpn
+Jan  5 15:14:11 cyberus sudo:    alain : command not allowed ; TTY=ttyp2 ; PWD=/var/www/htdocs/admin/scripts/vpn ; USER=root ; COMMAND=add_dynamic_server_x509_crl.sh
+Jan  5 15:14:23 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/var/www/htdocs/admin/scripts/vpn ; USER=root ; COMMAND=/bin/sh add_dynamic_server_x509_crl.sh
+Jan  5 15:14:39 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/var/www/htdocs/admin/scripts/vpn ; USER=root ; COMMAND=/bin/sh add_dynamic_server_x509_crl.sh 192.168.13.0 255.255.255.0 10006 tun0
+Jan  5 15:14:39 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/var/www/htdocs/admin/scripts/vpn ; USER=root ; COMMAND=/bin/mkdir /etc/openvpn/server/192.168.13.0_x509
+Jan  5 15:14:40 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/var/www/htdocs/admin/scripts/vpn ; USER=root ; COMMAND=/bin/mkdir /var/log/openvpn/server-log/192.168.13.0_x509
+Jan  5 15:14:40 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/var/www/htdocs/admin/scripts/vpn ; USER=root ; COMMAND=/bin/mkdir /etc/openvpn/server/192.168.13.0_x509/clients
+Jan  5 15:14:45 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/cp /etc/openvpn/easyrsa3/pki/issued/192.168.13.0_x509_server.crt /etc/openvpn/easyrsa3/pki/private/192.168.13.0_x509_server.key /etc/openvpn/server/192.168.13.0_x509/
+Jan  5 15:14:45 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/cp /etc/openvpn/easyrsa3/pki/ca.crt /etc/openvpn/server/192.168.13.0_x509/
+Jan  5 15:14:45 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/etc/openvpn/server/192.168.13.0_x509 ; USER=root ; COMMAND=/bin/cat
+Jan  5 15:14:45 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/etc/openvpn/server/192.168.13.0_x509 ; USER=root ; COMMAND=/bin/kill -9 5565
+Jan  5 15:14:46 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/etc/openvpn/server/192.168.13.0_x509 ; USER=root ; COMMAND=/bin/ps -ax
+Jan  5 15:14:46 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/etc/openvpn/server/192.168.13.0_x509 ; USER=root ; COMMAND=/bin/ls -la /etc/openvpn/server
+Jan  5 15:15:06 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/var/www/htdocs/admin/scripts/vpn ; USER=root ; COMMAND=/bin/sh add_dynamic_client_x509_crl.sh
+Jan  5 15:15:21 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/var/www/htdocs/admin/scripts/vpn ; USER=root ; COMMAND=/bin/sh add_dynamic_client_x509_crl.sh 192.168.13.0 coucou 10006 tun0
+Jan  5 15:15:33 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/mkdir /etc/openvpn/server/192.168.13.0_x509/clients/coucou
+Jan  5 15:15:33 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/mkdir /etc/openvpn/server/192.168.13.0_x509/clients/coucou/ovpn
+Jan  5 15:15:34 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/cp /etc/openvpn/easyrsa3/pki/ca.crt /etc/openvpn/keys/ta.key /etc/openvpn/easyrsa3/pki/issued/coucou_x509_client.crt /etc/openvpn/easyrsa3/pki/private/coucou_x509_client.key /etc/openvpn/server/192.168.13.0_x509/clients/coucou/
+Jan  5 15:15:34 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/cp /etc/openvpn/server/192.168.13.0_x509/clients/coucou/ca.crt /etc/openvpn/server/192.168.13.0_x509/clients/coucou/ta.key /etc/openvpn/server/192.168.13.0_x509/clients/coucou/coucou_x509_client.key /etc/openvpn/server/192.168.13.0_x509/clients/coucou/coucou_x509_client.crt /etc/openvpn/server/192.168.13.0_x509/clients/coucou/ovpn
+Jan  5 15:15:34 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/sbin/chown alain /etc/openvpn/server/192.168.13.0_x509/clients/coucou/ovpn
+Jan  5 15:15:34 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/etc/openvpn/server/192.168.13.0_x509/clients/coucou/ovpn ; USER=root ; COMMAND=/bin/cat
+Jan  5 15:15:34 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/etc/openvpn/server/192.168.13.0_x509/clients/coucou ; USER=root ; COMMAND=/bin/tar cvzf coucou.tar.gz ovpn/
+Jan  5 15:24:33 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/var/www/htdocs/admin/scripts/vpn ; USER=root ; COMMAND=/bin/sh add_dynamic_client_x509_crl.sh
+Jan  5 15:24:53 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/var/www/htdocs/admin/scripts/vpn ; USER=root ; COMMAND=/bin/sh add_dynamic_client_x509_crl.sh 192.168.13.0 coucou1 10006 tun0
+Jan  5 15:24:58 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/mkdir /etc/openvpn/server/192.168.13.0_x509/clients/coucou1
+Jan  5 15:24:58 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/mkdir /etc/openvpn/server/192.168.13.0_x509/clients/coucou1/ovpn
+Jan  5 15:24:58 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/mv /etc/openvpn/easyrsa3/pki/issued/coucou1_192.168.13.0_x509_client.crt /etc/openvpn/easyrsa3/pki/issued/coucou1_x509_client.crt
+Jan  5 15:24:59 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/mv /etc/openvpn/easyrsa3/pki/private/coucou1_192.168.13.0_x509_client.key /etc/openvpn/easyrsa3/pki/issued/coucou1_x509_client.key
+Jan  5 15:24:59 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/cp /etc/openvpn/easyrsa3/pki/ca.crt /etc/openvpn/keys/ta.key /etc/openvpn/easyrsa3/pki/issued/coucou1_192.168.13.0_x509_client.crt /etc/openvpn/easyrsa3/pki/private/coucou1_192.168.13.0_x509_client.key /etc/openvpn/server/192.168.13.0_x509/clients/coucou1/
+Jan  5 15:24:59 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/cp /etc/openvpn/server/192.168.13.0_x509/clients/coucou1/ca.crt /etc/openvpn/server/192.168.13.0_x509/clients/coucou1/ta.key /etc/openvpn/server/192.168.13.0_x509/clients/coucou1/coucou1_192.168.13.0_x509_client.key /etc/openvpn/server/192.168.13.0_x509/clients/coucou1/coucou1_192.168.13.0_x509_client.crt /etc/openvpn/server/192.168.13.0_x509/clients/coucou1/ovpn
+Jan  5 15:24:59 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/etc/openvpn/server/192.168.13.0_x509/clients/coucou1/ovpn ; USER=root ; COMMAND=/bin/cat
+Jan  5 15:24:59 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/etc/openvpn/server/192.168.13.0_x509/clients/coucou1 ; USER=root ; COMMAND=/bin/tar cvzf coucou1.tar.gz ovpn/
+Jan  5 15:26:46 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/var/www/htdocs/admin/scripts/vpn ; USER=root ; COMMAND=/bin/sh add_dynamic_client_x509_crl.sh 192.168.13.0 coucou2 10006 tun0
+Jan  5 15:26:54 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/mkdir /etc/openvpn/server/192.168.13.0_x509/clients/coucou2
+Jan  5 15:26:54 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/mkdir /etc/openvpn/server/192.168.13.0_x509/clients/coucou2/ovpn
+Jan  5 15:26:54 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/mv /etc/openvpn/easyrsa3/pki/issued/coucou2_192.168.13.0_x509_client.crt /etc/openvpn/easyrsa3/pki/issued/coucou2_x509_client.crt
+Jan  5 15:26:54 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/mv /etc/openvpn/easyrsa3/pki/private/coucou2_192.168.13.0_x509_client.key /etc/openvpn/easyrsa3/pki/private/coucou2_x509_client.key
+Jan  5 15:26:54 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/cp /etc/openvpn/easyrsa3/pki/ca.crt /etc/openvpn/keys/ta.key /etc/openvpn/easyrsa3/pki/issued/coucou2_192.168.13.0_x509_client.crt /etc/openvpn/easyrsa3/pki/private/coucou2_192.168.13.0_x509_client.key /etc/openvpn/server/192.168.13.0_x509/clients/coucou2/
+Jan  5 15:26:54 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/cp /etc/openvpn/server/192.168.13.0_x509/clients/coucou2/ca.crt /etc/openvpn/server/192.168.13.0_x509/clients/coucou2/ta.key /etc/openvpn/server/192.168.13.0_x509/clients/coucou2/coucou2_192.168.13.0_x509_client.key /etc/openvpn/server/192.168.13.0_x509/clients/coucou2/coucou2_192.168.13.0_x509_client.crt /etc/openvpn/server/192.168.13.0_x509/clients/coucou2/ovpn
+Jan  5 15:26:54 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/etc/openvpn/server/192.168.13.0_x509/clients/coucou2/ovpn ; USER=root ; COMMAND=/bin/cat
+Jan  5 15:26:54 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/etc/openvpn/server/192.168.13.0_x509/clients/coucou2 ; USER=root ; COMMAND=/bin/tar cvzf coucou2.tar.gz ovpn/
+Jan  5 15:28:02 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/var/www/htdocs/admin/scripts/vpn ; USER=root ; COMMAND=/bin/sh add_dynamic_client_x509_crl.sh 192.168.13.0 couco32 10006 tun0
+Jan  5 15:28:08 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/mkdir /etc/openvpn/server/192.168.13.0_x509/clients/couco32
+Jan  5 15:28:08 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/mkdir /etc/openvpn/server/192.168.13.0_x509/clients/couco32/ovpn
+Jan  5 15:28:08 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/mv /etc/openvpn/easyrsa3/pki/issued/couco32_192.168.13.0_x509_client.crt /etc/openvpn/easyrsa3/pki/issued/couco32_x509_client.crt
+Jan  5 15:28:08 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/mv /etc/openvpn/easyrsa3/pki/private/couco32_192.168.13.0_x509_client.key /etc/openvpn/easyrsa3/pki/private/couco32_x509_client.key
+Jan  5 15:28:08 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/cp /etc/openvpn/easyrsa3/pki/ca.crt /etc/openvpn/keys/ta.key /etc/openvpn/easyrsa3/pki/issued/couco32_x509_client.crt /etc/openvpn/easyrsa3/pki/private/couco32_x509_client.key /etc/openvpn/server/192.168.13.0_x509/clients/couco32/
+Jan  5 15:28:08 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/cp /etc/openvpn/server/192.168.13.0_x509/clients/couco32/ca.crt /etc/openvpn/server/192.168.13.0_x509/clients/couco32/ta.key /etc/openvpn/server/192.168.13.0_x509/clients/couco32/couco32_x509_client.key /etc/openvpn/server/192.168.13.0_x509/clients/couco32/couco32_x509_client.crt /etc/openvpn/server/192.168.13.0_x509/clients/couco32/ovpn
+Jan  5 15:28:08 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/etc/openvpn/server/192.168.13.0_x509/clients/couco32/ovpn ; USER=root ; COMMAND=/bin/cat
+Jan  5 15:28:08 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/etc/openvpn/server/192.168.13.0_x509/clients/couco32 ; USER=root ; COMMAND=/bin/tar cvzf couco32.tar.gz ovpn/
+Jan  5 15:32:30 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/var/www/htdocs/admin/scripts/vpn ; USER=root ; COMMAND=/bin/sh add_dynamic_client_x509_crl.sh 192.168.13.0 cou2 10006 tun0
+Jan  5 15:32:35 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/mkdir /etc/openvpn/server/192.168.13.0_x509/clients/cou2
+Jan  5 15:32:35 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/mkdir /etc/openvpn/server/192.168.13.0_x509/clients/cou2/ovpn
+Jan  5 15:32:35 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/cp /etc/openvpn/easyrsa3/pki/ca.crt /etc/openvpn/keys/ta.key /etc/openvpn/easyrsa3/pki/issued/cou2_192.168.13.0_x509_client.crt /etc/openvpn/easyrsa3/pki/private/cou2_192.168.13.0_x509_client.key /etc/openvpn/server/192.168.13.0_x509/clients/cou2/
+Jan  5 15:32:35 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/cp /etc/openvpn/server/192.168.13.0_x509/clients/cou2/ca.crt /etc/openvpn/server/192.168.13.0_x509/clients/cou2/ta.key /etc/openvpn/server/192.168.13.0_x509/clients/cou2/cou2_192.168.13.0_x509_client.key /etc/openvpn/server/192.168.13.0_x509/clients/cou2/cou2_192.168.13.0_x509_client.crt /etc/openvpn/server/192.168.13.0_x509/clients/cou2/ovpn
+Jan  5 15:32:35 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/etc/openvpn/server/192.168.13.0_x509/clients/cou2/ovpn ; USER=root ; COMMAND=/bin/cat
+Jan  5 15:32:36 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/etc/openvpn/server/192.168.13.0_x509/clients/cou2 ; USER=root ; COMMAND=/bin/tar cvzf cou2.tar.gz ovpn/
+Jan  5 15:34:43 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/var/www/htdocs/admin/scripts/vpn ; USER=root ; COMMAND=/bin/sh add_dynamic_client_x509_crl.sh 192.168.13.0 cou 10006 tun0
+Jan  5 15:34:48 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/mkdir /etc/openvpn/server/192.168.13.0_x509/clients/cou
+Jan  5 15:34:48 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/mkdir /etc/openvpn/server/192.168.13.0_x509/clients/cou/ovpn
+Jan  5 15:34:48 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/cp /etc/openvpn/easyrsa3/pki/ca.crt /etc/openvpn/keys/ta.key /etc/openvpn/easyrsa3/pki/issued/cou_192.168.13.0_x509_client.crt /etc/openvpn/easyrsa3/pki/private/cou_192.168.13.0_x509_client.key /etc/openvpn/server/192.168.13.0_x509/clients/cou/
+Jan  5 15:34:48 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/cp /etc/openvpn/server/192.168.13.0_x509/clients/cou/ca.crt /etc/openvpn/server/192.168.13.0_x509/clients/cou/ta.key /etc/openvpn/server/192.168.13.0_x509/clients/cou/cou_x509_client.key /etc/openvpn/server/192.168.13.0_x509/clients/cou/cou_x509_client.crt /etc/openvpn/server/192.168.13.0_x509/clients/cou/ovpn
+Jan  5 15:34:48 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/etc/openvpn/server/192.168.13.0_x509/clients/cou/ovpn ; USER=root ; COMMAND=/bin/cat
+Jan  5 15:34:48 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/etc/openvpn/server/192.168.13.0_x509/clients/cou ; USER=root ; COMMAND=/bin/tar cvzf cou.tar.gz ovpn/
+Jan  5 15:40:25 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/var/www/htdocs/admin/scripts/vpn ; USER=root ; COMMAND=/bin/sh add_dynamic_client_x509_crl.sh 192.168.13.0 cou 10006 tun0
+Jan  5 15:40:29 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/mkdir /etc/openvpn/server/192.168.13.0_x509/clients/cou
+Jan  5 15:40:29 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/mkdir /etc/openvpn/server/192.168.13.0_x509/clients/cou/ovpn
+Jan  5 15:40:29 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/cp /etc/openvpn/easyrsa3/pki/ca.crt /etc/openvpn/keys/ta.key /etc/openvpn/easyrsa3/pki/issued/cou_192.168.13.0_x509_client.crt /etc/openvpn/easyrsa3/pki/private/cou_192.168.13.0_x509_client.key /etc/openvpn/server/192.168.13.0_x509/clients/cou/
+Jan  5 15:40:29 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/cp /etc/openvpn/server/192.168.13.0_x509/clients/cou/ca.crt /etc/openvpn/server/192.168.13.0_x509/clients/cou/ta.key /etc/openvpn/server/192.168.13.0_x509/clients/cou/cou_x509_client.key /etc/openvpn/server/192.168.13.0_x509/clients/cou/cou_x509_client.crt /etc/openvpn/server/192.168.13.0_x509/clients/cou/ovpn
+Jan  5 15:40:29 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/etc/openvpn/server/192.168.13.0_x509/clients/cou/ovpn ; USER=root ; COMMAND=/bin/cat
+Jan  5 15:40:30 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/etc/openvpn/server/192.168.13.0_x509/clients/cou ; USER=root ; COMMAND=/bin/tar cvzf cou.tar.gz ovpn/
+Jan  5 15:40:43 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/var/www/htdocs/admin/scripts/vpn ; USER=root ; COMMAND=/bin/sh add_dynamic_client_x509_crl.sh 192.168.13.0 cou 10006 tun0
+Jan  5 15:40:46 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/mkdir /etc/openvpn/server/192.168.13.0_x509/clients/cou
+Jan  5 15:40:46 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/mkdir /etc/openvpn/server/192.168.13.0_x509/clients/cou/ovpn
+Jan  5 15:40:46 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/cp /etc/openvpn/easyrsa3/pki/ca.crt /etc/openvpn/keys/ta.key /etc/openvpn/easyrsa3/pki/issued/cou_192.168.13.0_x509_client.crt /etc/openvpn/easyrsa3/pki/private/cou_192.168.13.0_x509_client.key /etc/openvpn/server/192.168.13.0_x509/clients/cou/
+Jan  5 15:40:46 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/cp /etc/openvpn/server/192.168.13.0_x509/clients/cou/ca.crt /etc/openvpn/server/192.168.13.0_x509/clients/cou/ta.key /etc/openvpn/server/192.168.13.0_x509/clients/cou/cou_x509_client.key /etc/openvpn/server/192.168.13.0_x509/clients/cou/cou_x509_client.crt /etc/openvpn/server/192.168.13.0_x509/clients/cou/ovpn
+Jan  5 15:40:46 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/etc/openvpn/server/192.168.13.0_x509/clients/cou/ovpn ; USER=root ; COMMAND=/bin/cat
+Jan  5 15:40:47 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/etc/openvpn/server/192.168.13.0_x509/clients/cou ; USER=root ; COMMAND=/bin/tar cvzf cou.tar.gz ovpn/
+Jan  5 15:41:45 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/var/www/htdocs/admin/scripts/vpn ; USER=root ; COMMAND=/bin/sh add_dynamic_client_x509_crl.sh 192.168.13.0 cou 10006 tun0
+Jan  5 15:42:08 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/var/www/htdocs/admin/scripts/vpn ; USER=root ; COMMAND=/bin/sh add_dynamic_client_x509_crl.sh 192.168.13.0 cou 10006 tun0
+Jan  5 15:42:19 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/var/www/htdocs/admin/scripts/vpn ; USER=root ; COMMAND=/bin/sh purge_pki.sh yes
+Jan  5 15:42:19 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/var/www/htdocs/admin/scripts/vpn ; USER=root ; COMMAND=/bin/rm -r /etc/openvpn/easyrsa3/pki_old
+Jan  5 15:42:19 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/var/www/htdocs/admin/scripts/vpn ; USER=root ; COMMAND=/bin/mv /etc/openvpn/easyrsa3/pki /etc/openvpn/easyrsa3/pki_old
+Jan  5 15:42:19 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/var/www/htdocs/admin/scripts/vpn ; USER=root ; COMMAND=/bin/cp -r /etc/openvpn/easyrsa3/pki_recovery /etc/openvpn/easyrsa3/pki
+Jan  5 15:42:25 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/chmod 605 /etc/openvpn/easyrsa3/pki/crl.pem
+Jan  5 15:42:25 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/rm /etc/openvpn/keys/crl.pem
+Jan  5 15:42:25 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/mv /etc/openvpn/easyrsa3/pki/crl.pem /etc/openvpn/keys
+Jan  5 15:42:49 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/var/www/htdocs/admin/scripts/vpn ; USER=root ; COMMAND=/bin/sh add_dynamic_server_x509_crl.sh
+Jan  5 15:43:01 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/var/www/htdocs/admin/scripts/vpn ; USER=root ; COMMAND=/bin/sh add_dynamic_server_x509_crl.sh 192.168.13.0 255.255.255.0 10006 tun0
+Jan  5 15:43:01 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/var/www/htdocs/admin/scripts/vpn ; USER=root ; COMMAND=/bin/mkdir /etc/openvpn/server/192.168.13.0_x509
+Jan  5 15:43:01 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/var/www/htdocs/admin/scripts/vpn ; USER=root ; COMMAND=/bin/mkdir /var/log/openvpn/server-log/192.168.13.0_x509
+Jan  5 15:43:01 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/var/www/htdocs/admin/scripts/vpn ; USER=root ; COMMAND=/bin/mkdir /etc/openvpn/server/192.168.13.0_x509/clients
+Jan  5 15:43:09 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/cp /etc/openvpn/easyrsa3/pki/issued/192.168.13.0_x509_server.crt /etc/openvpn/easyrsa3/pki/private/192.168.13.0_x509_server.key /etc/openvpn/server/192.168.13.0_x509/
+Jan  5 15:43:09 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/cp /etc/openvpn/easyrsa3/pki/ca.crt /etc/openvpn/server/192.168.13.0_x509/
+Jan  5 15:43:09 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/etc/openvpn/server/192.168.13.0_x509 ; USER=root ; COMMAND=/bin/cat
+Jan  5 15:43:10 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/etc/openvpn/server/192.168.13.0_x509 ; USER=root ; COMMAND=/bin/kill -9 4163
+Jan  5 15:43:11 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/etc/openvpn/server/192.168.13.0_x509 ; USER=root ; COMMAND=/bin/ps -ax
+Jan  5 15:43:11 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/etc/openvpn/server/192.168.13.0_x509 ; USER=root ; COMMAND=/bin/ls -la /etc/openvpn/server
+Jan  5 15:43:46 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/var/www/htdocs/admin/scripts/vpn ; USER=root ; COMMAND=/bin/sh add_dynamic_client_x509_crl.sh
+Jan  5 15:46:06 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/var/www/htdocs/admin/scripts/vpn ; USER=root ; COMMAND=/bin/sh add_dynamic_client_x509_crl.sh 192.168.13.0 coucou
+Jan  5 15:46:30 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/var/www/htdocs/admin/scripts/vpn ; USER=root ; COMMAND=/bin/sh add_dynamic_client_x509_crl.sh 192.168.13. coucou 10006 tun0
+Jan  5 15:46:38 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/mkdir /etc/openvpn/server/192.168.13._x509/clients/coucou
+Jan  5 15:46:38 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/mkdir /etc/openvpn/server/192.168.13._x509/clients/coucou/ovpn
+Jan  5 15:46:38 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/cp /etc/openvpn/easyrsa3/pki/ca.crt /etc/openvpn/keys/ta.key /etc/openvpn/easyrsa3/pki/issued/coucou_192.168.13._x509_client.crt /etc/openvpn/easyrsa3/pki/private/coucou_192.168.13._x509_client.key /etc/openvpn/server/192.168.13._x509/clients/coucou/
+Jan  5 15:46:38 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/cp /etc/openvpn/server/192.168.13._x509/clients/coucou/ca.crt /etc/openvpn/server/192.168.13._x509/clients/coucou/ta.key /etc/openvpn/server/192.168.13._x509/clients/coucou/coucou_x509_client.key /etc/openvpn/server/192.168.13._x509/clients/coucou/coucou_x509_client.crt /etc/openvpn/server/192.168.13._x509/clients/coucou/ovpn
+Jan  5 15:46:38 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/cat
+Jan  5 15:46:38 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/tar cvzf coucou.tar.gz ovpn/
+Jan  5 15:46:40 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/var/www/htdocs/admin/scripts/vpn ; USER=root ; COMMAND=/bin/sh add_dynamic_client_x509_crl.sh 192.168.13. coucou 10006 tun0
+Jan  5 15:46:43 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/mkdir /etc/openvpn/server/192.168.13._x509/clients/coucou
+Jan  5 15:46:43 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/mkdir /etc/openvpn/server/192.168.13._x509/clients/coucou/ovpn
+Jan  5 15:46:43 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/cp /etc/openvpn/easyrsa3/pki/ca.crt /etc/openvpn/keys/ta.key /etc/openvpn/easyrsa3/pki/issued/coucou_192.168.13._x509_client.crt /etc/openvpn/easyrsa3/pki/private/coucou_192.168.13._x509_client.key /etc/openvpn/server/192.168.13._x509/clients/coucou/
+Jan  5 15:46:44 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/cp /etc/openvpn/server/192.168.13._x509/clients/coucou/ca.crt /etc/openvpn/server/192.168.13._x509/clients/coucou/ta.key /etc/openvpn/server/192.168.13._x509/clients/coucou/coucou_x509_client.key /etc/openvpn/server/192.168.13._x509/clients/coucou/coucou_x509_client.crt /etc/openvpn/server/192.168.13._x509/clients/coucou/ovpn
+Jan  5 15:46:44 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/cat
+Jan  5 15:46:44 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/tar cvzf coucou.tar.gz ovpn/
+Jan  5 15:48:30 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/var/www/htdocs/admin/scripts/vpn ; USER=root ; COMMAND=/bin/sh add_dynamic_client_x509_crl.sh 192.168.13. coucou 10006 tun0
+Jan  5 15:48:32 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/var/www/htdocs/admin/scripts/vpn ; USER=root ; COMMAND=/bin/sh add_dynamic_client_x509_crl.sh 192.168.13. coucou 10006 tun0
+Jan  5 15:48:35 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/var/www/htdocs/admin/scripts/vpn ; USER=root ; COMMAND=/bin/sh add_dynamic_client_x509_crl.sh 192.168.13. coucou 10006 tun0
+Jan  5 15:49:03 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/var/www/htdocs/admin/scripts/vpn ; USER=root ; COMMAND=/bin/sh add_dynamic_client_x509_crl.sh 192.168.13.0 coucou1 10006 tun0
+Jan  5 15:49:09 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/mkdir /etc/openvpn/server/192.168.13.0_x509/clients/coucou1
+Jan  5 15:49:10 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/mkdir /etc/openvpn/server/192.168.13.0_x509/clients/coucou1/ovpn
+Jan  5 15:49:10 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/cp /etc/openvpn/easyrsa3/pki/ca.crt /etc/openvpn/keys/ta.key /etc/openvpn/easyrsa3/pki/issued/coucou1_192.168.13.0_x509_client.crt /etc/openvpn/easyrsa3/pki/private/coucou1_192.168.13.0_x509_client.key /etc/openvpn/server/192.168.13.0_x509/clients/coucou1/
+Jan  5 15:49:10 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/cp /etc/openvpn/server/192.168.13.0_x509/clients/coucou1/ca.crt /etc/openvpn/server/192.168.13.0_x509/clients/coucou1/ta.key /etc/openvpn/server/192.168.13.0_x509/clients/coucou1/coucou1_x509_client.key /etc/openvpn/server/192.168.13.0_x509/clients/coucou1/coucou1_x509_client.crt /etc/openvpn/server/192.168.13.0_x509/clients/coucou1/ovpn
+Jan  5 15:49:10 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/etc/openvpn/server/192.168.13.0_x509/clients/coucou1/ovpn ; USER=root ; COMMAND=/bin/cat
+Jan  5 15:49:10 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/etc/openvpn/server/192.168.13.0_x509/clients/coucou1 ; USER=root ; COMMAND=/bin/tar cvzf coucou1.tar.gz ovpn/
+Jan  5 15:51:59 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/var/www/htdocs/admin/scripts/vpn ; USER=root ; COMMAND=/bin/sh del_dynamic_client_x509_crl.sh
+Jan  5 15:52:06 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/var/www/htdocs/admin/scripts/vpn ; USER=root ; COMMAND=/bin/sh del_dynamic_client_x509_crl.sh 192.168.13.0 a
+Jan  5 15:52:06 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/var/www/htdocs/admin/scripts/vpn ; USER=root ; COMMAND=/bin/ls -la /etc/openvpn/server/192.168.13.0_x509/clients/
+Jan  5 15:52:14 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/var/www/htdocs/admin/scripts/vpn ; USER=root ; COMMAND=/bin/sh del_dynamic_client_x509_crl.sh 192.168.13.0 coucou1
+Jan  5 15:52:18 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/chmod 605 /etc/openvpn/easyrsa3/pki/crl.pem
+Jan  5 15:52:18 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/rm /etc/openvpn/keys/crl.pem
+Jan  5 15:52:18 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/mv /etc/openvpn/easyrsa3/pki/crl.pem /etc/openvpn/keys
+Jan  5 15:52:18 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/rm -r /etc/openvpn/server/192.168.13.0_x509/clients/coucou1/
+Jan  5 15:52:19 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/rm /etc/openvpn/easyrsa3/pki/issued/coucou1_192.168.13.0_x509_client.crt
+Jan  5 15:52:19 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/rm /etc/openvpn/easyrsa3/pki/private/coucou1_192.168.13.0_x509_client.key
+Jan  5 15:52:19 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/rm /etc/openvpn/easyrsa3/pki/reqs/coucou1_192.168.13.0_x509_client.req
+Jan  5 15:52:37 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/var/www/htdocs/admin/scripts/vpn ; USER=root ; COMMAND=/bin/sh add_dynamic_client_x509_crl.sh 192.168.13.0 coucou1 10006 tun0
+Jan  5 15:52:42 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/mkdir /etc/openvpn/server/192.168.13.0_x509/clients/coucou1
+Jan  5 15:52:43 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/mkdir /etc/openvpn/server/192.168.13.0_x509/clients/coucou1/ovpn
+Jan  5 15:52:43 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/cp /etc/openvpn/easyrsa3/pki/ca.crt /etc/openvpn/keys/ta.key /etc/openvpn/easyrsa3/pki/issued/coucou1_192.168.13.0_x509_client.crt /etc/openvpn/easyrsa3/pki/private/coucou1_192.168.13.0_x509_client.key /etc/openvpn/server/192.168.13.0_x509/clients/coucou1/
+Jan  5 15:52:43 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/cp /etc/openvpn/server/192.168.13.0_x509/clients/coucou1/ca.crt /etc/openvpn/server/192.168.13.0_x509/clients/coucou1/ta.key /etc/openvpn/server/192.168.13.0_x509/clients/coucou1/coucou1_x509_client.key /etc/openvpn/server/192.168.13.0_x509/clients/coucou1/coucou1_x509_client.crt /etc/openvpn/server/192.168.13.0_x509/clients/coucou1/ovpn
+Jan  5 15:52:43 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/etc/openvpn/server/192.168.13.0_x509/clients/coucou1/ovpn ; USER=root ; COMMAND=/bin/cat
+Jan  5 15:52:43 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/etc/openvpn/server/192.168.13.0_x509/clients/coucou1 ; USER=root ; COMMAND=/bin/tar cvzf coucou1.tar.gz ovpn/
+Jan  5 16:04:06 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/var/www/htdocs/admin/scripts/vpn ; USER=root ; COMMAND=/bin/sh show_crl.sh yes
+Jan  5 16:04:06 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/var/www/htdocs/admin/scripts/vpn ; USER=root ; COMMAND=/usr/sbin/openssl crl -in /etc/openvpn/keys/crl.pem -text
+Jan  5 16:04:54 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/var/www/htdocs/admin/scripts/vpn ; USER=root ; COMMAND=/bin/sh add_dynamic_client_x509_crl.sh
+Jan  5 16:05:08 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/var/www/htdocs/admin/scripts/vpn ; USER=root ; COMMAND=/bin/sh add_dynamic_client_x509_crl.sh 192.168.13.0 blabla 10006 tun0
+Jan  5 16:05:15 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/mkdir /etc/openvpn/server/192.168.13.0_x509/clients/blabla
+Jan  5 16:05:15 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/mkdir /etc/openvpn/server/192.168.13.0_x509/clients/blabla/ovpn
+Jan  5 16:05:15 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/cp /etc/openvpn/easyrsa3/pki/ca.crt /etc/openvpn/keys/ta.key /etc/openvpn/easyrsa3/pki/issued/blabla_192.168.13.0_x509_client.crt /etc/openvpn/easyrsa3/pki/private/blabla_192.168.13.0_x509_client.key /etc/openvpn/server/192.168.13.0_x509/clients/blabla/
+Jan  5 16:05:15 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/cp /etc/openvpn/server/192.168.13.0_x509/clients/blabla/ca.crt /etc/openvpn/server/192.168.13.0_x509/clients/blabla/ta.key /etc/openvpn/server/192.168.13.0_x509/clients/blabla/blabla_x509_client.key /etc/openvpn/server/192.168.13.0_x509/clients/blabla/blabla_x509_client.crt /etc/openvpn/server/192.168.13.0_x509/clients/blabla/ovpn
+Jan  5 16:05:15 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/etc/openvpn/server/192.168.13.0_x509/clients/blabla/ovpn ; USER=root ; COMMAND=/bin/cat
+Jan  5 16:05:15 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/etc/openvpn/server/192.168.13.0_x509/clients/blabla ; USER=root ; COMMAND=/bin/tar cvzf blabla.tar.gz ovpn/
+Jan  5 16:08:56 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/var/www/htdocs/admin/scripts/vpn ; USER=root ; COMMAND=/bin/sh del_dynamic_server_x509_crl.sh
+Jan  5 16:09:01 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/var/www/htdocs/admin/scripts/vpn ; USER=root ; COMMAND=/bin/sh del_dynamic_server_x509_crl.sh 192.168.13.0
+Jan  5 16:09:02 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/var/www/htdocs/admin/scripts/vpn ; USER=root ; COMMAND=/bin/kill -9 3376
+Jan  5 16:09:04 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/rm -r /etc/openvpn/server/192.168.13.0_x509
+Jan  5 16:09:04 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/rm -r /var/log/openvpn/server-log/192.168.13.0_x509
+Jan  5 16:09:04 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/rm /etc/openvpn/easyrsa3/pki/issued/192.168.13.0_x509_server.crt
+Jan  5 16:09:04 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/rm /etc/openvpn/easyrsa3/pki/private/192.168.13.0_x509_server.key
+Jan  5 16:09:05 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/rm /etc/openvpn/easyrsa3/pki/reqs/192.168.13.0_x509_server.req
+Jan  5 16:09:05 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/rm /etc/openvpn/ipp/192.168.13.0_x509_ipp.txt
+Jan  5 16:09:05 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/ls -la /etc/openvpn/server/
+Jan  5 16:09:05 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/ls -la /var/log/openvpn/server-log/
+Jan  5 16:10:05 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/var/www/htdocs/admin/scripts/vpn ; USER=root ; COMMAND=/bin/sh purge_pki.sh yes
+Jan  5 16:10:05 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/var/www/htdocs/admin/scripts/vpn ; USER=root ; COMMAND=/bin/rm -r /etc/openvpn/easyrsa3/pki_old
+Jan  5 16:10:05 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/var/www/htdocs/admin/scripts/vpn ; USER=root ; COMMAND=/bin/mv /etc/openvpn/easyrsa3/pki /etc/openvpn/easyrsa3/pki_old
+Jan  5 16:10:05 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/var/www/htdocs/admin/scripts/vpn ; USER=root ; COMMAND=/bin/cp -r /etc/openvpn/easyrsa3/pki_recovery /etc/openvpn/easyrsa3/pki
+Jan  5 16:10:08 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/chmod 605 /etc/openvpn/easyrsa3/pki/crl.pem
+Jan  5 16:10:08 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/rm /etc/openvpn/keys/crl.pem
+Jan  5 16:10:08 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/mv /etc/openvpn/easyrsa3/pki/crl.pem /etc/openvpn/keys
+Jan  5 16:19:15 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/var/www/htdocs/admin/scripts/vpn ; USER=root ; COMMAND=/bin/sh add_dynamic_server_x509_crl.sh
+Jan  5 16:19:28 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/var/www/htdocs/admin/scripts/vpn ; USER=root ; COMMAND=/bin/sh add_dynamic_server_x509_crl.sh 192.168.13.0 255.255.255.0 10006 tun0
+Jan  5 16:19:29 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/var/www/htdocs/admin/scripts/vpn ; USER=root ; COMMAND=/bin/mkdir /etc/openvpn/server/192.168.13.0_x509
+Jan  5 16:19:29 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/var/www/htdocs/admin/scripts/vpn ; USER=root ; COMMAND=/bin/mkdir /var/log/openvpn/server-log/192.168.13.0_x509
+Jan  5 16:19:29 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/var/www/htdocs/admin/scripts/vpn ; USER=root ; COMMAND=/bin/mkdir /etc/openvpn/server/192.168.13.0_x509/clients
+Jan  5 16:19:34 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/cp /etc/openvpn/easyrsa3/pki/issued/192.168.13.0_x509_server.crt /etc/openvpn/easyrsa3/pki/private/192.168.13.0_x509_server.key /etc/openvpn/server/192.168.13.0_x509/
+Jan  5 16:19:34 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/cp /etc/openvpn/easyrsa3/pki/ca.crt /etc/openvpn/server/192.168.13.0_x509/
+Jan  5 16:19:35 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/etc/openvpn/server/192.168.13.0_x509 ; USER=root ; COMMAND=/bin/cat
+Jan  5 16:19:35 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/etc/openvpn/server/192.168.13.0_x509 ; USER=root ; COMMAND=/bin/kill -9 761
+Jan  5 16:19:36 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/etc/openvpn/server/192.168.13.0_x509 ; USER=root ; COMMAND=/bin/ps -ax
+Jan  5 16:19:36 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/etc/openvpn/server/192.168.13.0_x509 ; USER=root ; COMMAND=/bin/ls -la /etc/openvpn/server
+Jan  5 16:19:58 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/var/www/htdocs/admin/scripts/vpn ; USER=root ; COMMAND=/bin/sh add_dynamic_client_x509_crl.sh
+Jan  5 16:20:10 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/var/www/htdocs/admin/scripts/vpn ; USER=root ; COMMAND=/bin/sh add_dynamic_client_x509_crl.sh 192.168.13.0 coucou 10006 tun0
+Jan  5 16:20:21 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/mkdir /etc/openvpn/server/192.168.13.0_x509/clients/coucou
+Jan  5 16:20:21 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/mkdir /etc/openvpn/server/192.168.13.0_x509/clients/coucou/ovpn
+Jan  5 16:20:21 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/cp /etc/openvpn/easyrsa3/pki/ca.crt /etc/openvpn/keys/ta.key /etc/openvpn/easyrsa3/pki/issued/coucou_192.168.13.0_x509_client.crt /etc/openvpn/easyrsa3/pki/private/coucou_192.168.13.0_x509_client.key /etc/openvpn/server/192.168.13.0_x509/clients/coucou/
+Jan  5 16:20:22 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/cp /etc/openvpn/server/192.168.13.0_x509/clients/coucou/ca.crt /etc/openvpn/server/192.168.13.0_x509/clients/coucou/ta.key /etc/openvpn/server/192.168.13.0_x509/clients/coucou/coucou_x509_client.key /etc/openvpn/server/192.168.13.0_x509/clients/coucou/coucou_x509_client.crt /etc/openvpn/server/192.168.13.0_x509/clients/coucou/ovpn
+Jan  5 16:20:22 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/etc/openvpn/server/192.168.13.0_x509/clients/coucou/ovpn ; USER=root ; COMMAND=/bin/cat
+Jan  5 16:20:22 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/etc/openvpn/server/192.168.13.0_x509/clients/coucou ; USER=root ; COMMAND=/bin/tar cvzf coucou.tar.gz ovpn/
+Jan  5 16:20:26 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/var/www/htdocs/admin/scripts/vpn ; USER=root ; COMMAND=/bin/sh add_dynamic_client_x509_crl.sh 192.168.13.0 coucou1 10006 tun0
+Jan  5 16:20:34 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/mkdir /etc/openvpn/server/192.168.13.0_x509/clients/coucou1
+Jan  5 16:20:34 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/mkdir /etc/openvpn/server/192.168.13.0_x509/clients/coucou1/ovpn
+Jan  5 16:20:34 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/cp /etc/openvpn/easyrsa3/pki/ca.crt /etc/openvpn/keys/ta.key /etc/openvpn/easyrsa3/pki/issued/coucou1_192.168.13.0_x509_client.crt /etc/openvpn/easyrsa3/pki/private/coucou1_192.168.13.0_x509_client.key /etc/openvpn/server/192.168.13.0_x509/clients/coucou1/
+Jan  5 16:20:34 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/cp /etc/openvpn/server/192.168.13.0_x509/clients/coucou1/ca.crt /etc/openvpn/server/192.168.13.0_x509/clients/coucou1/ta.key /etc/openvpn/server/192.168.13.0_x509/clients/coucou1/coucou1_x509_client.key /etc/openvpn/server/192.168.13.0_x509/clients/coucou1/coucou1_x509_client.crt /etc/openvpn/server/192.168.13.0_x509/clients/coucou1/ovpn
+Jan  5 16:20:34 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/etc/openvpn/server/192.168.13.0_x509/clients/coucou1/ovpn ; USER=root ; COMMAND=/bin/cat
+Jan  5 16:20:35 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/etc/openvpn/server/192.168.13.0_x509/clients/coucou1 ; USER=root ; COMMAND=/bin/tar cvzf coucou1.tar.gz ovpn/
+Jan  5 16:21:59 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/var/www/htdocs/admin/scripts/vpn ; USER=root ; COMMAND=/bin/sh del_dynamic_server_x509_crl.sh
+Jan  5 16:22:02 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/var/www/htdocs/admin/scripts/vpn ; USER=root ; COMMAND=/bin/sh del_dynamic_server_x509_crl.sh 192.168.13.0
+Jan  5 16:22:02 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/var/www/htdocs/admin/scripts/vpn ; USER=root ; COMMAND=/bin/kill -9 3993
+Jan  5 16:22:05 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/rm -r /etc/openvpn/server/192.168.13.0_x509
+Jan  5 16:22:05 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/rm -r /var/log/openvpn/server-log/192.168.13.0_x509
+Jan  5 16:22:05 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/rm /etc/openvpn/easyrsa3/pki/issued/192.168.13.0_x509_server.crt
+Jan  5 16:22:05 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/rm /etc/openvpn/easyrsa3/pki/issued/*_192.168.13.0_x509_x509.crt
+Jan  5 16:22:06 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/rm /etc/openvpn/easyrsa3/pki/private/192.168.13.0_x509_server.key
+Jan  5 16:22:06 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/rm /etc/openvpn/easyrsa3/pki/private/*_192.168.13.0_x509_x509.key
+Jan  5 16:22:06 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/rm /etc/openvpn/easyrsa3/pki/reqs/192.168.13.0_x509_server.req
+Jan  5 16:22:06 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/rm /etc/openvpn/easyrsa3/pki/reqs/*_192.168.13.0_x509_x509.req
+Jan  5 16:22:06 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/rm /etc/openvpn/ipp/192.168.13.0_x509_ipp.txt
+Jan  5 16:22:06 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/ls -la /etc/openvpn/server/
+Jan  5 16:22:06 cyberus sudo:    alain : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/ls -la /var/log/openvpn/server-log/
+Jan  5 16:22:59 cyberus sudo:    alain : command not allowed ; TTY=ttyp2 ; PWD=/var/www/htdocs/admin/scripts/vpn ; USER=root ; COMMAND=cd /etc/openvpn/easyrsa3/pki/reqs/
+Jan  5 16:23:23 cyberus sudo:    alain : command not allowed ; TTY=ttyp2 ; PWD=/var/www/htdocs/admin/scripts/vpn ; USER=root ; COMMAND=/usr/local/bin/bash
+Jan  5 16:27:35 cyberus sudo:     root : TTY=ttyp2 ; PWD=/var/www/htdocs/admin/scripts/vpn ; USER=root ; COMMAND=/bin/rm -r /etc/openvpn/easyrsa3/pki_old
+Jan  5 16:27:35 cyberus sudo:     root : TTY=ttyp2 ; PWD=/var/www/htdocs/admin/scripts/vpn ; USER=root ; COMMAND=/bin/mv /etc/openvpn/easyrsa3/pki /etc/openvpn/easyrsa3/pki_old
+Jan  5 16:27:35 cyberus sudo:     root : TTY=ttyp2 ; PWD=/var/www/htdocs/admin/scripts/vpn ; USER=root ; COMMAND=/bin/cp -r /etc/openvpn/easyrsa3/pki_recovery /etc/openvpn/easyrsa3/pki
+Jan  5 16:27:42 cyberus sudo:     root : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/chmod 605 /etc/openvpn/easyrsa3/pki/crl.pem
+Jan  5 16:27:42 cyberus sudo:     root : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/rm /etc/openvpn/keys/crl.pem
+Jan  5 16:27:43 cyberus sudo:     root : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/mv /etc/openvpn/easyrsa3/pki/crl.pem /etc/openvpn/keys
+Jan  5 16:27:56 cyberus sudo:     root : TTY=ttyp2 ; PWD=/var/www/htdocs/admin/scripts/vpn ; USER=root ; COMMAND=/bin/mkdir /etc/openvpn/server/192.168.13.0_x509
+Jan  5 16:27:57 cyberus sudo:     root : TTY=ttyp2 ; PWD=/var/www/htdocs/admin/scripts/vpn ; USER=root ; COMMAND=/bin/mkdir /var/log/openvpn/server-log/192.168.13.0_x509
+Jan  5 16:27:57 cyberus sudo:     root : TTY=ttyp2 ; PWD=/var/www/htdocs/admin/scripts/vpn ; USER=root ; COMMAND=/bin/mkdir /etc/openvpn/server/192.168.13.0_x509/clients
+Jan  5 16:28:02 cyberus sudo:     root : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/cp /etc/openvpn/easyrsa3/pki/issued/192.168.13.0_x509_server.crt /etc/openvpn/easyrsa3/pki/private/192.168.13.0_x509_server.key /etc/openvpn/server/192.168.13.0_x509/
+Jan  5 16:28:02 cyberus sudo:     root : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/cp /etc/openvpn/easyrsa3/pki/ca.crt /etc/openvpn/server/192.168.13.0_x509/
+Jan  5 16:28:03 cyberus sudo:     root : TTY=ttyp2 ; PWD=/etc/openvpn/server/192.168.13.0_x509 ; USER=root ; COMMAND=/bin/cat
+Jan  5 16:28:03 cyberus sudo:     root : TTY=ttyp2 ; PWD=/etc/openvpn/server/192.168.13.0_x509 ; USER=root ; COMMAND=/bin/kill -9
+Jan  5 16:28:04 cyberus sudo:     root : TTY=ttyp2 ; PWD=/etc/openvpn/server/192.168.13.0_x509 ; USER=root ; COMMAND=/bin/ps -ax
+Jan  5 16:28:04 cyberus sudo:     root : TTY=ttyp2 ; PWD=/etc/openvpn/server/192.168.13.0_x509 ; USER=root ; COMMAND=/bin/ls -la /etc/openvpn/server
+Jan  5 16:28:54 cyberus sudo:     root : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/mkdir /etc/openvpn/server/192.168.13.0_x509/clients/coucou
+Jan  5 16:28:54 cyberus sudo:     root : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/mkdir /etc/openvpn/server/192.168.13.0_x509/clients/coucou/ovpn
+Jan  5 16:28:54 cyberus sudo:     root : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/cp /etc/openvpn/easyrsa3/pki/ca.crt /etc/openvpn/keys/ta.key /etc/openvpn/easyrsa3/pki/issued/coucou_192.168.13.0_x509_client.crt /etc/openvpn/easyrsa3/pki/private/coucou_192.168.13.0_x509_client.key /etc/openvpn/server/192.168.13.0_x509/clients/coucou/
+Jan  5 16:28:54 cyberus sudo:     root : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/cp /etc/openvpn/server/192.168.13.0_x509/clients/coucou/ca.crt /etc/openvpn/server/192.168.13.0_x509/clients/coucou/ta.key /etc/openvpn/server/192.168.13.0_x509/clients/coucou/coucou_x509_client.key /etc/openvpn/server/192.168.13.0_x509/clients/coucou/coucou_x509_client.crt /etc/openvpn/server/192.168.13.0_x509/clients/coucou/ovpn
+Jan  5 16:28:54 cyberus sudo:     root : TTY=ttyp2 ; PWD=/etc/openvpn/server/192.168.13.0_x509/clients/coucou/ovpn ; USER=root ; COMMAND=/bin/cat
+Jan  5 16:28:55 cyberus sudo:     root : TTY=ttyp2 ; PWD=/etc/openvpn/server/192.168.13.0_x509/clients/coucou ; USER=root ; COMMAND=/bin/tar cvzf coucou.tar.gz ovpn/
+Jan  5 16:29:07 cyberus sudo:     root : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/mkdir /etc/openvpn/server/192.168.13.0_x509/clients/coucou1
+Jan  5 16:29:07 cyberus sudo:     root : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/mkdir /etc/openvpn/server/192.168.13.0_x509/clients/coucou1/ovpn
+Jan  5 16:29:07 cyberus sudo:     root : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/cp /etc/openvpn/easyrsa3/pki/ca.crt /etc/openvpn/keys/ta.key /etc/openvpn/easyrsa3/pki/issued/coucou1_192.168.13.0_x509_client.crt /etc/openvpn/easyrsa3/pki/private/coucou1_192.168.13.0_x509_client.key /etc/openvpn/server/192.168.13.0_x509/clients/coucou1/
+Jan  5 16:29:07 cyberus sudo:     root : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/cp /etc/openvpn/server/192.168.13.0_x509/clients/coucou1/ca.crt /etc/openvpn/server/192.168.13.0_x509/clients/coucou1/ta.key /etc/openvpn/server/192.168.13.0_x509/clients/coucou1/coucou1_x509_client.key /etc/openvpn/server/192.168.13.0_x509/clients/coucou1/coucou1_x509_client.crt /etc/openvpn/server/192.168.13.0_x509/clients/coucou1/ovpn
+Jan  5 16:29:07 cyberus sudo:     root : TTY=ttyp2 ; PWD=/etc/openvpn/server/192.168.13.0_x509/clients/coucou1/ovpn ; USER=root ; COMMAND=/bin/cat
+Jan  5 16:29:07 cyberus sudo:     root : TTY=ttyp2 ; PWD=/etc/openvpn/server/192.168.13.0_x509/clients/coucou1 ; USER=root ; COMMAND=/bin/tar cvzf coucou1.tar.gz ovpn/
+Jan  5 16:29:19 cyberus sudo:     root : TTY=ttyp2 ; PWD=/var/www/htdocs/admin/scripts/vpn ; USER=root ; COMMAND=/bin/kill -9
+Jan  5 16:29:21 cyberus sudo:     root : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/rm -r /etc/openvpn/server/192.168.13.0_x509
+Jan  5 16:29:21 cyberus sudo:     root : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/rm -r /var/log/openvpn/server-log/192.168.13.0_x509
+Jan  5 16:29:22 cyberus sudo:     root : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/rm /etc/openvpn/easyrsa3/pki/issued/192.168.13.0_x509_server.crt
+Jan  5 16:29:22 cyberus sudo:     root : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/rm /etc/openvpn/easyrsa3/pki/issued/*_192.168.13.0_x509_x509.crt
+Jan  5 16:29:22 cyberus sudo:     root : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/rm /etc/openvpn/easyrsa3/pki/private/192.168.13.0_x509_server.key
+Jan  5 16:29:22 cyberus sudo:     root : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/rm /etc/openvpn/easyrsa3/pki/private/*_192.168.13.0_x509_x509.key
+Jan  5 16:29:22 cyberus sudo:     root : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/rm /etc/openvpn/easyrsa3/pki/reqs/192.168.13.0_x509_server.req
+Jan  5 16:29:22 cyberus sudo:     root : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/rm /etc/openvpn/easyrsa3/pki/reqs/*_192.168.13.0_x509_x509.req
+Jan  5 16:29:22 cyberus sudo:     root : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/rm /etc/openvpn/ipp/192.168.13.0_x509_ipp.txt
+Jan  5 16:29:22 cyberus sudo:     root : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/ls -la /etc/openvpn/server/
+Jan  5 16:29:22 cyberus sudo:     root : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/ls -la /var/log/openvpn/server-log/
+Jan  5 16:29:48 cyberus sudo:     root : TTY=ttyp2 ; PWD=/var/www/htdocs/admin/scripts/vpn ; USER=root ; COMMAND=/bin/ls -la /etc/openvpn/server
+Jan  5 16:29:54 cyberus sudo:     root : TTY=ttyp2 ; PWD=/var/www/htdocs/admin/scripts/vpn ; USER=root ; COMMAND=/bin/mkdir /etc/openvpn/server/192.168.13.0_x509
+Jan  5 16:29:54 cyberus sudo:     root : TTY=ttyp2 ; PWD=/var/www/htdocs/admin/scripts/vpn ; USER=root ; COMMAND=/bin/mkdir /var/log/openvpn/server-log/192.168.13.0_x509
+Jan  5 16:29:54 cyberus sudo:     root : TTY=ttyp2 ; PWD=/var/www/htdocs/admin/scripts/vpn ; USER=root ; COMMAND=/bin/mkdir /etc/openvpn/server/192.168.13.0_x509/clients
+Jan  5 16:30:04 cyberus sudo:     root : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/cp /etc/openvpn/easyrsa3/pki/issued/192.168.13.0_x509_server.crt /etc/openvpn/easyrsa3/pki/private/192.168.13.0_x509_server.key /etc/openvpn/server/192.168.13.0_x509/
+Jan  5 16:30:04 cyberus sudo:     root : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/cp /etc/openvpn/easyrsa3/pki/ca.crt /etc/openvpn/server/192.168.13.0_x509/
+Jan  5 16:30:04 cyberus sudo:     root : TTY=ttyp2 ; PWD=/etc/openvpn/server/192.168.13.0_x509 ; USER=root ; COMMAND=/bin/cat
+Jan  5 16:30:04 cyberus sudo:     root : TTY=ttyp2 ; PWD=/etc/openvpn/server/192.168.13.0_x509 ; USER=root ; COMMAND=/bin/kill -9
+Jan  5 16:30:05 cyberus sudo:     root : TTY=ttyp2 ; PWD=/etc/openvpn/server/192.168.13.0_x509 ; USER=root ; COMMAND=/bin/ps -ax
+Jan  5 16:30:05 cyberus sudo:     root : TTY=ttyp2 ; PWD=/etc/openvpn/server/192.168.13.0_x509 ; USER=root ; COMMAND=/bin/ls -la /etc/openvpn/server
+Jan  5 16:30:12 cyberus sudo:     root : TTY=ttyp2 ; PWD=/var/www/htdocs/admin/scripts/vpn ; USER=root ; COMMAND=/bin/kill -9
+Jan  5 16:30:15 cyberus sudo:     root : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/rm -r /etc/openvpn/server/192.168.13.0_x509
+Jan  5 16:30:15 cyberus sudo:     root : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/rm -r /var/log/openvpn/server-log/192.168.13.0_x509
+Jan  5 16:30:15 cyberus sudo:     root : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/rm /etc/openvpn/easyrsa3/pki/issued/192.168.13.0_x509_server.crt
+Jan  5 16:30:15 cyberus sudo:     root : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/rm /etc/openvpn/easyrsa3/pki/issued/ *_192.168.13.0_x509_x509.crt
+Jan  5 16:30:15 cyberus sudo:     root : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/rm /etc/openvpn/easyrsa3/pki/private/192.168.13.0_x509_server.key
+Jan  5 16:30:15 cyberus sudo:     root : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/rm /etc/openvpn/easyrsa3/pki/private/ *_192.168.13.0_x509_x509.key
+Jan  5 16:30:15 cyberus sudo:     root : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/rm /etc/openvpn/easyrsa3/pki/reqs/192.168.13.0_x509_server.req
+Jan  5 16:30:15 cyberus sudo:     root : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/rm /etc/openvpn/easyrsa3/pki/reqs/ *_192.168.13.0_x509_x509.req
+Jan  5 16:30:16 cyberus sudo:     root : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/rm /etc/openvpn/ipp/192.168.13.0_x509_ipp.txt
+Jan  5 16:30:16 cyberus sudo:     root : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/ls -la /etc/openvpn/server/
+Jan  5 16:30:16 cyberus sudo:     root : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/ls -la /var/log/openvpn/server-log/
+Jan  5 16:31:02 cyberus sudo:     root : TTY=ttyp2 ; PWD=/var/www/htdocs/admin/scripts/vpn ; USER=root ; COMMAND=/bin/mkdir /etc/openvpn/server/192.168.13.0_x509
+Jan  5 16:31:02 cyberus sudo:     root : TTY=ttyp2 ; PWD=/var/www/htdocs/admin/scripts/vpn ; USER=root ; COMMAND=/bin/mkdir /var/log/openvpn/server-log/192.168.13.0_x509
+Jan  5 16:31:02 cyberus sudo:     root : TTY=ttyp2 ; PWD=/var/www/htdocs/admin/scripts/vpn ; USER=root ; COMMAND=/bin/mkdir /etc/openvpn/server/192.168.13.0_x509/clients
+Jan  5 16:31:11 cyberus sudo:     root : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/cp /etc/openvpn/easyrsa3/pki/issued/192.168.13.0_x509_server.crt /etc/openvpn/easyrsa3/pki/private/192.168.13.0_x509_server.key /etc/openvpn/server/192.168.13.0_x509/
+Jan  5 16:31:11 cyberus sudo:     root : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/cp /etc/openvpn/easyrsa3/pki/ca.crt /etc/openvpn/server/192.168.13.0_x509/
+Jan  5 16:31:11 cyberus sudo:     root : TTY=ttyp2 ; PWD=/etc/openvpn/server/192.168.13.0_x509 ; USER=root ; COMMAND=/bin/cat
+Jan  5 16:31:11 cyberus sudo:     root : TTY=ttyp2 ; PWD=/etc/openvpn/server/192.168.13.0_x509 ; USER=root ; COMMAND=/bin/kill -9
+Jan  5 16:31:12 cyberus sudo:     root : TTY=ttyp2 ; PWD=/etc/openvpn/server/192.168.13.0_x509 ; USER=root ; COMMAND=/bin/ps -ax
+Jan  5 16:31:12 cyberus sudo:     root : TTY=ttyp2 ; PWD=/etc/openvpn/server/192.168.13.0_x509 ; USER=root ; COMMAND=/bin/ls -la /etc/openvpn/server
+Jan  5 16:31:15 cyberus sudo:     root : TTY=ttyp2 ; PWD=/var/www/htdocs/admin/scripts/vpn ; USER=root ; COMMAND=/bin/kill -9
+Jan  5 16:31:17 cyberus sudo:     root : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/rm -r /etc/openvpn/server/192.168.13.0_x509
+Jan  5 16:31:17 cyberus sudo:     root : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/rm -r /var/log/openvpn/server-log/192.168.13.0_x509
+Jan  5 16:31:17 cyberus sudo:     root : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/rm /etc/openvpn/easyrsa3/pki/issued/192.168.13.0_x509_server.crt
+Jan  5 16:31:17 cyberus sudo:     root : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/rm /etc/openvpn/easyrsa3/pki/issued/*_192.168.13.0_x509.crt
+Jan  5 16:31:18 cyberus sudo:     root : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/rm /etc/openvpn/easyrsa3/pki/private/192.168.13.0_x509_server.key
+Jan  5 16:31:18 cyberus sudo:     root : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/rm /etc/openvpn/easyrsa3/pki/private/*_192.168.13.0_x509.key
+Jan  5 16:31:18 cyberus sudo:     root : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/rm /etc/openvpn/easyrsa3/pki/reqs/192.168.13.0_x509_server.req
+Jan  5 16:31:18 cyberus sudo:     root : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/rm /etc/openvpn/easyrsa3/pki/reqs/*_192.168.13.0_x509.req
+Jan  5 16:31:18 cyberus sudo:     root : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/rm /etc/openvpn/ipp/192.168.13.0_x509_ipp.txt
+Jan  5 16:31:18 cyberus sudo:     root : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/ls -la /etc/openvpn/server/
+Jan  5 16:31:18 cyberus sudo:     root : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/ls -la /var/log/openvpn/server-log/
+Jan  5 16:32:07 cyberus sudo:     root : TTY=ttyp2 ; PWD=/var/www/htdocs/admin/scripts/vpn ; USER=root ; COMMAND=/bin/mkdir /etc/openvpn/server/192.168.13.0_x509
+Jan  5 16:32:07 cyberus sudo:     root : TTY=ttyp2 ; PWD=/var/www/htdocs/admin/scripts/vpn ; USER=root ; COMMAND=/bin/mkdir /var/log/openvpn/server-log/192.168.13.0_x509
+Jan  5 16:32:07 cyberus sudo:     root : TTY=ttyp2 ; PWD=/var/www/htdocs/admin/scripts/vpn ; USER=root ; COMMAND=/bin/mkdir /etc/openvpn/server/192.168.13.0_x509/clients
+Jan  5 16:32:13 cyberus sudo:     root : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/cp /etc/openvpn/easyrsa3/pki/issued/192.168.13.0_x509_server.crt /etc/openvpn/easyrsa3/pki/private/192.168.13.0_x509_server.key /etc/openvpn/server/192.168.13.0_x509/
+Jan  5 16:32:13 cyberus sudo:     root : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/cp /etc/openvpn/easyrsa3/pki/ca.crt /etc/openvpn/server/192.168.13.0_x509/
+Jan  5 16:32:13 cyberus sudo:     root : TTY=ttyp2 ; PWD=/etc/openvpn/server/192.168.13.0_x509 ; USER=root ; COMMAND=/bin/cat
+Jan  5 16:32:13 cyberus sudo:     root : TTY=ttyp2 ; PWD=/etc/openvpn/server/192.168.13.0_x509 ; USER=root ; COMMAND=/bin/kill -9
+Jan  5 16:32:14 cyberus sudo:     root : TTY=ttyp2 ; PWD=/etc/openvpn/server/192.168.13.0_x509 ; USER=root ; COMMAND=/bin/ps -ax
+Jan  5 16:32:14 cyberus sudo:     root : TTY=ttyp2 ; PWD=/etc/openvpn/server/192.168.13.0_x509 ; USER=root ; COMMAND=/bin/ls -la /etc/openvpn/server
+Jan  5 16:32:17 cyberus sudo:     root : TTY=ttyp2 ; PWD=/var/www/htdocs/admin/scripts/vpn ; USER=root ; COMMAND=/bin/kill -9
+Jan  5 16:32:19 cyberus sudo:     root : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/rm -r /etc/openvpn/server/192.168.13.0_x509
+Jan  5 16:32:19 cyberus sudo:     root : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/rm -r /var/log/openvpn/server-log/192.168.13.0_x509
+Jan  5 16:32:19 cyberus sudo:     root : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/rm /etc/openvpn/easyrsa3/pki/issued/192.168.13.0_x509_server.crt
+Jan  5 16:32:19 cyberus sudo:     root : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/rm /etc/openvpn/easyrsa3/pki/issued/coucou1_192.168.13.0_x509_client.crt /etc/openvpn/easyrsa3/pki/issued/coucou_192.168.13.0_x509_client.crt
+Jan  5 16:32:20 cyberus sudo:     root : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/rm /etc/openvpn/easyrsa3/pki/private/192.168.13.0_x509_server.key
+Jan  5 16:32:20 cyberus sudo:     root : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/rm /etc/openvpn/easyrsa3/pki/private/coucou1_192.168.13.0_x509_client.key /etc/openvpn/easyrsa3/pki/private/coucou_192.168.13.0_x509_client.key
+Jan  5 16:32:20 cyberus sudo:     root : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/rm /etc/openvpn/easyrsa3/pki/reqs/192.168.13.0_x509_server.req
+Jan  5 16:32:20 cyberus sudo:     root : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/rm /etc/openvpn/easyrsa3/pki/reqs/coucou1_192.168.13.0_x509_client.req /etc/openvpn/easyrsa3/pki/reqs/coucou_192.168.13.0_x509_client.req
+Jan  5 16:32:20 cyberus sudo:     root : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/rm /etc/openvpn/ipp/192.168.13.0_x509_ipp.txt
+Jan  5 16:32:20 cyberus sudo:     root : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/ls -la /etc/openvpn/server/
+Jan  5 16:32:20 cyberus sudo:     root : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/ls -la /var/log/openvpn/server-log/
+Jan  5 16:32:35 cyberus sudo:     root : TTY=ttyp2 ; PWD=/var/www/htdocs/admin/scripts/vpn ; USER=root ; COMMAND=/bin/mkdir /etc/openvpn/server/192.168.13.0_x509
+Jan  5 16:32:36 cyberus sudo:     root : TTY=ttyp2 ; PWD=/var/www/htdocs/admin/scripts/vpn ; USER=root ; COMMAND=/bin/mkdir /var/log/openvpn/server-log/192.168.13.0_x509
+Jan  5 16:32:36 cyberus sudo:     root : TTY=ttyp2 ; PWD=/var/www/htdocs/admin/scripts/vpn ; USER=root ; COMMAND=/bin/mkdir /etc/openvpn/server/192.168.13.0_x509/clients
+Jan  5 16:32:42 cyberus sudo:     root : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/cp /etc/openvpn/easyrsa3/pki/issued/192.168.13.0_x509_server.crt /etc/openvpn/easyrsa3/pki/private/192.168.13.0_x509_server.key /etc/openvpn/server/192.168.13.0_x509/
+Jan  5 16:32:42 cyberus sudo:     root : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/cp /etc/openvpn/easyrsa3/pki/ca.crt /etc/openvpn/server/192.168.13.0_x509/
+Jan  5 16:32:42 cyberus sudo:     root : TTY=ttyp2 ; PWD=/etc/openvpn/server/192.168.13.0_x509 ; USER=root ; COMMAND=/bin/cat
+Jan  5 16:32:42 cyberus sudo:     root : TTY=ttyp2 ; PWD=/etc/openvpn/server/192.168.13.0_x509 ; USER=root ; COMMAND=/bin/kill -9
+Jan  5 16:32:43 cyberus sudo:     root : TTY=ttyp2 ; PWD=/etc/openvpn/server/192.168.13.0_x509 ; USER=root ; COMMAND=/bin/ps -ax
+Jan  5 16:32:43 cyberus sudo:     root : TTY=ttyp2 ; PWD=/etc/openvpn/server/192.168.13.0_x509 ; USER=root ; COMMAND=/bin/ls -la /etc/openvpn/server
+Jan  5 16:32:51 cyberus sudo:     root : TTY=ttyp2 ; PWD=/var/www/htdocs/admin/scripts/vpn ; USER=root ; COMMAND=/bin/mkdir /etc/openvpn/server/192.168.13.10_x509
+Jan  5 16:32:51 cyberus sudo:     root : TTY=ttyp2 ; PWD=/var/www/htdocs/admin/scripts/vpn ; USER=root ; COMMAND=/bin/mkdir /var/log/openvpn/server-log/192.168.13.10_x509
+Jan  5 16:32:51 cyberus sudo:     root : TTY=ttyp2 ; PWD=/var/www/htdocs/admin/scripts/vpn ; USER=root ; COMMAND=/bin/mkdir /etc/openvpn/server/192.168.13.10_x509/clients
+Jan  5 16:32:57 cyberus sudo:     root : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/cp /etc/openvpn/easyrsa3/pki/issued/192.168.13.10_x509_server.crt /etc/openvpn/easyrsa3/pki/private/192.168.13.10_x509_server.key /etc/openvpn/server/192.168.13.10_x509/
+Jan  5 16:32:57 cyberus sudo:     root : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/cp /etc/openvpn/easyrsa3/pki/ca.crt /etc/openvpn/server/192.168.13.10_x509/
+Jan  5 16:32:57 cyberus sudo:     root : TTY=ttyp2 ; PWD=/etc/openvpn/server/192.168.13.10_x509 ; USER=root ; COMMAND=/bin/cat
+Jan  5 16:32:57 cyberus sudo:     root : TTY=ttyp2 ; PWD=/etc/openvpn/server/192.168.13.10_x509 ; USER=root ; COMMAND=/bin/kill -9
+Jan  5 16:32:58 cyberus sudo:     root : TTY=ttyp2 ; PWD=/etc/openvpn/server/192.168.13.10_x509 ; USER=root ; COMMAND=/bin/ps -ax
+Jan  5 16:32:58 cyberus sudo:     root : TTY=ttyp2 ; PWD=/etc/openvpn/server/192.168.13.10_x509 ; USER=root ; COMMAND=/bin/ls -la /etc/openvpn/server
+Jan  5 16:33:17 cyberus sudo:     root : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/mkdir /etc/openvpn/server/192.168.13.10_x509/clients/coucou
+Jan  5 16:33:17 cyberus sudo:     root : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/mkdir /etc/openvpn/server/192.168.13.10_x509/clients/coucou/ovpn
+Jan  5 16:33:17 cyberus sudo:     root : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/cp /etc/openvpn/easyrsa3/pki/ca.crt /etc/openvpn/keys/ta.key /etc/openvpn/easyrsa3/pki/issued/coucou_192.168.13.10_x509_client.crt /etc/openvpn/easyrsa3/pki/private/coucou_192.168.13.10_x509_client.key /etc/openvpn/server/192.168.13.10_x509/clients/coucou/
+Jan  5 16:33:17 cyberus sudo:     root : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/cp /etc/openvpn/server/192.168.13.10_x509/clients/coucou/ca.crt /etc/openvpn/server/192.168.13.10_x509/clients/coucou/ta.key /etc/openvpn/server/192.168.13.10_x509/clients/coucou/coucou_x509_client.key /etc/openvpn/server/192.168.13.10_x509/clients/coucou/coucou_x509_client.crt /etc/openvpn/server/192.168.13.10_x509/clients/coucou/ovpn
+Jan  5 16:33:18 cyberus sudo:     root : TTY=ttyp2 ; PWD=/etc/openvpn/server/192.168.13.10_x509/clients/coucou/ovpn ; USER=root ; COMMAND=/bin/cat
+Jan  5 16:33:18 cyberus sudo:     root : TTY=ttyp2 ; PWD=/etc/openvpn/server/192.168.13.10_x509/clients/coucou ; USER=root ; COMMAND=/bin/tar cvzf coucou.tar.gz ovpn/
+Jan  5 16:33:28 cyberus sudo:     root : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/mkdir /etc/openvpn/server/192.168.13.0_x509/clients/coucou
+Jan  5 16:33:28 cyberus sudo:     root : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/mkdir /etc/openvpn/server/192.168.13.0_x509/clients/coucou/ovpn
+Jan  5 16:33:28 cyberus sudo:     root : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/cp /etc/openvpn/easyrsa3/pki/ca.crt /etc/openvpn/keys/ta.key /etc/openvpn/easyrsa3/pki/issued/coucou_192.168.13.0_x509_client.crt /etc/openvpn/easyrsa3/pki/private/coucou_192.168.13.0_x509_client.key /etc/openvpn/server/192.168.13.0_x509/clients/coucou/
+Jan  5 16:33:28 cyberus sudo:     root : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/cp /etc/openvpn/server/192.168.13.0_x509/clients/coucou/ca.crt /etc/openvpn/server/192.168.13.0_x509/clients/coucou/ta.key /etc/openvpn/server/192.168.13.0_x509/clients/coucou/coucou_x509_client.key /etc/openvpn/server/192.168.13.0_x509/clients/coucou/coucou_x509_client.crt /etc/openvpn/server/192.168.13.0_x509/clients/coucou/ovpn
+Jan  5 16:33:28 cyberus sudo:     root : TTY=ttyp2 ; PWD=/etc/openvpn/server/192.168.13.0_x509/clients/coucou/ovpn ; USER=root ; COMMAND=/bin/cat
+Jan  5 16:33:28 cyberus sudo:     root : TTY=ttyp2 ; PWD=/etc/openvpn/server/192.168.13.0_x509/clients/coucou ; USER=root ; COMMAND=/bin/tar cvzf coucou.tar.gz ovpn/
+Jan  5 16:33:43 cyberus sudo:     root : TTY=ttyp2 ; PWD=/var/www/htdocs/admin/scripts/vpn ; USER=root ; COMMAND=/bin/kill -9
+Jan  5 16:33:45 cyberus sudo:     root : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/rm -r /etc/openvpn/server/192.168.13.0_x509
+Jan  5 16:33:45 cyberus sudo:     root : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/rm -r /var/log/openvpn/server-log/192.168.13.0_x509
+Jan  5 16:33:46 cyberus sudo:     root : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/rm /etc/openvpn/easyrsa3/pki/issued/192.168.13.0_x509_server.crt
+Jan  5 16:33:46 cyberus sudo:     root : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/rm /etc/openvpn/easyrsa3/pki/issued/coucou_192.168.13.0_x509_client.crt
+Jan  5 16:33:46 cyberus sudo:     root : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/rm /etc/openvpn/easyrsa3/pki/private/192.168.13.0_x509_server.key
+Jan  5 16:33:46 cyberus sudo:     root : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/rm /etc/openvpn/easyrsa3/pki/private/coucou_192.168.13.0_x509_client.key
+Jan  5 16:33:46 cyberus sudo:     root : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/rm /etc/openvpn/easyrsa3/pki/reqs/192.168.13.0_x509_server.req
+Jan  5 16:33:46 cyberus sudo:     root : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/rm /etc/openvpn/easyrsa3/pki/reqs/coucou_192.168.13.0_x509_client.req
+Jan  5 16:33:46 cyberus sudo:     root : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/rm /etc/openvpn/ipp/192.168.13.0_x509_ipp.txt
+Jan  5 16:33:46 cyberus sudo:     root : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/ls -la /etc/openvpn/server/
+Jan  5 16:33:46 cyberus sudo:     root : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/ls -la /var/log/openvpn/server-log/
+Jan  5 16:33:55 cyberus sudo:     root : TTY=ttyp2 ; PWD=/var/www/htdocs/admin/scripts/vpn ; USER=root ; COMMAND=/bin/kill -9
+Jan  5 16:33:57 cyberus sudo:     root : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/rm -r /etc/openvpn/server/192.168.13.10_x509
+Jan  5 16:33:57 cyberus sudo:     root : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/rm -r /var/log/openvpn/server-log/192.168.13.10_x509
+Jan  5 16:33:57 cyberus sudo:     root : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/rm /etc/openvpn/easyrsa3/pki/issued/192.168.13.10_x509_server.crt
+Jan  5 16:33:58 cyberus sudo:     root : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/rm /etc/openvpn/easyrsa3/pki/issued/coucou_192.168.13.10_x509_client.crt
+Jan  5 16:33:58 cyberus sudo:     root : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/rm /etc/openvpn/easyrsa3/pki/private/192.168.13.10_x509_server.key
+Jan  5 16:33:58 cyberus sudo:     root : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/rm /etc/openvpn/easyrsa3/pki/private/coucou_192.168.13.10_x509_client.key
+Jan  5 16:33:58 cyberus sudo:     root : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/rm /etc/openvpn/easyrsa3/pki/reqs/192.168.13.10_x509_server.req
+Jan  5 16:33:58 cyberus sudo:     root : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/rm /etc/openvpn/easyrsa3/pki/reqs/coucou_192.168.13.10_x509_client.req
+Jan  5 16:33:58 cyberus sudo:     root : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/rm /etc/openvpn/ipp/192.168.13.10_x509_ipp.txt
+Jan  5 16:33:58 cyberus sudo:     root : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/ls -la /etc/openvpn/server/
+Jan  5 16:33:58 cyberus sudo:     root : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/ls -la /var/log/openvpn/server-log/
+Jan  5 16:34:02 cyberus sudo:     root : TTY=ttyp2 ; PWD=/var/www/htdocs/admin/scripts/vpn ; USER=root ; COMMAND=/bin/rm -r /etc/openvpn/easyrsa3/pki_old
+Jan  5 16:34:02 cyberus sudo:     root : TTY=ttyp2 ; PWD=/var/www/htdocs/admin/scripts/vpn ; USER=root ; COMMAND=/bin/mv /etc/openvpn/easyrsa3/pki /etc/openvpn/easyrsa3/pki_old
+Jan  5 16:34:03 cyberus sudo:     root : TTY=ttyp2 ; PWD=/var/www/htdocs/admin/scripts/vpn ; USER=root ; COMMAND=/bin/cp -r /etc/openvpn/easyrsa3/pki_recovery /etc/openvpn/easyrsa3/pki
+Jan  5 16:34:08 cyberus sudo:     root : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/chmod 605 /etc/openvpn/easyrsa3/pki/crl.pem
+Jan  5 16:34:08 cyberus sudo:     root : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/rm /etc/openvpn/keys/crl.pem
+Jan  5 16:34:08 cyberus sudo:     root : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/mv /etc/openvpn/easyrsa3/pki/crl.pem /etc/openvpn/keys
+Jan  5 16:34:30 cyberus sudo:     root : TTY=ttyp2 ; PWD=/var/www/htdocs/admin/scripts/vpn ; USER=root ; COMMAND=/bin/mkdir /etc/openvpn/server/192.168.13.0_x509
+Jan  5 16:34:31 cyberus sudo:     root : TTY=ttyp2 ; PWD=/var/www/htdocs/admin/scripts/vpn ; USER=root ; COMMAND=/bin/mkdir /var/log/openvpn/server-log/192.168.13.0_x509
+Jan  5 16:34:31 cyberus sudo:     root : TTY=ttyp2 ; PWD=/var/www/htdocs/admin/scripts/vpn ; USER=root ; COMMAND=/bin/mkdir /etc/openvpn/server/192.168.13.0_x509/clients
+Jan  5 16:34:36 cyberus sudo:     root : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/cp /etc/openvpn/easyrsa3/pki/issued/192.168.13.0_x509_server.crt /etc/openvpn/easyrsa3/pki/private/192.168.13.0_x509_server.key /etc/openvpn/server/192.168.13.0_x509/
+Jan  5 16:34:36 cyberus sudo:     root : TTY=ttyp2 ; PWD=/etc/openvpn/easyrsa3 ; USER=root ; COMMAND=/bin/cp /etc/openvpn/easyrsa3/pki/ca.crt /etc/openvpn/server/192.168.13.0_x509/
+Jan  5 16:34:36 cyberus sudo:     root : TTY=ttyp2 ; PWD=/etc/openvpn/server/192.168.13.0_x509 ; USER=root ; COMMAND=/bin/cat
+Jan  5 16:34:37 cyberus sudo:     root : TTY=ttyp2 ; PWD=/etc/openvpn/server/192.168.13.0_x509 ; USER=root ; COMMAND=/bin/kill -9
+Jan  5 16:34:38 cyberus sudo:     root : TTY=ttyp2 ; PWD=/etc/openvpn/server/192.168.13.0_x509 ; USER=root ; COMMAND=/bin/ps -ax
+Jan  5 16:34:38 cyberus sudo:     root : TTY=ttyp2 ; PWD=/etc/openvpn/server/192.168.13.0_x509 ; USER=root ; COMMAND=/bin/ls -la /etc/openvpn/server
+Jan  5 19:43:39 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /macro_coucou/d /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  5 19:43:39 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /Macro/a macro_coucou /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  5 19:43:39 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i s/macro_coucou/macro_coucou = "caca pipi"/g /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  5 19:43:39 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/bin/sed -n /# Macro/,/# Fin/ p /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  5 19:44:10 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /macro_coucou/d /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  5 19:44:10 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/bin/sed -n /# Macro/,/# Fin/ p /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  5 19:48:41 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/bin/cat /etc/pf.conf
+Jan  5 19:48:51 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /table <blacklist> persist/d /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  5 19:48:51 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /Table_list/a table <blacklist> persist /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  5 19:48:51 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/bin/cat /etc/pf.conf
+Jan  5 19:48:54 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /table <blacklist> persist/d /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  5 19:48:55 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /Table_list/a table <blacklist> persist /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  5 19:48:55 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/bin/cat /etc/pf.conf
+Jan  5 19:49:01 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /table <blacklist1> persist/d /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  5 19:49:01 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /Table_list/a table <blacklist1> persist /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  5 19:49:01 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/bin/cat /etc/pf.conf
+Jan  5 19:49:17 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /table <blacklist1> persist/d /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  5 19:49:17 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /Table_list/a table <blacklist1> persist /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  5 19:49:17 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/bin/cat /etc/pf.conf
+Jan  5 19:49:20 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /table <blacklist1> persist/d /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  5 19:49:20 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /Table_list/a table <blacklist1> persist /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  5 19:49:21 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/bin/cat /etc/pf.conf
+Jan  5 19:49:22 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /table <blacklist1> persist/d /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  5 19:49:22 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /Table_list/a table <blacklist1> persist /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  5 19:49:22 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/bin/cat /etc/pf.conf
+Jan  5 19:49:27 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /table <blacklist12> persist/d /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  5 19:49:27 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /Table_list/a table <blacklist12> persist /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  5 19:49:27 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/bin/cat /etc/pf.conf
+Jan  5 19:50:22 cyberus last message repeated 2 times
+Jan  5 19:50:41 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /table <blacklist> persist/d /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  5 19:50:42 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /Table_list/a table <blacklist> persist /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  5 19:50:42 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/bin/cat /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  5 19:50:59 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/bin/cat /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  5 19:51:11 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /table <blacklist> persist/d /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  5 19:51:11 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/bin/cat /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  5 19:51:16 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /table <blacklist12> persist/d /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  5 19:51:17 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/bin/cat /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  5 19:51:18 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /table <blacklist1> persist/d /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  5 19:51:19 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/bin/cat /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  5 20:15:29 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/bin/sed -n /# Macro/,/# Fin/ p /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  5 20:15:29 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/bin/cat /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  5 20:18:38 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /match out on $macro_$interface from 10.2.2.2 nat-to ($macro_$interface)/d /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  5 20:18:38 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /NAT/a match out on $macro_$interface from 10.2.2.2 nat-to ($macro_$interface) /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  5 20:18:39 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/bin/cat /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  5 20:19:12 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /match out on $macro_free from 10.2.2.2 nat-to ($macro_free)/d /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  5 20:19:12 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /NAT/a match out on $macro_free from 10.2.2.2 nat-to ($macro_free) /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  5 20:19:13 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/bin/cat /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  5 20:21:23 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /match out on $macro_free from 10.2.2.2 nat-to ($macro_free)/d /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  5 20:21:24 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /NAT/a match out on $macro_free from 10.2.2.2 nat-to ($macro_free) /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  5 20:21:24 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/bin/cat /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  5 20:22:14 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /match out on $$interface_macro from 10.2.2.2 nat-to ($$interface_macro)/d /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  5 20:22:14 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /NAT/a match out on $$interface_macro from 10.2.2.2 nat-to ($$interface_macro) /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  5 20:22:14 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/bin/cat /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  5 20:24:17 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /match out on 11194interface_macro from 10.2.2.2 nat-to (11194interface_macro)/d /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  5 20:24:17 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /NAT/a match out on 11194interface_macro from 10.2.2.2 nat-to (11194interface_macro) /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  5 20:24:17 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/bin/cat /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  5 20:24:21 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /match out on 2010interface_macro from 10.2.2.2 nat-to (2010interface_macro)/d /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  5 20:24:21 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /NAT/a match out on 2010interface_macro from 10.2.2.2 nat-to (2010interface_macro) /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  5 20:24:21 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/bin/cat /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  5 20:24:35 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /match out on $free_macro from 10.2.2.2 nat-to ($free_macro)/d /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  5 20:24:35 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /NAT/a match out on $free_macro from 10.2.2.2 nat-to ($free_macro) /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  5 20:24:35 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/bin/cat /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  5 20:24:41 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /match out on $free_macro from 10.2.2.2 nat-to ($free_macro)/d /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  5 20:24:41 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /NAT/a match out on $free_macro from 10.2.2.2 nat-to ($free_macro) /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  5 20:24:41 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/bin/cat /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  5 20:24:46 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /match out on $free_macro from 10.2.2.2 nat-to ($free_macro)/d /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  5 20:24:46 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /NAT/a match out on $free_macro from 10.2.2.2 nat-to ($free_macro) /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  5 20:24:46 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/bin/cat /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  5 20:50:09 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/bin/sed -n /# Macro/,/# Fin/ p /etc/pf.conf
+Jan  5 20:51:00 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /freee_macro/d /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  5 20:51:01 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/bin/sed -n /# Macro/,/# Fin/ p /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  5 23:52:05 cyberus sudo:   costet : TTY=ttyp0 ; PWD=/home/costet ; USER=root ; COMMAND=/bin/cp /etc/dhcpd.conf.save dhcpd.conf
+Jan  5 23:52:43 cyberus sudo:   costet : TTY=ttyp0 ; PWD=/home/costet ; USER=root ; COMMAND=/bin/cp /etc/dhcpd.conf.save /etc/dhcpd.conf
+Jan  6 01:33:54 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/bin/sed -n /# Macro/,/# Fin/ d /etc/pf.conf
+Jan  6 01:35:29 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/bin/sed -n /# Macro/,/# Fin/d /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  6 01:35:46 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/bin/sed -n /# Macro/,/# Fin/d /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  6 01:35:46 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/bin/sed -n /# Macro/,/# Fin/p /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  6 01:40:40 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/bin/sed -n /# Macro/,/# Fin/d /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  6 01:40:40 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/bin/sed -n /# Macro/,/# Fin/p /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  6 01:41:35 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -n /# Macro/,/# Fin/d /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  6 01:41:35 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -n /# Macro/,/# Fin/p /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  6 01:41:53 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -n /# Macro/,/# Fin/d /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  6 01:41:54 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -n /# Macro/,/# Fin/p /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  6 01:49:39 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /# Macro/,/# Fin/d /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  6 01:49:39 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -n /# Macro/,/# Fin/p /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  6 01:49:42 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /# Macro/,/# Fin/d /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  6 01:49:42 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -n /# Macro/,/# Fin/p /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  6 01:49:44 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /# Macro/,/# Fin/d /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  6 01:49:44 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -n /# Macro/,/# Fin/p /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  6 01:53:52 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /# Macro/,/# Fin/{/# Macro/b;/# Finb;/.*/d /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  6 01:53:53 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -n /# Macro/,/# Fin/p /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  6 01:54:07 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /# Macro/,/# Fin/{/# Macro/b;/# Finb;/.*/d /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  6 01:54:08 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -n /# Macro/,/# Fin/p /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  6 01:54:36 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /# Macro/,/# Fin/{/# Macro/b;/# Finb;/.*/d} /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  6 01:54:37 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -n /# Macro/,/# Fin/p /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  6 01:55:43 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /# Macro/,/# Fin/{/# Macro/b;/# Fin/b;/.*/d} /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  6 01:55:43 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -n /# Macro/,/# Fin/p /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  6 01:55:49 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /# Macro/,/# Fin/{/# Macro/b;/# Fin/b;/.*/d} /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  6 01:55:49 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -n /# Macro/,/# Fin/p /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  6 01:57:20 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /# QOS/,/# Fin/{/# Macro/b;/# Fin/b;/.*/d} /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  6 01:58:00 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /# QOS/,/# Fin/{/# Macro/b;/# Fin/b;/.*/d} /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  6 01:58:36 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /# QOS/,/# Fin/{/# QOS/b;/# Fin/b;/.*/d} /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  6 02:38:48 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /# QOS/,/# Fin/{/# QOS/b;/# Fin/b;/.*/d} /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  6 02:38:48 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /# Block_QOS/,/# Fin/{/# QOS/b;/# Fin/b;/.*/d} /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  6 02:38:49 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /# Pass_QOS/,/# Fin/{/# QOS/b;/# Fin/b;/.*/d} /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  6 02:38:49 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /QOS/a queue root on $free_macro bandwidth 15M /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  6 02:39:47 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /http parent root bandwidth/d /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  6 02:39:47 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /queue root on $free_macro_macro bandwidth/a queue http parent root bandwidth 5M /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  6 02:40:15 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /queue test parent http bandwidth/d /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  6 02:40:15 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /queue http parent root bandwidth/a queue test parent http bandwidth 4M /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  6 02:40:22 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /queue test parent http bandwidth/d /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  6 02:40:22 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /queue http parent root bandwidth/a queue test parent http bandwidth 4M /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  6 02:41:41 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /queue test parent std bandwidth/d /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  6 02:41:41 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /queue std parent root bandwidth/a queue test parent std bandwidth 4M /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  6 02:42:10 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /http parent root bandwidth/d /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  6 02:42:10 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /queue root on $free_macro_macro bandwidth/a queue http parent root bandwidth 5M /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  6 02:42:57 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /http parent root bandwidth/d /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  6 02:42:57 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /"queue root on $free_macro_macro bandwidth"/a queue http parent root bandwidth 5M /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  6 02:43:19 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /http parent root bandwidth/d /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  6 02:43:19 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /queue $name_parent on \\$$interface\\_macro bandwidth/a queue http parent root bandwidth 5M /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  6 02:43:47 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /http parent root bandwidth/d /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  6 02:43:47 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /queue $name_parent on \\$$interface\\_macro bandwidth/a queue http parent root bandwidth 5M /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  6 02:45:15 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /http parent root bandwidth/d /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  6 02:45:15 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /queue 'root' on '$free_macro\\_macro' bandwidth/a queue http parent root bandwidth 5M /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  6 02:46:00 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /http parent root bandwidth/d /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  6 02:46:01 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /"queue root on $free_macro_macro bandwidth"/a queue http parent root bandwidth 5M /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  6 02:46:50 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /http parent root bandwidth/d /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  6 02:46:50 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /"queue $name_parent on \\$$interface\\_macro bandwidth"/a queue http parent root bandwidth 5M /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  6 02:46:53 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /http parent root bandwidth/d /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  6 02:46:53 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /"queue $name_parent on \\$$interface\\_macro bandwidth"/a queue http parent root bandwidth 5M /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  6 02:47:05 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /http parent root bandwidth/d /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  6 02:47:05 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /"queue root on $free_macro_macro bandwidth"/a queue http parent root bandwidth 5M /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  6 02:50:48 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /http parent root bandwidth/d /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  6 02:50:48 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /"queue root on $free_macro_macro bandwidth" a\\ queue http parent root bandwidth 5M /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  6 02:51:13 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /http parent root bandwidth/d /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  6 02:51:13 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /queue root on $free_macro_macro bandwidth/ a\\ queue http parent root bandwidth 5M /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  6 02:52:15 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /http parent root bandwidth/d /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  6 02:52:15 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /queue root on $free_macro_macro bandwidth/a\\ queue http parent root bandwidth 5M /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  6 02:53:29 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /http parent root bandwidth/d /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  6 02:53:29 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /queue $name_parent on \\$$interface\\_macro bandwidth/a\\ queue http parent root bandwidth 5M /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  6 02:53:31 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /http parent root bandwidth/d /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  6 02:53:31 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /queue $name_parent on \\$$interface\\_macro bandwidth/a\\ queue http parent root bandwidth 5M /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  6 02:53:54 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /http parent root bandwidth/d /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  6 02:53:54 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /queue root on $free_macro_macro bandwidth/a queue http parent root bandwidth 5M /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  6 02:56:56 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /http parent root bandwidth/d /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  6 02:56:56 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /queue $name_parent on \\$$interface\\_macro bandwidth/a queue http parent root bandwidth 5M /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  6 02:57:40 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /http parent root bandwidth/d /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  6 02:57:40 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /queue root on $free_macro_macro/a queue http parent root bandwidth 5M /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  6 02:58:35 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /http parent root bandwidth/d /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  6 02:58:35 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /queue root on $free_macro_macro/ a queue http parent root bandwidth 5M /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  6 03:03:16 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /http parent root bandwidth/d /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  6 03:03:16 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /\\queue root on $free_macro_macro\\/ a queue http parent root bandwidth 5M /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  6 03:03:31 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /http parent root bandwidth/d /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  6 03:03:32 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /http parent root bandwidth/d /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  6 03:04:02 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /http parent root bandwidth/d /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  6 03:04:24 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /http parent root bandwidth/d /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  6 03:04:50 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /http parent root bandwidth/d /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  6 03:04:50 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /queue root on $free_macro_macro/ a queue http parent root bandwidth 5M /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  6 03:05:09 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /http parent root bandwidth/d /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  6 03:05:10 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /queue root on $free_macro_macro/a queue http parent root bandwidth 5M /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  6 03:05:27 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /http parent root bandwidth/d /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  6 03:05:27 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /queue root on $free_macro_macro/a queue http parent root bandwidth 5M /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  6 03:05:30 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /http parent root bandwidth/d /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  6 03:05:30 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /queue root on $free_macro_macro/a queue http parent root bandwidth 5M /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  6 03:16:50 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /http parent root bandwidth/d /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  6 03:16:50 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /queue root on $free_macro_macro bandwidth 15M/a\\ queue http parent root bandwidth 5M /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  6 03:18:17 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /http parent root bandwidth/d /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  6 03:18:17 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /queue root on $free_macro bandwidth 15M/a\\ queue http parent root bandwidth 5M /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  6 03:18:35 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /http parent root bandwidth/d /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  6 03:18:35 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /queue root on $free_macro bandwidth 15M/a\\ queue http parent root bandwidth 5M /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  6 03:19:08 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /http parent root bandwidth/d /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  6 03:19:08 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /queue root on $free_macro bandwidth 15M/a queue http parent root bandwidth 5M /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  6 03:19:41 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /http parent root bandwidth/d /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  6 03:19:42 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /queue root on $free_macro/a queue http parent root bandwidth 5M /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  6 03:20:40 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /http parent root bandwidth/d /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  6 03:20:40 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /queue $name_parent on $free_macro/a queue http parent root bandwidth 5M /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  6 03:20:56 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /http parent root bandwidth/d /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  6 03:20:56 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /queue "$name_parent" on $free_macro/a queue http parent root bandwidth 5M /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  6 03:21:15 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /http parent root bandwidth/d /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  6 03:21:15 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /queue root on $free_macro/a queue http parent root bandwidth 5M /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  6 03:21:49 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /http parent root bandwidth/d /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  6 03:21:49 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /queue root on $free_macro/a queue http parent root bandwidth 5M /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  6 03:21:56 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /http parent root bandwidth/d /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  6 03:21:57 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /queue root on $free_macro/a queue http parent root bandwidth 5M /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  6 03:22:54 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /http parent root bandwidth/d /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  6 03:22:54 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /queue root on $free_macro/a queue http parent root bandwidth 5M /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  6 03:22:54 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /http parent root bandwidth/d /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  6 03:22:54 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /queue root on $free_macro/a queue http parent root bandwidth 5M /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  6 03:22:55 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /http parent root bandwidth/d /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  6 03:22:55 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /queue root on $free_macro/a queue http parent root bandwidth 5M /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  6 03:22:56 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /http parent root bandwidth/d /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  6 03:22:57 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /queue root on $free_macro/a queue http parent root bandwidth 5M /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  6 03:22:58 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /http parent root bandwidth/d /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  6 03:22:58 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /queue root on $free_macro/a queue http parent root bandwidth 5M /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  6 03:23:47 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /queue free parent coucou bandwidth/d /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  6 03:23:47 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /queue coucou parent http bandwidth/a queue free parent coucou bandwidth 5M /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  6 03:24:55 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /queue coucou parent http bandwidth/d /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  6 03:24:55 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /queue http parent root bandwidth/a queue coucou parent http bandwidth 5M /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  6 03:25:44 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /ssh parent root bandwidth/d /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  6 03:25:44 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /queue root on $free_macro/a queue ssh parent root bandwidth 5M /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  6 03:26:44 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /queue coucou parent ssh bandwidth/d /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  6 03:26:45 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /queue ssh parent root bandwidth/a queue coucou parent ssh bandwidth 5M /var/www/htdocs/admin/scripts/pf/pf.conf
+Jan  6 04:26:18 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /# QOS/,/# Fin/{/# QOS/b;/# Fin/b;/.*/d} /etc/pf.conf
+Jan  6 04:26:19 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /# Block_QOS/,/# Fin/{/# QOS/b;/# Fin/b;/.*/d} /etc/pf.conf
+Jan  6 04:26:19 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /# Pass_QOS/,/# Fin/{/# QOS/b;/# Fin/b;/.*/d} /etc/pf.conf
+Jan  6 04:26:19 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /QOS/a queue cyberus on $free_macro bandwidth 15M /etc/pf.conf
+Jan  6 04:26:19 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/bin/sed -n /# QOS/,/# Fin/ p /etc/pf.conf
+Jan  6 04:27:15 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /http parent cyberus bandwidth/d /etc/pf.conf
+Jan  6 04:27:15 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /queue cyberus on /a queue http parent cyberus bandwidth 3M /etc/pf.conf
+Jan  6 04:27:16 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/bin/sed -n /# QOS/,/# Fin/ p /etc/pf.conf
+Jan  6 04:27:19 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /https parent cyberus bandwidth/d /etc/pf.conf
+Jan  6 04:27:19 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /queue cyberus on /a queue https parent cyberus bandwidth 3M /etc/pf.conf
+Jan  6 04:27:19 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/bin/sed -n /# QOS/,/# Fin/ p /etc/pf.conf
+Jan  6 04:27:38 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /ssh parent cyberus bandwidth/d /etc/pf.conf
+Jan  6 04:27:38 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /queue cyberus on /a queue ssh parent cyberus bandwidth 2M /etc/pf.conf
+Jan  6 04:27:39 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/bin/sed -n /# QOS/,/# Fin/ p /etc/pf.conf
+Jan  6 04:27:42 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /sip parent cyberus bandwidth/d /etc/pf.conf
+Jan  6 04:27:42 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /queue cyberus on /a queue sip parent cyberus bandwidth 2M /etc/pf.conf
+Jan  6 04:27:43 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/bin/sed -n /# QOS/,/# Fin/ p /etc/pf.conf
+Jan  6 04:27:47 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /sip parent cyberus bandwidth/d /etc/pf.conf
+Jan  6 04:27:47 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /queue cyberus on /a queue sip parent cyberus bandwidth 1M /etc/pf.conf
+Jan  6 04:27:47 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/bin/sed -n /# QOS/,/# Fin/ p /etc/pf.conf
+Jan  6 04:28:22 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /# QOS/,/# Fin/{/# QOS/b;/# Fin/b;/.*/d} /etc/pf.conf
+Jan  6 04:28:22 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /# Block_QOS/,/# Fin/{/# QOS/b;/# Fin/b;/.*/d} /etc/pf.conf
+Jan  6 04:28:22 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /# Pass_QOS/,/# Fin/{/# QOS/b;/# Fin/b;/.*/d} /etc/pf.conf
+Jan  6 04:28:22 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /QOS/a queue cyberus on $free_macro bandwidth 15M /etc/pf.conf
+Jan  6 04:28:22 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/bin/sed -n /# QOS/,/# Fin/ p /etc/pf.conf
+Jan  6 04:29:43 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /# QOS/,/# Fin/{/# QOS/b;/# Fin/b;/.*/d} /etc/pf.conf
+Jan  6 04:29:43 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /# Block_QOS/,/# Fin/{/# QOS/b;/# Fin/b;/.*/d} /etc/pf.conf
+Jan  6 04:29:44 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /# Pass_QOS/,/# Fin/{/# QOS/b;/# Fin/b;/.*/d} /etc/pf.conf
+Jan  6 04:29:44 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /QOS/a queue cyberus on $free_macro bandwidth 15M /etc/pf.conf
+Jan  6 04:29:44 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/bin/sed -n /# QOS/,/# Fin/ p /etc/pf.conf
+Jan  6 04:29:54 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /http parent cyberus bandwidth/d /etc/pf.conf
+Jan  6 04:29:54 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /queue cyberus on /a queue http parent cyberus bandwidth 3M /etc/pf.conf
+Jan  6 04:29:55 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/bin/sed -n /# QOS/,/# Fin/ p /etc/pf.conf
+Jan  6 04:29:59 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /https parent cyberus bandwidth/d /etc/pf.conf
+Jan  6 04:29:59 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /queue cyberus on /a queue https parent cyberus bandwidth 3M /etc/pf.conf
+Jan  6 04:29:59 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/bin/sed -n /# QOS/,/# Fin/ p /etc/pf.conf
+Jan  6 04:30:23 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /ssh parent cyberus bandwidth/d /etc/pf.conf
+Jan  6 04:30:24 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /queue cyberus on /a queue ssh parent cyberus bandwidth 2M /etc/pf.conf
+Jan  6 04:30:24 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/bin/sed -n /# QOS/,/# Fin/ p /etc/pf.conf
+Jan  6 04:30:29 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /ssh parent cyberus bandwidth/d /etc/pf.conf
+Jan  6 04:30:29 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /queue cyberus on /a queue ssh parent cyberus bandwidth 1M /etc/pf.conf
+Jan  6 04:30:29 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/bin/sed -n /# QOS/,/# Fin/ p /etc/pf.conf
+Jan  6 04:30:34 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /sip parent cyberus bandwidth/d /etc/pf.conf
+Jan  6 04:30:34 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /queue cyberus on /a queue sip parent cyberus bandwidth 1M /etc/pf.conf
+Jan  6 04:30:34 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/bin/sed -n /# QOS/,/# Fin/ p /etc/pf.conf
+Jan  6 04:30:55 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /sip parent cyberus bandwidth/d /etc/pf.conf
+Jan  6 04:30:55 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /queue cyberus on /a queue sip parent cyberus bandwidth 2M /etc/pf.conf
+Jan  6 04:30:55 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/bin/sed -n /# QOS/,/# Fin/ p /etc/pf.conf
+Jan  6 04:30:59 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /sip parent cyberus bandwidth/d /etc/pf.conf
+Jan  6 04:30:59 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /queue cyberus on /a queue sip parent cyberus bandwidth 1M /etc/pf.conf
+Jan  6 04:30:59 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/bin/sed -n /# QOS/,/# Fin/ p /etc/pf.conf
+Jan  6 04:31:14 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /std parent cyberus bandwidth/d /etc/pf.conf
+Jan  6 04:31:14 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /queue cyberus on /a queue std parent cyberus bandwidth 1M default /etc/pf.conf
+Jan  6 04:31:14 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/bin/sed -n /# QOS/,/# Fin/ p /etc/pf.conf
+Jan  6 04:31:25 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /std parent cyberus bandwidth/d /etc/pf.conf
+Jan  6 04:31:25 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /queue cyberus on /a queue std parent cyberus bandwidth 1M default /etc/pf.conf
+Jan  6 04:31:25 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/bin/sed -n /# QOS/,/# Fin/ p /etc/pf.conf
+Jan  6 04:31:39 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /std parent cyberus bandwidth/d /etc/pf.conf
+Jan  6 04:31:39 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /queue cyberus on /a queue std parent cyberus bandwidth 1M default /etc/pf.conf
+Jan  6 04:31:39 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/bin/sed -n /# QOS/,/# Fin/ p /etc/pf.conf
+Jan  6 04:32:14 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /std parent cyberus bandwidth/d /etc/pf.conf
+Jan  6 04:32:14 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /queue cyberus on /a queue std parent cyberus bandwidth bla bla /etc/pf.conf
+Jan  6 04:32:14 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/bin/sed -n /# QOS/,/# Fin/ p /etc/pf.conf
+Jan  6 04:33:06 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /std parent cyberus bandwidth/d /etc/pf.conf
+Jan  6 04:33:06 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /queue cyberus on /a queue std parent cyberus bandwidth bla bla /etc/pf.conf
+Jan  6 04:33:07 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/bin/sed -n /# QOS/,/# Fin/ p /etc/pf.conf
+Jan  6 04:33:19 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /std parent cyberus bandwidth/d /etc/pf.conf
+Jan  6 04:33:19 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /queue cyberus on /a queue std parent cyberus bandwidth $3 /etc/pf.conf
+Jan  6 04:33:19 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/bin/sed -n /# QOS/,/# Fin/ p /etc/pf.conf
+Jan  6 04:33:44 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /std parent cyberus bandwidth/d /etc/pf.conf
+Jan  6 04:33:45 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /queue cyberus on /a queue std parent cyberus bandwidth bla bla /etc/pf.conf
+Jan  6 04:33:45 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/bin/sed -n /# QOS/,/# Fin/ p /etc/pf.conf
+Jan  6 04:34:09 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /std parent cyberus bandwidth/d /etc/pf.conf
+Jan  6 04:34:09 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /queue cyberus on /a queue std parent cyberus bandwidth bla bla  /etc/pf.conf
+Jan  6 04:34:09 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/bin/sed -n /# QOS/,/# Fin/ p /etc/pf.conf
+Jan  6 04:36:25 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /std parent cyberus bandwidth/d /etc/pf.conf
+Jan  6 04:36:25 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /queue cyberus on /a queue std parent cyberus bandwidth ${bandwidth} /etc/pf.conf
+Jan  6 04:36:25 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/bin/sed -n /# QOS/,/# Fin/ p /etc/pf.conf
+Jan  6 04:41:10 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /std parent cyberus bandwidth/d /etc/pf.conf
+Jan  6 04:41:10 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /queue cyberus on /a queue std parent cyberus bandwidth /etc/pf.conf
+Jan  6 04:41:10 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i s// = ""/g /etc/pf.conf
+Jan  6 04:41:10 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i s/queue std parent cyberus bandwidth/queue std parent cyberus bandwidth bla bla/g /etc/pf.conf
+Jan  6 04:41:11 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/bin/sed -n /# QOS/,/# Fin/ p /etc/pf.conf
+Jan  6 04:42:30 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /std parent cyberus bandwidth/d /etc/pf.conf
+Jan  6 04:42:31 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /queue cyberus on /a queue std parent cyberus bandwidth /etc/pf.conf
+Jan  6 04:42:31 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i s// = ""/g /etc/pf.conf
+Jan  6 04:42:31 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i s/queue std parent cyberus/queue std parent cyberus bandwidth bla bla/g /etc/pf.conf
+Jan  6 04:42:31 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/bin/sed -n /# QOS/,/# Fin/ p /etc/pf.conf
+Jan  6 04:42:46 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /std parent cyberus bandwidth/d /etc/pf.conf
+Jan  6 04:42:46 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /queue cyberus on /a queue std parent cyberus bandwidth /etc/pf.conf
+Jan  6 04:42:46 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i s/queue std parent cyberus/queue std parent cyberus bandwidth bla bla/g /etc/pf.conf
+Jan  6 04:42:46 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/bin/sed -n /# QOS/,/# Fin/ p /etc/pf.conf
+Jan  6 04:43:11 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /std parent cyberus bandwidth/d /etc/pf.conf
+Jan  6 04:43:11 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /queue cyberus on /a queue std parent cyberus /etc/pf.conf
+Jan  6 04:43:12 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i s/queue std parent cyberus/queue std parent cyberus bandwidth bla bla/g /etc/pf.conf
+Jan  6 04:43:12 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/bin/sed -n /# QOS/,/# Fin/ p /etc/pf.conf
+Jan  6 04:43:22 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /std parent cyberus bandwidth/d /etc/pf.conf
+Jan  6 04:43:22 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /queue cyberus on /a queue std parent cyberus /etc/pf.conf
+Jan  6 04:43:23 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i s/queue std parent cyberus/queue std parent cyberus bandwidth bla default/g /etc/pf.conf
+Jan  6 04:43:23 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/bin/sed -n /# QOS/,/# Fin/ p /etc/pf.conf
+Jan  6 04:43:30 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /std parent cyberus bandwidth/d /etc/pf.conf
+Jan  6 04:43:30 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i /queue cyberus on /a queue std parent cyberus /etc/pf.conf
+Jan  6 04:43:31 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/local/bin/gsed -i s/queue std parent cyberus/queue std parent cyberus bandwidth 1M default/g /etc/pf.conf
+Jan  6 04:43:31 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/www/htdocs/admin/scripts/pf ; USER=root ; COMMAND=/usr/bin/sed -n /# QOS/,/# Fin/ p /etc/pf.conf
+Jan  6 10:37:13 cyberus sudo:     root : TTY=ttyp1 ; PWD=/var/rrdtool/script ; USER=root ; COMMAND=/bin/ksh
+Jan  6 11:16:37 cyberus sudo:    alain : TTY=ttyp0 ; PWD=/root ; USER=root ; COMMAND=/bin/ls
+Jan  6 11:16:55 cyberus sudo:    alain : command not allowed ; TTY=ttyp0 ; PWD=/root ; USER=root ; COMMAND=/usr/local/bin/bash
+Jan  6 14:40:57 cyberus sudo:     root : TTY=ttyp3 ; PWD=/var/www/script/pf ; USER=root ; COMMAND=/sbin/pfctl -nf /etc/pf.conf
+Jan  6 14:41:06 cyberus sudo:     root : TTY=ttyp3 ; PWD=/var/www/script/pf ; USER=root ; COMMAND=/sbin/pfctl -nf /etc/pf.conf
+Jan  6 14:42:34 cyberus sudo:     root : TTY=ttyp3 ; PWD=/var/www/script/pf ; USER=root ; COMMAND=/sbin/pfctl -nf /etc/pf.conf
+Jan  6 14:42:35 cyberus sudo:     root : TTY=ttyp3 ; PWD=/var/www/script/pf ; USER=root ; COMMAND=/sbin/pfctl -f /etc/pf.conf
+Jan  6 14:42:42 cyberus sudo:     root : TTY=ttyp3 ; PWD=/var/www/script/pf ; USER=root ; COMMAND=/sbin/pfctl -nf /etc/pf.conf
+Jan  6 14:42:42 cyberus sudo:     root : TTY=ttyp3 ; PWD=/var/www/script/pf ; USER=root ; COMMAND=/sbin/pfctl -f /etc/pf.conf
+Jan  6 14:43:08 cyberus sudo:     root : TTY=ttyp3 ; PWD=/var/www/script/pf ; USER=root ; COMMAND=/sbin/pfctl -nf /etc/pf.conf
+Jan  6 14:43:08 cyberus sudo:     root : TTY=ttyp3 ; PWD=/var/www/script/pf ; USER=root ; COMMAND=/sbin/pfctl -f /etc/pf.conf
+Jan  6 15:13:52 cyberus sudo:     root : TTY=ttyp3 ; PWD=/var/www/script/pf_5.6 ; USER=root ; COMMAND=/usr/bin/sed -n /# Macro/,/# Fin/ p /var/www/script/pf_5.6/pf.conf
+Jan  6 15:14:29 cyberus sudo:     root : TTY=ttyp3 ; PWD=/var/www/script/pf_5.6 ; USER=root ; COMMAND=/usr/local/bin/gsed -i /test_macro/d /var/www/script/pf_5.6/pf.conf
+Jan  6 15:14:30 cyberus sudo:     root : TTY=ttyp3 ; PWD=/var/www/script/pf_5.6 ; USER=root ; COMMAND=/usr/local/bin/gsed -i /Macro/a test_macro /var/www/script/pf_5.6/pf.conf
+Jan  6 15:14:30 cyberus sudo:     root : TTY=ttyp3 ; PWD=/var/www/script/pf_5.6 ; USER=root ; COMMAND=/usr/local/bin/gsed -i s/test_macro/test_macro = "coucou, throlol"/g /var/www/script/pf_5.6/pf.conf
+Jan  6 15:14:30 cyberus sudo:     root : TTY=ttyp3 ; PWD=/var/www/script/pf_5.6 ; USER=root ; COMMAND=/sbin/pfctl -nf /etc/pf.conf
+Jan  6 15:14:30 cyberus sudo:     root : TTY=ttyp3 ; PWD=/var/www/script/pf_5.6 ; USER=root ; COMMAND=/sbin/pfctl -f /var/www/script/pf_5.6/pf.conf
+Jan  6 15:14:31 cyberus sudo:     root : TTY=ttyp3 ; PWD=/var/www/script/pf_5.6 ; USER=root ; COMMAND=/usr/bin/sed -n /# Macro/,/# Fin/ p /var/www/script/pf_5.6/pf.conf
+Jan  6 15:17:14 cyberus sudo:     root : TTY=ttyp3 ; PWD=/var/www/script/pf_5.6 ; USER=root ; COMMAND=/usr/local/bin/gsed -i /test_macro/d /var/www/script/pf_5.6/pf.conf
+Jan  6 15:17:14 cyberus sudo:     root : TTY=ttyp3 ; PWD=/var/www/script/pf_5.6 ; USER=root ; COMMAND=/usr/local/bin/gsed -i /Macro/a test_macro /var/www/script/pf_5.6/pf.conf
+Jan  6 15:17:14 cyberus sudo:     root : TTY=ttyp3 ; PWD=/var/www/script/pf_5.6 ; USER=root ; COMMAND=/usr/local/bin/gsed -i s/test_macro/test_macro = "coucou, throlol"/g /var/www/script/pf_5.6/pf.conf
+Jan  6 15:17:15 cyberus sudo:     root : TTY=ttyp3 ; PWD=/var/www/script/pf_5.6 ; USER=root ; COMMAND=/sbin/pfctl -nf /etc/pf.conf
+Jan  6 15:17:15 cyberus sudo:     root : TTY=ttyp3 ; PWD=/var/www/script/pf_5.6 ; USER=root ; COMMAND=/sbin/pfctl -f /var/www/script/pf_5.6/pf.conf
+Jan  6 15:17:15 cyberus sudo:     root : TTY=ttyp3 ; PWD=/var/www/script/pf_5.6 ; USER=root ; COMMAND=/usr/bin/sed -n /# Macro/,/# Fin/ p /var/www/script/pf_5.6/pf.conf
+Jan  6 15:17:20 cyberus sudo:     root : TTY=ttyp3 ; PWD=/var/www/script/pf_5.6 ; USER=root ; COMMAND=/usr/local/bin/gsed -i /test_macro/d /var/www/script/pf_5.6/pf.conf
+Jan  6 15:17:20 cyberus sudo:     root : TTY=ttyp3 ; PWD=/var/www/script/pf_5.6 ; USER=root ; COMMAND=/usr/local/bin/gsed -i /Macro/a test_macro /var/www/script/pf_5.6/pf.conf
+Jan  6 15:17:20 cyberus sudo:     root : TTY=ttyp3 ; PWD=/var/www/script/pf_5.6 ; USER=root ; COMMAND=/usr/local/bin/gsed -i s/test_macro/test_macro = "coucou, throlol"/g /var/www/script/pf_5.6/pf.conf
+Jan  6 15:17:21 cyberus sudo:     root : TTY=ttyp3 ; PWD=/var/www/script/pf_5.6 ; USER=root ; COMMAND=/sbin/pfctl -nf /etc/pf.conf
+Jan  6 15:17:21 cyberus sudo:     root : TTY=ttyp3 ; PWD=/var/www/script/pf_5.6 ; USER=root ; COMMAND=/sbin/pfctl -f /var/www/script/pf_5.6/pf.conf
+Jan  6 15:17:21 cyberus sudo:     root : TTY=ttyp3 ; PWD=/var/www/script/pf_5.6 ; USER=root ; COMMAND=/usr/bin/sed -n /# Macro/,/# Fin/ p /var/www/script/pf_5.6/pf.conf
+Jan  6 15:19:16 cyberus sudo:     root : TTY=ttyp3 ; PWD=/var/www/script/pf_5.6 ; USER=root ; COMMAND=/usr/local/bin/gsed -i /test_macro/d /var/www/script/pf_5.6/pf.conf
+Jan  6 15:19:17 cyberus sudo:     root : TTY=ttyp3 ; PWD=/var/www/script/pf_5.6 ; USER=root ; COMMAND=/usr/local/bin/gsed -i /Macro/a test_macro /var/www/script/pf_5.6/pf.conf
+Jan  6 15:19:17 cyberus sudo:     root : TTY=ttyp3 ; PWD=/var/www/script/pf_5.6 ; USER=root ; COMMAND=/usr/local/bin/gsed -i s/test_macro/test_macro = "coucou, throlol"/g /var/www/script/pf_5.6/pf.conf
+Jan  6 15:19:17 cyberus sudo:     root : TTY=ttyp3 ; PWD=/var/www/script/pf_5.6 ; USER=root ; COMMAND=/sbin/pfctl -nf /etc/pf.conf
+Jan  6 15:19:17 cyberus sudo:     root : TTY=ttyp3 ; PWD=/var/www/script/pf_5.6 ; USER=root ; COMMAND=/sbin/pfctl -f /var/www/script/pf_5.6/pf.conf
+Jan  6 15:19:17 cyberus sudo:     root : TTY=ttyp3 ; PWD=/var/www/script/pf_5.6 ; USER=root ; COMMAND=/usr/bin/sed -n /# Macro/,/# Fin/ p /var/www/script/pf_5.6/pf.conf
+Jan  6 15:19:47 cyberus sudo:     root : TTY=ttyp3 ; PWD=/var/www/script/pf_5.6 ; USER=root ; COMMAND=/usr/bin/sed -n /# Macro/,/# Fin/ p /etc/pf.conf
+Jan  6 15:20:35 cyberus sudo:     root : TTY=ttyp3 ; PWD=/var/www/script/pf_5.6 ; USER=root ; COMMAND=/usr/bin/sed -n /# Macro/,/# Fin/ p /etc/pf.conf
+Jan  6 15:20:38 cyberus sudo:     root : TTY=ttyp3 ; PWD=/var/www/script/pf_5.6 ; USER=root ; COMMAND=/usr/bin/sed -n /# Macro/,/# Fin/ p /etc/pf.conf
+Jan  6 15:20:43 cyberus sudo:     root : TTY=ttyp3 ; PWD=/var/www/script/pf_5.6 ; USER=root ; COMMAND=/usr/bin/sed -n /# Macro/,/# Fin/ p /etc/pf.conf
+Jan  6 15:21:03 cyberus sudo:     root : TTY=ttyp3 ; PWD=/var/www/script/pf_5.6 ; USER=root ; COMMAND=/usr/bin/sed -n /# Macro/,/# Fin/ p /var/www/script/pf_5.6/pf.conf
+Jan  6 15:21:12 cyberus sudo:     root : TTY=ttyp3 ; PWD=/var/www/script/pf_5.6 ; USER=root ; COMMAND=/usr/local/bin/gsed -i /test_macro/d /var/www/script/pf_5.6/pf.conf
+Jan  6 15:21:12 cyberus sudo:     root : TTY=ttyp3 ; PWD=/var/www/script/pf_5.6 ; USER=root ; COMMAND=/sbin/pfctl -nf /var/www/script/pf_5.6/pf.conf
+Jan  6 15:21:13 cyberus sudo:     root : TTY=ttyp3 ; PWD=/var/www/script/pf_5.6 ; USER=root ; COMMAND=/sbin/pfctl -f /var/www/script/pf_5.6/pf.conf
+Jan  6 15:21:16 cyberus sudo:     root : TTY=ttyp3 ; PWD=/var/www/script/pf_5.6 ; USER=root ; COMMAND=/usr/bin/sed -n /# Macro/,/# Fin/ p /var/www/script/pf_5.6/pf.conf
+Jan  6 15:30:36 cyberus sudo:     root : TTY=ttyp3 ; PWD=/var/www/script/pf_5.6 ; USER=root ; COMMAND=/bin/cat /etc/pf.conf
+Jan  6 15:30:56 cyberus sudo:     root : TTY=ttyp3 ; PWD=/var/www/script/pf_5.6 ; USER=root ; COMMAND=/usr/local/bin/gsed -i /table <badguys> persist/d /var/www/script/pf_5.6/pf.conf
+Jan  6 15:30:56 cyberus sudo:     root : TTY=ttyp3 ; PWD=/var/www/script/pf_5.6 ; USER=root ; COMMAND=/usr/local/bin/gsed -i /Table_list/a table <badguys> persist /var/www/script/pf_5.6/pf.conf
+Jan  6 15:30:56 cyberus sudo:     root : TTY=ttyp3 ; PWD=/var/www/script/pf_5.6 ; USER=root ; COMMAND=/sbin/pfctl -nf /var/www/script/pf_5.6/pf.conf
+Jan  6 15:30:57 cyberus sudo:     root : TTY=ttyp3 ; PWD=/var/www/script/pf_5.6 ; USER=root ; COMMAND=/sbin/pfctl -f /etc/pf.conf
+Jan  6 15:30:57 cyberus sudo:     root : TTY=ttyp3 ; PWD=/var/www/script/pf_5.6 ; USER=root ; COMMAND=/bin/cat /etc/pf.conf
+Jan  6 15:53:38 cyberus sudo:     root : TTY=ttyp3 ; PWD=/var/www/script/pf_5.6 ; USER=root ; COMMAND=/usr/local/bin/gsed -i /# QOS_free/,/# Fin/d} /var/www/script/pf_5.6/pf.conf
+Jan  6 15:53:38 cyberus sudo:     root : TTY=ttyp3 ; PWD=/var/www/script/pf_5.6 ; USER=root ; COMMAND=/usr/local/bin/gsed -i /# Block_QOS_free/,/# Fin/d} /var/www/script/pf_5.6/pf.conf
+Jan  6 15:53:40 cyberus sudo:     root : TTY=ttyp3 ; PWD=/var/www/script/pf_5.6 ; USER=root ; COMMAND=/usr/local/bin/gsed -i /# Pass_QOS_free/,/# Fin/d} /var/www/script/pf_5.6/pf.conf
+Jan  6 15:53:42 cyberus sudo:     root : TTY=ttyp3 ; PWD=/var/www/script/pf_5.6 ; USER=root ; COMMAND=/usr/local/bin/gsed -i /QOS/a  # QOS_free \\ # Fin /var/www/script/pf_5.6/pf.conf
+Jan  6 15:53:43 cyberus sudo:     root : TTY=ttyp3 ; PWD=/var/www/script/pf_5.6 ; USER=root ; COMMAND=/usr/local/bin/gsed -i /QOS_free/a queue free on $lan_macro bandwidth 15M /var/www/script/pf_5.6/pf.conf
+Jan  6 15:53:44 cyberus sudo:     root : TTY=ttyp3 ; PWD=/var/www/script/pf_5.6 ; USER=root ; COMMAND=/usr/bin/sed -n /# QOS/,/# Fin/ p /var/www/script/pf_5.6/pf.conf
+Jan  6 15:59:45 cyberus sudo:     root : TTY=ttyp3 ; PWD=/var/www/script/pf_5.6 ; USER=root ; COMMAND=/usr/local/bin/gsed -i /# QOS_free/,/# Fin/d} /var/www/script/pf_5.6/pf.conf
+Jan  6 15:59:45 cyberus sudo:     root : TTY=ttyp3 ; PWD=/var/www/script/pf_5.6 ; USER=root ; COMMAND=/usr/local/bin/gsed -i /# Block_QOS_free/,/# Fin/d} /var/www/script/pf_5.6/pf.conf
+Jan  6 15:59:45 cyberus sudo:     root : TTY=ttyp3 ; PWD=/var/www/script/pf_5.6 ; USER=root ; COMMAND=/usr/local/bin/gsed -i /# Pass_QOS_free/,/# Fin/d} /var/www/script/pf_5.6/pf.conf
+Jan  6 15:59:45 cyberus sudo:     root : TTY=ttyp3 ; PWD=/var/www/script/pf_5.6 ; USER=root ; COMMAND=/usr/local/bin/gsed -i /Queue/a  # QOS_free /n # Fin /var/www/script/pf_5.6/pf.conf
+Jan  6 15:59:45 cyberus sudo:     root : TTY=ttyp3 ; PWD=/var/www/script/pf_5.6 ; USER=root ; COMMAND=/usr/local/bin/gsed -i /QOS_free/a queue free on $lan_macro bandwidth 15M /var/www/script/pf_5.6/pf.conf
+Jan  6 15:59:46 cyberus sudo:     root : TTY=ttyp3 ; PWD=/var/www/script/pf_5.6 ; USER=root ; COMMAND=/usr/bin/sed -n /# QOS/,/# Fin/ p /var/www/script/pf_5.6/pf.conf
+Jan  6 16:00:40 cyberus sudo:     root : TTY=ttyp3 ; PWD=/var/www/script/pf_5.6 ; USER=root ; COMMAND=/usr/local/bin/gsed -i /# QOS_free/,/# Fin/d} /var/www/script/pf_5.6/pf.conf
+Jan  6 16:00:40 cyberus sudo:     root : TTY=ttyp3 ; PWD=/var/www/script/pf_5.6 ; USER=root ; COMMAND=/usr/local/bin/gsed -i /# Block_QOS_free/,/# Fin/d} /var/www/script/pf_5.6/pf.conf
+Jan  6 16:00:40 cyberus sudo:     root : TTY=ttyp3 ; PWD=/var/www/script/pf_5.6 ; USER=root ; COMMAND=/usr/local/bin/gsed -i /# Pass_QOS_free/,/# Fin/d} /var/www/script/pf_5.6/pf.conf
+Jan  6 16:00:43 cyberus sudo:     root : TTY=ttyp3 ; PWD=/var/www/script/pf_5.6 ; USER=root ; COMMAND=/usr/local/bin/gsed -i /Queue/a  # QOS_free /n # Fin /var/www/script/pf_5.6/pf.conf
+Jan  6 16:00:43 cyberus sudo:     root : TTY=ttyp3 ; PWD=/var/www/script/pf_5.6 ; USER=root ; COMMAND=/usr/local/bin/gsed -i /QOS_free/a queue free on $lan_macro bandwidth 15M /var/www/script/pf_5.6/pf.conf
+Jan  6 16:00:44 cyberus sudo:     root : TTY=ttyp3 ; PWD=/var/www/script/pf_5.6 ; USER=root ; COMMAND=/usr/bin/sed -n /# QOS/,/# Fin/ p /var/www/script/pf_5.6/pf.conf
+Jan  6 16:02:58 cyberus sudo:     root : TTY=ttyp3 ; PWD=/var/www/script/pf_5.6 ; USER=root ; COMMAND=/usr/local/bin/gsed -i /# QOS_free/,/# Fin/d} /var/www/script/pf_5.6/pf.conf
+Jan  6 16:02:58 cyberus sudo:     root : TTY=ttyp3 ; PWD=/var/www/script/pf_5.6 ; USER=root ; COMMAND=/usr/local/bin/gsed -i /# Block_QOS_free/,/# Fin/d} /var/www/script/pf_5.6/pf.conf
+Jan  6 16:02:58 cyberus sudo:     root : TTY=ttyp3 ; PWD=/var/www/script/pf_5.6 ; USER=root ; COMMAND=/usr/local/bin/gsed -i /# Pass_QOS_free/,/# Fin/d} /var/www/script/pf_5.6/pf.conf
+Jan  6 16:02:58 cyberus sudo:     root : TTY=ttyp3 ; PWD=/var/www/script/pf_5.6 ; USER=root ; COMMAND=/usr/local/bin/gsed -i /Queue/a  # QOS_free /var/www/script/pf_5.6/pf.conf
+Jan  6 16:02:58 cyberus sudo:     root : TTY=ttyp3 ; PWD=/var/www/script/pf_5.6 ; USER=root ; COMMAND=/usr/local/bin/gsed -i /QOS_free/a  # Fin  /var/www/script/pf_5.6/pf.conf
+Jan  6 16:02:59 cyberus sudo:     root : TTY=ttyp3 ; PWD=/var/www/script/pf_5.6 ; USER=root ; COMMAND=/usr/local/bin/gsed -i /QOS_free/a queue free on $lan_macro bandwidth 15M /var/www/script/pf_5.6/pf.conf
+Jan  6 16:02:59 cyberus sudo:     root : TTY=ttyp3 ; PWD=/var/www/script/pf_5.6 ; USER=root ; COMMAND=/usr/bin/sed -n /# QOS/,/# Fin/ p /var/www/script/pf_5.6/pf.conf
+Jan  6 16:03:55 cyberus sudo:     root : TTY=ttyp3 ; PWD=/var/www/script/pf_5.6 ; USER=root ; COMMAND=/usr/local/bin/gsed -i /# QOS_free/,/# Fin/d} /var/www/script/pf_5.6/pf.conf
+Jan  6 16:03:55 cyberus sudo:     root : TTY=ttyp3 ; PWD=/var/www/script/pf_5.6 ; USER=root ; COMMAND=/usr/local/bin/gsed -i /# Block_QOS_free/,/# Fin/d} /var/www/script/pf_5.6/pf.conf
+Jan  6 16:03:56 cyberus sudo:     root : TTY=ttyp3 ; PWD=/var/www/script/pf_5.6 ; USER=root ; COMMAND=/usr/local/bin/gsed -i /# Pass_QOS_free/,/# Fin/d} /var/www/script/pf_5.6/pf.conf
+Jan  6 16:03:56 cyberus sudo:     root : TTY=ttyp3 ; PWD=/var/www/script/pf_5.6 ; USER=root ; COMMAND=/usr/local/bin/gsed -i /Queue/a  \\# QOS_free /var/www/script/pf_5.6/pf.conf
+Jan  6 16:03:56 cyberus sudo:     root : TTY=ttyp3 ; PWD=/var/www/script/pf_5.6 ; USER=root ; COMMAND=/usr/local/bin/gsed -i /QOS_free/a  \\# Fin  /var/www/script/pf_5.6/pf.conf
+Jan  6 16:03:56 cyberus sudo:     root : TTY=ttyp3 ; PWD=/var/www/script/pf_5.6 ; USER=root ; COMMAND=/usr/local/bin/gsed -i /QOS_free/a queue free on $lan_macro bandwidth 15M /var/www/script/pf_5.6/pf.conf
+Jan  6 16:03:57 cyberus sudo:     root : TTY=ttyp3 ; PWD=/var/www/script/pf_5.6 ; USER=root ; COMMAND=/usr/bin/sed -n /# QOS/,/# Fin/ p /var/www/script/pf_5.6/pf.conf
+Jan  6 16:06:58 cyberus sudo:     root : TTY=ttyp3 ; PWD=/var/www/script/pf_5.6 ; USER=root ; COMMAND=/usr/local/bin/gsed -i /# QOS_free/,/# Fin/d} /var/www/script/pf_5.6/pf.conf
+Jan  6 16:06:58 cyberus sudo:     root : TTY=ttyp3 ; PWD=/var/www/script/pf_5.6 ; USER=root ; COMMAND=/usr/local/bin/gsed -i /# Block_QOS_free/,/# Fin/d} /var/www/script/pf_5.6/pf.conf
+Jan  6 16:06:59 cyberus sudo:     root : TTY=ttyp3 ; PWD=/var/www/script/pf_5.6 ; USER=root ; COMMAND=/usr/local/bin/gsed -i /# Pass_QOS_free/,/# Fin/d} /var/www/script/pf_5.6/pf.conf
+Jan  6 16:06:59 cyberus sudo:     root : TTY=ttyp3 ; PWD=/var/www/script/pf_5.6 ; USER=root ; COMMAND=/usr/local/bin/gsed -i /Queue/a  \\# QOS_free /var/www/script/pf_5.6/pf.conf
+Jan  6 16:06:59 cyberus sudo:     root : TTY=ttyp3 ; PWD=/var/www/script/pf_5.6 ; USER=root ; COMMAND=/usr/local/bin/gsed -i /QOS_free/a  \\# Fin  /var/www/script/pf_5.6/pf.conf
+Jan  6 16:06:59 cyberus sudo:     root : TTY=ttyp3 ; PWD=/var/www/script/pf_5.6 ; USER=root ; COMMAND=/usr/local/bin/gsed -i /QOS_free/a queue free on $lan_macro bandwidth 15M /var/www/script/pf_5.6/pf.conf
+Jan  6 16:06:59 cyberus sudo:     root : TTY=ttyp3 ; PWD=/var/www/script/pf_5.6 ; USER=root ; COMMAND=/usr/bin/sed -n /# QOS/,/# Fin/ p /var/www/script/pf_5.6/pf.conf
+Jan  6 16:07:11 cyberus sudo:     root : TTY=ttyp3 ; PWD=/var/www/script/pf_5.6 ; USER=root ; COMMAND=/usr/local/bin/gsed -i /# QOS_free/,/# Fin/d} /var/www/script/pf_5.6/pf.conf
+Jan  6 16:07:12 cyberus sudo:     root : TTY=ttyp3 ; PWD=/var/www/script/pf_5.6 ; USER=root ; COMMAND=/usr/local/bin/gsed -i /# Block_QOS_free/,/# Fin/d} /var/www/script/pf_5.6/pf.conf
+Jan  6 16:07:13 cyberus sudo:     root : TTY=ttyp3 ; PWD=/var/www/script/pf_5.6 ; USER=root ; COMMAND=/usr/local/bin/gsed -i /# Pass_QOS_free/,/# Fin/d} /var/www/script/pf_5.6/pf.conf
+Jan  6 16:07:14 cyberus sudo:     root : TTY=ttyp3 ; PWD=/var/www/script/pf_5.6 ; USER=root ; COMMAND=/usr/local/bin/gsed -i /Queue/a  \\# QOS_free /var/www/script/pf_5.6/pf.conf
+Jan  6 16:07:15 cyberus sudo:     root : TTY=ttyp3 ; PWD=/var/www/script/pf_5.6 ; USER=root ; COMMAND=/usr/local/bin/gsed -i /QOS_free/a  \\# Fin  /var/www/script/pf_5.6/pf.conf
+Jan  6 16:07:15 cyberus sudo:     root : TTY=ttyp3 ; PWD=/var/www/script/pf_5.6 ; USER=root ; COMMAND=/usr/local/bin/gsed -i /QOS_free/a queue free on $lan_macro bandwidth 15M /var/www/script/pf_5.6/pf.conf
+Jan  6 16:07:15 cyberus sudo:     root : TTY=ttyp3 ; PWD=/var/www/script/pf_5.6 ; USER=root ; COMMAND=/usr/bin/sed -n /# QOS/,/# Fin/ p /var/www/script/pf_5.6/pf.conf
+Jan  6 16:10:10 cyberus sudo:     root : TTY=ttyp3 ; PWD=/var/www/script/pf_5.6 ; USER=root ; COMMAND=/usr/local/bin/gsed -i /# QOS_free/,/# Fin/d} /var/www/script/pf_5.6/pf.conf
+Jan  6 16:10:10 cyberus sudo:     root : TTY=ttyp3 ; PWD=/var/www/script/pf_5.6 ; USER=root ; COMMAND=/usr/local/bin/gsed -i /# Block_QOS_free/,/# Fin/d} /var/www/script/pf_5.6/pf.conf
+Jan  6 16:10:10 cyberus sudo:     root : TTY=ttyp3 ; PWD=/var/www/script/pf_5.6 ; USER=root ; COMMAND=/usr/local/bin/gsed -i /# Pass_QOS_free/,/# Fin/d} /var/www/script/pf_5.6/pf.conf
+Jan  6 16:10:13 cyberus sudo:     root : TTY=ttyp3 ; PWD=/var/www/script/pf_5.6 ; USER=root ; COMMAND=/usr/local/bin/gsed -i /Queue/a  \\# QOS_free /var/www/script/pf_5.6/pf.conf
+Jan  6 16:10:14 cyberus sudo:     root : TTY=ttyp3 ; PWD=/var/www/script/pf_5.6 ; USER=root ; COMMAND=/usr/local/bin/gsed -i /QOS_free/a  \\# Fin  /var/www/script/pf_5.6/pf.conf
+Jan  6 16:10:15 cyberus sudo:     root : TTY=ttyp3 ; PWD=/var/www/script/pf_5.6 ; USER=root ; COMMAND=/usr/local/bin/gsed -i /QOS_free/a queue free on $lan_macro bandwidth 15M /var/www/script/pf_5.6/pf.conf
+Jan  6 16:10:15 cyberus sudo:     root : TTY=ttyp3 ; PWD=/var/www/script/pf_5.6 ; USER=root ; COMMAND=/usr/bin/sed -n /# QOS/,/# Fin/ p /var/www/script/pf_5.6/pf.conf
+Jan  6 16:10:17 cyberus sudo:     root : TTY=ttyp3 ; PWD=/var/www/script/pf_5.6 ; USER=root ; COMMAND=/usr/local/bin/gsed -i /# QOS_free/,/# Fin/d} /var/www/script/pf_5.6/pf.conf
+Jan  6 16:10:17 cyberus sudo:     root : TTY=ttyp3 ; PWD=/var/www/script/pf_5.6 ; USER=root ; COMMAND=/usr/local/bin/gsed -i /# Block_QOS_free/,/# Fin/d} /var/www/script/pf_5.6/pf.conf
+Jan  6 16:10:17 cyberus sudo:     root : TTY=ttyp3 ; PWD=/var/www/script/pf_5.6 ; USER=root ; COMMAND=/usr/local/bin/gsed -i /# Pass_QOS_free/,/# Fin/d} /var/www/script/pf_5.6/pf.conf
+Jan  6 16:10:17 cyberus sudo:     root : TTY=ttyp3 ; PWD=/var/www/script/pf_5.6 ; USER=root ; COMMAND=/usr/local/bin/gsed -i /Queue/a  \\# QOS_free /var/www/script/pf_5.6/pf.conf
+Jan  6 16:10:17 cyberus sudo:     root : TTY=ttyp3 ; PWD=/var/www/script/pf_5.6 ; USER=root ; COMMAND=/usr/local/bin/gsed -i /QOS_free/a  \\# Fin  /var/www/script/pf_5.6/pf.conf
+Jan  6 16:10:17 cyberus sudo:     root : TTY=ttyp3 ; PWD=/var/www/script/pf_5.6 ; USER=root ; COMMAND=/usr/local/bin/gsed -i /QOS_free/a queue free on $lan_macro bandwidth 15M /var/www/script/pf_5.6/pf.conf
+Jan  6 16:10:18 cyberus sudo:     root : TTY=ttyp3 ; PWD=/var/www/script/pf_5.6 ; USER=root ; COMMAND=/usr/bin/sed -n /# QOS/,/# Fin/ p /var/www/script/pf_5.6/pf.conf
+Jan  6 16:17:06 cyberus sudo:     root : TTY=ttyp3 ; PWD=/var/www/script/pf_5.6 ; USER=root ; COMMAND=/usr/local/bin/gsed -i /# QOS_free/,/# Fin/d /etc/pf.conf
+Jan  6 16:17:07 cyberus sudo:     root : TTY=ttyp3 ; PWD=/var/www/script/pf_5.6 ; USER=root ; COMMAND=/usr/local/bin/gsed -i /# Block_QOS/,/# Fin/d /etc/pf.conf
+Jan  6 16:18:29 cyberus sudo:     root : TTY=ttyp3 ; PWD=/var/www/script/pf_5.6 ; USER=root ; COMMAND=/usr/local/bin/gsed -i /# QOS_free/,/# Fin/d /etc/pf.conf
+Jan  6 16:18:30 cyberus sudo:     root : TTY=ttyp3 ; PWD=/var/www/script/pf_5.6 ; USER=root ; COMMAND=/usr/local/bin/gsed -i /# Block_QOS/,/# Fin/d /etc/pf.conf
+Jan  6 16:18:30 cyberus sudo:     root : TTY=ttyp3 ; PWD=/var/www/script/pf_5.6 ; USER=root ; COMMAND=/usr/local/bin/gsed -i /# Pass_QOS/,/#' Fin /d /etc/pf.conf
+Jan  6 16:18:30 cyberus sudo:     root : TTY=ttyp3 ; PWD=/var/www/script/pf_5.6 ; USER=root ; COMMAND=/usr/local/bin/gsed -i /Queue/a  \\# QOS_free /var/www/script/pf_5.6/pf.conf
+Jan  6 16:18:30 cyberus sudo:     root : TTY=ttyp3 ; PWD=/var/www/script/pf_5.6 ; USER=root ; COMMAND=/usr/local/bin/gsed -i /QOS_free/a  \\# Fin  /var/www/script/pf_5.6/pf.conf
+Jan  6 16:18:30 cyberus sudo:     root : TTY=ttyp3 ; PWD=/var/www/script/pf_5.6 ; USER=root ; COMMAND=/usr/local/bin/gsed -i /QOS_free/a queue free on $lan_macro bandwidth 15M /var/www/script/pf_5.6/pf.conf
+Jan  6 16:18:31 cyberus sudo:     root : TTY=ttyp3 ; PWD=/var/www/script/pf_5.6 ; USER=root ; COMMAND=/usr/bin/sed -n /# QOS/,/# Fin/ p /var/www/script/pf_5.6/pf.conf
+Jan  6 16:18:38 cyberus sudo:     root : TTY=ttyp3 ; PWD=/var/www/script/pf_5.6 ; USER=root ; COMMAND=/usr/local/bin/gsed -i /# QOS_free/,/# Fin/d /etc/pf.conf
+Jan  6 16:18:39 cyberus sudo:     root : TTY=ttyp3 ; PWD=/var/www/script/pf_5.6 ; USER=root ; COMMAND=/usr/local/bin/gsed -i /# Block_QOS/,/# Fin/d /etc/pf.conf
+Jan  6 16:18:42 cyberus sudo:     root : TTY=ttyp3 ; PWD=/var/www/script/pf_5.6 ; USER=root ; COMMAND=/usr/local/bin/gsed -i /# Pass_QOS/,/#' Fin /d /etc/pf.conf
+Jan  6 16:18:43 cyberus sudo:     root : TTY=ttyp3 ; PWD=/var/www/script/pf_5.6 ; USER=root ; COMMAND=/usr/local/bin/gsed -i /Queue/a  \\# QOS_free /var/www/script/pf_5.6/pf.conf
+Jan  6 16:18:44 cyberus sudo:     root : TTY=ttyp3 ; PWD=/var/www/script/pf_5.6 ; USER=root ; COMMAND=/usr/local/bin/gsed -i /QOS_free/a  \\# Fin  /var/www/script/pf_5.6/pf.conf
+Jan  6 16:18:44 cyberus sudo:     root : TTY=ttyp3 ; PWD=/var/www/script/pf_5.6 ; USER=root ; COMMAND=/usr/local/bin/gsed -i /QOS_free/a queue free on $lan_macro bandwidth 15M /var/www/script/pf_5.6/pf.conf
+Jan  6 16:18:45 cyberus sudo:     root : TTY=ttyp3 ; PWD=/var/www/script/pf_5.6 ; USER=root ; COMMAND=/usr/bin/sed -n /# QOS/,/# Fin/ p /var/www/script/pf_5.6/pf.conf
+Jan  6 16:18:53 cyberus sudo:     root : TTY=ttyp3 ; PWD=/var/www/script/pf_5.6 ; USER=root ; COMMAND=/usr/local/bin/gsed -i /# QOS_free/,/# Fin/d /etc/pf.conf
+Jan  6 16:18:53 cyberus sudo:     root : TTY=ttyp3 ; PWD=/var/www/script/pf_5.6 ; USER=root ; COMMAND=/usr/local/bin/gsed -i /# Block_QOS/,/# Fin/d /etc/pf.conf
+Jan  6 16:18:54 cyberus sudo:     root : TTY=ttyp3 ; PWD=/var/www/script/pf_5.6 ; USER=root ; COMMAND=/usr/local/bin/gsed -i /# Pass_QOS/,/#' Fin /d /etc/pf.conf
+Jan  6 16:18:54 cyberus sudo:     root : TTY=ttyp3 ; PWD=/var/www/script/pf_5.6 ; USER=root ; COMMAND=/usr/local/bin/gsed -i /Queue/a  \\# QOS_free /var/www/script/pf_5.6/pf.conf
+Jan  6 16:18:54 cyberus sudo:     root : TTY=ttyp3 ; PWD=/var/www/script/pf_5.6 ; USER=root ; COMMAND=/usr/local/bin/gsed -i /QOS_free/a  \\# Fin  /var/www/script/pf_5.6/pf.conf
+Jan  6 16:18:54 cyberus sudo:     root : TTY=ttyp3 ; PWD=/var/www/script/pf_5.6 ; USER=root ; COMMAND=/usr/local/bin/gsed -i /QOS_free/a queue free on $lan_macro bandwidth 15M /var/www/script/pf_5.6/pf.conf
+Jan  6 16:18:54 cyberus sudo:     root : TTY=ttyp3 ; PWD=/var/www/script/pf_5.6 ; USER=root ; COMMAND=/usr/bin/sed -n /# QOS/,/# Fin/ p /var/www/script/pf_5.6/pf.conf
+Jan  6 16:19:28 cyberus sudo:     root : TTY=ttyp3 ; PWD=/var/www/script/pf_5.6 ; USER=root ; COMMAND=/usr/local/bin/gsed -i /# QOS_$name_parent/,/# Fin/d /etc/pf.conf
+Jan  6 16:19:28 cyberus sudo:     root : TTY=ttyp3 ; PWD=/var/www/script/pf_5.6 ; USER=root ; COMMAND=/usr/local/bin/gsed -i /# Block_QOS/,/# Fin/d /etc/pf.conf
+Jan  6 16:19:28 cyberus sudo:     root : TTY=ttyp3 ; PWD=/var/www/script/pf_5.6 ; USER=root ; COMMAND=/usr/local/bin/gsed -i /# Pass_QOS/,/#' Fin /d /etc/pf.conf
+Jan  6 16:19:28 cyberus sudo:     root : TTY=ttyp3 ; PWD=/var/www/script/pf_5.6 ; USER=root ; COMMAND=/usr/local/bin/gsed -i /Queue/a  \\# QOS_free /var/www/script/pf_5.6/pf.conf
+Jan  6 16:19:29 cyberus sudo:     root : TTY=ttyp3 ; PWD=/var/www/script/pf_5.6 ; USER=root ; COMMAND=/usr/local/bin/gsed -i /QOS_free/a  \\# Fin  /var/www/script/pf_5.6/pf.conf
+Jan  6 16:19:29 cyberus sudo:     root : TTY=ttyp3 ; PWD=/var/www/script/pf_5.6 ; USER=root ; COMMAND=/usr/local/bin/gsed -i /QOS_free/a queue free on $lan_macro bandwidth 15M /var/www/script/pf_5.6/pf.conf
+Jan  6 16:19:29 cyberus sudo:     root : TTY=ttyp3 ; PWD=/var/www/script/pf_5.6 ; USER=root ; COMMAND=/usr/bin/sed -n /# QOS/,/# Fin/ p /var/www/script/pf_5.6/pf.conf
+Jan  6 16:19:38 cyberus sudo:     root : TTY=ttyp3 ; PWD=/var/www/script/pf_5.6 ; USER=root ; COMMAND=/usr/local/bin/gsed -i /# QOS_$name_parent/,/# Fin/d /etc/pf.conf
+Jan  6 16:19:40 cyberus sudo:     root : TTY=ttyp3 ; PWD=/var/www/script/pf_5.6 ; USER=root ; COMMAND=/usr/local/bin/gsed -i /# Block_QOS/,/# Fin/d /etc/pf.conf
+Jan  6 16:19:43 cyberus sudo:     root : TTY=ttyp3 ; PWD=/var/www/script/pf_5.6 ; USER=root ; COMMAND=/usr/local/bin/gsed -i /# Pass_QOS/,/#' Fin /d /etc/pf.conf
+Jan  6 16:19:43 cyberus sudo:     root : TTY=ttyp3 ; PWD=/var/www/script/pf_5.6 ; USER=root ; COMMAND=/usr/local/bin/gsed -i /Queue/a  \\# QOS_free /var/www/script/pf_5.6/pf.conf
+Jan  6 16:19:44 cyberus sudo:     root : TTY=ttyp3 ; PWD=/var/www/script/pf_5.6 ; USER=root ; COMMAND=/usr/local/bin/gsed -i /QOS_free/a  \\# Fin  /var/www/script/pf_5.6/pf.conf
+Jan  6 16:19:45 cyberus sudo:     root : TTY=ttyp3 ; PWD=/var/www/script/pf_5.6 ; USER=root ; COMMAND=/usr/local/bin/gsed -i /QOS_free/a queue free on $lan_macro bandwidth 15M /var/www/script/pf_5.6/pf.conf
+Jan  6 16:19:45 cyberus sudo:     root : TTY=ttyp3 ; PWD=/var/www/script/pf_5.6 ; USER=root ; COMMAND=/usr/bin/sed -n /# QOS/,/# Fin/ p /var/www/script/pf_5.6/pf.conf
+Jan  6 16:20:27 cyberus sudo:     root : TTY=ttyp3 ; PWD=/var/www/script/pf_5.6 ; USER=root ; COMMAND=/usr/local/bin/gsed -i /'\\#\\ QOS_'free''/,/'\\#\\ Fin'/d /etc/pf.conf
+Jan  6 16:20:28 cyberus sudo:     root : TTY=ttyp3 ; PWD=/var/www/script/pf_5.6 ; USER=root ; COMMAND=/usr/local/bin/gsed -i /# Block_QOS/,/# Fin/d /etc/pf.conf
+Jan  6 16:20:28 cyberus sudo:     root : TTY=ttyp3 ; PWD=/var/www/script/pf_5.6 ; USER=root ; COMMAND=/usr/local/bin/gsed -i /# Pass_QOS/,/#' Fin /d /etc/pf.conf
+Jan  6 16:20:28 cyberus sudo:     root : TTY=ttyp3 ; PWD=/var/www/script/pf_5.6 ; USER=root ; COMMAND=/usr/local/bin/gsed -i /Queue/a  \\# QOS_free /var/www/script/pf_5.6/pf.conf
+Jan  6 16:20:28 cyberus sudo:     root : TTY=ttyp3 ; PWD=/var/www/script/pf_5.6 ; USER=root ; COMMAND=/usr/local/bin/gsed -i /QOS_free/a  \\# Fin  /var/www/script/pf_5.6/pf.conf
+Jan  6 16:20:28 cyberus sudo:     root : TTY=ttyp3 ; PWD=/var/www/script/pf_5.6 ; USER=root ; COMMAND=/usr/local/bin/gsed -i /QOS_free/a queue free on $lan_macro bandwidth 15M /var/www/script/pf_5.6/pf.conf
+Jan  6 16:20:29 cyberus sudo:     root : TTY=ttyp3 ; PWD=/var/www/script/pf_5.6 ; USER=root ; COMMAND=/usr/bin/sed -n /# QOS/,/# Fin/ p /var/www/script/pf_5.6/pf.conf

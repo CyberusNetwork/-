@@ -1,0 +1,40 @@
+@comment $OpenBSD: PLIST-gd,v 1.3 2013/08/08 19:11:57 robert Exp $
+@name php-gd-5.4.30
+@url http://ftp.fr.openbsd.org/pub/OpenBSD/5.6/packages/i386/php-gd-5.4.30.tgz
+@signer openbsd-56-pkg
+@digital-signature signify:2014-08-02T11:05:04Z:RWSPEf7Vpp2j0JSOkdjeX/6MYiiOqi/b9fND7xUVS63OT70HzONiwmKk1nhBBx2+WbwM6zG8DcFIj3+v+6c7lQ6cuiUquAMskQg=
+@option no-default-conflict
+@comment pkgpath=lang/php/5.4,-gd cdrom=yes ftp=yes
+@arch i386
++DESC
+@sha zyBXWYCzFLKwh2yi9lHaBFbUnqEPwokCX/2h6wGuQtc=
+@size 658
++DISPLAY
+@sha hWkLW0oNGavuwT+Sur4friH0hytx8/nkUaf4NLkORAk=
+@size 179
++UNDISPLAY
+@sha 5zdsBh4414Z+MEUC6yN854MfMBFTUsqJ0KUz5dmdNqs=
+@size 119
+@conflict php-gd->=5.4,<5.5
+@conflict php5-gd->=5.2
+@pkgpath lang/php/5.2,-gd
+@depend devel/t1lib:t1lib-*:t1lib-5.1.2
+@depend graphics/jpeg:jpeg-*:jpeg-9a
+@depend graphics/png:png-*:png-1.6.12
+@depend lang/php/5.4,-main:php-5.4.30:php-5.4.30p0
+@wantlib X11.16.0
+@wantlib Xpm.9.0
+@wantlib freetype.22.0
+@wantlib jpeg.67.0
+@wantlib png.17.2
+@wantlib pthread.18.0
+@wantlib t1.6.0
+@wantlib z.5.0
+@cwd /usr/local
+lib/php-5.4/modules/gd.so
+@sha Lu8m1ta0BDOZL9HbYd1Ee7SntMHpwUjaltQQYzqAuoQ=
+@size 346190
+share/examples/php-5.4/gd.ini
+@sha Fm4Boaks8YqYoqxSg6OTOKNkjTV/JGpjNlbhGy1oKPQ=
+@size 16
+@sample /etc/php-5.4.sample/gd.ini

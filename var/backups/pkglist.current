@@ -69,11 +69,12 @@ p5-PlRPC-0.2018p1   module for writing rpc servers and clients
 p5-SQL-Statement-1.405 sql parsing and processing
 pango-1.36.5        library for layout and rendering of text
 pcre-8.35           perl-compatible regular expression library
-php-5.4.35-ap2      server-side HTML-embedded scripting language
-php-gd-5.4.35       image manipulation extensions for php5
-php-mcrypt-5.4.35   mcrypt encryption/decryption extensions for php5
-php-mysqli-5.4.35   mysql database access extensions for php5
-phpMyAdmin-4.3.0    tool to handle the administration of MySQL over the web
+php-5.4.30p0-ap2    server-side HTML-embedded scripting language
+php-gd-5.4.30       image manipulation extensions for php5
+php-mcrypt-5.4.30   mcrypt encryption/decryption extensions for php5
+php-mysqli-5.4.30   mysql database access extensions for php5
+php-pdo_mysql-5.4.30 PDO mysql database access extensions for php5
+phpMyAdmin-4.2.2p1  tool to handle the administration of MySQL over the web
 png-1.6.12          library for manipulating PNG images
 python-2.7.8        interpreted object-oriented programming language
 quirks-2.9          exceptions to pkg_add rules

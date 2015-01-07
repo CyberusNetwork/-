@@ -1,0 +1,8 @@
+To enable the php-5.4 module please create a symbolic link from
+/var/www/conf/modules.sample/php-5.4.conf to
+/var/www/conf/modules/php.conf. As root:
+
+    ln -sf /var/www/conf/modules.sample/php-5.4.conf /var/www/conf/modules/php.conf
+
+The recommended php configuration has been installed to:
+    /etc/php-5.4.ini.

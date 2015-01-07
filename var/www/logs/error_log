@@ -124,3 +124,171 @@ Warning: DocumentRoot [/var/apache2/docs/dummy-host2.example.com] does not exist
 [Fri Dec 19 13:50:45 2014] [error] [client 10.8.97.1] PHP Parse error:  syntax error, unexpected '__construct' (T_STRING) in /var/www/htdocs/admin/account/model/UserModel.php on line 22, referer: http://cbnet.itinet.fr/admin/login.php
 [Fri Dec 19 14:11:03 2014] [error] [client 10.8.97.1] File does not exist: /var/www/htdocs/favicon.ico
 [Fri Dec 19 14:32:08 2014] [error] [client 10.8.97.1] PHP Parse error:  syntax error, unexpected '__construct' (T_STRING) in /var/www/htdocs/admin/account/model/UserModel.php on line 22, referer: http://cbnet.itinet.fr/admin/login.php
+[Fri Dec 19 15:20:52 2014] [error] [client 10.8.97.1] PHP Notice:  Undefined index: app in /var/www/htdocs/admin/index.php on line 11
+[Fri Dec 19 15:20:52 2014] [error] [client 10.8.97.1] PHP Notice:  Undefined index: userid in /var/www/htdocs/admin/global/controller/index.php on line 23
+[Fri Dec 19 15:20:52 2014] [error] [client 10.8.97.1] PHP Fatal error:  Uncaught exception 'PDOException' with message 'could not find driver' in /var/www/htdocs/admin/account/model/AccountModel.php:25\nStack trace:\n#0 /var/www/htdocs/admin/account/model/AccountModel.php(25): PDO->__construct('mysql:host=loca...', 'admin', 'c4EDKnXADZdBLhp...')\n#1 /var/www/htdocs/admin/global/controller/index.php(27): AccountModel->__construct(NULL)\n#2 /var/www/htdocs/admin/index.php(25): include_once('/var/www/htdocs...')\n#3 {main}\n  thrown in /var/www/htdocs/admin/account/model/AccountModel.php on line 25
+[Fri Dec 19 15:20:55 2014] [error] [client 10.8.97.1] File does not exist: /var/www/htdocs/favicon.ico
+[Mon Dec 22 09:12:28 2014] [error] [client 10.8.97.1] PHP Notice:  Undefined index: app in /var/www/htdocs/admin/index.php on line 11
+[Mon Dec 22 09:12:28 2014] [error] [client 10.8.97.1] PHP Notice:  Undefined index: userid in /var/www/htdocs/admin/global/controller/index.php on line 23
+[Mon Dec 22 09:12:28 2014] [error] [client 10.8.97.1] PHP Fatal error:  Uncaught exception 'PDOException' with message 'could not find driver' in /var/www/htdocs/admin/account/model/AccountModel.php:25\nStack trace:\n#0 /var/www/htdocs/admin/account/model/AccountModel.php(25): PDO->__construct('mysql:host=loca...', 'admin', 'c4EDKnXADZdBLhp...')\n#1 /var/www/htdocs/admin/global/controller/index.php(27): AccountModel->__construct(NULL)\n#2 /var/www/htdocs/admin/index.php(25): include_once('/var/www/htdocs...')\n#3 {main}\n  thrown in /var/www/htdocs/admin/account/model/AccountModel.php on line 25
+[Mon Dec 22 09:32:54 2014] [error] [client 10.8.97.1] File does not exist: /var/www/htdocs/favicon.ico
+[Mon Dec 22 09:34:20 2014] [error] [client 10.8.97.1] File does not exist: /var/www/htdocs/favicon.ico
+[Mon Dec 22 09:34:43 2014] [error] [client 10.8.97.1] PHP Notice:  Undefined index: app in /var/www/htdocs/admin/index.php on line 11
+[Mon Dec 22 09:34:43 2014] [error] [client 10.8.97.1] PHP Notice:  Undefined index: userid in /var/www/htdocs/admin/global/controller/index.php on line 23
+[Mon Dec 22 09:34:43 2014] [error] [client 10.8.97.1] PHP Fatal error:  Uncaught exception 'PDOException' with message 'could not find driver' in /var/www/htdocs/admin/account/model/AccountModel.php:25\nStack trace:\n#0 /var/www/htdocs/admin/account/model/AccountModel.php(25): PDO->__construct('mysql:host=loca...', 'admin', 'c4EDKnXADZdBLhp...')\n#1 /var/www/htdocs/admin/global/controller/index.php(27): AccountModel->__construct(NULL)\n#2 /var/www/htdocs/admin/index.php(25): include_once('/var/www/htdocs...')\n#3 {main}\n  thrown in /var/www/htdocs/admin/account/model/AccountModel.php on line 25
+[Mon Dec 22 09:35:06 2014] [error] [client 10.8.97.1] script '/var/www/htdocs/phpmyadmin.php' not found or unable to stat
+[Mon Dec 22 09:35:12 2014] [error] [client 10.8.97.1] script '/var/www/htdocs/phpmyadmin.php' not found or unable to stat
+[Mon Dec 22 10:29:53 2014] [error] [client 10.8.97.1] client denied by server configuration: /var/www/phpMyAdmin/
+[Mon Dec 22 10:32:57 2014] [error] [client 10.8.97.1] client denied by server configuration: /var/www/phpMyAdmin/setup
+[Mon Dec 22 10:33:37 2014] [error] [client 10.8.97.1] client denied by server configuration: /var/www/phpMyAdmin/setup
+[Mon Dec 22 10:33:47 2014] [error] [client 10.8.97.1] client denied by server configuration: /var/www/phpMyAdmin/
+[Mon Dec 22 10:33:50 2014] [error] [client 10.8.97.1] client denied by server configuration: /var/www/phpMyAdmin/
+[Mon Dec 22 10:35:01 2014] [error] [client 10.8.97.1] PHP Notice:  Undefined index: app in /var/www/htdocs/admin/index.php on line 11
+[Mon Dec 22 10:35:01 2014] [error] [client 10.8.97.1] PHP Notice:  Undefined index: userid in /var/www/htdocs/admin/global/controller/index.php on line 23
+[Mon Dec 22 10:35:01 2014] [error] [client 10.8.97.1] PHP Fatal error:  Uncaught exception 'PDOException' with message 'could not find driver' in /var/www/htdocs/admin/account/model/AccountModel.php:25\nStack trace:\n#0 /var/www/htdocs/admin/account/model/AccountModel.php(25): PDO->__construct('mysql:host=loca...', 'admin', 'c4EDKnXADZdBLhp...')\n#1 /var/www/htdocs/admin/global/controller/index.php(27): AccountModel->__construct(NULL)\n#2 /var/www/htdocs/admin/index.php(25): include_once('/var/www/htdocs...')\n#3 {main}\n  thrown in /var/www/htdocs/admin/account/model/AccountModel.php on line 25
+[Mon Dec 22 10:35:09 2014] [error] [client 10.8.97.1] File does not exist: /var/www/htdocs/phpmyadmin
+[Mon Dec 22 10:35:09 2014] [error] [client 10.8.97.1] File does not exist: /var/www/htdocs/phpmyadmin
+[Mon Dec 22 10:35:14 2014] [error] [client 10.8.97.1] client denied by server configuration: /var/www/phpMyAdmin
+[Mon Dec 22 10:38:36 2014] [error] [client 10.8.97.1] client denied by server configuration: /var/www/phpMyAdmin
+[Mon Dec 22 10:44:11 2014] [error] [client 10.8.97.1] client denied by server configuration: /var/www/phpMyAdmin
+[Mon Dec 22 10:44:46 2014] [warn] child process 3181 still did not exit, sending a SIGTERM
+[Mon Dec 22 10:44:46 2014] [warn] child process 22995 still did not exit, sending a SIGTERM
+[Mon Dec 22 10:44:46 2014] [warn] child process 2283 still did not exit, sending a SIGTERM
+[Mon Dec 22 10:44:46 2014] [warn] child process 17824 still did not exit, sending a SIGTERM
+[Mon Dec 22 10:44:46 2014] [warn] child process 8028 still did not exit, sending a SIGTERM
+[Mon Dec 22 10:44:46 2014] [warn] child process 30566 still did not exit, sending a SIGTERM
+[Mon Dec 22 10:44:46 2014] [warn] child process 17443 still did not exit, sending a SIGTERM
+[Mon Dec 22 10:44:46 2014] [warn] child process 16310 still did not exit, sending a SIGTERM
+httpd2(8028) in free(): error: recursive call
+httpd2(17443) in free(): error: recursive call
+httpd2(16310) in free(): error: recursive call
+httpd2(3181) in free(): error: recursive call
+[Mon Dec 22 10:44:47 2014] [notice] SIGHUP received.  Attempting to restart
+[Mon Dec 22 10:44:52 2014] [notice] Digest: generating secret for digest authentication ...
+[Mon Dec 22 10:44:52 2014] [notice] Digest: done
+[Mon Dec 22 10:45:04 2014] [error] [client 10.8.97.1] client denied by server configuration: /var/www/phpMyAdmin
+[Mon Dec 22 10:45:04 2014] [error] [client 10.8.97.1] client denied by server configuration: /var/www/phpMyAdmin/setup
+[Mon Dec 22 10:45:04 2014] [notice] Apache/2.2.27 (Unix) DAV/2 PHP/5.4.35 mod_ssl/2.2.27 LibreSSL/2.0 configured -- resuming normal operations
+[Mon Dec 22 10:45:11 2014] [error] [client 10.8.97.1] client denied by server configuration: /var/www/phpMyAdmin
+[Mon Dec 22 10:45:17 2014] [error] [client 10.8.97.1] client denied by server configuration: /var/www/phpMyAdmin
+[Mon Dec 22 10:47:09 2014] [notice] SIGHUP received.  Attempting to restart
+[Mon Dec 22 10:47:12 2014] [notice] Digest: generating secret for digest authentication ...
+[Mon Dec 22 10:47:12 2014] [notice] Digest: done
+[Mon Dec 22 10:47:16 2014] [error] [client 10.8.97.1] client denied by server configuration: /var/www/phpMyAdmin
+[Mon Dec 22 10:47:16 2014] [notice] Apache/2.2.27 (Unix) DAV/2 PHP/5.4.35 mod_ssl/2.2.27 LibreSSL/2.0 configured -- resuming normal operations
+[Mon Dec 22 10:47:31 2014] [error] [client 10.8.97.1] File does not exist: /var/www/htdocs/phpmyadmin
+[Mon Dec 22 10:47:42 2014] [error] [client 10.8.97.1] client denied by server configuration: /var/www/phpMyAdmin
+[Mon Dec 22 10:50:12 2014] [notice] SIGHUP received.  Attempting to restart
+[Mon Dec 22 10:50:15 2014] [notice] Digest: generating secret for digest authentication ...
+[Mon Dec 22 10:50:15 2014] [notice] Digest: done
+[Mon Dec 22 10:50:19 2014] [notice] Apache/2.2.27 (Unix) DAV/2 PHP/5.4.35 mod_ssl/2.2.27 LibreSSL/2.0 configured -- resuming normal operations
+[Mon Dec 22 11:51:31 2014] [notice] SIGHUP received.  Attempting to restart
+Warning: DocumentRoot [/var/apache2/htdocs] does not exist
+(2)No such file or directory: httpd2: could not open error log file /var/apache2/logs/error_log.
+Unable to open logs
+[Mon Dec 22 11:56:58 2014] [error] (2)No such file or directory: could not open transfer log file /var/apache2/logs/ssl_request_log.
+Unable to open logs
+[Mon Dec 22 11:57:06 2014] [error] (2)No such file or directory: could not open transfer log file /var/apache2/logs/ssl_request_log.
+Unable to open logs
+[Mon Dec 22 11:58:37 2014] [error] (2)No such file or directory: could not open transfer log file /var/apache2/logs/ssl_request_log.
+Unable to open logs
+[Mon Dec 22 11:58:55 2014] [error] (2)No such file or directory: could not open transfer log file /var/apache2/logs/ssl_request_log.
+Unable to open logs
+[Mon Dec 22 12:00:20 2014] [error] (2)No such file or directory: could not open transfer log file /var/apache2/logs/ssl_request_log.
+Unable to open logs
+[Mon Dec 22 12:43:04 2014] [warn] RSA server certificate CommonName (CN) `1_x509_server' does NOT match server name!?
+[Mon Dec 22 12:43:08 2014] [notice] Digest: generating secret for digest authentication ...
+[Mon Dec 22 12:43:08 2014] [notice] Digest: done
+[Mon Dec 22 12:43:13 2014] [warn] RSA server certificate CommonName (CN) `1_x509_server' does NOT match server name!?
+[Mon Dec 22 12:43:13 2014] [warn] pid file /var/www/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Dec 22 12:43:13 2014] [notice] Apache/2.2.27 (Unix) DAV/2 PHP/5.4.35 mod_ssl/2.2.27 LibreSSL/2.0 configured -- resuming normal operations
+[Mon Dec 22 12:43:56 2014] [error] [client 10.8.97.1] PHP Notice:  Undefined index: app in /var/www/htdocs/admin/index.php on line 11
+[Mon Dec 22 12:43:56 2014] [error] [client 10.8.97.1] PHP Notice:  Undefined index: userid in /var/www/htdocs/admin/global/controller/index.php on line 23
+[Mon Dec 22 12:43:56 2014] [error] [client 10.8.97.1] PHP Fatal error:  Uncaught exception 'PDOException' with message 'could not find driver' in /var/www/htdocs/admin/account/model/AccountModel.php:25\nStack trace:\n#0 /var/www/htdocs/admin/account/model/AccountModel.php(25): PDO->__construct('mysql:host=loca...', 'admin', 'c4EDKnXADZdBLhp...')\n#1 /var/www/htdocs/admin/global/controller/index.php(27): AccountModel->__construct(NULL)\n#2 /var/www/htdocs/admin/index.php(25): include_once('/var/www/htdocs...')\n#3 {main}\n  thrown in /var/www/htdocs/admin/account/model/AccountModel.php on line 25
+[Mon Dec 22 12:43:57 2014] [error] [client 10.8.97.1] PHP Notice:  Undefined index: app in /var/www/htdocs/admin/index.php on line 11
+[Mon Dec 22 12:43:57 2014] [error] [client 10.8.97.1] PHP Notice:  Undefined index: userid in /var/www/htdocs/admin/global/controller/index.php on line 23
+[Mon Dec 22 12:43:57 2014] [error] [client 10.8.97.1] PHP Fatal error:  Uncaught exception 'PDOException' with message 'could not find driver' in /var/www/htdocs/admin/account/model/AccountModel.php:25\nStack trace:\n#0 /var/www/htdocs/admin/account/model/AccountModel.php(25): PDO->__construct('mysql:host=loca...', 'admin', 'c4EDKnXADZdBLhp...')\n#1 /var/www/htdocs/admin/global/controller/index.php(27): AccountModel->__construct(NULL)\n#2 /var/www/htdocs/admin/index.php(25): include_once('/var/www/htdocs...')\n#3 {main}\n  thrown in /var/www/htdocs/admin/account/model/AccountModel.php on line 25
+[Mon Dec 22 12:51:30 2014] [notice] caught SIGTERM, shutting down
+[Mon Dec 22 12:51:39 2014] [warn] RSA server certificate CommonName (CN) `1_x509_server' does NOT match server name!?
+[Mon Dec 22 12:51:42 2014] [notice] Digest: generating secret for digest authentication ...
+[Mon Dec 22 12:51:42 2014] [notice] Digest: done
+[Mon Dec 22 12:51:45 2014] [warn] RSA server certificate CommonName (CN) `1_x509_server' does NOT match server name!?
+[Mon Dec 22 12:51:45 2014] [notice] Apache/2.2.27 (Unix) DAV/2 PHP/5.4.35 mod_ssl/2.2.27 LibreSSL/2.0 configured -- resuming normal operations
+[Mon Dec 22 12:55:58 2014] [notice] caught SIGTERM, shutting down
+[Mon Dec 22 12:56:08 2014] [warn] RSA server certificate CommonName (CN) `1_x509_server' does NOT match server name!?
+[Mon Dec 22 12:56:11 2014] [notice] Digest: generating secret for digest authentication ...
+[Mon Dec 22 12:56:11 2014] [notice] Digest: done
+[Mon Dec 22 12:56:18 2014] [warn] RSA server certificate CommonName (CN) `1_x509_server' does NOT match server name!?
+[Mon Dec 22 12:56:18 2014] [notice] Apache/2.2.27 (Unix) DAV/2 PHP/5.4.35 mod_ssl/2.2.27 LibreSSL/2.0 configured -- resuming normal operations
+[Mon Dec 22 13:17:15 2014] [notice] caught SIGTERM, shutting down
+[Mon Dec 22 13:17:27 2014] [notice] Digest: generating secret for digest authentication ...
+[Mon Dec 22 13:17:27 2014] [notice] Digest: done
+[Mon Dec 22 13:17:39 2014] [notice] Apache/2.2.27 (Unix) DAV/2 PHP/5.4.35 mod_ssl/2.2.27 LibreSSL/2.0 configured -- resuming normal operations
+[Mon Dec 22 13:57:57 2014] [notice] caught SIGTERM, shutting down
+[Mon Dec 22 13:58:07 2014] [error] Server should be SSL-aware but has no certificate configured [Hint: SSLCertificateFile] ((null):0)
+[Mon Dec 22 14:05:32 2014] [notice] Digest: generating secret for digest authentication ...
+[Mon Dec 22 14:05:32 2014] [notice] Digest: done
+[Mon Dec 22 14:05:50 2014] [notice] Apache/2.2.27 (Unix) DAV/2 PHP/5.4.35 mod_ssl/2.2.27 LibreSSL/2.0 configured -- resuming normal operations
+[Mon Dec 22 14:07:18 2014] [notice] SIGHUP received.  Attempting to restart
+[Mon Dec 22 14:07:22 2014] [notice] Digest: generating secret for digest authentication ...
+[Mon Dec 22 14:07:22 2014] [notice] Digest: done
+[Mon Dec 22 14:07:25 2014] [notice] Apache/2.2.27 (Unix) DAV/2 PHP/5.4.35 mod_ssl/2.2.27 LibreSSL/2.0 configured -- resuming normal operations
+[Mon Dec 22 15:59:18 2014] [warn] child process 14959 still did not exit, sending a SIGTERM
+[Mon Dec 22 15:59:18 2014] [warn] child process 5655 still did not exit, sending a SIGTERM
+[Mon Dec 22 15:59:18 2014] [warn] child process 9307 still did not exit, sending a SIGTERM
+[Mon Dec 22 15:59:18 2014] [warn] child process 29020 still did not exit, sending a SIGTERM
+[Mon Dec 22 15:59:18 2014] [warn] child process 28669 still did not exit, sending a SIGTERM
+[Mon Dec 22 15:59:18 2014] [warn] child process 14547 still did not exit, sending a SIGTERM
+[Mon Dec 22 15:59:18 2014] [warn] child process 23421 still did not exit, sending a SIGTERM
+[Mon Dec 22 15:59:18 2014] [warn] child process 1184 still did not exit, sending a SIGTERM
+[Mon Dec 22 15:59:18 2014] [warn] child process 5224 still did not exit, sending a SIGTERM
+[Mon Dec 22 15:59:18 2014] [warn] child process 27549 still did not exit, sending a SIGTERM
+[Mon Dec 22 15:59:20 2014] [warn] child process 5655 still did not exit, sending a SIGTERM
+[Mon Dec 22 15:59:20 2014] [warn] child process 29020 still did not exit, sending a SIGTERM
+[Mon Dec 22 15:59:20 2014] [warn] child process 28669 still did not exit, sending a SIGTERM
+[Mon Dec 22 15:59:20 2014] [warn] child process 14547 still did not exit, sending a SIGTERM
+[Mon Dec 22 15:59:20 2014] [warn] child process 23421 still did not exit, sending a SIGTERM
+[Mon Dec 22 15:59:20 2014] [warn] child process 1184 still did not exit, sending a SIGTERM
+[Mon Dec 22 15:59:20 2014] [warn] child process 27549 still did not exit, sending a SIGTERM
+[Mon Dec 22 15:59:21 2014] [notice] caught SIGTERM, shutting down
+[Tue Dec 23 09:46:47 2014] [notice] Digest: generating secret for digest authentication ...
+[Tue Dec 23 09:46:47 2014] [notice] Digest: done
+[Tue Dec 23 09:46:55 2014] [notice] Apache/2.2.27 (Unix) DAV/2 PHP/5.4.35 mod_ssl/2.2.27 LibreSSL/2.0 configured -- resuming normal operations
+[Mon Jan 05 11:03:03 2015] [notice] Digest: generating secret for digest authentication ...
+[Mon Jan 05 11:03:03 2015] [notice] Digest: done
+[Mon Jan 05 11:03:16 2015] [warn] pid file /var/www/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Jan 05 11:03:16 2015] [notice] Apache/2.2.27 (Unix) DAV/2 PHP/5.4.35 mod_ssl/2.2.27 LibreSSL/2.0 configured -- resuming normal operations
+[Mon Jan 05 11:03:54 2015] [notice] caught SIGTERM, shutting down
+[Tue Jan 06 11:05:30 2015] [notice] Digest: generating secret for digest authentication ...
+[Tue Jan 06 11:05:30 2015] [notice] Digest: done
+[Tue Jan 06 11:05:48 2015] [notice] Apache/2.2.27 (Unix) DAV/2 PHP/5.4.35 mod_ssl/2.2.27 LibreSSL/2.0 configured -- resuming normal operations
+[Tue Jan 06 14:41:02 2015] [warn] child process 11461 still did not exit, sending a SIGTERM
+[Tue Jan 06 14:41:02 2015] [warn] child process 7620 still did not exit, sending a SIGTERM
+[Tue Jan 06 14:41:02 2015] [warn] child process 21915 still did not exit, sending a SIGTERM
+[Tue Jan 06 14:41:02 2015] [warn] child process 1578 still did not exit, sending a SIGTERM
+[Tue Jan 06 14:41:02 2015] [warn] child process 30752 still did not exit, sending a SIGTERM
+[Tue Jan 06 14:41:02 2015] [warn] child process 15260 still did not exit, sending a SIGTERM
+[Tue Jan 06 14:41:02 2015] [warn] child process 3908 still did not exit, sending a SIGTERM
+[Tue Jan 06 14:41:02 2015] [warn] child process 27928 still did not exit, sending a SIGTERM
+[Tue Jan 06 14:41:02 2015] [warn] child process 6637 still did not exit, sending a SIGTERM
+httpd2(27928) in free(): error: recursive call
+[Tue Jan 06 14:41:04 2015] [warn] child process 11461 still did not exit, sending a SIGTERM
+[Tue Jan 06 14:41:04 2015] [warn] child process 7620 still did not exit, sending a SIGTERM
+[Tue Jan 06 14:41:04 2015] [warn] child process 21915 still did not exit, sending a SIGTERM
+[Tue Jan 06 14:41:04 2015] [warn] child process 1578 still did not exit, sending a SIGTERM
+[Tue Jan 06 14:41:04 2015] [warn] child process 30752 still did not exit, sending a SIGTERM
+[Tue Jan 06 14:41:04 2015] [warn] child process 15260 still did not exit, sending a SIGTERM
+[Tue Jan 06 14:41:04 2015] [warn] child process 3908 still did not exit, sending a SIGTERM
+[Tue Jan 06 14:41:04 2015] [warn] child process 6637 still did not exit, sending a SIGTERM
+httpd2(30752) in free(): error: recursive call
+[Tue Jan 06 14:41:06 2015] [warn] child process 7620 still did not exit, sending a SIGTERM
+[Tue Jan 06 14:41:06 2015] [warn] child process 1578 still did not exit, sending a SIGTERM
+[Tue Jan 06 14:41:06 2015] [warn] child process 3908 still did not exit, sending a SIGTERM
+[Tue Jan 06 14:41:07 2015] [notice] SIGHUP received.  Attempting to restart
+[Tue Jan 06 14:41:22 2015] [notice] Digest: generating secret for digest authentication ...
+[Tue Jan 06 14:41:22 2015] [notice] Digest: done
+[Tue Jan 06 14:41:26 2015] [notice] Apache/2.2.27 (Unix) DAV/2 PHP/5.4.30 mod_ssl/2.2.27 LibreSSL/2.0 configured -- resuming normal operations
+error: Error setting up SSL_CTX client key and cert
+762584872:error:0200100D:system library:fopen:Permission denied:/usr/src/lib/libcrypto/crypto/../../libssl/src/crypto/bio/bss_file.c:262:fopen('/var/unbound/etc/unbound_control.pem', 'r')
+762584872:error:20074002:BIO routines:FILE_CTRL:system lib:/usr/src/lib/libcrypto/crypto/../../libssl/src/crypto/bio/bss_file.c:264:
+762584872:error:140AD002:SSL routines:SSL_CTX_use_certificate_file:system lib:/binpatchng/work-binpatch56-i386/src/lib/libssl/ssl/../../libssl/src/ssl/ssl_rsa.c:433:

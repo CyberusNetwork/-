@@ -1,4 +1,4 @@
-wheel:*:0:root,costet,alain,adrien,adjevi
+wheel:*:0:root,costet,adrien,adjevi
 daemon:*:1:daemon
 kmem:*:2:root
 sys:*:3:root
@@ -77,3 +77,7 @@ cyberus_openvpn:*:1000:
 dns:*:104:
 _apache2:*:576:
 _mysql:*:502:
+test1:*:1005:
+test2:*:999:
+Alain:*:1002:
+alain:*:998:

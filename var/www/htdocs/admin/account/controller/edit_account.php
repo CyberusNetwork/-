@@ -26,7 +26,7 @@ $userid = $_SESSION['userid'];
 
 $account = new AccountModel($userid);
 
-// Execution de la requête --> Interrogation de la table USER par la classe AccountModel et sauvegarde les valeurs dans $datas_account
+// Execution de la requête --> Interrogation de la table USER par la classe AccountModel et sauvegarde les valeurs dans $account
 
 $account->init();
 

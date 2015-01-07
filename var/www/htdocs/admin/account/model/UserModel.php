@@ -7,6 +7,7 @@
  * Model USER -> Récupération et sauvegarde des données de la table USER
  */
 
+
 class UserModel {
 
     // Les attibuts.
@@ -18,8 +19,7 @@ class UserModel {
     function __construct()
     {
         // Connexion - DataBase - Admin.
-        $this->db_access_admin = new PDO ('mysql:host=localhost;dbname=admin', 'admin', 'c4EDKnXADZdBLhp7');
-        end __construct()
+        include (__DIR__ . "/../../sql_config.php");
     }
 
     // Initialization of the data "DNS" for processing.
@@ -44,9 +44,7 @@ class UserModel {
         }
     }
 
-    public function checkUserByLogin (
-        $login
-    )
+    public function checkUserByLogin ($login)
     {
         $sql_user = $this->db_access_admin->prepare('SELECT * FROM user WHERE username = :login');
         $req_sql = $sql_user->execute(array(

@@ -59,7 +59,8 @@ dnslog:*:105:104:tinydns:/nonexistent:/sbin/nologin
 _apache2:*:576:576:Apache HTTP Server:/var/empty:/sbin/nologin
 _mysql:*:502:502:MySQL Account:/nonexistent:/sbin/nologin
 costet:*:1001:5:raphael costet:/home/costet:/bin/ksh
-alain:*:1002:5:alain cheung:/home/alain:/bin/ksh
 adrien:*:1003:5:adrien thibault:/home/adrien:/bin/ksh
 dnscache:*:106:104:tinydns:/nonexistent:/sbin/nologin
 adjevi:*:1004:5:adjevi:/home/adjevi:/bin/ksh
+test2:*:1006:1006::/home/test2:/bin/sh
+alain:*:1002:998:cheung alain:/home/alain:/usr/local/bin/bash

@@ -18,11 +18,13 @@ class AccountModel {
 
     // Functions
 
+    // DateBase connection process by USERID
+
     function __construct($param_userid)
     {
         $this->userid = $param_userid;
-        // Connexion - DataBase - Admin
-        $this->db_access_admin = new PDO ('mysql:host=localhost;dbname=admin', 'admin', 'c4EDKnXADZdBLhp7');
+        // DataBase - Admin config file
+        include (__DIR__ . "/../../sql_config.php");
     }
 
     // Initialization of the data "USER" for processing
@@ -43,16 +45,19 @@ class AccountModel {
          }
     }
 
+    // Storing datas from database
     public function getDatas()
     {
         return $this->datas_account;
     }
 
+    // Getting the username
     public function getUsername()
     {
         return $this->username;
     }
 
+    // Edit account / personnal informations
     public function editUser(
         $username,
         $lastname,
@@ -72,9 +77,10 @@ class AccountModel {
         ));
 
         //Shell part
-        $sh_req_add_user = exec("./script/ch_password_ftp.sh $username $password");
+        $sh_req_add_user = exec("./script/change_password.sh $username $password");
     }
 
+    // Delete the account
     public function deleteUser()
     {
         $sql_req_del_user = $this->db_access_admin->prepare("DELETE FROM user WHERE id = :userid");
@@ -84,7 +90,7 @@ class AccountModel {
 
         //Shell part
         $sh_user = escapeshellarg($this->username);
-        $sh_req_add_user = shell_exec("./script/del_user_ftp.sh $sh_user");
+        $sh_req_add_user = shell_exec("./script/delete_user.sh $sh_user");
     }
 
 }

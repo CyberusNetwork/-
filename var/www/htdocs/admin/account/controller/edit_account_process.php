@@ -13,8 +13,8 @@
 /////////////////////////////////////////////////////////////////////////////////////////
 // Appel aux classes de Model pour récupérer les données
 
-(include_once __DIR__ . "/../model/AccountModel.php");
-(include_once __DIR__."/../../account/model/DataBaseModel.php");
+include_once __DIR__ . "/../model/AccountModel.php";
+
 
 /////////////////////////////////////////////////////////////////////////////////////////
 // Traitement des données et des informations diverses
@@ -36,9 +36,9 @@ $server = "localhost";
 
 $userid = $_SESSION['userid'];
 $account = new AccountModel($userid);
-$database = new DataBaseModel();
 
-// Appel de la methode
+
+// Appel de la methode account
 
 $account->editUser(
     $username,
@@ -49,11 +49,6 @@ $account->editUser(
     $md5_password
 );
 
-$database->setUsername($username);
-$database->editDB(
-    $md5_password,
-    $server
-);
 
 // Retour à la page principale
 
