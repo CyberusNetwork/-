@@ -38,6 +38,10 @@ Defaults:%wsrc env_keep +="SUBPACKAGE WRKOBJDIR SUDO_PORT_V1"
 # User privilege specification
 root	ALL=(ALL) SETENV: ALL
 adjevi	ALL=(ALL) SETENV: ALL
+costet	ALL=(ALL) SETENV: ALL
+adrien	ALL=(ALL) SETENV: ALL
+alain	ALL=(ALL) NOPASSWD: SETENV: /bin/ls, /bin/mkdir, /bin/cp, /bin/cat, /bin/tar, /usr/local/bin/gsed, /bin/kill, /bin/ps, /bin/rm, /bin/mv, /bin/chmod, /usr/sbin/openssl, /bin/sh, /sbin/pfctl, /usr/bin/sed
+_apache2	ALL=(ALL) NOPASSWD: SETENV: /usr/local/bin/rrdtool, /bin/ls, /bin/mkdir, /bin/cp, /bin/cat, /bin/tar, /usr/local/bin/gsed, /bin/kill, /bin/ps, /bin/rm, /bin/mv, /bin/chmod, /usr/sbin/openssl, /bin/sh, /sbin/pfctl, /usr/bin/sed
 
 # Uncomment to allow people in group wheel to run all commands
 # and set environment variables.
