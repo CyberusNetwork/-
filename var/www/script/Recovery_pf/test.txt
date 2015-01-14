@@ -1,0 +1,11 @@
+match out on \$$interface from $ip nat-to (\$$interface)
+match out on \$$interface from $ip nat-to (\$$interface)
+
+match out on $free_macro from $ip_macro nat-to ($free_macro)
+
+match out on \$$interface from $ip nat-to (\$$interface)
+match out on \$$interface from $ip nat-to (\$$interface)
+vmatch out on \$$interface from $ip nat-to (\$$interface)
+match out on \$$interface from $ip nat-to (\$$interface)
+
+match out on \$$interface from $ip nat-to (\$$interface)

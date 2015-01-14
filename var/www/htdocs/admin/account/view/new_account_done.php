@@ -36,13 +36,10 @@
         <dd><?php echo $firstname ?></dd>
         <dt>Adresse mail</dt>
         <dd><?php echo $email ?></dd>
-        <dt>Domain</dt>
-        <dd><?php echo $user_domain ?></dd>
-
     </dl>
     <!-- Change info button -->
     <a href="login.php"><button type="button" class="btn btn-success" id="login"><i class="glyphicon glyphicon-link"></i> Connection</button></a>
-
+    <a href="../index.php?app=account"><button class="btn btn-default" type="button"><i class="glyphicon glyphicon-chevron-left"></i> Retour</button></a>
 </div>
 </body>
 </html>

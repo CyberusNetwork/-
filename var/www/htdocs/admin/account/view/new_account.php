@@ -22,38 +22,45 @@
 
     <form class="form-horizontal" role="form" action="new_account.php?page=processing" method="post">
         <div class="form-group">
-            <label class="col-sm-2 control-label" for="username">Pseudonyme</label>
+            <label class="col-sm-2 control-label" for="username" >Pseudonyme</label>
             <div class="col-sm-10">
-                <input type="text" class="form-control" name="Username" placeholder="mastermind">
-                <p class="help-block">Nota Bene : Ce pseudonyme sera votre nom de domaine sur ce serveur alors, choisissez-le bien, il n'est pas modifiable ! - Ici : mastermind.dev.fairsys.fr</p>
+                <input type="text" class="form-control" name="Username" placeholder="EVA-01" required>
+                <p class="help-block">Nota Bene : Ce pseudonyme sera votre nom sur ce serveur alors, choisissez-le bien, il n'est pas modifiable !</p>
             </div>
         </div>
 
         <div class="form-group">
             <label class="col-sm-2 control-label" for="lastname">Nom</label>
             <div class="col-sm-10">
-                <input type="text" class="form-control" name="Lastname" placeholder="Professeur Moriarty">
+                <input type="text" class="form-control" name="Lastname" placeholder="Ikari" required>
             </div>
         </div>
 
         <div class="form-group">
             <label class="col-sm-2 control-label" for="firstname">Prénom</label>
             <div class="col-sm-10">
-                <input type="text" class="form-control" name="Firstname" placeholder="James">
+                <input type="text" class="form-control" name="Firstname" placeholder="Shinji" required>
             </div>
         </div>
 
         <div class="form-group">
             <label class="col-sm-2 control-label" for="email">Email</label>
             <div class="col-sm-10">
-                <input type="email" class="form-control" name="Email" placeholder="james.moriarty@youmissme.com">
+                <input type="email" class="form-control" name="Email" placeholder="shinji.ikari@jp.nerv.org" required>
             </div>
         </div>
 
         <div class="form-group">
             <label class="col-sm-2 control-label" for="password">Password</label>
             <div class="col-sm-10">
-                <input type="password" class="form-control" name="Password" placeholder="Password">
+                <input type="password" class="form-control" name="Password" placeholder="Password" required>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="col-sm-2 control-label" for="password">Confirm Password</label>
+            <div class="col-sm-10">
+                <input type="password" class="form-control" name="ConfirmPassword" placeholder="Confirm Password" required>
             </div>
         </div>
 
@@ -61,7 +68,7 @@
             <label class="col-sm-2 control-label" for="button"></label>
             <div class="col-sm-10">
                 <button class="btn btn-success" type="submit"><i class="glyphicon glyphicon-plus"></i> S'inscrire</button>
-                <a href="../../global/view/index.php"><button class="btn btn-default" type="button"><i class="glyphicon glyphicon-chevron-left"></i> Retour</button></a>
+                <a href="../index.php?app=account"><button class="btn btn-default" type="button"><i class="glyphicon glyphicon-chevron-left"></i> Retour</button></a>
             </div>
         </div>
 

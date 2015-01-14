@@ -24,7 +24,7 @@ $userid = $_SESSION['userid'];
 
 // Instanciation de l'objet account
 
-$account = new AccountModel($userid);
+$account = new AccountModel();
 
 // Execution de la requête --> Interrogation de la table USER par la classe AccountModel
 // et sauvegarde les valeurs dans $datas_account

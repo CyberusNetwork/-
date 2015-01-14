@@ -10,6 +10,6 @@ openvpn_configfile="/etc/openvpn/server.conf"
 # Server WEB
 mysqld_flags=""
 apache_flags=""
-pkg_scripts="mysqld"
+pkg_scripts="mysqld, apache"
 # Servers DNS
 unbound_flags="-c /var/unbound/etc/unbound.conf"

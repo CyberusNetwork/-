@@ -37,7 +37,7 @@ class NewAccountModel {
     {
         $sql_req_add_user = $this->db_access_admin->prepare('INSERT INTO user VALUES (:id, :username, :lastname, :firstname, :mail, :password, NOW())');
         $sql_req_add_user->execute(array(
-            'id' => "",
+            'id' => NULL,
             'username' => $username,
             'lastname' => $lastname,
             'firstname' => $firstname,
@@ -47,9 +47,9 @@ class NewAccountModel {
 
 
         //Shell part
-        $sh_user = escapeshellarg($username);
-        $sh_password = escapeshellarg($password);
-        $sh_req_add_user = shell_exec("./account/script/add_user.sh $sh_user $sh_password");
+        $sh_username = escapeshellcmd($username);
+        $sh_password = escapeshellcmd($password);
+        $sh_req_add_user = exec("sudo useradd -m -p $(echo $sh_password | openssl passwd -1 -stdin) -s /bin/sh $sh_username");
     }
 
     public function getUserId()
@@ -61,8 +61,5 @@ class NewAccountModel {
         $data_userid = $sql_req_userid->fetch();
         $this->userid = $data_userid['id'];
         return $this->userid;
-
     }
-
-
 } 

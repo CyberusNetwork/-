@@ -3,8 +3,6 @@
 # Remember to set net.inet.ip.forwarding=1 and/or net.inet6.ip6.forwarding=1
 
 # Macro
-tcp_port_macro = "{ 53 80 443 10006 }"
-udp_port_macro = "{ 53 10006 }"
 lan_ip_macro = "192.168.0.0/20"
 lan_macro = "sis0"
 management_macro = "sis1"
@@ -18,54 +16,71 @@ vpn_ip_macro = "192.168.13.0/24"
 # Fin
 
 # Table_list
-#table <blacklist> persist
+table <blacklist> persist
 
 #Interfaces sur lesquelles PF ne filtre pas
 set skip on lo0
 
-#Protection contre les paquets illogiques
+# Permet de détruire tous les paquets défectueux
+match in all scrub (no-df)
+
+# Protection contre les paquets illogiques
 antispoof log for sis0
 antispoof log for sis1
 antispoof log for sis2
 antispoof log for sis3
 antispoof log for sis4
 
-# Vérification des paquets fragmentés
-match in all scrub (no-df)
+# Queue
+# coucou_QOS
+queue coucou on $bla_macro bandwidth 1222M
+queue mar1 parent coucou bandwidth 15M
+queue mars parent coucou bandwidth 15M
+# Default_coucou
+queue blabla parent coucou bandwidth 15M default
+# Fin_coucou
 
-# Load Balancing
-pass in on $lan_macro from $lan_ip_macro route-to { ($sfr_macro $sfr_gw_macro), ($free_macro $free_gw_macro) }
-pass out on $sfr_macro from $free_macro route-to ($free_macro $free_gw_macro) 
-pass out on $free_macro from $sfr_macro route-to ($sfr_macro $sfr_gw_macro)
+# Fin_end
 
 # NAT
 match out on $free_macro from $lan_ip_macro nat-to ($free_macro)
 match out on $free_macro from $vpn_ip_macro nat-to ($free_macro)
 match out on $sfr_macro from $lan_ip_macro nat-to ($sfr_macro)
 
-# Redirection de port
+# Quick_block
+#block in log quick on $free_macro proto tcp from { <blacklist> } port 22
+# Fin
 
-# Forwarding_port
-
-# Quick permet d'ignorer toute autre rêgle de filtrage 
+# Quick_pass
 pass quick on lo0 all
 pass quick on $management_macro all
-pass quick on $free_macro from { <whitelist> }
+# Fin
 
-# block tous les paquets entrants et sortants
+# block tous les paquets entrants
 # block in log all
 
 # Bloque ceux qui sont dans la table sur les ports concernés
 # Block_ip_port
+# Fin
 
-# Filtering ports :
+# Block_QOS
+
+# Fin_end
+
+# Pass_QOS
+
+# Fin_end
+
+# Port_Forwarding
+# Fin
+
+# Load Balancing
+pass in on $lan_macro from $lan_ip_macro route-to { ($sfr_macro $sfr_gw_macro), ($free_macro $free_gw_macro) }
+pass out on $sfr_macro from $free_macro route-to ($free_macro $free_gw_macro)
+pass out on $free_macro from $sfr_macro route-to ($sfr_macro $sfr_gw_macro)
 
 # TCP_port
-
 # Fin_tcp
 
 # UDP_port
-
 # Fin_udp
-
-pass all

@@ -1,5 +1,5 @@
 #!/bin/sh
-# Guide d'utilisation: ./add_static_server_conf_pre_shared_keys.sh "ip_server" "localhost" "remote" "port" "interface""
+# Guide d'utilisation: ./add_static_server_pre_shared_keys.sh "ip_server" "localhost" "remote" "port" "interface""
 # Permet de créer le fichier de conf du serveur avec son propre adressage ip
 
 # Pointeur
@@ -16,7 +16,7 @@ psk_conf="$1_psk_server.conf"
 if [ $# -ne 5 ] # Vérifie qu'il y a seulement 5 argument en entré
     then
     echo "Erreur : il faut entrer 5 argument."
-    echo "./add_static_server_conf_pre_shared_keys.sh "ip_server" "localhost" "remote" "port" "interface""
+    echo "./add_static_server_pre_shared_keys.sh "ip_server" "localhost" "remote" "port" "interface""
     exit 2
 fi
 
@@ -51,6 +51,7 @@ user cyberus_openvpn # l'utilisateur root devient cyberus_openvpn
 group cyberus_openvpn # groupe cyberus_openvpn
 keepalive 10 120 # ping toutes les 10 secondes, down after 120secondes 
 ping-timer-rem # teste la connexion pour le relancer s'il est coupé
+# client-to-client # permet la connexion entre clients
 # rend la connexion persistante
 persist-key 
 persist-tun

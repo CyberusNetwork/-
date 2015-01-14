@@ -15,8 +15,11 @@ switch($_GET["app"]){
     case "dns":
         include_once "./dns/index.php";
         break;
-    case "pf":
+    case "firewall":
         include_once "./firewall/index.php";
+        break;
+    case "dashboard":
+        include_once "./dashboard/index.php";
         break;
 
     default:

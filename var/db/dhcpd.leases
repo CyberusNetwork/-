@@ -1,6 +1,6 @@
 lease 192.168.3.11 {
-	starts 3 2015/01/07 07:56:29 UTC;
-	ends 3 2015/01/07 19:56:29 UTC;
+	starts 3 2015/01/14 07:56:23 UTC;
+	ends 3 2015/01/14 19:56:23 UTC;
 	hardware ethernet 00:0e:6a:04:c3:80;
 }
 lease 192.168.3.10 {

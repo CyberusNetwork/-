@@ -32,13 +32,13 @@
         <dd><?php echo $username; ?></dd>
         <dt>Nom</dt>
         <dd><?php echo $lastname; ?></dd>
-        <dt>Prénon</dt>
+        <dt>Prénom</dt>
         <dd><?php echo $firstname ?></dd>
         <dt>Adresse mail</dt>
         <dd><?php echo $email ?></dd>
     </dl>
     <!-- Change info button -->
-    <a href="/../index.php?app=account"><button class="btn btn-default" type="button"><i class="glyphicon glyphicon-chevron-left"></i> Retour</button></a>
+    <a href="./../index.php?app=account"><button class="btn btn-default" type="button"><i class="glyphicon glyphicon-chevron-left"></i> Retour</button></a>
 
 </div>
 </body>

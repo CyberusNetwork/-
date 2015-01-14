@@ -1,304 +1,94 @@
-Dec 18 03:00:01 cyberus newsyslog[10551]: logfile turned over
-Dec 18 03:02:29 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.82.81: Connection refused
-Dec 18 03:02:29 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.83.51: Connection refused
-Dec 18 03:02:29 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.82.81: Connection refused
-Dec 18 03:02:29 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.83.51: Connection refused
-Dec 18 03:02:29 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.82.81: Connection refused
-Dec 18 03:02:29 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.83.51: Connection refused
-Dec 18 03:02:46 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.82.81: Connection refused
-Dec 18 03:02:46 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.83.51: Connection refused
-Dec 18 03:02:46 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.82.81: Connection refused
-Dec 18 03:02:47 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.83.51: Connection refused
-Dec 18 03:02:47 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.82.81: Connection refused
-Dec 18 03:02:47 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.83.51: Connection refused
-Dec 18 03:03:07 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.82.81: Connection refused
-Dec 18 03:03:07 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.83.51: Connection refused
-Dec 18 03:03:07 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.82.81: Connection refused
-Dec 18 03:03:07 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.83.51: Connection refused
-Dec 18 03:03:07 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.82.81: Connection refused
-Dec 18 03:03:07 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.83.51: Connection refused
-Dec 18 03:04:08 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.82.81: Connection refused
-Dec 18 03:04:08 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.83.51: Connection refused
-Dec 18 03:04:08 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.82.81: Connection refused
-Dec 18 03:04:08 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.83.51: Connection refused
-Dec 18 03:04:08 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.82.81: Connection refused
-Dec 18 03:04:08 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.83.51: Connection refused
-Dec 18 03:06:03 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.82.81: Connection refused
-Dec 18 03:06:03 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.83.51: Connection refused
-Dec 18 03:06:03 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.82.81: Connection refused
-Dec 18 03:06:03 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.83.51: Connection refused
-Dec 18 03:06:03 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.82.81: Connection refused
-Dec 18 03:06:03 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.83.51: Connection refused
-Dec 18 03:10:09 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.82.81: Connection refused
-Dec 18 03:10:09 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.83.51: Connection refused
-Dec 18 03:10:09 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.82.81: Connection refused
-Dec 18 03:10:09 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.83.51: Connection refused
-Dec 18 03:10:09 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.82.81: Connection refused
-Dec 18 03:10:09 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.83.51: Connection refused
-Dec 18 03:16:30 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.82.81: Connection refused
-Dec 18 03:16:31 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.83.51: Connection refused
-Dec 18 03:16:31 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.82.81: Connection refused
-Dec 18 03:16:31 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.83.51: Connection refused
-Dec 18 03:16:31 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.82.81: Connection refused
-Dec 18 03:16:31 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.83.51: Connection refused
-Dec 18 03:26:56 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.82.81: Connection refused
-Dec 18 03:26:56 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.83.51: Connection refused
-Dec 18 03:26:56 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.82.81: Connection refused
-Dec 18 03:26:56 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.83.51: Connection refused
-Dec 18 03:26:56 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.82.81: Connection refused
-Dec 18 03:26:56 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.83.51: Connection refused
-Dec 18 03:50:25 cyberus ntpd[10269]: adjusting clock frequency by 0.106194 to -0.984231ppm
-Dec 18 04:00:17 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.82.81: Connection refused
-Dec 18 04:00:17 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.83.51: Connection refused
-Dec 18 04:00:17 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.82.81: Connection refused
-Dec 18 04:00:17 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.83.51: Connection refused
-Dec 18 04:00:17 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.82.81: Connection refused
-Dec 18 04:00:17 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.83.51: Connection refused
-Dec 18 04:52:22 cyberus dhcpd[30311]: DHCPREQUEST for 192.168.3.11 from 00:0e:6a:04:c3:80 via sis0
-Dec 18 04:52:22 cyberus dhcpd[30311]: DHCPACK on 192.168.3.11 to 00:0e:6a:04:c3:80 via sis0
-Dec 18 04:57:34 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.82.81: Connection refused
-Dec 18 04:57:34 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.83.51: Connection refused
-Dec 18 04:57:34 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.82.81: Connection refused
-Dec 18 04:57:34 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.83.51: Connection refused
-Dec 18 04:57:34 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.82.81: Connection refused
-Dec 18 04:57:34 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.83.51: Connection refused
-Dec 18 07:21:41 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.82.81: Connection refused
-Dec 18 07:21:41 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.83.51: Connection refused
-Dec 18 07:21:41 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.82.81: Connection refused
-Dec 18 07:21:41 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.83.51: Connection refused
-Dec 18 07:21:41 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.82.81: Connection refused
-Dec 18 07:21:41 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.83.51: Connection refused
-Dec 18 10:52:22 cyberus dhcpd[30311]: DHCPREQUEST for 192.168.3.11 from 00:0e:6a:04:c3:80 via sis0
-Dec 18 10:52:22 cyberus dhcpd[30311]: DHCPACK on 192.168.3.11 to 00:0e:6a:04:c3:80 via sis0
-Dec 18 12:08:13 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.82.81: Connection refused
-Dec 18 12:08:13 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.83.51: Connection refused
-Dec 18 12:08:13 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.82.81: Connection refused
-Dec 18 12:08:13 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.83.51: Connection refused
-Dec 18 12:08:13 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.82.81: Connection refused
-Dec 18 12:08:13 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.83.51: Connection refused
-Dec 18 16:00:45 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.82.81: Connection refused
-Dec 18 16:00:45 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.83.51: Connection refused
-Dec 18 16:00:45 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.82.81: Connection refused
-Dec 18 16:00:45 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.83.51: Connection refused
-Dec 18 16:00:45 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.82.81: Connection refused
-Dec 18 16:00:45 cyberus nsd[20818]: cbnet.itinet.fr: Could not tcp connect to 195.154.83.51: Connection refused
-Dec 18 16:52:22 cyberus dhcpd[30311]: DHCPREQUEST for 192.168.3.11 from 00:0e:6a:04:c3:80 via sis0
-Dec 18 16:52:22 cyberus dhcpd[30311]: DHCPACK on 192.168.3.11 to 00:0e:6a:04:c3:80 via sis0
-Dec 18 17:49:27 cyberus ntpd[10269]: adjusting clock frequency by -0.195341 to -1.179572ppm
-Dec 18 18:20:08 cyberus unbound: [9913:0] info: service stopped (unbound 1.4.22).
-Dec 18 18:20:08 cyberus unbound: [9913:0] info: server stats for thread 0: 33 queries, 25 answers from cache, 8 recursions, 0 prefetch
-Dec 18 18:20:08 cyberus unbound: [9913:0] info: server stats for thread 0: requestlist max 0 avg 0 exceeded 0 jostled 0
-Dec 18 18:20:08 cyberus unbound: [9913:0] info: average recursion processing time 0.061232 sec
-Dec 18 18:20:08 cyberus unbound: [9913:0] info: histogram of recursion processing times
-Dec 18 18:20:08 cyberus unbound: [9913:0] info: [25%]=0.0436907 median[50%]=0.0546133 [75%]=0.065536
-Dec 18 18:20:08 cyberus unbound: [9913:0] info: lower(secs) upper(secs) recursions
-Dec 18 18:20:08 cyberus unbound: [9913:0] info:    0.032768    0.065536 6
-Dec 18 18:20:08 cyberus unbound: [9913:0] info:    0.065536    0.131072 2
-Dec 18 18:20:19 cyberus unbound: [18470:0] notice: init module 0: validator
-Dec 18 18:20:19 cyberus unbound: [18470:0] notice: init module 1: iterator
-Dec 18 18:20:19 cyberus unbound: [18470:0] info: start of service (unbound 1.4.22).
-Dec 18 18:39:09 cyberus unbound: [18470:0] info: service stopped (unbound 1.4.22).
-Dec 18 18:39:09 cyberus unbound: [18470:0] info: server stats for thread 0: 0 queries, 0 answers from cache, 0 recursions, 0 prefetch
-Dec 18 18:39:09 cyberus unbound: [18470:0] info: server stats for thread 0: requestlist max 0 avg 0 exceeded 0 jostled 0
-Dec 18 18:39:10 cyberus unbound: [18470:0] notice: Restart of unbound 1.4.22.
-Dec 18 18:39:10 cyberus unbound: [18470:0] warning: increased limit(open files) from 512 to 4164
-Dec 18 18:39:10 cyberus unbound: [18470:0] notice: init module 0: validator
-Dec 18 18:39:10 cyberus unbound: [18470:0] notice: init module 1: iterator
-Dec 18 18:39:10 cyberus unbound: [18470:0] info: start of service (unbound 1.4.22).
-Dec 18 22:52:22 cyberus dhcpd[30311]: DHCPREQUEST for 192.168.3.11 from 00:0e:6a:04:c3:80 via sis0
-Dec 18 22:52:22 cyberus dhcpd[30311]: DHCPACK on 192.168.3.11 to 00:0e:6a:04:c3:80 via sis0
-Dec 19 04:52:22 cyberus dhcpd[30311]: DHCPREQUEST for 192.168.3.11 from 00:0e:6a:04:c3:80 via sis0
-Dec 19 04:52:22 cyberus dhcpd[30311]: DHCPACK on 192.168.3.11 to 00:0e:6a:04:c3:80 via sis0
-Dec 19 07:29:58 cyberus ntpd[10269]: adjusting clock frequency by 0.144709 to -1.034863ppm
-Dec 19 09:39:05 cyberus unbound: [18470:0] info: service stopped (unbound 1.4.22).
-Dec 19 09:39:05 cyberus unbound: [18470:0] info: server stats for thread 0: 33 queries, 27 answers from cache, 6 recursions, 0 prefetch
-Dec 19 09:39:05 cyberus unbound: [18470:0] info: server stats for thread 0: requestlist max 0 avg 0 exceeded 0 jostled 0
-Dec 19 09:39:05 cyberus unbound: [18470:0] info: average recursion processing time 0.061441 sec
-Dec 19 09:39:05 cyberus unbound: [18470:0] info: histogram of recursion processing times
-Dec 19 09:39:05 cyberus unbound: [18470:0] info: [25%]=0.049152 median[50%]=0.065536 [75%]=0.098304
-Dec 19 09:39:05 cyberus unbound: [18470:0] info: lower(secs) upper(secs) recursions
-Dec 19 09:39:05 cyberus unbound: [18470:0] info:    0.032768    0.065536 3
-Dec 19 09:39:05 cyberus unbound: [18470:0] info:    0.065536    0.131072 3
-Dec 19 09:39:06 cyberus unbound: [18470:0] notice: Restart of unbound 1.4.22.
-Dec 19 10:52:22 cyberus dhcpd[30311]: DHCPREQUEST for 192.168.3.11 from 00:0e:6a:04:c3:80 via sis0
-Dec 19 10:52:22 cyberus dhcpd[30311]: DHCPACK on 192.168.3.11 to 00:0e:6a:04:c3:80 via sis0
-Dec 19 16:11:49 cyberus ntpd[9028]: peer 212.85.158.10 now invalid
-Dec 19 16:17:37 cyberus ntpd[9028]: peer 212.85.158.10 now valid
-Dec 19 16:52:22 cyberus dhcpd[30311]: DHCPREQUEST for 192.168.3.11 from 00:0e:6a:04:c3:80 via sis0
-Dec 19 16:52:22 cyberus dhcpd[30311]: DHCPACK on 192.168.3.11 to 00:0e:6a:04:c3:80 via sis0
-Dec 19 18:15:30 cyberus ntpd[10269]: adjusting clock frequency by 0.972074 to -0.062789ppm
-Dec 19 22:52:22 cyberus dhcpd[30311]: DHCPREQUEST for 192.168.3.11 from 00:0e:6a:04:c3:80 via sis0
-Dec 19 22:52:22 cyberus dhcpd[30311]: DHCPACK on 192.168.3.11 to 00:0e:6a:04:c3:80 via sis0
-Dec 20 01:16:27 cyberus ntpd[10269]: adjusting clock frequency by -1.185812 to -1.248601ppm
-Dec 20 04:52:22 cyberus dhcpd[30311]: DHCPREQUEST for 192.168.3.11 from 00:0e:6a:04:c3:80 via sis0
-Dec 20 04:52:23 cyberus dhcpd[30311]: DHCPACK on 192.168.3.11 to 00:0e:6a:04:c3:80 via sis0
-Dec 20 10:52:22 cyberus dhcpd[30311]: DHCPREQUEST for 192.168.3.11 from 00:0e:6a:04:c3:80 via sis0
-Dec 20 10:52:23 cyberus dhcpd[30311]: DHCPACK on 192.168.3.11 to 00:0e:6a:04:c3:80 via sis0
-Dec 20 13:52:30 cyberus ntpd[10269]: adjusting clock frequency by 0.104597 to -1.144003ppm
-Dec 20 16:52:23 cyberus dhcpd[30311]: DHCPREQUEST for 192.168.3.11 from 00:0e:6a:04:c3:80 via sis0
-Dec 20 16:52:23 cyberus dhcpd[30311]: DHCPACK on 192.168.3.11 to 00:0e:6a:04:c3:80 via sis0
-Dec 20 22:52:23 cyberus dhcpd[30311]: DHCPREQUEST for 192.168.3.11 from 00:0e:6a:04:c3:80 via sis0
-Dec 20 22:52:24 cyberus dhcpd[30311]: DHCPACK on 192.168.3.11 to 00:0e:6a:04:c3:80 via sis0
-Dec 21 04:52:23 cyberus dhcpd[30311]: DHCPREQUEST for 192.168.3.11 from 00:0e:6a:04:c3:80 via sis0
-Dec 21 04:52:24 cyberus dhcpd[30311]: DHCPACK on 192.168.3.11 to 00:0e:6a:04:c3:80 via sis0
-Dec 21 05:25:38 cyberus ntpd[10269]: adjusting clock frequency by 0.220471 to -0.923533ppm
-Dec 21 10:52:24 cyberus dhcpd[30311]: DHCPREQUEST for 192.168.3.11 from 00:0e:6a:04:c3:80 via sis0
-Dec 21 10:52:24 cyberus dhcpd[30311]: DHCPACK on 192.168.3.11 to 00:0e:6a:04:c3:80 via sis0
-Dec 21 16:52:24 cyberus dhcpd[30311]: DHCPREQUEST for 192.168.3.11 from 00:0e:6a:04:c3:80 via sis0
-Dec 21 16:52:24 cyberus dhcpd[30311]: DHCPACK on 192.168.3.11 to 00:0e:6a:04:c3:80 via sis0
-Dec 21 22:52:24 cyberus dhcpd[30311]: DHCPREQUEST for 192.168.3.11 from 00:0e:6a:04:c3:80 via sis0
-Dec 21 22:52:25 cyberus dhcpd[30311]: DHCPACK on 192.168.3.11 to 00:0e:6a:04:c3:80 via sis0
-Dec 22 04:52:25 cyberus dhcpd[30311]: DHCPREQUEST for 192.168.3.11 from 00:0e:6a:04:c3:80 via sis0
-Dec 22 04:52:25 cyberus dhcpd[30311]: DHCPACK on 192.168.3.11 to 00:0e:6a:04:c3:80 via sis0
-Dec 22 10:52:26 cyberus dhcpd[30311]: DHCPREQUEST for 192.168.3.11 from 00:0e:6a:04:c3:80 via sis0
-Dec 22 10:52:26 cyberus dhcpd[30311]: DHCPACK on 192.168.3.11 to 00:0e:6a:04:c3:80 via sis0
-Dec 22 11:48:49 cyberus ntpd[10269]: adjusting clock frequency by 0.211899 to -0.743550ppm
-Dec 22 13:05:59 cyberus dhcpd[28317]: Listening on sis1 (192.168.4.1).
-Dec 22 13:05:59 cyberus dhcpd[28317]: Listening on sis0 (192.168.3.1).
-Dec 22 16:00:32 cyberus ntpd[22968]: ntp engine ready
-Dec 22 16:00:32 cyberus savecore: no core dump
-Dec 22 16:00:42 cyberus snmpd[8097]: snmpe_bind: binding to address 127.0.0.1:161
-Dec 22 16:00:42 cyberus snmpd[8097]: startup
-Dec 22 16:00:50 cyberus dhcpd[18278]: Listening on sis1 (192.168.4.1).
-Dec 22 16:00:50 cyberus dhcpd[18278]: Listening on sis0 (192.168.3.1).
-Dec 22 16:00:51 cyberus ntpd[22968]: peer 194.57.169.1 now valid
-Dec 22 16:00:52 cyberus ntpd[22968]: peer 176.31.230.215 now valid
-Dec 22 16:00:53 cyberus ntpd[22968]: peer 195.154.108.164 now valid
-Dec 22 16:00:54 cyberus ntpd[22968]: peer 178.32.54.53 now valid
-Dec 22 16:00:58 cyberus httpd[26068]: startup
-Dec 22 16:01:16 cyberus ntpd[22968]: peer 195.154.108.164 now invalid
-Dec 22 16:01:51 cyberus ntpd[20802]: adjusting local clock by 0.302137s
-Dec 22 16:06:01 cyberus ntpd[22968]: clock is now synced
-Dec 22 16:06:39 cyberus ntpd[22968]: peer 195.154.108.164 now valid
-Dec 22 16:27:19 cyberus ntpd[20802]: adjusting clock frequency by -1.337022 to -2.080572ppm
-Dec 22 16:51:46 cyberus ntpd[20802]: adjusting clock frequency by 1.328657 to -0.751914ppm
-Dec 22 16:52:26 cyberus dhcpd[19865]: DHCPREQUEST for 192.168.3.11 from 00:0e:6a:04:c3:80 via sis0
-Dec 22 16:52:26 cyberus dhcpd[19865]: DHCPACK on 192.168.3.11 to 00:0e:6a:04:c3:80 via sis0
-Dec 22 17:05:32 cyberus ntpd[20802]: adjusting clock frequency by 0.089660 to -0.662254ppm
-Dec 22 22:52:25 cyberus dhcpd[19865]: DHCPREQUEST for 192.168.3.11 from 00:0e:6a:04:c3:80 via sis0
-Dec 22 22:52:25 cyberus dhcpd[19865]: DHCPACK on 192.168.3.11 to 00:0e:6a:04:c3:80 via sis0
-Dec 23 01:50:35 cyberus ntpd[20802]: adjusting clock frequency by -0.621253 to -1.283507ppm
-Dec 23 04:52:25 cyberus dhcpd[19865]: DHCPREQUEST for 192.168.3.11 from 00:0e:6a:04:c3:80 via sis0
-Dec 23 04:52:26 cyberus dhcpd[19865]: DHCPACK on 192.168.3.11 to 00:0e:6a:04:c3:80 via sis0
-Dec 23 09:46:10 cyberus httpd[23634]: logger exiting, pid 23634
-Dec 23 09:46:10 cyberus httpd[264]: server exiting, pid 264
-Dec 23 09:46:10 cyberus httpd[2492]: server exiting, pid 2492
-Dec 23 09:46:10 cyberus httpd[22323]: server exiting, pid 22323
-Dec 23 09:46:10 cyberus httpd[26068]: parent terminating, pid 26068
-Dec 23 10:52:25 cyberus dhcpd[19865]: DHCPREQUEST for 192.168.3.11 from 00:0e:6a:04:c3:80 via sis0
-Dec 23 10:52:25 cyberus dhcpd[19865]: DHCPACK on 192.168.3.11 to 00:0e:6a:04:c3:80 via sis0
-Dec 23 13:40:42 cyberus ntpd[22968]: peer 195.154.108.164 now invalid
-Dec 23 13:55:42 cyberus ntpd[22968]: peer 195.154.108.164 now valid
-Dec 23 14:40:54 cyberus ntpd[20802]: adjusting clock frequency by 0.333718 to -0.949789ppm
-Dec 23 16:52:25 cyberus dhcpd[19865]: DHCPREQUEST for 192.168.3.11 from 00:0e:6a:04:c3:80 via sis0
-Dec 23 16:52:26 cyberus dhcpd[19865]: DHCPACK on 192.168.3.11 to 00:0e:6a:04:c3:80 via sis0
-Jan  5 08:57:12 cyberus ntpd[14060]: ntp engine ready
-Jan  5 08:57:13 cyberus savecore: no core dump
-Jan  5 08:57:20 cyberus snmpd[6420]: snmpe_bind: binding to address 127.0.0.1:161
-Jan  5 08:57:20 cyberus snmpd[6420]: startup
-Jan  5 08:57:22 cyberus dhcpd[7248]: Listening on sis1 (192.168.4.1).
-Jan  5 08:57:22 cyberus dhcpd[7248]: Listening on sis0 (192.168.3.1).
-Jan  5 08:57:29 cyberus ntpd[14060]: peer 37.187.31.148 now valid
-Jan  5 08:57:31 cyberus ntpd[14060]: peer 91.224.149.41 now valid
-Jan  5 08:57:36 cyberus ntpd[14060]: peer 195.154.71.176 now valid
-Jan  5 08:57:36 cyberus ntpd[14060]: peer 95.81.173.74 now valid
-Jan  5 08:58:33 cyberus ntpd[14181]: adjusting local clock by 65.292293s
-Jan  5 09:02:16 cyberus ntpd[14181]: adjusting local clock by 64.177144s
-Jan  5 09:02:46 cyberus ntpd[14181]: adjusting local clock by 64.029011s
-Jan  5 09:03:50 cyberus ntpd[14181]: adjusting local clock by 63.713152s
-Jan  5 09:07:37 cyberus ntpd[14181]: adjusting local clock by 62.581520s
-Jan  5 09:09:13 cyberus ntpd[14181]: adjusting local clock by 62.109883s
-Jan  5 09:13:32 cyberus ntpd[14181]: adjusting local clock by 60.817206s
-Jan  5 09:15:45 cyberus ntpd[14181]: adjusting local clock by 60.154808s
-Jan  5 09:17:18 cyberus ntpd[14181]: adjusting local clock by 59.689767s
-Jan  5 09:20:33 cyberus ntpd[14181]: adjusting local clock by 58.722439s
-Jan  5 09:22:10 cyberus ntpd[14181]: adjusting local clock by 58.239239s
-Jan  5 09:26:31 cyberus ntpd[14181]: adjusting local clock by 56.939032s
-Jan  5 09:29:08 cyberus ntpd[14181]: adjusting local clock by 56.158062s
-Jan  5 09:33:26 cyberus ntpd[14181]: adjusting local clock by 54.873814s
-Jan  5 09:34:00 cyberus ntpd[14181]: adjusting local clock by 54.703814s
-Jan  5 09:37:12 cyberus ntpd[14181]: adjusting local clock by 53.749298s
-Jan  5 09:38:48 cyberus ntpd[14181]: adjusting local clock by 53.274018s
-Jan  5 09:42:31 cyberus ntpd[14181]: adjusting local clock by 52.164224s
-Jan  5 09:44:06 cyberus ntpd[14181]: adjusting local clock by 51.691936s
-Jan  5 09:47:14 cyberus ntpd[14181]: adjusting local clock by 50.755410s
-Jan  5 09:50:33 cyberus ntpd[14181]: adjusting local clock by 49.764092s
-Jan  5 09:51:07 cyberus ntpd[14181]: adjusting local clock by 49.598981s
-Jan  5 09:51:38 cyberus ntpd[14181]: adjusting local clock by 49.443981s
-Jan  5 09:54:17 cyberus ntpd[14181]: adjusting local clock by 48.648981s
-Jan  5 09:56:28 cyberus ntpd[14181]: adjusting local clock by 47.997124s
-Jan  5 09:58:38 cyberus ntpd[14181]: adjusting local clock by 47.355755s
-Jan  5 10:02:22 cyberus ntpd[14181]: adjusting local clock by 46.238410s
-Jan  5 10:04:03 cyberus ntpd[14181]: adjusting local clock by 45.735729s
-Jan  5 10:07:14 cyberus ntpd[14181]: adjusting local clock by 44.785016s
-Jan  5 10:10:23 cyberus ntpd[14181]: adjusting local clock by 43.845210s
-Jan  5 10:13:09 cyberus ntpd[14181]: adjusting local clock by 43.018262s
-Jan  5 10:15:17 cyberus ntpd[14181]: adjusting local clock by 42.386808s
-Jan  5 10:19:07 cyberus ntpd[14181]: adjusting local clock by 41.236149s
-Jan  5 10:23:21 cyberus ntpd[14181]: adjusting local clock by 39.973113s
-Jan  5 10:25:29 cyberus ntpd[14181]: adjusting local clock by 39.338937s
-Jan  5 10:27:42 cyberus ntpd[14181]: adjusting local clock by 38.679602s
-Jan  5 10:31:57 cyberus ntpd[14181]: adjusting local clock by 37.410365s
-Jan  5 10:36:08 cyberus ntpd[14181]: adjusting local clock by 36.163445s
-Jan  5 10:39:52 cyberus ntpd[14181]: adjusting local clock by 35.045926s
-Jan  5 10:43:34 cyberus ntpd[14181]: adjusting local clock by 33.937555s
-Jan  5 10:45:42 cyberus ntpd[14181]: adjusting local clock by 33.301116s
-Jan  5 10:47:24 cyberus ntpd[14181]: adjusting local clock by 32.797288s
-Jan  5 10:51:45 cyberus ntpd[14181]: adjusting local clock by 31.497118s
-Jan  5 10:53:23 cyberus ntpd[14181]: adjusting local clock by 31.008352s
-Jan  5 10:54:31 cyberus ntpd[14181]: adjusting local clock by 30.671611s
-Jan  5 10:55:38 cyberus ntpd[14181]: adjusting local clock by 30.338991s
-Jan  5 10:57:15 cyberus ntpd[14181]: adjusting local clock by 29.858038s
-Jan  5 11:00:57 cyberus ntpd[14181]: adjusting local clock by 28.751484s
-Jan  5 11:02:01 cyberus ntpd[14181]: adjusting local clock by 28.433568s
-Jan  5 11:04:11 cyberus ntpd[14181]: adjusting local clock by 27.782871s
-Jan  5 11:08:02 cyberus ntpd[14181]: adjusting local clock by 26.638067s
-Jan  5 11:11:19 cyberus ntpd[14181]: adjusting local clock by 25.657597s
-Jan  5 11:14:01 cyberus ntpd[14181]: adjusting local clock by 24.852912s
-Jan  5 11:16:07 cyberus ntpd[14181]: adjusting local clock by 24.223363s
-Jan  5 11:18:52 cyberus ntpd[14181]: adjusting local clock by 23.400928s
-Jan  5 11:22:03 cyberus ntpd[14181]: adjusting local clock by 22.454840s
-Jan  5 11:25:40 cyberus ntpd[14181]: adjusting local clock by 21.374561s
-Jan  5 11:28:44 cyberus ntpd[14181]: adjusting local clock by 20.459447s
-Jan  5 11:33:08 cyberus ntpd[14181]: adjusting local clock by 19.144379s
-Jan  5 11:35:43 cyberus ntpd[14181]: adjusting local clock by 18.374421s
-Jan  5 11:37:18 cyberus ntpd[14181]: adjusting local clock by 17.902364s
-Jan  5 11:40:33 cyberus ntpd[14181]: adjusting local clock by 16.933298s
-Jan  5 11:44:46 cyberus ntpd[14181]: adjusting local clock by 15.673462s
-Jan  5 11:49:01 cyberus ntpd[14181]: adjusting local clock by 14.404887s
-Jan  5 11:53:22 cyberus ntpd[14181]: adjusting local clock by 13.106531s
-Jan  5 11:54:57 cyberus ntpd[14181]: adjusting local clock by 12.634817s
-Jan  5 11:59:12 cyberus ntpd[14181]: adjusting local clock by 11.364603s
-Jan  5 12:03:31 cyberus ntpd[14181]: adjusting local clock by 10.076782s
-Jan  5 12:05:37 cyberus ntpd[14181]: adjusting local clock by 9.451492s
-Jan  5 12:09:19 cyberus ntpd[14181]: adjusting local clock by 8.342227s
-Jan  5 12:11:01 cyberus ntpd[14181]: adjusting local clock by 7.837219s
-Jan  5 12:15:17 cyberus ntpd[14181]: adjusting local clock by 6.565735s
-Jan  5 12:17:26 cyberus ntpd[14181]: adjusting local clock by 5.919119s
-Jan  5 12:18:31 cyberus ntpd[14181]: adjusting local clock by 5.596853s
-Jan  5 12:22:48 cyberus ntpd[14181]: adjusting local clock by 4.323040s
-Jan  5 12:25:58 cyberus ntpd[14181]: adjusting local clock by 3.376649s
-Jan  5 12:29:37 cyberus ntpd[14181]: adjusting local clock by 2.287937s
-Jan  5 12:33:25 cyberus ntpd[14181]: adjusting local clock by 1.146977s
-Jan  5 12:34:29 cyberus ntpd[14181]: adjusting local clock by 0.834432s
-Jan  5 12:37:40 cyberus ntpd[14060]: clock is now synced
-Jan  5 13:21:41 cyberus ntpd[14181]: adjusting clock frequency by -0.358447 to -1.315078ppm
-Jan  5 13:43:08 cyberus ntpd[14181]: adjusting clock frequency by 0.378589 to -0.936489ppm
-Jan  6 03:09:23 cyberus ntpd[14181]: adjusting clock frequency by 0.142145 to -0.794344ppm
-Jan  6 08:56:20 cyberus dhcpd[12366]: DHCPDISCOVER from 00:0e:6a:04:c3:80 via sis0
-Jan  6 08:56:21 cyberus dhcpd[12366]: DHCPOFFER on 192.168.3.11 to 00:0e:6a:04:c3:80 via sis0
-Jan  6 08:56:24 cyberus dhcpd[12366]: DHCPDISCOVER from 00:0e:6a:04:c3:80 via sis0
-Jan  6 08:56:24 cyberus dhcpd[12366]: DHCPOFFER on 192.168.3.11 to 00:0e:6a:04:c3:80 via sis0
-Jan  6 08:56:29 cyberus dhcpd[12366]: DHCPREQUEST for 192.168.3.11 from 00:0e:6a:04:c3:80 via sis0
-Jan  6 08:56:29 cyberus dhcpd[12366]: DHCPACK on 192.168.3.11 to 00:0e:6a:04:c3:80 via sis0
-Jan  6 12:30:08 cyberus ntpd[14181]: adjusting clock frequency by 0.659829 to -0.134514ppm
-Jan  6 14:56:29 cyberus dhcpd[12366]: DHCPREQUEST for 192.168.3.11 from 00:0e:6a:04:c3:80 via sis0
-Jan  6 14:56:29 cyberus dhcpd[12366]: DHCPACK on 192.168.3.11 to 00:0e:6a:04:c3:80 via sis0
-Jan  6 18:12:05 cyberus ntpd[14181]: adjusting clock frequency by 1.828341 to 1.693827ppm
-Jan  6 20:56:29 cyberus dhcpd[12366]: DHCPREQUEST for 192.168.3.11 from 00:0e:6a:04:c3:80 via sis0
-Jan  6 20:56:29 cyberus dhcpd[12366]: DHCPACK on 192.168.3.11 to 00:0e:6a:04:c3:80 via sis0
-Jan  7 02:56:29 cyberus dhcpd[12366]: DHCPREQUEST for 192.168.3.11 from 00:0e:6a:04:c3:80 via sis0
-Jan  7 02:56:29 cyberus dhcpd[12366]: DHCPACK on 192.168.3.11 to 00:0e:6a:04:c3:80 via sis0
-Jan  7 07:34:19 cyberus ntpd[14181]: adjusting clock frequency by -0.202886 to 1.490941ppm
-Jan  7 08:56:29 cyberus dhcpd[12366]: DHCPREQUEST for 192.168.3.11 from 00:0e:6a:04:c3:80 via sis0
-Jan  7 08:56:29 cyberus dhcpd[12366]: DHCPACK on 192.168.3.11 to 00:0e:6a:04:c3:80 via sis0
+Jan  9 09:00:03 cyberus newsyslog[31179]: logfile turned over
+Jan  9 13:18:09 cyberus ntpd[29009]: peer 37.187.104.44 now invalid
+Jan  9 13:36:14 cyberus ntpd[29009]: peer 37.187.104.44 now valid
+Jan  9 14:56:27 cyberus dhcpd[9373]: DHCPREQUEST for 192.168.3.11 from 00:0e:6a:04:c3:80 via sis0
+Jan  9 14:56:27 cyberus dhcpd[9373]: DHCPACK on 192.168.3.11 to 00:0e:6a:04:c3:80 via sis0
+Jan  9 16:32:27 cyberus ntpd[29009]: peer 195.83.66.158 now invalid
+Jan  9 16:50:37 cyberus ntpd[29009]: peer 195.83.66.158 now valid
+Jan  9 18:52:36 cyberus ntpd[29009]: peer 195.83.66.158 now invalid
+Jan  9 19:03:19 cyberus ntpd[29009]: peer 195.83.66.158 now valid
+Jan  9 20:56:27 cyberus dhcpd[9373]: DHCPREQUEST for 192.168.3.11 from 00:0e:6a:04:c3:80 via sis0
+Jan  9 20:56:27 cyberus dhcpd[9373]: DHCPACK on 192.168.3.11 to 00:0e:6a:04:c3:80 via sis0
+Jan 10 01:52:55 cyberus ntpd[9767]: adjusting clock frequency by -0.376267 to 1.410960ppm
+Jan 10 02:56:26 cyberus dhcpd[9373]: DHCPREQUEST for 192.168.3.11 from 00:0e:6a:04:c3:80 via sis0
+Jan 10 02:56:26 cyberus dhcpd[9373]: DHCPACK on 192.168.3.11 to 00:0e:6a:04:c3:80 via sis0
+Jan 10 08:56:26 cyberus dhcpd[9373]: DHCPREQUEST for 192.168.3.11 from 00:0e:6a:04:c3:80 via sis0
+Jan 10 08:56:26 cyberus dhcpd[9373]: DHCPACK on 192.168.3.11 to 00:0e:6a:04:c3:80 via sis0
+Jan 10 14:56:26 cyberus dhcpd[9373]: DHCPREQUEST for 192.168.3.11 from 00:0e:6a:04:c3:80 via sis0
+Jan 10 14:56:26 cyberus dhcpd[9373]: DHCPACK on 192.168.3.11 to 00:0e:6a:04:c3:80 via sis0
+Jan 10 16:00:56 cyberus ntpd[29009]: peer 195.83.66.158 now invalid
+Jan 10 16:12:25 cyberus ntpd[29009]: peer 195.83.66.158 now valid
+Jan 10 17:23:55 cyberus ntpd[29009]: peer 195.83.66.158 now invalid
+Jan 10 17:39:30 cyberus ntpd[29009]: peer 195.83.66.158 now valid
+Jan 10 19:55:10 cyberus ntpd[9767]: adjusting clock frequency by 0.078418 to 1.489378ppm
+Jan 10 20:56:26 cyberus dhcpd[9373]: DHCPREQUEST for 192.168.3.11 from 00:0e:6a:04:c3:80 via sis0
+Jan 10 20:56:26 cyberus dhcpd[9373]: DHCPACK on 192.168.3.11 to 00:0e:6a:04:c3:80 via sis0
+Jan 11 00:42:22 cyberus ntpd[29009]: peer 195.83.66.158 now invalid
+Jan 11 00:51:19 cyberus ntpd[29009]: peer 195.83.66.158 now valid
+Jan 11 02:56:26 cyberus dhcpd[9373]: DHCPREQUEST for 192.168.3.11 from 00:0e:6a:04:c3:80 via sis0
+Jan 11 02:56:26 cyberus dhcpd[9373]: DHCPACK on 192.168.3.11 to 00:0e:6a:04:c3:80 via sis0
+Jan 11 05:28:57 cyberus ntpd[9767]: adjusting clock frequency by 0.306605 to 1.795984ppm
+Jan 11 08:56:25 cyberus dhcpd[9373]: DHCPREQUEST for 192.168.3.11 from 00:0e:6a:04:c3:80 via sis0
+Jan 11 08:56:25 cyberus dhcpd[9373]: DHCPACK on 192.168.3.11 to 00:0e:6a:04:c3:80 via sis0
+Jan 11 12:51:37 cyberus ntpd[29009]: peer 195.83.66.158 now invalid
+Jan 11 13:05:08 cyberus ntpd[29009]: peer 195.83.66.158 now valid
+Jan 11 13:36:59 cyberus ntpd[9767]: adjusting clock frequency by -0.346989 to 1.448995ppm
+Jan 11 14:56:25 cyberus dhcpd[9373]: DHCPREQUEST for 192.168.3.11 from 00:0e:6a:04:c3:80 via sis0
+Jan 11 14:56:25 cyberus dhcpd[9373]: DHCPACK on 192.168.3.11 to 00:0e:6a:04:c3:80 via sis0
+Jan 11 15:17:20 cyberus ntpd[29009]: peer 195.83.66.158 now invalid
+Jan 11 15:34:20 cyberus ntpd[29009]: peer 195.83.66.158 now valid
+Jan 11 17:38:14 cyberus ntpd[29009]: peer 195.83.66.158 now invalid
+Jan 11 17:47:09 cyberus ntpd[29009]: peer 195.83.66.158 now valid
+Jan 11 20:56:25 cyberus dhcpd[9373]: DHCPREQUEST for 192.168.3.11 from 00:0e:6a:04:c3:80 via sis0
+Jan 11 20:56:25 cyberus dhcpd[9373]: DHCPACK on 192.168.3.11 to 00:0e:6a:04:c3:80 via sis0
+Jan 12 00:18:45 cyberus ntpd[9767]: adjusting clock frequency by 0.480362 to 1.929357ppm
+Jan 12 02:56:25 cyberus dhcpd[9373]: DHCPREQUEST for 192.168.3.11 from 00:0e:6a:04:c3:80 via sis0
+Jan 12 02:56:25 cyberus dhcpd[9373]: DHCPACK on 192.168.3.11 to 00:0e:6a:04:c3:80 via sis0
+Jan 12 08:56:24 cyberus dhcpd[9373]: DHCPREQUEST for 192.168.3.11 from 00:0e:6a:04:c3:80 via sis0
+Jan 12 08:56:24 cyberus dhcpd[9373]: DHCPACK on 192.168.3.11 to 00:0e:6a:04:c3:80 via sis0
+Jan 12 12:26:36 cyberus ntpd[9767]: adjusting clock frequency by -0.370972 to 1.558386ppm
+Jan 12 14:56:24 cyberus dhcpd[9373]: DHCPREQUEST for 192.168.3.11 from 00:0e:6a:04:c3:80 via sis0
+Jan 12 14:56:24 cyberus dhcpd[9373]: DHCPACK on 192.168.3.11 to 00:0e:6a:04:c3:80 via sis0
+Jan 12 16:32:11 cyberus ntpd[29009]: peer 195.83.66.158 now invalid
+Jan 12 16:34:33 cyberus ntpd[29009]: peer 178.32.216.71 now invalid
+Jan 12 16:37:11 cyberus ntpd[29009]: 2 out of 4 peers valid
+Jan 12 16:37:11 cyberus ntpd[29009]: bad peer from pool fr.pool.ntp.org (195.83.66.158) 
+Jan 12 16:37:11 cyberus ntpd[29009]: bad peer from pool fr.pool.ntp.org (178.32.216.71) 
+Jan 12 16:38:49 cyberus ntpd[29009]: peer 37.187.104.44 now invalid
+Jan 12 16:42:26 cyberus ntpd[29009]: peer 195.154.14.40 now invalid
+Jan 12 20:56:24 cyberus dhcpd[9373]: DHCPREQUEST for 192.168.3.11 from 00:0e:6a:04:c3:80 via sis0
+Jan 12 20:56:24 cyberus dhcpd[9373]: DHCPACK on 192.168.3.11 to 00:0e:6a:04:c3:80 via sis0
+Jan 12 22:18:14 cyberus ntpd[29009]: peer 178.32.216.71 now valid
+Jan 12 22:20:48 cyberus ntpd[29009]: peer 195.154.14.40 now valid
+Jan 12 22:20:58 cyberus ntpd[29009]: peer 195.83.66.158 now valid
+Jan 12 22:22:05 cyberus ntpd[29009]: peer 37.187.104.44 now valid
+Jan 13 02:56:24 cyberus dhcpd[9373]: DHCPREQUEST for 192.168.3.11 from 00:0e:6a:04:c3:80 via sis0
+Jan 13 02:56:24 cyberus dhcpd[9373]: DHCPACK on 192.168.3.11 to 00:0e:6a:04:c3:80 via sis0
+Jan 13 03:09:02 cyberus ntpd[9767]: adjusting clock frequency by 0.233186 to 1.791571ppm
+Jan 13 07:33:40 cyberus ntpd[29009]: peer 195.83.66.158 now invalid
+Jan 13 07:42:47 cyberus ntpd[29009]: peer 195.83.66.158 now valid
+Jan 13 08:31:16 cyberus ntpd[29009]: peer 195.83.66.158 now invalid
+Jan 13 08:41:50 cyberus ntpd[29009]: peer 195.83.66.158 now valid
+Jan 13 08:56:24 cyberus dhcpd[9373]: DHCPREQUEST for 192.168.3.11 from 00:0e:6a:04:c3:80 via sis0
+Jan 13 08:56:24 cyberus dhcpd[9373]: DHCPACK on 192.168.3.11 to 00:0e:6a:04:c3:80 via sis0
+Jan 13 12:26:44 cyberus ntpd[9767]: adjusting clock frequency by 0.421000 to 2.212571ppm
+Jan 13 13:45:09 cyberus ntpd[29009]: reply from 195.83.66.158: not synced (alarm), next query 3236s
+Jan 13 14:56:23 cyberus dhcpd[9373]: DHCPREQUEST for 192.168.3.11 from 00:0e:6a:04:c3:80 via sis0
+Jan 13 14:56:23 cyberus dhcpd[9373]: DHCPACK on 192.168.3.11 to 00:0e:6a:04:c3:80 via sis0
+Jan 13 15:06:21 cyberus ntpd[29009]: peer 195.83.66.158 now invalid
+Jan 13 15:14:41 cyberus ntpd[29009]: peer 195.83.66.158 now valid
+Jan 13 19:49:29 cyberus ntpd[29009]: peer 178.32.216.71 now invalid
+Jan 13 20:02:19 cyberus ntpd[29009]: peer 195.83.66.158 now invalid
+Jan 13 20:02:53 cyberus ntpd[29009]: 2 out of 4 peers valid
+Jan 13 20:02:53 cyberus ntpd[29009]: bad peer from pool fr.pool.ntp.org (195.83.66.158) 
+Jan 13 20:02:53 cyberus ntpd[29009]: bad peer from pool fr.pool.ntp.org (178.32.216.71) 
+Jan 13 20:20:38 cyberus ntpd[29009]: peer 195.83.66.158 now valid
+Jan 13 20:56:23 cyberus dhcpd[9373]: DHCPREQUEST for 192.168.3.11 from 00:0e:6a:04:c3:80 via sis0
+Jan 13 20:56:23 cyberus dhcpd[9373]: DHCPACK on 192.168.3.11 to 00:0e:6a:04:c3:80 via sis0
+Jan 13 22:26:44 cyberus ntpd[29009]: reply from 178.32.216.71: not synced (alarm), next query 3022s
+Jan 13 23:11:02 cyberus ntpd[9767]: adjusting clock frequency by -0.543167 to 1.669404ppm
+Jan 13 23:18:57 cyberus ntpd[29009]: peer 178.32.216.71 now valid
+Jan 14 02:56:23 cyberus dhcpd[9373]: DHCPREQUEST for 192.168.3.11 from 00:0e:6a:04:c3:80 via sis0
+Jan 14 02:56:23 cyberus dhcpd[9373]: DHCPACK on 192.168.3.11 to 00:0e:6a:04:c3:80 via sis0
+Jan 14 08:56:23 cyberus dhcpd[9373]: DHCPREQUEST for 192.168.3.11 from 00:0e:6a:04:c3:80 via sis0
+Jan 14 08:56:23 cyberus dhcpd[9373]: DHCPACK on 192.168.3.11 to 00:0e:6a:04:c3:80 via sis0

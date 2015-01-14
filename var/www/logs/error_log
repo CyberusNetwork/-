@@ -292,3 +292,157 @@ error: Error setting up SSL_CTX client key and cert
 762584872:error:0200100D:system library:fopen:Permission denied:/usr/src/lib/libcrypto/crypto/../../libssl/src/crypto/bio/bss_file.c:262:fopen('/var/unbound/etc/unbound_control.pem', 'r')
 762584872:error:20074002:BIO routines:FILE_CTRL:system lib:/usr/src/lib/libcrypto/crypto/../../libssl/src/crypto/bio/bss_file.c:264:
 762584872:error:140AD002:SSL routines:SSL_CTX_use_certificate_file:system lib:/binpatchng/work-binpatch56-i386/src/lib/libssl/ssl/../../libssl/src/ssl/ssl_rsa.c:433:
+error: Error setting up SSL_CTX client key and cert
+689590056:error:0200100D:system library:fopen:Permission denied:/usr/src/lib/libcrypto/crypto/../../libssl/src/crypto/bio/bss_file.c:262:fopen('/var/unbound/etc/unbound_control.pem', 'r')
+689590056:error:20074002:BIO routines:FILE_CTRL:system lib:/usr/src/lib/libcrypto/crypto/../../libssl/src/crypto/bio/bss_file.c:264:
+689590056:error:140AD002:SSL routines:SSL_CTX_use_certificate_file:system lib:/binpatchng/work-binpatch56-i386/src/lib/libssl/ssl/../../libssl/src/ssl/ssl_rsa.c:433:
+error: Error setting up SSL_CTX client key and cert
+794283816:error:0200100D:system library:fopen:Permission denied:/usr/src/lib/libcrypto/crypto/../../libssl/src/crypto/bio/bss_file.c:262:fopen('/var/unbound/etc/unbound_control.pem', 'r')
+794283816:error:20074002:BIO routines:FILE_CTRL:system lib:/usr/src/lib/libcrypto/crypto/../../libssl/src/crypto/bio/bss_file.c:264:
+794283816:error:140AD002:SSL routines:SSL_CTX_use_certificate_file:system lib:/binpatchng/work-binpatch56-i386/src/lib/libssl/ssl/../../libssl/src/ssl/ssl_rsa.c:433:
+error: Error setting up SSL_CTX client key and cert
+728153896:error:0200100D:system library:fopen:Permission denied:/usr/src/lib/libcrypto/crypto/../../libssl/src/crypto/bio/bss_file.c:262:fopen('/var/unbound/etc/unbound_control.pem', 'r')
+728153896:error:20074002:BIO routines:FILE_CTRL:system lib:/usr/src/lib/libcrypto/crypto/../../libssl/src/crypto/bio/bss_file.c:264:
+728153896:error:140AD002:SSL routines:SSL_CTX_use_certificate_file:system lib:/binpatchng/work-binpatch56-i386/src/lib/libssl/ssl/../../libssl/src/ssl/ssl_rsa.c:433:
+error: Error setting up SSL_CTX client key and cert
+717246248:error:0200100D:system library:fopen:Permission denied:/usr/src/lib/libcrypto/crypto/../../libssl/src/crypto/bio/bss_file.c:262:fopen('/var/unbound/etc/unbound_control.pem', 'r')
+717246248:error:20074002:BIO routines:FILE_CTRL:system lib:/usr/src/lib/libcrypto/crypto/../../libssl/src/crypto/bio/bss_file.c:264:
+717246248:error:140AD002:SSL routines:SSL_CTX_use_certificate_file:system lib:/binpatchng/work-binpatch56-i386/src/lib/libssl/ssl/../../libssl/src/ssl/ssl_rsa.c:433:
+error: Error setting up SSL_CTX client key and cert
+616537896:error:0200100D:system library:fopen:Permission denied:/usr/src/lib/libcrypto/crypto/../../libssl/src/crypto/bio/bss_file.c:262:fopen('/var/unbound/etc/unbound_control.pem', 'r')
+616537896:error:20074002:BIO routines:FILE_CTRL:system lib:/usr/src/lib/libcrypto/crypto/../../libssl/src/crypto/bio/bss_file.c:264:
+616537896:error:140AD002:SSL routines:SSL_CTX_use_certificate_file:system lib:/binpatchng/work-binpatch56-i386/src/lib/libssl/ssl/../../libssl/src/ssl/ssl_rsa.c:433:
+error: Error setting up SSL_CTX client key and cert
+795033384:error:0200100D:system library:fopen:Permission denied:/usr/src/lib/libcrypto/crypto/../../libssl/src/crypto/bio/bss_file.c:262:fopen('/var/unbound/etc/unbound_control.pem', 'r')
+795033384:error:20074002:BIO routines:FILE_CTRL:system lib:/usr/src/lib/libcrypto/crypto/../../libssl/src/crypto/bio/bss_file.c:264:
+795033384:error:140AD002:SSL routines:SSL_CTX_use_certificate_file:system lib:/binpatchng/work-binpatch56-i386/src/lib/libssl/ssl/../../libssl/src/ssl/ssl_rsa.c:433:
+error: Error setting up SSL_CTX client key and cert
+768769832:error:0200100D:system library:fopen:Permission denied:/usr/src/lib/libcrypto/crypto/../../libssl/src/crypto/bio/bss_file.c:262:fopen('/var/unbound/etc/unbound_control.pem', 'r')
+768769832:error:20074002:BIO routines:FILE_CTRL:system lib:/usr/src/lib/libcrypto/crypto/../../libssl/src/crypto/bio/bss_file.c:264:
+768769832:error:140AD002:SSL routines:SSL_CTX_use_certificate_file:system lib:/binpatchng/work-binpatch56-i386/src/lib/libssl/ssl/../../libssl/src/ssl/ssl_rsa.c:433:
+error: Error setting up SSL_CTX client key and cert
+591552296:error:0200100D:system library:fopen:Permission denied:/usr/src/lib/libcrypto/crypto/../../libssl/src/crypto/bio/bss_file.c:262:fopen('/var/unbound/etc/unbound_control.pem', 'r')
+591552296:error:20074002:BIO routines:FILE_CTRL:system lib:/usr/src/lib/libcrypto/crypto/../../libssl/src/crypto/bio/bss_file.c:264:
+591552296:error:140AD002:SSL routines:SSL_CTX_use_certificate_file:system lib:/binpatchng/work-binpatch56-i386/src/lib/libssl/ssl/../../libssl/src/ssl/ssl_rsa.c:433:
+error: Error setting up SSL_CTX client key and cert
+686796584:error:0200100D:system library:fopen:Permission denied:/usr/src/lib/libcrypto/crypto/../../libssl/src/crypto/bio/bss_file.c:262:fopen('/var/unbound/etc/unbound_control.pem', 'r')
+686796584:error:20074002:BIO routines:FILE_CTRL:system lib:/usr/src/lib/libcrypto/crypto/../../libssl/src/crypto/bio/bss_file.c:264:
+686796584:error:140AD002:SSL routines:SSL_CTX_use_certificate_file:system lib:/binpatchng/work-binpatch56-i386/src/lib/libssl/ssl/../../libssl/src/ssl/ssl_rsa.c:433:
+error: Error setting up SSL_CTX client key and cert
+608526120:error:0200100D:system library:fopen:Permission denied:/usr/src/lib/libcrypto/crypto/../../libssl/src/crypto/bio/bss_file.c:262:fopen('/var/unbound/etc/unbound_control.pem', 'r')
+608526120:error:20074002:BIO routines:FILE_CTRL:system lib:/usr/src/lib/libcrypto/crypto/../../libssl/src/crypto/bio/bss_file.c:264:
+608526120:error:140AD002:SSL routines:SSL_CTX_use_certificate_file:system lib:/binpatchng/work-binpatch56-i386/src/lib/libssl/ssl/../../libssl/src/ssl/ssl_rsa.c:433:
+error: Error setting up SSL_CTX client key and cert
+607067944:error:0200100D:system library:fopen:Permission denied:/usr/src/lib/libcrypto/crypto/../../libssl/src/crypto/bio/bss_file.c:262:fopen('/var/unbound/etc/unbound_control.pem', 'r')
+607067944:error:20074002:BIO routines:FILE_CTRL:system lib:/usr/src/lib/libcrypto/crypto/../../libssl/src/crypto/bio/bss_file.c:264:
+607067944:error:140AD002:SSL routines:SSL_CTX_use_certificate_file:system lib:/binpatchng/work-binpatch56-i386/src/lib/libssl/ssl/../../libssl/src/ssl/ssl_rsa.c:433:
+error: Error setting up SSL_CTX client key and cert
+581672744:error:0200100D:system library:fopen:Permission denied:/usr/src/lib/libcrypto/crypto/../../libssl/src/crypto/bio/bss_file.c:262:fopen('/var/unbound/etc/unbound_control.pem', 'r')
+581672744:error:20074002:BIO routines:FILE_CTRL:system lib:/usr/src/lib/libcrypto/crypto/../../libssl/src/crypto/bio/bss_file.c:264:
+581672744:error:140AD002:SSL routines:SSL_CTX_use_certificate_file:system lib:/binpatchng/work-binpatch56-i386/src/lib/libssl/ssl/../../libssl/src/ssl/ssl_rsa.c:433:
+error: Error setting up SSL_CTX client key and cert
+539987752:error:0200100D:system library:fopen:Permission denied:/usr/src/lib/libcrypto/crypto/../../libssl/src/crypto/bio/bss_file.c:262:fopen('/var/unbound/etc/unbound_control.pem', 'r')
+539987752:error:20074002:BIO routines:FILE_CTRL:system lib:/usr/src/lib/libcrypto/crypto/../../libssl/src/crypto/bio/bss_file.c:264:
+539987752:error:140AD002:SSL routines:SSL_CTX_use_certificate_file:system lib:/binpatchng/work-binpatch56-i386/src/lib/libssl/ssl/../../libssl/src/ssl/ssl_rsa.c:433:
+error: Error setting up SSL_CTX client key and cert
+715112232:error:0200100D:system library:fopen:Permission denied:/usr/src/lib/libcrypto/crypto/../../libssl/src/crypto/bio/bss_file.c:262:fopen('/var/unbound/etc/unbound_control.pem', 'r')
+715112232:error:20074002:BIO routines:FILE_CTRL:system lib:/usr/src/lib/libcrypto/crypto/../../libssl/src/crypto/bio/bss_file.c:264:
+715112232:error:140AD002:SSL routines:SSL_CTX_use_certificate_file:system lib:/binpatchng/work-binpatch56-i386/src/lib/libssl/ssl/../../libssl/src/ssl/ssl_rsa.c:433:
+error: Error setting up SSL_CTX client key and cert
+624291624:error:0200100D:system library:fopen:Permission denied:/usr/src/lib/libcrypto/crypto/../../libssl/src/crypto/bio/bss_file.c:262:fopen('/var/unbound/etc/unbound_control.pem', 'r')
+624291624:error:20074002:BIO routines:FILE_CTRL:system lib:/usr/src/lib/libcrypto/crypto/../../libssl/src/crypto/bio/bss_file.c:264:
+624291624:error:140AD002:SSL routines:SSL_CTX_use_certificate_file:system lib:/binpatchng/work-binpatch56-i386/src/lib/libssl/ssl/../../libssl/src/ssl/ssl_rsa.c:433:
+error: Error setting up SSL_CTX client key and cert
+619585320:error:0200100D:system library:fopen:Permission denied:/usr/src/lib/libcrypto/crypto/../../libssl/src/crypto/bio/bss_file.c:262:fopen('/var/unbound/etc/unbound_control.pem', 'r')
+619585320:error:20074002:BIO routines:FILE_CTRL:system lib:/usr/src/lib/libcrypto/crypto/../../libssl/src/crypto/bio/bss_file.c:264:
+619585320:error:140AD002:SSL routines:SSL_CTX_use_certificate_file:system lib:/binpatchng/work-binpatch56-i386/src/lib/libssl/ssl/../../libssl/src/ssl/ssl_rsa.c:433:
+error: Error setting up SSL_CTX client key and cert
+768655144:error:0200100D:system library:fopen:Permission denied:/usr/src/lib/libcrypto/crypto/../../libssl/src/crypto/bio/bss_file.c:262:fopen('/var/unbound/etc/unbound_control.pem', 'r')
+768655144:error:20074002:BIO routines:FILE_CTRL:system lib:/usr/src/lib/libcrypto/crypto/../../libssl/src/crypto/bio/bss_file.c:264:
+768655144:error:140AD002:SSL routines:SSL_CTX_use_certificate_file:system lib:/binpatchng/work-binpatch56-i386/src/lib/libssl/ssl/../../libssl/src/ssl/ssl_rsa.c:433:
+error: Error setting up SSL_CTX client key and cert
+601300776:error:0200100D:system library:fopen:Permission denied:/usr/src/lib/libcrypto/crypto/../../libssl/src/crypto/bio/bss_file.c:262:fopen('/var/unbound/etc/unbound_control.pem', 'r')
+601300776:error:20074002:BIO routines:FILE_CTRL:system lib:/usr/src/lib/libcrypto/crypto/../../libssl/src/crypto/bio/bss_file.c:264:
+601300776:error:140AD002:SSL routines:SSL_CTX_use_certificate_file:system lib:/binpatchng/work-binpatch56-i386/src/lib/libssl/ssl/../../libssl/src/ssl/ssl_rsa.c:433:
+error: Error setting up SSL_CTX client key and cert
+712597288:error:0200100D:system library:fopen:Permission denied:/usr/src/lib/libcrypto/crypto/../../libssl/src/crypto/bio/bss_file.c:262:fopen('/var/unbound/etc/unbound_control.pem', 'r')
+712597288:error:20074002:BIO routines:FILE_CTRL:system lib:/usr/src/lib/libcrypto/crypto/../../libssl/src/crypto/bio/bss_file.c:264:
+712597288:error:140AD002:SSL routines:SSL_CTX_use_certificate_file:system lib:/binpatchng/work-binpatch56-i386/src/lib/libssl/ssl/../../libssl/src/ssl/ssl_rsa.c:433:
+error: Error setting up SSL_CTX client key and cert
+622296872:error:0200100D:system library:fopen:Permission denied:/usr/src/lib/libcrypto/crypto/../../libssl/src/crypto/bio/bss_file.c:262:fopen('/var/unbound/etc/unbound_control.pem', 'r')
+622296872:error:20074002:BIO routines:FILE_CTRL:system lib:/usr/src/lib/libcrypto/crypto/../../libssl/src/crypto/bio/bss_file.c:264:
+622296872:error:140AD002:SSL routines:SSL_CTX_use_certificate_file:system lib:/binpatchng/work-binpatch56-i386/src/lib/libssl/ssl/../../libssl/src/ssl/ssl_rsa.c:433:
+error: Error setting up SSL_CTX client key and cert
+798785320:error:0200100D:system library:fopen:Permission denied:/usr/src/lib/libcrypto/crypto/../../libssl/src/crypto/bio/bss_file.c:262:fopen('/var/unbound/etc/unbound_control.pem', 'r')
+798785320:error:20074002:BIO routines:FILE_CTRL:system lib:/usr/src/lib/libcrypto/crypto/../../libssl/src/crypto/bio/bss_file.c:264:
+798785320:error:140AD002:SSL routines:SSL_CTX_use_certificate_file:system lib:/binpatchng/work-binpatch56-i386/src/lib/libssl/ssl/../../libssl/src/ssl/ssl_rsa.c:433:
+error: Error setting up SSL_CTX client key and cert
+799055656:error:0200100D:system library:fopen:Permission denied:/usr/src/lib/libcrypto/crypto/../../libssl/src/crypto/bio/bss_file.c:262:fopen('/var/unbound/etc/unbound_control.pem', 'r')
+799055656:error:20074002:BIO routines:FILE_CTRL:system lib:/usr/src/lib/libcrypto/crypto/../../libssl/src/crypto/bio/bss_file.c:264:
+799055656:error:140AD002:SSL routines:SSL_CTX_use_certificate_file:system lib:/binpatchng/work-binpatch56-i386/src/lib/libssl/ssl/../../libssl/src/ssl/ssl_rsa.c:433:
+[Wed Jan 07 15:40:16 2015] [warn] child process 19956 still did not exit, sending a SIGTERM
+[Wed Jan 07 15:40:17 2015] [warn] child process 14927 still did not exit, sending a SIGTERM
+[Wed Jan 07 15:40:17 2015] [warn] child process 780 still did not exit, sending a SIGTERM
+[Wed Jan 07 15:40:17 2015] [warn] child process 16621 still did not exit, sending a SIGTERM
+[Wed Jan 07 15:40:17 2015] [warn] child process 4573 still did not exit, sending a SIGTERM
+[Wed Jan 07 15:40:17 2015] [warn] child process 31015 still did not exit, sending a SIGTERM
+[Wed Jan 07 15:40:17 2015] [warn] child process 26961 still did not exit, sending a SIGTERM
+[Wed Jan 07 15:40:17 2015] [warn] child process 32679 still did not exit, sending a SIGTERM
+[Wed Jan 07 15:40:17 2015] [warn] child process 6418 still did not exit, sending a SIGTERM
+[Wed Jan 07 15:40:17 2015] [warn] child process 25727 still did not exit, sending a SIGTERM
+[Wed Jan 07 16:14:55 2015] [notice] Digest: generating secret for digest authentication ...
+[Wed Jan 07 16:14:55 2015] [notice] Digest: done
+[Wed Jan 07 16:14:58 2015] [warn] pid file /var/www/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Jan 07 16:14:58 2015] [notice] Apache/2.2.27 (Unix) DAV/2 PHP/5.4.30 mod_ssl/2.2.27 LibreSSL/2.0 configured -- resuming normal operations
+error: Error setting up SSL_CTX client key and cert
+796024616:error:0200100D:system library:fopen:Permission denied:/usr/src/lib/libcrypto/crypto/../../libssl/src/crypto/bio/bss_file.c:262:fopen('/var/unbound/etc/unbound_control.pem', 'r')
+796024616:error:20074002:BIO routines:FILE_CTRL:system lib:/usr/src/lib/libcrypto/crypto/../../libssl/src/crypto/bio/bss_file.c:264:
+796024616:error:140AD002:SSL routines:SSL_CTX_use_certificate_file:system lib:/binpatchng/work-binpatch56-i386/src/lib/libssl/ssl/../../libssl/src/ssl/ssl_rsa.c:433:
+error: Error setting up SSL_CTX client key and cert
+593796904:error:0200100D:system library:fopen:Permission denied:/usr/src/lib/libcrypto/crypto/../../libssl/src/crypto/bio/bss_file.c:262:fopen('/var/unbound/etc/unbound_control.pem', 'r')
+593796904:error:20074002:BIO routines:FILE_CTRL:system lib:/usr/src/lib/libcrypto/crypto/../../libssl/src/crypto/bio/bss_file.c:264:
+593796904:error:140AD002:SSL routines:SSL_CTX_use_certificate_file:system lib:/binpatchng/work-binpatch56-i386/src/lib/libssl/ssl/../../libssl/src/ssl/ssl_rsa.c:433:
+error: Error setting up SSL_CTX client key and cert
+763281192:error:0200100D:system library:fopen:Permission denied:/usr/src/lib/libcrypto/crypto/../../libssl/src/crypto/bio/bss_file.c:262:fopen('/var/unbound/etc/unbound_control.pem', 'r')
+763281192:error:20074002:BIO routines:FILE_CTRL:system lib:/usr/src/lib/libcrypto/crypto/../../libssl/src/crypto/bio/bss_file.c:264:
+763281192:error:140AD002:SSL routines:SSL_CTX_use_certificate_file:system lib:/binpatchng/work-binpatch56-i386/src/lib/libssl/ssl/../../libssl/src/ssl/ssl_rsa.c:433:
+error: Error setting up SSL_CTX client key and cert
+659148584:error:0200100D:system library:fopen:Permission denied:/usr/src/lib/libcrypto/crypto/../../libssl/src/crypto/bio/bss_file.c:262:fopen('/var/unbound/etc/unbound_control.pem', 'r')
+659148584:error:20074002:BIO routines:FILE_CTRL:system lib:/usr/src/lib/libcrypto/crypto/../../libssl/src/crypto/bio/bss_file.c:264:
+659148584:error:140AD002:SSL routines:SSL_CTX_use_certificate_file:system lib:/binpatchng/work-binpatch56-i386/src/lib/libssl/ssl/../../libssl/src/ssl/ssl_rsa.c:433:
+error: Error setting up SSL_CTX client key and cert
+719408936:error:0200100D:system library:fopen:Permission denied:/usr/src/lib/libcrypto/crypto/../../libssl/src/crypto/bio/bss_file.c:262:fopen('/var/unbound/etc/unbound_control.pem', 'r')
+719408936:error:20074002:BIO routines:FILE_CTRL:system lib:/usr/src/lib/libcrypto/crypto/../../libssl/src/crypto/bio/bss_file.c:264:
+719408936:error:140AD002:SSL routines:SSL_CTX_use_certificate_file:system lib:/binpatchng/work-binpatch56-i386/src/lib/libssl/ssl/../../libssl/src/ssl/ssl_rsa.c:433:
+error: Error setting up SSL_CTX client key and cert
+665173800:error:0200100D:system library:fopen:Permission denied:/usr/src/lib/libcrypto/crypto/../../libssl/src/crypto/bio/bss_file.c:262:fopen('/var/unbound/etc/unbound_control.pem', 'r')
+665173800:error:20074002:BIO routines:FILE_CTRL:system lib:/usr/src/lib/libcrypto/crypto/../../libssl/src/crypto/bio/bss_file.c:264:
+665173800:error:140AD002:SSL routines:SSL_CTX_use_certificate_file:system lib:/binpatchng/work-binpatch56-i386/src/lib/libssl/ssl/../../libssl/src/ssl/ssl_rsa.c:433:
+error: Error setting up SSL_CTX client key and cert
+601591592:error:0200100D:system library:fopen:Permission denied:/usr/src/lib/libcrypto/crypto/../../libssl/src/crypto/bio/bss_file.c:262:fopen('/var/unbound/etc/unbound_control.pem', 'r')
+601591592:error:20074002:BIO routines:FILE_CTRL:system lib:/usr/src/lib/libcrypto/crypto/../../libssl/src/crypto/bio/bss_file.c:264:
+601591592:error:140AD002:SSL routines:SSL_CTX_use_certificate_file:system lib:/binpatchng/work-binpatch56-i386/src/lib/libssl/ssl/../../libssl/src/ssl/ssl_rsa.c:433:
+error: Error setting up SSL_CTX client key and cert
+576970536:error:0200100D:system library:fopen:Permission denied:/usr/src/lib/libcrypto/crypto/../../libssl/src/crypto/bio/bss_file.c:262:fopen('/var/unbound/etc/unbound_control.pem', 'r')
+576970536:error:20074002:BIO routines:FILE_CTRL:system lib:/usr/src/lib/libcrypto/crypto/../../libssl/src/crypto/bio/bss_file.c:264:
+576970536:error:140AD002:SSL routines:SSL_CTX_use_certificate_file:system lib:/binpatchng/work-binpatch56-i386/src/lib/libssl/ssl/../../libssl/src/ssl/ssl_rsa.c:433:
+error: Error setting up SSL_CTX client key and cert
+739905320:error:0200100D:system library:fopen:Permission denied:/usr/src/lib/libcrypto/crypto/../../libssl/src/crypto/bio/bss_file.c:262:fopen('/var/unbound/etc/unbound_control.pem', 'r')
+739905320:error:20074002:BIO routines:FILE_CTRL:system lib:/usr/src/lib/libcrypto/crypto/../../libssl/src/crypto/bio/bss_file.c:264:
+739905320:error:140AD002:SSL routines:SSL_CTX_use_certificate_file:system lib:/binpatchng/work-binpatch56-i386/src/lib/libssl/ssl/../../libssl/src/ssl/ssl_rsa.c:433:
+error: Error setting up SSL_CTX client key and cert
+706064168:error:0200100D:system library:fopen:Permission denied:/usr/src/lib/libcrypto/crypto/../../libssl/src/crypto/bio/bss_file.c:262:fopen('/var/unbound/etc/unbound_control.pem', 'r')
+706064168:error:20074002:BIO routines:FILE_CTRL:system lib:/usr/src/lib/libcrypto/crypto/../../libssl/src/crypto/bio/bss_file.c:264:
+706064168:error:140AD002:SSL routines:SSL_CTX_use_certificate_file:system lib:/binpatchng/work-binpatch56-i386/src/lib/libssl/ssl/../../libssl/src/ssl/ssl_rsa.c:433:
+error: Error setting up SSL_CTX client key and cert
+690954024:error:0200100D:system library:fopen:Permission denied:/usr/src/lib/libcrypto/crypto/../../libssl/src/crypto/bio/bss_file.c:262:fopen('/var/unbound/etc/unbound_control.pem', 'r')
+690954024:error:20074002:BIO routines:FILE_CTRL:system lib:/usr/src/lib/libcrypto/crypto/../../libssl/src/crypto/bio/bss_file.c:264:
+690954024:error:140AD002:SSL routines:SSL_CTX_use_certificate_file:system lib:/binpatchng/work-binpatch56-i386/src/lib/libssl/ssl/../../libssl/src/ssl/ssl_rsa.c:433:
+error: Error setting up SSL_CTX client key and cert
+674520872:error:0200100D:system library:fopen:Permission denied:/usr/src/lib/libcrypto/crypto/../../libssl/src/crypto/bio/bss_file.c:262:fopen('/var/unbound/etc/unbound_control.pem', 'r')
+674520872:error:20074002:BIO routines:FILE_CTRL:system lib:/usr/src/lib/libcrypto/crypto/../../libssl/src/crypto/bio/bss_file.c:264:
+674520872:error:140AD002:SSL routines:SSL_CTX_use_certificate_file:system lib:/binpatchng/work-binpatch56-i386/src/lib/libssl/ssl/../../libssl/src/ssl/ssl_rsa.c:433:
+error: Error setting up SSL_CTX client key and cert
+550739752:error:0200100D:system library:fopen:Permission denied:/usr/src/lib/libcrypto/crypto/../../libssl/src/crypto/bio/bss_file.c:262:fopen('/var/unbound/etc/unbound_control.pem', 'r')
+550739752:error:20074002:BIO routines:FILE_CTRL:system lib:/usr/src/lib/libcrypto/crypto/../../libssl/src/crypto/bio/bss_file.c:264:
+550739752:error:140AD002:SSL routines:SSL_CTX_use_certificate_file:system lib:/binpatchng/work-binpatch56-i386/src/lib/libssl/ssl/../../libssl/src/ssl/ssl_rsa.c:433:

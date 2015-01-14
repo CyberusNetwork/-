@@ -61,18 +61,20 @@ class DnsModel {
         $sh_domain = escapeshellcmd($domain);
         $sh_type = escapeshellcmd($type);
         $sh_target = escapeshellcmd($target);
-        $sh_req_add_sd = shell_exec("unbound-control local-data $sh_domain $sh_type $sh_target");
+        $sh_req_add_sd = exec("sudo unbound-control local-data $sh_domain $sh_type $sh_target");
+        var_dump($sh_req_add_sd);
     }
 
     public function deleteDns($domain)
     {
-        $sql_req_del_domain = $this->db_access_admin->prepare('DELETE FROM dns AND domain = :domain');
+        $sql_req_del_domain = $this->db_access_admin->prepare('DELETE FROM dns WHERE domain = :domain');
         $sql_req_del_domain->execute(array(
             'domain' => $domain
         ));
 
         //Shell part
         $sh_del_domain = escapeshellcmd($domain);
-        $sh_req_del_sd = shell_exec("unbound-control local-data-remove $sh_del_domain");
+        $sh_req_del_sd = exec("sudo unbound-control local-data-remove $sh_del_domain");
+        var_dump($sh_req_del_sd);
     }
 }

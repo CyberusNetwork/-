@@ -462,3 +462,105 @@ LLA             : init_queue:132
 LUA             : init_queue:142
 WOC             : NO
 Next activation : never
+150107 15:39:51 [Note] /usr/local/libexec/mysqld: Normal shutdown
+
+150107 15:39:52 [Note] Event Scheduler: Purging the queue. 0 events
+150107 15:39:53  InnoDB: Starting shutdown...
+150107 15:40:00  InnoDB: Shutdown completed; log sequence number 0 110618
+150107 15:40:01 [Note] /usr/local/libexec/mysqld: Shutdown complete
+
+150107 15:40:08 mysqld_safe mysqld from pid file /var/mysql/cyberus.itinet.fr.pid ended
+150107 15:41:56 mysqld_safe Starting mysqld daemon with databases from /var/mysql
+150107 15:41:56 [Warning] '--skip-locking' is deprecated and will be removed in a future release. Please use '--skip-external-locking' instead.
+150107 15:41:57 [Note] Plugin 'FEDERATED' is disabled.
+150107 15:41:59  InnoDB: Initializing buffer pool, size = 8.0M
+150107 15:41:59  InnoDB: Completed initialization of buffer pool
+150107 15:42:00  InnoDB: Started; log sequence number 0 110618
+150107 15:42:00 [Note] Event Scheduler: Loaded 0 events
+150107 15:42:00 [Note] /usr/local/libexec/mysqld: ready for connections.
+Version: '5.1.73-log'  socket: '/var/run/mysql/mysql.sock'  port: 3306  OpenBSD port: mysql-server-5.1.73p0v0
+
+Status information:
+
+Current dir: /var/mysql/
+Running threads: 0  Stack size: 196608
+Current locks:
+lock: 0x83eafa64:
+
+lock: 0x7b150a64:
+
+lock: 0x87019a64:
+
+lock: 0x87011264:
+
+lock: 0x87020264:
+
+lock: 0x7ed0ba64:
+
+lock: 0x87013964:
+
+lock: 0x7ed0aa64:
+
+
+Key caches:
+default
+Buffer_size:      16777216
+Block_size:           1024
+Division_limit:        100
+Age_limit:             300
+blocks used:             0
+not flushed:             0
+w_requests:              0
+writes:                  0
+r_requests:              0
+reads:                   0
+
+
+handler status:
+read_key:            0
+read_next:           0
+read_rnd             0
+read_first:          3
+write:               0
+delete               0
+update:              0
+
+Table status:
+Opened tables:         15
+Open tables:            8
+Open files:            18
+Open streams:           0
+
+Alarm status:
+Active alarms:   0
+Max used alarms: 0
+Next alarm time: 0
+
+Begin safemalloc memory dump:
+
+End safemalloc memory dump.
+
+
+
+Events status:
+LLA = Last Locked At  LUA = Last Unlocked At
+WOC = Waiting On Condition  DL = Data Locked
+
+Event scheduler status:
+State      : INITIALIZED
+Thread id  : 0
+LLA        : n/a:0
+LUA        : n/a:0
+WOC        : NO
+Workers    : 0
+Executed   : 0
+Data locked: NO
+
+Event queue status:
+Element count   : 0
+Data locked     : NO
+Attempting lock : NO
+LLA             : init_queue:132
+LUA             : init_queue:142
+WOC             : NO
+Next activation : never

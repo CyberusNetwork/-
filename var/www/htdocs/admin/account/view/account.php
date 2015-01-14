@@ -20,7 +20,7 @@
 
     <!-- Header -->
     <div class="page-header">
-        <h1>Toutes les informations de votre compte <small><i>C'est mieux que les RG !</i></small></h1>
+        <h1>Toutes les informations de vos comptes <small><i>C'est mieux que les RG !</i></small></h1>
     </div>
 
     <!-- Navigation bar -->
@@ -30,25 +30,45 @@
     ?>
 
     <!-- Contents -->
-    <p class="lead">Gérer votre compte utilisateur.</p>
-    <p>Voici votre "fiche" de renseignement. C'est presque aussi bien que Facebook, mais en un peu plus personnel :-)</p>
+    <p class="lead">Gérer vos comptes utilisateurs.</p>
+    <p>Voici les details de votre compte. C'est presque aussi bien que Facebook, mais en un peu plus personnel :-)</p>
 
-    <!-- USER info -->
-    <dl class="dl-horizontal">
-        <dt>Pseudonyme</dt>
-            <dd><?php echo $account->getDatas()["username"]; ?></dd>
-        <dt>Nom</dt>
-            <dd><?php echo $account->getDatas()["lastname"]; ?></dd>
-        <dt>Prénom</dt>
-            <dd><?php echo $account->getDatas()["firstname"]; ?></dd>
-        <dt>Dernière modification</dt>
-            <dd><?php echo $account->getDatas()["edited"]; ?></dd>
-
-    </dl>
+    <!-- USER Account Table -->
+    <div class="panel panel-default">
+        <div class="panel-heading">Liste de vos comptes</div>
+        <table class="table">
+            <thead>
+            <tr>
+                <th>Actions</th>
+                <th>Pseudonyme</th>
+                <th>Nom</th>
+                <th>Prénom</th>
+                <th>Email</th>
+                <th>Dernière modification</th>
+            </tr>
+            </thead>
+            <tbody>
+            <?php // Parcours du tableau de données retourné par la classe Account
+            foreach($account->getDatas() as $line){
+                ?>
+                <tr>
+                    <td>
+                        <?php // todo modifier function ?>
+                        <a href="./account/index.php?page=edit_account&userid=<?php echo $line["id"]; ?>" title="Modifier ce compte"><button type="button" class="btn btn-warning btn-xs"><i class="glyphicon glyphicon-edit"></i> Modifier</button></a>
+                        <a href="./account/index.php?page=delete_account&userid=<?php echo $line["id"]; ?>" title="Supprimer ce compte"><button type="button" class="btn btn-danger btn-xs"><i class="glyphicon glyphicon-remove"></i> Supprimer</button></a>
+                    </td>
+                    <td><?php echo $line["username"]; ?></td>
+                    <td><?php echo $line["lastname"]; ?></td>
+                    <td><?php echo $line["firstname"]; ?></td>
+                    <td><?php echo $line["mail"]; ?></td>
+                    <td><?php echo $line["edited"]; ?></td>
+                </tr>
+            <?php } ?>
+            </tbody>
+        </table>
+    </div>
     <!-- Change info button -->
-    <a href="/account/index.php?page=new_account"><button type="button" class="btn btn-success" id="change_account"><i class="glyphicon glyphicon-plus"></i> Nouveau compte</button></a>
-    <a href="/account/index.php?page=edit_account"><button type="button" class="btn btn-warning" id="change_account"><i class="glyphicon glyphicon-edit"></i> Éditer</button></a>
-    <a href="/account/index.php?page=delete_account"><button type="button" class="btn btn-danger" id="delete_account"><i class="glyphicon glyphicon-remove"></i> Supprimer</button></a>
+    <a href="./account/index.php?page=new_account"><button type="button" class="btn btn-success" id="change_account"><i class="glyphicon glyphicon-plus"></i> Nouveau compte</button></a>
     <!-- footer -->
     <?php
     include __DIR__."/../../global/view/footer.php"

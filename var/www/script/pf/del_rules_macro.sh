@@ -8,19 +8,29 @@ if [ $# -ne 1 ] # Vérifie qu'il y a seulement 1 argument entré
     then
     echo "Erreur : il faut entrer 1 argument."
     echo "./del_rules_macro.sh "name_macro""
-    sudo /usr/bin/sed -n '/'\#\ Macro'/,/'\#\ Fin'/ p' /etc/pf.conf
+    sudo /usr/bin/sed -n '/'\#\ Macro'/,/'\#\ Fin'/ p' /etc/pf/macro.conf
     exit 2
 fi
 
-# Vérifie si la macro existe déjà si oui il le supprime
-	sudo /usr/local/bin/gsed -i '/'$name_macro'/d' /etc/pf.conf
+# Si la macro existe, il le supprime
+	sudo /usr/local/bin/gsed -i '/'$name_macro'/d' /etc/pf/macro.conf
 
-# Teste la validité de la configuration avant l'activation
+# Teste la config pf.conf s'il n'a pas d'erreur il exécute l'option -f
 	sudo /sbin/pfctl -nf /etc/pf.conf
+	
+# La variable $? contient le code retour (0 = vrai et 1 = faux)
+if [ "$?" == 0 ] 
+	then
+	
+# Recharge la configuration, si -nf ne renvoie pas d'errreur
+	#sudo /sbin/pfctl -f /etc/pf.conf
 
-# Recharge la configuration, lorsque PF est déjà actif 
-	sudo /sbin/pfctl -f /etc/pf.conf
+	echo " La configuration ne contient pas d'erreur de syntaxe "
 
-# montre les macros
-	sudo /usr/bin/sed -n '/'\#\ Macro'/,/'\#\ Fin'/ p' /etc/pf.conf
+	# Affiche les macros
+	sudo /usr/bin/sed -n '/'\#\ Macro'/,/'\#\ Fin'/ p' /etc/pf/macro.conf
 	exit 2
+else
+	echo "Erreur de syntaxe"
+	exit 2
+fi

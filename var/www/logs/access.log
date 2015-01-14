@@ -1,3 +1,1 @@
-Dec 21 00:00:01 cyberus newsyslog[17755]: logfile turned over
-default 10.8.111.128 - - [23/Dec/2014:09:20:17 +0100] "GET /phpMyAdmin/index.php?token=fa233f19c9d177d65e08e4ca340c2cdd&ajax_request=true&ajax_page_request=true&_nocache=1419322819746778240 HTTP/1.1" 200 20205
-default 10.8.111.128 - - [23/Dec/2014:09:38:04 +0100] "GET /phpMyAdmin/index.php?token=fa233f19c9d177d65e08e4ca340c2cdd&ajax_request=true&ajax_page_request=true&_nocache=1419323887154778831 HTTP/1.1" 200 20205
+Jan 11 00:00:04 cyberus newsyslog[21872]: logfile turned over

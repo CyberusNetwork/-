@@ -24,12 +24,12 @@ $userid = $_SESSION['userid'];
 
 // Instanciation de l'objet ACCOUNT
 
-$account = new AccountModel($userid);
-$account->init();
+$account = new AccountModel();
 
 // Execution de la requête
 
-$username = $account->getUsername();
+$account->setSelectedDatas($userid);
+$username = $account->getSelectedUsername();
 
 /////////////////////////////////////////////////////////////////////////////////////////
 // Rendu de la vue d'affichage

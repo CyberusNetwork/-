@@ -35,7 +35,7 @@
         <dd><?php echo $target; ?></dd>
     </dl>
 
-    <a href="./index.php?app=dns"><button class="btn btn-default" type="button"><i class="glyphicon glyphicon-chevron-left"></i> Retour</button></a>
+    <a href="./../index.php?app=dns"><button class="btn btn-default" type="button"><i class="glyphicon glyphicon-chevron-left"></i> Retour</button></a>
 
 
 </div>

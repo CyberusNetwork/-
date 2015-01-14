@@ -3,8 +3,8 @@
 # Permet de créer un client vpn avec la configuration pre-shared keys
 
 # Pointeur
-client_name=$1
-ip_server=$2
+ip_server=$1
+client_name=$2
 localhost=$3
 remote=$4
 port=$5
@@ -15,7 +15,7 @@ psk="$2_psk"
 if [ $# -ne 6 ] # Vérifie qu'il y a seulement 6 arguments entré
     then
     echo "Erreur : il faut entrer 6 arguments."
-    echo "./add_client_pre_shared_keys.sh "client_name" "ip_server" "localhost" "remote" "port" "interface""
+    echo "./add_client_pre_shared_keys.sh "ip_server" "client_name" "localhost" "remote" "port" "interface""
     exit 2
 fi
 

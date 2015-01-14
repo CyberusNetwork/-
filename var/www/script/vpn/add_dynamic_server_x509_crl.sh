@@ -70,7 +70,7 @@ crl-verify /etc/openvpn/keys/crl.pem # Liste des certificats révoqué
 # Configuration VPN
 server $ip $mask # adresse IP attribuées sur le VPN
 # network_neighborhood
-client-to-client # permet la connexion entre clients
+# client-to-client # permet la connexion entre clients
 ifconfig-pool-persist /etc/openvpn/ipp/$ipp
 push "redirect-gateway" # redirection du flux de données
 push "route 88.177.168.133 255.255.255.255 10.8.97.1" # route vers le réseau que les clients VPN pourront joindre

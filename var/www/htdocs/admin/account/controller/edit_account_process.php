@@ -27,20 +27,24 @@ $password = (htmlspecialchars($_POST['Password']));
 $md5_password = md5($password);
 $server = "localhost";
 
-
-// TODO Vérification que les champs ne sont pas vide et de la double verif PWD
-
-
+var_dump($username);
+var_dump($lastname);
+var_dump($firstname);
+var_dump($email);
+var_dump($password);
+var_dump($md5_password);
+var_dump($server);
 
 // Instanciation de l'objet NewAccount
 
-$userid = $_SESSION['userid'];
-$account = new AccountModel($userid);
-
+$flaguserid = $_GET['userid'];
+$account = new AccountModel();
+var_dump($flaguserid);
 
 // Appel de la methode account
-
+die;
 $account->editUser(
+    $flaguserid,
     $username,
     $lastname,
     $firstname,

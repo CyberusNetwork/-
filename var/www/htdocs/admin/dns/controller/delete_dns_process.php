@@ -34,6 +34,6 @@ $dns->deleteDns($domain);
 /////////////////////////////////////////////////////////////////////////////////////////
 // Rendu de la vue d'affichage
 
-require_once __DIR__."/../view/new_dns_done.php";
+require_once __DIR__."/../view/delete_dns_done.php";
 
 ?>

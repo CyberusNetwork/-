@@ -11,12 +11,12 @@ if [ $# -ne 3 ] # Vérifie qu'il y a seulement 3 argument entré
     then
     echo "Erreur : il faut entrer 3 argument."
     echo "./del_rules_port_forwarding.sh "interface" "protocol" "port_ext""
-    cat /etc/pf.conf | grep "rdr-to"
+    cat /etc/pf/port_forwarding.conf
     exit 2
 fi
 
 # Supprime le port forwarding
-	sudo /usr/local/bin/gsed -i '/pass in log on '\$$interface\_macro' proto '$protocol' from any to any port '$port_ext' rdr-to/d' /etc/pf.conf
+	sudo /usr/local/bin/gsed -i '/log on '\$$interface\_macro' proto '$protocol' from any to any port '$port_ext' rdr-to/d' /etc/pf/port_forwarding.conf
 
 # Teste la config pf.conf
 	sudo /sbin/pfctl -nf /etc/pf.conf
@@ -24,10 +24,12 @@ fi
 if [ "$?" == 0 ] 
 	then
 # Recharge la configuration, si -nf ne renvoie pas d'errreur
-	sudo /sbin/pfctl -f /etc/pf.conf
-	echo " It's Okay "
+	#sudo /sbin/pfctl -f /etc/pf.conf
+  
+ 	echo " La configuration ne contient pas d'erreur de syntaxe "
+
 	# Montre le port forwarding du fichier pf.conf
-	sudo /bin/cat /etc/pf.conf | grep "rdr-to"
+	sudo /bin/cat /etc/pf/port_forwarding.conf
 	exit 2
 else
 	echo "Error de syntaxe"
