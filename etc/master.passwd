@@ -56,7 +56,7 @@ _rsync:*************:669:669:daemon:0:0:rsync Daemon:/var/empty:/sbin/nologin
 cyberus_openvpn:*************:1000:1000::0:0::/dev/null:/bin/false
 tinydns:*************:104:104::0:0:tinydns:/nonexistent:/sbin/nologin
 dnslog:*************:105:104::0:0:tinydns:/nonexistent:/sbin/nologin
-_apache2:*************:576:576:daemon:0:0:Apache HTTP Server:/var/empty:/sbin/nologin
+_apache2:*************:576:576:daemon:0:0:Apache HTTP Server:/var/empty:/usr/local/bin/bash
 _mysql:*************:502:502:daemon:0:0:MySQL Account:/nonexistent:/sbin/nologin
 costet:$2b$08$vUHAdwBVx6ttyAoC/7mzuuBPeaFWfe3uu9LAEmBQnaoQIAP5N7Aam:1001:5::0:0:raphael costet:/home/costet:/bin/ksh
 adrien:$2b$08$Gh2L6FLraI9VFLpgNWMh8uyDywYpCHWSMxssd2cx3sXcePP0zXAAm:1003:5::0:0:adrien thibault:/home/adrien:/bin/ksh
