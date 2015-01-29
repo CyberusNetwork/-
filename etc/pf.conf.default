@@ -1,0 +1,103 @@
+#	$OpenBSD: pf.conf,v 1.53 2014/01/25 10:28:36 dtucker Exp $
+
+# Remember to set net.inet.ip.forwarding=1 and/or net.inet6.ip6.forwarding=1
+
+# Macro
+lan_macro = "sis0"
+management_macro = "sis1"
+fai_macro = "sis2"
+sfr_macro = "sis3"
+free_macro = "sis4"
+lan_gw_macro = "192.168.0.0/20"
+sfr_ip_macro = "192.168.2.1"
+free_ip_macro = "10.8.97.1"
+icmp_types = "{ echoreq, unreach }"
+port_authorized_macro = "{ 53, http, https, ssh, 10006}"
+lan_authorized_macro = "{ 53, ssh, http, https }"
+badguys_macro = "{ 53, http, https, ssh }"
+# Fin
+
+# Table_list
+table <badguys> persist
+# Fin
+
+# Option
+set skip on lo0
+set skip on $management_macro
+
+# Normalisation
+match in all scrub (no-df)
+
+# Antispoof
+antispoof log for sis0
+antispoof log for sis1
+antispoof log for sis2
+antispoof log for sis3
+antispoof log for sis4
+
+# NAT
+match out on $free_macro from $lan_gw_macro nat-to ($free_macro)
+# Fin
+
+# Queue
+# Fin_end
+
+# La politique par défaut 
+block all
+pass log quick on $lan_macro
+
+# Pass_quick_queue
+# Fin_end
+
+# Quick_Pass
+pass log quick on $lan_macro proto { tcp, udp } from any to any port $lan_authorized_macro
+# Fin
+
+# Quick_pass_tcp
+# Fin
+
+# Quick_pass_udp
+# Fin
+
+# Quick_Block
+block log quick on $free_macro proto { tcp, udp } from { <badguys> } to port $badguys_macro
+# Fin
+
+# Quick_block_tcp
+# Fin
+
+# Quick_block_udp
+# Fin
+
+# Block_queue
+# Fin_end
+
+# Block_tcp
+# Fin
+
+# Block_udp
+# Fin
+
+# Pass_queue
+# Fin_end
+
+# Rules_pass
+pass log on $free_macro proto { tcp, udp } from any to any port $port_authorized_macro
+# Fin
+
+# Pass_tcp
+# Fin
+
+# Pass_udp
+# Fin
+
+# Port_Forwarding
+# Fin
+
+pass in log on $lan_macro from $lan_ip_macro route-to { ($sfr_macro $sfr_ip_macro), ($free_macro $free_ip_macro) }
+pass out log on $sfr_macro from $free_macro route-to ($free_macro $free_ip_macro)
+pass out log on $free_macro from $sfr_macro route-to ($sfr_macro $sfr_ip_macro)
+# Fin
+
+# Allow ping
+pass inet proto icmp icmp-type $icmp_types

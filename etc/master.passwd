@@ -64,3 +64,4 @@ dnscache:*************:106:104::0:0:tinydns:/nonexistent:/sbin/nologin
 adjevi:$2b$08$BnVcv61pBSBQ2saL42wdEOnTtjVOGFxNgQ85TgP91xkr7KbfNzjZO:1004:5::0:0:adjevi:/home/adjevi:/bin/ksh
 test2:$1$0gtgK9kd$UNdOHqcJydjcBoPHn614X0:1006:1006::0:0::/home/test2:/bin/sh
 alain:$2b$08$5RLOuYv53yspFjRHG.LP9OWNfHPdrilGLIs15s/AnKxu2RxeThYpG:1002:998::0:0:cheung alain:/home/alain:/usr/local/bin/bash
+pseudotest1:$1$T/xIzskk$BwaX//VFof3eX9/Zzwkin/:1009:1009::0:0::/home/pseudotest1:/bin/sh
