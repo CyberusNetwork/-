@@ -61,7 +61,6 @@ softraid0 at root
 scsibus2 at softraid0: 256 targets
 root on wd0a (570e8f3d64bd1f52.a) swap on wd0b dump on wd0b
 WARNING: / was not properly unmounted
-syncing disks... done
 OpenBSD 5.6 (GENERIC) #5: Thu Dec 11 11:38:13 CET 2014
     root@stable-56-i386.mtier.org:/binpatchng/work-binpatch56-i386/src/sys/arch/i386/compile/GENERIC
 cpu0: Geode(TM) Integrated Processor by National Semi ("Geode by NSC" 586-class) 267 MHz
@@ -124,3 +123,4 @@ scsibus1 at vscsi0: 256 targets
 softraid0 at root
 scsibus2 at softraid0: 256 targets
 root on wd0a (570e8f3d64bd1f52.a) swap on wd0b dump on wd0b
+WARNING: / was not properly unmounted

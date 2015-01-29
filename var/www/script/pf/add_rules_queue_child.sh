@@ -1,6 +1,6 @@
 #!/bin/sh
-# ./add_rules_queue_child.sh "name_parent" "name_child" "bandwidth"
-# Ajoute une règle enfant QOS
+# ./add_rules_queue_child.sh name_parent name_child bandwidth
+# Ajoute une règle queue enfant 
 
 # Pointeur
 name_parent=$1
@@ -10,7 +10,7 @@ bandwidth=$3
 if [ $# -ne 3 ] # Vérifie qu'il y a seulement 3 arguments entré
   then
   echo "Erreur : il faut entrer 3 arguments."
-  echo "add_rules_queue_child.sh "name_parent" "name_child" "bandwidth""
+  echo "add_rules_queue_child.sh name_parent name_child bandwidth"
   echo "bandwidth = K kilobits, M mégabits et G gigabits par seconde."
   exit 2
 fi

@@ -1,94 +1,126 @@
-Jan  9 09:00:03 cyberus newsyslog[31179]: logfile turned over
-Jan  9 13:18:09 cyberus ntpd[29009]: peer 37.187.104.44 now invalid
-Jan  9 13:36:14 cyberus ntpd[29009]: peer 37.187.104.44 now valid
-Jan  9 14:56:27 cyberus dhcpd[9373]: DHCPREQUEST for 192.168.3.11 from 00:0e:6a:04:c3:80 via sis0
-Jan  9 14:56:27 cyberus dhcpd[9373]: DHCPACK on 192.168.3.11 to 00:0e:6a:04:c3:80 via sis0
-Jan  9 16:32:27 cyberus ntpd[29009]: peer 195.83.66.158 now invalid
-Jan  9 16:50:37 cyberus ntpd[29009]: peer 195.83.66.158 now valid
-Jan  9 18:52:36 cyberus ntpd[29009]: peer 195.83.66.158 now invalid
-Jan  9 19:03:19 cyberus ntpd[29009]: peer 195.83.66.158 now valid
-Jan  9 20:56:27 cyberus dhcpd[9373]: DHCPREQUEST for 192.168.3.11 from 00:0e:6a:04:c3:80 via sis0
-Jan  9 20:56:27 cyberus dhcpd[9373]: DHCPACK on 192.168.3.11 to 00:0e:6a:04:c3:80 via sis0
-Jan 10 01:52:55 cyberus ntpd[9767]: adjusting clock frequency by -0.376267 to 1.410960ppm
-Jan 10 02:56:26 cyberus dhcpd[9373]: DHCPREQUEST for 192.168.3.11 from 00:0e:6a:04:c3:80 via sis0
-Jan 10 02:56:26 cyberus dhcpd[9373]: DHCPACK on 192.168.3.11 to 00:0e:6a:04:c3:80 via sis0
-Jan 10 08:56:26 cyberus dhcpd[9373]: DHCPREQUEST for 192.168.3.11 from 00:0e:6a:04:c3:80 via sis0
-Jan 10 08:56:26 cyberus dhcpd[9373]: DHCPACK on 192.168.3.11 to 00:0e:6a:04:c3:80 via sis0
-Jan 10 14:56:26 cyberus dhcpd[9373]: DHCPREQUEST for 192.168.3.11 from 00:0e:6a:04:c3:80 via sis0
-Jan 10 14:56:26 cyberus dhcpd[9373]: DHCPACK on 192.168.3.11 to 00:0e:6a:04:c3:80 via sis0
-Jan 10 16:00:56 cyberus ntpd[29009]: peer 195.83.66.158 now invalid
-Jan 10 16:12:25 cyberus ntpd[29009]: peer 195.83.66.158 now valid
-Jan 10 17:23:55 cyberus ntpd[29009]: peer 195.83.66.158 now invalid
-Jan 10 17:39:30 cyberus ntpd[29009]: peer 195.83.66.158 now valid
-Jan 10 19:55:10 cyberus ntpd[9767]: adjusting clock frequency by 0.078418 to 1.489378ppm
-Jan 10 20:56:26 cyberus dhcpd[9373]: DHCPREQUEST for 192.168.3.11 from 00:0e:6a:04:c3:80 via sis0
-Jan 10 20:56:26 cyberus dhcpd[9373]: DHCPACK on 192.168.3.11 to 00:0e:6a:04:c3:80 via sis0
-Jan 11 00:42:22 cyberus ntpd[29009]: peer 195.83.66.158 now invalid
-Jan 11 00:51:19 cyberus ntpd[29009]: peer 195.83.66.158 now valid
-Jan 11 02:56:26 cyberus dhcpd[9373]: DHCPREQUEST for 192.168.3.11 from 00:0e:6a:04:c3:80 via sis0
-Jan 11 02:56:26 cyberus dhcpd[9373]: DHCPACK on 192.168.3.11 to 00:0e:6a:04:c3:80 via sis0
-Jan 11 05:28:57 cyberus ntpd[9767]: adjusting clock frequency by 0.306605 to 1.795984ppm
-Jan 11 08:56:25 cyberus dhcpd[9373]: DHCPREQUEST for 192.168.3.11 from 00:0e:6a:04:c3:80 via sis0
-Jan 11 08:56:25 cyberus dhcpd[9373]: DHCPACK on 192.168.3.11 to 00:0e:6a:04:c3:80 via sis0
-Jan 11 12:51:37 cyberus ntpd[29009]: peer 195.83.66.158 now invalid
-Jan 11 13:05:08 cyberus ntpd[29009]: peer 195.83.66.158 now valid
-Jan 11 13:36:59 cyberus ntpd[9767]: adjusting clock frequency by -0.346989 to 1.448995ppm
-Jan 11 14:56:25 cyberus dhcpd[9373]: DHCPREQUEST for 192.168.3.11 from 00:0e:6a:04:c3:80 via sis0
-Jan 11 14:56:25 cyberus dhcpd[9373]: DHCPACK on 192.168.3.11 to 00:0e:6a:04:c3:80 via sis0
-Jan 11 15:17:20 cyberus ntpd[29009]: peer 195.83.66.158 now invalid
-Jan 11 15:34:20 cyberus ntpd[29009]: peer 195.83.66.158 now valid
-Jan 11 17:38:14 cyberus ntpd[29009]: peer 195.83.66.158 now invalid
-Jan 11 17:47:09 cyberus ntpd[29009]: peer 195.83.66.158 now valid
-Jan 11 20:56:25 cyberus dhcpd[9373]: DHCPREQUEST for 192.168.3.11 from 00:0e:6a:04:c3:80 via sis0
-Jan 11 20:56:25 cyberus dhcpd[9373]: DHCPACK on 192.168.3.11 to 00:0e:6a:04:c3:80 via sis0
-Jan 12 00:18:45 cyberus ntpd[9767]: adjusting clock frequency by 0.480362 to 1.929357ppm
-Jan 12 02:56:25 cyberus dhcpd[9373]: DHCPREQUEST for 192.168.3.11 from 00:0e:6a:04:c3:80 via sis0
-Jan 12 02:56:25 cyberus dhcpd[9373]: DHCPACK on 192.168.3.11 to 00:0e:6a:04:c3:80 via sis0
-Jan 12 08:56:24 cyberus dhcpd[9373]: DHCPREQUEST for 192.168.3.11 from 00:0e:6a:04:c3:80 via sis0
-Jan 12 08:56:24 cyberus dhcpd[9373]: DHCPACK on 192.168.3.11 to 00:0e:6a:04:c3:80 via sis0
-Jan 12 12:26:36 cyberus ntpd[9767]: adjusting clock frequency by -0.370972 to 1.558386ppm
-Jan 12 14:56:24 cyberus dhcpd[9373]: DHCPREQUEST for 192.168.3.11 from 00:0e:6a:04:c3:80 via sis0
-Jan 12 14:56:24 cyberus dhcpd[9373]: DHCPACK on 192.168.3.11 to 00:0e:6a:04:c3:80 via sis0
-Jan 12 16:32:11 cyberus ntpd[29009]: peer 195.83.66.158 now invalid
-Jan 12 16:34:33 cyberus ntpd[29009]: peer 178.32.216.71 now invalid
-Jan 12 16:37:11 cyberus ntpd[29009]: 2 out of 4 peers valid
-Jan 12 16:37:11 cyberus ntpd[29009]: bad peer from pool fr.pool.ntp.org (195.83.66.158) 
-Jan 12 16:37:11 cyberus ntpd[29009]: bad peer from pool fr.pool.ntp.org (178.32.216.71) 
-Jan 12 16:38:49 cyberus ntpd[29009]: peer 37.187.104.44 now invalid
-Jan 12 16:42:26 cyberus ntpd[29009]: peer 195.154.14.40 now invalid
-Jan 12 20:56:24 cyberus dhcpd[9373]: DHCPREQUEST for 192.168.3.11 from 00:0e:6a:04:c3:80 via sis0
-Jan 12 20:56:24 cyberus dhcpd[9373]: DHCPACK on 192.168.3.11 to 00:0e:6a:04:c3:80 via sis0
-Jan 12 22:18:14 cyberus ntpd[29009]: peer 178.32.216.71 now valid
-Jan 12 22:20:48 cyberus ntpd[29009]: peer 195.154.14.40 now valid
-Jan 12 22:20:58 cyberus ntpd[29009]: peer 195.83.66.158 now valid
-Jan 12 22:22:05 cyberus ntpd[29009]: peer 37.187.104.44 now valid
-Jan 13 02:56:24 cyberus dhcpd[9373]: DHCPREQUEST for 192.168.3.11 from 00:0e:6a:04:c3:80 via sis0
-Jan 13 02:56:24 cyberus dhcpd[9373]: DHCPACK on 192.168.3.11 to 00:0e:6a:04:c3:80 via sis0
-Jan 13 03:09:02 cyberus ntpd[9767]: adjusting clock frequency by 0.233186 to 1.791571ppm
-Jan 13 07:33:40 cyberus ntpd[29009]: peer 195.83.66.158 now invalid
-Jan 13 07:42:47 cyberus ntpd[29009]: peer 195.83.66.158 now valid
-Jan 13 08:31:16 cyberus ntpd[29009]: peer 195.83.66.158 now invalid
-Jan 13 08:41:50 cyberus ntpd[29009]: peer 195.83.66.158 now valid
-Jan 13 08:56:24 cyberus dhcpd[9373]: DHCPREQUEST for 192.168.3.11 from 00:0e:6a:04:c3:80 via sis0
-Jan 13 08:56:24 cyberus dhcpd[9373]: DHCPACK on 192.168.3.11 to 00:0e:6a:04:c3:80 via sis0
-Jan 13 12:26:44 cyberus ntpd[9767]: adjusting clock frequency by 0.421000 to 2.212571ppm
-Jan 13 13:45:09 cyberus ntpd[29009]: reply from 195.83.66.158: not synced (alarm), next query 3236s
-Jan 13 14:56:23 cyberus dhcpd[9373]: DHCPREQUEST for 192.168.3.11 from 00:0e:6a:04:c3:80 via sis0
-Jan 13 14:56:23 cyberus dhcpd[9373]: DHCPACK on 192.168.3.11 to 00:0e:6a:04:c3:80 via sis0
-Jan 13 15:06:21 cyberus ntpd[29009]: peer 195.83.66.158 now invalid
-Jan 13 15:14:41 cyberus ntpd[29009]: peer 195.83.66.158 now valid
-Jan 13 19:49:29 cyberus ntpd[29009]: peer 178.32.216.71 now invalid
-Jan 13 20:02:19 cyberus ntpd[29009]: peer 195.83.66.158 now invalid
-Jan 13 20:02:53 cyberus ntpd[29009]: 2 out of 4 peers valid
-Jan 13 20:02:53 cyberus ntpd[29009]: bad peer from pool fr.pool.ntp.org (195.83.66.158) 
-Jan 13 20:02:53 cyberus ntpd[29009]: bad peer from pool fr.pool.ntp.org (178.32.216.71) 
-Jan 13 20:20:38 cyberus ntpd[29009]: peer 195.83.66.158 now valid
-Jan 13 20:56:23 cyberus dhcpd[9373]: DHCPREQUEST for 192.168.3.11 from 00:0e:6a:04:c3:80 via sis0
-Jan 13 20:56:23 cyberus dhcpd[9373]: DHCPACK on 192.168.3.11 to 00:0e:6a:04:c3:80 via sis0
-Jan 13 22:26:44 cyberus ntpd[29009]: reply from 178.32.216.71: not synced (alarm), next query 3022s
-Jan 13 23:11:02 cyberus ntpd[9767]: adjusting clock frequency by -0.543167 to 1.669404ppm
-Jan 13 23:18:57 cyberus ntpd[29009]: peer 178.32.216.71 now valid
-Jan 14 02:56:23 cyberus dhcpd[9373]: DHCPREQUEST for 192.168.3.11 from 00:0e:6a:04:c3:80 via sis0
-Jan 14 02:56:23 cyberus dhcpd[9373]: DHCPACK on 192.168.3.11 to 00:0e:6a:04:c3:80 via sis0
-Jan 14 08:56:23 cyberus dhcpd[9373]: DHCPREQUEST for 192.168.3.11 from 00:0e:6a:04:c3:80 via sis0
-Jan 14 08:56:23 cyberus dhcpd[9373]: DHCPACK on 192.168.3.11 to 00:0e:6a:04:c3:80 via sis0
+Jan 23 13:00:04 cyberus newsyslog[29961]: logfile turned over
+Jan 23 13:29:06 cyberus dhcpd[21014]: DHCPREQUEST for 192.168.3.11 from 00:0e:6a:04:c3:80 via sis0
+Jan 23 13:29:06 cyberus dhcpd[21014]: DHCPACK on 192.168.3.11 to 00:0e:6a:04:c3:80 via sis0
+Jan 23 19:29:22 cyberus dhcpd[21014]: DHCPREQUEST for 192.168.3.11 from 00:0e:6a:04:c3:80 via sis0
+Jan 23 19:29:22 cyberus dhcpd[21014]: DHCPACK on 192.168.3.11 to 00:0e:6a:04:c3:80 via sis0
+Jan 24 01:29:22 cyberus dhcpd[21014]: DHCPREQUEST for 192.168.3.11 from 00:0e:6a:04:c3:80 via sis0
+Jan 24 01:29:22 cyberus dhcpd[21014]: DHCPACK on 192.168.3.11 to 00:0e:6a:04:c3:80 via sis0
+Jan 24 07:29:22 cyberus dhcpd[21014]: DHCPREQUEST for 192.168.3.11 from 00:0e:6a:04:c3:80 via sis0
+Jan 24 07:29:22 cyberus dhcpd[21014]: DHCPACK on 192.168.3.11 to 00:0e:6a:04:c3:80 via sis0
+Jan 24 12:43:34 cyberus ntpd[22397]: 0 out of 4 peers valid
+Jan 24 12:43:34 cyberus ntpd[22397]: bad peer from pool fr.pool.ntp.org (88.178.32.159) 
+Jan 24 12:43:34 cyberus ntpd[22397]: bad peer from pool fr.pool.ntp.org (188.165.201.225) 
+Jan 24 12:43:34 cyberus ntpd[22397]: bad peer from pool fr.pool.ntp.org (176.31.118.131) 
+Jan 24 12:43:34 cyberus ntpd[22397]: bad peer from pool fr.pool.ntp.org (37.187.56.220) 
+Jan 24 13:29:22 cyberus dhcpd[21014]: DHCPREQUEST for 192.168.3.11 from 00:0e:6a:04:c3:80 via sis0
+Jan 24 13:29:22 cyberus dhcpd[21014]: DHCPACK on 192.168.3.11 to 00:0e:6a:04:c3:80 via sis0
+Jan 24 19:29:21 cyberus dhcpd[21014]: DHCPREQUEST for 192.168.3.11 from 00:0e:6a:04:c3:80 via sis0
+Jan 24 19:29:21 cyberus dhcpd[21014]: DHCPACK on 192.168.3.11 to 00:0e:6a:04:c3:80 via sis0
+Jan 24 20:22:28 cyberus ntpd[7418]: ntp engine ready
+Jan 24 20:22:29 cyberus savecore: no core dump
+Jan 24 20:22:37 cyberus snmpd[25640]: snmpe_bind: binding to address 127.0.0.1:161
+Jan 24 20:22:37 cyberus snmpd[25640]: startup
+Jan 24 20:22:39 cyberus dhcpd[1731]: Listening on sis1 (192.168.4.1).
+Jan 24 20:22:39 cyberus dhcpd[1731]: Listening on sis0 (192.168.3.1).
+Jan 24 20:27:29 cyberus ntpd[7418]: 0 out of 4 peers valid
+Jan 24 20:27:29 cyberus ntpd[7418]: bad peer from pool fr.pool.ntp.org (5.135.186.82) 
+Jan 24 20:27:29 cyberus ntpd[7418]: bad peer from pool fr.pool.ntp.org (195.154.211.37) 
+Jan 24 20:27:29 cyberus ntpd[7418]: bad peer from pool fr.pool.ntp.org (195.154.14.40) 
+Jan 24 20:27:29 cyberus ntpd[7418]: bad peer from pool fr.pool.ntp.org (37.187.56.220) 
+Jan 25 01:29:20 cyberus dhcpd[9712]: DHCPREQUEST for 192.168.3.11 from 00:0e:6a:04:c3:80 via sis0
+Jan 25 01:29:20 cyberus dhcpd[9712]: DHCPACK on 192.168.3.11 to 00:0e:6a:04:c3:80 via sis0
+Jan 25 07:29:20 cyberus dhcpd[9712]: DHCPREQUEST for 192.168.3.11 from 00:0e:6a:04:c3:80 via sis0
+Jan 25 07:29:20 cyberus dhcpd[9712]: DHCPACK on 192.168.3.11 to 00:0e:6a:04:c3:80 via sis0
+Jan 25 13:29:20 cyberus dhcpd[9712]: DHCPREQUEST for 192.168.3.11 from 00:0e:6a:04:c3:80 via sis0
+Jan 25 13:29:20 cyberus dhcpd[9712]: DHCPACK on 192.168.3.11 to 00:0e:6a:04:c3:80 via sis0
+Jan 25 19:29:20 cyberus dhcpd[9712]: DHCPREQUEST for 192.168.3.11 from 00:0e:6a:04:c3:80 via sis0
+Jan 25 19:29:20 cyberus dhcpd[9712]: DHCPACK on 192.168.3.11 to 00:0e:6a:04:c3:80 via sis0
+Jan 25 20:27:44 cyberus ntpd[7418]: 0 out of 4 peers valid
+Jan 25 20:27:44 cyberus ntpd[7418]: bad peer from pool fr.pool.ntp.org (5.135.186.82) 
+Jan 25 20:27:44 cyberus ntpd[7418]: bad peer from pool fr.pool.ntp.org (195.154.211.37) 
+Jan 25 20:27:44 cyberus ntpd[7418]: bad peer from pool fr.pool.ntp.org (195.154.14.40) 
+Jan 25 20:27:44 cyberus ntpd[7418]: bad peer from pool fr.pool.ntp.org (37.187.56.220) 
+Jan 26 01:29:19 cyberus dhcpd[9712]: DHCPREQUEST for 192.168.3.11 from 00:0e:6a:04:c3:80 via sis0
+Jan 26 01:29:19 cyberus dhcpd[9712]: DHCPACK on 192.168.3.11 to 00:0e:6a:04:c3:80 via sis0
+Jan 26 07:29:19 cyberus dhcpd[9712]: DHCPREQUEST for 192.168.3.11 from 00:0e:6a:04:c3:80 via sis0
+Jan 26 07:29:19 cyberus dhcpd[9712]: DHCPACK on 192.168.3.11 to 00:0e:6a:04:c3:80 via sis0
+Jan 26 13:29:19 cyberus dhcpd[9712]: DHCPREQUEST for 192.168.3.11 from 00:0e:6a:04:c3:80 via sis0
+Jan 26 13:29:19 cyberus dhcpd[9712]: DHCPACK on 192.168.3.11 to 00:0e:6a:04:c3:80 via sis0
+Jan 26 19:29:19 cyberus dhcpd[9712]: DHCPREQUEST for 192.168.3.11 from 00:0e:6a:04:c3:80 via sis0
+Jan 26 19:29:19 cyberus dhcpd[9712]: DHCPACK on 192.168.3.11 to 00:0e:6a:04:c3:80 via sis0
+Jan 26 20:28:00 cyberus ntpd[7418]: 0 out of 4 peers valid
+Jan 26 20:28:00 cyberus ntpd[7418]: bad peer from pool fr.pool.ntp.org (5.135.186.82) 
+Jan 26 20:28:00 cyberus ntpd[7418]: bad peer from pool fr.pool.ntp.org (195.154.211.37) 
+Jan 26 20:28:00 cyberus ntpd[7418]: bad peer from pool fr.pool.ntp.org (195.154.14.40) 
+Jan 26 20:28:00 cyberus ntpd[7418]: bad peer from pool fr.pool.ntp.org (37.187.56.220) 
+Jan 27 01:29:19 cyberus dhcpd[9712]: DHCPREQUEST for 192.168.3.11 from 00:0e:6a:04:c3:80 via sis0
+Jan 27 01:29:19 cyberus dhcpd[9712]: DHCPACK on 192.168.3.11 to 00:0e:6a:04:c3:80 via sis0
+Jan 27 07:29:18 cyberus dhcpd[9712]: DHCPREQUEST for 192.168.3.11 from 00:0e:6a:04:c3:80 via sis0
+Jan 27 07:29:18 cyberus dhcpd[9712]: DHCPACK on 192.168.3.11 to 00:0e:6a:04:c3:80 via sis0
+Jan 27 09:21:23 cyberus dhcpd[9712]: DHCPREQUEST for 192.168.3.11 from 00:0e:6a:04:c3:80 via sis0
+Jan 27 09:21:23 cyberus dhcpd[9712]: DHCPACK on 192.168.3.11 to 00:0e:6a:04:c3:80 via sis0
+Jan 27 09:22:32 cyberus dhcpd[9712]: DHCPDISCOVER from 08:60:6e:11:58:98 via sis0
+Jan 27 09:22:33 cyberus dhcpd[9712]: DHCPOFFER on 192.168.3.10 to 08:60:6e:11:58:98 via sis0
+Jan 27 09:22:34 cyberus dhcpd[9712]: DHCPREQUEST for 192.168.3.10 from 08:60:6e:11:58:98 via sis0
+Jan 27 09:22:34 cyberus dhcpd[9712]: DHCPACK on 192.168.3.10 to 08:60:6e:11:58:98 via sis0
+Jan 27 09:31:41 cyberus dhcpd[9712]: DHCPREQUEST for 192.168.3.10 from 08:60:6e:11:58:98 via sis0
+Jan 27 09:31:41 cyberus dhcpd[9712]: DHCPACK on 192.168.3.10 to 08:60:6e:11:58:98 via sis0
+Jan 27 09:32:01 cyberus dhcpd[9712]: DHCPREQUEST for 192.168.3.11 from 00:0e:6a:04:c3:80 via sis0
+Jan 27 09:32:02 cyberus dhcpd[9712]: DHCPACK on 192.168.3.11 to 00:0e:6a:04:c3:80 via sis0
+Jan 27 09:33:41 cyberus dhcpd[9712]: DHCPREQUEST for 192.168.3.10 from 08:60:6e:11:58:98 via sis0
+Jan 27 09:33:41 cyberus dhcpd[9712]: DHCPACK on 192.168.3.10 to 08:60:6e:11:58:98 via sis0
+Jan 27 09:34:04 cyberus dhcpd[9712]: DHCPREQUEST for 192.168.3.11 from 00:0e:6a:04:c3:80 via sis0
+Jan 27 09:34:04 cyberus dhcpd[9712]: DHCPACK on 192.168.3.11 to 00:0e:6a:04:c3:80 via sis0
+Jan 27 14:38:15 cyberus ntpd[6232]: ntp engine ready
+Jan 27 14:38:16 cyberus savecore: no core dump
+Jan 27 14:38:24 cyberus snmpd[12046]: snmpe_bind: binding to address 127.0.0.1:161
+Jan 27 14:38:24 cyberus snmpd[12046]: startup
+Jan 27 14:38:26 cyberus dhcpd[16227]: Listening on sis1 (192.168.4.1).
+Jan 27 14:38:26 cyberus dhcpd[16227]: Listening on sis0 (192.168.3.1).
+Jan 27 14:41:35 cyberus ntpd[6232]: peer 37.187.107.140 now valid
+Jan 27 14:41:35 cyberus ntpd[6232]: peer 37.187.7.160 now valid
+Jan 27 14:41:35 cyberus ntpd[6232]: peer 5.196.23.23 now valid
+Jan 27 14:41:36 cyberus ntpd[6232]: peer 195.154.97.57 now valid
+Jan 27 14:43:44 cyberus ntpd[6232]: 0 out of 4 peers valid
+Jan 27 14:43:44 cyberus ntpd[6232]: bad peer from pool fr.pool.ntp.org (37.187.107.140) 
+Jan 27 14:43:44 cyberus ntpd[6232]: bad peer from pool fr.pool.ntp.org (37.187.7.160) 
+Jan 27 14:43:44 cyberus ntpd[6232]: bad peer from pool fr.pool.ntp.org (195.154.97.57) 
+Jan 27 14:43:44 cyberus ntpd[6232]: bad peer from pool fr.pool.ntp.org (5.196.23.23) 
+Jan 27 14:49:04 cyberus ntpd[18429]: ntp engine ready
+Jan 27 14:49:04 cyberus savecore: no core dump
+Jan 27 14:49:12 cyberus snmpd[13294]: snmpe_bind: binding to address 127.0.0.1:161
+Jan 27 14:49:12 cyberus snmpd[13294]: startup
+Jan 27 14:49:14 cyberus dhcpd[7859]: Listening on sis1 (192.168.4.1).
+Jan 27 14:49:14 cyberus dhcpd[7859]: Listening on sis0 (192.168.3.1).
+Jan 27 14:54:04 cyberus ntpd[18429]: 0 out of 4 peers valid
+Jan 27 14:54:05 cyberus ntpd[18429]: bad peer from pool fr.pool.ntp.org (178.32.216.71) 
+Jan 27 14:54:05 cyberus ntpd[18429]: bad peer from pool fr.pool.ntp.org (37.187.98.51) 
+Jan 27 14:54:05 cyberus ntpd[18429]: bad peer from pool fr.pool.ntp.org (94.23.254.158) 
+Jan 27 14:54:05 cyberus ntpd[18429]: bad peer from pool fr.pool.ntp.org (5.39.71.117) 
+Jan 27 15:33:40 cyberus dhcpd[9178]: DHCPREQUEST for 192.168.3.10 from 08:60:6e:11:58:98 via sis0
+Jan 27 15:33:40 cyberus dhcpd[9178]: DHCPACK on 192.168.3.10 to 08:60:6e:11:58:98 via sis0
+Jan 27 15:34:03 cyberus dhcpd[9178]: DHCPREQUEST for 192.168.3.11 from 00:0e:6a:04:c3:80 via sis0
+Jan 27 15:34:03 cyberus dhcpd[9178]: DHCPACK on 192.168.3.11 to 00:0e:6a:04:c3:80 via sis0
+Jan 27 15:38:15 cyberus dhcpd[9178]: DHCPREQUEST for 192.168.3.10 from 08:60:6e:11:58:98 via sis0
+Jan 27 15:38:15 cyberus dhcpd[9178]: DHCPACK on 192.168.3.10 to 08:60:6e:11:58:98 via sis0
+Jan 27 15:39:20 cyberus dhcpd[9178]: DHCPREQUEST for 192.168.3.10 from 08:60:6e:11:58:98 via sis0
+Jan 27 15:39:20 cyberus dhcpd[9178]: DHCPACK on 192.168.3.10 to 08:60:6e:11:58:98 via sis0
+Jan 28 07:35:19 cyberus ntpd[28218]: ntp engine ready
+Jan 28 07:35:20 cyberus savecore: no core dump
+Jan 28 07:35:33 cyberus snmpd[29326]: snmpe_bind: binding to address 127.0.0.1:161
+Jan 28 07:35:33 cyberus snmpd[29326]: startup
+Jan 28 07:35:36 cyberus dhcpd[4011]: Listening on sis1 (192.168.4.1).
+Jan 28 07:35:36 cyberus dhcpd[4011]: Listening on sis0 (192.168.3.1).
+Jan 28 07:40:19 cyberus ntpd[28218]: 0 out of 1 peers valid
+Jan 28 07:40:19 cyberus ntpd[28218]: bad peer from pool fr.pool.ntp.org (not resolved) 
+Jan 29 09:32:53 cyberus ntpd[10326]: ntp engine ready
+Jan 29 09:32:54 cyberus savecore: no core dump
+Jan 29 09:33:06 cyberus snmpd[16024]: snmpe_bind: binding to address 127.0.0.1:161
+Jan 29 09:33:06 cyberus snmpd[16024]: startup
+Jan 29 09:33:12 cyberus dhcpd[23537]: Listening on sis1 (192.168.4.1).
+Jan 29 09:33:12 cyberus dhcpd[23537]: Listening on sis0 (192.168.3.1).
+Jan 29 09:37:54 cyberus ntpd[10326]: 0 out of 4 peers valid
+Jan 29 09:37:54 cyberus ntpd[10326]: bad peer from pool fr.pool.ntp.org (5.196.196.168) 
+Jan 29 09:37:54 cyberus ntpd[10326]: bad peer from pool fr.pool.ntp.org (37.187.104.44) 
+Jan 29 09:37:54 cyberus ntpd[10326]: bad peer from pool fr.pool.ntp.org (195.154.71.176) 
+Jan 29 09:37:54 cyberus ntpd[10326]: bad peer from pool fr.pool.ntp.org (178.33.111.48) 

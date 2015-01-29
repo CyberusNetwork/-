@@ -1,6 +1,6 @@
 #!/bin/sh
-# ./del_rules_nat.sh ip 'interface'
-# Permet d'enlever une règle de NAT 
+# ./del_rules_nat.sh macro_interface macro_ip
+# Supprime la règle de NAT 
 
 # Pointeur
 interface=$1
@@ -9,13 +9,13 @@ ip=$2
 if [ $# -ne 2 ] # Vérifie qu'il y a seulement 2 argument entré
   then
   echo "Erreur : il faut entrer 2 argument."
-  echo "./del_rules_nat.sh 'interface' 192.168.0.0/20 "
+  echo "./del_rules_nat.sh macro_interface macro_ip "
   sudo /bin/cat /etc/pf/nat.conf
   exit 2
 fi
 
 # Supprime la règle de nat
-  sudo /usr/local/bin/gsed -i '/on '\$$interface\_macro' from '$ip' nat-to ('\$$interface\_macro')/d' /etc/pf/nat.conf
+  sudo /usr/local/bin/gsed -i '/on '\$$interface\_macro' from '\$$ip\_macro' nat-to ('\$$interface\_macro')/d' /etc/pf/nat.conf
 
 # Teste la config pf.conf s'il n'a pas d'erreur il exécute l'option -f
   sudo /sbin/pfctl -nf /etc/pf.conf

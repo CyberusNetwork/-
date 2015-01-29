@@ -12,7 +12,6 @@ class DnsModel {
 
     // Attributes
 
-    private $username;
     private $db_access_admin;
     private $datas_dns;
 
@@ -39,11 +38,6 @@ class DnsModel {
         return $this->datas_dns;
     }
 
-    public function setUsername($username)
-    {
-     $this->username = $username;
-    }
-
     public function createDns(
         $domain,
         $type,
@@ -61,8 +55,8 @@ class DnsModel {
         $sh_domain = escapeshellcmd($domain);
         $sh_type = escapeshellcmd($type);
         $sh_target = escapeshellcmd($target);
-        $sh_req_add_sd = exec("sudo unbound-control local-data $sh_domain $sh_type $sh_target");
-        var_dump($sh_req_add_sd);
+        $sh_req_add_sd = exec("sudo unbound-control local_data $sh_domain $sh_type $sh_target");
+        //return $sh_req_add_sd;
     }
 
     public function deleteDns($domain)
@@ -74,7 +68,7 @@ class DnsModel {
 
         //Shell part
         $sh_del_domain = escapeshellcmd($domain);
-        $sh_req_del_sd = exec("sudo unbound-control local-data-remove $sh_del_domain");
-        var_dump($sh_req_del_sd);
+        $sh_req_del_sd = exec("sudo unbound-control local_data_remove $sh_del_domain");
+        //return $sh_req_del_sd;
     }
 }

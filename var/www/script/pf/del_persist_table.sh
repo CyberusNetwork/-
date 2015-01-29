@@ -1,20 +1,20 @@
 #!/bin/sh
-# ./del_persist_table.sh name
-# Supprime une table
+# ./del_persist_table.sh table_name
+# Supprime une table persistant
 
 # Pointeur
 table_name=$1
 
-if [ $# -ne 1 ] # Vérifie qu'il y a seulement 1 argument entré
+if [ $# -ne 1 ] # Vérifie qu'il y a 1 argument entré
     then
     echo "Erreur : il faut entrer 1 argument."
     echo "./del_persist_table.sh "table_name""
-    sudo cat /etc/pf/table.conf
+    sudo /bin/cat /etc/pf/tables.conf
     exit 2
 fi
 
 # Supprime la table dans pf.conf
-	sudo /usr/local/bin/gsed -i '/table <'$table_name'> persist/d' /etc/pf/table.conf
+	sudo /usr/local/bin/gsed -i '/table <'$table_name'> persist/d' /etc/pf/tables.conf
 
 # Teste la config pf.conf s'il n'a pas d'erreur il exécute l'option -f
 	sudo /sbin/pfctl -nf /etc/pf.conf
@@ -29,7 +29,7 @@ if [ "$?" == 0 ]
 	echo " La configuration ne contient pas d'erreur de syntaxe "
 
 	# Montre toutes les tables
-	sudo cat /etc/pf/table.conf
+	sudo /bin/cat /etc/pf/tables.conf
 	exit 2
 else
 	echo "Erreur de syntaxe"

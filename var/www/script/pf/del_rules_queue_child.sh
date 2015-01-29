@@ -1,6 +1,6 @@
 #!/bin/sh
-# ./del_rules_queue_child.sh "name_parent" "name_child"
-# Supprime une règle enfant et ses options QOS
+# ./del_rules_queue_child.sh name_parent name_child
+# Supprime une règle queue enfant et ses options
 
 # Pointeur
 name_parent=$1
@@ -9,7 +9,7 @@ name_child=$2
 if [ $# -ne 2 ] # Vérifie qu'il y a seulement 2 arguments entré
   then
   echo "Erreur : il faut entrer 2 arguments."
-  echo "sh del_rules_queue_child.sh "name_parent" "name_child""
+  echo "sh del_rules_queue_child.sh name_parent name_child"
   echo "bandwidth = K kilobits, M mégabits et G gigabits par seconde."
   exit 2
 fi

@@ -25,7 +25,6 @@ $email = (htmlspecialchars($_POST['Email']));
 $password = (htmlspecialchars($_POST['Password']));
 $crypted_password = md5($password);
 
-
 // Instanciation de l'objet NewAccount
 
 $new_account = new NewAccountModel();
@@ -39,10 +38,6 @@ $new_account = new NewAccountModel();
     $email,
     $password,
     $crypted_password);
-
-$new_account->setUsername($username);
-$userid = $new_account->getUserId();
-
 
 // Retour à la page principale
 

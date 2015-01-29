@@ -564,3 +564,184 @@ LLA             : init_queue:132
 LUA             : init_queue:142
 WOC             : NO
 Next activation : never
+150127 14:43:32 mysqld_safe Starting mysqld daemon with databases from /var/mysql
+150127 14:43:39 [Warning] '--skip-locking' is deprecated and will be removed in a future release. Please use '--skip-external-locking' instead.
+150127 14:43:41 [Note] Plugin 'FEDERATED' is disabled.
+150127 14:43:46  InnoDB: Initializing buffer pool, size = 8.0M
+150127 14:43:46  InnoDB: Completed initialization of buffer pool
+InnoDB: The log sequence number in ibdata files does not match
+InnoDB: the log sequence number in the ib_logfiles!
+150127 14:43:46  InnoDB: Database was not shut down normally!
+InnoDB: Starting crash recovery.
+InnoDB: Reading tablespace information from the .ibd files...
+InnoDB: Restoring possible half-written data pages from the doublewrite
+InnoDB: buffer...
+InnoDB: Last MySQL binlog file position 0 1246, file name ./mysql-bin.000015
+150127 14:43:46  InnoDB: Started; log sequence number 0 112517
+150127 14:43:46 [Note] Recovering after a crash using mysql-bin
+150127 14:43:46 [Note] Starting crash recovery...
+150127 14:43:46 [Note] Crash recovery finished.
+150127 14:43:47 [Note] Event Scheduler: Loaded 0 events
+150127 14:43:47 [Note] /usr/local/libexec/mysqld: ready for connections.
+Version: '5.1.73-log'  socket: '/var/run/mysql/mysql.sock'  port: 3306  OpenBSD port: mysql-server-5.1.73p0v0
+150127 14:47:24 [Note] /usr/local/libexec/mysqld: Normal shutdown
+
+150127 14:47:24 [Note] Event Scheduler: Purging the queue. 0 events
+150127 14:47:24  InnoDB: Starting shutdown...
+150127 14:47:29  InnoDB: Shutdown completed; log sequence number 0 112517
+150127 14:47:29 [Note] /usr/local/libexec/mysqld: Shutdown complete
+
+150127 14:47:29 mysqld_safe mysqld from pid file /var/mysql/cyberus.itinet.fr.pid ended
+150127 14:49:40 mysqld_safe Starting mysqld daemon with databases from /var/mysql
+150127 14:49:40 [Warning] '--skip-locking' is deprecated and will be removed in a future release. Please use '--skip-external-locking' instead.
+150127 14:49:41 [Note] Plugin 'FEDERATED' is disabled.
+150127 14:49:43  InnoDB: Initializing buffer pool, size = 8.0M
+150127 14:49:44  InnoDB: Completed initialization of buffer pool
+150127 14:49:44  InnoDB: Started; log sequence number 0 112517
+
+Status information:
+
+Current dir: /var/mysql/
+Running threads: 0  Stack size: 196608
+Current locks:
+lock: 0x82e1b264:
+
+lock: 0x75962a64:
+
+lock: 0x814cca64:
+
+lock: 0x82e1d264:
+
+lock: 0x75962264:
+
+lock: 0x75958964:
+
+lock: 0x82e25a64:
+
+
+Key caches:
+default
+Buffer_size:      16777216
+Block_size:           1024
+Division_limit:        100
+Age_limit:             300
+blocks used:             0
+not flushed:             0
+w_requests:              0
+writes:                  0
+r_requests:              0
+reads:                   0
+
+
+handler status:
+read_key:            0
+read_next:           0
+read_rnd             0
+read_first:          0
+write:               0
+delete               0
+update:              0
+
+Table status:
+Opened tables:          4
+Open tables:            7
+Open files:            16
+Open streams:           0
+
+Alarm status:
+Active alarms:   0
+Max used alarms: 0
+Next alarm time: 0
+
+Begin safemalloc memory dump:
+
+End safemalloc memory dump.
+13:49:45 UTC - mysqld got signal 11 ;
+This could be because you hit a bug. It is also possible that this binary
+or one of the libraries it was linked against is corrupt, improperly built,
+or misconfigured. This error can also be caused by malfunctioning hardware.
+We will try our best to scrape up some info that will hopefully help
+diagnose the problem, but since we have already crashed, 
+something is definitely wrong and this may fail.
+
+key_buffer_size=16777216
+read_buffer_size=262144
+max_used_connections=0
+max_threads=151
+thread_count=0
+connection_count=0
+It is possible that mysqld could use up to 
+key_buffer_size + (read_buffer_size + sort_buffer_size)*max_threads = 133308 K  bytes of memory
+Hope that's ok; if not, decrease some variables in the equation.
+
+150127 14:49:45 mysqld_safe mysqld restarted
+150127 14:49:45 [Warning] '--skip-locking' is deprecated and will be removed in a future release. Please use '--skip-external-locking' instead.
+150127 14:49:46 [Note] Plugin 'FEDERATED' is disabled.
+150127 14:49:47  InnoDB: Initializing buffer pool, size = 8.0M
+150127 14:49:47  InnoDB: Completed initialization of buffer pool
+150127 14:49:47  InnoDB: Started; log sequence number 0 112517
+150127 14:49:47 [Note] Recovering after a crash using mysql-bin
+150127 14:49:47 [Note] Starting crash recovery...
+150127 14:49:47 [Note] Crash recovery finished.
+150127 14:49:47 [Note] Event Scheduler: Loaded 0 events
+150127 14:49:47 [Note] /usr/local/libexec/mysqld: ready for connections.
+Version: '5.1.73-log'  socket: '/var/run/mysql/mysql.sock'  port: 3306  OpenBSD port: mysql-server-5.1.73p0v0
+150127 15:12:16 [Note] /usr/local/libexec/mysqld: Normal shutdown
+
+150127 15:12:16 [Note] Event Scheduler: Purging the queue. 0 events
+150127 15:12:16  InnoDB: Starting shutdown...
+150127 15:12:24  InnoDB: Shutdown completed; log sequence number 0 112527
+150127 15:12:25 [Note] /usr/local/libexec/mysqld: Shutdown complete
+
+150127 15:12:25 mysqld_safe mysqld from pid file /var/mysql/cyberus.itinet.fr.pid ended
+150127 15:13:48 mysqld_safe Starting mysqld daemon with databases from /var/mysql
+150127 15:13:49 [Warning] '--skip-locking' is deprecated and will be removed in a future release. Please use '--skip-external-locking' instead.
+150127 15:13:49 [Note] Plugin 'FEDERATED' is disabled.
+150127 15:13:50  InnoDB: Initializing buffer pool, size = 8.0M
+150127 15:13:50  InnoDB: Completed initialization of buffer pool
+150127 15:13:51  InnoDB: Started; log sequence number 0 112527
+150127 15:13:51 [Note] Event Scheduler: Loaded 0 events
+150127 15:13:51 [Note] /usr/local/libexec/mysqld: ready for connections.
+Version: '5.1.73-log'  socket: '/var/run/mysql/mysql.sock'  port: 3306  OpenBSD port: mysql-server-5.1.73p0v0
+150127 15:14:16 [Note] /usr/local/libexec/mysqld: Normal shutdown
+
+150127 15:14:16 [Note] Event Scheduler: Purging the queue. 0 events
+150127 15:14:16  InnoDB: Starting shutdown...
+150127 15:14:19  InnoDB: Shutdown completed; log sequence number 0 112527
+150127 15:14:19 [Note] /usr/local/libexec/mysqld: Shutdown complete
+
+150127 15:14:19 mysqld_safe mysqld from pid file /var/mysql/cyberus.itinet.fr.pid ended
+150127 15:15:19 mysqld_safe Starting mysqld daemon with databases from /var/mysql
+150127 15:15:20 [Warning] '--skip-locking' is deprecated and will be removed in a future release. Please use '--skip-external-locking' instead.
+150127 15:15:20 [Note] Plugin 'FEDERATED' is disabled.
+150127 15:15:21  InnoDB: Initializing buffer pool, size = 8.0M
+150127 15:15:21  InnoDB: Completed initialization of buffer pool
+150127 15:15:22  InnoDB: Started; log sequence number 0 112527
+150127 15:15:22 [Note] Event Scheduler: Loaded 0 events
+150127 15:15:22 [Note] /usr/local/libexec/mysqld: ready for connections.
+Version: '5.1.73-log'  socket: '/var/run/mysql/mysql.sock'  port: 3306  OpenBSD port: mysql-server-5.1.73p0v0
+150127 15:15:27 [Note] /usr/local/libexec/mysqld: Normal shutdown
+
+150127 15:15:27 [Note] Event Scheduler: Purging the queue. 0 events
+150127 15:15:27  InnoDB: Starting shutdown...
+150127 15:15:43  InnoDB: Shutdown completed; log sequence number 0 112527
+150127 15:15:43 [Note] /usr/local/libexec/mysqld: Shutdown complete
+
+150127 15:15:43 mysqld_safe mysqld from pid file /var/mysql/cyberus.itinet.fr.pid ended
+150127 15:15:54 mysqld_safe Starting mysqld daemon with databases from /var/mysql
+150127 15:15:55 [Warning] '--skip-locking' is deprecated and will be removed in a future release. Please use '--skip-external-locking' instead.
+150127 15:15:55 [Note] Plugin 'FEDERATED' is disabled.
+150127 15:15:56  InnoDB: Initializing buffer pool, size = 8.0M
+150127 15:15:56  InnoDB: Completed initialization of buffer pool
+150127 15:15:57  InnoDB: Started; log sequence number 0 112527
+150127 15:15:57 [Note] Event Scheduler: Loaded 0 events
+150127 15:15:57 [Note] /usr/local/libexec/mysqld: ready for connections.
+Version: '5.1.73-log'  socket: '/var/run/mysql/mysql.sock'  port: 3306  OpenBSD port: mysql-server-5.1.73p0v0
+150127 16:22:44 [Note] /usr/local/libexec/mysqld: Normal shutdown
+
+150127 16:22:45 [Note] Event Scheduler: Purging the queue. 0 events
+150127 16:22:45  InnoDB: Starting shutdown...
+150127 16:22:48  InnoDB: Shutdown completed; log sequence number 0 112537
+150127 16:22:48 [Note] /usr/local/libexec/mysqld: Shutdown complete
+
+150127 16:22:48 mysqld_safe mysqld from pid file /var/mysql/cyberus.itinet.fr.pid ended

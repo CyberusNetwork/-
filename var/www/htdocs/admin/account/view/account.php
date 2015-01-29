@@ -48,14 +48,11 @@
             </tr>
             </thead>
             <tbody>
-            <?php // Parcours du tableau de données retourné par la classe Account
-            foreach($account->getDatas() as $line){
-                ?>
+            <?php foreach($account->getDatas() as $line){ ?>
                 <tr>
                     <td>
-                        <?php // todo modifier function ?>
-                        <a href="./account/index.php?page=edit_account&userid=<?php echo $line["id"]; ?>" title="Modifier ce compte"><button type="button" class="btn btn-warning btn-xs"><i class="glyphicon glyphicon-edit"></i> Modifier</button></a>
-                        <a href="./account/index.php?page=delete_account&userid=<?php echo $line["id"]; ?>" title="Supprimer ce compte"><button type="button" class="btn btn-danger btn-xs"><i class="glyphicon glyphicon-remove"></i> Supprimer</button></a>
+                        <a href="./account/index.php?page=edit_account&UserID=<?php echo $line["id"]; ?>" title="Modifier ce compte"><button type="button" class="btn btn-warning btn-xs"><i class="glyphicon glyphicon-edit"></i> Modifier</button></a>
+                        <a href="./account/index.php?page=delete_account&UserID=<?php echo $line["id"]; ?>" title="Supprimer ce compte"><button type="button" class="btn btn-danger btn-xs"><i class="glyphicon glyphicon-remove"></i> Supprimer</button></a>
                     </td>
                     <td><?php echo $line["username"]; ?></td>
                     <td><?php echo $line["lastname"]; ?></td>

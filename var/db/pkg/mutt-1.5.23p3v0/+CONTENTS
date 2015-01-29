@@ -1,0 +1,363 @@
+@comment $OpenBSD: PLIST,v 1.16 2014/05/13 14:27:53 sthen Exp $
+@name mutt-1.5.23p3v0
+@url http://ftp.fr.openbsd.org/pub/OpenBSD/5.6/packages/i386/mutt-1.5.23p3v0.tgz
+@signer openbsd-56-pkg
+@digital-signature signify:2014-08-02T11:01:57Z:RWSPEf7Vpp2j0FmJNiBtUMCJcsftDn7AFBPUUrWEjC6dI5Uy2vwAfpiUhGhHynCmdkPSva7mvGRc1i1Q+wP3WRYK//wUEYeQCwc=
+@option manual-installation
+@comment pkgpath=mail/mutt cdrom=yes ftp=yes
+@arch i386
++DESC
+@sha gWECQ5zgVbTyHs2TPyNEfIVGxOtOpNLN/tWb9mc/q18=
+@size 1107
+@pkgpath mail/mutt/stable
+@pkgpath mail/mutt/snapshot[,hcache]
+@depend converters/libiconv:libiconv-*:libiconv-1.14p1
+@depend databases/qdbm:qdbm-*:qdbm-1.8.78
+@depend devel/gettext:gettext->=0.10.38:gettext-0.19.1p0
+@wantlib c.77.0
+@wantlib crypto.30.0
+@wantlib iconv.6.0
+@wantlib intl.6.0
+@wantlib ncurses.14.0
+@wantlib qdbm.14.14
+@wantlib ssl.27.0
+@wantlib z.5.0
+@cwd /usr/local
+bin/flea
+@sha Uzs7vrvfMCyc2UsY4PcSLb0YQG40078WXkeypdUPW4o=
+@size 7693
+@bin bin/mutt
+@sha Hk+EgH5I8XI09Qm85o5COtSF8JaRaSvokgdIfP4qlmI=
+@size 819332
+@bin bin/mutt_dotlock
+@sha 2Su88erQZS+AMmiB6Gap8LxseEfIZbsxC+vTF4me7j0=
+@size 10064
+bin/muttbug
+@sha pZnGWmopA63uFdJBiE5RjWfSE6mQxB2sZG3nKpHvboc=
+@size 26
+@bin bin/pgpewrap
+@sha F1n8aNgFp7XCqRMUCwXCwTHsMZPEY/RU/8EFyBk7LS8=
+@size 5648
+@bin bin/pgpring
+@sha 2l2R0UCjQwpJjg+EzrddjqcbGhiQAIaKM5xiN7B+0ow=
+@size 44240
+bin/smime_keys
+@sha oyMeFHz65Q172rgTM8vkdFePTmLdTjg5CteRJKLCHc0=
+@size 26278
+@man man/man1/flea.1
+@sha qp5vsVpj6JBRdQm20KOJZY+yevXm0HYhLuVhPWtRyHI=
+@size 6570
+@man man/man1/mutt.1
+@sha DkpBeyj7C+qxrV40r0bmpzpsKyhht6nN/4Tla66BILU=
+@size 6977
+@man man/man1/mutt_dotlock.1
+@sha 5m+fbgZEZXfUVkxXVi2IedWHuBH4hSdgDJt90lkU6Mo=
+@size 4078
+@man man/man1/muttbug.1
+@sha qp5vsVpj6JBRdQm20KOJZY+yevXm0HYhLuVhPWtRyHI=
+@size 6570
+@man man/man1/pgpewrap.1
+@sha STLTSGvvo27glvHMwW9M5gzCbDhopm0FAWF57LM+Rtc=
+@size 1620
+@man man/man1/pgpring.1
+@sha yGkN5l2zgaa59j5NLtCtQ1s0SZSCcwyiGh7SM1dn6QM=
+@size 1720
+@man man/man1/smime_keys.1
+@sha OPoNpzGK1+PCQ6vJzuWRgS/uPY9Qm3demMuXpAYFGrI=
+@size 2645
+@man man/man5/mbox.5
+@sha dlu1YJuTmauCPbCsHTF1YjYk7YFVR49aRj282EKtL+s=
+@size 5888
+@man man/man5/mmdf.5
+@sha AdAblTRrpWEyMZlm5G10Cnb05Aplkc1VEtbzADDUOlA=
+@size 4166
+@man man/man5/muttrc.5
+@sha a5vVsq+od3QekZQn6dXyoiVB7Y7JSQXWM7Rr3YYQvGE=
+@size 145450
+share/doc/mutt/
+share/doc/mutt/COPYRIGHT
+@sha nOTHxMO6RdtX80HZXZxZSKyWB4386D+VfGX68WE/BFo=
+@size 1605
+share/doc/mutt/ChangeLog
+@sha D3pFX/O1VOFpfiU8dweV9dvO/8O2s4wIRXV3fQ/L4F4=
+@size 426683
+share/doc/mutt/GPL
+@sha cy8ktppscc2OAeRnK7jhLMHLuIpQpGZebKT9lQAKV+4=
+@size 18013
+share/doc/mutt/INSTALL
+@sha 7Dmm4rV/CN+5LnMt3XWRjFNhas1ZXrbwxNtKzpXXPgQ=
+@size 10681
+share/doc/mutt/NEWS
+@sha lf7f3OxxM0VZXbYnMJNX2we7Yed8Gbk+P22o9ljSmRU=
+@size 6366
+share/doc/mutt/PGP-Notes.txt
+@sha yeAnJvBbDXxWa6thoQg0SI4P5tV5e18V6HGNqhykBN4=
+@size 7679
+share/doc/mutt/README
+@sha kmbTxnReUIzQZFgV+P+ex1hYk3WueF+olLkBxhzhLbQ=
+@size 984
+share/doc/mutt/README.SECURITY
+@sha YeAJpJ/Aw+n1/Q5GrQEkpe6sULQM4lGIKd4KR1I28GI=
+@size 2470
+share/doc/mutt/README.SSL
+@sha MxwO6/MKGM7tPfr9gIHSEFmr4PoiFrZ6i3Gx2KIM7kk=
+@size 4689
+share/doc/mutt/TODO
+@sha E4PAl0sqrxkxiP8OEXEGrWX/eL8c/qHq9FsjfYtYE4I=
+@size 2355
+share/doc/mutt/advancedusage.html
+@sha 7P1Q7zNxXcwLRLN81izYIs44S3zW1jfok4nmWwEC35Y=
+@size 73057
+share/doc/mutt/applying-patches.txt
+@sha MsMQIGv7dyXS8SvMe4m3QxDLTL6tXNYuYr+5l2GoY6M=
+@size 938
+share/doc/mutt/configuration.html
+@sha ujk4EToC9OEHku4r42ysTyG8xVxipO0IXUqeq9dHl8Q=
+@size 114207
+share/doc/mutt/devel-notes.txt
+@sha DSo7bqDzdAqpf4ThW9E/yoIo3l5n/lKXladEt1zI4Rg=
+@size 10556
+share/doc/mutt/gettingstarted.html
+@sha MFIBuFpHcix/O0gPACSJ+cCN5+umCA15FHaZWJoL8Dk=
+@size 69774
+share/doc/mutt/index.html
+@sha dNUGK5KoGxbrnOOCwTGHMUZSyM9q9kXFLZj9IE1sI3Y=
+@size 58387
+share/doc/mutt/intro.html
+@sha ol3V8M8peWse5zrwqkJVCkiMuzsf29HVZOirYiCRAt0=
+@size 10819
+share/doc/mutt/manual.html
+@sha WiCZyw2ajvEU3/bhS8fSAZePf22DGgQ+lNUWL/KqkVg=
+@size 706225
+share/doc/mutt/manual.txt
+@sha 47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
+@size 0
+share/doc/mutt/mimesupport.html
+@sha fJaOFqG/ZUzlQqlpfgVd1tXzoOitPmn0IRtZaIaH6lw=
+@size 48973
+share/doc/mutt/miscellany.html
+@sha 1z38xZUWJubGxLerHhmrlenhL62Ou8OOSe1rdmffD9g=
+@size 9512
+share/doc/mutt/optionalfeatures.html
+@sha iLWbePcVa1ltYH2eStI3FRVEX96/B5lJpTQ+GUtQ2HI=
+@size 31640
+share/doc/mutt/patch-notes.txt
+@sha JuqbUCC01pZ5aunUAYbfbrmxTfXtFDkJ/6PeXnnGDd4=
+@size 1584
+share/doc/mutt/reference.html
+@sha 6Yr/7Wj/hJERqvGC3BG2nv0KjBVyfoh1+Blquc1IZjI=
+@size 329709
+share/doc/mutt/samples/
+share/doc/mutt/security.html
+@sha EKQ53foC1ArUfMmPIx9eoIGQJXNEYvf9hbUso1keOxU=
+@size 8704
+share/doc/mutt/smime-notes.txt
+@sha Or2Dl/yehmipw0M+RLz/uK56pBC6APc6D4pUMvdFZrI=
+@size 4333
+share/doc/mutt/tuning.html
+@sha blFpwxow9gg5kagoiw3SbqW4IANc41b6Eg6Lf/Vv04A=
+@size 7968
+share/examples/mutt/
+@sample /etc/mutt/
+share/examples/mutt/Mush.rc
+@sha dX8VZXT5TgzHoSlMJ9HXtJjjn9WkJpzAibdTUnMse6s=
+@size 441
+@comment share/examples/mutt/Muttrc
+share/examples/mutt/Muttrc.dist
+@sha mSrjm4RtpfNNgDNgr9zrQRdsKo/ptroACHcxVppfaa4=
+@size 131310
+@sample /etc/mutt/Muttrc
+share/examples/mutt/Pine.rc
+@sha 1kr88xBsB/G4hJ+0dqXNuYcRRnJlDf0twUOcnFBzVCk=
+@size 1022
+share/examples/mutt/Tin.rc
+@sha mHm2jjXuujpHQx3fcBIASYhfB/Yh5HgctNi5FqVqYLE=
+@size 606
+share/examples/mutt/ca-bundle.crt
+@sha L51dvJgqjJhSf1yqetc1NLSXfd1h+UXTltUoQKdoqO0=
+@size 250844
+share/examples/mutt/colors.default
+@sha xG1vpqwG4bCWcitbP+tkPf2g1D103goSDMkHyd+CeZk=
+@size 578
+share/examples/mutt/colors.linux
+@sha lxc41Lek+W11r9RUe+nYLdNzhG2raK7z0A4XBoXAp7o=
+@size 572
+share/examples/mutt/gpg.rc
+@sha 1z+rEe+oE1kDcjuicMHmgsjt/M34rMJ8Dh+yhXhDiow=
+@size 3794
+share/examples/mutt/iconv/
+share/examples/mutt/iconv/iconv.aix-3.2.5.rc
+@sha 06Ji3M+xndgSHZJPPbjNpL5qayGXZ/7XMuaxwaNoRHE=
+@size 57
+share/examples/mutt/iconv/iconv.aix-4.1.5.rc
+@sha VUIKn79YnaGxGAdHi7T/hC0KtRwb5snmMW0p5sIvQCQ=
+@size 374
+share/examples/mutt/iconv/iconv.aix-4.2.0.rc
+@sha HwvkhsVvZ1QnAmkc60jybwiXi56Dz7p3I1EG0M151OE=
+@size 515
+share/examples/mutt/iconv/iconv.aix-4.3.2.rc
+@sha 98+azN/nGywe8VjOkUwi/dE8YXeeqOryNR/8QPYzGTc=
+@size 655
+share/examples/mutt/iconv/iconv.freebsd-3.3.rc
+@sha z5Ui1DGXZ3LYJLCP93TWl9g7C8AqwT1NZpvoTsIy1o0=
+@size 167
+share/examples/mutt/iconv/iconv.glibc-2.1.3.rc
+@sha tON5kG/kO+TYLRMKa19X68TX6xbyj4c4RfelQ9V4pBo=
+@size 37
+share/examples/mutt/iconv/iconv.glibc-2.1.90.rc
+@sha J3kWdgvLPKf6KJQJzR7WDKAzwhap8VchN1wqVE602HY=
+@size 32
+share/examples/mutt/iconv/iconv.hpux-10.01.rc
+@sha F0vowmovVcFRqPoko7cfgtUC6kfA+ojOQImXBpiAu0I=
+@size 440
+share/examples/mutt/iconv/iconv.hpux-10.20.rc
+@sha IJH/Ncr7arjXp0mdSzWsdR4IYDGa+eHd9yN4SgNmg3s=
+@size 446
+share/examples/mutt/iconv/iconv.hpux-11.00.rc
+@sha wrrhFGNj5UTIhtyXTAvMtT1QMUrKgIP2Jo0fpQkFIXw=
+@size 590
+share/examples/mutt/iconv/iconv.irix-6.5.rc
+@sha hWCTas7ogra8BUIkU6b+uq0tzXfzpkuN+lZ7NoAlRYo=
+@size 256
+share/examples/mutt/iconv/iconv.osf1-4.0a.rc
+@sha hrr+xaHDWezVKERp06jG3DYxNtMDiINOkJMG33SiM0o=
+@size 96
+share/examples/mutt/iconv/iconv.osf1-4.0d.rc
+@sha zL4qENoDbnp37nxRdmOqbaOdkS8N6airkU2Ev+reGcc=
+@size 119
+share/examples/mutt/iconv/iconv.solaris-2.4.rc
+@sha hutRq7oQGogpbqmOj+Uzzo7cwcmJ9Tufl8zAGpRpF6s=
+@size 16
+share/examples/mutt/iconv/iconv.solaris-2.5.1.rc
+@sha 205Thdmd3kjyYu4Gxztmg5xTYmO7hBL9yXh7rmlfo+A=
+@size 32
+share/examples/mutt/iconv/iconv.solaris-2.6-cjk.rc
+@sha ed8ObdBS2LX+BkB3DHB8xYL/ePNLjsNLk2cAVlz9GdQ=
+@size 316
+share/examples/mutt/iconv/iconv.solaris-2.6.rc
+@sha jpVPgNjZfFz5Hf0Kikl/+sT8WkgC4p1Luo8Wk2duXKs=
+@size 192
+share/examples/mutt/iconv/iconv.solaris-2.7.rc
+@sha i01pf2NKL2ZvLjen5lJhfZPWImbTTVf+qiUmEHancB8=
+@size 367
+@comment share/examples/mutt/mime.types
+share/examples/mutt/mime.types.dist
+@sha 6HqrsaHj9DnTkRMMdEwaarwQuo5q4aHKFPKQd4/4lRY=
+@size 3162
+@sample /etc/mutt/mime.types
+share/examples/mutt/mutt_xtitle
+@sha elB0ElHPWZrKJ5I+8tClB1e+A6MO9ZBg9n+o859z3cU=
+@size 311
+share/examples/mutt/pgp2.rc
+@sha thQG8hbu+A861RpPTXFLJFHde8uj+XRkQC+fNKNhIkc=
+@size 1607
+share/examples/mutt/pgp5.rc
+@sha ubmwJOwyFPcSXDyWkIPwMVh/LgAqnw74mYFQOzy7vTk=
+@size 1691
+share/examples/mutt/pgp6.rc
+@sha xjrUcwAPeHYhTrZAou5+l/xSaJSCF+oS7U48mz6TpTE=
+@size 1623
+share/examples/mutt/sample.mailcap
+@sha yGjIJhVEb84n6S1ufV/zocC0uj6np6vEnPybEWX9QUM=
+@size 134
+share/examples/mutt/sample.muttrc
+@sha R46H+6NozqmEdz/C0oWbcB9PWo15XTHys6dpecqcD0g=
+@size 12965
+share/examples/mutt/sample.muttrc-tlr
+@sha wQwjKuAIqbE/tH6jL+qFSuLqxkplNgS9ieIXP+sa4wU=
+@size 10824
+share/examples/mutt/smime.rc
+@sha 5lQR1OuXNuXMWTIPuhDMLDjzh2+U78VW91EKu2ZNmis=
+@size 3485
+share/examples/mutt/smime_keys_test.pl
+@sha QdG4MJNlsZlvqWU+nK8E4ut5aiZrieqbwW1LXxgP+tA=
+@size 3472
+share/locale/bg/LC_MESSAGES/mutt.mo
+@sha ab6omIyrIuzUUecZ+FYPU8eV4vGf+OHaBjKVfR1WuVI=
+@size 71070
+share/locale/ca/LC_MESSAGES/mutt.mo
+@sha gq2PrkO9//Av7gL5rFjcRP67pWkIjZvnzIJHhH8dN/w=
+@size 107178
+share/locale/cs/LC_MESSAGES/mutt.mo
+@sha u18UpC7A1LEWjKhWgyjmWBW+kORgXJC9PqQbMFxRNpo=
+@size 102426
+share/locale/da/LC_MESSAGES/mutt.mo
+@sha YWrzgY/HDFZBStGPbtbrIX2tRxpM00hAgHS4bNFSSvw=
+@size 69033
+share/locale/de/LC_MESSAGES/mutt.mo
+@sha ZvHqvyoASWmgsDM8+XeMNtkCnemNscdYs7TXHh3wA6o=
+@size 98739
+share/locale/el/LC_MESSAGES/mutt.mo
+@sha mRi5X5fC8DB7byWTrg9xWT1XY7QaLYTxrpzXVtZJf60=
+@size 75422
+share/locale/eo/LC_MESSAGES/mutt.mo
+@sha 4nf933P5Ym5daAmdQy4QG/2gqoJ6krQWyG/Gzyko6Zc=
+@size 89604
+share/locale/es/LC_MESSAGES/mutt.mo
+@sha uSavSlUnNx/xOj9vAOY9mADQHzPsUCDNkLQ7DMKSv6U=
+@size 60028
+share/locale/et/LC_MESSAGES/mutt.mo
+@sha eIL97HnTLouMgPv0pUB+5JXriRnU1aorF9PVTCwiO8A=
+@size 63906
+share/locale/eu/LC_MESSAGES/mutt.mo
+@sha VC48dNt6R0u8QbozTrm53IyG67C0SU35ys1ZMSOvyL4=
+@size 89764
+share/locale/fr/LC_MESSAGES/mutt.mo
+@sha MzO9hSXVjG8yIRB3kR0xStZ0SjfPGi+NkNJB7oWg8nU=
+@size 104077
+share/locale/ga/LC_MESSAGES/mutt.mo
+@sha 62Fmvs+ul3X5Km92IXPMxRWSSIgXWaBLJbxHKk2QxPY=
+@size 90419
+share/locale/gl/LC_MESSAGES/mutt.mo
+@sha 9pTjJyx5whEmsBMPvgMTUchSRkZEkC8iXHUkEgWnlxg=
+@size 58634
+share/locale/hu/LC_MESSAGES/mutt.mo
+@sha qoThSVgZn08nMMIN6EoRI/JNQMTeG6cPYGztFHcUo0E=
+@size 68318
+share/locale/id/LC_MESSAGES/mutt.mo
+@sha nGh13wXJyZcT9d3hfhXINTiHKoE2WVN6tj7ZzDvDgPs=
+@size 88714
+share/locale/it/LC_MESSAGES/mutt.mo
+@sha obBLIrHKR+DzzTQEf885q9OXkmUxOOpGwBja1YyfxKY=
+@size 97929
+share/locale/ja/LC_MESSAGES/mutt.mo
+@sha /DIeNiQAEc9Q4jw2sbq4V0qdOh2tz3dOulHG60K9ik0=
+@size 93736
+share/locale/ko/LC_MESSAGES/mutt.mo
+@sha BmmIN8AR7OW2xG09Sm3Oc3J5YdRTr6uplv7jAYH12hc=
+@size 62755
+share/locale/lt/
+share/locale/lt/LC_MESSAGES/
+share/locale/lt/LC_MESSAGES/mutt.mo
+@sha H4eU2Omc9V0RBKsgPcVI3/sPCpcsrYBd9jJ/VsNbpA4=
+@size 55590
+share/locale/nl/LC_MESSAGES/mutt.mo
+@sha OoMLORICtsnhZJuWSYjtm8AQOEuJAshiZG4bS7kbTZM=
+@size 96326
+share/locale/pl/LC_MESSAGES/mutt.mo
+@sha 9HwKvSEMBQ10LuPYRhFRrN/PMM5dzfDAOzPjFpAi2cU=
+@size 91286
+share/locale/pt_BR/LC_MESSAGES/mutt.mo
+@sha cpQoFqa/Lj199TnIRzftTBLYCP33f65oubSHWRfUhf0=
+@size 52737
+share/locale/ru/LC_MESSAGES/mutt.mo
+@sha o8vg+c6qwV3Y2L4CFRL359dE1QUcA5IJvQ240JzrX80=
+@size 132060
+share/locale/sk/LC_MESSAGES/mutt.mo
+@sha Ff4QWSaXVey0qijzuD8uAyIlU8sLD7LrJP45lgsVn34=
+@size 41224
+share/locale/sv/LC_MESSAGES/mutt.mo
+@sha XswYhATbZtTdQYSb7WDPX/9iIHkTYE1XFQHHaRRJ8RM=
+@size 91164
+share/locale/tr/LC_MESSAGES/mutt.mo
+@sha 1+uTPJBB113zCjkczGID8jyo/HnPBDzIbc1H2c1bDHg=
+@size 89038
+share/locale/uk/LC_MESSAGES/mutt.mo
+@sha tGWU7C8NeIa1xGiPNKinJJ+3oxZwhSjoZCI7gfZ70CM=
+@size 125728
+share/locale/zh_CN/LC_MESSAGES/mutt.mo
+@sha Wjqir501OnbtJaqoZ7EiFhdCkz+25fM+Km0nIKc6ZVg=
+@size 91674
+share/locale/zh_TW/LC_MESSAGES/mutt.mo
+@sha qqJPrYr46R/RGlrzOXnVMwd9YCQK55Ccic8Bk/vtc2E=
+@size 57916

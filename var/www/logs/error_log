@@ -446,3 +446,383 @@ error: Error setting up SSL_CTX client key and cert
 550739752:error:0200100D:system library:fopen:Permission denied:/usr/src/lib/libcrypto/crypto/../../libssl/src/crypto/bio/bss_file.c:262:fopen('/var/unbound/etc/unbound_control.pem', 'r')
 550739752:error:20074002:BIO routines:FILE_CTRL:system lib:/usr/src/lib/libcrypto/crypto/../../libssl/src/crypto/bio/bss_file.c:264:
 550739752:error:140AD002:SSL routines:SSL_CTX_use_certificate_file:system lib:/binpatchng/work-binpatch56-i386/src/lib/libssl/ssl/../../libssl/src/ssl/ssl_rsa.c:433:
+sh: /script/rrdtool/script/cpu/rrd_graph.sh: not found
+sh: /script/rrdtool/script/ram/rrd_graph.sh: not found
+sh: /script/rrdtool/script/hdd/rrd_graph.sh: not found
+sh: /script/rrdtool/script/sis0/rrd_graph.sh: not found
+sh: /script/rrdtool/script/sis1/rrd_graph.sh: not found
+sh: /script/rrdtool/script/sis2/rrd_graph.sh: not found
+sh: /script/rrdtool/script/sis3/rrd_graph.sh: not found
+sh: /script/rrdtool/script/sis4/rrd_graph.sh: not found
+sh: /script/rrdtool/script/cpu/rrd_graph.sh: not found
+sh: /script/rrdtool/script/ram/rrd_graph.sh: not found
+sh: /script/rrdtool/script/hdd/rrd_graph.sh: not found
+sh: /script/rrdtool/script/sis0/rrd_graph.sh: not found
+sh: /script/rrdtool/script/sis1/rrd_graph.sh: not found
+sh: /script/rrdtool/script/sis2/rrd_graph.sh: not found
+sh: /script/rrdtool/script/sis3/rrd_graph.sh: not found
+sh: /script/rrdtool/script/sis4/rrd_graph.sh: not found
+sh: /script/rrdtool/script/cpu/rrd_graph.sh: not found
+sh: /script/rrdtool/script/ram/rrd_graph.sh: not found
+sh: /script/rrdtool/script/hdd/rrd_graph.sh: not found
+sh: /script/rrdtool/script/sis0/rrd_graph.sh: not found
+sh: /script/rrdtool/script/sis1/rrd_graph.sh: not found
+sh: /script/rrdtool/script/sis2/rrd_graph.sh: not found
+sh: /script/rrdtool/script/sis3/rrd_graph.sh: not found
+sh: /script/rrdtool/script/sis4/rrd_graph.sh: not found
+sh: /script/rrdtool/script/cpu/rrd_graph.sh: not found
+sh: /script/rrdtool/script/ram/rrd_graph.sh: not found
+sh: /script/rrdtool/script/hdd/rrd_graph.sh: not found
+sh: /script/rrdtool/script/sis0/rrd_graph.sh: not found
+sh: /script/rrdtool/script/sis1/rrd_graph.sh: not found
+sh: /script/rrdtool/script/sis2/rrd_graph.sh: not found
+sh: /script/rrdtool/script/sis3/rrd_graph.sh: not found
+sh: /script/rrdtool/script/sis4/rrd_graph.sh: not found
+sh: /rrdtool/script/cpu/rrd_graph.sh: not found
+sh: /rrdtool/script/ram/rrd_graph.sh: not found
+sh: /rrdtool/script/hdd/rrd_graph.sh: not found
+sh: /rrdtool/script/sis0/rrd_graph.sh: not found
+sh: /rrdtool/script/sis1/rrd_graph.sh: not found
+sh: /rrdtool/script/sis2/rrd_graph.sh: not found
+sh: /rrdtool/script/sis3/rrd_graph.sh: not found
+sh: /rrdtool/script/sis4/rrd_graph.sh: not found
+sh: /rrdtool/script/cpu/rrd_graph.sh: not found
+sh: /rrdtool/script/ram/rrd_graph.sh: not found
+sh: /rrdtool/script/hdd/rrd_graph.sh: not found
+sh: /rrdtool/script/sis0/rrd_graph.sh: not found
+sh: /rrdtool/script/sis1/rrd_graph.sh: not found
+sh: /rrdtool/script/sis2/rrd_graph.sh: not found
+sh: /rrdtool/script/sis3/rrd_graph.sh: not found
+sh: /rrdtool/script/sis4/rrd_graph.sh: not found
+sh: /rrdtool/script/cpu/rrd_graph.sh: not found
+sh: /rrdtool/script/ram/rrd_graph.sh: not found
+sh: /rrdtool/script/hdd/rrd_graph.sh: not found
+sh: /rrdtool/script/sis0/rrd_graph.sh: not found
+sh: /rrdtool/script/sis1/rrd_graph.sh: not found
+sh: /rrdtool/script/sis2/rrd_graph.sh: not found
+sh: /rrdtool/script/sis3/rrd_graph.sh: not found
+sh: /rrdtool/script/sis4/rrd_graph.sh: not found
+sh: /rrdtool/script/cpu/rrd_graph.sh: not found
+sh: /rrdtool/script/ram/rrd_graph.sh: not found
+sh: /rrdtool/script/hdd/rrd_graph.sh: not found
+sh: /rrdtool/script/sis0/rrd_graph.sh: not found
+sh: /rrdtool/script/sis1/rrd_graph.sh: not found
+sh: /rrdtool/script/sis2/rrd_graph.sh: not found
+sh: /rrdtool/script/sis3/rrd_graph.sh: not found
+sh: /rrdtool/script/sis4/rrd_graph.sh: not found
+sh: /rrdtool/script/cpu/rrd_graph.sh: not found
+sh: /rrdtool/script/ram/rrd_graph.sh: not found
+sh: /rrdtool/script/hdd/rrd_graph.sh: not found
+sh: /rrdtool/script/sis0/rrd_graph.sh: not found
+sh: /rrdtool/script/sis1/rrd_graph.sh: not found
+sh: /rrdtool/script/sis2/rrd_graph.sh: not found
+sh: /rrdtool/script/sis3/rrd_graph.sh: not found
+sh: /rrdtool/script/sis4/rrd_graph.sh: not found
+sh: /rrdtool/script/cpu/rrd_graph.sh: not found
+sh: /rrdtool/script/ram/rrd_graph.sh: not found
+sh: /rrdtool/script/hdd/rrd_graph.sh: not found
+sh: /rrdtool/script/sis0/rrd_graph.sh: not found
+sh: /rrdtool/script/sis1/rrd_graph.sh: not found
+sh: /rrdtool/script/sis2/rrd_graph.sh: not found
+sh: /rrdtool/script/sis3/rrd_graph.sh: not found
+sh: /rrdtool/script/sis4/rrd_graph.sh: not found
+sh: /rrdtool/script/cpu/rrd_graph.sh: not found
+sh: /rrdtool/script/ram/rrd_graph.sh: not found
+sh: /rrdtool/script/hdd/rrd_graph.sh: not found
+sh: /rrdtool/script/sis0/rrd_graph.sh: not found
+sh: /rrdtool/script/sis1/rrd_graph.sh: not found
+sh: /rrdtool/script/sis2/rrd_graph.sh: not found
+sh: /rrdtool/script/sis3/rrd_graph.sh: not found
+sh: /rrdtool/script/sis4/rrd_graph.sh: not found
+sh: /rrdtool/script/cpu/rrd_graph.sh: not found
+sh: /rrdtool/script/ram/rrd_graph.sh: not found
+sh: /rrdtool/script/hdd/rrd_graph.sh: not found
+sh: /rrdtool/script/sis0/rrd_graph.sh: not found
+sh: /rrdtool/script/sis1/rrd_graph.sh: not found
+sh: /rrdtool/script/sis2/rrd_graph.sh: not found
+sh: /rrdtool/script/sis3/rrd_graph.sh: not found
+sh: /rrdtool/script/sis4/rrd_graph.sh: not found
+sh: /rrdtool/script/cpu/rrd_graph.sh: not found
+sh: /rrdtool/script/ram/rrd_graph.sh: not found
+sh: /rrdtool/script/hdd/rrd_graph.sh: not found
+sh: /rrdtool/script/sis0/rrd_graph.sh: not found
+sh: /rrdtool/script/sis1/rrd_graph.sh: not found
+sh: /rrdtool/script/sis2/rrd_graph.sh: not found
+sh: /rrdtool/script/sis3/rrd_graph.sh: not found
+sh: /rrdtool/script/sis4/rrd_graph.sh: not found
+sh: var/www/htdocs/admin/rrdtool/script/cpu/rrd_graph.sh: not found
+sh: var/www/htdocs/admin/rrdtool/script/cpu/rrd_graph.sh: not found
+sh: var/www/htdocs/admin/rrdtool/script/cpu/rrd_graph.sh: not found
+sh: var/www/htdocs/admin/rrdtool/script/cpu/rrd_graph.sh: not found
+sh: var/www/htdocs/admin/rrdtool/script/cpu/rrd_graph.sh: not found
+ERROR: Could not save png to '/var/www/htdocs/admin/rrdtool/graph/cpuused-1h.png'
+ERROR: Could not save png to '/var/www/htdocs/admin/rrdtool/graph/cpuused-1d.png'
+ERROR: Could not save png to '/var/www/htdocs/admin/rrdtool/graph/cpuused-1w.png'
+ERROR: Could not save png to '/var/www/htdocs/admin/rrdtool/graph/ramused-1h.png'
+ERROR: Could not save png to '/var/www/htdocs/admin/rrdtool/graph/ramused-1d.png'
+ERROR: Could not save png to '/var/www/htdocs/admin/rrdtool/graph/ramused-1w.png'
+ERROR: Could not save png to '/var/www/htdocs/admin/rrdtool/graph/diskused-1d.png'
+ERROR: Could not save png to '/var/www/htdocs/admin/rrdtool/graph/network-sis0-1h.png'
+ERROR: Could not save png to '/var/www/htdocs/admin/rrdtool/graph/network-sis0-1d.png'
+ERROR: Could not save png to '/var/www/htdocs/admin/rrdtool/graph/network-sis0-1w.png'
+sh: /var/www/htdocs/admin/rrdtool/script/sis1/rrd_graph.sh: No such file or directory
+sh: /var/www/htdocs/admin/rrdtool/script/sis2/rrd_graph.sh: No such file or directory
+ERROR: Could not save png to '/var/www/htdocs/admin/rrdtool/graph/network-sis4-1h.png'
+ERROR: Could not save png to '/var/www/htdocs/admin/rrdtool/graph/network-sis4-1d.png'
+ERROR: Could not save png to '/var/www/htdocs/admin/rrdtool/graph/network-sis4-1w.png'
+ERROR: Could not save png to '/var/www/htdocs/admin/rrdtool/graph/cpuused-1h.png'
+ERROR: Could not save png to '/var/www/htdocs/admin/rrdtool/graph/cpuused-1d.png'
+ERROR: Could not save png to '/var/www/htdocs/admin/rrdtool/graph/cpuused-1w.png'
+ERROR: Could not save png to '/var/www/htdocs/admin/rrdtool/graph/ramused-1h.png'
+ERROR: Could not save png to '/var/www/htdocs/admin/rrdtool/graph/ramused-1d.png'
+ERROR: Could not save png to '/var/www/htdocs/admin/rrdtool/graph/ramused-1w.png'
+ERROR: Could not save png to '/var/www/htdocs/admin/rrdtool/graph/diskused-1d.png'
+ERROR: Could not save png to '/var/www/htdocs/admin/rrdtool/graph/network-sis0-1h.png'
+ERROR: Could not save png to '/var/www/htdocs/admin/rrdtool/graph/network-sis0-1d.png'
+ERROR: Could not save png to '/var/www/htdocs/admin/rrdtool/graph/network-sis0-1w.png'
+sh: /var/www/htdocs/admin/rrdtool/script/sis1/rrd_graph.sh: No such file or directory
+sh: /var/www/htdocs/admin/rrdtool/script/sis2/rrd_graph.sh: No such file or directory
+ERROR: Could not save png to '/var/www/htdocs/admin/rrdtool/graph/network-sis4-1h.png'
+ERROR: Could not save png to '/var/www/htdocs/admin/rrdtool/graph/network-sis4-1d.png'
+ERROR: Could not save png to '/var/www/htdocs/admin/rrdtool/graph/network-sis4-1w.png'
+ERROR: Could not save png to '/var/www/htdocs/admin/rrdtool/graph/cpuused-1h.png'
+ERROR: Could not save png to '/var/www/htdocs/admin/rrdtool/graph/cpuused-1d.png'
+ERROR: Could not save png to '/var/www/htdocs/admin/rrdtool/graph/cpuused-1w.png'
+ERROR: Could not save png to '/var/www/htdocs/admin/rrdtool/graph/ramused-1h.png'
+ERROR: Could not save png to '/var/www/htdocs/admin/rrdtool/graph/ramused-1d.png'
+ERROR: Could not save png to '/var/www/htdocs/admin/rrdtool/graph/ramused-1w.png'
+ERROR: Could not save png to '/var/www/htdocs/admin/rrdtool/graph/diskused-1d.png'
+ERROR: Could not save png to '/var/www/htdocs/admin/rrdtool/graph/network-sis0-1h.png'
+ERROR: Could not save png to '/var/www/htdocs/admin/rrdtool/graph/network-sis0-1d.png'
+ERROR: Could not save png to '/var/www/htdocs/admin/rrdtool/graph/network-sis0-1w.png'
+sh: /var/www/htdocs/admin/rrdtool/script/sis1/rrd_graph.sh: No such file or directory
+sh: /var/www/htdocs/admin/rrdtool/script/sis2/rrd_graph.sh: No such file or directory
+ERROR: Could not save png to '/var/www/htdocs/admin/rrdtool/graph/network-sis4-1h.png'
+ERROR: Could not save png to '/var/www/htdocs/admin/rrdtool/graph/network-sis4-1d.png'
+ERROR: Could not save png to '/var/www/htdocs/admin/rrdtool/graph/network-sis4-1w.png'
+sh: /var/www/htdocs/admin/rrdtool/script/sis1/rrd_graph.sh: No such file or directory
+sh: /var/www/htdocs/admin/rrdtool/script/sis2/rrd_graph.sh: No such file or directory
+sh: /var/www/htdocs/admin/rrdtool/script/sis1/rrd_graph.sh: No such file or directory
+sh: /var/www/htdocs/admin/rrdtool/script/sis2/rrd_graph.sh: No such file or directory
+[Fri Jan 16 16:29:53 2015] [warn] child process 5223 still did not exit, sending a SIGTERM
+[Fri Jan 16 16:29:53 2015] [warn] child process 17648 still did not exit, sending a SIGTERM
+[Fri Jan 16 16:29:53 2015] [warn] child process 27257 still did not exit, sending a SIGTERM
+[Fri Jan 16 16:29:53 2015] [warn] child process 8269 still did not exit, sending a SIGTERM
+[Fri Jan 16 16:29:53 2015] [warn] child process 27804 still did not exit, sending a SIGTERM
+[Fri Jan 16 16:29:53 2015] [warn] child process 28050 still did not exit, sending a SIGTERM
+[Fri Jan 16 16:29:53 2015] [warn] child process 10841 still did not exit, sending a SIGTERM
+[Fri Jan 16 16:29:53 2015] [warn] child process 19440 still did not exit, sending a SIGTERM
+httpd2(17648) in free(): error: recursive call
+[Fri Jan 16 16:29:53 2015] [warn] child process 14745 still did not exit, sending a SIGTERM
+[Fri Jan 16 16:29:54 2015] [notice] SIGHUP received.  Attempting to restart
+[Fri Jan 16 16:29:59 2015] [notice] Digest: generating secret for digest authentication ...
+[Fri Jan 16 16:29:59 2015] [notice] Digest: done
+[Fri Jan 16 16:30:23 2015] [notice] Apache/2.2.27 (Unix) DAV/2 PHP/5.4.30 mod_ssl/2.2.27 LibreSSL/2.0 configured -- resuming normal operations
+ERROR: Could not save png to '/var/www/htdocs/rrdtool/admin/graph/network-sis2-1d.png'
+ERROR: Could not save png to '/var/www/htdocs/rrdtool/admin/graph/network-sis2-1d.png'
+ERROR: Could not save png to '/var/www/htdocs/rrdtool/admin/graph/network-sis2-1d.png'
+ERROR: Could not save png to '/var/www/htdocs/rrdtool/admin/graph/network-sis2-1d.png'
+[Fri Jan 23 07:27:37 2015] [notice] Digest: generating secret for digest authentication ...
+[Fri Jan 23 07:27:37 2015] [notice] Digest: done
+[Fri Jan 23 07:27:39 2015] [warn] pid file /var/www/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri Jan 23 07:27:40 2015] [notice] Apache/2.2.27 (Unix) DAV/2 PHP/5.4.30 mod_ssl/2.2.27 LibreSSL/2.0 configured -- resuming normal operations
+[Fri Jan 23 09:41:20 2015] [notice] caught SIGTERM, shutting down
+[Fri Jan 23 09:43:16 2015] [notice] Digest: generating secret for digest authentication ...
+[Fri Jan 23 09:43:16 2015] [notice] Digest: done
+[Fri Jan 23 09:43:25 2015] [notice] Apache/2.2.27 (Unix) DAV/2 PHP/5.4.30 mod_ssl/2.2.27 LibreSSL/2.0 configured -- resuming normal operations
+[Fri Jan 23 11:57:59 2015] [notice] caught SIGTERM, shutting down
+[Fri Jan 23 12:00:00 2015] [notice] Digest: generating secret for digest authentication ...
+[Fri Jan 23 12:00:00 2015] [notice] Digest: done
+[Fri Jan 23 12:00:08 2015] [notice] Apache/2.2.27 (Unix) DAV/2 PHP/5.4.30 mod_ssl/2.2.27 LibreSSL/2.0 configured -- resuming normal operations
+[Sat Jan 24 20:21:04 2015] [warn] child process 25450 still did not exit, sending a SIGTERM
+[Sat Jan 24 20:21:06 2015] [warn] child process 25450 still did not exit, sending a SIGTERM
+[Sat Jan 24 20:21:07 2015] [notice] caught SIGTERM, shutting down
+[Sat Jan 24 20:23:04 2015] [notice] Digest: generating secret for digest authentication ...
+[Sat Jan 24 20:23:04 2015] [notice] Digest: done
+[Sat Jan 24 20:23:12 2015] [notice] Apache/2.2.27 (Unix) DAV/2 PHP/5.4.30 mod_ssl/2.2.27 LibreSSL/2.0 configured -- resuming normal operations
+[Tue Jan 27 14:36:57 2015] [notice] caught SIGTERM, shutting down
+[Tue Jan 27 14:38:47 2015] [notice] Digest: generating secret for digest authentication ...
+[Tue Jan 27 14:38:47 2015] [notice] Digest: done
+[Tue Jan 27 14:38:51 2015] [notice] Apache/2.2.27 (Unix) DAV/2 PHP/5.4.30 mod_ssl/2.2.27 LibreSSL/2.0 configured -- resuming normal operations
+[Tue Jan 27 14:47:46 2015] [notice] caught SIGTERM, shutting down
+[Tue Jan 27 14:49:34 2015] [notice] Digest: generating secret for digest authentication ...
+[Tue Jan 27 14:49:34 2015] [notice] Digest: done
+[Tue Jan 27 14:49:37 2015] [notice] Apache/2.2.27 (Unix) DAV/2 PHP/5.4.30 mod_ssl/2.2.27 LibreSSL/2.0 configured -- resuming normal operations
+sh: /var/www/htdocs/admin/rrdtool/script/cpu/rrd_graph.sh: cannot execute - Permission denied
+sh: /var/www/htdocs/admin/rrdtool/script/ram/rrd_graph.sh: cannot execute - Permission denied
+sh: /var/www/htdocs/admin/rrdtool/script/hdd/rrd_graph.sh: cannot execute - Permission denied
+sh: /var/www/htdocs/admin/rrdtool/script/sis0/rrd_graph.sh: cannot execute - Permission denied
+sh: /var/www/htdocs/admin/rrdtool/script/sis1/rrd_graph.sh: cannot execute - Permission denied
+sh: /var/www/htdocs/admin/rrdtool/script/sis2/rrd_graph.sh: cannot execute - Permission denied
+sh: /var/www/htdocs/admin/rrdtool/script/sis3/rrd_graph.sh: cannot execute - Permission denied
+sh: /var/www/htdocs/admin/rrdtool/script/sis4/rrd_graph.sh: cannot execute - Permission denied
+sh: /var/www/htdocs/admin/rrdtool/script/cpu/rrd_graph.sh: cannot execute - Permission denied
+sh: /var/www/htdocs/admin/rrdtool/script/ram/rrd_graph.sh: cannot execute - Permission denied
+sh: /var/www/htdocs/admin/rrdtool/script/hdd/rrd_graph.sh: cannot execute - Permission denied
+sh: /var/www/htdocs/admin/rrdtool/script/sis0/rrd_graph.sh: cannot execute - Permission denied
+sh: /var/www/htdocs/admin/rrdtool/script/sis1/rrd_graph.sh: cannot execute - Permission denied
+sh: /var/www/htdocs/admin/rrdtool/script/sis2/rrd_graph.sh: cannot execute - Permission denied
+sh: /var/www/htdocs/admin/rrdtool/script/sis3/rrd_graph.sh: cannot execute - Permission denied
+sh: /var/www/htdocs/admin/rrdtool/script/sis4/rrd_graph.sh: cannot execute - Permission denied
+sh: /var/www/htdocs/admin/rrdtool/script/cpu/rrd_graph.sh: cannot execute - Permission denied
+sh: /var/www/htdocs/admin/rrdtool/script/ram/rrd_graph.sh: cannot execute - Permission denied
+sh: /var/www/htdocs/admin/rrdtool/script/hdd/rrd_graph.sh: cannot execute - Permission denied
+sh: /var/www/htdocs/admin/rrdtool/script/sis0/rrd_graph.sh: cannot execute - Permission denied
+sh: /var/www/htdocs/admin/rrdtool/script/sis1/rrd_graph.sh: cannot execute - Permission denied
+sh: /var/www/htdocs/admin/rrdtool/script/sis2/rrd_graph.sh: cannot execute - Permission denied
+sh: /var/www/htdocs/admin/rrdtool/script/sis3/rrd_graph.sh: cannot execute - Permission denied
+sh: /var/www/htdocs/admin/rrdtool/script/sis4/rrd_graph.sh: cannot execute - Permission denied
+sh: /var/www/script/dhcp/add_static.sh: not found
+sh: /var/www/htdocs/admin/rrdtool/script/cpu/rrd_graph.sh: cannot execute - Permission denied
+sh: /var/www/htdocs/admin/rrdtool/script/ram/rrd_graph.sh: cannot execute - Permission denied
+sh: /var/www/htdocs/admin/rrdtool/script/hdd/rrd_graph.sh: cannot execute - Permission denied
+sh: /var/www/htdocs/admin/rrdtool/script/sis0/rrd_graph.sh: cannot execute - Permission denied
+sh: /var/www/htdocs/admin/rrdtool/script/sis1/rrd_graph.sh: cannot execute - Permission denied
+sh: /var/www/htdocs/admin/rrdtool/script/sis2/rrd_graph.sh: cannot execute - Permission denied
+sh: /var/www/htdocs/admin/rrdtool/script/sis3/rrd_graph.sh: cannot execute - Permission denied
+sh: /var/www/htdocs/admin/rrdtool/script/sis4/rrd_graph.sh: cannot execute - Permission denied
+sh: /var/www/htdocs/admin/rrdtool/script/cpu/rrd_graph.sh: cannot execute - Permission denied
+sh: /var/www/htdocs/admin/rrdtool/script/ram/rrd_graph.sh: cannot execute - Permission denied
+sh: /var/www/htdocs/admin/rrdtool/script/hdd/rrd_graph.sh: cannot execute - Permission denied
+sh: /var/www/htdocs/admin/rrdtool/script/sis0/rrd_graph.sh: cannot execute - Permission denied
+sh: /var/www/htdocs/admin/rrdtool/script/sis1/rrd_graph.sh: cannot execute - Permission denied
+sh: /var/www/htdocs/admin/rrdtool/script/sis2/rrd_graph.sh: cannot execute - Permission denied
+sh: /var/www/htdocs/admin/rrdtool/script/sis3/rrd_graph.sh: cannot execute - Permission denied
+sh: /var/www/htdocs/admin/rrdtool/script/sis4/rrd_graph.sh: cannot execute - Permission denied
+sh: /var/www/htdocs/admin/rrdtool/script/cpu/rrd_graph.sh: cannot execute - Permission denied
+sh: /var/www/htdocs/admin/rrdtool/script/ram/rrd_graph.sh: cannot execute - Permission denied
+sh: /var/www/htdocs/admin/rrdtool/script/hdd/rrd_graph.sh: cannot execute - Permission denied
+sh: /var/www/htdocs/admin/rrdtool/script/sis0/rrd_graph.sh: cannot execute - Permission denied
+sh: /var/www/htdocs/admin/rrdtool/script/sis1/rrd_graph.sh: cannot execute - Permission denied
+sh: /var/www/htdocs/admin/rrdtool/script/sis2/rrd_graph.sh: cannot execute - Permission denied
+sh: /var/www/htdocs/admin/rrdtool/script/sis3/rrd_graph.sh: cannot execute - Permission denied
+sh: /var/www/htdocs/admin/rrdtool/script/sis4/rrd_graph.sh: cannot execute - Permission denied
+sudo: no tty present and no askpass program specified
+sudo: no tty present and no askpass program specified
+sudo: no tty present and no askpass program specified
+userdel: No such user `pseudotest1'
+userdel: No such user `rehylee'
+sh: /var/www/htdocs/admin/rrdtool/script/cpu/rrd_graph.sh: cannot execute - Permission denied
+sh: /var/www/htdocs/admin/rrdtool/script/ram/rrd_graph.sh: cannot execute - Permission denied
+sh: /var/www/htdocs/admin/rrdtool/script/hdd/rrd_graph.sh: cannot execute - Permission denied
+sh: /var/www/htdocs/admin/rrdtool/script/sis0/rrd_graph.sh: cannot execute - Permission denied
+sh: /var/www/htdocs/admin/rrdtool/script/sis1/rrd_graph.sh: cannot execute - Permission denied
+sh: /var/www/htdocs/admin/rrdtool/script/sis2/rrd_graph.sh: cannot execute - Permission denied
+sh: /var/www/htdocs/admin/rrdtool/script/sis3/rrd_graph.sh: cannot execute - Permission denied
+sh: /var/www/htdocs/admin/rrdtool/script/sis4/rrd_graph.sh: cannot execute - Permission denied
+sh: /var/www/htdocs/admin/rrdtool/script/cpu/rrd_graph.sh: cannot execute - Permission denied
+sh: /var/www/htdocs/admin/rrdtool/script/ram/rrd_graph.sh: cannot execute - Permission denied
+sh: /var/www/htdocs/admin/rrdtool/script/hdd/rrd_graph.sh: cannot execute - Permission denied
+sh: /var/www/htdocs/admin/rrdtool/script/sis0/rrd_graph.sh: cannot execute - Permission denied
+sh: /var/www/htdocs/admin/rrdtool/script/sis1/rrd_graph.sh: cannot execute - Permission denied
+sh: /var/www/htdocs/admin/rrdtool/script/sis2/rrd_graph.sh: cannot execute - Permission denied
+sh: /var/www/htdocs/admin/rrdtool/script/sis3/rrd_graph.sh: cannot execute - Permission denied
+sh: /var/www/htdocs/admin/rrdtool/script/sis4/rrd_graph.sh: cannot execute - Permission denied
+sh: /var/www/htdocs/admin/rrdtool/script/cpu/rrd_graph.sh: cannot execute - Permission denied
+sh: /var/www/htdocs/admin/rrdtool/script/ram/rrd_graph.sh: cannot execute - Permission denied
+sh: /var/www/htdocs/admin/rrdtool/script/hdd/rrd_graph.sh: cannot execute - Permission denied
+sh: /var/www/htdocs/admin/rrdtool/script/sis0/rrd_graph.sh: cannot execute - Permission denied
+sh: /var/www/htdocs/admin/rrdtool/script/sis1/rrd_graph.sh: cannot execute - Permission denied
+sh: /var/www/htdocs/admin/rrdtool/script/sis2/rrd_graph.sh: cannot execute - Permission denied
+sh: /var/www/htdocs/admin/rrdtool/script/sis3/rrd_graph.sh: cannot execute - Permission denied
+sh: /var/www/htdocs/admin/rrdtool/script/sis4/rrd_graph.sh: cannot execute - Permission denied
+sh: /var/www/htdocs/admin/rrdtool/script/cpu/rrd_graph.sh: cannot execute - Permission denied
+sh: /var/www/htdocs/admin/rrdtool/script/ram/rrd_graph.sh: cannot execute - Permission denied
+sh: /var/www/htdocs/admin/rrdtool/script/hdd/rrd_graph.sh: cannot execute - Permission denied
+sh: /var/www/htdocs/admin/rrdtool/script/sis0/rrd_graph.sh: cannot execute - Permission denied
+sh: /var/www/htdocs/admin/rrdtool/script/sis1/rrd_graph.sh: cannot execute - Permission denied
+sh: /var/www/htdocs/admin/rrdtool/script/sis2/rrd_graph.sh: cannot execute - Permission denied
+sh: /var/www/htdocs/admin/rrdtool/script/sis3/rrd_graph.sh: cannot execute - Permission denied
+sh: /var/www/htdocs/admin/rrdtool/script/sis4/rrd_graph.sh: cannot execute - Permission denied
+sh: /var/www/script/vpn/add_static_server_pre_shared_keys.sh: cannot execute - Permission denied
+sh: /var/www/script/dhcp/del_static.sh: cannot execute - Permission denied
+sh: /var/www/script/dhcp/range.sh: cannot execute - Permission denied
+sh: /var/www/script/dhcp/range.sh: cannot execute - Permission denied
+[Wed Jan 28 07:36:00 2015] [notice] Digest: generating secret for digest authentication ...
+[Wed Jan 28 07:36:00 2015] [notice] Digest: done
+[Wed Jan 28 07:36:04 2015] [warn] pid file /var/www/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Jan 28 07:36:05 2015] [notice] Apache/2.2.27 (Unix) DAV/2 PHP/5.4.30 mod_ssl/2.2.27 LibreSSL/2.0 configured -- resuming normal operations
+sh: /var/www/htdocs/admin/rrdtool/script/cpu/rrd_graph.sh: cannot execute - Permission denied
+sh: /var/www/htdocs/admin/rrdtool/script/ram/rrd_graph.sh: cannot execute - Permission denied
+sh: /var/www/htdocs/admin/rrdtool/script/hdd/rrd_graph.sh: cannot execute - Permission denied
+sh: /var/www/htdocs/admin/rrdtool/script/sis0/rrd_graph.sh: cannot execute - Permission denied
+sh: /var/www/htdocs/admin/rrdtool/script/sis1/rrd_graph.sh: cannot execute - Permission denied
+sh: /var/www/htdocs/admin/rrdtool/script/sis2/rrd_graph.sh: cannot execute - Permission denied
+sh: /var/www/htdocs/admin/rrdtool/script/sis3/rrd_graph.sh: cannot execute - Permission denied
+sh: /var/www/htdocs/admin/rrdtool/script/sis4/rrd_graph.sh: cannot execute - Permission denied
+sh: /var/www/htdocs/admin/rrdtool/script/cpu/rrd_graph.sh: cannot execute - Permission denied
+sh: /var/www/htdocs/admin/rrdtool/script/ram/rrd_graph.sh: cannot execute - Permission denied
+sh: /var/www/htdocs/admin/rrdtool/script/hdd/rrd_graph.sh: cannot execute - Permission denied
+sh: /var/www/htdocs/admin/rrdtool/script/sis0/rrd_graph.sh: cannot execute - Permission denied
+sh: /var/www/htdocs/admin/rrdtool/script/sis1/rrd_graph.sh: cannot execute - Permission denied
+sh: /var/www/htdocs/admin/rrdtool/script/sis2/rrd_graph.sh: cannot execute - Permission denied
+sh: /var/www/htdocs/admin/rrdtool/script/sis3/rrd_graph.sh: cannot execute - Permission denied
+sh: /var/www/htdocs/admin/rrdtool/script/sis4/rrd_graph.sh: cannot execute - Permission denied
+sh: /var/www/htdocs/admin/rrdtool/script/cpu/rrd_graph.sh: cannot execute - Permission denied
+sh: /var/www/htdocs/admin/rrdtool/script/ram/rrd_graph.sh: cannot execute - Permission denied
+sh: /var/www/htdocs/admin/rrdtool/script/hdd/rrd_graph.sh: cannot execute - Permission denied
+sh: /var/www/htdocs/admin/rrdtool/script/sis0/rrd_graph.sh: cannot execute - Permission denied
+sh: /var/www/htdocs/admin/rrdtool/script/sis1/rrd_graph.sh: cannot execute - Permission denied
+sh: /var/www/htdocs/admin/rrdtool/script/sis2/rrd_graph.sh: cannot execute - Permission denied
+sh: /var/www/htdocs/admin/rrdtool/script/sis3/rrd_graph.sh: cannot execute - Permission denied
+sh: /var/www/htdocs/admin/rrdtool/script/sis4/rrd_graph.sh: cannot execute - Permission denied
+sh: /var/www/htdocs/admin/rrdtool/script/cpu/rrd_graph.sh: cannot execute - Permission denied
+sh: /var/www/htdocs/admin/rrdtool/script/ram/rrd_graph.sh: cannot execute - Permission denied
+sh: /var/www/htdocs/admin/rrdtool/script/hdd/rrd_graph.sh: cannot execute - Permission denied
+sh: /var/www/htdocs/admin/rrdtool/script/sis0/rrd_graph.sh: cannot execute - Permission denied
+sh: /var/www/htdocs/admin/rrdtool/script/sis1/rrd_graph.sh: cannot execute - Permission denied
+sh: /var/www/htdocs/admin/rrdtool/script/sis2/rrd_graph.sh: cannot execute - Permission denied
+sh: /var/www/htdocs/admin/rrdtool/script/sis3/rrd_graph.sh: cannot execute - Permission denied
+sh: /var/www/htdocs/admin/rrdtool/script/sis4/rrd_graph.sh: cannot execute - Permission denied
+sh: /var/www/htdocs/admin/rrdtool/script/cpu/rrd_graph.sh: cannot execute - Permission denied
+sh: /var/www/htdocs/admin/rrdtool/script/ram/rrd_graph.sh: cannot execute - Permission denied
+sh: /var/www/htdocs/admin/rrdtool/script/hdd/rrd_graph.sh: cannot execute - Permission denied
+sh: /var/www/htdocs/admin/rrdtool/script/sis0/rrd_graph.sh: cannot execute - Permission denied
+sh: /var/www/htdocs/admin/rrdtool/script/sis1/rrd_graph.sh: cannot execute - Permission denied
+sh: /var/www/htdocs/admin/rrdtool/script/sis2/rrd_graph.sh: cannot execute - Permission denied
+sh: /var/www/htdocs/admin/rrdtool/script/sis3/rrd_graph.sh: cannot execute - Permission denied
+sh: /var/www/htdocs/admin/rrdtool/script/sis4/rrd_graph.sh: cannot execute - Permission denied
+sh: /var/www/htdocs/admin/rrdtool/script/cpu/rrd_graph.sh: cannot execute - Permission denied
+sh: /var/www/htdocs/admin/rrdtool/script/ram/rrd_graph.sh: cannot execute - Permission denied
+sh: /var/www/htdocs/admin/rrdtool/script/hdd/rrd_graph.sh: cannot execute - Permission denied
+sh: /var/www/htdocs/admin/rrdtool/script/sis0/rrd_graph.sh: cannot execute - Permission denied
+sh: /var/www/htdocs/admin/rrdtool/script/sis1/rrd_graph.sh: cannot execute - Permission denied
+sh: /var/www/htdocs/admin/rrdtool/script/sis2/rrd_graph.sh: cannot execute - Permission denied
+sh: /var/www/htdocs/admin/rrdtool/script/sis3/rrd_graph.sh: cannot execute - Permission denied
+sh: /var/www/htdocs/admin/rrdtool/script/sis4/rrd_graph.sh: cannot execute - Permission denied
+sh: /var/www/htdocs/admin/rrdtool/script/cpu/rrd_graph.sh: cannot execute - Permission denied
+sh: /var/www/htdocs/admin/rrdtool/script/ram/rrd_graph.sh: cannot execute - Permission denied
+sh: /var/www/htdocs/admin/rrdtool/script/hdd/rrd_graph.sh: cannot execute - Permission denied
+sh: /var/www/htdocs/admin/rrdtool/script/sis0/rrd_graph.sh: cannot execute - Permission denied
+sh: /var/www/htdocs/admin/rrdtool/script/sis1/rrd_graph.sh: cannot execute - Permission denied
+sh: /var/www/htdocs/admin/rrdtool/script/sis2/rrd_graph.sh: cannot execute - Permission denied
+sh: /var/www/htdocs/admin/rrdtool/script/sis3/rrd_graph.sh: cannot execute - Permission denied
+sh: /var/www/htdocs/admin/rrdtool/script/sis4/rrd_graph.sh: cannot execute - Permission denied
+sh: /var/www/htdocs/admin/rrdtool/script/cpu/rrd_graph.sh: cannot execute - Permission denied
+sh: /var/www/htdocs/admin/rrdtool/script/ram/rrd_graph.sh: cannot execute - Permission denied
+sh: /var/www/htdocs/admin/rrdtool/script/hdd/rrd_graph.sh: cannot execute - Permission denied
+sh: /var/www/htdocs/admin/rrdtool/script/sis0/rrd_graph.sh: cannot execute - Permission denied
+sh: /var/www/htdocs/admin/rrdtool/script/sis1/rrd_graph.sh: cannot execute - Permission denied
+sh: /var/www/htdocs/admin/rrdtool/script/sis2/rrd_graph.sh: cannot execute - Permission denied
+sh: /var/www/htdocs/admin/rrdtool/script/sis3/rrd_graph.sh: cannot execute - Permission denied
+sh: /var/www/htdocs/admin/rrdtool/script/sis4/rrd_graph.sh: cannot execute - Permission denied
+sh: /var/www/htdocs/admin/rrdtool/script/cpu/rrd_graph.sh: cannot execute - Permission denied
+sh: /var/www/htdocs/admin/rrdtool/script/ram/rrd_graph.sh: cannot execute - Permission denied
+sh: /var/www/htdocs/admin/rrdtool/script/hdd/rrd_graph.sh: cannot execute - Permission denied
+sh: /var/www/htdocs/admin/rrdtool/script/sis0/rrd_graph.sh: cannot execute - Permission denied
+sh: /var/www/htdocs/admin/rrdtool/script/sis1/rrd_graph.sh: cannot execute - Permission denied
+sh: /var/www/htdocs/admin/rrdtool/script/sis2/rrd_graph.sh: cannot execute - Permission denied
+sh: /var/www/htdocs/admin/rrdtool/script/sis3/rrd_graph.sh: cannot execute - Permission denied
+sh: /var/www/htdocs/admin/rrdtool/script/sis4/rrd_graph.sh: cannot execute - Permission denied
+sh: /var/www/htdocs/admin/rrdtool/script/cpu/rrd_graph.sh: cannot execute - Permission denied
+sh: /var/www/htdocs/admin/rrdtool/script/ram/rrd_graph.sh: cannot execute - Permission denied
+sh: /var/www/htdocs/admin/rrdtool/script/hdd/rrd_graph.sh: cannot execute - Permission denied
+sh: /var/www/htdocs/admin/rrdtool/script/sis0/rrd_graph.sh: cannot execute - Permission denied
+sh: /var/www/htdocs/admin/rrdtool/script/sis1/rrd_graph.sh: cannot execute - Permission denied
+sh: /var/www/htdocs/admin/rrdtool/script/sis2/rrd_graph.sh: cannot execute - Permission denied
+sh: /var/www/htdocs/admin/rrdtool/script/sis3/rrd_graph.sh: cannot execute - Permission denied
+sh: /var/www/htdocs/admin/rrdtool/script/sis4/rrd_graph.sh: cannot execute - Permission denied
+[Thu Jan 29 09:33:36 2015] [notice] Digest: generating secret for digest authentication ...
+[Thu Jan 29 09:33:36 2015] [notice] Digest: done
+[Thu Jan 29 09:33:43 2015] [warn] pid file /var/www/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Jan 29 09:33:44 2015] [notice] Apache/2.2.27 (Unix) DAV/2 PHP/5.4.30 mod_ssl/2.2.27 LibreSSL/2.0 configured -- resuming normal operations

@@ -1,1 +1,3 @@
-Jan 14 09:00:02 cyberus newsyslog[5794]: logfile turned over
+Jan 28 09:00:03 cyberus newsyslog[26233]: logfile turned over
+Jan 29 09:33:15 cyberus smtpd[31213]: info: OpenSMTPD 5.4.3 starting
+Jan 29 09:33:15 cyberus smtpd[20255]: info: startup

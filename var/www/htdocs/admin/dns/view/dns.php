@@ -39,8 +39,7 @@
             </thead>
             <tbody>
             <?php // Parcours du tableau de données retourné par la classe DNS
-            foreach($dns->getDatas() as $line){
-                ?>
+            foreach($dns->getDatas() as $line){ ?>
                 <tr>
                     <td>
                         <a href="./dns/index.php?page=delete_dns&deldns=<?php echo $line["domain"]; ?>" title="Supprimer votre champs DNS"><button type="button" class="btn btn-danger btn-xs"><i class="glyphicon glyphicon-remove"></i> Supprimer</button></a>
@@ -61,7 +60,7 @@
         <div class="form-group">
             <label class="col-sm-2 control-label" for="NewDns">Nouvelle entrée DNS</label>
             <div class="col-sm-10">
-                <input type="text" class="form-control" name="NewDns" placeholder="example1.cbnet.itinet.fr" required>
+                <input type="text" class="form-control" name="NewDns" placeholder="example1.cbnet.itinet.fr" required pattern="^([a-zA-Z0-9]([a-zA-Z0-9\-]{0,61}[a-zA-Z0-9])?\.)+[a-zA-Z]{2,6}$">
             </div>
         </div>
 

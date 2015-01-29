@@ -2,7 +2,7 @@
 # Script pour la génération des graphique sur de la base de donnée RRDTools pour l'utilisation de la RAM
 
 # Pour 1 Heure
-/usr/local/bin/rrdtool graph /var/www/htdocs/admin/graph/ramused-1h.png \
+/usr/local/bin/rrdtool graph /var/www/htdocs/admin/rrdtool/graph/ramused-1h.png \
 --start -3600 --end now \
 --vertical-label Megaoctet \
 --width 500 \
@@ -24,7 +24,7 @@ CDEF:ramusedmo=ramused,1024,\/ \
 AREA:ramusedmo#046380:"Mémoire RAM utilisée" \
 
 # Pour 1 jour
-/usr/local/bin/rrdtool graph /var/www/htdocs/admin/graph/ramused-1d.png \
+/usr/local/bin/rrdtool graph /var/www/htdocs/admin/rrdtool/graph/ramused-1d.png \
 --start -86400 --end now \
 --vertical-label Megaoctet \
 --width 500 \
@@ -46,7 +46,7 @@ CDEF:ramusedmo=ramused,1024,\/ \
 AREA:ramusedmo#046380:"Mémoire RAM utilisée" \
 
 # Pour 1 semaine
-/usr/local/bin/rrdtool graph /var/www/htdocs/admin/graph/ramused-1w.png \
+/usr/local/bin/rrdtool graph /var/www/htdocs/admin/rrdtool/graph/ramused-1w.png \
 --start -604800 --end now \
 --vertical-label Megaoctet \
 --width 500 \

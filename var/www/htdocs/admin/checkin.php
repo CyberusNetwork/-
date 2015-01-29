@@ -27,10 +27,6 @@ $login = $_POST['login'];
 $password = $_POST['password'];
 $crypted_password = md5($password);
 
-//var_dump($login);
-//var_dump($password);
-//var_dump($crypted_password);
-
 $user = new UserModel();
 
 // Renvoi l'utilisateur s'il existe; renvoi null sinon

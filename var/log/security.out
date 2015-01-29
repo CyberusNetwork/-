@@ -14,3 +14,19 @@ usr/local:
 usr/local/bin: 
 	permissions (0755, 02755)
 mtree special: exit code 2
+
+======
+/etc/rc.conf.local diffs (-OLD  +NEW)
+======
+diff: exit code 1
+--- /var/backups/etc_rc.conf.local.current	Mon Jan 19 01:35:23 2015
++++ /etc/rc.conf.local	Tue Jan 27 14:47:17 2015
+@@ -10,6 +10,6 @@
+ # Server WEB
+ mysqld_flags=""
+ apache_flags=""
+-pkg_scripts="mysqld, apache2"
++pkg_scripts="apache2 mysqld"
+ # Servers DNS
+ unbound_flags="-c /var/unbound/etc/unbound.conf"
+

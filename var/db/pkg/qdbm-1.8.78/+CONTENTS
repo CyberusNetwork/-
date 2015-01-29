@@ -1,0 +1,216 @@
+@comment $OpenBSD: PLIST,v 1.4 2012/05/08 13:04:48 okan Exp $
+@comment $OpenBSD: PFRAG.shared,v 1.5 2005/12/26 21:32:01 sturm Exp $
+@name qdbm-1.8.78
+@url http://ftp.fr.openbsd.org/pub/OpenBSD/5.6/packages/i386/qdbm-1.8.78.tgz
+@signer openbsd-56-pkg
+@digital-signature signify:2014-08-02T11:06:05Z:RWSPEf7Vpp2j0DvXxH9De1LapaCoBRRrc/f3rsGzhy9kV3/no1KLwzaO58cOOlMQPULWtEBOdAoysk3syfWeQcSbZ6bD3UXI0gg=
+@comment pkgpath=databases/qdbm cdrom=yes ftp=yes
+@arch i386
++DESC
+@sha 9+hJr8xfuAbZDRj6B1nKZmd7abfM3mYAJCEUhnc2aio=
+@size 519
+@depend converters/libiconv:libiconv-*:libiconv-1.14p1
+@wantlib c.77.0
+@wantlib iconv.6.0
+@wantlib z.5.0
+@cwd /usr/local
+@lib lib/libqdbm.so.14.14
+@sha /XSFvq2ZsvDrvdX6mw0YWyZySysd7QFT85+VeTKWbwg=
+@size 262421
+@bin bin/cbcodec
+@sha pVcQUW9G+gQmHIgiUU+Xks/Q7aeQ6D5EkVMrN1/oA70=
+@size 31984
+@bin bin/cbtest
+@sha MrcbTxyMFU9TeblPawRJ5I8FoszfHfGsDF8r51szbzs=
+@size 28816
+@bin bin/crmgr
+@sha OiEy4JsJ4LxpgmI/1p4fZMRORhc9N28bBITUURceA6c=
+@size 19184
+@bin bin/crtest
+@sha 6igXVWGMLEb3hTLHTO/dbW8Ag8ndvnVaCfKyzwKxDKU=
+@size 23600
+@bin bin/crtsv
+@sha N4rICMJaMGmITkP7Bwmh8WTLPeaZI9WtWeX9iZHa848=
+@size 10032
+@bin bin/dpmgr
+@sha YnEXQqSU45rvezlZvjOeYXVkRUvFDGtu3Nnmuu6Fb9M=
+@size 19120
+@bin bin/dptest
+@sha 406Pc1w6n50HHZXH+tsO2wo3ez2xpd41y+ZQh5RnsNw=
+@size 23472
+@bin bin/dptsv
+@sha fyVfuW3yMbiS5bFCh+kl1cbOVIsmuMqbJaCGVPnX8Q0=
+@size 10032
+@bin bin/hvmgr
+@sha 8d6iW9kCZ2IZICj3t9ilvXYq3COhaaHsij4KjyWred4=
+@size 14384
+@bin bin/hvtest
+@sha ujpDWT81hwdf+8rT8YpCiaitPA2nu1qKCoYJUyy9DXI=
+@size 10064
+@bin bin/odidx
+@sha KUuuLKcfxzNKEmJyR/uGRbgCqqj3geAPVG6HRbnDYfo=
+@size 28432
+@bin bin/odmgr
+@sha 8WIsoQAU5w5jCbcXCf3TirVjEI2qRWUU1dJkFrcuO8g=
+@size 27536
+@bin bin/odtest
+@sha wW+cMu1NpmYwT1CpyLb+xApQmAkhkeFSlJBT3gbGzDk=
+@size 19184
+@bin bin/qmttest
+@sha bhpCLgXhV0tADmzI+MX0D26OCDVTBWZZKt6bKnSIe8g=
+@size 10224
+@bin bin/rlmgr
+@sha lxDvTIR7+kiIimptLspnFMGn4YhMnLjwZMBZKvAeAb0=
+@size 14352
+@bin bin/rltest
+@sha VYi4/s8om8cTGHlE+fLORe1bgQmznaWEww+vr1nTn1Y=
+@size 10032
+@bin bin/vlmgr
+@sha feq7yFMSprjuHO8Bm0gdiXuGDVALfeDYhAsjCJTStYw=
+@size 23216
+@bin bin/vltest
+@sha KLR/oXGcSFwe8Wo5u/FDgKcrtmNY3IgV3nggI5CqhkU=
+@size 37072
+@bin bin/vltsv
+@sha SY5Lu6HSRqj3fLn1GooQd5862sqKwgSLz/9gHCv/xQ4=
+@size 10000
+include/cabin.h
+@sha BeQ0Q+gSVE03+uNn43C/Dwh1rHfbxtCcpu4j6/RPrh8=
+@size 70921
+include/curia.h
+@sha vpHlnaFVT0AgasUbrehhNP0hnDfIkpbVkuinSW4pJt0=
+@size 23264
+include/depot.h
+@sha PddC/WsGoXRh8dqcJLcV5Cpt4Bs7qPaGBPQwif7FqJg=
+@size 22769
+include/hovel.h
+@sha hyU1UDahhm6Wd3iwfbxjkFfRbL89hMIX5xbUCvz0Cy0=
+@size 12663
+include/odeum.h
+@sha QFScSTfWgb7r5wH3o/2CIHpCSmLOk9udkHkBiwllOHQ=
+@size 27181
+include/relic.h
+@sha i+zG1eiEq6pMCr8xPR0bb/llFe3MtnAnadvA0nAshEc=
+@size 6628
+include/villa.h
+@sha ipnUzxFW0ZRUmgKFBy+kextjAXMm1puhcTE28rFMLxs=
+@size 37782
+include/vista.h
+@sha LadP1Pu+mQFIbpAr6RVT/N89YA8qeOLX01yqhb3+fOE=
+@size 4570
+lib/libqdbm.a
+@sha Lqb6DEKxnw7BDd3y8ZkOvFov7JYyLWyXXNdRoiN9XBA=
+@size 315194
+lib/pkgconfig/
+lib/pkgconfig/qdbm.pc
+@sha JFTzZJpPm0APfOZPx5nLZD5mWXM2qNPQOvdvPekEC40=
+@size 341
+@man man/man1/cbcodec.1
+@sha Zs4f7dJ+Av/ws18dtTsCRwDyOV1zEdkWNaHShRtFOTA=
+@size 4104
+@man man/man1/cbtest.1
+@sha d0PBmoMnWSqqICn2QvFaPxyroxqXmJjatQjYIkONyOc=
+@size 1214
+@man man/man1/crmgr.1
+@sha 8VSEWH67/YFVJ3puSDwxYMYh9cg7uKn+MTqWlVoy/ak=
+@size 3521
+@man man/man1/crtest.1
+@sha QXbb999uac4YXnxOlNYq4TpnxmZcNyxSXWdsjTW4TlI=
+@size 2016
+@man man/man1/crtsv.1
+@sha cw+Bh1GblA2lH2TwQPRlMX2d2u9e3Q7olVkIaZ2XC8o=
+@size 2707
+@man man/man1/dpmgr.1
+@sha LVFVfTMA22Hk1X9l1xfSKmY+ms68i3Hc0XtSmydmM1Q=
+@size 3361
+@man man/man1/dptest.1
+@sha LWaKHkuAL2mlBBZ94cbPNp0KnrIdyhyg8bb2dR9vMNo=
+@size 1882
+@man man/man1/dptsv.1
+@sha UEg1n85WjO9utvXh8/inHny093iiP2bORpOgwwKx014=
+@size 2547
+@man man/man1/hvmgr.1
+@sha WFDqlO2nSVfEyEg7vKNV/IYkPwiTrKlBxrbPvQx6TI4=
+@size 2723
+@man man/man1/hvtest.1
+@sha M10ZaKJgaTP/TJBR5E86eTbQ2Hrpa/lXPZZzIPf5R8A=
+@size 1047
+@man man/man1/odidx.1
+@sha FfM6b/KgTZ+vIjBN5vbMjbf0x8ciz6YRBViPpx6xN9A=
+@size 3274
+@man man/man1/odmgr.1
+@sha 2KpDWH+eqLVldHs8ihHGvJTp2fwMvb7zyE+QbbRe91g=
+@size 3283
+@man man/man1/odtest.1
+@sha TxXcg+43mEdZd4OlFrN5qCal6YDhyJKJ6ByHhj1Cxks=
+@size 1493
+@man man/man1/qmttest.1
+@sha Kq6bgBYNNBgq9xtOxHTf8gA97CIaJzGn/ZPICHEtPiE=
+@size 539
+@man man/man1/rlmgr.1
+@sha 7Hpzq7ZdEuXOh5fTkl/alyli0FR9jd0sVw0YiHZxUd4=
+@size 2374
+@man man/man1/rltest.1
+@sha UT5NhUtITnS2s3W5n79o8YdwunhBEUlkSJ/RUIVHgZM=
+@size 849
+@man man/man1/vlmgr.1
+@sha hoYcgYdJRPzdX84ac4POWbXc3P5RJ8xdcQYR4iNEIdw=
+@size 3691
+@man man/man1/vltest.1
+@sha BN3ihVbVAu5otOeAJZIlvZ91Th4aZXxQZuWDudw5TJU=
+@size 2345
+@man man/man1/vltsv.1
+@sha 5PgcuXsJk8iRyyFmK/fEYvaNAyitya8tKmkJCNuhGt0=
+@size 2353
+@man man/man3/cabin.3
+@sha nYR36jeeAaxlgDpNtTRLCxm89Ve/ZCbbe72ihVkYMJo=
+@size 70584
+@man man/man3/cropen.3
+@sha /nSZ6O0dPBdjQCnvyI4R2jpxFJqsI6RSgAC5+Yboslw=
+@size 17
+@man man/man3/curia.3
+@sha LdSrjXxNj+J27NrHOTYyoCGiVJU1OvGP5ZT0gDjmIHE=
+@size 25303
+@man man/man3/depot.3
+@sha Z3ukQJqysJA0SMvykqec++LaKEKbLil9UWBy2HJQDMU=
+@size 20436
+@man man/man3/dpopen.3
+@sha 8nq14boBoolkW+1nmJcDzUSUpfyTWsOeew4IvPQ1xS8=
+@size 17
+@man man/man3/hovel.3
+@sha G6+MtqdMOTILltpz277MuiqhW+y1DFiYRLniJGbmv3U=
+@size 11046
+@man man/man3/odeum.3
+@sha 7LQXo/Tj4rdvUrrtlCsp+kTTWcCaDZHX6r/K/1QBwP8=
+@size 30545
+@man man/man3/odopen.3
+@sha QLDXv05sVrdvIDvf0nX6Wsg9s8AdHjyg+QG+0EVDmcU=
+@size 17
+@man man/man3/qdbm.3
+@sha zPvOGhsafK1Us5ScxzlbCs6c8ZUyFyaiUsfki9GpVgI=
+@size 13117
+@man man/man3/relic.3
+@sha ec4FjMWmeVUxFTIj1kw3MdqD0Ys+wfPUv5+UE8EdFaU=
+@size 7078
+@man man/man3/villa.3
+@sha LVud+R2uUwDvnid3k+8QS3RVBHFqKsmKigQ4FW0ta5E=
+@size 27069
+@man man/man3/vista.3
+@sha Y1IEz/cgIrh+Kvfa+sBqQkTrTwyNK6JwLQX57MStJAs=
+@size 17
+@man man/man3/vlopen.3
+@sha Y1IEz/cgIrh+Kvfa+sBqQkTrTwyNK6JwLQX57MStJAs=
+@size 17
+share/doc/qdbm/
+share/doc/qdbm/COPYING
+@sha oZDcnIBDdV2Q+LCnX6ZrnkLUr0yYC/XdxjPwEk2zzuc=
+@size 26430
+share/doc/qdbm/ChangeLog
+@sha VxTWv8Ki0FWI7NfJiTl2QaA1Cc1PoWQa5OXzxmdNyDE=
+@size 25331
+share/doc/qdbm/NEWS
+@sha ubbnxfiT9WCXCsk6kvBitQ6uhv8BAGQIS5tUfraAVxY=
+@size 1387
+share/doc/qdbm/THANKS
+@sha 1UFxOb7oa0T0o15q2FRRCjcDZK/C1UA9IfvwxRqDJxI=
+@size 1009

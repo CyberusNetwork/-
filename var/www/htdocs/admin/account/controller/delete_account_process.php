@@ -18,18 +18,19 @@
 /////////////////////////////////////////////////////////////////////////////////////////
 // Traitement des données et des informations diverses
 
-$userid = $_SESSION['userid'];
 
 // Instanciation de l'objet Account, Host, DNS et Mail
 
-$account = new AccountModel($userid);
+$account = new AccountModel();
 $account->init();
 
-$username = $account->getUsername();
+$userid = $_GET['UserID'];
+$account->setSelectedDatas($userid);
+$username = $account->getSelectedUsername();
 
 // Appel de la méthode
 
-$account->deleteUser();
+$account->deleteUser($userid, $username);
 
 // Retour à la page principale
 

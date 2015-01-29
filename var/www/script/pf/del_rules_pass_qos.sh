@@ -1,24 +1,25 @@
 #!/bin/sh
-# ./del_rules_block_qos.sh ip port name_child
-# Supprime une règle qui laisse passer tous les paquets entrant/sortant d'une interface déterminé  par la règle enfant de la QOS.
+# ./del_rules_pass_qos.sh macro_interface macro_port name_parent name_child 
+# Ajoute une queue pass in&out tcp&udp
 
 # Pointeur
-ip=$1
+interface=$1
 port=$2
-name_child=$3
+name_parent=$3
+name_child=$4
 
-if [ $# -ne 3 ] # Vérifie qu'il y a seulement 3 argument entré
+if [ $# -ne 4 ] # Vérifie qu'il y a seulement 4 argument entré
   then
-  echo "Erreur : il faut entrer 3 argument."
-  echo "./del_rules_pass_qos.sh 'ip' 'port' 'name_child'"
-  sudo /usr/local/bin/gsed -n '/'\#\ Pass_queue'/,/'\#\ Fin_end'/ p' /etc/pf/pass.conf
+  echo "Erreur : il faut entrer 4 argument."
+  echo "./add_rules_pass_qos.sh macro_interface macro_port name_parent name_child "
+  sudo /usr/bin/sed -n '/'\#\ $name_parent\_pass_QOS'/,/'\#\ Fin_pass\_$name_parent'/ p' /etc/pf/pass.conf
   exit 2
 fi
 
-# Vérifie si la règle de blocage est présent si oui il le supprime
-  sudo /usr/local/bin/gsed -i '/from '$ip' to any port '$port' set queue '$name_child'/d' /etc/pf/pass.conf
+# Supprime la queue pass
+  sudo /usr/local/bin/gsed -i '/pass log on '\$$interface\_macro' proto { tcp, udp } from any to any port '\$$port\_macro' set queue '$name_child\_$name_parent'/d' /etc/pf/pass.conf
 
-# Retient 0 ligne vide au début, 1 à la fin
+# Enlève les sauts de ligne en trop
   sudo /usr/local/bin/gsed -i '/./,/^$/!d' /etc/pf/pass.conf
 
 # Teste la config pf.conf
@@ -27,13 +28,17 @@ fi
 # La variable $? contient le code retour (0 = vrai et 1 = faux)
 if [ "$?" == 0 ] 
   then
+
 # Recharge la configuration, si -nf ne renvoie pas d'errreur
   #sudo /sbin/pfctl -f /etc/pf.conf
+
   echo " La configuration ne contient pas d'erreur de syntaxe "
+
   # Montre les règles de block de QOS du fichier pf.conf
-  sudo /usr/bin/sed -n '/'\#\ Pass_queue'/,/'\#\ Fin_end'/ p' /etc/pf/pass.conf
+  sudo /usr/bin/sed -n '/'\#\ $name_parent\_pass_QOS'/,/'\#\ Fin_pass\_$name_parent'/ p' /etc/pf/pass.conf
   exit 2
 else
   echo "Error de syntaxe"
+  sudo /usr/bin/sed -n '/'\#\ $name_parent\_pass_QOS'/,/'\#\ Fin_pass\_$name_parent'/ p' /etc/pf/pass.conf
   exit 2
 fi

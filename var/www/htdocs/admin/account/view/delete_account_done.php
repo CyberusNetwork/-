@@ -27,7 +27,7 @@
     <p>À bientôt !</p>
 
     <!-- Change info button -->
-    <a href="/../../logout.php"><button class="btn btn-default" type="button"><i class="glyphicon glyphicon-chevron-left"></i> Accueil</button></a>
+    <a href="../index.php?app=account"><button class="btn btn-default" type="button"><i class="glyphicon glyphicon-chevron-left"></i> Retour</button></a>
 
 </div>
 </body>

@@ -6,10 +6,7 @@
  * Time: 15:58
  */
 
-include_once __DIR__."/../model/dashboardModel.php";
+$interface = "sis0";
+$test = exec("ifconfig $interface", $out);
+var_dump ($out);
 
-$dashboard = new DashboardModel();
-
-$infoifsis0 = $dashboard->getInfoIf('sis0');
-
-var_dump($infoifsis0);

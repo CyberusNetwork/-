@@ -2,7 +2,7 @@
 # Script pour la génération des graphique sur de la base de donnée RRDTools pour l'utilisation de l'interface réseau sis2 - Reserved
 
 # Pour 1 Heure
-/usr/local/bin/rrdtool graph /var/www/htdocs/admin/graph/network-sis2-1h.png \
+/usr/local/bin/rrdtool graph /var/www/htdocs/admin/rrdtool/graph/network-sis2-1h.png \
 --start -3600 --end now \
 --vertical-label "Kilo-octet" \
 --width 500 \
@@ -27,7 +27,7 @@ LINE3:in_bits#046380:"Traffic IN" \
 LINE3:out_bits#C03000:"Traffic OUT" \
 
 # Pour 1 jour
-/usr/local/bin/rrdtool graph /var/www/htdocs/admin/graph/network-sis2-1d.png \
+/usr/local/bin/rrdtool graph /var/www/htdocs/rrdtool/admin/graph/network-sis2-1d.png \
 --start -86400 --end now \
 --vertical-label "Kilo-octet" \
 --width 500 \
@@ -52,7 +52,7 @@ LINE3:in_bits#046380:"Traffic IN" \
 LINE3:out_bits#C03000:"Traffic OUT" \
 
 # Pour 1 Semaine
-/usr/local/bin/rrdtool graph /var/www/htdocs/admin/graph/network-sis2-1w.png \
+/usr/local/bin/rrdtool graph /var/www/htdocs/admin/rrdtool/graph/network-sis2-1w.png \
 --start -604800 --end now \
 --vertical-label "Kilo-octet" \
 --width 500 \

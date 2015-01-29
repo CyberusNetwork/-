@@ -36,7 +36,8 @@ class DashboardModel {
 
     public function  setRrdGraph ($hardware)
     {
-        $rddgraph = exec("/script/rrdtool/script/$hardware/rrd_graph.sh");
+        $command = "/var/www/htdocs/admin/rrdtool/script/$hardware/rrd_graph.sh";
+        exec($command);
     }
 
     public function getInfoIfMac($interface)
@@ -54,6 +55,7 @@ class DashboardModel {
     public function getInfoIf($interface)
     {
         $infoifip = exec("ifconfig $interface");
+        var_dump($infoifip); die;
         return $infoifip;
     }
 

@@ -38,7 +38,7 @@
         <dd><?php echo $email ?></dd>
     </dl>
     <!-- Change info button -->
-    <a href="login.php"><button type="button" class="btn btn-success" id="login"><i class="glyphicon glyphicon-link"></i> Connection</button></a>
+    <a href="logout.php"><button type="button" class="btn btn-success" id="login"><i class="glyphicon glyphicon-link"></i> Connection</button></a>
     <a href="../index.php?app=account"><button class="btn btn-default" type="button"><i class="glyphicon glyphicon-chevron-left"></i> Retour</button></a>
 </div>
 </body>

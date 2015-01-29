@@ -27,20 +27,20 @@
     <!-- USER info -->
     <dl class="dl-horizontal">
         <dt>Pseudonyme</dt>
-        <dd><?php echo $account->getDatas()["username"]; ?></dd>
+        <dd><?php echo $line["username"]; ?></dd>
         <dt>Nom</dt>
-        <dd><?php echo $account->getDatas()["lastname"]; ?></dd>
-        <dt>Prénon</dt>
-        <dd><?php echo $account->getDatas()["firstname"]; ?></dd>
+        <dd><?php echo $line["lastname"]; ?></dd>
+        <dt>Prénom</dt>
+        <dd><?php echo $line["firstname"]; ?></dd>
         <dt>Adresse mail</dt>
-        <dd><?php echo $account->getDatas()["mail"]; ?></dd>
+        <dd><?php echo $line["mail"]; ?></dd>
         <dt>Dernière modification</dt>
-        <dd><?php echo $account->getDatas()["edited"]; ?></dd>
+        <dd><?php echo $line["edited"]; ?></dd>
 
     </dl>
 
-        <a href="index.php?page=delete_account_confirmed"><button type="button" class="btn btn-warning" id="delete_ok"><i class="glyphicon glyphicon-ok"></i> Valider</button></a>
-        <a href="/../index.php?app=account"><button class="btn btn-default" type="button"><i class="glyphicon glyphicon-chevron-left"></i> Retour</button></a>
+        <a href="index.php?page=delete_account_confirmed&UserID=<?php echo $line["id"]; ?>"><button type="button" class="btn btn-warning" id="delete_ok"><i class="glyphicon glyphicon-ok"></i> Valider</button></a>
+        <a href="./../index.php?app=account"><button class="btn btn-default" type="button"><i class="glyphicon glyphicon-chevron-left"></i> Retour</button></a>
 </div>
 </body>
 </html>

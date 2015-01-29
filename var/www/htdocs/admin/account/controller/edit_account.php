@@ -20,7 +20,7 @@ include_once __DIR__."/../model/AccountModel.php";
 
 // Variable de session
 
-$userid = $_GET['userid'];
+$userid = $_GET['UserID'];
 
 // Instanciation de l'objet account
 
@@ -30,6 +30,7 @@ $account = new AccountModel();
 
 $account->init();
 $account->setSelectedDatas($userid);
+$line = $account->getSelectedDatas();
 
 /////////////////////////////////////////////////////////////////////////////////////////
 // Rendu de la vue d'affichage

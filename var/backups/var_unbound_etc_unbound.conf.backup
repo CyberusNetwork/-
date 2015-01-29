@@ -3,7 +3,8 @@
 
 server:
 	interface: 127.0.0.1
-	interface: 10.8.100.2
+	interface: 192.168.3.1
+#	interface: 10.8.100.2
 	#interface: 127.0.0.1@5353	# listen on alternative port
 	interface: ::1
 	#do-ip6: no
@@ -14,7 +15,8 @@ server:
 
 	access-control: 0.0.0.0/0 refuse
 	access-control: 127.0.0.0/8 allow
-	access-control: 10.8.100.2/32 allow
+	access-control: 10.8.100.0/24 allow
+	access-control: 192.168.3.0/24 allow
 	access-control: ::0/0 refuse
 	access-control: ::1 allow
 

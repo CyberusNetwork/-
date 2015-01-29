@@ -3,84 +3,61 @@
 # Remember to set net.inet.ip.forwarding=1 and/or net.inet6.ip6.forwarding=1
 
 # Macro
-lan_ip_macro = "192.168.0.0/20"
 lan_macro = "sis0"
 management_macro = "sis1"
-fai_macro = "sis2"
-fai_gw_macro = "" 
-sfr_macro = "sis3"
-sfr_gw_macro = "192.168.2.1"
 free_macro = "sis4"
-free_gw_macro = "10.8.97.1"
-vpn_ip_macro = "192.168.13.0/24"
-# Fin
+lan_gw_macro = "192.168.0.0/20"
+vpn_gw_macro = "192.168.13.0/24"
+vpn_macro = "tun0"
+icmp_types = "{ echoreq, unreach }"
+# Table
 
-# Table_list
-table <blacklist> persist
-
-#Interfaces sur lesquelles PF ne filtre pas
+# Option
 set skip on lo0
+set skip on $management_macro
 
-# Permet de détruire tous les paquets défectueux
+# Normalisation
 match in all scrub (no-df)
 
-# Protection contre les paquets illogiques
+# Antispoof
 antispoof log for sis0
-antispoof log for sis1
-antispoof log for sis2
-antispoof log for sis3
 antispoof log for sis4
 
-# Queue
-# coucou_QOS
-queue coucou on $bla_macro bandwidth 1222M
-queue mar1 parent coucou bandwidth 15M
-queue mars parent coucou bandwidth 15M
-# Default_coucou
-queue blabla parent coucou bandwidth 15M default
-# Fin_coucou
-
-# Fin_end
-
 # NAT
-match out on $free_macro from $lan_ip_macro nat-to ($free_macro)
-match out on $free_macro from $vpn_ip_macro nat-to ($free_macro)
-match out on $sfr_macro from $lan_ip_macro nat-to ($sfr_macro)
+match out on $free_macro from $lan_gw_macro nat-to ($free_macro)
+match out on $free_macro from $vpn_gw_macro nat-to ($free_macro)
 
-# Quick_block
-#block in log quick on $free_macro proto tcp from { <blacklist> } port 22
-# Fin
+# Port-forwarding
 
-# Quick_pass
-pass quick on lo0 all
-pass quick on $management_macro all
-# Fin
+# la politique par défaut 
+block all
+pass log quick on $lan_macro
 
-# block tous les paquets entrants
-# block in log all
+# Quick
+# Pass Quick
 
-# Bloque ceux qui sont dans la table sur les ports concernés
-# Block_ip_port
-# Fin
+# Queue
+queue cyberus on sis4 bandwidth 10M, max 10M
+queue toto parent cyberus bandwidth 5M
+queue ssh parent cyberus bandwidth 1M
+queue std parent cyberus bandwidth 3M default 
 
-# Block_QOS
+pass log quick on $free_macro \
+  proto { tcp, udp } from any to any port { 53, ssh, http, https, 10008 } set queue toto
 
-# Fin_end
+pass log quick on $lan_macro \
+   proto { tcp, udp } from any to any port { 53, ssh, http, https } set queue toto
 
-# Pass_QOS
+# Block
+block return out on sis4 inet all set queue std 
 
-# Fin_end
+# Pass
+pass inet proto icmp icmp-type $icmp_types
 
-# Port_Forwarding
-# Fin
+pass log on $vpn_macro \
+   #proto { tcp, udp } from any to port { 53, http, https } set queue http
 
-# Load Balancing
-pass in on $lan_macro from $lan_ip_macro route-to { ($sfr_macro $sfr_gw_macro), ($free_macro $free_gw_macro) }
-pass out on $sfr_macro from $free_macro route-to ($free_macro $free_gw_macro)
-pass out on $free_macro from $sfr_macro route-to ($sfr_macro $sfr_gw_macro)
-
-# TCP_port
-# Fin_tcp
-
-# UDP_port
-# Fin_udp
+pass out log on $free_macro proto { tcp, udp } from any to any port { 53, 10008 } set queue toto
+pass out log on $free_macro proto { tcp, udp } from any to any port http set queue toto
+pass out log on $free_macro proto { tcp, udp } from any to any port https set queue toto
+pass out log on $free_macro proto { tcp, udp } from any to any port ssh set queue ssh

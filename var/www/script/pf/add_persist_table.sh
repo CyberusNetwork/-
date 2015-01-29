@@ -1,23 +1,23 @@
 #!/bin/sh
-# ./add_persist_table.sh "table_name"
-# Ajoute une table
+# ./add_persist_table.sh table_name
+# Ajoute une table persistant
 
 # Pointeur
 table_name=$1
 
-if [ $# -ne 1 ] # Vérifie qu'il y a seulement 1 argument entré
+if [ $# -ne 1 ] # Vérifie qu'il y a 1 argument entré
     then
     echo "Erreur : il faut entrer 1 argument."
     echo "./add_persist_table.sh "table_name""
-    sudo cat /etc/pf/table.conf
+    sudo /bin/cat /etc/pf/tables.conf
     exit 2
 fi
 
 # Vérifie si la table existe dans pf si oui il le supprime
-	sudo /usr/local/bin/gsed -i '/table <'$table_name'> persist/d' /etc/pf/table.conf
+	sudo /usr/local/bin/gsed -i '/table <'$table_name'> persist/d' /etc/pf/tables.conf
 
-# Ajoute une table dans pf.conf
-	sudo /usr/local/bin/gsed -i '/Table_list/a table <'$table_name'> persist' /etc/pf/table.conf
+# Ajoute la table dans pf.conf
+	sudo /usr/local/bin/gsed -i '/Table_list/a table <'$table_name'> persist' /etc/pf/tables.conf
 
 # Teste la config pf.conf s'il n'a pas d'erreur il exécute l'option -f
 	sudo /sbin/pfctl -nf /etc/pf.conf
@@ -32,7 +32,7 @@ if [ "$?" == 0 ]
 	echo " La configuration ne contient pas d'erreur de syntaxe "
 	
 	# Montre toutes les tables
-	sudo cat /etc/pf/table.conf
+	sudo /bin/cat /etc/pf/tables.conf
 	exit 2
 else
 	echo "Erreur de syntaxe"

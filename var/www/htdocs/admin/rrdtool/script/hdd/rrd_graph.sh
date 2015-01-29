@@ -2,7 +2,7 @@
 #Script de creation du graphique Memoire disque
 
 # Pour 1 jour
-/usr/local/bin/rrdtool graph /var/www/htdocs/admin/graph/diskused-1d.png \
+/usr/local/bin/rrdtool graph /var/www/htdocs/admin/rrdtool/graph/diskused-1d.png \
 --start -86400 --end now \
 --vertical-label "en %" \
 --width 500 \

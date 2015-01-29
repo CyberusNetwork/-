@@ -1,16 +1,18 @@
 #!/bin/sh
-# ./add_rules_queue_child.sh "name_parent" "name_child" "bandwidth"
+# ./add_rules_queue_child.sh name_parent macro_interface name_child bandwidth 
 # Ajoute une règle enfant QOS
 
 # Pointeur
 name_parent=$1
-name_child=$2
-bandwidth=$3
+interface=$2
+name_child=$3
+bandwidth=$4
 
-if [ $# -ne 3 ] # Vérifie qu'il y a seulement 3 arguments entré
+
+if [ $# -ne 4 ] # Vérifie qu'il y a 4 arguments entré
   then
-  echo "Erreur : il faut entrer 3 arguments."
-  echo "add_rules_queue_child.sh "name_parent" "name_child" "bandwidth""
+  echo "Erreur : il faut entrer 4 arguments."
+  echo "add_rules_queue_child.sh name_parent macro_interface name_child "bandwidth""
   echo "bandwidth = K kilobits, M mégabits et G gigabits par seconde."
   exit 2
 fi
@@ -18,14 +20,21 @@ fi
 # Vérifie si la règle existe si oui il le supprime
   sudo /usr/local/bin/gsed -i '/'$name_child' parent '$name_parent' bandwidth/d' /etc/pf/queue.conf
 
-# Ajoute le parent de la QOS
+# Vérifie si la règle de blocage est présent si oui il le supprime
+  sudo /usr/local/bin/gsed -i '/set queue '$name_child'/d' /etc/pf/pass.conf
+  sudo /usr/local/bin/gsed -i '/block return out on '\$$interface\_macro' set queue '$name_child'/d' /etc/pf/block.conf
+
+# Ajoute la queue parent par défaut
   sudo /usr/local/bin/gsed -i '/Default_'$name_parent'/a queue '$name_child' parent '$name_parent'' /etc/pf/queue.conf
 
 # Ajoute le nom de la macro + sa fonction
   sudo /usr/local/bin/gsed -i "s/queue ${name_child} parent ${name_parent}/queue ${name_child} parent ${name_parent} bandwidth ${bandwidth} default/g" /etc/pf/queue.conf
 
-# Retient 0 ligne vide au début, 1 à la fin
+# Enlève les sauts de ligne en trop
   sudo /usr/local/bin/gsed -i '/./,/^$/!d' /etc/pf/queue.conf
+
+# Permet d'ajouter la règle de blocage qos
+  sudo /usr/local/bin/gsed -i '/'$name_parent'_block_QOS/a block return out on '\$$interface\_macro' set queue '$name_child'' /etc/pf/block.conf
 
 # Teste la config pf.conf s'il n'a pas d'erreur il exécute l'option -f
   sudo /sbin/pfctl -nf /etc/pf.conf
@@ -41,6 +50,7 @@ if [ "$?" == 0 ]
 
 # Montre les règles de QOS du fichier pf.conf
   sudo /usr/bin/sed -n '/'$name_parent'_QOS/,/ Fin_'$name_parent'/ p' /etc/pf/queue.conf
+  sudo /usr/bin/sed -n '/'$name_parent'_block_QOS/,/ Fin_block_'$name_parent'/ p' /etc/pf/block.conf
   exit 2
 else
   echo "Erreur de syntaxe"

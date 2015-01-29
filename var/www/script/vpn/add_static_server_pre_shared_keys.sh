@@ -51,7 +51,6 @@ user cyberus_openvpn # l'utilisateur root devient cyberus_openvpn
 group cyberus_openvpn # groupe cyberus_openvpn
 keepalive 10 120 # ping toutes les 10 secondes, down after 120secondes 
 ping-timer-rem # teste la connexion pour le relancer s'il est coupé
-# client-to-client # permet la connexion entre clients
 # rend la connexion persistante
 persist-key 
 persist-tun

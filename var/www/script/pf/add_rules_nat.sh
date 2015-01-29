@@ -1,25 +1,24 @@
 #!/bin/sh
-# ./add_rules_nat.sh 'in/out' 'macro_interface' ip
+# ./add_rules_nat.sh macro_interface macro_ip
 # Ajoute une règle de NAT 
 
 # Pointeur
-in_out=$1
-interface=$2
-ip=$3
+interface=$1
+ip=$2
 
-if [ $# -ne 3 ] # Vérifie qu'il y a seulement 3 argument entré
+if [ $# -ne 2 ] # Vérifie qu'il y a seulement 2 argument entré
     then
-    echo "Erreur : il faut entrer 3 argument."
-    echo "./add_rules_nat.sh 'in/out' macro_interface' 192.168.0.0/20 "
+    echo "Erreur : il faut entrer 2 argument."
+    echo "./add_rules_nat.sh macro_interface macro_ip "
 	sudo /bin/cat /etc/pf/nat.conf
     exit 2
 fi
 
 # Vérifie si la NAT existe si oui il le supprime
-  sudo /usr/local/bin/gsed -i '/match '$in_out' on '\$$interface\_macro' from '$ip' nat-to ('\$$interface\_macro')/d' /etc/pf/nat.conf
+  sudo /usr/local/bin/gsed -i '/match out on '\$$interface\_macro' from '\$$ip\_macro' nat-to ('\$$interface\_macro')/d' /etc/pf/nat.conf
 
 # Ajoute la NAT
-  sudo /usr/local/bin/gsed -i '/NAT/a match '$in_out' on '\$$interface\_macro' from '$ip' nat-to ('\$$interface\_macro')' /etc/pf/nat.conf
+  sudo /usr/local/bin/gsed -i '/NAT/a match out on '\$$interface\_macro' from '\$$ip\_macro' nat-to ('\$$interface\_macro')' /etc/pf/nat.conf
 
 # Teste la config pf.conf s'il n'a pas d'erreur il exécute l'option -f
   sudo /sbin/pfctl -nf /etc/pf.conf

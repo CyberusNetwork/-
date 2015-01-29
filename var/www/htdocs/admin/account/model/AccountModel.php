@@ -73,7 +73,6 @@ class AccountModel {
 
     // Edit selected account / personnal informations
     public function editUser(
-        $flaguserid,
         $username,
         $lastname,
         $firstname,
@@ -82,9 +81,9 @@ class AccountModel {
         $md5_password)
     {
         $sql_req_edit_user = $this->db_access_admin->prepare(
-            "UPDATE user SET lastname = :lastname, firstname = :firstname, mail = :email, password = :md5_password WHERE id = :userid");
+            "UPDATE user SET lastname = :lastname, firstname = :firstname, mail = :email, password = :md5_password WHERE username = :username");
         $sql_req_edit_user->execute(array(
-            'userid' => $flaguserid,
+            'username' => $username,
             'lastname' => $lastname,
             'firstname' => $firstname,
             'email' => $email,
@@ -98,13 +97,11 @@ class AccountModel {
     }
 
     // Delete the selected account
-    public function deleteUser(
-        $flaguserid,
-        $username)
+    public function deleteUser($id, $username)
     {
-        $sql_req_del_user = $this->db_access_admin->prepare("DELETE FROM user WHERE id = :userid");
+        $sql_req_del_user = $this->db_access_admin->prepare("DELETE FROM user WHERE id = :id");
         $sql_req_del_user->execute(array(
-            'userid' => $flaguserid,
+            'id' => $id,
         ));
 
         //Shell part
